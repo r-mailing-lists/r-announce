@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2006-08",
+  "messages": [
+    {
+      "id": "msg-645653d6c70c",
+      "message_id": "<44E4FAD1.1070102@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2006-08-18T11:25:05+12:00",
+      "subject": "DSC 2007",
+      "subject_clean": "DSC 2007",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nThis is a second call for abstracts.\nPlease forward and circulate to other interested parties.\n[apologies for any cross-posting]\n\nDSC 2007, a conference on systems and environments for statistical\ncomputing, will take place in Auckland, New Zealand on February 15 & 16,\n2007.\n\nWe invite abstracts on the development of software systems and computing\nenvironments for interactive statistics.  The workshop will focus on,\nbut is not limited to, open source statistical computing.\n\nThe deadline for submitting abstracts is 2006-10-15 (October 15th).\nPlease visit the conference web page at\nhttp://www.stat.auckland.ac.nz/dsc-2007/\nand send abstracts (one page) to dsc2007 at stat.auckland.ac.nz\n\nPaul\n(on behalf of the Organising Committee)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe University of Auckland\nPrivate Bag 92019\nAuckland\nNew Zealand\n64 9 3737599 x85392\npaul at stat.auckland.ac.nz\nhttp://www.stat.auckland.ac.nz/~paul/",
+      "body_snippet": "Hi\n\nThis is a second call for abstracts.\nPlease forward and circulate to other interested parties.\n[apologies for any cross-posting]\n\nDSC 2007, a conference on systems and environments for statistical",
+      "thread_id": "thread-645653d6c70c",
+      "thread_depth": 0,
+      "month": "2006-08"
+    },
+    {
+      "id": "msg-3d240919d35a",
+      "message_id": "<44EE256C.8070506@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2006-08-25T10:17:16+12:00",
+      "subject": "R News, volume 6, issue 3 is now available",
+      "subject_clean": "R News, volume 6, issue 3 is now available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nThe August 2006 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nMany thanks to Ron Wehrens, our guest editor for this special issue.\n\nPaul\n(on behalf of the R News EditorialBoard)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe University of Auckland\nPrivate Bag 92019\nAuckland\nNew Zealand\n64 9 3737599 x85392\npaul at stat.auckland.ac.nz\nhttp://www.stat.auckland.ac.nz/~paul/",
+      "body_snippet": "Hi\n\nThe August 2006 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nMany thanks to Ron Wehrens, our guest editor for this special issue.\n\nPaul\n(on behalf of the R Ne",
+      "thread_id": "thread-3d240919d35a",
+      "thread_depth": 0,
+      "month": "2006-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-645653d6c70c",
+      "subject": "DSC 2007",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2006-08-18T11:25:05+12:00",
+      "last_reply": "2006-08-18T11:25:05+12:00",
+      "root_message_id": "msg-645653d6c70c"
+    },
+    {
+      "id": "thread-3d240919d35a",
+      "subject": "R News, volume 6, issue 3 is now available",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2006-08-25T10:17:16+12:00",
+      "last_reply": "2006-08-25T10:17:16+12:00",
+      "root_message_id": "msg-3d240919d35a"
+    }
+  ]
+}

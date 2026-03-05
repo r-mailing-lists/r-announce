@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1998-07",
+  "messages": [
+    {
+      "id": "msg-b0d647d0e5a7",
+      "message_id": "<x2hg0pzxwi.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-07-10T14:35:41+02:00",
+      "subject": "R-0.62.2 is released",
+      "subject_clean": "R-0.62.2 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just put R-0.62.2.tgz and R-0.62.1-0.62.2.diff.gz into the FTP\narea at Auckland. As usual, do not fetch it from there unless\nabsolutely urgent, because of the NZ Internet billing system. The\nfiles should get mirrored to the main CRAN site in Vienna tonight and\nthe rest of CRAN within days.\n\n[This time I seem to have managed to get the release out on the same\ndate for all core team members -- the Auckland time stamps say \"Jul 10\n23:59\"...]\n\nThis is a patch release, mainly fixing bugs, but we have also let some\nnew features slip in this time.\n\nHere's the top of the CHANGES file:\n\n\n\t\tCHANGES IN R VERSION 0.62.2\n\n(The new functions predict.glm, poly, aov, alias, biplot.default and\nbiplot.princop, update.default and rug all come from Brian D. Ripley,\nwho is also responsible for finding and/or fixing a lot of the bugs)\n\nNEW FEATURES\n\n    o   predict.glm() added.\n\n    o   text() is generic.\n\n    o   update.default() (replaces update.glm() and update.lm()).\n        (This will only work if you comment out update.lm and\n\tupdate.glm in the sources, or disable them with\n\tupdate.lm<-function(object,...)NextMethod(), etc.)\n\n    o\tpredict.lm() changed towards S-plus compatibility. Intervals are\n\tstill available via interval= argument.\n\n    o\tzapsmall() function.\n\n    o\tpolygon() now handles NAs\n\n    o\toptions(show.signif.stars = TRUE).  If FALSE,\n\tsummary.lm and similar functions do *not* print significance stars\n\tanymore.\n\n    o\tpoly() for [g]lm modelling.\n\n    o\taov()\tfor Analysis Of Variance [anova].\n\n    o\talias() for displaying ``aliased'' factor levels in (>=2)way anova.\n\n    o\tmva: Now has  biplot and biplot.princomp\n\n    o\trug() plot.\n\n    o\tnew  src/library/profile/Common.R   for\t OS-independent intialization.\n\n    o   new date stamp mechanism (ensures that prerelease versions carry\n        correct date)\n\nBUG FIXES\n\n    o   abbreviate() now always retains the first letter. \n\n    o   attr() partial matches for attribute name.\n\n    o   axis() accepts graphical parameters.\n\n    o   binomial() accepts factor responses.\n\n    o   cbind() works with data frames. \n\n    o   contrasts() gives simpler labels (like S) for factors with\n        two levels.\n\n    o   contrasts<-() now has a how.many= argument.\n\n    o   contour() and image() can accept a list to specify the matrix.\n\n    o   contr.poly() uses orthogonal polynomials (like S) not raw\n        polynomials.\n\n    o   data() could fail with a partial match to the dataset name.\n\n    o   density() works correctly if from= or to= are used.\n            n= can now take any value, not just a large power of 2.\n\n    o   expand.grid() now accepts more than two arguments, \n        or a list of factors.\n\n    o   factor() and ordered() handle their levels argument better.\n\n    o   family.glm() now returns the correct family (including link etc).\n\n    o   legend() now knows about lwd.\n\n    o   match.args() works correctly for default arguments.\n\n    o   model.frame.lm() did not invoke `lm'.\n\n    o   model.matrix() calls model.frame() if needed.\n\n    o   model.response() now returns names, so glm() gives names to\n        residuals, fitted values, etc.\n\n    o   quasi() works in glm() (was missing aic component).\n\n    o   seq() sometimes omitted the final value due to rounding error.\n\n    o   terms.formula() and update.formula() now resolve `.' in formulae\n        and tidy up `(a + b) - b' etc.\n    \n    o   ... is now passed down correctly to functions inside functions.\n\n    o   save.image didn't work (Martyn Plummer)\n\n    o   abs() instead of fabs() in seq.c crashed R on Digital Unix\n\n    o   model.matrix() gagged on variables with complicated names \n\n    o   saturated models acting up in glm\n\n    o   various improvement of build procedures\n\n    o   rbind(NULL, matrix) core dump\n\n    o\tdensity() default 'bw' now 0.9*(...) instead of 1.06*(...)\n\t\t\t\t[=Silverman's rule of thumb].\n\n    o\tdetach(2) now works.\n\n    o\tformat() doesn't drop names anymore.\n\n    o\tformat.pval() works with NAs.\n\n    o\tprint.[summary.][g]lm() functions print numbers better formatted.\n\n    o\tlegend() now also works properly in  log coordinates.\n\n    o\tbacksolve() now working;  bakslv.c not depending on\n\tFortran_underscores.\n\n    o\tTick marks acting up on log axes in postscript (fix from Martyn Plummer)\n\n    o\tThe Rd format has a new section \\details{} (needed for proper\n\tSd2Rd translation). \\R was not understood for nroff\n\tconversions, longer dashes (-- and --- in latex syntax) are\n\tnow converted properly.\n\n    o\tprompt.default() now carries \"\\details{}\".\n\n    o\tR [ SHLIB | COMPILE ] were broken on some Solaris systems\n\tdue to use of bash syntax. R [ INSTALL | COMPILE | SHLIB ]\n\tnow use a MAKE environment variable if present.\n\tR INSTALL only rebuilds man pages if they are not already\n\tup to date.\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just put R-0.62.2.tgz and R-0.62.1-0.62.2.diff.gz into the FTP\narea at Auckland. As usual, do not fetch it from there unless\nabsolutely urgent, because of the NZ Internet billing system. The\nfi",
+      "thread_id": "thread-b0d647d0e5a7",
+      "thread_depth": 0,
+      "month": "1998-07"
+    },
+    {
+      "id": "msg-e0acb2ad58dd",
+      "message_id": "<199807201606.RAA18031@toucan.stats.ox.ac.uk>",
+      "from_name": "Prof Brian Ripley",
+      "from_email_hash": "375ec446f7a1157a4f0268b6dc682d6c2a5b186f57aa61253477aa48159d2329",
+      "date": "1998-07-20T17:06:50+01:00",
+      "subject": "V&R libraries, tree for 0.62.2, R Complements for V&R",
+      "subject_clean": "V&R libraries, tree for 0.62.2, R Complements for V&R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Versions of the V&R libraries, VR_5.3pl025-1.tar.gz, and of\ntree_0.2-2.tar.gz (giving most of the functionality of S's tree system\nincluding all that I have ever used) are now available on CRAN's Vienna\nnode, and will propagate.\n\nThere is an early draft of an R user's complements on Venables & Ripley\navailable from\n\nhttp://www.stats.ox.ac.uk/pub/MASS2/Compl.shtml\n\nThis is unlikely to be completed until 0.62.3 or perhaps 0.63 is\nreleased.\n\n-- \nBrian D. Ripley,                  ripley at stats.ox.ac.uk\nProfessor of Applied Statistics,  http://www.stats.ox.ac.uk/~ripley/\nUniversity of Oxford,             Tel:  +44 1865 272861 (self)\n1 South Parks Road,                     +44 1865 272860 (secr)\nOxford OX1 3TG, UK                Fax:  +44 1865 272595\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Versions of the V&R libraries, VR_5.3pl025-1.tar.gz, and of\ntree_0.2-2.tar.gz (giving most of the functionality of S's tree system\nincluding all that I have ever used) are now available on CRAN's Vien",
+      "thread_id": "thread-e0acb2ad58dd",
+      "thread_depth": 0,
+      "month": "1998-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b0d647d0e5a7",
+      "subject": "R-0.62.2 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-07-10T14:35:41+02:00",
+      "last_reply": "1998-07-10T14:35:41+02:00",
+      "root_message_id": "msg-b0d647d0e5a7"
+    },
+    {
+      "id": "thread-e0acb2ad58dd",
+      "subject": "V&R libraries, tree for 0.62.2, R Complements for V&R",
+      "message_count": 1,
+      "participants": [
+        "Prof Brian Ripley"
+      ],
+      "started": "1998-07-20T17:06:50+01:00",
+      "last_reply": "1998-07-20T17:06:50+01:00",
+      "root_message_id": "msg-e0acb2ad58dd"
+    }
+  ]
+}

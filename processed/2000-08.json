@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2000-08",
+  "messages": [
+    {
+      "id": "msg-62c94b583897",
+      "message_id": "<x28zty50a3.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2000-08-15T11:41:40+02:00",
+      "subject": "R-1.1.1 is released",
+      "subject_clean": "R-1.1.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.1.1.tgz a moment ago. \n\nThis is expected to be the last release in the 1.1 series unless some\ntruly dreadful error pops up. The 1.2.0 release is scheduled for early\nDecember.\n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.1.1.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.1.1.tgz\n\nor wait for it to be mirrored at a CRAN site near you within a day or two.\n\nThere's also a version split in three for floppies and a patch file if\nyou prefer that.\n\n\tFor the R Core Team,\n\n\tPeter D.\n\nHere's the relevant part of the NEWS file:\n\nNEW FEATURES\n\n    o\tdata(), example() and help() now search the loaded packages, then\n\tin their .lib.loc argument, the latter as pre-0.99.0.  See\n\ttheir help pages for the precise details.\n\n    o\thelp() has a new argument `try.all.packages' set by the option\n\t\"help.try.all.packages\". If help is not found in the normal\n\tpath and this is TRUE then a search is made of all packages\n\tfor possible matches.\n\n    o\tImproved detection of Tcl/Tk at configure time.  One can either\n\tset configure variables TCLTK_CPPFLAGS and TCLTK_LIBS, or give\n\tthe locations of the tclConfig.sh and tkConfig.sh scripts via\n\tthe `--with-tcl-config' and `--with-tk-config' arguments.\n\n    o   prop.trend.test() - test for trend in proportions.\n\n    o   write.table() has new argument `dec' for setting the decimal\n        separator (SPSS/Windows and probably others want commas in\n\tcontinental European locales).\n\n    o   Advance warning: save(, oldstyle=TRUE) will no longer be\n\tavailable after this release.\n\n    o   Symbols can now be coerced to expressions, making\n\tas.expression(quote(a)) work\n        \n\nBUG FIXES\n\n    o\tdata() now works correctly with data-only packages.\n\n    o\tStandalone Mathlib can now be made if builddir = srcdir\n\t(working around an undocumented autoconf `feature').\n\n    o\tCheck for pre-1.1.0 saved object .Postscript.options in postscript().\n\n    o\tMore stringent checks on the arguments to dataentry().\n\n    o   Specifying xlab as an expression now works again.\n\n    o   dev2bitmap() works again.\n\n    o   Numerous uses of `F' and `T' replaced by `FALSE' and `TRUE'.\n\n    o\tbxp() now extends `ylim' properly when notch=TRUE (and a\n\tnotch is more extreme than other stats).\n\tAlso, varwidth is okay again, see example(split).\n\n    o   Making manuals without making R first now works.\n\n    o\tprincomp() now works when some eigenvalues are tiny negative\n\tvalues (which are treated as zero).\n\n    o   SearchEngine.html was not installed when builddir != srcdir.\n\n    o\tlm.{w}fit(x,y,..) now work when x has no column names.\n\tThese functions no longer add and subtract n zeros when there's no\n\toffset.  They are now documented somewhat.\n\n    o   Some HTML files used src=\"R.css\" instead of href=\"R.css\"\n        causing some browsers to ignore the style sheet. R.css now\n\tpasses the w3c CSS validator and gives the intended results\n\twith Internet Explorer. R.css is copied to all library directories.\n\n    o\tThe data editor no longer crashes when entries contain more than\n\t45 characters, and works correctly if the field width is\n\tlarger than the window width.\n\n    o\tRecording plots used to ignore graphics events before the last\n\treplay.\n\n    o\tplot(), points(), etc now give warnings and error for invalid\n\t`type' arguments.\n\n    o\tmatplot() now allows the same `type's as plot().\n\n    o\tdev.print() and dev.copy2eps() now work when called from a\n\tfunction, such as dev2bitmap().\n\n    o\tanova.glmlist works correctly with decreasing models and\n\ttest=\"F\" now gets the correct residual df.\n\n    o\tFunctions created (not just edited) with fix() now get\n\tenvironment .GlobalEnv not the body of fix.\n\n    o\tRdconv was ignoring OS-specific parts of the files with some\n\tPerl versions. (This did not affect installing packages.)\n\n    o\tR CMD check  did not run more than one specific test.\n\n    o\tkeyword2html omitted items when changing up a level, so\n\tthe HTML search engine keyword list was missing `data' and\n\t`utilities', for example.\n\n    o\taov() with multiple strata was setting some spurious options.\n\n    o\tUnder UNIX, help(, htmlhelp=TRUE) uses the linked copy of the\n\tHTML file in ~/.R if help.start() has been run recently in the\n\tsession, so the style sheet and hyperlinks should now be found.\n\n    o\tdotplot's arguments `color' and `lcolor' are now interpreted\n\tcorrectly if they are vectors of length > 1.  (It is not clear\n\tfrom the help that this was ever intended.)\n\n    o\tError messages of e.g. do.call() are now spaced properly.\n\n    o\tsummary(.matrix | .data.frame) now respects a `digits' argument.\n\n    o   scan() recognises quoted strings by default again. The default\n\tfor the quote= argument got set wrongly when it was\n\tintroduced. They are, however, turned off when using sep=\"\\n\",\n\tsince you probably want unprocessed lines of text in that\n\tcase.\n\n    o   fixed buglet where scan() would double a character following a\n        terminating quote symbol.\n\n    o\tkmeans was failing on vector inputs (although not documented\n\tto accept such).\n\n    o   fixes in predict.lm (John Maindonald)\n\n    o   NCOL got confused by 1D arrays, which it now reports have 1\n\tcolumn rather than NA.\n\n    o   rep(1:2,c(1,-1)) segfaulted (PR 619)\n\n    o   x[[\"a\"]] <- y rejected some object types for y (e.g.\n        expressions) which were accepted in x$a <- y (PR\n\n    o   data editor froze on empty data frame, and more generally on\n\tzero-length cols.\n\n    o   data editor did not handle factors properly in numeric-edit\n        mode.\n\n    o   table() misbehaved on empty (or all-NA) data\n\n    o   data editor now handles empty data frames, allowing data entry\n        to begin with  dd<-edit(data.frame())  or\n\tdd<-data.frame() ; fix(dd)\n\n    o   plotting math expressions when specified as a LANGSXP or\n        SYMSXP didn't work in several cases: plot(1,main=quote(a))\n        would segfault and there were problems with title(), text(),\n        and mtext() as well.\n\n    o\toptim(): no more segfault for REPORT=0; corrected error msg; ..\n\tmaxit default is now okay also when \"L-*-B\" is chosen automatically.\n        Using (abs|rel)tol with that method now gives a warning.\n\n    o\ttext() did not respect its `xpd' argument, the default of which\n        is still to use par(\"xpd\"); gave a wrong error message in one case.\n\n    o\tpolygon() had an incorrect documentation and silently disregarded\n\t\"...\" arguments.\n\n    o\tpredict.loess was giving incorrect results (those for the\n\tnon-robust fit) in the case of a fit with family = \"symmetric\"\n\tand surface = \"direct\" and prediction with se = FALSE.  The\n\tfitted values were missing for such fits.\n\n    o\tBetter rendering of ^ and ~ in latex in \\code{} (and they should\n\tnot appear outside code and verbatim sections).\n\n    o   Fixed unterminated string problem with lty (PR 584)\n\n    o   Fixed scoping problem with quasi() family (PR 614)\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.1.1.tgz a moment ago. \n\nThis is expected to be the last release in the 1.1 series unless some\ntruly dreadful error pops up. The 1.2.0 release is scheduled for early\nDecember.\n\nYou c",
+      "thread_id": "thread-62c94b583897",
+      "thread_depth": 0,
+      "month": "2000-08"
+    },
+    {
+      "id": "msg-7a1f27a37440",
+      "message_id": "<20000816132306.32848@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "2000-08-16T13:23:06+01:00",
+      "subject": "R 1.1.1 for Windows (NT/9x/2000) ",
+      "subject_clean": "R 1.1.1 for Windows (NT/9x/2000)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Windows binaries at CRAN (bin/windows/Windows-NT/base) have been updated \nto R-1.1.1.  See below for a list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\tWindows-specific changes to R\n\t\t=============================\nNew file README.Rterm providing basic documentation on Rterm.exe.\n\nundoc() is now available under Windows.\n\nThere is a new script R_HOME/bin/build.sh, a version of R CMD build.\nYou will need R_HOME set as an environment variable to use it, and you\nwill need the full set of tools from tools.zip (see readme.packages)\nin your path.\n\nThe batch wrappers to Perl files Rdconv.bat Rdindex.bat Rd2txt.bat\nSd2Rd.bat have been revised to work on more Perl/OS versions.\n\nSetting cell widths from the menu in the data editor now works reliably.\n\nHaving an empty line at the beginning of .Rhistory no longer breaks the\nhistory-recall mechanism in Rgui.\n\nCharacters using the AltGr key now work in interactive use of Rterm.\n(AltGr used to work like Alt.)\n\nCtrl+V now works as described in a pager (pasting to the console).\n\nOther versions of Tcl/Tk may be used by setting TCL_VERSION in \nMkRules (but only 8.31 has been tested).\n\nA file Makevars.win in the src directory of a package will be used in\npreference to a file Makevars.\n\nThe Makefiles for packages now allow C++ code (with extension .cc or\n.cpp or .C) in the src directory.\n\nIf you use a private library and HTML help, you need to copy R.css\nfrom rw1011\\library to each private library directory.\n\nFunction win.version() should give slightly more information (the\nlatest service pack number x.y) on Windows 2000.\n\n\n\n\n\n\n\n\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Windows binaries at CRAN (bin/windows/Windows-NT/base) have been updated \nto R-1.1.1.  See below for a list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\tWindows-specific cha",
+      "thread_id": "thread-7a1f27a37440",
+      "thread_depth": 0,
+      "month": "2000-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-62c94b583897",
+      "subject": "R-1.1.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2000-08-15T11:41:40+02:00",
+      "last_reply": "2000-08-15T11:41:40+02:00",
+      "root_message_id": "msg-62c94b583897"
+    },
+    {
+      "id": "thread-7a1f27a37440",
+      "subject": "R 1.1.1 for Windows (NT/9x/2000)",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "2000-08-16T13:23:06+01:00",
+      "last_reply": "2000-08-16T13:23:06+01:00",
+      "root_message_id": "msg-7a1f27a37440"
+    }
+  ]
+}

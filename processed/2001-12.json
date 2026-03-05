@@ -1,0 +1,504 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-12",
+  "messages": [
+    {
+      "id": "msg-88bf1dee8be9",
+      "message_id": "<15371.42846.422155.287658@gargle.gargle.HOWL>",
+      "from_name": "David Brahm",
+      "from_email_hash": "86a6ec3ce56525d2890f653acf45ab31d9cb8da3b88f7fbdcc45cacabb829c54",
+      "date": "2001-12-03T11:25:02-05:00",
+      "subject": "New package: g.data",
+      "subject_clean": "New package: g.data",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new package \"g.data\" is available on CRAN, to create and maintain databases\nthat work more like the S-Plus model.\n\nHere's the official Description for g.data (v1.2):\n  Create and maintain delayed-data packages (DDP's).  Data stored in\n  a DDP are available on demand, but do not take up memory until requested.\n  You attach a DDP with g.data.attach(), then read from it and assign to it in\n  a manner similar to S-Plus, except that you must run g.data.save() to\n  actually commit to disk.\n\nHere's a very abbreviated (Unix) example:\n  g.data.attach(\"/tmp/mydir\")             # Open package:mydir in pos=2\n  assign(\"x1\", matrix(1, 1000, 1000), 2)  # Put data there\n  g.data.save()                           # Commit to disk\n  detach(2)                               # Detach package:mydir\n  g.data.attach(\"/tmp/mydir\")             # Re-attach it, no resources used\n  dim(x1)                                 # x1 is loaded only when needed!\n  find(\"x1\")                              # It still lives in package:mydir\n\ng.data is the end result of my post \"Reading and writing to S-like databases\",\nsent to R-help on Sep 28, 2001.  Thanks to all who responded, especially\nDr. Agustin Lobo <alobo at ija.csic.es> and (by reference) Ray Brownrigg\n<Ray.Brownrigg at mcs.vuw.ac.nz>, who suggested using delay(); Martin Maechler\n<maechler at stat.math.ethz.ch>, Thomas Lumley <tlumley at u.washington.edu>, Brian\nD. Ripley <ripley at stats.ox.ac.uk>, and Peter Dalgaard\n<p.dalgaard at biostat.ku.dk>, who helped me with platform independence issues;\nand Kurt Hornik <Kurt.Hornik at ci.tuwien.ac.at>, who cleaned it up for CRAN.\n\nI have one concern: g.data relies heavily on delay(), whose documentation says:\n  This is an experimental feature and its addition is purely for\n  evaluation purposes.\nIs there any plan to deprecate delay()?\n\nFeedback is welcome!\n-- \n                              -- David Brahm (brahm at alum.mit.edu)\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new package \"g.data\" is available on CRAN, to create and maintain databases\nthat work more like the S-Plus model.\n\nHere's the official Description for g.data (v1.2):\n  Create and maintain delayed-da",
+      "thread_id": "thread-88bf1dee8be9",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-00fc4589540d",
+      "message_id": "<Pine.LNX.4.33L2.0112071127430.2076-100000@localhost.localdomain>",
+      "from_name": "mikalzet at libero.it",
+      "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
+      "date": "2001-12-07T11:44:35+01:00",
+      "subject": "New RPM for Mandrake 8.1 available",
+      "subject_clean": "New RPM for Mandrake 8.1 available",
+      "in_reply_to": "<15337.10747.900828.615916@galadriel.ci.tuwien.ac.at>",
+      "references": [],
+      "body_plain": "A new binary RPM of R (1.3.1-4mdk), compiled for Mandrake 8.1, is\navailable for download.\n\nAdded functionality is that R is now automatically added to desktop menus.\n\nSRPM's, with instructions on how to compile, are also available for those\nwho wish to build the new package on other versions of Mandrake (and\nhopefully contribute it): I will only support 8.1 in the future (I know R\n1.4.0 is not very far away).\n\n-- \nMichele Alzetta\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new binary RPM of R (1.3.1-4mdk), compiled for Mandrake 8.1, is\navailable for download.\n\nAdded functionality is that R is now automatically added to desktop menus.\n\nSRPM's, with instructions on how ",
+      "thread_id": "thread-00fc4589540d",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-3b6bc6d954fb",
+      "message_id": "<15385.60062.367880.492221@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-12-14T13:03:42+01:00",
+      "subject": "CRAN Mirror in Germany",
+      "subject_clean": "CRAN Mirror in Germany",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new site has been added to the list of CRAN mirrors:\n\n\thttp://cran.de.R-project.org\n\nThanks go to Alexander Mieland for providing the Server!\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new site has been added to the list of CRAN mirrors:\n\n\thttp://cran.de.R-project.org\n\nThanks go to Alexander Mieland for providing the Server!\n\nBest,\n\n-- \n--------------------------------------------",
+      "thread_id": "thread-3b6bc6d954fb",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-b1e278a9fee4",
+      "message_id": "<011d01c18777$6e5c5f50$7632d882@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2001-12-18T16:52:36+13:00",
+      "subject": "new versions of grid and lattice",
+      "subject_clean": "new versions of grid and lattice",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nNew versions of the grid and lattice packages will be available with the\nrelease of R 1.4 (in a couple of days):\n\n    grid_0.5\n    lattice_0.3-1\n\nThese packages will no longer be in the \"development\" directory (i.e., they\nwill be in CRAN/src/contrib).\n\nThe changes in this release are mostly to grid, with lattice modified just\nto take account of those changes.\n\nSome important points about the grid changes are ...\n\n(i)  grid_0.5 will only work with R version 1.4 or later.\n\n(ii)  The main new features are support for clipping to viewports and\nsupport for multiple devices.  See the file grid/doc/changes_0.5.txt for\nother changes.\n\n(iii)  There is a known bug on Windows;  turning on plot history recording\nwhile producing grid graphics will crash R.  Adding individual plots to the\nplot history seems to work ok.\n\n(iv)  Some things still missing are:  vector fonts, mathematical annotation,\ncompatibility with base graphics, and many helpful suggestions from users\nthat I still haven't found time to get to! :)\n\nPaul Murrell\nDeepayan Sarkar\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi\n\nNew versions of the grid and lattice packages will be available with the\nrelease of R 1.4 (in a couple of days):\n\n    grid_0.5\n    lattice_0.3-1\n\nThese packages will no longer be in the \"developme",
+      "thread_id": "thread-b1e278a9fee4",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-e3483d61c0f9",
+      "message_id": "<x23d27e8to.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2001-12-19T12:41:07+01:00",
+      "subject": "R-1.4.0 is released",
+      "subject_clean": "R-1.4.0 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.4.0.tgz a short while ago. This is a major upgrade,\nwith several new features.\n\nA set of recommended packages which have been tested with R-1.4.0 has\nbeen bundled up. Binary distributions are expected to include these\npackages.\n\nYou can get the files from the developer site\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.4.0.tgz\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.4.0-recommended.tgz\n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.4.0.tgz\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.4.0-recommended.tgz\n\nor wait for them to be mirrored at a CRAN site near you. This may not\nhappen right away due to circumstances in Vienna. Binaries for various\nplatforms will appear in due course.\n\nAs usual, we try to ensure that R can be built on as many platforms as\npossible. However, this time the problem with Fortran dynamic\nlibraries on RedHat 6.2, which previously only affected some packages,\nhas caught up with the main distribution. I.e. you cannot build R on\nthat platform without upgrading the compiler suite (building with f2c\nprobably works).\n\nThere are also versions split for floppies.\n\n\n        For the R Core Team,\n\n        Peter D.\n\n\nHere's the relevant part of the NEWS file:\n\n\n\n\t\tCHANGES IN R VERSION 1.4.0\n\n\nUSER-VISIBLE CHANGES\n\n    [This is a new section to highlight changes in behaviour, which\n    may be given in more detail in the following sections.\n    Many bug fixes are also user-visible changes.]\n\n    o\tThe default save format has been changed, so saved workspaces\n\tand objects cannot (by default) be read in earlier versions of R.\n\n    o\tThe number of bins selected by default in a histogram uses\n\tthe correct version of Sturges' formula and will usually be\n\tone larger.\n\n    o\tdata.frame() no longer converts logical arguments to factors\n\t(following S4 rather than S3).\n\n    o\tread.table() has new arguments `nrows' and `colClasses'.  If the\n\tlatter is NA (the default), conversion is attempted to\n\tlogical, integer, numeric or complex, not just to numeric.\n\n    o\tmodel.matrix() treats logical variables as a factors with\n\tlevels c(FALSE, TRUE) (rather than 0-1 valued numerical\n\tvariables).  This makes R compatible with all S versions.\n\n    o\tTransparency is now supported on most graphics devices.\n\tThis means that using par(\"bg\"), for example in legend(), will\n\tby default give a transparent rather than opaque background.\n\n    o\t[dpqr]gamma now has third argument `rate' for S-compatibility\n\t(and for compatibility with exponentials).  Calls which use\n\tpositional matching may need to be altered.\n\n    o\tThe meaning of spar = 0 in smooth.spline() has changed.\n\n    o\tsubstring() and substring()<- do nothing silently on a\n\tcharacter vector of length 0, rather than generating an\n\terror.\tThis is consistent with other functions and with S.\n\n    o\tFor compatibility with S4, any arithmetic operation using a\n\tzero-length vector has a zero-length result.  (This was\n\talready true for logical operations, which were compatible\n\twith S4 rather than S3.)\n\n    o\tundoc() and codoc() have been moved to the new package `tools'.\n\n    o\tThe name of the site profile now defaults to\n\t`R_HOME/etc/Rprofile.site'.\n\n    o\tThe startup process for setting environment variables now first\n\tsearches for a site environment file (given by the environment\n\tvariable `R_ENVIRON' if set or `R_HOME/etc/Renviron.site' if\n\tnot), *and* then for a user `.Renviron' file in the current or\n\tthe user's home directory.\n\n    o\tFormer stars(*, colors = v) must now be stars(*, col.segments = v).\n\n    o\tThe default methods for La.svd and La.eigen have changed and\n\tso there may be sign changes in singular/eigen vectors,\n\tincluding in cancor, cmdscale, factanal, princomp and varimax.\n\n\nNEW FEATURES\n\n    o\tTransparency is now supported on most graphics devices.\n\tInternally colors include an alpha channel for opacity, but at\n\tpresent there is only visible support for transparent/opaque.\n\tThe new color \"transparent\" (or NA or \"NA\") is transparent,\n\tand is the default background color for most devices.  Those\n\tdevices (postscript, XFig, PDF, Windows metafile and printer)\n\tthat previously treated bg = \"white\" as transparent now have\n\t\"transparent\" as the default and will actually print \"white\".\n\t(NB: you may have bg = \"white\" saved in .Postscript.options in\n\tyour workspace.)\n\n    o\tA package `methods' has been added, containing formal classes\n\tand methods (\"S4\" methods), implementing the description in\n\tthe book \"Programming with Data\".  See \"?Methods\" and the\n\treferences there for more information.\n\n\t- In support of this, the \"@\" operator has been added to the\n\t  grammar.\n\n\t- Method dispatch for formal methods (the standardGeneric\n\t  function), is now a primitive. Aside from efficiency issues,\n\t  this allows S3-style generics to also have formal methods\n\t  (not really recommended in the long run, but it should at\n\t  least work).\tThe C-level dispatch is now implemented for\n\t  primitives that use either DispatchGroup or DispatchOrEval\n\t  internally.\n\n\t- A version of the function \"plot\" in the methods package has\n\t  arguments \"x\" and \"y\", to allow methods for either or both.\n\t  See \"?setMethod\" for examples of such methods.\n\n\t- The methods package now uses C-level code (from within\n\t  DispatchOrEval) to dispatch any methods defined for\n\t  primitive functions.\tAs with S3-style methods, methods can\n\t  only be defined if the first argument satisfies is.object(x)\n\t  (not strictly required for formal methods, but imposed for\n\t  now for simplicity and efficiency).\n\n    o\tChanges to the tcltk package:\n\n\t- New interface for accessing Tcl variables, effectively\n\t  making the R representations lexically scoped. The old form\n\t  is being deprecated.\n\n\t- Callbacks can now be expressions, with slightly unorthodox\n\t  semantics. In particular this allows bindings to contain\n\t  \"break\" expressions (this is necessary to bind code to\n\t  e.g. Alt-x without having the key combination also insert an\n\t  \"x\" in a text widget.)\n\n\t- A bunch of file handling and dialog functions (previously\n\t  only available via tkcmd) have been added\n\n    o\tThe \"?\" operator is now an actual function.  It can be used\n\t(as always) as a unary operator (?plot) and the grammar now\n\tallows it as a binary operator, planned to allow\n\tdifferentiating documentation on the same name but different\n\ttype (class?matrix, for example).  So far, no such\n\tdocumentation exists.\n\n    o\tNew methods AIC.default() and logLik.glm(), also fixing\n\tAIC(<glm obj>).\n\n    o\taxis.POSIXct() allows the label date/times to be specified\n\tvia the new `at' argument.\n\n    o\tarrows() now allows length = 0 (and draws no arrowheads).\n\n    o\tModifications to the access functions for more consistency with S:\n\targuments `name', `pos' and `where' are more flexible in\n\tassign(), exists(), get(), ls(), objects(), remove() and rm().\n\n    o\tThree new primitive functions have been added to base:\n\tdataClass(), objWithClass(), and as.environment().  The first two\n\tare support routines for class() and class<-() in package\n\tmethods.  The third replaces pos.to.env() in the functions get(),\n\texists(), and friends.\n\n    o\tbarplot() now respects an inline `cex.axis' argument and has a\n\tseparate `cex.names' argument so names and the numeric axis\n\tlabels can be scaled separately.  Also, graphics parameters\n\tintended for axis() such as `las' can now be used.\n\n    o\tShading by lines added to functions barplot(), hist(),\n\tlegend(), piechart(), polygon() and rect().\n\n    o\tbxp() has a show.names argument allowing labels on a single\n\tboxplot; it and hence boxplot() now makes use of pch, cex, and bg\n\tfor outlier points().\n\n\tbxp() and boxplot() also have an argument `outline' to suppress\n\toutlier drawing {S-PLUS compatibly}.\n\n    o\tNew capabilities() options \"GNOME\" and \"IEEE754\".\n\n    o\tNew function casefold(), a wrapper for tolower/toupper\n\tprovided for compatibility with S-PLUS.\n\n    o\tcontour() is now generic.\n\n    o\tcor.test() in package ctest now also gives an asymptotic\n\tconfidence interval for the Pearson product moment correlation\n\tcoefficient.\n\n    o\tdata(), demo() and library() now also return the information\n\tabout available data sets, demos or packages.  Similarly,\n\thelp.search() returns its results.\n\n    o\tdensity() allows `bw' or `width' to specify a rule to choose the\n\tbandwidth, and rules \"nrd0\" (the previous default), \"nrd\",\n\t\"ucv\", \"bcv\", \"SJ-ste\" and \"SJ-dpi\" are supplied (based on\n\tfunctions in package MASS).\n\n    o\tdf.residual() now has a default method, used for classes\n\t\"lm\" and \"glm\".\n\n    o\tNew argument `cacheOK' to download.file() to request cache\n\tflushing.\n\n\tAll methods for download.file() do tilde-expansion on the path\n\tname.\n\n\tThe internal download.file() etc now allow URLs of the form\n\tftp://user at foo.bar/ and ftp://user:pass at foo.bar/\n\n    o\tduplicated() and unique() are now generic functions with\n\tmethods for data frames (as well as atomic vectors).\n\n    o\tfactanal() and princomp() use napredict() on their scores, so\n\tna.action = na.exclude is supported.\n\n    o\tFunction getNativeSymbolInfo() returns details about a native\n\troutine, potentially including its address, the library in\n\twhich it is located, the interface by which it can be called\n\tand the number of parameters.\n\n    o\tFunctions such as help() which perform library or package index\n\tsearches now use NULL as default for their `lib.loc' argument so\n\tthat missingness can be propagated more easily.\t The default\n\tcorresponds to all currently known libraries as before.\n\n    o\tAdded function file.rename().\n\n    o\thist.default() allows `breaks' to specify a rule to choose the\n\tnumber of classes, and rules \"Sturges\" (the previous default),\n\t\"Scott\" and \"FD\" (Freedman-Diaconis) are supplied (based on\n\tpackage MASS).\n\n    o\tFunction identical(), a fast and reliable way to test for exact\n\tequality of two objects.\n\n    o\tNew generic function is.na<-(), from S4.  This is by default\n\tequivalent to x[value] <- NA but may differ, e.g. for factors\n\twhere \"NA\" is a level.\n\n    o\tis.xxx reached through do_is are now generic.\n\n    o\tLa.eigen() and La.svd() have new default methods to use later\n\t(and often much faster) LAPACK routines.  The difference\n\tis most noticeable on systems with optimized BLAS libraries.\n\n    o\tlength() is now generic.\n\n    o\tNew function .libPaths() for getting or setting the paths to the\n\tlibrary trees R knows about.  This is still stored in .lib.loc,\n\twhich however should no longer be accessed directly.\n\n    o\tUsing lm/glm/... with `data' a matrix rather than a data frame\n\tnow gives a specific error message.\n\n    o\tloess(), lqs(), nls() and ppr() use the standard NA-handling\n\tand so support na.action = na.exclude.\n\n    o\tmahalanobis() now has a `tol' argument to be passed to solve().\n\n    o\tmean() has `data frame' method applying mean column-by-column.\n\tWhen applied to non-numeric data mean() now returns NA rather\n\tthan a confusing error message (for compatibility with S4).\n\tLogicals are still coerced to numeric.\n\n    o\tThe formula interface to mosaicplot() now allows a contingency\n\ttable as data argument.\n\n    o\tnew.env() is now internal and allows you to set hashing. Also,\n\tparent.env() and parent.env<-() are included to provide direct\n\taccess to setting and retrieving environments.\n\n    o\tFunction nsl() to look up IP addresses of hosts: intended as\n\ta way to test for internet connectivity.\n\n    o\tOps(), cbind(), diff() and na.omit() methods for time series\n\tobjects moved from package ts to package base.\n\n    o\tNew option `download.file.method' can be used to set the\n\tdefault method for download.file() and functions which use it\n\tsuch as update.packages().\n\n    o\torder() and sort.list() now implement na.last = FALSE, NA.\n\n    o\tStarted work on new package management system: packageStatus()\n\tand friends.\n\n    o\tpage() has a new `method' argument allowing `method = print'.\n\n    o\tpng(), jpeg() and bmp() devices now have a `bg' argument to\n\tset the background color: useful to set \"transparent\" on png().\n\n    o\tChanges to the postscript() device:\n\n\t- The symbol font can now be set on a postscript() device, and\n\t  support has been added for using Computer Modern type-1\n\t  fonts (including for symbols). (Contributed by Brian D'Urso.)\n\n\t- There is now support for URW font families: this will give\n\t  access to more characters and more appropriate metrics on\n\t  PostScript devices using URW fonts (such as ghostscript).\n\n\t- %%IncludeResource comments have been added to the output.\n\t  (Contributed by Brian D'Urso.)\n\n    o\tpredict.ppr() now predicts on `newdata' containing NAs.\n\n    o\tprincomp() now has a formula interface.\n\n    o\treadChar() now returns what is available if fewer characters\n\tthan requested are on the file.\n\n    o\treadline() allows up to 256 chars for the prompt.\n\n    o\tread.table(), scan() and count.fields() have a new argument\n\t`comment.char', default `#', that can be used to start\n\tcomments on a line.\n\n    o\tNew function reg.finalizer() to provide R interface to\n\tfinalization.\n\n    o\treshape() extends reshapeLong, reshapeWide, which are deprecated.\n\n    o\trle() now returns a classed object, has a print method and\n\tan inverse.\n\n    o\tChanges to save() and friends:\n\n\t- save() now takes an envir argument for specifying where\n\t  items to be saved are to be found.\n\n\t- A new default format for saved workspaces has been\n\t  introduced.  This format provides support for some new\n\t  internal data types, produces smaller save files when saving\n\t  code, and provides a basis for a more flexible serialization\n\t  mechanism.\n\n\t- Modified `save' internals to improve performance when saving\n\t  large collections of code.\n\n\t- save() and save.image() now take a `version' argument to\n\t  specify the workspace file-format version to use.  The\n\t  version used from R 0.99.0 to 1.3.1 is version 1.  The new\n\t  default format is version 2.\tload() can read a version 2\n\t  saved workspace if it is compressed.\n\n\t- save() and save.image() now take a `compress' argument to\n\t  specify that the saved image should be written using the zlib\n\t  compression facilities.\n\n\t- save.image() now takes an argument `ascii'.\n\n\t- save.image() now takes an argument `safe'.  If TRUE, the\n\t  default, a temporary file is used for creating the saved\n\t  workspace.  The temporary file is renamed if the save\n\t  succeeds.  This preserves an existing workspace if the save\n\t  fails, but at the cost of using extra disk space during the\n\t  save.\n\n\t- save.image() default arguments can be specified in the\n\t  `save.image.defaults' option.\t These specifications are used\n\t  when save.image() is called from q() or GUI analogs.\n\n\n    o\tscan() allows unlimited (by R) lengths of input lines, instead\n\tof a limit of 8190 chars.\n\n    o\tsmooth.spline() has a new `control.spar' argument and returns\n\t`lambda' besides `spar'.  spar <= 0 is now valid and allows\n\tto go more closely towards interpolation (lambda -> 0) than before.\n\tThis also fixes smooth.spline() behavior for \"df ~= n - 2\". Better\n\terror messages in several situations.\n\n\tNote that spar = 0 is no longer the default and no longer entails\n\tcross-validation.\n\n    o\tstars() has been enhanced; new `mar' argument uses smaller\n\tmar(gins) by default; further `nrow and `ncol' as S-PLUS,\n\t`frame.plot', `flip.labels', `lty' and explicit `main', `sub',\n\t`xlab' and `ylab'.  Note that `colors' has been replaced by\n\t`col.segments' and there's a new `col.stars'.\n\n\tstars() now returns the locations invisibly.\n\n    o\tstep() is now closer to stepAIC() and so handles a wider range\n\tof objects (but stepAIC [in MASS] is still more powerful).\n\n    o\tsymbols() now has automatic xlab and ylab and a main argument\n\twhich eliminates an incorrect warning.\tIt better checks wrongly\n\tscaled arguments.\n\n    o\tSys.setlocale() now issues a warning if it fails.\n\n    o\tAn enhanced function type.convert() is now a documented\n\tfunction, rather than just internal to read.table().\n\n    o\twarning() allows multiple arguments, following S4's style.\n\n    o\tNew function with() for evaluating expressions in environments\n\tconstructed from data.\n\n    o\tUnix x11() devices can now have a canvas color set, which can\n\thelp to distinguish plotting \"white\" from plotting\n\t\"transparent\".\n\n    o\tOn Unix, X11(), png() and jpeg() now give informative warnings\n\tif they fail to open the device.\n\n\n    o\tThe startup processing now interprets escapes in the values of\n\tenvironment variables set in R_HOME/etc/Renviron in a similar\n\tway to most shells.\n\n    o\tThe operator \"=\" is now allowed as an assignment\n\toperator in the grammar, for consistency with other languages,\n\tincluding recent versions of S-Plus.  Assignments with \"=\" are\n\tbasically allowed only at top-level and in braced or\n\tparenthesized expressions, to make famous errors such as\n\t\"if(x=0) 1 else 2\" illegal in the grammar.\n\t(There is a plan to gradually eliminate the underscore as an\n\tassignment in future versions of R.)\n\n    o\tFinalizers can be registered to be run on system exit for both\n\treachable and unreachable objects.\n\n    o\tinteger addition, subtraction, and multiplication now return NA's\n\ton overflow and issue a warning.\n\n    o\tPrinting factors with both level \"NA\" and missing values\n\tuses `<NA>' for the missing values to distinguish them.\n\n    o\tAdded an experimental interface for locking environments and\n\tindividual bindings.  Also added support for \"active bindings\"\n\tthat link a variable to a function (useful for example for linking\n\tan R variable to an internal C global).\n\n    o\tGNOME interface now has separate colours for input and output\n\ttext (like the windows GUI). These can be modified via the\n\tproperties dialogue.\n\n    o\tOutput from the GNOME console is block buffered for increased\n\tspeed\n\n    o\tThe GNOME console inherits standard emacs-style keyboard\n\tshortcuts from the GtkText widget for cursor motion, editing\n\tand selection.\tThese have been modified to allow for the prompt\n\tat the beginning of the command line.\n\n    o\tOne can register R functions and C routines to be called at the\n\tend of the successful evaluation of each top-level expression,\n\tfor example to perform auto-saves, update displays, etc. See\n\taddTaskCallback() and taskCallbackManager(). See\n\thttp://developer.r-project.org/TaskHandlers.pdf.\n\n\nDEPRECATED & DEFUNCT\n\n    o\t.Alias has been removed from all R sources and deprecated.\n\n    o\treshapeLong(), reshapeWide() are deprecated in favour of reshape().\n\n    o\tPreviously deprecated functions read.table.url(), scan.url(),\n\tsource.url(), httpclient() and parse.dcf() are defunct.\n\tMethod \"socket\" for download.file() no longer exists.\n\n\nDOCUMENTATION CHANGES\n\n    o\t`Writing R Extensions' has a new chapter on generic/method\n\tfunctions.\n\n\nUTILITIES\n\n    o\tNew package `tools' for package development and administration\n\ttools, containing the QA tools checkFF(), codoc() and undoc()\n\tpreviously in package base, as well as the following new ones:\n\n\t-  checkAssignFuns() for checking whether the final argument of\n\t   assignment functions in a package is named `value'.\n\n\t-  checkDocArgs() for checking whether all arguments shown in\n\t   \\usage of Rd files are documented in the corresponding\n\t   \\arguments.\n\n\t-  checkMethods() for checking whether all methods defined in a\n\t   package have all arguments of their generic.\n\n\t-  checkTnF() for finding expressions containing the symbols `T'\n\t   and `F'.\n\n    o\tR CMD Rd2dvi has more convenient defaults for its output file.\n\n    o\tR CMD check now also fully checks the Depends field in the\n\tpackage DESCRIPTION file.  It also tests for syntax errors in\n\tthe R code, whether all methods in the code have all arguments\n\tof the corresponding generic, for arguments shown in \\usage but\n\tnot documented in \\arguments, and whether assignment functions\n\thave their final argument named `value'.\n\n\nC-LEVEL FACILITIES\n\n    o\tarraySubscript and vectorSubscript are now available to package\n\tusers.\tAll \"array-like\" packages can use a standard method for\n\tcalculating subscripts.\n\n    o\tThe C routine type2symbol, similar to type2str, returns a symbol\n\tcorresponding to the type supplied as an argument.\n\n    o\tThe macro SHLIB_EXT now includes `.', e.g. \".so\" or \".dll\",\n\tsince the Mac uses \"Lib\" without a `.'.\n\n    o\tNew Fortran entry points rwarn() and rexit() for warnings and\n\terror exits from compiled Fortran code.\n\n    o\tA new serialization mechanism is available that can be used to\n\tserialize R objects to connections or to strings.  This\n\tmechanism is used for the version 2 save format.  For now,\n\tonly an internal C interface is available.\n\n    o\tR_tryEval() added for evaluating expressions from C code with\n\terrors handled but guaranteed to return to the calling C\n\troutine. This is used in embedding R in other applications and\n\tlanguages.\n\n    o\tSupport for attach()'ing user-defined tables of variables\n\tis available and accessed via the RObjectTables package\n\tcurrently at http://www.omegahat.org/RObjectTables.\n\n\nBUG FIXES\n\n    o\tFixed share/perl/massage-examples.pl to detect instances of\n\tpar() at the very start of a line.\n\n    o\tFixed Pearson residuals for glms with non-canonical\n\tlink.(PR#1123). Fixed them again for weights (PR#1175).\n\n    o\tFixed an inconsistency in the evaluation context for on.exit\n\texpressions between explicit calls to `return' and falling off\n\tthe end returns.\n\n    o\tThe code in model.matrix.default() handling contrasts was\n\tassuming a response was present, and so without a response was\n\tfailing to record the contrasts for the first variable if it\n\twas a factor.\n\n    o\tdiffinv() could get the time base wrong in some cases.\n\n    o\tfile.append() was opening all files in text mode: mattered\n\ton Windows and classic Macintosh. (PR#1085)\n\n    o\tf[] <- g  now works for factor f.\n\n    o\tsubstr<-() was misbehaving if the replacement was too short.\n\n    o\tThe version of `packages.html' generated when building R or\n\tinstalling packages had an incorrect link to the style sheet.\n\tThe version used by help.start() was correct. (PR#1090)\n\n    o\trowsum() now gives character (not factor codes) as rownames.\n\t(PR#1092)\n\n    o\tplot.POSIX[cl]t now respect the `xaxt' parameter.\n\n    o\tIt is now possible to predict from an intercept-only model:\n\tpreviously model.matrix.default() objected to a 0-column\n\tmodel frame.\n\n    o\tc.POSIXct was not setting the right classes in 1.3.x.\n\n    o\tcor(*, use = \"all.obs\") <= 1 is now guaranteed which ensures\n\tthat sqrt(1 - r^2) is always ok in cor.test(). (PR#1099)\n\n    o\tanova.glm() had a missing drop=FALSE and so failed for some\n\tintercept-less models.\n\n    o\tpredict.arima0() now accepts vector as well as matrix\n\t`newxreg' arguments.\n\n    o\tcbind(d,f) now works for 0-column dataframes. This fixes PR#1102.\n\n    o\tplot(ts(0:99), log = \"y\") now works\n\n    o\tmethod \"gnudoit\" of bug.report() was incorrectly documented as\n\t\"gnuclient\" (PR#1108)\n\n    o\tsaving with ascii=TRUE mangled backslashes. (PR#1115)\n\n    o\tfrac(,) {and others} now adds a gap appropriately. (PR#1101)\n\n    o\tlogLik.lm() now uses the correct \"df\" (nlme legacy code).\n\n    o\tcloseAllConnections() works again, and closes all sink() diversions.\n\n    o\tsink(type=\"message\") works again.\n\n    o\tsink.number was (accidentally) returning the result invisibly.\n\n    o\tas.POSIXct(\"NA\") (or ..lt) now work; hence, merge(*, all=TRUE) now\n\tworks with dataframes containing POSIXt date columns.\n\n    o\tinteger(2^30+1) and similar ones do not segfault anymore but duly\n\treport allocation errors.\n\n    o\tseq(0, 0, 1) now works (PR#1133).\n\n    o\treshapeWide() got it wrong if the \"i\" factor was not sorted (the\n\tfunction is now deprecated since reshape() is there, but the bug\n\tstill needed fixing...)\n\n    o\tPR#757 was fixed incorrectly, causing improper subsetting of\n\tpch etc. in plot.formula().\n\n    o\tlibrary() no longer removes environments of functions that are\n\tnot defined in the top-level package scope.  Also, packages\n\tloaded by require() when sourcing package code are now visible\n\tin the remaining source evaluations.\n\n    o\tnames(d) <- v  now works (again) for \"dist\" objects d. (PR#1129)\n\n    o\tWorkarounds for problems with incompletely specified date-times\n\tin strptime() which were seen only on glibc-based systems\n\t(PR#1155).\n\n    o\tpromax() was returning the wrong rotation matrix. (PR#1146)\n\n    o\tThe [pqr]signrank and [pqr]wilcox functions failed to check that\n\tmemory has been allocated (PR#1149), and had (often large)\n\tmemory leaks if interrupted.  They now can be interrupted on\n\tWindows and MacOS and don't leak memory.\n\n    o\trange(numeric(0)) is now c(NA, NA) not NA.\n\n    o\tround(x, digits) for digits <= 0 always gives an integral\n\tanswer.\t Previously it might not due to rounding errors in\n\tfround. (PR#1138/9)\n\n    o\tSeveral memory leaks on interrupting functions have been\n\tcircumvented.  Functions lqs() and mve() can now be\n\tinterrupted on Windows and MacOS.\n\n    o\timage() was finding incorrect breakpoints from\n\tirregularly-spaced midpoints. (PR#1160)\n\n    o\tUse fuzz in the 2-sample Kolmogorov-Smirnov test in package\n\tctest to avoid rounding errors (PR#1004, follow-up).\n\n    o\tUse exact Hodges-Lehmann estimators for the Wilcoxon tests in\n\tpackage ctest (PR#1150).\n\n    o\tArithmetic which coerced types could lose the class\n\tinformation, for example `table - real' had a class attribute\n\tbut was not treated as a classed object.\n\n    o\tInternal ftp client could crash R under error conditions such\n\tas failing to parse the URL.\n\n    o\tInternal clipping code for circles could attempt to allocate\n\ta vector of length -1 (related to PR#1174)\n\n    o\tThe hash function used internally in match(), unique() and\n\tduplicated() was very inefficient for integers stored as\n\tnumeric, on little-endian chips.  It was failing to hash the\n\timaginary part of complex numbers.\n\n    o\tfifo() no longer tries to truncate on opening in modes\n\tincluding \"w\". (Caused the fifo example to fail on HP-UX.)\n\n    o\tOutput over 1024 characters was discarded from the GNOME\n\tconsole.\n\n    o\trug() now correctly warns about clipped values also for logarithmic\n\taxes and has a `quiet' argument for suppressing these (PR#1188).\n\n    o\tmodel.matrix.default was not handling correctly contrasts.arg\n\twhich did not supply a full set of contrasts (PR#1187).\n\n    o\tThe `width' argument of density() was only compatible with S\n\tfor a Gaussian kernel: now it is compatible in all cases.\n\n    o\tThe rbinom() C code had a transcription error from the original\n\tFortran which led to a small deviation from the intended\n\tdistribution. (PR#1190)\n\n    o\tpt(t, , ncp=0) was wrong if t was +/-Inf.\n\n    o\tSubsetting grouping factors gave incorrect degrees of freedom\n\tfor some tests in package ctests. (PR#1124)\n\n    o\twriteBin() had a memory leak.\n\n    o\tqbeta(0.25, 0.143891, 0.05) was (incorrectly) 3e-308. (PR#1201)\n\n    o\tFixed alignment problem in ppr.f on Irix. (PR#1002, 1026)\n\n    o\tglm() failed on null binomial models. (PR#1216)\n\n    o\tLa.svd() with nu = 0 or nv = 0 could fail as the matrix passed\n\tto DGESVD was not of dimension at least one (it was a vector).\n\n    o\tRownames in xcoef and ycoef of cancor() were wrong if x or y\n\twas rank-deficient.\n\n    o\tlqs() could give warnings if there was an exact fit. (PR#1184)\n\n    o\taov() didn't find free-floating variables for Error() terms when\n\tcalled from inside another function\n\n    o\twrite.table() failed if asked to quote a numerical matrix with\n\tno row names. (PR#1219)\n\n    o\trlnorm( *, *, sd=0) now returns the mean,\n     \trnbinom(*, *, prob=1) gives 0, (PR#1218).\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.4.0.tgz a short while ago. This is a major upgrade,\nwith several new features.\n\nA set of recommended packages which have been tested with R-1.4.0 has\nbeen bundled up. Binary distrib",
+      "thread_id": "thread-e3483d61c0f9",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-bd6025162b41",
+      "message_id": "<Pine.LNX.4.21.0112191349240.19730-100000@artemis.imbe.med.uni-erlangen.de>",
+      "from_name": "Torsten Hothorn",
+      "from_email_hash": "41e657384fb07a3764a554d5304d033ebaccbd11a54485f1b6386a932843f125",
+      "date": "2001-12-19T13:50:27+01:00",
+      "subject": "updates: exactRankTests, mvtnorm and maxstat",
+      "subject_clean": "updates: exactRankTests, mvtnorm and maxstat",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi, \n\nfollowing the release of R-1.4.0, new versions of the packages\n\n\t* exactRankTests (0.6-0)\n\n\t* mvtnorm (0.5-0)\nand \n\t* maxstat (0.5-2)\n\nare available on CRAN. Several changes to the user-interfaces were necessary\n(improvements, hopefully) and some new features are included, for example\n\nin `exactRankTests':\n\n* one- and two-sample permutation tests are available,\n\n* new interface to `pperm',\n\n* exact Hodges-Lehmann confidence intervals in `wilcox.exact' (PR#1150),\n\n* `perm.test' and `wilcox.exact' are generic and offer a formula interface.\n\nMajor contributions came (and come) from Kurt Hornik, he \nis now co-author of `exactRankTests'.\n\nIn `mvtnorm':\n\n* `{dr}mvnorm' moved from package `e1071' to `mvtnorm' (thanks to Fritz\n  Leisch!),\n\n* `pmv{t}norm' has a slightly new interface: the length of lower, upper and\n  mean are recycled to the length of the largest and it is possible to\n  specify either the correlation or covariance matrix.\n\nIn `maxstat':\n\n* `maxstat.test' is now generic and provides a formula interface as well as a\n  print and plot method,\n\n* it depends on mvtnorm-0.5-0 and exactRankTests-0.6-0.\n\nKnown bugs were fixed, see the CHANGES file in each of the packages for\ndetails. \n\nTorsten\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi, \n\nfollowing the release of R-1.4.0, new versions of the packages\n\n\t* exactRankTests (0.6-0)\n\n\t* mvtnorm (0.5-0)\nand \n\t* maxstat (0.5-2)\n\nare available on CRAN. Several changes to the user-interfac",
+      "thread_id": "thread-bd6025162b41",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-60b35beb5506",
+      "message_id": "<6rzo4fb7s3.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2001-12-19T08:31:56-06:00",
+      "subject": "R-1.4.0 sources available via rsync",
+      "subject_clean": "R-1.4.0 sources available via rsync",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The r-release directory on rsync.r-project.org has been updated to\n1.4.0.\n\nIf you have the rsync client available you can create a directory\nR-1.4.0 with a copy of the current released source tree by\n\n rsync -aC rsync.r-project.org::r-release ./R-1.4.0\n\nrsync is an open source utility that provides fast incremental file\ntransfer.  See www.rsync.org for details.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The r-release directory on rsync.r-project.org has been updated to\n1.4.0.\n\nIf you have the rsync client available you can create a directory\nR-1.4.0 with a copy of the current released source tree by\n",
+      "thread_id": "thread-60b35beb5506",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-49fad2b40b38",
+      "message_id": "<3C20FB63.D9933CF1@ci.tuwien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
+      "date": "2001-12-19T21:41:07+01:00",
+      "subject": "new versions of: lmtest, strucchange, ineq",
+      "subject_clean": "new versions of: lmtest, strucchange, ineq",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R users,\n\nthere are new versions of the following packages on CRAN:\n  o lmtest 0.9-0\n  o strucchange 0.9-4\n  o ineq 0.2-1\n\nChanges/fixes in \"lmtest\":\nThere have been several bug fixes and the interfaces to all functions\nhave been improved such that their use is much more flexible.\nFurthermore we have added:   \n  - p values for the Durbin-Watson test\n  - studentized version of the Breusch-Pagan test\n  - flexible specification of the alternative hypothesis of the RESET\ntest\n  - simulated p values for the Harrison-McCabe test\n  - data sets with examples\n\nChanges/fixes in \"strucchange\":\nBesides a few minor changes and improvements there is a new fixed\nversion of the function Fstats(), which provides also computation of F\nstatistics based on\nheteroskedasticity-consistent covariance estimation.\n\nChanges/fixes in \"ineq\":\nThe empirical and theoretical Lorenz curves have now their own classes\nwith\nplot- and lines-method. A data set with examples has been added and a\nfew bugs were fixed.\n\n\n>From the DESCRIPTION files:\n\nPackage: lmtest\nTitle: Testing Linear Regression Models\nVersion: 0.9-0\nDate: 2001-12-01\nAuthor: Torsten Hothorn <Torsten.Hothorn at rzmail.uni-erlangen.de>\n Achim Zeileis <zeileis at ci.tuwien.ac.at>\nMaintainer: Achim Zeileis <zeileis at ci.tuwien.ac.at>\nDescription: A collection of tests, data sets and examples\n for testing the assumptions of linear regression models. \nLicense: GPL\n\n>From the DESCRIPTION:\nPackage: strucchange \nVersion: 0.9-4\nDate: 2001-12-01\nTitle: Testing for Structural Change\nAuthor: Achim Zeileis, Friedrich Leisch, Bruce Hansen,\n        Kurt Hornik, Christian Kleiber, Andrea Peters \nMaintainer: Achim Zeileis <zeileis at ci.tuwien.ac.at>   \nDescription: Testing on structural change in linear regression\n             relationships. It features tests/methods from the\ngeneralized\n             fluctuation test framework as well as from the F test (Chow\ntest)\n             framework. This includes methods to fit, plot and test\nfluctuation\n             processes (e.g. CUSUM, MOSUM, recursive/moving estimates)\nand\n             F statistics, respectively. Furthermore it is possible to\nmonitor\n             incoming data online.\nDepends: R (>= 1.3.0)\nLicense: GPL\n\nPackage: ineq\nVersion: 0.2-1\nDate: 2001-11-29\nTitle: Measuring inequality, concentration and poverty\nAuthor: Achim Zeileis <zeileis at ci.tuwien.ac.at>\nMaintainer: Achim Zeileis <zeileis at ci.tuwien.ac.at>\nDescription: Inequality, concentration and poverty measures\n             Lorenz curves (empirical and theoretical)\nLicense: GPL\n\n\nSeasonal greetings :-)\nAchim\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear R users,\n\nthere are new versions of the following packages on CRAN:\n  o lmtest 0.9-0\n  o strucchange 0.9-4\n  o ineq 0.2-1\n\nChanges/fixes in \"lmtest\":\nThere have been several bug fixes and the int",
+      "thread_id": "thread-49fad2b40b38",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-7cb2324d265a",
+      "message_id": "<15393.22142.927857.566940@sonny.eddelbuettel.com>",
+      "from_name": "Dirk Eddelbuettel",
+      "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
+      "date": "2001-12-19T21:09:50-06:00",
+      "subject": "Debian packages for R-1.4.0 uploaded",
+      "subject_clean": "Debian packages for R-1.4.0 uploaded",
+      "in_reply_to": "<x23d27e8to.fsf@blueberry.kubism.ku.dk>",
+      "references": [
+        "<x23d27e8to.fsf@blueberry.kubism.ku.dk>"
+      ],
+      "body_plain": "Debian packages of R-1.4.0 and R-1.4.0-recommended [1] have been uploaded and\nare currently available at http://incoming.debian.org.  These will run on any\ncurrent \"testing\" (aka \"woody\") or \"unstable\" (aka \"sid\") distribution. [2]\n\nThe next archive installation (around 14:00h Central time tomorrow) will move\nthese files into the package pool from where they will propagate via the\nusual mirror sites.\n\nThe build daemons for the non-i386 architectures will then start to\ncomplement the i386 release. We currently have 1.3.1 packages for alpha,\nia64, m68k, powerpc, sparc and s390. We will look into the currently missing\narchitectures (arm, hppa, mips, mipsel) but some of these do have (or had)\ncompiler problems which prevent the build process from completing. \n\nRegards, Dirk\n\n[1]\n\n-rw-r--r--    1 edd       6123442 Dec 19 19:50 r-base_1.4.0-1_i386.deb\n-rw-r--r--    1 edd         44146 Dec 19 19:50 r-gnome_1.4.0-1_i386.deb\n-rw-r--r--    1 edd        120974 Dec 19 19:50 r-mathlib_1.4.0-1_i386.deb\n-rw-r--r--    1 edd       4577976 Dec 19 19:57 r-doc-pdf_1.4.0-1_all.deb\n-rw-r--r--    1 edd        274902 Dec 19 19:57 r-doc-html_1.4.0-1_all.deb\n-rw-r--r--    1 edd          1488 Dec 19 19:57 r-base-dev_1.4.0-1_all.deb\n-rw-r--r--    1 edd       3288224 Dec 19 20:44 r-recommended_1.4.0-1_i386.deb\n\n[2] As I upgraded the build process, it becomes somewhat more difficult\" to\nrecompile these packages on a Debian \"stable\" (aka \"potato\") release.  Doug\nBates and I will look into this, but cannot promise any ETA.\n\n-- \nGood judgment comes from experience; experience comes from bad judgment. \n\t\t\t\t\t\t\t    -- F. Brooks\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Debian packages of R-1.4.0 and R-1.4.0-recommended [1] have been uploaded and\nare currently available at http://incoming.debian.org.  These will run on any\ncurrent \"testing\" (aka \"woody\") or \"unstable",
+      "thread_id": "thread-e3483d61c0f9",
+      "thread_depth": 1,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-e3bdd7477511",
+      "message_id": "<Pine.LNX.4.31.0112210559180.2789-100000@gannet.stats>",
+      "from_name": "Prof Brian Ripley",
+      "from_email_hash": "375ec446f7a1157a4f0268b6dc682d6c2a5b186f57aa61253477aa48159d2329",
+      "date": "2001-12-21T06:13:10Z",
+      "subject": "R 1.4.0 on Windows",
+      "subject_clean": "R 1.4.0 on Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "(1) We've been unable to contact the maintainer to find out when the\nofficial release of R 1.4.0 on Windows might be available.  As the\nholidays shutdown is looming, last night I built a binary distribution\nfrom the released sources and put the SetupR.exe and miniR* versions at\nhttp://www.stats.ox.ac.uk/pub/RWin/\n\n(This has the post-release mgcv_0.6-2.)\n\nThis is not the official release, so problem reports to me only, please.\n(I'd be interested to hear, but am unlikely to be able to change anything\nuntil 2002.)\n\n\n(2) The bin/windows/contrib section on CRAN has been updated to include\nthe 1.4.0 versions of packages.  (On TUWien now, mirrored elsewhere soon.)\nThis means that update.packages() will pick up the latest versions. Some\nof these may not work with rw1031 (VR and grid for sure, maybe others).\n\n-- \nBrian D. Ripley,                  ripley at stats.ox.ac.uk\nProfessor of Applied Statistics,  http://www.stats.ox.ac.uk/~ripley/\nUniversity of Oxford,             Tel:  +44 1865 272861 (self)\n1 South Parks Road,                     +44 1865 272860 (secr)\nOxford OX1 3TG, UK                Fax:  +44 1865 272595\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "(1) We've been unable to contact the maintainer to find out when the\nofficial release of R 1.4.0 on Windows might be available.  As the\nholidays shutdown is looming, last night I built a binary distri",
+      "thread_id": "thread-e3bdd7477511",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-441f065fbccb",
+      "message_id": "<Pine.LNX.4.33L2.0112210947020.2233-100000@localhost.localdomain>",
+      "from_name": "mikalzet at libero.it",
+      "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
+      "date": "2001-12-21T09:51:15+01:00",
+      "subject": "R-1.4.0 RPM's and SRPMS for Mandrake available",
+      "subject_clean": "R-1.4.0 RPM's and SRPMS for Mandrake available",
+      "in_reply_to": "<x23d27e8to.fsf@blueberry.kubism.ku.dk>",
+      "references": [],
+      "body_plain": "R 1.4.0 RPM's built for Mandrake 8.1 as well as Mandrake SRPM's are now\navailable on CRAN.\n\nAnyone with an earlier version of Mandrake can download the SRPM's and\nrebuild them for his own system (a detailed readme file is provided)\nand hopefully contribute the binaries.\n\n-- \nMichele Alzetta\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "R 1.4.0 RPM's built for Mandrake 8.1 as well as Mandrake SRPM's are now\navailable on CRAN.\n\nAnyone with an earlier version of Mandrake can download the SRPM's and\nrebuild them for his own system (a de",
+      "thread_id": "thread-e3483d61c0f9",
+      "thread_depth": 1,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-81773c45c737",
+      "message_id": "<15395.7578.973349.335690@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-12-21T12:31:38+01:00",
+      "subject": "CRAN has been cracked",
+      "subject_clean": "CRAN has been cracked",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The CRAN master server has been cracked this night, so I'll take the\nmachine off the network until we have found out more. Please use one\nof the mirror sites in the meantime:\n\t\n    http://cran.au.r-project.org/                     (Australia)\n    http://cran.mirror.aarnet.edu.au/                 (Australia)\n    http://cran.dk.r-project.org/                     (Denmark)\n    http://cran.de.r-project.org/                     (Germany)\n    http://cran.hu.r-project.org/                     (Hungary)\n    http://cran.it.r-project.org/                     (Italy)\n    ftp://ftp.u-aizu.ac.jp/pub/lang/R/CRAN/           (Japan)\n    http://cran.ch.r-project.org/                     (Switzerland)\n    http://cran.uk.r-project.org/                     (UK)\n    http://lib.stat.cmu.edu/R/CRAN/                   (USA/Pennsylvania)\n    http://cran.us.r-project.org/                     (USA/Wisconsin)\n\nWe will try to fix the problem ASAP.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The CRAN master server has been cracked this night, so I'll take the\nmachine off the network until we have found out more. Please use one\nof the mirror sites in the meantime:\n\t\n    http://cran.au.r-pr",
+      "thread_id": "thread-81773c45c737",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-5dbe7c586ede",
+      "message_id": "<15395.38800.401330.849047@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-12-21T21:12:00+01:00",
+      "subject": "CRAN up again",
+      "subject_clean": "CRAN up again",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The CRAN master server at cran.r-project.org is up again (running a\nfresh Debian Linux installation with hopefully better security).\n\nPlease let me know if you experience any problems.\n\n\nFrohe Weihnachten und einen guten Rutsch ins neue Jahr,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The CRAN master server at cran.r-project.org is up again (running a\nfresh Debian Linux installation with hopefully better security).\n\nPlease let me know if you experience any problems.\n\n\nFrohe Weihnac",
+      "thread_id": "thread-5dbe7c586ede",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-0a79f4fc2304",
+      "message_id": "<385A0FB0-F6A1-11D5-BA85-00039364CC92@stat.ucla.edu>",
+      "from_name": "Jan de Leeuw",
+      "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
+      "date": "2001-12-21T22:00:37-08:00",
+      "subject": "R-1.4.0 for MacOS X ",
+      "subject_clean": "R-1.4.0 for MacOS X",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Get it from ftp://gifi.stat.ucla.edu in pub.\n\nThis contains the base files plus the recommended packages (except rpart,\nwhich does not compile yet).\n\nIt is compiled under MacOS X 10.1.2 with the December 2001 version of\nthe Developer Tools, and with g77 from fink.sourceforge net. It has \nsupport\nfor gnome, X11R6, and tcl/tk, and it uses the newest ATLAS from fink. It\nhas two-level namespaces and has a libR.dylib included.\n\nFor R,bin you need on your system (remember to set DYLD_LIBRARY_PATH,\nor --better-- install fink and compile these things yourself)\n\n        /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current \nversion 55.0.0)\n         /sw/lib/libz.1.dylib (compatibility version 1.1.3, current \nversion 1.1.3)\n         /sw/lib/libreadline.4.dylib (compatibility version 4.2.0, \ncurrent version 4.2.0)\n         /sw/lib/libdl.dylib (compatibility version 0.0.0, current \nversion 0.0.0)\n         /sw/lib/libncurses.dylib.5 (compatibility version 5.0.0, current \nversion 5.2.0)\n\nand for the two main modules\n\nR_X11.so:\n         /usr/X11R6/lib/libSM.6.dylib (compatibility version 6.0.0, \ncurrent version 6.0.0)\n         /usr/X11R6/lib/libICE.6.dylib (compatibility version 6.3.0, \ncurrent version 6.3.0)\n         /usr/X11R6/lib/libX11.6.dylib (compatibility version 6.2.0, \ncurrent version 6.2.0)\n         /sw/lib/libjpeg.62.dylib (compatibility version 63.0.0, current \nversion 63.0.0)\n         /sw/lib/libpng.2.dylib (compatibility version 1.0.12, current \nversion 1.0.12)\n         /sw/lib/libz.1.dylib (compatibility version 1.1.3, current \nversion 1.1.3)\n         libR.dylib (compatibility version 0.0.0, current version 0.0.0)\n         /sw/lib/libreadline.4.dylib (compatibility version 4.2.0, \ncurrent version 4.2.0)\n         /sw/lib/libdl.dylib (compatibility version 0.0.0, current \nversion 0.0.0)\n         /sw/lib/libncurses.dylib.5 (compatibility version 5.0.0, current \nversion 5.2.0)\n         /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current \nversion 55.0.0)\nR_gnome.so:\n         /sw/lib/libgnomeui.32.dylib (compatibility version 47.0.0, \ncurrent version 47.1.0)\n         /sw/lib/libart_lgpl.2.dylib (compatibility version 5.0.0, \ncurrent version 5.0.0)\n         /sw/lib/libgdk_imlib.1.dylib (compatibility version 11.0.0, \ncurrent version 11.10.0)\n         /usr/X11R6/lib/libSM.6.dylib (compatibility version 6.0.0, \ncurrent version 6.0.0)\n         /usr/X11R6/lib/libICE.6.dylib (compatibility version 6.3.0, \ncurrent version 6.3.0)\n         /sw/lib/libgtk-1.2.0.dylib (compatibility version 10.0.0, \ncurrent version 10.1.0)\n         /sw/lib/libgdk-1.2.0.dylib (compatibility version 10.0.0, \ncurrent version 10.1.0)\n         /sw/lib/libgmodule-1.2.0.dylib (compatibility version 1.0.0, \ncurrent version 1.10.0)\n         /sw/lib/libdl.dylib (compatibility version 0.0.0, current \nversion 0.0.0)\n         /sw/lib/libintl.1.dylib (compatibility version 2.0.0, current \nversion 2.1.0)\n         /usr/X11R6/lib/libXext.6.dylib (compatibility version 6.4.0, \ncurrent version 6.4.0)\n         /usr/X11R6/lib/libX11.6.dylib (compatibility version 6.2.0, \ncurrent version 6.2.0)\n         /sw/lib/libgnome.32.dylib (compatibility version 37.0.0, current \nversion 37.3.0)\n         /sw/lib/libgnomesupport.0.dylib (compatibility version 1.0.0, \ncurrent version 1.0.0)\n         /sw/lib/libesd.0.dylib (compatibility version 3.0.0, current \nversion 3.22.0)\n         /sw/lib/libaudiofile.0.dylib (compatibility version 1.0.0, \ncurrent version 1.1.0)\n         /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current \nversion 55.0.0)\n         /sw/lib/libglib-1.2.0.dylib (compatibility version 1.0.0, \ncurrent version 1.10.0)\n         /sw/lib/libglade-gnome.0.dylib (compatibility version 5.0.0, \ncurrent version 5.2.0)\n         /sw/lib/libglade.0.dylib (compatibility version 5.0.0, current \nversion 5.2.0)\n         /sw/lib/libxml.1.dylib (compatibility version 10.0.0, current \nversion 10.16.0)\n         /sw/lib/libz.1.dylib (compatibility version 1.1.3, current \nversion 1.1.3)\n         libR.dylib (compatibility version 0.0.0, current version 0.0.0)\n         /sw/lib/libreadline.4.dylib (compatibility version 4.2.0, \ncurrent version 4.2.0)\n         /sw/lib/libncurses.dylib.5 (compatibility version 5.0.0, current \nversion 5.2.0)\n\ntcl/tk support uses\n\n        /sw/lib/libtcl8.3.dylib (compatibility version 8.0.0, current \nversion 8.3.0)\n         /sw/lib/libtk8.3.dylib (compatibility version 8.0.0, current \nversion 8.3.0)\n\nEverything in /usr/X11R6 comes from Xfree86 (Xtools would also be OK), \neverything\nin /sw/lib comes from fink.\n\n===\nJan de Leeuw; Professor and Chair, UCLA Department of Statistics;\nUS mail: 9432 Boelter Hall, Box 951554, Los Angeles, CA 90095-1554\nphone (310)-825-9550;  fax (310)-206-5658;  email: deleeuw at stat.ucla.edu\nhomepage: http://www.stat.ucla.edu/~deleeuw\n========================================================\n           No matter where you go, there you are. --- Buckaroo Banzai\n                    http://www.stat.ucla.edu/~deleeuw/sounds/nomatter.au\n========================================================\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Get it from ftp://gifi.stat.ucla.edu in pub.\n\nThis contains the base files plus the recommended packages (except rpart,\nwhich does not compile yet).\n\nIt is compiled under MacOS X 10.1.2 with the Decem",
+      "thread_id": "thread-0a79f4fc2304",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-596c5d857536",
+      "message_id": "<FB3D1EC2-F6D1-11D5-888F-003065CC4CB8@unimi.it>",
+      "from_name": "Stefano Iacus",
+      "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
+      "date": "2001-12-22T12:49:40+01:00",
+      "subject": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
+      "subject_clean": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just uplodaed on CRAN both versions of R 1.4.0.\n\nSo starting from Dec 23rd, you'll find the builds for Carbon and Darwin \ndirectly on CRAN respectively at\n\nhttp://cran.r-project.org/bin/macos\t:\tCarbon R (8.6 -> 9.2 and OSX)\nhttp://cran.r-project.org/bin/macosx\t:\tDarwin/X11 R  (thanks to Jan!)\n\n\nspecific updates and bug fixing for the Carbon release can be found in\n\nhttp://cran.r-project.org/bin/macos/base/CHANGES\n\nalong with the Carbon FAQ\n\nhttp://cran.r-project.org/bin/macos/rmac-FAQ.html\n\n\nContributed packages for rm140 will come in 2002 !\n\nstefano\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just uplodaed on CRAN both versions of R 1.4.0.\n\nSo starting from Dec 23rd, you'll find the builds for Carbon and Darwin \ndirectly on CRAN respectively at\n\nhttp://cran.r-project.org/bin/macos\t:",
+      "thread_id": "thread-596c5d857536",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-6d28f3893387",
+      "message_id": "<3F2A0C3C-F6D2-11D5-888F-003065CC4CB8@unimi.it>",
+      "from_name": "Stefano Iacus",
+      "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
+      "date": "2001-12-22T12:51:34+01:00",
+      "subject": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
+      "subject_clean": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just uplodaed on CRAN both versions of R 1.4.0.\n\nSo starting from Dec 23rd, you'll find the builds for Carbon and Darwin \ndirectly on CRAN respectively at\n\nhttp://cran.r-project.org/bin/macos\t:\tCarbon R (8.6 -> 9.2 and OSX)\nhttp://cran.r-project.org/bin/macosx\t:\tDarwin/X11 R  (thanks to Jan!)\n\n\nspecific updates and bug fixing for the Carbon release can be found in\n\nhttp://cran.r-project.org/bin/macos/base/CHANGES\n\nalong with the Carbon FAQ\n\nhttp://cran.r-project.org/bin/macos/rmac-FAQ.html\n\n\nContributed packages for rm140 will come in 2002 !\n\nstefano\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just uplodaed on CRAN both versions of R 1.4.0.\n\nSo starting from Dec 23rd, you'll find the builds for Carbon and Darwin \ndirectly on CRAN respectively at\n\nhttp://cran.r-project.org/bin/macos\t:",
+      "thread_id": "thread-6d28f3893387",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-c5fc36deced5",
+      "message_id": "<XFMail.20011226111529.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "2001-12-26T11:15:29+01:00",
+      "subject": "RPM binaries of R 1.4.0 for RedHat/Mandrake/Linuxppc",
+      "subject_clean": "RPM binaries of R 1.4.0 for RedHat/Mandrake/Linuxppc",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "RPM based binary distributions of R 1.4.0 are avaiable on CRAN for the\nfollowing flavours of Linux:\n\nDistribution Version Platform Packager\nRed Hat       7.x    intel    Martyn Plummer <plummer at iarc.fr>\nRed Hat       7.x    alpha    Naoki Takebayashi <ntakebay at bio.indiana.edu>\nRed Hat       6.x    intel    Stephen Eglen <stephen at gnu.org>\nMandrake      8.1    intel    Michele Alzetta <mikalzet at libero.it>\nLinuxPPC             ppc      Alex Buerkle <buerkla at uwec.edu>\n\nThe RPMS are\nR-base:        The base distribution\nR-recommended: Recommended packages\n\nGiven the recent problems with CRAN being cracked, I would like to\nremind you that all of these binary distributions are signed with\ngpg by their respective maintainers.  To verify the gpg signature\nof an rpm use a command like\n\nrpm --checksig R-base-1.4.0-1.i386.rpm\n\nFirst you must download the public key of the package maintainer\nfrom a public key server (see the man page for gpg).\n\nMartyn Plummer\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "RPM based binary distributions of R 1.4.0 are avaiable on CRAN for the\nfollowing flavours of Linux:\n\nDistribution Version Platform Packager\nRed Hat       7.x    intel    Martyn Plummer <plummer at iar",
+      "thread_id": "thread-c5fc36deced5",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-40ab7bb2efed",
+      "message_id": "<20011227115746.59141@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "2001-12-27T11:57:46+01:00",
+      "subject": "Binaries of R-1.4.0 for Windows",
+      "subject_clean": "Binaries of R-1.4.0 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A binary distribution of R-1.4.0 to run on Windows 95, 98, NT4.0, 2000\nand XP on Intel/clone chips is available at\n       http://sirio.stat.unipd.it/RWin\n\nIt will be mirrored at a CRAN site near you in a couple of days.\n\nSee http://sirio.stat.unipd.it/RWin/CHANGES for a list of \nWindows-specific changes.\n \nguido masarotto\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A binary distribution of R-1.4.0 to run on Windows 95, 98, NT4.0, 2000\nand XP on Intel/clone chips is available at\n       http://sirio.stat.unipd.it/RWin\n\nIt will be mirrored at a CRAN site near you i",
+      "thread_id": "thread-40ab7bb2efed",
+      "thread_depth": 0,
+      "month": "2001-12"
+    },
+    {
+      "id": "msg-0c0831648e7b",
+      "message_id": "<3C30883B.282449A@echip.com>",
+      "from_name": "Bob Wheeler",
+      "from_email_hash": "b5c8494cbb1856adf05ae595cd671df6feb3cd84e1c8430d17cc17138282ed39",
+      "date": "2001-12-31T10:46:03-05:00",
+      "subject": "Johnson system",
+      "subject_clean": "Johnson system",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "With R 1.4.0 the JohnsonFit() function in\nSuppDists has been modified to accept a vector of\nthe first four central moments. Previously the\nonly obvious option was to input a set of\nobservations. The most common need for this seems\nto be by those who have no data in hand, but want\nrandom values from non standard distributions.\n\n-- \nBob Wheeler --- (Reply to: bwheeler at echip.com)\n        ECHIP, Inc. --- (302) 239-6620, voice FAX\n           724 Yorklyn Rd., Hockessin, DE 19707\n              Randomness comes in bunches\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "With R 1.4.0 the JohnsonFit() function in\nSuppDists has been modified to accept a vector of\nthe first four central moments. Previously the\nonly obvious option was to input a set of\nobservations. The m",
+      "thread_id": "thread-0c0831648e7b",
+      "thread_depth": 0,
+      "month": "2001-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-88bf1dee8be9",
+      "subject": "New package: g.data",
+      "message_count": 1,
+      "participants": [
+        "David Brahm"
+      ],
+      "started": "2001-12-03T11:25:02-05:00",
+      "last_reply": "2001-12-03T11:25:02-05:00",
+      "root_message_id": "msg-88bf1dee8be9"
+    },
+    {
+      "id": "thread-00fc4589540d",
+      "subject": "New RPM for Mandrake 8.1 available",
+      "message_count": 1,
+      "participants": [
+        "mikalzet at libero.it"
+      ],
+      "started": "2001-12-07T11:44:35+01:00",
+      "last_reply": "2001-12-07T11:44:35+01:00",
+      "root_message_id": "msg-00fc4589540d"
+    },
+    {
+      "id": "thread-3b6bc6d954fb",
+      "subject": "CRAN Mirror in Germany",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at ci.tuwien.ac.at"
+      ],
+      "started": "2001-12-14T13:03:42+01:00",
+      "last_reply": "2001-12-14T13:03:42+01:00",
+      "root_message_id": "msg-3b6bc6d954fb"
+    },
+    {
+      "id": "thread-b1e278a9fee4",
+      "subject": "new versions of grid and lattice",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2001-12-18T16:52:36+13:00",
+      "last_reply": "2001-12-18T16:52:36+13:00",
+      "root_message_id": "msg-b1e278a9fee4"
+    },
+    {
+      "id": "thread-60b35beb5506",
+      "subject": "R-1.4.0 sources available via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2001-12-19T08:31:56-06:00",
+      "last_reply": "2001-12-19T08:31:56-06:00",
+      "root_message_id": "msg-60b35beb5506"
+    },
+    {
+      "id": "thread-e3483d61c0f9",
+      "subject": "R-1.4.0 is released",
+      "message_count": 3,
+      "participants": [
+        "Dirk Eddelbuettel",
+        "Peter Dalgaard BSA",
+        "mikalzet at libero.it"
+      ],
+      "started": "2001-12-19T12:41:07+01:00",
+      "last_reply": "2001-12-21T09:51:15+01:00",
+      "root_message_id": "msg-e3483d61c0f9"
+    },
+    {
+      "id": "thread-bd6025162b41",
+      "subject": "updates: exactRankTests, mvtnorm and maxstat",
+      "message_count": 1,
+      "participants": [
+        "Torsten Hothorn"
+      ],
+      "started": "2001-12-19T13:50:27+01:00",
+      "last_reply": "2001-12-19T13:50:27+01:00",
+      "root_message_id": "msg-bd6025162b41"
+    },
+    {
+      "id": "thread-49fad2b40b38",
+      "subject": "new versions of: lmtest, strucchange, ineq",
+      "message_count": 1,
+      "participants": [
+        "Achim Zeileis"
+      ],
+      "started": "2001-12-19T21:41:07+01:00",
+      "last_reply": "2001-12-19T21:41:07+01:00",
+      "root_message_id": "msg-49fad2b40b38"
+    },
+    {
+      "id": "thread-e3bdd7477511",
+      "subject": "R 1.4.0 on Windows",
+      "message_count": 1,
+      "participants": [
+        "Prof Brian Ripley"
+      ],
+      "started": "2001-12-21T06:13:10+00:00",
+      "last_reply": "2001-12-21T06:13:10+00:00",
+      "root_message_id": "msg-e3bdd7477511"
+    },
+    {
+      "id": "thread-81773c45c737",
+      "subject": "CRAN has been cracked",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at ci.tuwien.ac.at"
+      ],
+      "started": "2001-12-21T12:31:38+01:00",
+      "last_reply": "2001-12-21T12:31:38+01:00",
+      "root_message_id": "msg-81773c45c737"
+    },
+    {
+      "id": "thread-5dbe7c586ede",
+      "subject": "CRAN up again",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at ci.tuwien.ac.at"
+      ],
+      "started": "2001-12-21T21:12:00+01:00",
+      "last_reply": "2001-12-21T21:12:00+01:00",
+      "root_message_id": "msg-5dbe7c586ede"
+    },
+    {
+      "id": "thread-0a79f4fc2304",
+      "subject": "R-1.4.0 for MacOS X",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2001-12-21T22:00:37-08:00",
+      "last_reply": "2001-12-21T22:00:37-08:00",
+      "root_message_id": "msg-0a79f4fc2304"
+    },
+    {
+      "id": "thread-596c5d857536",
+      "subject": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
+      "message_count": 1,
+      "participants": [
+        "Stefano Iacus"
+      ],
+      "started": "2001-12-22T12:49:40+01:00",
+      "last_reply": "2001-12-22T12:49:40+01:00",
+      "root_message_id": "msg-596c5d857536"
+    },
+    {
+      "id": "thread-6d28f3893387",
+      "subject": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
+      "message_count": 1,
+      "participants": [
+        "Stefano Iacus"
+      ],
+      "started": "2001-12-22T12:51:34+01:00",
+      "last_reply": "2001-12-22T12:51:34+01:00",
+      "root_message_id": "msg-6d28f3893387"
+    },
+    {
+      "id": "thread-c5fc36deced5",
+      "subject": "RPM binaries of R 1.4.0 for RedHat/Mandrake/Linuxppc",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2001-12-26T11:15:29+01:00",
+      "last_reply": "2001-12-26T11:15:29+01:00",
+      "root_message_id": "msg-c5fc36deced5"
+    },
+    {
+      "id": "thread-40ab7bb2efed",
+      "subject": "Binaries of R-1.4.0 for Windows",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "2001-12-27T11:57:46+01:00",
+      "last_reply": "2001-12-27T11:57:46+01:00",
+      "root_message_id": "msg-40ab7bb2efed"
+    },
+    {
+      "id": "thread-0c0831648e7b",
+      "subject": "Johnson system",
+      "message_count": 1,
+      "participants": [
+        "Bob Wheeler"
+      ],
+      "started": "2001-12-31T10:46:03-05:00",
+      "last_reply": "2001-12-31T10:46:03-05:00",
+      "root_message_id": "msg-0c0831648e7b"
+    }
+  ]
+}

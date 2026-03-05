@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2000-11",
+  "messages": [
+    {
+      "id": "msg-30afe2a3f7d8",
+      "message_id": "<sziitprnaxx.fsf@stats.mth.uea.ac.uk>",
+      "from_name": "MJ Ray",
+      "from_email_hash": "51a1372f5621876f046799831721915d76f3fc40aef04e2072ec236597bba46a",
+      "date": "2000-11-13T15:33:46Z",
+      "subject": "Rcgi mailing list",
+      "subject_clean": "Rcgi mailing list",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Rcgi is a CGI WWW interface to R. Recent versions have the ability\n   to use \"embedded code\": you can mix user input and code, allowing\n   the HTML author to do anything from load in data sets to enter most\n   of the commands for users without writing CGI scripts. Graphical\n   output is possible in PostScript or GIF formats and the executed\n   code is presented to the user for revision.  \n                                            --[R FAQ, ed. Kurt Hornik]\n\nAs part of a project, some more development time is to be spent on\nRcgi and I'd very much like to do things which will improve its\nusefulness to statistics teachers.  So, a mailing list has been\ncreated to gather advice, requests, suggestions and opinions of other\nusers.  The list should be relatively low \"traffic\" and you can\nsubscribe at: http://www.coollist.com/subscribe/subto.cgi?l=rcgi\n\nDemo and download of current version are currently available from\nhttp://www.mth.uea.ac.uk/~h089/Rcgi/\nThis will be replaced by a new site in the next week or so.\n\n-- \nMJR                                     (Not an official statement)\nPlease note changes of address\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Rcgi is a CGI WWW interface to R. Recent versions have the ability\n   to use \"embedded code\": you can mix user input and code, allowing\n   the HTML author to do anything from load in data sets to ente",
+      "thread_id": "thread-30afe2a3f7d8",
+      "thread_depth": 0,
+      "month": "2000-11"
+    },
+    {
+      "id": "msg-1c13bc06aaae",
+      "message_id": "<Pine.LNX.4.21.0011141746580.1608-100000@artemis.imbe.med.uni-erlangen.de>",
+      "from_name": "Torsten Hothorn",
+      "from_email_hash": "41e657384fb07a3764a554d5304d033ebaccbd11a54485f1b6386a932843f125",
+      "date": "2000-11-14T17:48:47+01:00",
+      "subject": "mvtnorm",
+      "subject_clean": "mvtnorm",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Announcement: mvtnorm\n\n\tMultivariate Normal and T Distribution\n\nmvtnorm implements two R functions for the computation of the multivariate t\nand normal distribution: \n\npmvt: \tComputes the the distribution function of the multivariate t\n\tdistribution  for arbitary limits, degrees of freedom and\n\tcorrelation matrices  based on algorithms by Genz and Bretz. \n\npmvnorm: Computes the distribution function of the multivariate normal \n\tdistribution for arbitary limits and correlation matrices  based\n\ton algorithms by Genz and Bretz.\n\n\nmvtnorm is currently available in CRAN's devel section. \n\nLiterature: \n\nGenz, A. (1992). Numerical computation of multivariate normal\nprobabilities. Journal of Computational and Graphical Statistics,\n1, 141-150 \n\nGenz, A. (1993). Comparison of methods for the computation of\nmultivariate normal probabilities. Computing Science and\nStatistics, 25, 400-405\n\nGenz, A. and Bretz, F. (1999), Numerical computation of\nmultivariate t-probabilities with application to power calculation\nof multiple contrasts. Journal of Statistical Computation and\nSimulation, 63, 361-378.\n\nGenz, A. and Bretz, F. (2001), Methods for the computation of\nmultivariate t-probabilities. (submitted)\n\nBests, \n\nTorsten\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Announcement: mvtnorm\n\n\tMultivariate Normal and T Distribution\n\nmvtnorm implements two R functions for the computation of the multivariate t\nand normal distribution: \n\npmvt: \tComputes the the distribu",
+      "thread_id": "thread-1c13bc06aaae",
+      "thread_depth": 0,
+      "month": "2000-11"
+    },
+    {
+      "id": "msg-bb30d115f629",
+      "message_id": "<XFMail.001117105958.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "2000-11-17T10:59:58+01:00",
+      "subject": "RPM for Red Hat Linux 7.0 (Intel) available",
+      "subject_clean": "RPM for Red Hat Linux 7.0 (Intel) available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A binary RPM package of R 1.1.1 for Red Hat Linux 7.0 (Intel) is now\navailable on CRAN. Or directly from\nftp://ftp-fis.iarc.fr/pub/R/RedHat/7.x/\nThis package was built with gcc 2.95.2 and passes all the built-in tests.\n\nIf you are a Red Hat 6.2 user, I do not recommend upgrading to Red\nHat 7.0.  I shall continue to support version 6.2 at least until version\n7.1 comes out.\n\nIf you want to build R yourself on Red Hat 7.0 then please read\nftp://ftp-fis.iarc.fr/pub/R/RedHat/7.x/DIY/\n\nMy RPM packages are signed with GPG.  For your own security, please\nverify the signature on the RPM package before installing.  You can get\na copy of my public key (ID 97D3544E) from any keyserver on pgp.net,\nand the fingerprint is included at the end of this message.\n\nMartyn \n\npub  1024D/97D3544E 2000-11-03 Martyn Plummer <plummer at iarc.fr>\n     Key fingerprint = A218 FA2C 3C55 3681 9447  C4EF FDEB A0F9 97D3 544E\nsub  1024g/85EA6DD9 2000-11-03\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A binary RPM package of R 1.1.1 for Red Hat Linux 7.0 (Intel) is now\navailable on CRAN. Or directly from\nftp://ftp-fis.iarc.fr/pub/R/RedHat/7.x/\nThis package was built with gcc 2.95.2 and passes all t",
+      "thread_id": "thread-bb30d115f629",
+      "thread_depth": 0,
+      "month": "2000-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-30afe2a3f7d8",
+      "subject": "Rcgi mailing list",
+      "message_count": 1,
+      "participants": [
+        "MJ Ray"
+      ],
+      "started": "2000-11-13T15:33:46+00:00",
+      "last_reply": "2000-11-13T15:33:46+00:00",
+      "root_message_id": "msg-30afe2a3f7d8"
+    },
+    {
+      "id": "thread-1c13bc06aaae",
+      "subject": "mvtnorm",
+      "message_count": 1,
+      "participants": [
+        "Torsten Hothorn"
+      ],
+      "started": "2000-11-14T17:48:47+01:00",
+      "last_reply": "2000-11-14T17:48:47+01:00",
+      "root_message_id": "msg-1c13bc06aaae"
+    },
+    {
+      "id": "thread-bb30d115f629",
+      "subject": "RPM for Red Hat Linux 7.0 (Intel) available",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2000-11-17T10:59:58+01:00",
+      "last_reply": "2000-11-17T10:59:58+01:00",
+      "root_message_id": "msg-bb30d115f629"
+    }
+  ]
+}

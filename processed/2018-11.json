@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2018-11",
+  "messages": [
+    {
+      "id": "msg-862dc781d3d2",
+      "message_id": "<F77674D5-9E76-4052-BE92-567A4B61EB1B@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "16b800f3161b270622c2e644760e595bbe5e68aa3370a3f648fb795f19b38ec7",
+      "date": "2018-11-23T14:27:51Z",
+      "subject": "R 3.5.2 scheduled for December 20",
+      "subject_clean": "R 3.5.2 scheduled for December 20",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Full schedule available on developer.r-project.org\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Full schedule available on developer.r-project.org\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\n",
+      "thread_id": "thread-862dc781d3d2",
+      "thread_depth": 0,
+      "month": "2018-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-862dc781d3d2",
+      "subject": "R 3.5.2 scheduled for December 20",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2018-11-23T14:27:51+00:00",
+      "last_reply": "2018-11-23T14:27:51+00:00",
+      "root_message_id": "msg-862dc781d3d2"
+    }
+  ]
+}

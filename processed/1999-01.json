@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1999-01",
+  "messages": [
+    {
+      "id": "msg-b2a2498abca4",
+      "message_id": "<x2emp19al0.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1999-01-11T14:56:59+01:00",
+      "subject": "R-0.63.2 is released",
+      "subject_clean": "R-0.63.2 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've put up R-0.63.2.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or two.\n\nFor those who *are* desperate, I've left a copy in\n\tftp://blueberry.kubism.ku.dk/pub/R-devel/R-0.63.2.tgz \n(Be gentle, that's my desktop PC!)\n\nThere's also a version split in two for floppies and a patch file if\nyou prefer that.\n\nThis version is mainly to fix a messup with attributes on dataframe\nvariables that caused trouble for survival4. Completeness in\nbug-fixing is not attempted.\n\nHere is the relevant part of the NEWS file:\n\n\t\tCHANGES IN R VERSION 0.63.2\n\nNEW FEATURES\n\n    o\tsink() has new `append' argument.\n\n    o\tnew function rle().\n\n    o\tplot(.) and  curve(.) also accept a function as first argument.\n\tnew `plot.function'.\n\n    o\tnew function loglin().\n\n    o\tpretty() has new arguments and now better \"obeys\" its `n' arg.\n\tInternal GPretty() [implicitly used by\taxis(.., at = NULL,..)\n\tnow uses pretty.\n\n    o   new generic function aggregate() with methods for data frames\n\tand time series.\n\n    o   data set `euro' with Euro conversion rates.\n\n    o   new function jitter()  [slightly wmore useful than S's].\n\n\nBUG FIXES\n\n    o\tmodel.frame(,subset=) no longer loses contrasts\n\n    o\t`make install' copied the R shell script a second time without\n\tgetting RHOME right (thus also breaking R CMD check).  Fixed.\n\n    o\thelp() after help.start() did not work if topic was not equal\n\tto filename (e.g. rnorm is found in Normal.html)\n\n    o\tfix the 0.63.1 fix for abbreviate(.);  improved doc.\n\n    o\tpredict.mlm(.) couldn't have worked with `newdata'.\n\n    o\tmodel.frame/na.omit bug for matrices and Surv objects.\n\n    o\tmean( <data.frame> ) now doesn't return sum(.) anymore.\n\n    o\tstr(.) doesn't give extraneous \"...\" in rare cases anymore.\n\n    o\tAdded documentation for group methods (\"Math\", \"Ops\",\"Summary\").\n\n    o\tR_PAPERSIZE is used for Rd2dvi and at configure time for the \n\t`make dvi' parts.\n\n    o\thist(i) now also works for e.g., i = -1, 0, or 1.\n\n    o   range() now works on dataframes (uses c(..., recursive=T))\n\n    o\tpretty(.) does not loop infinitely anymore in very extreme cases.\n\n    o   math functions should work better on dataframes now\n\n    o\tplot(.., type = 'h', log = 'y')\t now works ...\n\n    o   plot.factor(x, y, ...) of two factors now makes\n        barplot(table(y,x), ...)\n\n    o   use object$prior.weights in add1.glm, drop1.glm (Brian Ripley)\n\n    o   rnorm(1,mean=m,sd=0) returns m, not NaN (Ben Bolker)\n\n    o   runif(n, a,a) now returns  rep(a,n) instead of NaNs.\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've put up R-0.63.2.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or t",
+      "thread_id": "thread-b2a2498abca4",
+      "thread_depth": 0,
+      "month": "1999-01"
+    },
+    {
+      "id": "msg-efb48a1fe73a",
+      "message_id": "<19990120083700.18164@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "1999-01-20T08:37:00+01:00",
+      "subject": "R-0.63.2 for Windows",
+      "subject_clean": "R-0.63.2 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have updated to R-0.63.2 the version of R for Windows available from CRAN\nin directory binaries/windows/WindowsNT/base. \n\nNo new Windows specific features but:\n(i)  I hope to have fixed the NT copy to the clipboard bug;\n(ii) help files use latin1 encoding (but, to see the difference, \nyou must use a latin1 capable font; for this reason, now, as packed, \nthe R console uses \"Courier New\"; if you don't like it, edit etc/Rconsole). \n\nPre-compiled packages for this version of R are provided by \nBrian D. Ripley (who, BTW, is also responsable for (ii) before,\nthanks Brian!) and available at CRAN/binaries/WindowsNT/contrib.\n\nguido masarotto\n\n(ps) Note that my e-mail address is changed. Please, use this not the \nold one.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have updated to R-0.63.2 the version of R for Windows available from CRAN\nin directory binaries/windows/WindowsNT/base. \n\nNo new Windows specific features but:\n(i)  I hope to have fixed the NT copy ",
+      "thread_id": "thread-efb48a1fe73a",
+      "thread_depth": 0,
+      "month": "1999-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b2a2498abca4",
+      "subject": "R-0.63.2 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1999-01-11T14:56:59+01:00",
+      "last_reply": "1999-01-11T14:56:59+01:00",
+      "root_message_id": "msg-b2a2498abca4"
+    },
+    {
+      "id": "thread-efb48a1fe73a",
+      "subject": "R-0.63.2 for Windows",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1999-01-20T08:37:00+01:00",
+      "last_reply": "1999-01-20T08:37:00+01:00",
+      "root_message_id": "msg-efb48a1fe73a"
+    }
+  ]
+}

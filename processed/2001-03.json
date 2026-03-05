@@ -1,0 +1,171 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-03",
+  "messages": [
+    {
+      "id": "msg-58fcf90f72a5",
+      "message_id": "<p05010404b6c57f131b3a@[129.206.113.199]>",
+      "from_name": "G. Sawitzki",
+      "from_email_hash": "69602700324880f6249a318b54ec265a37871ceba10e26f1d166ce08a068d540",
+      "date": "2001-03-02T17:47:26+01:00",
+      "subject": "Introduction to R (S) [in German]",
+      "subject_clean": "Introduction to R (S) [in German]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Couse notes for a short introduction to the S language have been posted as\n  <http://www.ci.tuwien.ac.at/R/doc/contrib/s.pdf;I>\n\nThis is material for a 4-5 days course, assuming some background in \nstatistics (German style).\n\nAs a matter of fact it is a Trojan horse, claiming it is teaching the \nS language, but under the shelf it is trying to convey some ideas \nabout statistics.\n\nFor those of you who are going to Vienna it is a chance to train your German.\n\nComments and corrections are welcome (please mail to me directly).\n   gs\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Couse notes for a short introduction to the S language have been posted as\n  <http://www.ci.tuwien.ac.at/R/doc/contrib/s.pdf;I>\n\nThis is material for a 4-5 days course, assuming some background in \nst",
+      "thread_id": "thread-58fcf90f72a5",
+      "thread_depth": 0,
+      "month": "2001-03"
+    },
+    {
+      "id": "msg-9acb252cc0df",
+      "message_id": "<200103021825.SAA29994@toucan.stats.ox.ac.uk>",
+      "from_name": "Prof Brian Ripley",
+      "from_email_hash": "375ec446f7a1157a4f0268b6dc682d6c2a5b186f57aa61253477aa48159d2329",
+      "date": "2001-03-02T18:25:49Z",
+      "subject": "VR_6.2-4 is released",
+      "subject_clean": "VR_6.2-4 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An update of the VR bundle was released on Monday and should have\npropagated around CRAN now.  It is a collection of bug fixes (many to\ndocumentation, thanks to Kurt Hornik's great tools undoc and codoc) and\nsmall enhancements for R.\n\nIt does need R 1.2.2 to install (the help files make use of new markup\nfor methods) but only 1.2.0 to run.  Thus the precompiled Windows\nversion will run on rw1021.\n\n-- \nBrian D. Ripley,                  ripley at stats.ox.ac.uk\nProfessor of Applied Statistics,  http://www.stats.ox.ac.uk/~ripley/\nUniversity of Oxford,             Tel:  +44 1865 272861 (self)\n1 South Parks Road,                     +44 1865 272860 (secr)\nOxford OX1 3TG, UK                Fax:  +44 1865 272595\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "An update of the VR bundle was released on Monday and should have\npropagated around CRAN now.  It is a collection of bug fixes (many to\ndocumentation, thanks to Kurt Hornik's great tools undoc and cod",
+      "thread_id": "thread-9acb252cc0df",
+      "thread_depth": 0,
+      "month": "2001-03"
+    },
+    {
+      "id": "msg-56a4b419630c",
+      "message_id": "<3AA04249.37D71B10@tajo.ucsd.edu>",
+      "from_name": "Charles C. Berry",
+      "from_email_hash": "2e60b7324e5cc583defcedd7a675a324250ffb84da081638c31baf739e5c08e2",
+      "date": "2001-03-02T17:00:57-08:00",
+      "subject": "bqtl available on CRAN",
+      "subject_clean": "bqtl available on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Package bqtl version 1.0 is now available on CRAN.\n\nDescription: QTL mapping toolkit for inbred crosses and\n recombinant inbred lines. Includes maximum likelihood and Bayesian\ntools.\n\nI am keen to have comments about this package including implementation\ndetails, additional functionality, and (of course) problems and bugs.\n\nChuck Berry\n\n-- \nCharles C. Berry                        (858) 534-2098 \n                                         Dept of Family/Preventive\nMedicine\nE mailto:cberry at tajo.ucsd.edu\t         UC San Diego\nhttp://hacuna.ucsd.edu/members/ccb.html  La Jolla, San Diego 92093-0645\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Package bqtl version 1.0 is now available on CRAN.\n\nDescription: QTL mapping toolkit for inbred crosses and\n recombinant inbred lines. Includes maximum likelihood and Bayesian\ntools.\n\nI am keen to hav",
+      "thread_id": "thread-56a4b419630c",
+      "thread_depth": 0,
+      "month": "2001-03"
+    },
+    {
+      "id": "msg-abdbd0fd2760",
+      "message_id": "<20010305092235.11089@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "2001-03-05T09:22:36+01:00",
+      "subject": "Binaries of R 1.2.2 for Ms Windows at CRAN",
+      "subject_clean": "Binaries of R 1.2.2 for Ms Windows at CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Windows binaries at CRAN (bin/windows/Windows-NT/base) have been updated \nto R-1.2.2.  See below for a list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\t=============================\n\t\tWindows-specific changes to R\n\t\t=============================\n\nThe long-running saga of importing R metafiles into Word is over;\nlines are now visible in screen previews in Word.  It was necessary to\nuse `geometric' rather than `cosmetic' pens to achieve scalable line\nwidths in metafiles: Word was failing to show lines drawn with\n`cosmetic' pens.\n\nbringToTop() now works with MDI child windows as well as SDI windows.\n\nRcmd build/check use a different check for a directory, to work around\na bug in (some versions of) Windows Perl.\n\nThe datetime code has been modified to work around a problem reported\non a Win98 machine which caused times to be reported in GMT.  (This\nseems a bug in a particular version of msvcrt.dll and few machines\nwere affected.)  A side-effect of the changes is that the timezone\nnames reported are usually more sensible (but sometimes less).\n\nFile etc/Makeconf-tests was missing from rw102Xsp.zip.\n\nRcmd SHLIB now supports compilation from C++ sources.\n\nRterm now saves and resets the console window title.\n\nOn Win2k, system(intern=TRUE) was failing to reset stderr to the console.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Windows binaries at CRAN (bin/windows/Windows-NT/base) have been updated \nto R-1.2.2.  See below for a list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\t====================",
+      "thread_id": "thread-abdbd0fd2760",
+      "thread_depth": 0,
+      "month": "2001-03"
+    },
+    {
+      "id": "msg-7e156aacc75d",
+      "message_id": "<200103220226.SAA57875@pine.frazmtn.com>",
+      "from_name": "Jan de Leeuw",
+      "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
+      "date": "2001-03-21T18:26:16-08:00",
+      "subject": "MacOS X (Darwin) version of R-1.2.2",
+      "subject_clean": "MacOS X (Darwin) version of R-1.2.2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "a version of R-1.2.2 for MacOS X (more precisely, for Darwin 1.3 with\nX11R6) is at\n\nhttp://www.stat.ucla.edu/~deleeuw/R-1.2.2-MacOSX.tar.gz\n\nthe file should be 5161540 bytes\n\n-- su root\n-- unpack in /\n\nand everything gets put in /usr/local/bin and /usr/local/lib\n\nthis has the standard packages, including tcltk, and it has\nX11R6 support\n\nit uses tcl/tk 8.0 from the GRASS distribution\n\ni also have a version with gnome support, but it still needs\nsome work -- and it's probably nonsense anyway\n\nof course you need to install an X server and an X browser\n\ni have not tried this in the Public Beta, so some of you may have\nto wait a couple of days\n\nthere were no big problems in porting, but of course you need\nDarwin versions of X11R6, of tcl/tk, and a shim for dlopen (that\nmaps the usual calls to Mach-O dyld calls). because of dyld\nyou have to replace \"-shared\" when linking foo.so to\n\"-bundle -undefined suppress\".\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "a version of R-1.2.2 for MacOS X (more precisely, for Darwin 1.3 with\nX11R6) is at\n\nhttp://www.stat.ucla.edu/~deleeuw/R-1.2.2-MacOSX.tar.gz\n\nthe file should be 5161540 bytes\n\n-- su root\n-- unpack in /",
+      "thread_id": "thread-7e156aacc75d",
+      "thread_depth": 0,
+      "month": "2001-03"
+    },
+    {
+      "id": "msg-7b7d4452d05c",
+      "message_id": "<200103250002.QAA79478@pine.frazmtn.com>",
+      "from_name": "Jan de Leeuw",
+      "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
+      "date": "2001-03-24T16:02:39-08:00",
+      "subject": "R-1.2.2 for MacOS X (Darwin/X11)",
+      "subject_clean": "R-1.2.2 for MacOS X (Darwin/X11)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A tarball with the 03/23/01 patch version of R-1.2.2 (with X11 and \ntcl/tk support)\nis at\n\nhttp://www.stat.ucla.edu/~deleeuw/R/R-1.2.2.MacOSX.tar.gz\n\nThis is not a Classic or Carbon or Cocoa application, you need to\nrun it from the command line and you need to have an X11 server\nrunning. It only uses the classical Unix part of Mac OS X, i.e. it\nis similar in functionality to the Linux and OSF ports.\n===\nJan de Leeuw; Professor and Chair, UCLA Department of Statistics;\nUS mail: 8142 Math Sciences Bldg, Box 951554, Los Angeles, CA 90095-1554\nphone (310)-825-9550;  fax (310)-206-5658;  email: deleeuw at stat.ucla.edu\n    http://www.stat.ucla.edu/~deleeuw and http://home1.gte.net/datamine/\n========================================================\n          No matter where you go, there you are. --- Buckaroo Banzai\n                   http://www.stat.ucla.edu/sounds/nomatter.au\n========================================================\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A tarball with the 03/23/01 patch version of R-1.2.2 (with X11 and \ntcl/tk support)\nis at\n\nhttp://www.stat.ucla.edu/~deleeuw/R/R-1.2.2.MacOSX.tar.gz\n\nThis is not a Classic or Carbon or Cocoa applicati",
+      "thread_id": "thread-7b7d4452d05c",
+      "thread_depth": 0,
+      "month": "2001-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-56a4b419630c",
+      "subject": "bqtl available on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Charles C. Berry"
+      ],
+      "started": "2001-03-02T17:00:57-08:00",
+      "last_reply": "2001-03-02T17:00:57-08:00",
+      "root_message_id": "msg-56a4b419630c"
+    },
+    {
+      "id": "thread-58fcf90f72a5",
+      "subject": "Introduction to R (S) [in German]",
+      "message_count": 1,
+      "participants": [
+        "G. Sawitzki"
+      ],
+      "started": "2001-03-02T17:47:26+01:00",
+      "last_reply": "2001-03-02T17:47:26+01:00",
+      "root_message_id": "msg-58fcf90f72a5"
+    },
+    {
+      "id": "thread-9acb252cc0df",
+      "subject": "VR_6.2-4 is released",
+      "message_count": 1,
+      "participants": [
+        "Prof Brian Ripley"
+      ],
+      "started": "2001-03-02T18:25:49+00:00",
+      "last_reply": "2001-03-02T18:25:49+00:00",
+      "root_message_id": "msg-9acb252cc0df"
+    },
+    {
+      "id": "thread-abdbd0fd2760",
+      "subject": "Binaries of R 1.2.2 for Ms Windows at CRAN",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "2001-03-05T09:22:36+01:00",
+      "last_reply": "2001-03-05T09:22:36+01:00",
+      "root_message_id": "msg-abdbd0fd2760"
+    },
+    {
+      "id": "thread-7e156aacc75d",
+      "subject": "MacOS X (Darwin) version of R-1.2.2",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2001-03-21T18:26:16-08:00",
+      "last_reply": "2001-03-21T18:26:16-08:00",
+      "root_message_id": "msg-7e156aacc75d"
+    },
+    {
+      "id": "thread-7b7d4452d05c",
+      "subject": "R-1.2.2 for MacOS X (Darwin/X11)",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2001-03-24T16:02:39-08:00",
+      "last_reply": "2001-03-24T16:02:39-08:00",
+      "root_message_id": "msg-7b7d4452d05c"
+    }
+  ]
+}

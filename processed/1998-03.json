@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1998-03",
+  "messages": [
+    {
+      "id": "msg-314d22514601",
+      "message_id": "<350E7038.7AB36382@bell-labs.com>",
+      "from_name": "Clive Loader",
+      "from_email_hash": "61df0e87ff677ba465ece3919e017f777e1e6ccec313a2c1e7f847f49f21fbb5",
+      "date": "1998-03-17T07:44:40-05:00",
+      "subject": "locfit -> CRAN",
+      "subject_clean": "locfit -> CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The locfit library is now available through CRAN, in the\nContributed R Code directory. Locfit fits local regression,\nlikelihood and density estimation models, in the spirit\nof loess but with many additional features. To install,\nunpack the locfit_19980309.tar.gz file, and\nR INSTALL locfit\n\nMost of the functionality and examples on my home page\nhttp://cm.bell-labs.com/stat/project/locfit/ should work\nin R, with the exception of trellis displays.\n\nThanks to Kurt Hornik for helping with the port and testing.\n\nSincerely,\nClive Loader\nclive at bell-labs.com\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The locfit library is now available through CRAN, in the\nContributed R Code directory. Locfit fits local regression,\nlikelihood and density estimation models, in the spirit\nof loess but with many addi",
+      "thread_id": "thread-314d22514601",
+      "thread_depth": 0,
+      "month": "1998-03"
+    },
+    {
+      "id": "msg-9f4ab002fee4",
+      "message_id": "<x2g1khh1ar.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-03-17T14:52:44+01:00",
+      "subject": "R-0.61.2 released",
+      "subject_clean": "R-0.61.2 released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R-0.61.2.tgz is now available from the Auckland FTP site, from where\nit should spread to the CRAN sites during the next day or two. Unless\nyou're in a big hurry or actually living in New Zealand, please don't\nget it from Auckland. \n\nThere is also an R-0.61.1-0.61.2.diff.gz which can be used to patch an\nexisting R-0.61.1. Instructions for patching are in the VERSION file\nin same directory.\n\nThis release mainly fixes a number of trivial bugs (segfaults from\nstrange constructions and the like). One major change is that the\nchanges to factor coercion that was introduced previously was deemed\nto be buggy after all, so now as.numeric(factor(100,200)) == 1:2\nagain. A few features was also allowed to trickle down from the 0.62\nas-yet-unreleased version.\n\nJim Lindsey will probably be disappointed in finding that his\nfavourite model formula bugs are still there. This is not because we\ndisagree that they are bugs or have forgotten all about them, but\nfixing it turned out to require more substantial changes than we cared\nto introduce in a patch release.\n\nThis release was made primarily to be included in the Debian Linux 2.0\nrelease. For this reason the problems with non-GNU make programs have\nnot been touched at all.\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "R-0.61.2.tgz is now available from the Auckland FTP site, from where\nit should spread to the CRAN sites during the next day or two. Unless\nyou're in a big hurry or actually living in New Zealand, plea",
+      "thread_id": "thread-9f4ab002fee4",
+      "thread_depth": 0,
+      "month": "1998-03"
+    },
+    {
+      "id": "msg-efbeef5017d4",
+      "message_id": "<199803261359.OAA14588@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1998-03-26T14:59:46+01:00",
+      "subject": "A new port of R to MS Windows on CRAN",
+      "subject_clean": "A new port of R to MS Windows on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\nI've included Guido Masarotto's port of R 0.61.1 to MS Windows 95/NT\nin $CRAN/bin/ms-windows-32 ... you can find both the sources and\nbinaries there.\n\nI include Guido's README below.\n\nThanks again to Guido for making this port available!\n\nBest,\nFritz Leisch\n\n\n\n**********************************************************\n\nrgnwbin.tgz and rgnwsrc.tgz are the first results of an attempt to\nbuild R for Win95 and WinNT using egcs-mingw32.\n\nThe advantages over the binaries for MsWindows that can be found in CRAN\nare:\n1. R seems to run faster. Some simple (perhaps too simple)\n   benchmarks point to a 20% gain.\n2. The port is based on a more recent version (0.61.1) and it is more\n   complete (more \"system calls\": system, tempfile, unlink, \n   WinExec - to launch applications without waiting for the result;\n   support for the standard help system: try help(), help(abline),\n   help(line,eda), ?women, data(), library())\n3. A new menu item \"Stop current computation\" make  possible \n   to interupt long computation (but only when  something is printed).\n4. Since egcs-mingw32 uses the standard C calling convention, \n   you don't need a Watcom compiler to build dynamic link libraries.\n   Indeed, this was my original motivation.\n5. It should be easy to use some other gnu-win32 compilers (maybe\n   running on a non MsWindows machine). It should be easy to \n   adapt the port to lcc-win32, too.\n   \nBut remember: this is experimental code so\n-----------------------------------------------------------------------------\n                      USE IT AT YOUR RISK\n-----------------------------------------------------------------------------\n\nBINARY DISTRIBUTION\nJust unpack rgwnbin.tgz somewhere.\nThe executable is R.GNW\\bin\\R.exe. This binary distribution\nincludes only the standard packages (base+eda+mva+stepfun).\n\nSOURCE DISTRIBUTION\nThis is an add-on to the R-0.61.1 distribution.\nSo unpack R-0.61.1.tar.gz somewhere.\nThen, from the same directory, unpack rgwnsrc.tgz.\nTo rebuild the system, go to R-0.61.1/src/gnuwin32.\nThen\n   > make\nshould build the standard stuff.\nTo add a new package, you should\na) download it; \nb) unpack it in the R-0.61.1/src directory.\nc) go to the R-0.61.1/src/gnuwin32 directory and type\n   > make pkg-xxx\n   where xxx is the name of the package.\n   You should get the directory R-0.61.1/library/xxx\n   and its subdirectory R/ (the r-code) data/ (the \n   data of the package) R/libs (the dynamic link library) and\n   the support for the help system (INDEX, TITLE, an updated\n   LibIndex). Of course, the data and libs subdirectory\n   can be missing.\nd) if you want the documentation, you can download \n   the preformatted one.Then  unpack it in the R-0.61.1\n   (not in the R-0.61.1/src) directory. If you don't need\n   the LaTeX files, remove them.\n\nNote:\n(1) Of course, you need a compiler. As I have said I used \n    the egcs-mingw32 one:\n    http://www.xraylith.wisc.edu/~khan/software/gnu-win32/\n(2) You must also have a GNU make and some standard unix\n    command (ls,cat,sed,rm). Furthemore, make and this\n    command must be able to overcome the MsDOS limitation\n    about the length of a command.\n    I used the ones coming with the djgpp compiler.\n    According to me, they are the best version for dos and\n    windows. You can find it in any SIMTEL mirror.\n    If you want, I can make available a small file with\n    only the needed tools.\n(3) The gnuwin32/Makefile use the g77 Fortran compiler.\n    If you don't have it, or if you don't want to use it,\n    you can use something like\n      > make HAVEG77=NO \n    or\n      > make HAVEG77=NO pkg-xxx\n    For example, the g77 compiler in egcs-mingw32 was\n    not able to compile the fortran code in the acepack package.\n    However, I was able to build this package with the command\n      > make HAVEG77=NO pkg-acepack\n(4) When installing a package, if in R-0.61.1/src/library/xxx/R\n    exist a file with name yyy.gnw then this file is used\n    and files with name yyy or yyy.somethingelse are\n    ignored. In this way, you can configure the R code\n    of the package. An example is the base/R/system.gnw\n    file.\n(5) This is not a developer's distribution. For example, dependences\n    are written in a silly way. Furthemore, all the code\n    in src/appl/, src/appl-f,..... is compiled.\n    No use of the original Makefile is done.\n    Hence, you have to start from a cleaned distribution.\n\n\nBUGS and TODO\n(0) The English of this README.\n(1) If you exit from the edit windows and this is empty you get a\n    segmentation fault. This happens also on my Linux box. So,\n    it seem to be a general problem.\n(2) The dll's are statically linked with the other R code.\n    So they get support for the routines that they need.\n    In this way, they work but are big. We should have\n    a large R.dll with all the standard code. Then \n    the executable and the dll's should simply import\n    from R.dll.\n(3) Try and adapt this port to other win32 compiler.\n    It should be easy. So, why don't try?\n(4) The system command does not work if the command to be\n    execute require some user interaction. It is just a \n    \"simulated  reading pipe for a broken OS\".\n(5) I inserted an event loop at the beginning of the\n    function which print to the console. In this way,\n    you can interupt the computation or, for example,\n    give the focus to the graphics window.\n    But only when you print. A call to the event loop\n    must be inserted inside the \"main\" code.\n    But, for the moment, I decided to leave the \"main\"\n    code untouched.\n(6) When building package xxx, all the C and Fortran files\n    found in library/xxx/src (or library/xxx/src-c if\n    you don't have the g77 compiler) are compiled\n    and putted in a dll. On the contrary, we have to make\n    use of the original Makefile.\n(7) The Windows code must be cleaned. \n    \n\nguido masarotto                             22 marzo 1998\nguido at sirio.stat.unipd.it\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\nI've included Guido Masarotto's port of R 0.61.1 to MS Windows 95/NT\nin $CRAN/bin/ms-windows-32 ... you can find both the sources and\nbinaries there.\n\nI include Guido's README below.\n\nThanks agai",
+      "thread_id": "thread-efbeef5017d4",
+      "thread_depth": 0,
+      "month": "1998-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-314d22514601",
+      "subject": "locfit -> CRAN",
+      "message_count": 1,
+      "participants": [
+        "Clive Loader"
+      ],
+      "started": "1998-03-17T07:44:40-05:00",
+      "last_reply": "1998-03-17T07:44:40-05:00",
+      "root_message_id": "msg-314d22514601"
+    },
+    {
+      "id": "thread-9f4ab002fee4",
+      "subject": "R-0.61.2 released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-03-17T14:52:44+01:00",
+      "last_reply": "1998-03-17T14:52:44+01:00",
+      "root_message_id": "msg-9f4ab002fee4"
+    },
+    {
+      "id": "thread-efbeef5017d4",
+      "subject": "A new port of R to MS Windows on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1998-03-26T14:59:46+01:00",
+      "last_reply": "1998-03-26T14:59:46+01:00",
+      "root_message_id": "msg-efbeef5017d4"
+    }
+  ]
+}

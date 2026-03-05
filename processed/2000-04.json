@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2000-04",
+  "messages": [
+    {
+      "id": "msg-f2a1f328e13d",
+      "message_id": "<x2ya6hrp42.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2000-04-14T11:47:09+02:00",
+      "subject": "R-1.0.1 is released",
+      "subject_clean": "R-1.0.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.0.1.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.1.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.1.tgz\n\nor wait for it to be mirrored at a CRAN site near you within a day or two.\n\nThere's also a version split in three for floppies and a patch file if\nyou prefer that.\n\n\tFor the R Core Team,\n\n\tPeter D.\n\nHere's the relevant bit of the NEWS file (in fact, the entire thing\nsince we have now moved the pre-1.0.0 news to ONEWS):\n\n\n\t\tCHANGES IN R VERSION 1.0.1\n\n\nBUG FIXES\n\n    o\tpgamma(Inf, 1, Inf) gives NaN instead of an infinite loop, PR#462.\n\n    o\tInline xaxt and yaxt parameters were ignored.\n\n    o\tSetting the normal RNG was not always recorded in .Random.seed.\n\n    o\t\\link[pkg]{foo} links were wrongly translated to HTML.\n\n    o\tDirect use of show.data() with no args was incorrect.\n\n    o\tprint.coefmat does sensible things if options\n\tshow.signif.stars and show.coef.Pvalues are not set correctly.\n\n    o\tx <- list(a=1, b=2) ; x[\"c\"] <- 3 now (again) stretches the list\n\trather than give a \"subscript out of bounds\" error.\n\n    o\tModels with response appearing on rhs could cause segfault.\n\n    o\tas.data.frame.matrix will now ensure the columns added have\n\tnon-empty names.\n\n    o\tSome (strange?) model formulas could cause memory corruption\n\t(thanks to John Fox for digging this up).\n\n    o\tMatrix multiplication in cases such as 1:3 %*% t(1:2) is accepted.\n\n    o\tOptions --nsize and --vsize to R CMD check gave warning\n\tmessages and only one was accepted.\n\n    o\tThe autoload()s during startup are \"wrapped\" such\n\tthat conflicting objects don't break startup.\n\n    o\tcor.test(*, meth=\"spear\") {pkg ctest} now works (again) for n <= 6\n\n    o\tscale = 0 in biplot.princomp() now works.\n\n    o\tThe scores given by princomp(, cor = TRUE) and the rotated\n\tvalues given by prcomp(, scale = TRUE) are now computed from the\n\tscaled data.\n\n    o\tbarplot now works okay when length(col) < length(legend.txt),\n\tthanks to Ben Bolker, PR#494.\n\n    o\tkernel(\"dirichlet\", m=10, r=1) in package ts now works.\n\n    o\tsave/restore of\t environments containing \"...\" object should\n\twork now.\n\n    o\tqhyper should work better for large N.\n\n    o\tqbinom(1-1e-16, n, p) , qpois() and qnbinom(*) looped for ever.\n\n    o\tas.matrix.data.frame no longer escapes quotes in character\n\tvectors.\n\n    o\tR would try to save the readline history at the end of\n\tnon-interactive sessions, causing crashes on some systems.\n\n    o\tSubtle roundoff problems caused arrays to be allocated short in\n\tloess.c in some cases, leading to segfaults.\n\n    o\tDocument that postscript(file=\"\") sends the output directly to\n\tthe default printer.\n\n    o\tts.union(, dframe=TRUE) had a long-standing typo, now works.\n\n    o\tsave(, ascii=TRUE) had problem with octal escapes in strings\n\twhen there was a digit following, should work now.\n\n    o\tmatpoints() and matlines() now also have a \"type =\" argument\n\twith defaults \"p\" and \"l\", respectively; PR#506.\n\n    o\tThe new Perl 5.6 broke our version-detection mechanism. A\n\tbetter one has been inserted.\n\n    o\tX11(colortype=\"gray\") failed to work on 8-bit screens, and\n\tmore generally when colour allocation failed X11() did not\n\trevert to monochrome correctly (and did not say it was doing so).\n\n\tIt was not documented in the help that to change the X11\n\tcolortype one needs to close all open X11 devices.\n\n    o\tloessf.f in modreg defined DSIGN unecessarily and this caused\n\ta conflict on AIX.\n\n    o\tplot.lm will now work with rlm objects.\n\n    o\tstart and end behave better when the frequency is not an integer.\n\n    o\taggregate.ts is closer to S-PLUS's aggregate.rts.\n\n    o\tquantile(x) now works when x contains several +/- Inf's.\n\n    o   guard against segfault in dataentry(0,0) (or, more\n        realistically, when mistyping data.entry(x,y) as\n\tdataentry(x,y))\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.0.1.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.1.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.1.tgz\n\nor wait for it to be",
+      "thread_id": "thread-f2a1f328e13d",
+      "thread_depth": 0,
+      "month": "2000-04"
+    },
+    {
+      "id": "msg-bfbe2d2ff133",
+      "message_id": "<20000420101925.47833@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "2000-04-20T10:19:25+01:00",
+      "subject": "New Windows binaries available",
+      "subject_clean": "New Windows binaries available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Windows binaries at CRAN (in bin/windows/Windows-NT/base) have been updated \nto R-1.0.1. See below for a list of Windows-specific changes.\n\nHappy Easter,\nguido masarotto\n\n\n\t\tWindows-specific changes to R\n\t\t=============================\n\nThe installer, rwinst.exe, now checks for ZIP files as well as zip files,\nas some browsers manage to map filenames to uppercase.\n\nThere are batch files  Rd2txt.bat Rdconv.bat Rdindex.bat Sd2Rd.bat\nwhich are the equivalent of the Unix `R CMD foo' utilities mentioned in\n`Writing R Extensions'.  To use these you must have R_HOME set as an\nenvironment variable (using the form P:/R/rw1001).  There is also a\nshell script Rd2dvi.sh which you can use if you have sh.exe (as\nused to compile packages) and latex etc. The environment variable\nXDVI sets the previewer, defaulting to xdvi.bat.\n\nA file `Makevars' in the `src' directory of a package can be used to\nadd to/override the MakeDll makefile used to make foo.dll, as on Unix.\n(See `Creating shared libraries', section 3.4 of `Writing R Extensions'.)\n\nUnder rare conditions (lots of very short input lines) the history buffer\ncould overrun and so cause crashes. This has been possible since rw0623,\nbut first caused reported problems in rw1000 and has now been fixed.\n\nCertain HP printer drivers (e.g. the 6/6MP-Postscript driver) reset the\nFPU and so were causing crashes.  This has been circumvented in this\nversion by restoring the settings before and after each page.\n\nBuilding on a non-default drive should be more reliable, as Perl is\nused to find the current drive.\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Windows binaries at CRAN (in bin/windows/Windows-NT/base) have been updated \nto R-1.0.1. See below for a list of Windows-specific changes.\n\nHappy Easter,\nguido masarotto\n\n\n\t\tWindows-specific changes t",
+      "thread_id": "thread-bfbe2d2ff133",
+      "thread_depth": 0,
+      "month": "2000-04"
+    },
+    {
+      "id": "msg-dcefc9420fcc",
+      "message_id": "<39098EBF.433374B5@bank-banque-canada.ca>",
+      "from_name": "Paul Gilbert",
+      "from_email_hash": "51f348dc0febec9b32e9d9dcb86f6de731958e1295e818209b4c127bffef5569",
+      "date": "2000-04-28T09:14:39-04:00",
+      "subject": "multivariate time series package",
+      "subject_clean": "multivariate time series package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "ANNOUNCEMENT            April 28, 2000\n\nAn R version of my multivariate time series package (DSE) is now available in\nthe devel area of CRAN. A short description follows below. The DSE bundle\nrequires two other packages which are also available in the devel area of CRAN\nand may be of interest by themselves.\n\nThe first, called syskern, provides a kernel of functions for S/R programmers.\nIt is intended to help write code which is independent of operating system\ndifferences and some small differences between S and R. Users of different\noperating systems are encouraged to contribute. It also includes a mechanism for\ngenerating the same random sequences in S and R, which can be especially useful\nfor testing other code.\n\nThe second, called tframe, provides a mechanism to make time series programs\nindependent of a data object's time representation. Using this it is possible to\nwrite code which can use new/better/different time representations when they\nappear. It also provides windowing, splicing, alternative plotting methods and\nsome other utility functions specifically for time series work.\n\nDSE implements an object oriented approach to time series models. This means\nthat different model representations can be added with fairly simple extensions\nto the library. The library includes multi-variate state space and ARMA models\n(including VAR models).\n\nMethods for simulating, estimating, and converting among different model\nrepresentations form the base part of the library in dse1, the first package of\nthe bundle. Methods for studying estimation methods and for examining the\nforecasting properties of models are in dse2, the second package in the bundle.\n\nThe syskern package (and thus tframe and dse) requires R 1.0.1.  I have run\nfairly extensive tests in Solaris and Linux. The code in syskern, tframe, dse1\nand dse2 is reasonably stable. The code in dse3 is much less stable (and still\nlargely undocumented).\n\nThe help documentation has been automatically converted from an older system so\nthat I can start to take advantage of R's capabilities for organizing and\ntesting help documentation. However, the converted help has not yet been\nextensively examined and the original was out of date in some respects. For this\nreason I have put the package in the devel area of CRAN. Comments on errors and\nomissions are appreciated.\n\nThe User's Guide for DSE is available at\n<http://www.bank-banque-canada.ca/pgilbert>.\n\n\nPaul Gilbert\nHead Statistician, Bank of Canada,\nMonetary and Financial Analysis Department\npgilbert at bank-banque-canada.ca\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "ANNOUNCEMENT            April 28, 2000\n\nAn R version of my multivariate time series package (DSE) is now available in\nthe devel area of CRAN. A short description follows below. The DSE bundle\nrequires",
+      "thread_id": "thread-dcefc9420fcc",
+      "thread_depth": 0,
+      "month": "2000-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f2a1f328e13d",
+      "subject": "R-1.0.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2000-04-14T11:47:09+02:00",
+      "last_reply": "2000-04-14T11:47:09+02:00",
+      "root_message_id": "msg-f2a1f328e13d"
+    },
+    {
+      "id": "thread-bfbe2d2ff133",
+      "subject": "New Windows binaries available",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "2000-04-20T10:19:25+01:00",
+      "last_reply": "2000-04-20T10:19:25+01:00",
+      "root_message_id": "msg-bfbe2d2ff133"
+    },
+    {
+      "id": "thread-dcefc9420fcc",
+      "subject": "multivariate time series package",
+      "message_count": 1,
+      "participants": [
+        "Paul Gilbert"
+      ],
+      "started": "2000-04-28T09:14:39-04:00",
+      "last_reply": "2000-04-28T09:14:39-04:00",
+      "root_message_id": "msg-dcefc9420fcc"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-01",
+  "messages": [
+    {
+      "id": "msg-0fb93ea977df",
+      "message_id": "<14931.27242.478863.484300@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-01-03T19:07:38+01:00",
+      "subject": "Mailing List Archives",
+      "subject_clean": "Mailing List Archives",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The HTML Mailing List Archives at\n\n\twww.R-project.org\n\nshould now get online updates, i.e., each mail is integrated into the\narchives directly after it has been sent to the list. Hence, searching\nin the subjects of mails can easily be done using your web browser's\nsearch function.\n\nA more powerful search engine (which also searches the bodies of the\nemails) will hopefully be added soon.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The HTML Mailing List Archives at\n\n\twww.R-project.org\n\nshould now get online updates, i.e., each mail is integrated into the\narchives directly after it has been sent to the list. Hence, searching\nin t",
+      "thread_id": "thread-0fb93ea977df",
+      "thread_depth": 0,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-55dab5357130",
+      "message_id": "<14933.55168.354361.737100@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-01-05T15:17:36+01:00",
+      "subject": "package e1071 upgrade",
+      "subject_clean": "package e1071 upgrade",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\nthe new version 1.1-0 of package e1071 is now on CRAN.\n\nChanges:\n*) use libsvm 2.1 for support vector machines. We are now also a kind\nof ``official'' R frontend to libsvm and linked from their homepage at\nhttp://www.csie.ntu.edu.tw/~cjlin/libsvm\n*) new functions for comparing partitions\n\n\nBest,\nFritz\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\nthe new version 1.1-0 of package e1071 is now on CRAN.\n\nChanges:\n*) use libsvm 2.1 for support vector machines. We are now also a kind\nof ``official'' R frontend to libsvm and linked from their h",
+      "thread_id": "thread-55dab5357130",
+      "thread_depth": 0,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-e7f0bb698fb2",
+      "message_id": "<14933.64762.538133.929972@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-01-05T17:57:30+01:00",
+      "subject": "package multiv upgrade",
+      "subject_clean": "package multiv upgrade",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thanks to Peter Dalgaard, Kurt Hornik and Achim Zeileis there is now a\nnew version (1.1-2) of package multiv on CRAN which passes R CMD\ncheck. All examples have been modified to use data sets available in R\nand a bug in a call to Fortran has been fixed. The remaining changes\nare mostly cosmetics.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Thanks to Peter Dalgaard, Kurt Hornik and Achim Zeileis there is now a\nnew version (1.1-2) of package multiv on CRAN which passes R CMD\ncheck. All examples have been modified to use data sets availabl",
+      "thread_id": "thread-e7f0bb698fb2",
+      "thread_depth": 0,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-74cff42550a0",
+      "message_id": "<3A57FC6D.7E444C3A@warnes.net>",
+      "from_name": "Gregory R. Warnes",
+      "from_email_hash": "dfeee40bf383e378e8e21e0530c1024de0ef6e5b6d0801b286ba54ff888a75a9",
+      "date": "2001-01-06T21:19:41-08:00",
+      "subject": "HYDRA Java library for Markov Chain Monte Carlo.",
+      "subject_clean": "HYDRA Java library for Markov Chain Monte Carlo.",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Announcing the first release of the HYDRA Java library for Markov\nChain Monte Carlo.\n\nHYDRA is an open-source, platform-neutral library for performing\nMarkov Chain Monte Carlo. It implements the logic of standard MCMC\nsamplers within a framework designed to be easy to use and to extend\nwhile allowing integration with other software tools.\n\nHYDRA provides methods for implementing MCMC samplers using\nMetropolis, Metropolis-Hastings, Gibbs methods. In addition, it\nprovides classes implementing several unique adaptive and multiple\nchain/parallel MCMC methods.  It was developed as part of my\nPh.D. thesis work at the University of Washington.\n\nThe Hydra package is available from:\n\n http://www.warnes.net/Hydra\n\nMy thesis, which describes one of the adaptive MCMC algorithms and\ngives an tutorial on constructing MCMC samplers using the HYDRA\nlibrary is available at\n\n http://www.warnes.net/MCMC\n\n-Greg Warnes <greg at warnes.net>\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Announcing the first release of the HYDRA Java library for Markov\nChain Monte Carlo.\n\nHYDRA is an open-source, platform-neutral library for performing\nMarkov Chain Monte Carlo. It implements the logic",
+      "thread_id": "thread-74cff42550a0",
+      "thread_depth": 0,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-b2c4ac1f4f2a",
+      "message_id": "<x2puhp2i1l.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2001-01-15T12:04:06+01:00",
+      "subject": "R 1.2.1 is released",
+      "subject_clean": "R 1.2.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.2.1.tgz a moment ago. This is mainly a bugfix\nand minor tweaks release, although some new features (notably factor\nanalysis) has sneaked in.  \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.2.1.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.2.1.tgz\n\nor wait for it to be mirrored at a CRAN site near you within a day or two.\n\nThere's also a version split in three for floppies and a patch file\nagainst 1.2.0.\n\n\tFor the R Core Team,\n\n\tPeter D.\n\nHere's the relevant part of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 1.2.1\n\n\nNEW FEATURES\n\n    o\tNew functions factanal(), varimax(), promax() and examples in\n\tpackage mva.\n\n    o\tNew functions readBin() and writeBin() to transfer binary data\n\tto and from connections.\n\n    o\tmerge() is partially moved to C to reduce its memory usage.\n\n    o\tlibrary(help = PKG) now displays the contents of the package's\n\tDESCRIPTION file in addition to its INDEX.\n\n    o\tSd2Rd can handle S4-style documentation too: see `Writing R\n\tExtensions'.\n\n    o\tprompt() now also works with a character argument (useful for\n\tproducing many *.Rd files in a loop).\n\n    o\tThe Unix front-end shell script now ignores a value for R_HOME\n\tfound in the environment.\n\n    o\tConnections functions such as file() now accept a description of\n\tlength > 1, with a warning.\n\n    o\tAll text-mode connections now accept input with LF, CR or CRLF\n\tline endings.  This means that readLines() can be used on DOS\n\tfiles and source() on Mac files, for example.\n\n\tAlso, CRLF-terminated files can be used as stdin on Unix, and\n\tfiles with last lines without an EOL mark can be used as stdin\n\tand source()-ed on Unix and Windows.\n\n    o\tDESCRIPTION file has a new recommended `Maintainer:' field.\n\n    o\tstars() now uses a larger \"cex\" for the labels, and cex and lwd\n\tare now arguments. Further, the argument names (xlim, ylim,\n\taxes) are now consistent with other plot functions.  The key symbol\n\tis not clipped anymore into the plot region by default.\n\n    o\tDate-time quantities are now printed with the timezone, if known.\n\n    o\tR CMD build now ignores all files specified (via Perl regexps)\n\tin file `.Rbuildignore' in the top-level source\tdirectory of a\n\tpackage.\n\n    o\tHorizontal boxplots are possible with  horizontal = TRUE.\n\n    o\tall.equal() on lists now compares them as generic vectors, that\n\tis they are equal if have identical names attributes and\n\tall components are equal.\n\n    o\tInvalid lines in .Renviron now give warnings when R is started.\n\n    o\tArgument `na.last' implemented for rank().\n\n\nBUG FIXES\n\n    o   There have been many small improvements/corrections in the\n\tdocumentation. In particular:\n\n\tThe help pages for lm and glm now describe the fitted objects.\n\n\tis.vector() is now correctly documented: complex vectors and\n\tlists return TRUE.\n\n    o   The default sortedXyData constructor in the nls package now\n        handles missing values in the response.\n\n    o\tOn startup, file .RData is now restored *after* the site and\n\tuser profiles are loaded (if at all).  This is as previously\n\tdocumented.\n\n    o\tas.POSIXlt (and *ct) operating on a character string\n\tonly extracted the date (and not the time) in some cases.\n\n    o\tas.POSIXct() on character objects was ignoring `tz'.\n\n    o\tcodoc(ignore.generic.functions = TRUE) works again.\n\n    o\tExplicitly close files opened by sink() for OSes (such as\n\tWindows) that benefit from it.\n\n    o\tPrevent closing the sink connection (which would be a silly\n\tthing to do).\n\n    o\tshowConnections(all = TRUE) was sometimes counting connections\n\tincorrectly, and so not showing some closed ones.\n\n    o\tts(1:10, start= c(1999,6), end = c(2000,3), frequency = 12)\n\tnow prints both years (as it should).\n\n    o\tMonthly multivariate time series now print proper month names\n\tin all cases.\n\n    o\tprint.stl(), print.princomp() and print.prcomp() now pass on\n\t`digits =' etc.\n\n    o\tprompt() now produces a \\usage{} line for data frames and\n\tother datasets, as documented in `Writing R Extensions'.\n\n    o\tglm() now returns correct linear predictor and fitted values\n\tfor zero-weight cases.\n\n    o\tscan(strip.white=TRUE) and readline() could give incorrect\n\tanswers when an input field was empty or blank.\n\n    o\tdchisq() now behaves better for large values of its ncp parameter.\n\n    o\tbesselJ(*, nu) is now ok for nu < 1; fix improves accuracy of\n\tother values by a few bits as well.\n\n    o\tThe convergence criterion in the Fortran SVD code has been\n\tchanged to circumvent spurious convergence errors when\n\tcomparing extended-precision quantities on ix86 Linux (and\n\tsome compilers and options).\n\n    o\tRdindex now handles multi-line \\title{}'s correctly.\n\n    o\tAdd weights.glm() so that plot.lm() gets the correct weights from\n\tglm objects (the ones that go with deviance residuals not the\n\tworking residuals).\n\n    o\tPrinting a language object (e.g. a formula) in a list was\n\tclobbering the buffer holding the tag labels which then were\n\tlost in subsequent lines of printout (PR#746).\n\n    o\taic in family() objects is now computed more precisely using\n\tdxxxx(log=TRUE).  For binomial fits the value was wrong for\n\tmodels specified via proportions and weights (PR#796).\n\n\tAvoid NaN values in aic where n = 0 occurs.\n\n    o\tUsing non-integer numbers of successes in a binomial glm (as\n\tformerly in demo(lm.glm)) now gives a warning, as the theory and\n\tin particular the AIC value is not applicable.\n\n    o\tdemo(is.things) works again {is.ALL() doesn't call methods\n\tanymore}.\n\n    o\tpersp(*, nticks = nn) now works (better) for too small nn.\n\tpersp(*, main = t1, sub= t2) now work (as always documented).\n\n    o\tPrinting of attributes of a list element no longer precedes\n\t`attr' by the tag (PR#715).\n\n    o\tIt is no longer possible to use df[foo] to select non-existent\n\tcolumns in df and so create an invalid object of class\n\t\"data.frame\" (PR#698).\n\n    o\tedit.data.frame() was trying to set row.names on a list, which\n\tis no longer allowed.\n\n    o\tIn the \\link[pkg]{topic}, `pkg' was not being used if `topic'\n\twas found in a package in .lib.loc.  Now `pkg' is always used.\n\n    o\tplot() with small relative ranges gave an error, which e.g. broke\n\tlibrary(ts); plot(stl(ts(rep(1:7, 15), freq = 7), s.win = \"per\"))\n\n    o\tUsing scan() with a 0-length `what' argument now gives an error\n\tmessage rather than a segfault.\n\n    o\tLoading .Random.seed could extremely rarely and with some\n\tgenerators reject a value as NA_INTEGER when it was valid.\n\n    o   save(..., ascii=TRUE) created broken files when saving strings\n        containing special characters (ASCII code > 127).\n\n    o\tmean(c(1,NA,NA,NA)[-1], trim = .1, na.rm = TRUE) doesn't give an\n\terror anymore.\n\n    o\tAs the supplied afm files are not properly in the ISOLatin1\n\tencoding, the font metric for \"-\" was wrong since 0.63 on a\n\tpostscript/xfig device, and randomly wrong in 1.2.0.  It will\n\tnow be correct (but the files remain incorrect: C45 is \"minus\"\n\tnot \"hyphen\" and there are missing slots).\n\n\tMetrics for the duplicated characters (acute, dieresis,\n\tmacron, space) in ISOLatin1 encoding are now correct for both\n\toccurrences: previously only one was present.\n\n    o\tThe data-time functions try harder to guess the DST setting\n\twhen the OS does not know, as some OSes were printing times\n\tin DST if this was marked as unknown.\n\n    o\tSetting par(pty=) after par(pin=) or par(plt=) was having no\n\teffect until the margins were set.\n\n    o\tNested \\describe sections in .Rd files have (again) nested\n\tindentation when converted to text.\n\n    o\tConcatenation of C strings by ## is no longer used, to avoid\n\tspurious warnings from some recent versions of gcc.\n\n    o\tdev.copy2eps() allows a `paper' argument to be passed to\n\tpostscript().\n\n    o\tfile.show() handles the case of zero files better.\n\n    o\tformula.lm uses object$formula if it exists, in preference \n\tto object$terms.\n\n    o\tstrsplit() is corrected for an empty split pattern.\n\n    o\tkronecker() now does a better job when creating dimnames.\n\n    o\tBetter handling of input dimnames in fourfoldplot().\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.2.1.tgz a moment ago. This is mainly a bugfix\nand minor tweaks release, although some new features (notably factor\nanalysis) has sneaked in.  \n\nYou can get it from\n\nftp://cvs.r-proj",
+      "thread_id": "thread-b2c4ac1f4f2a",
+      "thread_depth": 0,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-b814c20c7d47",
+      "message_id": "<6rofx97yew.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2001-01-15T07:11:35-06:00",
+      "subject": "R-1.2.1 available from rsync.r-project.org",
+      "subject_clean": "R-1.2.1 available from rsync.r-project.org",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The R-1.2.1 sources are now available via rsync as rsync.r-project.org::r-release \n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The R-1.2.1 sources are now available via rsync as rsync.r-project.org::r-release \n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http:",
+      "thread_id": "thread-b814c20c7d47",
+      "thread_depth": 0,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-20c27aa6c747",
+      "message_id": "<Pine.GSO.4.21.0101151050480.18938-100000@atlas.biostat.washington.edu>",
+      "from_name": "Thomas Lumley",
+      "from_email_hash": "61bcce0fdf9d5f23a30b727658d7a47ac11811000a72b388d394906e16dc4416",
+      "date": "2001-01-15T11:03:35-08:00",
+      "subject": "announce: survival5 bug fix",
+      "subject_clean": "announce: survival5 bug fix",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Anyone using the penalised partial likelihood routines in survival5 should\nupdate their version. \n\nA bug has been fixed in the S package: in coxph() models with penalised\nlikelihood and strata it was possible in some circumstances to get an\ninfinite loop or perhaps an incorrect answer. \n\nThe new version (2.3) is on cran.r-project.org and will percolate through\nCRAN in the next few days.\n\n\t-thomas\n\nThomas Lumley\t\t\tAsst. Professor, Biostatistics\ntlumley at u.washington.edu\tUniversity of Washington, Seattle\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Anyone using the penalised partial likelihood routines in survival5 should\nupdate their version. \n\nA bug has been fixed in the S package: in coxph() models with penalised\nlikelihood and strata it was ",
+      "thread_id": "thread-20c27aa6c747",
+      "thread_depth": 0,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-03a15681c903",
+      "message_id": "<20010119085923.07174@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "2001-01-19T08:59:23+01:00",
+      "subject": "R 1.2.1 for Windows",
+      "subject_clean": "R 1.2.1 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Windows binaries at CRAN (http://cran.r-project.org)  have been updated \nto R-1.2.1.  See below for the list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\tWindows-specific changes to R\n\t\t=============================\n\nPipe connections now work under RGui and embedded R.dll, although\nslower than under Rterm, and as they run with no stdin or stdout to\ninherit what you can do with them is limited.  They work better for\nreading than writing.\n\nThe installer will no longer crash trying to install addons with a\nlong PATH and R_HOME not set.  Similarly, Rcmd accepts long paths.\n\nUsing Rcmd INSTALL with an incorrect path specification ending in \\ no\nlonger runs amok.\n\nInternal pager no longer fails when given a file of one line and no\nline ending.\n\nHyperlinks to other packages in CHTML files launched by help() will\nnow work irrespective of the working directory (but like HTML, only\nto packages in the same library).  The .chm files do need to be\nre-built under this version.\n\nhelp(, winhelp=TRUE) will now find alias topics as well as main items.\n\nHitting the total memory allocation limit set by --max-mem-size will\ngive a warning (and will usually also lead to an error, and that may\nsuppress printing out the warning).\n\nThere is a new make target test-Reg to run the regression tests (which\nnow do I/0, so might give different results on Windows).\n\nRcmd build with the latest tar.exe will exclude files as intended.\n\nThere are further improvements in the GUI console receiving output\n(e.g. from tcltk interactive functions) during input.  If you can,\narrange to send output in a single piece, or at least a whole line at\na time (although partial lines will now work).  For example, don't use\nprint() but capture the output in a text connection and use something\nlike cat(paste(outlines, \"\", collapse=\"\\n)) to output a single string.\n\nThe initial rescaling is no longer done for windows(rescale=\"fixed\"),\nand the scrollbars in that mode are more responsive but move the\nviewport 20 pixels at a time.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Windows binaries at CRAN (http://cran.r-project.org)  have been updated \nto R-1.2.1.  See below for the list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\tWindows-specific ch",
+      "thread_id": "thread-03a15681c903",
+      "thread_depth": 0,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-38d543543c99",
+      "message_id": "<a05001900b68e2542a990@[159.149.74.61]>",
+      "from_name": "Stefano Iacus",
+      "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
+      "date": "2001-01-19T18:17:02+01:00",
+      "subject": "R 1.2.1 (beta) for Macintosh",
+      "subject_clean": "R 1.2.1 (beta) for Macintosh",
+      "in_reply_to": "<20010119085923.07174@hal.stat.unipd.it>",
+      "references": [
+        "<20010119085923.07174@hal.stat.unipd.it>"
+      ],
+      "body_plain": "Macintosh binaries and sources have been updated to R-1.2.1\n\nYou can find them at\n\n\t\t\thttp://www.eco-dip.unimi.it/R\n\nPlease remember that this is still at a developer stage. Feedback and \ninteractions with other Macintosh developer is warmly welcome.\n\n\t\t\tMacintosh-specific changes to R\n\t\t\t===============================\n\n* help.start() has been implemented. Now R for MacOS calls the \nstandard HTML browser to visualize the HTML help and manuals.\n\n* getenv() in now working. The .Renviron file is assumed to be in \n\"etc\" directory. Directory \"etc\" is assumed to contain the history \nfile, the image session and the environments variables\n\n* a command line has been added. It is possible to specify options as \nin the Unix/Win implementations. If you don't want to specify \noptions, simply type return after starting R aplication.\n\n* InfoZip code has been included in this version. Help files are now \nstored in zipped archive to save disk space.\n\n* packages have been recompiled and few other bugs fixed\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Macintosh binaries and sources have been updated to R-1.2.1\n\nYou can find them at\n\n\t\t\thttp://www.eco-dip.unimi.it/R\n\nPlease remember that this is still at a developer stage. Feedback and \ninteractions",
+      "thread_id": "thread-03a15681c903",
+      "thread_depth": 1,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-2eb48f9e989a",
+      "message_id": "<14958.46484.299690.315352@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-01-24T11:59:32+01:00",
+      "subject": "R News Volume 1/1",
+      "subject_clean": "R News Volume 1/1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are pleased to announce the first volume of R News, the\nnewsletter of the R project for statistical computing. The newsletter\nis available online as PDF file at\n\n\thttp://cran.R-project.org/doc/Rnews\n\nand will propagate to the CRAN mirrors within the next days.\n\nR News will feature short to medium length articles covering topics\nthat might be of interest to users or developers of R, including\n\n* Changes in R: new features of the latest release \n* Changes on CRAN: new add-on packages, manuals, binary distributions,\n  mirrors, ... \n* Add-on packages: short introductions to or reviews of R extension packages \n* Programmer's Niche: nifty hints for programming in R (or S) \n* Applications: Examples of analyzing data with R \n\nThe newsletter as a medium for communication intends to fill the gap\nbetween the R mailing lists and scientific journals: Compared with\nemails it is more persistent, one can cite articles in the newsletter\nand because the newsletter is edited it has better quality control. On\nthe other hand, when compared to scientific journals, it is faster,\nless formal, and last but not least focused on R.\n\nAs all of R, R News is a volunteer project. The editorial board\ncurrently consists of the R core development team plus Bill\nVenables.\n\nWe really hope you will enjoy reading R News!\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We are pleased to announce the first volume of R News, the\nnewsletter of the R project for statistical computing. The newsletter\nis available online as PDF file at\n\n\thttp://cran.R-project.org/doc/Rnew",
+      "thread_id": "thread-2eb48f9e989a",
+      "thread_depth": 0,
+      "month": "2001-01"
+    },
+    {
+      "id": "msg-b301e27854c0",
+      "message_id": "<01012500203405.00669@ligarto>",
+      "from_name": "Ramon Diaz-Uriarte",
+      "from_email_hash": "33d6c4d06bd87bc361d06ebf469b627fcb2e587ed8a8db948787a784679e7793",
+      "date": "2001-01-24T20:09:23+01:00",
+      "subject": "R News Volume 1/1",
+      "subject_clean": "R News Volume 1/1",
+      "in_reply_to": "<14958.46484.299690.315352@galadriel.ci.tuwien.ac.at>",
+      "references": [
+        "<14958.46484.299690.315352@galadriel.ci.tuwien.ac.at>"
+      ],
+      "body_plain": "Thanks a lot and congratulations to the editors and contributors!!! It is really\nawesome.\n\nRam?n\n\nOn Wed, 24 Jan 2001, Friedrich Leisch wrote:\n> We are pleased to announce the first volume of R News, the\n> newsletter of the R project for statistical computing. The newsletter\n> is available online as PDF file at\n> \n> \thttp://cran.R-project.org/doc/Rnews\n> \n> and will propagate to the CRAN mirrors within the next days.\n> \n> R News will feature short to medium length articles covering topics\n> that might be of interest to users or developers of R, including\n> \n> * Changes in R: new features of the latest release \n> * Changes on CRAN: new add-on packages, manuals, binary distributions,\n>   mirrors, ... \n> * Add-on packages: short introductions to or reviews of R extension packages \n> * Programmer's Niche: nifty hints for programming in R (or S) \n> * Applications: Examples of analyzing data with R \n> \n> The newsletter as a medium for communication intends to fill the gap\n> between the R mailing lists and scientific journals: Compared with\n> emails it is more persistent, one can cite articles in the newsletter\n> and because the newsletter is edited it has better quality control. On\n> the other hand, when compared to scientific journals, it is faster,\n> less formal, and last but not least focused on R.\n> \n> As all of R, R News is a volunteer project. The editorial board\n> currently consists of the R core development team plus Bill\n> Venables.\n> \n> We really hope you will enjoy reading R News!\n> \n> For the editorial board,\n> Fritz Leisch\n> \n> -- \n> -------------------------------------------------------------------\n>                         Friedrich  Leisch \n> Institut f?r Statistik                     Tel: (+43 1) 58801 10715\n> Technische Universit?t Wien                Fax: (+43 1) 58801 10798\n> Wiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\n> A-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n> -------------------------------------------------------------------\n> \n> -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\n> r-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\n> Send \"info\", \"help\", or \"[un]subscribe\"\n> (in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n> _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._\n-- \nRam?n D?az-Uriarte\nTriana 47\n28016 Madrid\nSpain\n\nemail:ramon-diaz at teleline.es\nPhone: +-34-918-513-966\n       +-34-657-186-407\t\n\n\n\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Thanks a lot and congratulations to the editors and contributors!!! It is really\nawesome.\n\nRam?n\n\nOn Wed, 24 Jan 2001, Friedrich Leisch wrote:\n> We are pleased to announce the first volume of R News, ",
+      "thread_id": "thread-2eb48f9e989a",
+      "thread_depth": 1,
+      "month": "2001-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0fb93ea977df",
+      "subject": "Mailing List Archives",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "2001-01-03T19:07:38+01:00",
+      "last_reply": "2001-01-03T19:07:38+01:00",
+      "root_message_id": "msg-0fb93ea977df"
+    },
+    {
+      "id": "thread-55dab5357130",
+      "subject": "package e1071 upgrade",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "2001-01-05T15:17:36+01:00",
+      "last_reply": "2001-01-05T15:17:36+01:00",
+      "root_message_id": "msg-55dab5357130"
+    },
+    {
+      "id": "thread-e7f0bb698fb2",
+      "subject": "package multiv upgrade",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "2001-01-05T17:57:30+01:00",
+      "last_reply": "2001-01-05T17:57:30+01:00",
+      "root_message_id": "msg-e7f0bb698fb2"
+    },
+    {
+      "id": "thread-74cff42550a0",
+      "subject": "HYDRA Java library for Markov Chain Monte Carlo.",
+      "message_count": 1,
+      "participants": [
+        "Gregory R. Warnes"
+      ],
+      "started": "2001-01-06T21:19:41-08:00",
+      "last_reply": "2001-01-06T21:19:41-08:00",
+      "root_message_id": "msg-74cff42550a0"
+    },
+    {
+      "id": "thread-b814c20c7d47",
+      "subject": "R-1.2.1 available from rsync.r-project.org",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2001-01-15T07:11:35-06:00",
+      "last_reply": "2001-01-15T07:11:35-06:00",
+      "root_message_id": "msg-b814c20c7d47"
+    },
+    {
+      "id": "thread-20c27aa6c747",
+      "subject": "announce: survival5 bug fix",
+      "message_count": 1,
+      "participants": [
+        "Thomas Lumley"
+      ],
+      "started": "2001-01-15T11:03:35-08:00",
+      "last_reply": "2001-01-15T11:03:35-08:00",
+      "root_message_id": "msg-20c27aa6c747"
+    },
+    {
+      "id": "thread-b2c4ac1f4f2a",
+      "subject": "R 1.2.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2001-01-15T12:04:06+01:00",
+      "last_reply": "2001-01-15T12:04:06+01:00",
+      "root_message_id": "msg-b2c4ac1f4f2a"
+    },
+    {
+      "id": "thread-03a15681c903",
+      "subject": "R 1.2.1 for Windows",
+      "message_count": 2,
+      "participants": [
+        "Guido Masarotto",
+        "Stefano Iacus"
+      ],
+      "started": "2001-01-19T08:59:23+01:00",
+      "last_reply": "2001-01-19T18:17:02+01:00",
+      "root_message_id": "msg-03a15681c903"
+    },
+    {
+      "id": "thread-2eb48f9e989a",
+      "subject": "R News Volume 1/1",
+      "message_count": 2,
+      "participants": [
+        "Friedrich Leisch",
+        "Ramon Diaz-Uriarte"
+      ],
+      "started": "2001-01-24T11:59:32+01:00",
+      "last_reply": "2001-01-24T20:09:23+01:00",
+      "root_message_id": "msg-2eb48f9e989a"
+    }
+  ]
+}

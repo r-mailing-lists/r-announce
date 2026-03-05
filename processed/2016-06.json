@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2016-06",
+  "messages": [
+    {
+      "id": "msg-7abb9144765c",
+      "message_id": "<D968F122-374F-42C9-ADAD-38EEE90FED56@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2016-06-21T08:06:45Z",
+      "subject": "[R]  R 3.3.1 is released",
+      "subject_clean": "R 3.3.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The build system rolled up R-3.3.1.tar.gz (codename \"Bug in Your Hair\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/base/R-3/R-3.3.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n\nFor the R Core Team,\n\nPeter Dalgaard\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nMD5 (AUTHORS) = eb97a5cd38acb1cfc6408988bffef765\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = 1f3efdc0790126ceef40a14f8f70af83\nMD5 (INSTALL) = 3964b9119adeaab9ceb633773fc94aac\nMD5 (NEWS) = 2fa93210e18cc0e20b0636480ee283ff\nMD5 (NEWS.0) = bfcd7c147251b5474d96848c6f57e5a8\nMD5 (NEWS.1) = eb78c4d053ec9c32b815cf0c2ebea801\nMD5 (NEWS.2) = 8e2f4d1d5228663ae598a09bf1e2bc6b\nMD5 (R-latest.tar.gz) = f50a659738b73036e2f5635adbd229c5\nMD5 (README) = aece1dfbd18c1760128c3787f5456af6\nMD5 (RESOURCES) = 529223fd3ffef95731d0a87353108435\nMD5 (THANKS) = f80d02e7ba9729a927e1c9cf7b435b32\nMD5 (VERSION-INFO.dcf) = 5b73f37889f8a3f1d2dd5cbc8d309b93\nMD5 (R-3/R-3.3.1.tar.gz) = f50a659738b73036e2f5635adbd229c5\n\n\nThis is the relevant part of the NEWS file\n\nCHANGES IN R 3.3.1:\n\n  BUG FIXES:\n\n    * R CMD INSTALL and hence install.packages() gave an internal error\n      installing a package called description from a tarball on a\n      case-insensitive file system.\n\n    * match(x, t) (and hence x %in% t) failed when x was of length one,\n      and either character and x and t only differed in their Encoding\n      or when x and t where complex with NAs or NaNs.  (PR#16885.)\n\n    * unloadNamespace(ns) also works again when ns is a 'namespace', as\n      from getNamespace().\n\n    * rgamma(1,Inf) or rgamma(1, 0,0) no longer give NaN but the\n      correct limit.\n\n    * length(baseenv()) is correct now.\n\n    * pretty(d, ..) for date-time d rarely failed when \"halfmonth\" time\n      steps were tried (PR#16923) and on 'inaccurate' platforms such as\n      32-bit windows or a configuration with --disable-long-double; see\n      comment #15 of PR#16761.\n\n    * In text.default(x, y, labels), the rarely(?) used default for\n      labels is now correct also for the case of a 2-column matrix x\n      and missing y.\n\n    * as.factor(c(a = 1L)) preserves names() again as in R < 3.1.0.\n\n    * strtrim(\"\"[0], 0[0]) now works.\n\n    * Use of Ctrl-C to terminate a reverse incremental search started\n      by Ctrl-R in the readline-based Unix terminal interface is now\n      supported for readline >= 6.3 (Ctrl-G always worked).  (PR#16603)\n\n    * diff(<difftime>) now keeps the \"units\" attribute, as subtraction\n      already did, PR#16940.",
+      "body_snippet": "The build system rolled up R-3.3.1.tar.gz (codename \"Bug in Your Hair\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/",
+      "thread_id": "thread-7abb9144765c",
+      "thread_depth": 0,
+      "month": "2016-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7abb9144765c",
+      "subject": "R 3.3.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2016-06-21T08:06:45+00:00",
+      "last_reply": "2016-06-21T08:06:45+00:00",
+      "root_message_id": "msg-7abb9144765c"
+    }
+  ]
+}

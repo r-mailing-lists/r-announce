@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2004-03",
+  "messages": [
+    {
+      "id": "msg-00fe0c5154b2",
+      "message_id": "<20040322204942.14bdae25.Achim.Zeileis@wu-wien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2004-03-22T20:49:42+01:00",
+      "subject": "useR! 2004 program online",
+      "subject_clean": "useR! 2004 program online",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear useRs,\n\nthe program for the first R user conference useR! 2004 (taking place in\nVienna, May 20-22) is now available online at the conference web page:\n\n  http://www.ci.tuwien.ac.at/Conferences/useR-2004/program.html\n\nWe received many exciting abstracts about a wide spectrum of\napplications in which R is used. This is reflected in the program and I\nthink we can look forward to a very interesting useR! conference.\nNote that the early registration deadline is 2004-03-31 so that you can\nstill register as an early bird if you want to visit this event.\n\nFor the organizing committee,\nAchim Zeileis, Torsten Hothorn, and David Meyer",
+      "body_snippet": "Dear useRs,\n\nthe program for the first R user conference useR! 2004 (taking place in\nVienna, May 20-22) is now available online at the conference web page:\n\n  http://www.ci.tuwien.ac.at/Conferences/us",
+      "thread_id": "thread-00fe0c5154b2",
+      "thread_depth": 0,
+      "month": "2004-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-00fe0c5154b2",
+      "subject": "useR! 2004 program online",
+      "message_count": 1,
+      "participants": [
+        "Achim Zeileis"
+      ],
+      "started": "2004-03-22T20:49:42+01:00",
+      "last_reply": "2004-03-22T20:49:42+01:00",
+      "root_message_id": "msg-00fe0c5154b2"
+    }
+  ]
+}

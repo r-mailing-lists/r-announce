@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2011-11",
+  "messages": [
+    {
+      "id": "msg-2842b13d1cfc",
+      "message_id": "<4EB050A4.2080803@gmail.com>",
+      "from_name": "Duncan Murdoch",
+      "from_email_hash": "17e1fcd7901e6a11dc6bc3ede542d46252611499631dfb4199936939fda2e399",
+      "date": "2011-11-01T16:03:48-04:00",
+      "subject": "Windows binary of 2.14.0",
+      "subject_clean": "Windows binary of 2.14.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "To all Windows users:\n\nThe binary build of 2.14.0 that was uploaded yesterday was missing Cairo \nsupport.  I have rebuilt it, and uploaded a new copy.\n\nYou can tell which one you have by running \"svg()\", which works on the \nnew one, but not the old one.\n\nYou can tell which one is on your CRAN mirror by looking at the last \nchanged date:  it is today (November 1) for the corrected build.\n\nSorry for the inconvenience....\n\nDuncan Murdoch",
+      "body_snippet": "To all Windows users:\n\nThe binary build of 2.14.0 that was uploaded yesterday was missing Cairo \nsupport.  I have rebuilt it, and uploaded a new copy.\n\nYou can tell which one you have by running \"svg(",
+      "thread_id": "thread-2842b13d1cfc",
+      "thread_depth": 0,
+      "month": "2011-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2842b13d1cfc",
+      "subject": "Windows binary of 2.14.0",
+      "message_count": 1,
+      "participants": [
+        "Duncan Murdoch"
+      ],
+      "started": "2011-11-01T16:03:48-04:00",
+      "last_reply": "2011-11-01T16:03:48-04:00",
+      "root_message_id": "msg-2842b13d1cfc"
+    }
+  ]
+}

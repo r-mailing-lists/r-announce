@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2021-07",
+  "messages": [
+    {
+      "id": "msg-eb7ff90a9842",
+      "message_id": "<4CAF26B5-9712-4083-8839-F77BC51453C9@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "d9fd91d299a75b5bb12e8fe56282f6e3ab90721fbb5cc61dd67258dc21f7ad2a",
+      "date": "2021-07-10T09:51:41Z",
+      "subject": "[Rd] R 4.1.1 scheduled for August 10",
+      "subject_clean": "R 4.1.1 scheduled for August 10",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Full schedule is available on developer.r-project.org.\n\n(This comes somewhat late this year, partly because we needed to squeeze in 4.0.5 before 4.1.0 could be released.)\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Full schedule is available on developer.r-project.org.\n\n(This comes somewhat late this year, partly because we needed to squeeze in 4.0.5 before 4.1.0 could be released.)\n\n-- \nPeter Dalgaard, Professo",
+      "thread_id": "thread-eb7ff90a9842",
+      "thread_depth": 0,
+      "month": "2021-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-eb7ff90a9842",
+      "subject": "R 4.1.1 scheduled for August 10",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2021-07-10T09:51:41+00:00",
+      "last_reply": "2021-07-10T09:51:41+00:00",
+      "root_message_id": "msg-eb7ff90a9842"
+    }
+  ]
+}

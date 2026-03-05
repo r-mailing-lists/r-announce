@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2007-12",
+  "messages": [
+    {
+      "id": "msg-fce73c8e4576",
+      "message_id": "<Pine.LNX.4.64.0712190906510.5625@localhost.localdomain>",
+      "from_name": "Torsten Hothorn",
+      "from_email_hash": "59c0b6bfed605afd17a9370546385b9e736f601337d50ed826fdbf0e44aa60c9",
+      "date": "2007-12-19T09:07:51+01:00",
+      "subject": "R News, volume 7, issue 3 is now available",
+      "subject_clean": "R News, volume 7, issue 3 is now available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear useRs,\n\nThe December 2007 issue of `R News' is now available on CRAN under the\nDocumentation/Newsletter link.\n\nTorsten\n(on behalf of the R News Editorial Board)",
+      "body_snippet": "Dear useRs,\n\nThe December 2007 issue of `R News' is now available on CRAN under the\nDocumentation/Newsletter link.\n\nTorsten\n(on behalf of the R News Editorial Board)",
+      "thread_id": "thread-fce73c8e4576",
+      "thread_depth": 0,
+      "month": "2007-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-fce73c8e4576",
+      "subject": "R News, volume 7, issue 3 is now available",
+      "message_count": 1,
+      "participants": [
+        "Torsten Hothorn"
+      ],
+      "started": "2007-12-19T09:07:51+01:00",
+      "last_reply": "2007-12-19T09:07:51+01:00",
+      "root_message_id": "msg-fce73c8e4576"
+    }
+  ]
+}

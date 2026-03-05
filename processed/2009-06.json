@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2009-06",
+  "messages": [
+    {
+      "id": "msg-11d866f6e051",
+      "message_id": "<4A2D3105.9000103@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2009-06-08T17:40:53+02:00",
+      "subject": "DSC 2009, scientific programme",
+      "subject_clean": "DSC 2009, scientific programme",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The as-good-as final scientific programme has been posted on the\nconference website http://www.r-project.org/dsc-2009\n\nThe absolutely final date for regular registration is July 5, but\nearlier registration is preferred and certainly recommended if you wish\nto book hotels via the conference bureau.\n\nOn behalf of the Programme and Organizing Committees\nPeter Dalgaard\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "The as-good-as final scientific programme has been posted on the\nconference website http://www.r-project.org/dsc-2009\n\nThe absolutely final date for regular registration is July 5, but\nearlier registr",
+      "thread_id": "thread-11d866f6e051",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-61ac7d4f2b4e",
+      "message_id": "<4A365CD6.7050303@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2009-06-15T16:38:14+02:00",
+      "subject": "R 2.9.1 Scheduled for June 26, 2009",
+      "subject_clean": "R 2.9.1 Scheduled for June 26, 2009",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.9.1 on Friday,\nJune 26, 2009.\n\nRelease procedures start Tuesday, June 16.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) and the tarballs can be picked up at\n\nhttp://cran.r-project.org/src/base-prerelease/\n\na little later.\n\nBinary builds are expected to appear starting Friday June 19 at the latest.\n\n    For the Core Team\n    Peter Dalgaard\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "This is to announce that we plan to release R version 2.9.1 on Friday,\nJune 26, 2009.\n\nRelease procedures start Tuesday, June 16.\n\nThose directly involved should review the generic schedule at\nhttp://",
+      "thread_id": "thread-61ac7d4f2b4e",
+      "thread_depth": 0,
+      "month": "2009-06"
+    },
+    {
+      "id": "msg-fa394f370187",
+      "message_id": "<4A44D917.7070202@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2009-06-26T16:20:07+02:00",
+      "subject": "R 2.9.1 is released",
+      "subject_clean": "R 2.9.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.9.1.tar.gz a few hours ago.\n\nThis is a maintenance release and fixes a number of mostly minor issues.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.9.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course.\n\n        For the R Core Team\n\n        Peter Dalgaard\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n\n70447ae7f2c35233d3065b004aa4f331  INSTALL\n433182754c05c2cf7a04ad0da474a1d0  README\n4f004de59e24a52d0f500063b4603bcb  OONEWS\nff4bd9073ef440b1eb43b1428ce96872  ONEWS\n11a746c387c5a94f172a27939b96dd4c  NEWS\n7abcbbc7480df75a11a00bb09783db90  THANKS\n070cca21d9f8a6af15f992edb47a24d5  AUTHORS\na6f89e2100d9b6cdffcea4f398e37343  COPYING.LIB\neb723b61539feef013de476e68b5c50a  COPYING\n020479f381d5f9038dcb18708997f5da  RESOURCES\n8ea34a9306ef5cf5dc03b45883586129  FAQ\n54a79eebdf0cec3fd2c489fc94d99b00  R-2.9.1.tar.gz\n54a79eebdf0cec3fd2c489fc94d99b00  R-latest.tar.gz\n\nHere is the relevant part of the NEWS file:\n\n                CHANGES IN R VERSION 2.9.1\n\nNEW FEATURES\n\n    o   New function anyDuplicated(x) returns 0 (= FALSE) or the index\n        of the first duplicated entry of x.\n\n    o   matplot(), matlines() and matpoints() now also obey a 'lend'\n        argument, determining line end styles. (Wish of PR#13619).\n\n    o   bw.SJ(), bw.bcv() and bw.ucv() now gain an optional 'tol'\n        argument allowing more accurate estimates.\n\n    o   new.packages() no longer regards packages with the same name\n        as a member of an installed bundle as 'new' (this is now\n        consistent with the dependency checks in install.packages()).\n\n        It no longer reports on partially installed bundles (since\n        members can be updated individually if a bundle is unbundled).\n\n    o   old.packages() and hence updates.packages() will look for\n        updates to members of package bundles before updates to the\n        whole bundle: this allow bundles to be split and installations\n        updated.\n\n    o   nlminb() gives better non-convergence messages in some cases.\n\n    o   S3 method dispatch will support S4 class inheritance for S3\n        methods, for primitives and via UseMethod(), if the argument\n        S3methods=TRUE is given to setClass().  S4 method dispatch\n        will use S3 per-object inheritance if S3Class() is set on the\n        object.  See ?Methods and the paper referenced there.\n\n    o   R CMD INSTALL is more tolerant of (malformed) packages with a\n        'man' directory but no validly named .Rd files.\n\n    o   R CMD check now reports where options are used that cause some\n        of the checks to be skipped.\n\n    o   RSiteSearch has been updated to be consistent with the new\n        layout of the search site itself, which now includes separate\n        options for vignettes, views, and r-sig-mixed-models, as well\n        as changed names for r-help. (Contributed by Jonathan Baron.)\n\n    o   That R CMD check makes use of a\n        <pkg>/tests/Examples/<pkg>-Ex.Rout.save file as a reference\n        result is now documented in 'Writing R Extensions'.\n\nDEPRECATED & DEFUNCT\n\n    o   print.atomic() (defunct since 1.9.0) has been removed since it\n        caused confusion for an S4 class union \"atomic\".\n\n    o   png(type=\"cairo1\") is deprecated -- it was only needed for\n        platforms with 1.0 <= cairo < 1.2.\n\nBUG FIXES\n\n    o   The ... argument was not handled properly when ... was found\n        in the enclosure of the current function, rather than in the\n        function header itself.  (This caused integrate() to fail in\n        certain cases.)\n\n    o   col2rgb(\"#00000080\", TRUE) would return the background colour.\n        (Reported by Hadley Wickham.)\n\n    o   interaction() now ensures that the levels of the result are unique.\n\n    o   packageDescription() and hence sessionInfo() now report the correct\n        package version also for a non-attached loaded namespace of\n        a version different from the default lib.loc.\n\n    o   smoothScatter() now also works when e.g. xlim[2] < xlim[1].\n\n    o   Invalid use of sprintf() such as sprintf(\"%S%\") now give an error\n        instead of a segmentation fault, as do very unusual cases such as\n        sprintf(\"%s\", tryCatch(stop(), error=identity)).  (It was\n        always documented that misuse could crash R in\n        platform-dependent ways.)\n\n    o   parse_Rd() would mishandle braces when they occurred at\n        the start of a line within an R string in an Rd file (reported\n        by Alex Couture-Beil) or when they occurred in an R comment\n        (reported by Mark Bravington).\n\n    o   readNEWS() missed version numbers with more than one digit.\n\n    o   building R --without-x no longer fails (PR#13665)\n\n    o   printCoefmat(cbind(0,1)) now works too (PR#13677)\n\n    o   bw.SJ(c(1:99, 1e6)) now works too.\n\n    o   Rd2txt() could not handle empty descriptions of items in an Rd\n        file (reported by Mark Bravington), and did not wrap long lists\n        of arguments if they were given in a single item.\n\n    o   stars() would do a partial plot when called with plot = FALSE;\n        it now consistently returns the locations of the stars.\n\n    o   Rd2latex() could not handle empty sections.\n\n    o   old.packages() and hence update.packages() would fail on a\n        repository which contained only one package but with multiple\n        versions of that package.\n\n    o   as.character.Rd() added extra braces when displaying two-argument\n        macros.  (Report and fix by Manuel Eugster.)\n\n    o   unsplit() was misbehaving in the case of single-column data\n        frames. (Reported by Will Gray.)\n\n    o   as(I(1), \"vector\") and similar coercions from objects of\n        \"unregistered\" S3 classes now work.\n\n    o   srcref records produced by parse() and parse_Rd() did not record\n        the encoding of the source file.  (Reported by Romain Francois.)\n\n    o   The X11 version of View() was misbehaving in MBCS locales, and\n        PgUp/PgDn now behave better, thanks to a patch from Ei-ji Nakama.\n\n    o   R CMD check looked at the environment variable PDFLATEX, but\n        as from R 2.8.1 R CMD Rd2dvi used R_PDFLATEXCMD in\n        preference, and that was set by R CMD (and not PDFLATEX).  Now\n        R CMD check looks at R_PDFLATEXCMD.\n\n    o   sprintf() now signals an error when the result of single format\n        specification would be longer than the limit (8192 bytes); it would\n        return \"somewhat random\" results or segfault previously. (PR#13667)\n        Further, arguments of type \"language\" or \"symbol\" are no longer\n        allowed, as these, e.g., sprintf(\"%s\", quote(list())), typically\n        lead to unexpected results or hard to understand error messages.\n\n    o   The new (in 2.9.0) 'stringsAsFactors' argument to expand.grid()\n        was not working: it now does work but has default TRUE for\n        backwards compatibility.\n\n    o   tcrossprod(<1d-array>, <matrix>) now does work when the arguments\n        are of compatible dimensions.\n\n    o   qbinom() now is accurate also in (large size, small prob)\n        cases.  (PR#13711)\n\n    o   The calculation of the Spearman p-value in cor.test() is\n        slightly more accurate in some cases.  (PR#13574)\n\n    o   The digamma(), trigamma() and psigamma() functions could be\n        inaccurate for values of x around 1e-15 due to cancellation.\n        (PR#13714).\n\n    o   median.default() was altered in 2.8.1 to use sum() rather\n        than mean(), although it was still documented to use mean().\n        This caused problems for POSIXt objects, for which mean() but\n        not sum() makes sense, so the change has been reverted.\n\n    o   Assigning an extra 0-length column to a data frame by\n        DF$foo <- value gave a corrupt data frame rather than failing.\n        (PR#13724)  This also happened for DF[[\"foo\"]] <- value.\n\n    o   R CMD INSTALL no longer gives a spurious warning about old R\n        versions ignoring multiple dependencies, if the conditions are\n        known to be satisfied.\n\n    o   The test for setting dim() allowed a value with two or more\n        NAs to be set on a 0-length object.  (PR#13729)  Also, it\n        allowed an even number of negative values.\n\n    o   xtfrm(), rank(), sort() and order() did not always make use of\n        custom comparison methods specific to the class of elements\n        being sorted.\n\n    o   Increase NAMED value on 'seq' value in for() loop so loop code\n        cannot modify 'seq' value.\n\n    o   Prevent rectangles of size < 0.5 pixel from disappearing in\n        Quartz when using rastered backend.  (PR#13744)\n\n    o   Printing _NA_complex_ had a low-level thinko; patch thanks to\n        Bill Dunlap.\n\n    o   CP1257 encoding for postscript/PDF has been corrected.  (PR#13736)\n\n    o   aov() with an error term was evaluating the ... arguments in\n        2.9.0 whilst checking their names, so could fail by evaluating\n        them in the wrong place.  (PR#13733)\n\n    o   The print() method for arima() failed if all coefs were fixed.\n\n    o   R CMD INSTALL --no-latex was not implemented in 2.9.0 (only).\n\n    o   Added a needed PROTECT call in RunFinalizers to handle cases where\n        the routine is called recursively from a GC in a finalizer.\n\n    o   Constructing error messages about unused arguments in calls to\n        closures no longer evaluates the arguments.\n\n    o   qr(x, LAPACK=TRUE) did not coerce integer x to numeric.\n\n    o   qr.coef() misbehaved in the LAPACK case with a matrix RHS, so\n        that solve(qr(x, LAPACK=TRUE)) gave wrong results. (Found by\n        Avraham Adler, PR#13762 by Ravi Varadhan.)\n\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-2.9.1.tar.gz a few hours ago.\n\nThis is a maintenance release and fixes a number of mostly minor issues.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-projec",
+      "thread_id": "thread-fa394f370187",
+      "thread_depth": 0,
+      "month": "2009-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-11d866f6e051",
+      "subject": "DSC 2009, scientific programme",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-06-08T17:40:53+02:00",
+      "last_reply": "2009-06-08T17:40:53+02:00",
+      "root_message_id": "msg-11d866f6e051"
+    },
+    {
+      "id": "thread-61ac7d4f2b4e",
+      "subject": "R 2.9.1 Scheduled for June 26, 2009",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-06-15T16:38:14+02:00",
+      "last_reply": "2009-06-15T16:38:14+02:00",
+      "root_message_id": "msg-61ac7d4f2b4e"
+    },
+    {
+      "id": "thread-fa394f370187",
+      "subject": "R 2.9.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-06-26T16:20:07+02:00",
+      "last_reply": "2009-06-26T16:20:07+02:00",
+      "root_message_id": "msg-fa394f370187"
+    }
+  ]
+}

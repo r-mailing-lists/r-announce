@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2010-07",
+  "messages": [
+    {
+      "id": "msg-45b0e97ff1f4",
+      "message_id": "<56B157DD-AB7C-4AC6-A53B-EB40146CA22E@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2010-07-30T17:10:37+02:00",
+      "subject": "Next release of R planned to be 2.12.0",
+      "subject_clean": "Next release of R planned to be 2.12.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This mainly as a thumbs-up to sysadmins planning installation for the Fall semester: \n\nOnly a small number of low-impact bugs have been found since the 2.11.1 release so we have decided NOT to do a 2.11.2, but head straight for 2.12.0 some time in October.\n\nFor the R Core Team\nPeter Dalgaard\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "This mainly as a thumbs-up to sysadmins planning installation for the Fall semester: \n\nOnly a small number of low-impact bugs have been found since the 2.11.1 release so we have decided NOT to do a 2.",
+      "thread_id": "thread-45b0e97ff1f4",
+      "thread_depth": 0,
+      "month": "2010-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-45b0e97ff1f4",
+      "subject": "Next release of R planned to be 2.12.0",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2010-07-30T17:10:37+02:00",
+      "last_reply": "2010-07-30T17:10:37+02:00",
+      "root_message_id": "msg-45b0e97ff1f4"
+    }
+  ]
+}

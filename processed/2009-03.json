@@ -1,0 +1,117 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2009-03",
+  "messages": [
+    {
+      "id": "msg-db280db16bb2",
+      "message_id": "<49AD3ED1.20504@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2009-03-03T15:29:37+01:00",
+      "subject": "REMINDER: DSC 2009 abstract submission before March 15",
+      "subject_clean": "REMINDER: DSC 2009 abstract submission before March 15",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Just a friendly reminder that the closing date for abstract submissions\nfor the DSC conference in Copenhagen is next Sunday.\n\nSee\n\nhttp://www.r-project.org/dsc-2009\n\nNotice that the website has been revised since we decided to engage a\nprofessional convention bureau. The good news is that payment by credit\ncard is now possible. The slightly bad news is that there are now two\nseparate registration paths: one for participation and one for abstracts.\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "Just a friendly reminder that the closing date for abstract submissions\nfor the DSC conference in Copenhagen is next Sunday.\n\nSee\n\nhttp://www.r-project.org/dsc-2009\n\nNotice that the website has been r",
+      "thread_id": "thread-db280db16bb2",
+      "thread_depth": 0,
+      "month": "2009-03"
+    },
+    {
+      "id": "msg-dc5e897eff2a",
+      "message_id": "<49AFF65E.2040407@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2009-03-05T16:57:18+01:00",
+      "subject": "R 2.9.0 is scheduled for April 17",
+      "subject_clean": "R 2.9.0 is scheduled for April 17",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.8.0 on Friday,\nApril 17, 2009.\n\nRelease procedures start Tuesday March 17. The detailed schedule can\nbe found on http://developer.r-project.org\n\nThe source tarballs will be made available daily (barring build\ntroubles) and the tarballs can be picked up at\n\nhttp://cran.r-project.org/src/base-prerelease/\n\na little later.\n\nBinary builds are expected to appear starting Friday, March 20.\n\n    For the Core Team\n    Peter Dalgaard\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "This is to announce that we plan to release R version 2.8.0 on Friday,\nApril 17, 2009.\n\nRelease procedures start Tuesday March 17. The detailed schedule can\nbe found on http://developer.r-project.org\n",
+      "thread_id": "thread-dc5e897eff2a",
+      "thread_depth": 0,
+      "month": "2009-03"
+    },
+    {
+      "id": "msg-d1fc49be1465",
+      "message_id": "<alpine.LFD.2.00.0903060736290.5957@nokomis.stat.uiowa.edu>",
+      "from_name": "luke at stat.uiowa.edu",
+      "from_email_hash": "a5794212f0450ee86843a234fdc23fdecc67cbd9935fd99e22e36e11b265bf20",
+      "date": "2009-03-06T07:38:27-06:00",
+      "subject": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
+      "subject_clean": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "*** Travel and Accommodation Support ***\n\nFunds from the U.S. National Science Foundation may be available to\nprovide partial support for travel and accommodation for some graduate\nstudents and junior faculty at U.S. post-secondary institutions to\nattend DSC 2009 and useR 2009.  If you wish to apply for this support,\nplease send an application to luke at stat.uiowa.edu.  Your application\nshould include\n\n     a brief CV\n\n     a copy of your abstract if you have submitted a paper or a poster\n\n     a statement that demonstrates your eligibility, your need for\n     support, and an amount of support requested\n\n     students should include a brief letter of support from their\n     supervisor\n\n     faculty or post-doc applicants should include a brief statement\n     about other funding sources\n\nThe allocation will be based on merit and need; women and minority\ncandidates are encouraged to apply.\n\nApplications must be made by March 31 (2009-03-31) and successful\napplicants will be notified by email soon thereafter.\n\nPlease visit the conference web pages at\nhttp://www.r-project.org/dsc-2009/ and\nhttp://www.agrocampus-rennes.fr/math/useR-2009/\nfor conference details.\n\nBest,\n\nLuke Tierney\n\n-- \nLuke Tierney\nChair, Statistics and Actuarial Science\nRalph E. Wareham Professor of Mathematical Sciences\nUniversity of Iowa                  Phone:             319-335-3386\nDepartment of Statistics and        Fax:               319-335-3017\n    Actuarial Science\n241 Schaeffer Hall                  email:      luke at stat.uiowa.edu\nIowa City, IA 52242                 WWW:  http://www.stat.uiowa.edu",
+      "body_snippet": "*** Travel and Accommodation Support ***\n\nFunds from the U.S. National Science Foundation may be available to\nprovide partial support for travel and accommodation for some graduate\nstudents and junior",
+      "thread_id": "thread-d1fc49be1465",
+      "thread_depth": 0,
+      "month": "2009-03"
+    },
+    {
+      "id": "msg-1182c32d0f3e",
+      "message_id": "<alpine.LFD.2.00.0903260916530.2933@nokomis.stat.uiowa.edu>",
+      "from_name": "luke at stat.uiowa.edu",
+      "from_email_hash": "a5794212f0450ee86843a234fdc23fdecc67cbd9935fd99e22e36e11b265bf20",
+      "date": "2009-03-26T09:17:29-05:00",
+      "subject": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
+      "subject_clean": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "*** Travel and Accommodation Support ***\n                  [Deadline extended to April 15, 2009]\n\nFunds from the U.S. National Science Foundation may be available to\nprovide partial support for travel and accommodation for some graduate\nstudents and junior faculty at U.S. post-secondary institutions to\nattend DSC 2009 and useR 2009.  If you wish to apply for this support,\nplease send an application to luke at stat.uiowa.edu.  Your application\nshould include\n\n     a brief CV\n\n     a copy of your abstract if you have submitted a paper or a poster\n\n     a statement that demonstrates your eligibility, your need for\n     support, and an amount of support requested\n\n     students should include a brief letter of support from their\n     supervisor\n\n     faculty or post-doc applicants should include a brief statement\n     about other funding sources\n\nThe allocation will be based on merit and need; women and minority\ncandidates are encouraged to apply.\n\nApplications must be made by April 15 (2009-04-15) and successful\napplicants will be notified by email soon thereafter.\n\nPlease visit the conference web pages at\nhttp://www.r-project.org/dsc-2009/ and\nhttp://www.agrocampus-rennes.fr/math/useR-2009/\nfor conference details.\n\n\n-- \nLuke Tierney\nChair, Statistics and Actuarial Science\nRalph E. Wareham Professor of Mathematical Sciences\nUniversity of Iowa                  Phone:             319-335-3386\nDepartment of Statistics and        Fax:               319-335-3017\n    Actuarial Science\n241 Schaeffer Hall                  email:      luke at stat.uiowa.edu\nIowa City, IA 52242                 WWW:  http://www.stat.uiowa.edu",
+      "body_snippet": "*** Travel and Accommodation Support ***\n                  [Deadline extended to April 15, 2009]\n\nFunds from the U.S. National Science Foundation may be available to\nprovide partial support for travel",
+      "thread_id": "thread-1182c32d0f3e",
+      "thread_depth": 0,
+      "month": "2009-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-db280db16bb2",
+      "subject": "REMINDER: DSC 2009 abstract submission before March 15",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-03-03T15:29:37+01:00",
+      "last_reply": "2009-03-03T15:29:37+01:00",
+      "root_message_id": "msg-db280db16bb2"
+    },
+    {
+      "id": "thread-dc5e897eff2a",
+      "subject": "R 2.9.0 is scheduled for April 17",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-03-05T16:57:18+01:00",
+      "last_reply": "2009-03-05T16:57:18+01:00",
+      "root_message_id": "msg-dc5e897eff2a"
+    },
+    {
+      "id": "thread-d1fc49be1465",
+      "subject": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
+      "message_count": 1,
+      "participants": [
+        "luke at stat.uiowa.edu"
+      ],
+      "started": "2009-03-06T07:38:27-06:00",
+      "last_reply": "2009-03-06T07:38:27-06:00",
+      "root_message_id": "msg-d1fc49be1465"
+    },
+    {
+      "id": "thread-1182c32d0f3e",
+      "subject": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
+      "message_count": 1,
+      "participants": [
+        "luke at stat.uiowa.edu"
+      ],
+      "started": "2009-03-26T09:17:29-05:00",
+      "last_reply": "2009-03-26T09:17:29-05:00",
+      "root_message_id": "msg-1182c32d0f3e"
+    }
+  ]
+}

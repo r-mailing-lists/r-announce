@@ -1,0 +1,252 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1999-11",
+  "messages": [
+    {
+      "id": "msg-56ef767b399f",
+      "message_id": "<6rln83n07f.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "1999-11-12T10:28:36-06:00",
+      "subject": "New domain - r-project.org",
+      "subject_clean": "New domain - r-project.org",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The R Project now has its own internet domain, r-project.org.  The\npreferred addresses for various services related to R have become:\n\n www.r-project.org          # basic information regarding R\n cran.r-project.org         # home site for CRAN - Comprehensive R Archive Network\n cran.at.r-project.org      # CRAN mirror in Austria\n cran.ch.r-project.org      # CRAN mirror in Switzerland\n cran.dk.r-project.org      # CRAN mirror in Denmark\n cran.uk.r-project.org      # CRAN mirror in the United Kingdom (Great Britain)\n cran.us.r-project.org      # CRAN mirror in the U.S.A.\n lists.r-project.org        # mailing lists related to R\n rsync.r-project.org        # anonymous rsync access to the source trees\n\nE-mail to members of the R Development Core Group can be sent to\n Firstname.Lastname at r-project.org\nFor example, Kurt.Hornik at r-project.org is a valid e-mail address.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The R Project now has its own internet domain, r-project.org.  The\npreferred addresses for various services related to R have become:\n\n www.r-project.org          # basic information regarding R\n cran",
+      "thread_id": "thread-56ef767b399f",
+      "thread_depth": 0,
+      "month": "1999-11"
+    },
+    {
+      "id": "msg-7f47d18c941f",
+      "message_id": "<6rwvrngryh.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "1999-11-12T18:23:18-06:00",
+      "subject": "Anonymous cvs access",
+      "subject_clean": "Anonymous cvs access",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "With Tony Rossini's help we have established anonymous CVS access to a\nread-only copy of the main R CVS tree at cvs.r-project.org.  This\nwould be of interest primarily to those who want to track the\ndevelopment version (and who have access to CVS, of course).\n\nTo use anonymous cvs you must log in to the server under the name\n\"anoncvs\" and with the password \"anoncvs\".  You only need to log in\nonce.  Subsequent updates use a stored version of the password so you\ncould, for example, use a crontab entry on a Unix or Linux system to\nobtain updates automatically.\n\nCurrently a checked-out copy of the CVS source tree occupies about 10\nMB.  To compile and install the sources requires about 25 MB.\n\nChecking out a copy is done by\n\n$ # Remember the password is \"anoncvs\" and you only need to do this once\n$ cvs -d :pserver:anoncvs at cvs.r-project.org:/home/rcvs/src login\n(Logging in to anoncvs at cvs.r-project.org)\nCVS password: \n$ cvs -d :pserver:anoncvs at cvs.r-project.org:/home/rcvs/src checkout R\n... many pages of filenames follow here\n\nUpdating your sources is done by\n\n$ cvs update R\n\nThe anonymous CVS repository also contains the modules R-manuals and\nR-notes.  You get those by\n\n$ cvs -d :pserver:anoncvs at cvs.r-project.org:/home/rcvs/src checkout R-manuals\netc.\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "With Tony Rossini's help we have established anonymous CVS access to a\nread-only copy of the main R CVS tree at cvs.r-project.org.  This\nwould be of interest primarily to those who want to track the\nd",
+      "thread_id": "thread-7f47d18c941f",
+      "thread_depth": 0,
+      "month": "1999-11"
+    },
+    {
+      "id": "msg-01ebe1ea39ea",
+      "message_id": "<382CCA91.83F068EF@nceas.ucsb.edu>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
+      "date": "1999-11-12T18:18:57-08:00",
+      "subject": "postgresql package for R",
+      "subject_clean": "postgresql package for R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A preliminary release of my postgres package for R is at\n\n    http://www.nceas.ucsb.edu/~keitt/R/postgres.tgz\n\nIt allows one to read and write data frames to and from a postgres\ndatabase, execute queries and has an experimental \"proxy\" interface that\nallows you to access postgres tables using the standard, local data\nframe model.  All accesses to the data frame generate the appropriate\nqueries and returns the data from the database.  (The proxy interface is\nbroken at the moment.)  I'm mostly looking for a few testers (hopefully\nwith postgresql experience) to try it out.\n\nCheers,\nTim\n\n--\nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n735 State Street, Suite 300, Santa Barbara, CA 93101\nPhone: 805-892-2519, FAX: 805-892-2510\nhttp://www.nceas.ucsb.edu/~keitt/\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A preliminary release of my postgres package for R is at\n\n    http://www.nceas.ucsb.edu/~keitt/R/postgres.tgz\n\nIt allows one to read and write data frames to and from a postgres\ndatabase, execute quer",
+      "thread_id": "thread-01ebe1ea39ea",
+      "thread_depth": 0,
+      "month": "1999-11"
+    },
+    {
+      "id": "msg-cd547eae507f",
+      "message_id": "<38386B26.65A24BD9@nceas.ucsb.edu>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
+      "date": "1999-11-21T13:59:02-08:00",
+      "subject": "PostgreSQL package",
+      "subject_clean": "PostgreSQL package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've made some small updates to my postgres access package for R.  Its\nbeen renamed to rpgsql.  It also now allows you to specify the host,\ndatabase name, etc. from within R instead of relying on environment\nvariables.\n\nIt can be downloaded from http://www.nceas.ucsb.edu/~keitt/R/rpgsql.tgz\n\n(Someone was going to send me an example package make file, but I've\nlost their email.  I would be grateful for a copy if someone has some\npre-made make files for R packages.)\n\nCheers,\nTim\n\n--\nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n735 State Street, Suite 300, Santa Barbara, CA 93101\nPhone: 805-892-2519, FAX: 805-892-2510\nhttp://www.nceas.ucsb.edu/~keitt/\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've made some small updates to my postgres access package for R.  Its\nbeen renamed to rpgsql.  It also now allows you to specify the host,\ndatabase name, etc. from within R instead of relying on envi",
+      "thread_id": "thread-cd547eae507f",
+      "thread_depth": 0,
+      "month": "1999-11"
+    },
+    {
+      "id": "msg-87cf4aecf758",
+      "message_id": "<x2g0xy1vvg.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1999-11-22T14:47:15+01:00",
+      "subject": "R 0.90.0 is released",
+      "subject_clean": "R 0.90.0 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-0.90.0.tgz a moment ago. The jump in version number\nindicates that we are approaching version 1.0, more than a \"quantum\nleap\" in functionality.\n\nYou can get it from (notice that we have changed servers in Wisconsin\nwith much better availability and new names)\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-0.90.0.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-0.90.0.tgz\n\nor wait for it to be mirrored at a CRAN site near you within a day or two.\n\nThere's also a version split in two for floppies if you prefer that.\n\n\n\tFor the R Core Team,\n\n\tPeter D.\n\n\n\nHere is the relevant part of the NEWS file:\n\n        **************************************************\n        *                                                *\n        *              0.90 SERIES NEWS                  *\n        *                                                *\n        **************************************************\n\n\nNEW FEATURES\n\n    o   packages splines (for regression smoothing splines or\n        interpolating splines) and nls (nonlinear least squares) are\n        part of the base distribution.\n\n    o   New error handling using\n        options ( error = expression(..) ,  warning.expr = ... ).\n        REPLACING version 0.65.1's  options(error.halt = T/F)\n\n    o   collected warnings before an error are no longer lost but\n        are printed after the error message (unless the error makes\n        this impossible).\n\n    o   A couple of substantial graphics changes, esp. in the X11\n        driver. The scaling of symbols is now linear in cex=, rather\n        than being tied to the available font's size. The fonts on an\n        X11 device also scale linearly with cex= insofar as your X\n        server can do it. On systems with the scalable type 1\n        PostScript fonts installed, this looks particularly nice. Note\n        that the scaling is linear in the *diameter*, but quadratic in\n        area. The distance between lines of margin text in the X11\n        device is now proportional to the size given to\n        x11(pointsize).\n\n\n    o   abline(a,b) now (again) refers to transformed coordinates on\n        plots with log-axes, so that abline(lm(log10(y)~log10(x)))\n        (say) draws a best-fitting line on a log-log plot. The earlier\n        convention (to draw a curve representing a line in original\n        coordinates) is available using a new untf= argument.\n\n    o   barplot.default() has new `axisnames' (and `sub') arguments, easily\n        allowing suppression of bar labeling.\n\n    o   cbind() and rbind() now actually do what deparse.level=1 implies:\n        add column/row names based on the deparsed argument, provided it\n        is a simple symbol. The behaviour is still hardcoded, though.\n\n    o   gc() now reports the total sizes in Mb as well as numbers.\n\n    o   New function help.search() for searching the names, titles,\n        aliases, or keywords in the help system.\n\n    o   image() allows x and y to specify either the boundaries or the\n        midpoints of the cells. If the latter, the whole cells are\n        drawn, rather than the outer cells being half-sized as previously.\n\n    o   NULL extra arguments to model.frame() are now treated as missing\n        (instead of an error).\n\n    o   optimization with nlm() can use analytic gradients and Hessians\n        if they are supplied.\n\n    o   on.exit() allows add=TRUE.\n\n    o   function parse.dcf() for parsing files in debian control file format\n        (DESCRIPTION, CONTENTS, ...)\n\n    o   predict.{g}lm has a type=\"terms\" option, and residual.glm has\n        type=\"partial\" as a step towards plot.gam().\n\n    o   New arguments to q() and quit() allow the exit status to be set\n        and the execution of .Last() to be skipped.\n\n    o   New function regexpr(), similar to grep but returns the position\n        of the match in each string. (For S-PLUS compatibility.)\n\n    o   scan() now supports complex numbers.\n\n    o   New function sort.list, for S compatibility. (This has argument\n        partial, but always sorts completely.)\n\n    o   storage.mode<- can be used to set \"single\", and if setting\n        anything other than \"single\" it removes the \"Csingle\" attribute.\n\n    o   new function sunflowerplot().\n\n    o   New function undoc() for listing undocumented objects.\n\n\n    o   User's .Rprofile now executes in global environment\n\n    o   All HTML pages now use the new style sheet doc/html/R.css\n\n    o   html and text files have now a header line giving the name of\n        the help file and the package. The description section now\n        comes first.\n\n    o   All the standard packages have DESCRIPTION files with\n        \"Priority: base\", so installed.packages and\n        package.description will work with them.\n\n    o   The R-external manual which describes programming for the\n        .Call and .External interfaces is in the doc/manual directory.\n\n    o   New target `make pdf' in doc/manuals makes hyperlinked PDF \n        documentation. (This is experimental for this release. See\n        doc/manual/README for further details.)\n\n\n    o   S.h now contains (via Rdefines.h) a MESSAGE macro, and\n        Free NULLs the pointer, for compatibility with S3 (but not S4).\n\n    o   New subroutine REALPR callable from Fortran (like DBLEPR but\n        for real arguments): useful if as.single is in use.\n\n    o   The cex= argument to plot() etc. can be a vector, like pch=.\n\n    o   lty=0 now (again) makes lines invisible. Looks better for\n        barplot label axis.\n\n    o   zero.R tries to find the zero DLL in a system-independent way.\n\n\nBUG FIXES\n\n    o   apply should now work for all un-dimnamed arrays (PR#318).\n\n    o   ar(..., demean=F) works more consistently across methods.\n\n    o   barplot() had lower limits set at -0.01, causing trouble with\n        small heights. Switch to relative scale. (Thanks to Matt Wiener)\n\n    o   density() should work better with NAs and infinite values. See\n        ?density for the current definitions of how these are handled.\n\n    o   diag(x) now works (as pre 0.65.1) for 1-d arrays.\n\n    o   Stored-source was dropped by dump().\n\n    o   expand.grid returns a data frame even for one arg.\n\n    o   expand.grid(x) now also works for vector arguments x.\n\n    o   factor(list()) or factor(character(0)) *is* now a factor\n        with valid levels(.);\n        ordered does NOT allow an `ordered' argument anymore\n        and is now defined as trivial call to factor.\n\n    o   help page for gc gives correct size of cons cells (20 bytes\n        for 32-bit systems, 36 or more for 64-bit systems).\n\n    o   gcinfo reports correct percentages of heap even for vsize > 200M.\n\n    o   gl(6,3,12) and gl(6,3,2) now both work.\n\n    o   Empty lists now deparse correctly.\n\n    o   na.omit.ts and na.contiguous preserve classes.\n\n    o   plot.factor {plot(<factor>)} now obeys axes=FALSE and xaxt=\"n\".\n\n    o   read.table(as.is = TRUE) would leave everything as character.\n        Now it correctly tries to convert to numeric.\n\n    o   require() now has the warn.conflicts argument of library().\n\n    o   Fix problems in scan(flush = TRUE).\n\n    o   scan() got confused by trailing whitespace.\n\n    o   split(x,f) now works even when f is a factor with unused levels\n        (PR#294).\n\n    o   mosaicplot() has a formula interface and\n        NULL instead of NA default args.\n\n    o   stars() has \"NULL\" instead of \"NA\" defaults.\n\n    o   str() is quite a bit nicer with factors.\n\n    o   ts.union, cbind.ts, arithmetic on ts objects now allow\n        non-integer frequencies.\n\n\n    o   Switch to <tt> in HTML pages since Linux Netscape mangles\n        Courier.\n\n    o   When documentation is \"compiled\" (build-help), you now get warnings\n        for multiple (conflicting) \\alias{.} or \\name{.}s.\n\n    o   making the reference manual with `make dvi' copes better with\n        isolatin1 characters (but not perfectly as these are not in\n        standard TeX fonts).\n\n    o   Rd.sty now uses standard LaTeX constructs like \\bm for bold\n        math and \\url for URLs.\n\n\n    o   Protect R_fopen against NULL filename in Unix.\n\n    o   Math text in outer margins didn't work.\n\n    o   Text clipping now works in the X11 device.\n\n    o   Pixel rows sometimes got doubled in rotated text on the X11 device.\n\n    o   par(\"yaxt\") is now ok.\n\n    o   Problems with realloc on some systems in AllocBuffer.\n\n    o   Problem with formatReal on non-IEEE systems.\n\n    o   demos/dynload/Makefile used macros that gave incorrect build\n        on some non-GNU makes.\n\n    o   Windows version copes better with paths with spaces in.\n\n    o   R CMD check had a typo which made the final message fail.\n\n    o   R_EOF redefined as -1, was causing trouble with isxxxx contructions.\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-0.90.0.tgz a moment ago. The jump in version number\nindicates that we are approaching version 1.0, more than a \"quantum\nleap\" in functionality.\n\nYou can get it from (notice that we ha",
+      "thread_id": "thread-87cf4aecf758",
+      "thread_depth": 0,
+      "month": "1999-11"
+    },
+    {
+      "id": "msg-fc5604d2ce5a",
+      "message_id": "<6rpux2p9dm.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "1999-11-22T14:19:17-06:00",
+      "subject": "Release 0.90.0 is also available via rsync",
+      "subject_clean": "Release 0.90.0 is also available via rsync",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The 0.90.0 release of R is also available via anonymous rsync from\nrsync.r-project.org.  To create a copy of the release tree in a\nsubdirectory called R-0.90.0 of the current directory you can use\n\n\t  rsync -rC rsync.r-project.org::r-release R-0.90.0\n\nThe development tree is also available via anonymous rsync as\n\t\t     rsync.r-project.org::r-devel\n\nThe -C option in the rsync command is to cause it to skip the CVS\ndirectories.\n\nOnce you have a copy of the tree, you can keep it up to date with an\nrsync command like the above.  Further information on rsync is\navailable at http://rsync.samba.org/rsync/ \n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The 0.90.0 release of R is also available via anonymous rsync from\nrsync.r-project.org.  To create a copy of the release tree in a\nsubdirectory called R-0.90.0 of the current directory you can use\n\n\t ",
+      "thread_id": "thread-fc5604d2ce5a",
+      "thread_depth": 0,
+      "month": "1999-11"
+    },
+    {
+      "id": "msg-40fd022663b8",
+      "message_id": "<6rzow6nng0.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "1999-11-22T16:58:23-06:00",
+      "subject": "NLME-3.1 package available for R-0.90.0",
+      "subject_clean": "NLME-3.1 package available for R-0.90.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "With the assistance of Saikat DebRoy we have produced an nlme package\n(linear and nonlinear mixed-effects models) for R (see\nhttp://www.r-project.org/ for details about R).  The nlme package for\nR requires R-0.90.0, which was released earlier today.\n\nAlso released today was NLME 3.2 for S-PLUS.  We will be working on\nincorporating the changes from NLME 3.1 to 3.2 into the R version but\nwe wanted to get the R version out for testing now so we are releasing\nit in the 3.1 version.\n\nnlme_3.1-1.tar.gz was just uploaded to the master CRAN (Comprehensive\nR Archive Network) site.  It should appear on the archives, like\nhttp://cran.r-project.org/ in a day or two.  For those who are\nanxious, the file can be downloaded as\n\t    http://nlme.stat.wisc.edu/R/nlme_3.1-1.tar.gz\n\nThis package incorporates the functions that were previously available\nas the lme package for R.  Use the lme package with version 0.65.1 of\nR or earlier (although we would recommend that you instead upgrade to\n0.90.0 and the nlme package).  Use the nlme package with version\n0.90.0 or later.  Do not try to use both.\n\nThe graphics in the NLME 3.2 and earlier libraries for S-PLUS use\ntrellis graphics extensively.  These graphics does not work in R\nbecause trellis is not available for R.\n\n-- \nDouglas Bates                            bates at stat.wisc.edu\nStatistics Department                    608/262-2598\nUniversity of Wisconsin - Madison        http://www.stat.wisc.edu/~bates/\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "With the assistance of Saikat DebRoy we have produced an nlme package\n(linear and nonlinear mixed-effects models) for R (see\nhttp://www.r-project.org/ for details about R).  The nlme package for\nR req",
+      "thread_id": "thread-40fd022663b8",
+      "thread_depth": 0,
+      "month": "1999-11"
+    },
+    {
+      "id": "msg-b35f6592a861",
+      "message_id": "<19991124103107.48010@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "1999-11-24T10:31:07+01:00",
+      "subject": "R 0.90.0 for Windows",
+      "subject_clean": "R 0.90.0 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A binary distribution of R 0.90.0 for Windows is available at \nhttp://cran.r-project.org (in bin/windows/windows-NT/base). \nIt should run on  Windows 9X/NT/2000 systems. \n\nWindows News:\n-------------\nWe made a determined attempt to quote paths which might contain spaces,\nand almost all cases work. Be careful with external unzip, pager and editor\nprograms that these do handle quoted paths.\n\nRterm can be interrupted by Ctrl-C as well as Ctrl-Break. Fast\ntyping should not give problems in interactive use.\n\nBetter formatting of math expressions in graphics labels, legends, ...\n(but only if font is True Type since it seems not possible to get\nper-char font metric information for raster fonts).\n\nSupport for GIF format bitmaps has been removed, but support for PNG, \nJPEG and BMP has been added. This can be done via the File menu on the\ngraphics window, savePlot() or dev.print to the new devices png(), bmp() \nand jpeg(), which can also be used directly.\n\nPDF versions of the (draft) manuals are available in file rw0900d.zip\nand install into rw0900/doc/manual.  These can be read in Acrobat\nReader from the Manuals sub-menu of the Help menu provided they and\nthe reader (http://www.adobe.com) are installed.\n\nThe installer will install packages in the library directory if the\ninstallation directory path ends in rw0900.\n\nYou can install packages by\n\n    install.packages(\"/path/to/mypkg.zip\", CRAN=NULL)\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A binary distribution of R 0.90.0 for Windows is available at \nhttp://cran.r-project.org (in bin/windows/windows-NT/base). \nIt should run on  Windows 9X/NT/2000 systems. \n\nWindows News:\n-------------\n",
+      "thread_id": "thread-b35f6592a861",
+      "thread_depth": 0,
+      "month": "1999-11"
+    },
+    {
+      "id": "msg-2e74e63603da",
+      "message_id": "<383C083D.BFA4F405@bank-banque-canada.ca>",
+      "from_name": "Paul Gilbert",
+      "from_email_hash": "51f348dc0febec9b32e9d9dcb86f6de731958e1295e818209b4c127bffef5569",
+      "date": "1999-11-24T10:46:05-05:00",
+      "subject": "DSE package for multi-variate time series",
+      "subject_clean": "DSE package for multi-variate time series",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new version of my DSE package for multi-variate time series analysis\nis\nnow available at <www.bank-banque-canada.ca/pgilbert>. I am trying to\nsort\nout some minor glitches with the new R 0.90 graphics before I submit it\nto CRAN. Much of the underlying code has been re-worked and reorganized\nin the\nnew version. In particular, the use of model and data constructors has\nbeen\nmore formalized and the internal structure of these objects, while still\n\ndocumented, is considered \"opaque.\"\n\nI have separated out a \"syskern\" package which tries to provide a kernel\nof\nroutines to isolate OS differences and a few Splus and R differences.\nFor most\npeople, the most interesting part of this is probably the approach to\nRNG,\nwhich provides a convenient way to generate the same random experiments\nin R\nand Splus.\n\nI have also separated out a \"tframe\" package which provides a kernel of\nroutines for programming time series methods. These allow a programmer\nto\nwrite most code in a way that is independent of the time representation\n(i.e.\nthe class of the time series data). So, for example, the use of tsp() is\navoided\nbecause it is specific to certain classes of time series.\n\nThe changes to the underlying structure necessitated a substantial\nre-write of\nthe user's guide, so I am taking the opportunity to bring the guide\nup-to-date\nwith respect to R. A draft of the guide is available at the above web\nsite in\npostscript and pdf files. The first nine sections, which cover material\nin the previous version of the guide, are now mostly complete and I hope\n\ncorrect. I would certainly appreciate comments. Some later sections,\nwhich\ncover new material, are still missing or incomplete.\n\nThe help has largely been converted to integrate with R's help. I have\nnot yet worked through all the examples, many of which were written with\nfictitious data in mind, so it will be some time before \"R CMD check\ndse\" works, however, most of my tests work in both Linux and Solaris.\nThese include:\n\n   random.number.test()\n   tframe.function.tests()\n   dse1.function.tests()\n   dse2.function.tests()\n   dse3.function.tests()\n   dse4.function.tests()\n   guide.example.tests.part1()\n   guide.example.tests.part2()\n\nwhich cover a large part of the package. The comparison tolerances on\nsome of\nthe tests had to be relaxed in order to pass with R on Linux and R and\nSplus 3.3\nin Solaris. I would appreciate feedback about how the tests work on\nother\nplatforms.\n\nPaul Gilbert\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new version of my DSE package for multi-variate time series analysis\nis\nnow available at <www.bank-banque-canada.ca/pgilbert>. I am trying to\nsort\nout some minor glitches with the new R 0.90 graphic",
+      "thread_id": "thread-2e74e63603da",
+      "thread_depth": 0,
+      "month": "1999-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-56ef767b399f",
+      "subject": "New domain - r-project.org",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "1999-11-12T10:28:36-06:00",
+      "last_reply": "1999-11-12T10:28:36-06:00",
+      "root_message_id": "msg-56ef767b399f"
+    },
+    {
+      "id": "thread-01ebe1ea39ea",
+      "subject": "postgresql package for R",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "1999-11-12T18:18:57-08:00",
+      "last_reply": "1999-11-12T18:18:57-08:00",
+      "root_message_id": "msg-01ebe1ea39ea"
+    },
+    {
+      "id": "thread-7f47d18c941f",
+      "subject": "Anonymous cvs access",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "1999-11-12T18:23:18-06:00",
+      "last_reply": "1999-11-12T18:23:18-06:00",
+      "root_message_id": "msg-7f47d18c941f"
+    },
+    {
+      "id": "thread-cd547eae507f",
+      "subject": "PostgreSQL package",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "1999-11-21T13:59:02-08:00",
+      "last_reply": "1999-11-21T13:59:02-08:00",
+      "root_message_id": "msg-cd547eae507f"
+    },
+    {
+      "id": "thread-fc5604d2ce5a",
+      "subject": "Release 0.90.0 is also available via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "1999-11-22T14:19:17-06:00",
+      "last_reply": "1999-11-22T14:19:17-06:00",
+      "root_message_id": "msg-fc5604d2ce5a"
+    },
+    {
+      "id": "thread-87cf4aecf758",
+      "subject": "R 0.90.0 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1999-11-22T14:47:15+01:00",
+      "last_reply": "1999-11-22T14:47:15+01:00",
+      "root_message_id": "msg-87cf4aecf758"
+    },
+    {
+      "id": "thread-40fd022663b8",
+      "subject": "NLME-3.1 package available for R-0.90.0",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "1999-11-22T16:58:23-06:00",
+      "last_reply": "1999-11-22T16:58:23-06:00",
+      "root_message_id": "msg-40fd022663b8"
+    },
+    {
+      "id": "thread-b35f6592a861",
+      "subject": "R 0.90.0 for Windows",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1999-11-24T10:31:07+01:00",
+      "last_reply": "1999-11-24T10:31:07+01:00",
+      "root_message_id": "msg-b35f6592a861"
+    },
+    {
+      "id": "thread-2e74e63603da",
+      "subject": "DSE package for multi-variate time series",
+      "message_count": 1,
+      "participants": [
+        "Paul Gilbert"
+      ],
+      "started": "1999-11-24T10:46:05-05:00",
+      "last_reply": "1999-11-24T10:46:05-05:00",
+      "root_message_id": "msg-2e74e63603da"
+    }
+  ]
+}

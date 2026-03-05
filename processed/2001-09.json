@@ -1,0 +1,198 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-09",
+  "messages": [
+    {
+      "id": "msg-68593dd9a1e0",
+      "message_id": "<s8rpu9av9y6.fsf@apollo2.stat.washington.edu>",
+      "from_name": "Michael Na Li",
+      "from_email_hash": "2d594823a582d8356ca81b08417631750024d900e41403522b31edf84c75dacd",
+      "date": "2001-09-01T15:10:41-07:00",
+      "subject": "Ann: New package rpvm 0.2",
+      "subject_clean": "Ann: New package rpvm 0.2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "An new package, rpvm 0.2 has been uploaded to\nftp://cran.r-project.org/incoming.  Here is the DESCRIPTION, \n\nPackage: rpvm\nVersion: 0.2\nDate: $Date: 2001/08/30 21:44:37 $\nTitle: R interface to PVM (Parallel Virtual Machine) \nAuthor: Na (Michael) Li <lina at u.washington.edu> and \n  A. J. Rossini <rossini at u.washington.edu>.\nMaintainer: Na (Michael) Li <lina at u.washington.edu>\nDepends: R (>= 1.2.0)\nDescription: Provides interface to PVM APIs, and examples and\n  documentation for its use.  \nLicense: GPL version 2 or newer\nURL: http://www.r-project.org/, \n     http://software.biostat.washington.edu/statsoft/snake/\n\nPVM (Parallel Virtual Machine, http://www.epm.ornl.gov/pvm/pvm_home.html or\nhttp://www.netlib.org/pvm3/, ) is a de facto standard message passing library\nfor distributed cluster computing. It runs on existing network of\nheterogeneous computers.  RPVM provides interfaces to PVM APIs, and enables\nparallel statistical computation in an environment already familiar to\nstatisticians.\n\nNote that because of its dependence on PVM, R CMD check won't work out of box.\nHowever, once pvm is properly set up and running, the examples in demo should\nwork.  A technical report describing rpvm is available upon request.\n\nComments are most welcome.\n\nMichael\n\n-- \n---------------------------------------------------\nMichael Na Li\nEmail: lina at u.washington.edu\nDepartment of Biostatistics, Box 357232\nUniversity of Washington, Seattle, WA 98195  \n---------------------------------------------------\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "An new package, rpvm 0.2 has been uploaded to\nftp://cran.r-project.org/incoming.  Here is the DESCRIPTION, \n\nPackage: rpvm\nVersion: 0.2\nDate: $Date: 2001/08/30 21:44:37 $\nTitle: R interface to PVM (Pa",
+      "thread_id": "thread-68593dd9a1e0",
+      "thread_depth": 0,
+      "month": "2001-09"
+    },
+    {
+      "id": "msg-2c4bc0307915",
+      "message_id": "<200109022308.f82N8Er02447@mail.mclink.it>",
+      "from_name": "Stefano Iacus",
+      "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
+      "date": "2001-09-03T01:08:15+02:00",
+      "subject": "R-1.3.1 for both MacOS version released",
+      "subject_clean": "R-1.3.1 for both MacOS version released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 1.3.1 of R(s) for MacOS have been released.\n\nThey will be mirrored starting from tomorrow at CRAN.\n\nFor the Carbon version (MacOS 8.6 to 9.2 and OSX) refer to\n\nhttp://cran.r-project.org/bin/macos/rm131\n\nand for the Darwin/X11 version refer to\n\nhttp://cran.r-project.org/bin/macosx/rx131\n\n(this last was already announced by Jan de Leeuw and now mirrored at \nCRAN).\n\n\nStefano M. Iacus\n\nWhat follows are specific changes to Carbon R.\n\nrm131\n=====\n* Added the \"Config\" menu\n* Fixed a bug in the lapack module. Complex functions are now\n   available.\n* Added MPW makefiles to build standard libraries and modules\n* Added experimental script to build R via Apple's MRC compiler\n* Now R needs a new shared library \"f2c\" lib that will increase\n   portability for all fortran based packages\n* Added support for apple events. R begins to be a scriptable\n   application. Very limited support by now but will increase soon.\n   Some demo scripts have been added.\n* link.html.help() function has been added by picking windows code.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Version 1.3.1 of R(s) for MacOS have been released.\n\nThey will be mirrored starting from tomorrow at CRAN.\n\nFor the Carbon version (MacOS 8.6 to 9.2 and OSX) refer to\n\nhttp://cran.r-project.org/bin/ma",
+      "thread_id": "thread-2c4bc0307915",
+      "thread_depth": 0,
+      "month": "2001-09"
+    },
+    {
+      "id": "msg-1976da9e70ca",
+      "message_id": "<200109031241.f83CfUr29871@mail.mclink.it>",
+      "from_name": "Stefano Iacus",
+      "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
+      "date": "2001-09-03T14:41:31+02:00",
+      "subject": "R-1.3.1 for both MacOS version released (correct URLs)",
+      "subject_clean": "R-1.3.1 for both MacOS version released (correct URLs)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 1.3.1 of R(s) for MacOS have been released.\n\nThey will be mirrored starting from tomorrow at CRAN.\n\nFor the Carbon version (MacOS 8.6 to 9.2 and OSX) refer to\n\nhttp://cran.r-project.org/bin/macos/\n\nand for the Darwin/X11 version refer to\n\nhttp://cran.r-project.org/bin/macosx/\n\n(this last was already announced by Jan de Leeuw and now mirrored at \nCRAN).\n\n\nStefano M. Iacus\n\nWhat follows are specific changes to Carbon R.\n\nrm131\n=====\n* Added the \"Config\" menu\n* Fixed a bug in the lapack module. Complex functions are now\n   available.\n* Added MPW makefiles to build standard libraries and modules\n* Added experimental script to build R via Apple's MRC compiler\n* Now R needs a new shared library \"f2c\" lib that will increase\n   portability for all fortran based packages\n* Added support for apple events. R begins to be a scriptable\n   application. Very limited support by now but will increase soon.\n   Some demo scripts have been added.\n* link.html.help() function has been added by picking windows code.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Version 1.3.1 of R(s) for MacOS have been released.\n\nThey will be mirrored starting from tomorrow at CRAN.\n\nFor the Carbon version (MacOS 8.6 to 9.2 and OSX) refer to\n\nhttp://cran.r-project.org/bin/ma",
+      "thread_id": "thread-1976da9e70ca",
+      "thread_depth": 0,
+      "month": "2001-09"
+    },
+    {
+      "id": "msg-b0846e44c831",
+      "message_id": "<20010904170011.47357@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "2001-09-04T17:00:11+02:00",
+      "subject": "R-1.3.1 for Windows",
+      "subject_clean": "R-1.3.1 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A binary distribution of R-1.3.1 to run on Windows 95, 98, NT4.0 and 2000 \non Intel/clone chips is available at\n       http://sirio.stat.unipd.it/RWin\n\nIt will be mirrored at a CRAN site near you in a couple of days.\nSee below for a list of Windows-specific changes.\n \nguido masarotto\n(for the R-core team)\n\n                Windows-specific changes to R \n                ============================= \nLines with lty > 1 and many pieces were being drawn very slowly on\nWindows 2000 (but not 98/ME).  To work around this, such lines are\nnow drawn 5000 pieces at a time.\n\nThe dialog for the `Change dir' item now uses a standard folder\nselection widget for its Browse button.                 \n\nWhite backgrounds are now omitted for metafiles (as they are for\npostscript, PDF and XFig plots), so white backgounds (the default)\nappear to be transparent.                     \n\nhelp.start() now updates the HTML search index (as well as the\npackages index) when it is started up.  link.html.help() works better\nwhen R_LIBS omits the drive, and uses relative links for the main\nlibrary, so R installations can be relocated in the file system. \n\nThe background colour of the GUI preferences editor and the\nselect.list() popup is now taken from the Windows colour scheme.\n\nRcmd INSTALL now rejects invalid options for --docs (rather than\nignoring them), and checks for the R version in the DESCRIPTION file\nexactly the same way as Rcmd check (so with fewer spurious messages).\n\nAdded support for building with the ATLAS optimized BLAS library: on a\nPII this speeds up La.svd on a 500x500 matrix by about 30%, and the\nmultiplication of two 1000x1000 matrices by about 8x. See INSTALL.\n\nThe recommended compiler system has been changed, but that recommended\nfor rw1030 still works.\n\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A binary distribution of R-1.3.1 to run on Windows 95, 98, NT4.0 and 2000 \non Intel/clone chips is available at\n       http://sirio.stat.unipd.it/RWin\n\nIt will be mirrored at a CRAN site near you in a",
+      "thread_id": "thread-b0846e44c831",
+      "thread_depth": 0,
+      "month": "2001-09"
+    },
+    {
+      "id": "msg-b5b7295c9e83",
+      "message_id": "<XFMail.20010907103718.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "2001-09-07T10:37:18+02:00",
+      "subject": "RPM binaries of R 1.3.1 on Red Hat/Mandrake/Linuxppc",
+      "subject_clean": "RPM binaries of R 1.3.1 on Red Hat/Mandrake/Linuxppc",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "RPM based binary distributions of R are avaiable on CRAN for the following\nflavours of Linux:\n\nDistribution Version Platform Packager\nRed Hat       7.x    intel    Martyn Plummer <plummer at iarc.fr>\nRed Hat       7.x    alpha    Naoki Takebayashi <ntakebay at bio.indiana.edu>\nRed Hat       6.x    intel    Stephen Eglen <stephen at gnu.org>\nMandrake      8.0    intel    Michele Alzetta <mikalzet at libero.it>\nLinuxPPC             ppc      Alex Buerkle <buerkla at uwec.edu>\n\nThe RPMS are\nR-base: The base distribution\nR-recommended: Recommended packages\n\nMartyn\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "RPM based binary distributions of R are avaiable on CRAN for the following\nflavours of Linux:\n\nDistribution Version Platform Packager\nRed Hat       7.x    intel    Martyn Plummer <plummer at iarc.fr>\n",
+      "thread_id": "thread-b5b7295c9e83",
+      "thread_depth": 0,
+      "month": "2001-09"
+    },
+    {
+      "id": "msg-28782e402552",
+      "message_id": "<15262.16730.432546.63278@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-09-11T18:52:42+02:00",
+      "subject": "New package pixmap",
+      "subject_clean": "New package pixmap",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new package called `pixmap' has been released on CRAN. From the\nDESCRIPTION file:\n\nPackage: pixmap\nVersion: 0.2-1\nTitle:  Bitmap Images (``Pixel Maps'')\nDepends: R (>= 1.3)\nAuthor: Friedrich Leisch and Roger Bivand\nMaintainer: Friedrich Leisch <Friedrich.Leisch at ci.tuwien.ac.at>\nDescription: Functions for import, export, plotting and other\n  manipulations of bitmapped images. \nLicense: GPL version 2.\n\n\nThe package is intended to provide the central low-level support for\nreading/writing/plotting bitmapped images. It replaces the read.pnm\nand write.pnm functions of package e1071. Currently only PNM images\nare supported for import/export, but we want to add other filter real\nsoon.\n\nA rich class structure is already in place, allowing for grey, rgb and\nindexed images together with conversions between all three\nformats. The classes allow images also to have a coordinate system\nattached, such that, e.g., locator() can be used meaningfully on\ngeographical maps. \n\nThis is a first release, all comments and feedback are more than\nwelcome (thanks to Jonathan Marchini for valuable feedback on the\nfirst development version).\n\nBest,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new package called `pixmap' has been released on CRAN. From the\nDESCRIPTION file:\n\nPackage: pixmap\nVersion: 0.2-1\nTitle:  Bitmap Images (``Pixel Maps'')\nDepends: R (>= 1.3)\nAuthor: Friedrich Leisch ",
+      "thread_id": "thread-28782e402552",
+      "thread_depth": 0,
+      "month": "2001-09"
+    },
+    {
+      "id": "msg-73d2dff992bb",
+      "message_id": "<011701c1424a$3c3c1c30$175dd882@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2001-09-21T15:05:14+12:00",
+      "subject": "new versions of grid and lattice",
+      "subject_clean": "new versions of grid and lattice",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nThere are new versions of the grid and lattice packages on CRAN:\n    grid 0.2 and lattice 0.3-0\n\nThese packages are still _under development_ (they are in\nCRAN/src/contrib/Devel)\n\nThere have been some bug fixes and, especially in lattice, there are lots of\nnew features.\nDescriptions of the changes are included below.\n\nIf you have any grid code, it may break under the new version because of a\nchange to the interface of the pop.viewport() function -- see the changes\nbelow.\n\nMany thanks to those who have provided feedback and suggestions for\ncorrections/improvements.\nDon't worry if you can't see your suggestion in the new version;  it just\nmeans we haven't found time to try to implement it yet :)\n\nPaul Murrell\nDeepayan Sarkar\n\n\n---snip---\n\nChanges from grid_0.1 to grid_0.2:\n\n1. Fixed bug in rotating viewports;  this should be more reliable now (the\nrotation of\n    viewports, not the bug!).\n\n2. Added grid.line.to() and grid.move.to().  These allow drawing BETWEEN\n   different coordinate systems.  See example in inst/doc/demo3.ps.\n\n3. Added some more demonstrations to the doc directory.\n\n4. Added more test code to the tests directory.\n\n5. Added \"grobwidth\" and \"grobheight\" units.  See the document\n   grid/inst/doc/advanced/parentchild.ps\n\n6. Added more detailed documentation to grid/inst/doc/advanced.  This\n   stuff is not necessarily very friendly for the reader, but may be useful\nif you're\n   tearing your hair out wondering why some strange effect is occurring.\n\n7. Changed frames and packing to use the new \"grobwidth\" and \"grobheight\"\n   units.  This fixes some problems with frames and packing.\n\n8. Fixed a bug where the gpar settings for \"fontsize\" and \"lineheight\"\n   _within a grob_ would not affect the location or size of the grob\n   if they were specified in \"lines\" or \"char\" units.\n\n   This required adding new \"mylines\" and \"mychar\" units (alternative\n   suggestions for names welcome !) so that you can specify whether\n   a grob's a location/size is in terms of the current viewport's\n   fontsize and lineheight (\"lines\" and \"char\") or in terms of its own\n   fontsize and lineheight (\"mylines\" and \"mychar\").\n\n9. Added grid.polygon() and grid.circle() primitives\n\n10. Added newpage=TRUE argument to grid.start() so that you can restart\n    grid graphics mode without having to move to a new page.\n\n    For example, try ...\n\n     postscript()\n     grid.start()\n     grid.polygon()\n     grid.stop()\n     grid.start() # moves to new page\n     grid.circle()\n     grid.stop()\n     grid.start(newpage=FALSE) # does NOT move to new page\n     grid.rect()\n     grid.stop()\n     dev.off()\n\n11. Changed interface for pop.viewport().  This now just takes a\n    number of viewports to pop, which defaults to 1.\n    For example ...\n\n        push.viewport(viewport())\n        pop.viewport(current.viewport())\n\n    ... becomes ...\n\n        push.viewport(viewport())\n        pop.viewport()\n\n    ... and ...\n\n        vp1 <- viewport()\n        vp2 <- viewport()\n        push.viewport(vp1, vp2)\n        pop.viewport(vp2, vp1)\n\n    ... becomes ...\n\n        vp1 <- viewport()\n        vp2 <- viewport()\n        push.viewport(vp1, vp2)\n        pop.viewport(2)\n\n12. Speed-up of pushing and popping viewports.  This will probably not\n    be noticeable in normal usage, but makes a big difference for\n    frames and packing.\n\n13. Added a convertNative() function for converting a unit object\n    to \"user\" or \"data\" coordinates.  This is useful for performing\n    calculations (e.g., smoothing) on a location or dimension which\n    is easiest to specify in units.\n\n    You must specify whether you wish to convert relative to the\n    current x- or y-scale AND whether you are converting a location\n    or a dimension.  The following example shows the difference:\n\n       > push.viewport(viewport(w=unit(4,\"inches\"), xscale=c(-10,10)))\n       > convertNative(unit(1:4, \"inches\"))\n       [1] -5  0  5 10\n       > convertNative(unit(1:4, \"inches\"), \"y\")\n       [1] 0.1430986 0.2861972 0.4292958 0.5723944  # on my default window\nsize\n       > convertNative(unit(1:4, \"inches\"), \"y\", \"dimension\")\n       [1] 0.1430986 0.2861972 0.4292958 0.5723944\n       > convertNative(unit(1:4, \"inches\"), \"x\", \"dimension\")\n       [1]  5 10 15 20\n\n    WARNING:  if you draw objects based on output from these conversion\n    functions, then resize your device, the objects will be drawn\n    incorrectly -- the base R display list will not recalculate these\n    conversions.  This means that you can only rely on the results of\n    these calculations if the size of your device is fixed.\n\n    This change motivated by discussions with Frank Harrell.\n\n\n---snip---\n\nChanges in lattice 0.3\n======================\n\nThe overall internal structure of the lattice library has changed\nconsiderably in verion 0.3, in particular making it far more readable\nand debuggable. However, this also means that some code which had\nworked with the earlier version might now fail. (This is just a\ndiscalimer, there are no known instances.)\n\nNew Features:\n============\n\n o (Almost) full support for the `key' argument for drawing legends\n\n o Support for log scales\n\n o levelplot (but no contourplot. In particular, the contour = T option\n   in levelplot does not work)\n\n o tmd now works on the output from qq\n\n o panel function names can now be quoted strings\n\n o scales and its x and y components can now be just a character\n   string like \"free\" or \"sliced\", i.e., the relation tag can be\n   omitted.\n\n o extension to the `type' argument in panel.xyplot and\n   panel.superpose to allow stair-like and histogram-like plots\n   (type=\"s\" and \"h\" in plot), as well as loess smooths (using\n   the loess.smooth function in the modreg library). Also, more\n   than one of these options can now be used concurrently. This\n   allows, for example, a grouped plot where a grouping variable\n   can be used to fit separate loess curves along with the scatter\n   for each group. See example(xyplot)\n\n o wrappers around grid functions with API-s of traditional graphics\n   functions to help port existing S-Plus Trellis code. See below for\n   details.\n\n o changes in print.trellis to allow mixing of Lattice and usual R\n   graphics. See below for details.\n\n o `data' can now be second unnamed argument in\n   high level functions\n\n o `pscales' implemented for splom\n\n\nPorting S-Plus Trellis code to Lattice\n======================================\n\nOne of the basic problems in porting existing Trellis code to R is the\nunusability of the base R functions like lines and points inside panel\nfunctions. To help make the changes more transparently, lattice now\nincludes several wrappers around grid functions that provide an API\nsimilar to the corresponding base R functions. The list currently\nincludes lpoints, llines, ltext and lsegments.\n\n\nUsing Lattice and base R graphics concurrently\n==============================================\n\nGrid graphics normally do not mix with usual R graphics. However,\nend-users typically might want to use lattice functions concurrently\nwith traditional R graphics. To allow this without intermittent calls\nto grid.stop() and grid.start(), print.trellis (which ultimately does\nall the plotting in lattice) now tries to preserve the state of the\ndevice on which it plots. By default, library(lattice) opens a device\nin grid enabled mode. It can be reverted to non grid mode by\ngrid.stop(). Subsequently, both Lattice functions and traditional\ngraphics functions can be used. Devices opened by trellis.device()\nstart in non-grid mode, unless grid.start() is called.\n\n\n\nStill Missing\n=============\n\n o contourplot, wireframe, cloud (partially implemented) and of course,\n   piechart\n\n o Some components of scale (I haven't found a full list, so\n   can't say exactly which are missing)\n\n o Fonts\n\n o axis labels badly implemented, no checking for overlaps.\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi\n\nThere are new versions of the grid and lattice packages on CRAN:\n    grid 0.2 and lattice 0.3-0\n\nThese packages are still _under development_ (they are in\nCRAN/src/contrib/Devel)\n\nThere have been ",
+      "thread_id": "thread-73d2dff992bb",
+      "thread_depth": 0,
+      "month": "2001-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-68593dd9a1e0",
+      "subject": "Ann: New package rpvm 0.2",
+      "message_count": 1,
+      "participants": [
+        "Michael Na Li"
+      ],
+      "started": "2001-09-01T15:10:41-07:00",
+      "last_reply": "2001-09-01T15:10:41-07:00",
+      "root_message_id": "msg-68593dd9a1e0"
+    },
+    {
+      "id": "thread-2c4bc0307915",
+      "subject": "R-1.3.1 for both MacOS version released",
+      "message_count": 1,
+      "participants": [
+        "Stefano Iacus"
+      ],
+      "started": "2001-09-03T01:08:15+02:00",
+      "last_reply": "2001-09-03T01:08:15+02:00",
+      "root_message_id": "msg-2c4bc0307915"
+    },
+    {
+      "id": "thread-1976da9e70ca",
+      "subject": "R-1.3.1 for both MacOS version released (correct URLs)",
+      "message_count": 1,
+      "participants": [
+        "Stefano Iacus"
+      ],
+      "started": "2001-09-03T14:41:31+02:00",
+      "last_reply": "2001-09-03T14:41:31+02:00",
+      "root_message_id": "msg-1976da9e70ca"
+    },
+    {
+      "id": "thread-b0846e44c831",
+      "subject": "R-1.3.1 for Windows",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "2001-09-04T17:00:11+02:00",
+      "last_reply": "2001-09-04T17:00:11+02:00",
+      "root_message_id": "msg-b0846e44c831"
+    },
+    {
+      "id": "thread-b5b7295c9e83",
+      "subject": "RPM binaries of R 1.3.1 on Red Hat/Mandrake/Linuxppc",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2001-09-07T10:37:18+02:00",
+      "last_reply": "2001-09-07T10:37:18+02:00",
+      "root_message_id": "msg-b5b7295c9e83"
+    },
+    {
+      "id": "thread-28782e402552",
+      "subject": "New package pixmap",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "2001-09-11T18:52:42+02:00",
+      "last_reply": "2001-09-11T18:52:42+02:00",
+      "root_message_id": "msg-28782e402552"
+    },
+    {
+      "id": "thread-73d2dff992bb",
+      "subject": "new versions of grid and lattice",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2001-09-21T15:05:14+12:00",
+      "last_reply": "2001-09-21T15:05:14+12:00",
+      "root_message_id": "msg-73d2dff992bb"
+    }
+  ]
+}

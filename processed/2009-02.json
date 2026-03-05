@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2009-02",
+  "messages": [
+    {
+      "id": "msg-8765fcf7498d",
+      "message_id": "<49885C85.7010508@agrocampus-ouest.fr>",
+      "from_name": "Francois Husson",
+      "from_email_hash": "9998c17f0bf71c02e34210987f58f60eeacb8f5a75c69d452719aa14411a2d69",
+      "date": "2009-02-03T15:02:29Z",
+      "subject": "Abstract submission deadline for useR! 2009",
+      "subject_clean": "Abstract submission deadline for useR! 2009",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear members of the R user community,\n\nthe submission deadline for useR! 2009 (Rennes, France, July 8 to 10,\n2009) is approaching:\n\n   Submission deadline: 2009-02-27\n\n(and along with that the early registration deadline).\n\nWe encourage you to give a presentation at the conference and submit an\nabstract or a poster on topics presenting innovations or exciting\napplications of R. You can use the conference Web page at\n\n   http://www.R-project.org/useR-2009/\n\n\nInvited speakers will include: Adele Cutler, Peter Dalgaard, Jerome H.\nFriedman,  Michael Greenacre, Trevor Hastie, John Storey, Martin Theus.\n\nJuly 7, 2009, half-day tutorials are presented by R experts prior to the\nconference.\n\nThe conference web page:\nhttp://www.agrocampus-ouest.fr/math/useR-2009/accomodation.html\ngives a list of hotels and some student rooms (200) are also available\non the campus (Rennes will be very busy at the conference time because\nthe cultural event `Festival Les tomb?es de la nuit' will take place at\nthe same time, so we recommend to book as soon as possible).\n\nWe hope to meet you in Rennes!\n\nF. Husson\nfor the organizing committee.",
+      "body_snippet": "Dear members of the R user community,\n\nthe submission deadline for useR! 2009 (Rennes, France, July 8 to 10,\n2009) is approaching:\n\n   Submission deadline: 2009-02-27\n\n(and along with that the early r",
+      "thread_id": "thread-8765fcf7498d",
+      "thread_depth": 0,
+      "month": "2009-02"
+    },
+    {
+      "id": "msg-cfe2bd11cee3",
+      "message_id": "<18850.9169.960535.118830@ron.nulle.part>",
+      "from_name": "Dirk Eddelbuettel",
+      "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
+      "date": "2009-02-22T22:19:29-06:00",
+      "subject": "R/Finance 2009: Applied Finance with R -- Registration now open",
+      "subject_clean": "R/Finance 2009: Applied Finance with R -- Registration now open",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R/Finance 2009: Applied Finance with R\n   April 24 & 25, Chicago, IL, US\n  \n   The first annual R/Finance conference for applied finance using R , the\n   premier free software system for statistical computation and graphics,\n   will be held this spring in Chicago, IL, USA on Friday April 24 and\n   Saturday April 25.\n\n   The two-day conference will cover topics as diverse as portfolio theory,\n   time-series analysis, as well as advanced risk tools, high-performance\n   computing, and econometrics. All will be discussed within the context of\n   using R as a primary tool for financial risk management and trading.\n\n   Assembled to talk over the two days are some of the industry's most\n   recognizable authorities within the world of R and quantitative finance.\n\n   R/Finance 2009 is organized by a leading group of R package authors and\n   community contributors, and hosted by the International Center for Futures\n   and Derivatives [ICFD] at the University of Illinois at Chicago.\n\n   Conference registration is now open. Special advanced registration pricing is\n   available, as well as discounted pricing for academic and student\n   registrations. \n\n   More details and registration information can be found at the website at  \n\n        \t       http://www.RinFinance.com\n\n   For the program committee:\n\n        Gib Bassett, Peter Carl, Dirk Eddelbuettel, John Miller,\n        Brian Peterson, Dale Rosenthal, Jeffrey Ryan\n\n\n-- \nThree out of two people have difficulties with fractions.",
+      "body_snippet": "R/Finance 2009: Applied Finance with R\n   April 24 & 25, Chicago, IL, US\n  \n   The first annual R/Finance conference for applied finance using R , the\n   premier free software system for statistical c",
+      "thread_id": "thread-cfe2bd11cee3",
+      "thread_depth": 0,
+      "month": "2009-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8765fcf7498d",
+      "subject": "Abstract submission deadline for useR! 2009",
+      "message_count": 1,
+      "participants": [
+        "Francois Husson"
+      ],
+      "started": "2009-02-03T15:02:29+00:00",
+      "last_reply": "2009-02-03T15:02:29+00:00",
+      "root_message_id": "msg-8765fcf7498d"
+    },
+    {
+      "id": "thread-cfe2bd11cee3",
+      "subject": "R/Finance 2009: Applied Finance with R -- Registration now open",
+      "message_count": 1,
+      "participants": [
+        "Dirk Eddelbuettel"
+      ],
+      "started": "2009-02-22T22:19:29-06:00",
+      "last_reply": "2009-02-22T22:19:29-06:00",
+      "root_message_id": "msg-cfe2bd11cee3"
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1998-01",
+  "messages": [
+    {
+      "id": "msg-66a4dd0a962c",
+      "message_id": "<x2oh1jc60k.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-01-11T17:47:07+01:00",
+      "subject": "New version 0.61.1",
+      "subject_clean": "New version 0.61.1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The R core team proudly presents:\n\n       \\||||||||/\n       -R 0.61.1-\n       /||||||||\\\n\n\nI've just rolled together a new patch release.\n\nIt's available from the Auckland repository now, but please do not get\nit from there unless you are in a terrible hurry. It should find its\nway to the main CRAN site in Vienna this evening and then to the rest\nof the CRAN sites. \n\nThere's also a patch file, R-0.61-0.61.1.diff.gz, which you can apply\nto an existing R-0.61 tree. Note that the proper patch procedure is as\nfollows -- assuming that your current working directory is the top\ndirectory of R-0.61 and the patch file is in the parent directory.\n\ngzip -dc ../R-0.61-0.61.1.diff.gz | patch -E -p1\n\nor on most installations, equivalently\n\nzcat ../R-0.61-0.61.1.diff.gz | patch -E -p1\n\nThe above requires that you have GNU \"patch\" installed. At least one\nsystem (Solaris) ships with a different \"patch\", which exhibits some\nannoying bits of braindamage. If you want to use it, you're on your\nown...\n\nI removed changes to the file src/main/gram.c from the patchfile,\nbecause they amounted almost two thirds of the patchfile and the file\nis automatically generated from src/main/gram.y anyway. \n\nA few systems may not have a parser generator installed, and for the\nbenefit of those, I've also put up a R-0.61-0.61.1.diff.w.gram.c.gz\nfile. Note that you may need a \"touch src/main/gram.c\" to prevent\n\"make\" from trying to rebuild it.\n\nHere's the list of changes relative to 0.61 (from the CHANGES file):\n\n                CHANGES IN R VERSION 0.61.1\n\nNEW FEATURES\n\n    o   None (by definition, x.y.z releases are bugfix releases now)\n\nBUG FIXES\n\n    o   Return statements of the form return(x,y) will now return\n        a list with named components.\n\n    o   Parsing of nested \"if\" statments was broken.  This is fixed now.\n        (Reported by Paul Gilbert).\n\n    o   Wrong declaration of ConsoleBufCnt in src/main/scan.c caused crash\n        in Irix (George White <gwhite at bodnext.bio.dfo.ca>)\n\n    o   if(nmatch = 0) bug in src/main/character.c fixed (Doug Bates)\n\n    o   R_alloc/S_alloc fixes. The former allocated 4 times more than\n        needed, the latter zeroed half of what it got, sizeof() mistakes\n        in both cases.\n\n    o   c(ordered factor) caused segfault (uninitalised pointer), now\n        fixed.\n\n    o   behaviour of as.numeric() on factors changed recently; now\n        documented.\n\n    o   model.matrix() now pays attention to the names on its dataframe\n        argument.\n\n    o   Fixes to group methods.\n\n    o   autoload() caused infinite loop if function  wasn't found in\n        library on loading\n\n    o   The pager ate the rest of stdin in batch mode, now fixed. Also,\n        stdout was not flushed before call to system(). \"make tests\"\n        should work now.\n\n    o   Empty directories now created by configure (so that it doesn't\n        matter that \"CVS export\" doesn't do it)\n\n    o   as.name() made idempotent (i.e. if is.name(x) then as.name(x)==x)\n\n    o   3 problems with glm, 2 in glm.fit and a one in print.glm fixed\n        [Jim Lindsey]\n\n    o   binomial (family) now works when 'n=0'. [J.Lindsey]\n\n    o   split() now also works in split(1:10,1:2)\n\n    o   strsplit() now also works for strsplit(c,NULL)\n\n    o   A LANG='..' environment variable no longer affects  scan()ing of\n        numbers.\n\n    o   seq(.) doesn't segfault anymore in  gl(2,3):gl(1,6)\n\n    o   contour(.) now also works with integer arguments\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The R core team proudly presents:\n\n       \\||||||||/\n       -R 0.61.1-\n       /||||||||\\\n\n\nI've just rolled together a new patch release.\n\nIt's available from the Auckland repository now, but please d",
+      "thread_id": "thread-66a4dd0a962c",
+      "thread_depth": 0,
+      "month": "1998-01"
+    },
+    {
+      "id": "msg-77ad7d0d8b84",
+      "message_id": "<199801161119.MAA27623@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1998-01-16T12:19:38+01:00",
+      "subject": "Mail list archives now on CRAN",
+      "subject_clean": "Mail list archives now on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have started to mirror the R mailing list archives on CRAN, they are\nfrom now on available in the directory $CRAN/docs/mail-archives.\n\nBest,\nFritz\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have started to mirror the R mailing list archives on CRAN, they are\nfrom now on available in the directory $CRAN/docs/mail-archives.\n\nBest,\nFritz\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-",
+      "thread_id": "thread-77ad7d0d8b84",
+      "thread_depth": 0,
+      "month": "1998-01"
+    },
+    {
+      "id": "msg-d72edf94bd15",
+      "message_id": "<199801161431.PAA28466@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1998-01-16T15:31:43+01:00",
+      "subject": "New version of e1071 package at CRAN",
+      "subject_clean": "New version of e1071 package at CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have put a new version of our e1071 package onto CRAN. New features\nare support for reading/writing pgm images.\n\nContents:\n\nhamming.distance        Hamming Distance of Vectors \nhamming.window          Coefficients of a Hamming window\nhanning.window          Coefficients of a Hanning window\nkmeans                  k-Means Clustering\nkurtosis                Kurtosis\nmoment                  Statistical Moment\nplot.cluster            Plot Clustered Data\nplot.pgm                Plot a PGM image\nplot.stft               Plots Results of a STFT\npredict.cluster         Assign Clusters to New Data\nrbridge                 Simulation of Brownian Bridge\nread.octave             Read Octave Data File\nread.pgm                Read a PGM image file\nrectangle.window        Coefficients of a Rectangle window\nrwiener                 Simulation of Wiener Process\nskewness                Skewness\nstft                    Short Time Fourier Transform\nwrite.pgm               Write a PGM image file\nwrite.table             Data Output\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have put a new version of our e1071 package onto CRAN. New features\nare support for reading/writing pgm images.\n\nContents:\n\nhamming.distance        Hamming Distance of Vectors \nhamming.window       ",
+      "thread_id": "thread-d72edf94bd15",
+      "thread_depth": 0,
+      "month": "1998-01"
+    },
+    {
+      "id": "msg-f7f2cb3d86f6",
+      "message_id": "<98Jan16.115834est.13454@mailgate.bank-banque-canada.ca>",
+      "from_name": "Paul Gilbert",
+      "from_email_hash": "51f348dc0febec9b32e9d9dcb86f6de731958e1295e818209b4c127bffef5569",
+      "date": "1998-01-16T11:50:36-05:00",
+      "subject": "DSE time series package",
+      "subject_clean": "DSE time series package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "===============================================================\n\n                     ANNOUNCEMENT\n\n===============================================================\n\nAn R version of my multivariate time series package (DSE) is now available at\nCRAN/src/contrib/devel/dse.v.98.1alphaR.tar.gz and it should be reflected\nat the mirrors shortly. The User's Guide is available at\n\n  http://www.bank-banque-canada.ca/pgilbert\n\nHTML help documentation is distributed with the code and is also available\nat the above web site. (The web page is a bit out of date but I hope to fix\nthat soon.)\n\nThe tar file includes two other packages which may be of interest by themselves.\n\nThe first, called syskern, provides a kernel of functions for S/R programmers\nwhich is intended to help write code which is independent of operating system\ndifferences and some small differences between S and R.\nThe second, called tframe, provides a kernel of functions for programming time\nseries methods relatively independently of the representation of time.\nThis is intended to make it easier to write code which can use any new/better\ntime representations when they appear. It also provides plotting, windowing,\nand some other utility functions which are specifically intended for time\nseries.\n\nThe DSE library implements an object oriented approach to time series\nmodels (using classes and methods in R/S). This means that different\nmodel representations can be implemented with fairly simple extensions\nto the library. The original library included multi-variate state space\nand ARMA (including VAR) models. The current version implements Troll\nmodels as another class. These are run by completely separate software\n(Troll from Intex Inc.) as if they were an integral part of the\nlibrary. Models and data are passed back and forth to Troll and the\nresults can be analyzed with already existing functions in the\nlibrary.  This also serves as an example for including other classes\nand methods. [The Troll interface is not yet functional in R.]\n\nMethods for simulating, estimating, and converting among different\nmodel representations form the basic part of the library. Methods for\nstudying estimation methods and for examining the forecasting properties\nof models are also documented in the User Guide.\n\nRelative to commercial packages the library is especially useful for\ntime series research (such as studying estimation methods) and for\nteaching. For usual time series applications there may be commercial\npackages which are preferable.\n\nA list server for questions and discussion of problems has also been set up.\n\nTo subscribe to the list send a message to\nwith a line in the body:\n\nsubscribe boc_dse Your Name\n\nSubsequent message submissions to the list should be sent to\nboc_dse at bank-banque-canada.ca\n\n\nCaveats for R\n\nI have tested the package with R0.61.1 in Solaris and R0.61 in Linux. I would\nappreciate feedback about other OSs. The install procedures are currently Unix\nspecific (I believe) but if anyone attempts installing in Windows I would be\nespecially interested in knowing how to do this.\n\nThe package has been put in the devel area of CRAN because there are still\nsome things I would like to fix (although it is mostly working well), and\nbecause the documentation has not been revised. I would appreciate any early\nfeedback as I would like to fix as many problems as possible before moving\nthis out of the devel category.\n\nThe package is divided into several parts, some logical and some because\nthe current version of R does not support large libraries.\n\nBeware that some documentation in the code, in the HTML based help system,\nand in the Brief Users' Guide is still somewhat specific to S and is not\ncorrect for R (particularly with respect to installation). See the READ.ME\nfile for instruction to install in R.\n\nPaul Gilbert\npgilbert at bank-banque-canada.ca\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "===============================================================\n\n                     ANNOUNCEMENT\n\n===============================================================\n\nAn R version of my multivariate tim",
+      "thread_id": "thread-f7f2cb3d86f6",
+      "thread_depth": 0,
+      "month": "1998-01"
+    },
+    {
+      "id": "msg-e29a88ebf131",
+      "message_id": "<199801290843.JAA25772@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1998-01-29T09:43:36+01:00",
+      "subject": "New RedHat 5.0 packages on CRAN",
+      "subject_clean": "New RedHat 5.0 packages on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thanks to Martyn Plummer there are new Linux RedHat 5.0 packages of R\non CRAN which have been built on a RedHat System, so all dependencies\nshould be ok.\n\nI have uploaded them yesterday, so they should have made it to most\nmirrors by now.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Thanks to Martyn Plummer there are new Linux RedHat 5.0 packages of R\non CRAN which have been built on a RedHat System, so all dependencies\nshould be ok.\n\nI have uploaded them yesterday, so they shoul",
+      "thread_id": "thread-e29a88ebf131",
+      "thread_depth": 0,
+      "month": "1998-01"
+    },
+    {
+      "id": "msg-4824850a875e",
+      "message_id": "<199801301322.OAA06285@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1998-01-30T14:22:02+01:00",
+      "subject": "Submissions to CRAN",
+      "subject_clean": "Submissions to CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "As mentioned earlier I want to decentralize the package descriptions\nof all contributed packages:\n\nPlease make sure to include a file called DESCRIPTION in every package\nwhich looks like:\n\n**********************************************************\n\nPackage: e1071\nVersion: 0.7-3\nAuthor: Compiled by Fritz Leisch <Friedrich.Leisch at ci.tuwien.ac.at>.\nDescription: Miscellaneous functions used at the Department of\n        Statistics at TU Wien (E1071). \nCopyright: GPL\n\n**********************************************************\n\nFurther you can use a field called `Depends:' to include a\ncomma-seperated list of pre-requisited packages.\n\nPLEASE MAKE SURE TO INCLUDE A COPYRIGHT LINE IN THE DESCRIPTION!!!\n\nContinuation lines begin with a whitespace character (as in\nDescription above).\n\nYou can take the file $CRAN/src/contrib/PACKAGES as templates (but\ndon't forget to add the Copyright line :-). This file will be built\nautomatically by concatenating all DESCRIPTION files.\n\nTo all maintainers of current packages: Could you please update the\npackages by including the DESCRIPTION file?\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "As mentioned earlier I want to decentralize the package descriptions\nof all contributed packages:\n\nPlease make sure to include a file called DESCRIPTION in every package\nwhich looks like:\n\n***********",
+      "thread_id": "thread-4824850a875e",
+      "thread_depth": 0,
+      "month": "1998-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-66a4dd0a962c",
+      "subject": "New version 0.61.1",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-01-11T17:47:07+01:00",
+      "last_reply": "1998-01-11T17:47:07+01:00",
+      "root_message_id": "msg-66a4dd0a962c"
+    },
+    {
+      "id": "thread-f7f2cb3d86f6",
+      "subject": "DSE time series package",
+      "message_count": 1,
+      "participants": [
+        "Paul Gilbert"
+      ],
+      "started": "1998-01-16T11:50:36-05:00",
+      "last_reply": "1998-01-16T11:50:36-05:00",
+      "root_message_id": "msg-f7f2cb3d86f6"
+    },
+    {
+      "id": "thread-77ad7d0d8b84",
+      "subject": "Mail list archives now on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1998-01-16T12:19:38+01:00",
+      "last_reply": "1998-01-16T12:19:38+01:00",
+      "root_message_id": "msg-77ad7d0d8b84"
+    },
+    {
+      "id": "thread-d72edf94bd15",
+      "subject": "New version of e1071 package at CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1998-01-16T15:31:43+01:00",
+      "last_reply": "1998-01-16T15:31:43+01:00",
+      "root_message_id": "msg-d72edf94bd15"
+    },
+    {
+      "id": "thread-e29a88ebf131",
+      "subject": "New RedHat 5.0 packages on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1998-01-29T09:43:36+01:00",
+      "last_reply": "1998-01-29T09:43:36+01:00",
+      "root_message_id": "msg-e29a88ebf131"
+    },
+    {
+      "id": "thread-4824850a875e",
+      "subject": "Submissions to CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1998-01-30T14:22:02+01:00",
+      "last_reply": "1998-01-30T14:22:02+01:00",
+      "root_message_id": "msg-4824850a875e"
+    }
+  ]
+}

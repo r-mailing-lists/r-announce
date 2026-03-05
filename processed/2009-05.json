@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2009-05",
+  "messages": [
+    {
+      "id": "msg-314c7779f174",
+      "message_id": "<4A018466.3090109@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2009-05-06T14:36:54+02:00",
+      "subject": "DSC 2009 update, early registration ends May 15",
+      "subject_clean": "DSC 2009 update, early registration ends May 15",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "As previously announced, the sixth international workshop on Directions\nin Statistical Computing (DSC2009) will take place at the Center for\nHealth and Society, University of Copenhagen, Denmark, 13th-14th of July\n2009. For details, see http://www.R-project.org/dsc-2009.\n\n- The paper selection process is now complete and the programme\ncommittee have approximately 25 presentations to assemble into an\neventual Final Scientific Programme\n\n- Professor Tue Tjur from the Copenhagen Business School  has been\ninvited to give an opening lecture on statistical computing in the Old\nDays. (This was the teacher who introduced me to GENSTAT 30 years ago.)\n\n- The Social Programme includes an opening mixer at the conference venue\non Sunday evening and a Conference dinner on Monday at Fures{\\o} Marina.\n(http://marina-en.dk)\n\n- The closing date for early registration has been postponed to May 15.\n\n- The registration is now handled by a professional congress bureau. In\nparticular, this means that payment by credit card has become possible.\n\nOn behalf of the Organizing Committee,\nPeter Dalgaard\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "As previously announced, the sixth international workshop on Directions\nin Statistical Computing (DSC2009) will take place at the Center for\nHealth and Society, University of Copenhagen, Denmark, 13th",
+      "thread_id": "thread-314c7779f174",
+      "thread_depth": 0,
+      "month": "2009-05"
+    },
+    {
+      "id": "msg-b60b3fc8fb90",
+      "message_id": "<2c3c9e80905281314o1af452cp62b6b9da59ab6e3a@mail.gmail.com>",
+      "from_name": "Vincent Carey",
+      "from_email_hash": "a2452f5b8291c3819d7bf5f8363b8501a99d965cccb34679af430953cca3c633",
+      "date": "2009-05-28T16:14:51-04:00",
+      "subject": "The R Journal volume 1, number 1, now available",
+      "subject_clean": "The R Journal volume 1, number 1, now available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "On behalf of the editorial team, I am happy to inform you that the first\nissue of The R Journal is now available:\n\nhttp://journal.r-project.org\n\nI would like to thank team members Heather Turner, Peter Dalgaard, and John Fox\nfor extraordinary efforts in producing this first number of the Journal.\n\n--\nVincent Carey, PhD\nBiostatistics, Channing Lab\n\nEditor-In-Chief\nThe R Journal (ISSN 2073-4859)",
+      "body_snippet": "On behalf of the editorial team, I am happy to inform you that the first\nissue of The R Journal is now available:\n\nhttp://journal.r-project.org\n\nI would like to thank team members Heather Turner, Pete",
+      "thread_id": "thread-b60b3fc8fb90",
+      "thread_depth": 0,
+      "month": "2009-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-314c7779f174",
+      "subject": "DSC 2009 update, early registration ends May 15",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-05-06T14:36:54+02:00",
+      "last_reply": "2009-05-06T14:36:54+02:00",
+      "root_message_id": "msg-314c7779f174"
+    },
+    {
+      "id": "thread-b60b3fc8fb90",
+      "subject": "The R Journal volume 1, number 1, now available",
+      "message_count": 1,
+      "participants": [
+        "Vincent Carey"
+      ],
+      "started": "2009-05-28T16:14:51-04:00",
+      "last_reply": "2009-05-28T16:14:51-04:00",
+      "root_message_id": "msg-b60b3fc8fb90"
+    }
+  ]
+}

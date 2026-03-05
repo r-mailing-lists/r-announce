@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2017-10",
+  "messages": [
+    {
+      "id": "msg-7cbe550889f8",
+      "message_id": "<1507131200.4028.21.camel@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "2e099cb1222e34e2ab5938e6ef440a822400d8f04f0d3ca6299b8e1740ceeacb",
+      "date": "2017-10-04T15:33:21Z",
+      "subject": "Help wanted - R contributed documentation",
+      "subject_clean": "Help wanted - R contributed documentation",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The R Foundation is looking for a volunteer to organize the collection\nof contributed documentation for the R project.  The collection is\ncurrently hosted on CRAN at https://cran.r-project.org/other-docs.html\nWe want to move it off the CRAN web site.\n\nWe think that this task would be suitable for someone whose primary\ninterest is in library and information science. Ideally the collection\nwould be reorganized as an R-project.org epub archive, based on re-\nusing available open source software which features the following: \n\n* export to .bib\n* support for multiple revisions\n* support for supplementary material (such as code and data).\n\nIf you are interested then please reply privately to me. The R\nFoundation board will discuss this at the next meeting.  You can, of\ncourse, put together a team of people but we really want a single\nperson to act as point of reference.\n\nMartyn Plummer\nCo-president, The R Foundation",
+      "body_snippet": "The R Foundation is looking for a volunteer to organize the collection\nof contributed documentation for the R project.  The collection is\ncurrently hosted on CRAN at https://cran.r-project.org/other-d",
+      "thread_id": "thread-7cbe550889f8",
+      "thread_depth": 0,
+      "month": "2017-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7cbe550889f8",
+      "subject": "Help wanted - R contributed documentation",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2017-10-04T15:33:21+00:00",
+      "last_reply": "2017-10-04T15:33:21+00:00",
+      "root_message_id": "msg-7cbe550889f8"
+    }
+  ]
+}

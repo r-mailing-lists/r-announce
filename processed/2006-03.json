@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2006-03",
+  "messages": [
+    {
+      "id": "msg-51ae966d912d",
+      "message_id": "<Pine.LNX.4.58.0603271616330.28062@thorin.ci.tuwien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2006-03-27T16:16:51+02:00",
+      "subject": "useR! 2006 program online",
+      "subject_clean": "useR! 2006 program online",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear useRs,\n\nwe are happy to inform you that the program for the 2nd R user conference\nuseR! 2006 is now available online from the conference Web page at\n  http://www.R-project.org/useR-2006/program.html\n\nWe would like to thank the useR community for submitting so many\ninteresting abstracts about an astonishing variety of R applications. We\nare looking forward to an exciting and diversified conference!\n\nThe useR! organization team and program committee",
+      "body_snippet": "Dear useRs,\n\nwe are happy to inform you that the program for the 2nd R user conference\nuseR! 2006 is now available online from the conference Web page at\n  http://www.R-project.org/useR-2006/program.h",
+      "thread_id": "thread-51ae966d912d",
+      "thread_depth": 0,
+      "month": "2006-03"
+    },
+    {
+      "id": "msg-1c0c73e64c26",
+      "message_id": "<44283F6E.2010607@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2006-03-28T07:39:26+12:00",
+      "subject": "DSC 2007",
+      "subject_clean": "DSC 2007",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nFollowing on from the \"Distributed Statistical Computing\" conferences in \nVienna (1999, 2001, 2003) and the \"Directions in Statistical Computing\" \nconference in Seattle last year ...\n\nDSC 2007, a conference on systems and environments for statistical \ncomputing, will take place in Auckland, New Zealand on February 15 & 16, \n2007.\n\nThis is just an announcement of date and location so that interested \nparties living on the far side of the planet have time to book their \ntravel;  further details and a web site for the conference will be \nannounced in due course.\n\nPaul\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe University of Auckland\nPrivate Bag 92019\nAuckland\nNew Zealand\n64 9 3737599 x85392\npaul at stat.auckland.ac.nz\nhttp://www.stat.auckland.ac.nz/~paul/",
+      "body_snippet": "Hi\n\nFollowing on from the \"Distributed Statistical Computing\" conferences in \nVienna (1999, 2001, 2003) and the \"Directions in Statistical Computing\" \nconference in Seattle last year ...\n\nDSC 2007, a ",
+      "thread_id": "thread-1c0c73e64c26",
+      "thread_depth": 0,
+      "month": "2006-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-51ae966d912d",
+      "subject": "useR! 2006 program online",
+      "message_count": 1,
+      "participants": [
+        "Achim Zeileis"
+      ],
+      "started": "2006-03-27T16:16:51+02:00",
+      "last_reply": "2006-03-27T16:16:51+02:00",
+      "root_message_id": "msg-51ae966d912d"
+    },
+    {
+      "id": "thread-1c0c73e64c26",
+      "subject": "DSC 2007",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2006-03-28T07:39:26+12:00",
+      "last_reply": "2006-03-28T07:39:26+12:00",
+      "root_message_id": "msg-1c0c73e64c26"
+    }
+  ]
+}

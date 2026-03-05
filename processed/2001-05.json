@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-05",
+  "messages": [
+    {
+      "id": "msg-1ba077a35efe",
+      "message_id": "<Pine.LNX.4.21.0105031952520.7775-100000@matheron.estadi.uv.es>",
+      "from_name": "Virgilio.Gomez at uv.es",
+      "from_email_hash": "3b4123f5c3ff01b6d34830be0726ae099a8f42790bf2cac840611dbd735d6dd0",
+      "date": "2001-05-03T20:00:24+02:00",
+      "subject": "New Package Released: RArcInfo 0.02",
+      "subject_clean": "New Package Released: RArcInfo 0.02",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\nI have relased a new package that can be helpful to the GIS\nusers: RArcInfo.\nThis package allows the user to import data from Arc/Info V7.x binary\ncoverage. There are functions to import data from the basic files: ARC,\nPAL, BND, etc. and also from those that store tables.\n\nBesides, there are also two functions to plot arcs and polygons.\n\nThe package will only work on Linux, but soon I will make it to work on\nWindows.\nPlease, notice that the package is in an early stage and I need some\nfeedback from the users to improve it. I have some ideas, but many more\nwill be welcome.\n\n\n Have a nice day,\n\n  Virgilio G?mez-Rubio\n\n  Ph.D. Student\n  Department of Statistics and Operating Research\n  University of Valencia\n  Spain\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\nI have relased a new package that can be helpful to the GIS\nusers: RArcInfo.\nThis package allows the user to import data from Arc/Info V7.x binary\ncoverage. There are functions to import data fro",
+      "thread_id": "thread-1ba077a35efe",
+      "thread_depth": 0,
+      "month": "2001-05"
+    },
+    {
+      "id": "msg-d5a1568f8f7a",
+      "message_id": "<007601c0e23a$9db66210$175dd882@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "2cdf86d078d3a3beecbe66012bfab9ee2f91d8b693c4d9a6e58b5e7d2a07be1b",
+      "date": "2001-05-22T09:11:34+12:00",
+      "subject": "new packages:  grid and lattice",
+      "subject_clean": "new packages:  grid and lattice",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nTwo new packages have just been uploaded to the _DEVEL_ section on CRAN:\n\n\n1.  package \"grid\"\n\nAUTHOR\nPaul Murrell\n\nOVERVIEW\nThis package provides an altenative graphics system for R.\n\nFEATURES\nVery flexible layout facilities (viewports, units, layouts)\nComponent-based design (graphics can be constructed incrementally and\nhierarchically)\nBasic support for interaction (graphics functions return \"objects\")\nHighly customisable and extensible\n\nBUGS/UNIMPLEMENTED FEATURES\nNo clipping\nOnly single active device\nViewport rotation very fragile\n...\n\n\n2.  package \"lattice\"\n\nAUTHOR\nDeepayan Sarkar\n\nOVERVIEW\nThis package provides graphics functionality similar to the Trellis suite in\nS-Plus.\n\nFEATURES\nMutipanel plots of one or two variables conditioned on one or more other\nvariables.\nFormula-style specification of conditioning.\nStrips atop the panels to indicate levels of the conditioning variables.\n\nBUGS/UNIMPLEMENTED FEATURES\nThe \"key\" argument.\nThe \"font\" argument.\n\n\nThe lattice package uses the graphics system provided by grid so you will\nneed to download both packages in order to use lattice.  Furthermore, the\npackages are most likely to work only with the latest development release of\nR.  At the very least they require R 1.2.0 or later.\n\nThe packages are in the DEVEL section of CRAN because they are far from\ncomplete and have many bugs and missing features.  However, they should\ncontain sufficient functionality to be of use to some people.  We are also\nvery interested in feedback on things that don't work, things that people\ndon't like, and even things that people do like :)\n\nPaul Murrell\nDeepayan Sarkar\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi\n\nTwo new packages have just been uploaded to the _DEVEL_ section on CRAN:\n\n\n1.  package \"grid\"\n\nAUTHOR\nPaul Murrell\n\nOVERVIEW\nThis package provides an altenative graphics system for R.\n\nFEATURES\nVe",
+      "thread_id": "thread-d5a1568f8f7a",
+      "thread_depth": 0,
+      "month": "2001-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1ba077a35efe",
+      "subject": "New Package Released: RArcInfo 0.02",
+      "message_count": 1,
+      "participants": [
+        "Virgilio.Gomez at uv.es"
+      ],
+      "started": "2001-05-03T20:00:24+02:00",
+      "last_reply": "2001-05-03T20:00:24+02:00",
+      "root_message_id": "msg-1ba077a35efe"
+    },
+    {
+      "id": "thread-d5a1568f8f7a",
+      "subject": "new packages:  grid and lattice",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2001-05-22T09:11:34+12:00",
+      "last_reply": "2001-05-22T09:11:34+12:00",
+      "root_message_id": "msg-d5a1568f8f7a"
+    }
+  ]
+}

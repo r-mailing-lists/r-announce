@@ -1,0 +1,117 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2006-06",
+  "messages": [
+    {
+      "id": "msg-b50970f47ec0",
+      "message_id": "<447E548E.2090202@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2006-06-01T14:44:30+12:00",
+      "subject": "R News, volume 6, issue 2 is now available",
+      "subject_clean": "R News, volume 6, issue 2 is now available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nThe May 2006 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nPaul\n(on behalf of the R News EditorialBoard)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe University of Auckland\nPrivate Bag 92019\nAuckland\nNew Zealand\n64 9 3737599 x85392\npaul at stat.auckland.ac.nz\nhttp://www.stat.auckland.ac.nz/~paul/",
+      "body_snippet": "Hi\n\nThe May 2006 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nPaul\n(on behalf of the R News EditorialBoard)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe Unive",
+      "thread_id": "thread-b50970f47ec0",
+      "thread_depth": 0,
+      "month": "2006-06"
+    },
+    {
+      "id": "msg-88c978048253",
+      "message_id": "<x2ejy9i6wj.fsf@viggo.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2006-06-01T11:04:12+02:00",
+      "subject": "R 2.3.1 is released",
+      "subject_clean": "R 2.3.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.3.1.tar.gz a short while ago. This version contains\nseveral minor fixups and removes a couple of bad bugs. See the full list\nof changes below.\n\nYou can get it (in a short while) from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.3.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course.\n \nThere is also a version split for floppies. (This will be the last\ntime we build those.)\n\n        For the R Core Team\n\n        Peter Dalgaard\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nc663533d4d6c86f2a192c2b86f5bac12  AUTHORS\neb723b61539feef013de476e68b5c50a  COPYING\na6f89e2100d9b6cdffcea4f398e37343  COPYING.LIB\n7eac2a82dfd523caf7e73eb08ab530a4  FAQ\n70447ae7f2c35233d3065b004aa4f331  INSTALL\na592ca1b1582f94d3f468dd7ccb38c18  NEWS\n88bbd6781faedc788a1cbd434194480c  ONEWS\n4f004de59e24a52d0f500063b4603bcb  OONEWS\na1d6d8081af4c71006a6e5a3ed54e4da  R-2.3.1.tar.gz\n0ae4891a63b3d7ebf82b1ff70c4f2dcb  R-2.3.1.tar.gz-split.aa\n142e3ecbde7d47b85dcad45782ee3b52  R-2.3.1.tar.gz-split.ab\nf6fafac0e6c03dd1523d09960e56c7ca  R-2.3.1.tar.gz-split.ac\n8a076dd800893b56184819570b8b2863  R-2.3.1.tar.gz-split.ad\n5ed399fa2181575ba67c11c81e33dba5  R-2.3.1.tar.gz-split.ae\n6074ecc86fad61d679eea80515ab9944  R-2.3.1.tar.gz-split.af\n7ba58cf3d6d55044738439518432d846  R-2.3.1.tar.gz-split.ag\ne32d05cb40e79b49489ba09cf8fa654c  R-2.3.1.tar.gz-split.ah\n8e9f7675844031803a2076a73271b2c1  R-2.3.1.tar.gz-split.ai\n12a494e22ddd220c4cefdb60cc532308  R-2.3.1.tar.gz-split.aj\na1d6d8081af4c71006a6e5a3ed54e4da  R-latest.tar.gz\n433182754c05c2cf7a04ad0da474a1d0  README\n020479f381d5f9038dcb18708997f5da  RESOURCES\n4eaf8a3e428694523edc16feb0140206  THANKS\n\nHere is the relevant bit of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 2.3.1\n\n\nNEW FEATURES\n\n    o\tIn lm() and glm(), offsets are allowed to be length 1 (and\n\tif so are replicated to the number of cases).\n\n    o\tThe \\uxxxx notation for Unicode characters in input strings\n\tcan now be used on any platform which supports MBCS, even if\n\tthe current locale is not MBCS (provided that the Unicode\n\tcharacter is valid in the current character set).\n\n    o\tThe quasibinomial() family now allows the \"cauchit\" link. (PR#8851)\n\n    o\tedit.data.frame() no longer (silently) coerces character columns\n\tto factor.\n\n\nC-LEVEL FACILITIES\n\n    o\tThe variables controlling stack checking are made available via\n        Rinterface.h to front-ends embedding R: see 'Writing R Extensions'\n\n    o\tR_SignalHandlers (defined in Rinterface.h) can be set to 0 to\n        suppress the R signal handlers in front-ends embedding R.\n\n\nINSTALLATION CHANGES\n\n    o\tThere have been a number of changes to help installation on\n\tplatforms that no one had beta-tested.\n\n\t- Changes related to older header files, e.g. on Redhat 8.0/9.\n\n\t- Problems with 'make install' on older (<3) versions of bash\n          on Solaris and elsewhere.\n\n\t- AIX 5.2/gcc issues with needing -lm when making modules X11\n          and vfonts.\n\n\t- Some versions of Solaris and AIX had a fcntl.h that\n\t  redefined 'open' to be 'open64' and thereby broke\n\t  compilation of src/main/connections.c and elsewhere.\n\n    o   'make uninstall' works better on a build using a named\n\tsubarchitecture.\n\n\nBUG FIXES\n\n    o\tmin(), max(), sum() and prod() gave nonsensical answers with\n\tan empty list or raw argument.\n\n    o\tsum() on a data frame did not allow multiple arguments.\t (PR#8385)\n\n    o\tcharmatch() and pmatch() did not specify they applied only to\n\tcharacter vectors.  Now they do, and attempt to coerce 'x' and\n\t'target' to character before attempting matching.\n\n    o\tThe Summary() methods for data.frame, Date, POSIXct, POSIXlt\n\tand difftime all required an argument which can match 'x',\n\talthough the generics did not.\n\n    o\tregexpr() now accepts 0-length 'text' inputs.\n\n    o\thelp.search() no longer errors out on a wrongly installed package\n\t(with no \"hsearch.rds\" file).\n\n    o\tThe LaTeX version of the package reference manual was omitting\n\tsome topics, and was not sorting the foo-package topic first.\n\n    o\tSerializing (e.g. via save()) is better protected against C\n\tstack overflow, which will now abort the conversion but no\n\tlonger crashes the R process on some platforms.\n\n    o\trbind()ing dataframes with a single row could lead to a\n\tcorrupt data frame (a problem with the fix to PR#8506).\n\n    o\tplot(lm(y ~ 1)) now works also for 'which = 5'.\n\n    o\tdbeta(0, 1, a, 0) now correctly gives 'a' (limit) instead of 0,\n\tand dbeta(0, a, b, ncp) now returns Inf instead of NaN.\n\n    o\tdemo(Hershey) was failing on the Cyrillic octal codes in locales\n\t(e.g. UTF-8) in which these are invalid.\n\n    o\tmean() on an integer (or logical) vector was treating NAs as\n\tactual values (unless na.rm = TRUE).\n\n    o\tmean() on a complex vector was calculated incorrectly in\n        code to improve precision (PR#8842, John Peters).\n\n    o\tGraphical parameters bg, cex, col, lty, and lwd were being\n\tchecked as being of length one even by functions such as\n\ttitle() that ignored them.  (Functions such as lines() and\n\tpoints() allow them to be of length > 1, so they might be\n\tpassed through ... to other high-level graphical functions\n\twhich then used to reject them.)\n\n    o\tstr() now is fast again for large character vectors.\n\n    o\tedit() would default the environment of a function to .BaseEnv,\n\tinstead of to .GlobalEnv.\n\n    o\tlm() and glm() coerce their 'weights' and 'offset' values to\n\tvector to avoid problems with specifying them as 1D or n x 1\n\tarrays.\n\n    o\timage() with one or both axes on log scales would give a\n\tspurious warning; contour() would give an error.\n\n    o\tlegend() with log axes would place the title in the wrong place.\n\n    o\tedit.data.frame() was not returning factors edited with\n\tfactor.mode=\"numeric\" to factors.\n\n    o\tedit.matrix() tried to set rownames and colnames from the\n\toriginal matrix even if the sizes had been altered, and\n\tignored changes made to the column names.  edit.row.names has\n\ta more sensible default (if the rownames are non-NULL).\n\n    o\tbindingIsLocked() was returning invalid values of a logical\n\tvector on some platforms.\n\n    o\tmerge.data.frame() did not make the column names unique (by\n\tappending elements of 'suffixes') when performing a Cartesian\n\tproduct.  (PR#8676)\n\n    o\trbind.data.frame() matches up the names of columns (which was\n\tundocumented), but failed to do so when checking if it was\n\tdealing with a factor column.  (PR#8868)\n\n\tIf rbind() was used on data frames with duplicated names it\n\tproduced a corrupt data frame.\n\n    o\tdt(x, df, ncp= not.0) now longer gives erratic values for\n\t|x| < ~1e-12.  (PR#8874)\n\n    o\t\\code{\\linkS4class{.}} now works.\n\n    o\tccf() aligns time series by ts.intersect() rather than\n\tts.union() and so is less likely to need a non-default\n\tna.action.  (PR#8893)\n\n    o\toptim(method=\"CG\") could return a value that did not\n\tcorrespond to $par for very badly behaved functions on which\n\tthe second phase of the line search failed.  (PR#8786)\n\n    o\tprint.ts() could fail on a corrupt time series: it now warns and\n\tdoes the best it can.\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark          Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)                  FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-2.3.1.tar.gz a short while ago. This version contains\nseveral minor fixups and removes a couple of bad bugs. See the full list\nof changes below.\n\nYou can get it (in a short while) fro",
+      "thread_id": "thread-88c978048253",
+      "thread_depth": 0,
+      "month": "2006-06"
+    },
+    {
+      "id": "msg-5badba3ee919",
+      "message_id": "<447F65F5.4010300@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2006-06-02T10:11:01+12:00",
+      "subject": "DSC 2007 info",
+      "subject_clean": "DSC 2007 info",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nThis is a second announcement and call for abstracts.\nPlease forward and circulate to other interested parties.\n\nDSC 2007, a conference on systems and environments for statistical\ncomputing, will take place in Auckland, New Zealand on February 15 & 16,\n2007.\n\nWe invite abstracts on the development of software systems and computing\nenvironments for interactive statistics.  The workshop will focus on,\nbut is not limited to, open source statistical computing.\n\nThe deadline for submitting abstracts is 2006-10-15 (October 15th).\nPlease send abstracts (one page) to dsc2007 at stat.auckland.ac.nz\n\nThe workshop web page (including on-line registration) is now available\nat http://www.stat.auckland.ac.nz/dsc-2007/\n\nPaul\n(on behalf of the Organising Committee)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe University of Auckland\nPrivate Bag 92019\nAuckland\nNew Zealand\n64 9 3737599 x85392\npaul at stat.auckland.ac.nz\nhttp://www.stat.auckland.ac.nz/~paul/",
+      "body_snippet": "Hi\n\nThis is a second announcement and call for abstracts.\nPlease forward and circulate to other interested parties.\n\nDSC 2007, a conference on systems and environments for statistical\ncomputing, will ",
+      "thread_id": "thread-5badba3ee919",
+      "thread_depth": 0,
+      "month": "2006-06"
+    },
+    {
+      "id": "msg-4d1693188018",
+      "message_id": "<20060630221738.0331a63b.Achim.Zeileis@wu-wien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
+      "date": "2006-06-30T22:17:38+02:00",
+      "subject": "useR! 2006: presentation slides",
+      "subject_clean": "useR! 2006: presentation slides",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear useRs,\n\nthe useR! 2006 conference took place in Vienna two weeks ago: it was an\nexciting and interesting meeting with about 400 useRs from all over the\nworld and more than 150 presentations.\n\nEspecially for those of you who could not make it to the conference, we\nhave made 4up PDF versions of the presentations slides available.\n\nThe slides for the keynote lectures are available at\n  http://www.R-project.org/useR-2006/Keynotes/\nand the user-contributed presentations at\n  http://www.R-project.org/useR-2006/Presentations/\n\nFinally, some materials for the panel discussion on \"Getting recognition\nfor excellence in computational statistics\" are provided at\n  http://www.R-project.org/useR-2006/PanelDisc/\nincluding a summary, the short presentation slides of the panelists and\nthe full discussion as a video.\n\nA big thank you to everyone who contributed to the conference and...\nbest wishes from Vienna!\n\nThe organizing team\nAchim, Torsten, David, Bettina, Fritz and Kurt.",
+      "body_snippet": "Dear useRs,\n\nthe useR! 2006 conference took place in Vienna two weeks ago: it was an\nexciting and interesting meeting with about 400 useRs from all over the\nworld and more than 150 presentations.\n\nEsp",
+      "thread_id": "thread-4d1693188018",
+      "thread_depth": 0,
+      "month": "2006-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-88c978048253",
+      "subject": "R 2.3.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2006-06-01T11:04:12+02:00",
+      "last_reply": "2006-06-01T11:04:12+02:00",
+      "root_message_id": "msg-88c978048253"
+    },
+    {
+      "id": "thread-b50970f47ec0",
+      "subject": "R News, volume 6, issue 2 is now available",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2006-06-01T14:44:30+12:00",
+      "last_reply": "2006-06-01T14:44:30+12:00",
+      "root_message_id": "msg-b50970f47ec0"
+    },
+    {
+      "id": "thread-5badba3ee919",
+      "subject": "DSC 2007 info",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2006-06-02T10:11:01+12:00",
+      "last_reply": "2006-06-02T10:11:01+12:00",
+      "root_message_id": "msg-5badba3ee919"
+    },
+    {
+      "id": "thread-4d1693188018",
+      "subject": "useR! 2006: presentation slides",
+      "message_count": 1,
+      "participants": [
+        "Achim Zeileis"
+      ],
+      "started": "2006-06-30T22:17:38+02:00",
+      "last_reply": "2006-06-30T22:17:38+02:00",
+      "root_message_id": "msg-4d1693188018"
+    }
+  ]
+}

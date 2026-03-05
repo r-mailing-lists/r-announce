@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2012-02",
+  "messages": [
+    {
+      "id": "msg-1be00c1bc561",
+      "message_id": "<85FB2210-5B38-413C-9412-A30B007C19DE@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2012-02-13T10:12:38+01:00",
+      "subject": "Release plans for 2.14.2 and 2.15.0",
+      "subject_clean": "Release plans for 2.14.2 and 2.15.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "It is the intention of the R Core Team to release the finalized version of the 2.14.x series at the end of February, and soon thereafter to start the run-in for 2.15.0. I.e.,\n\n2.14.2 \"Gift-Getting Season\" on Feb 29 (3rd anniversary of R-1.0.0!)\n2.15.0 \"Easter Beagle\" on Mar 30\n\n(We'll see about getting the nicknames into the actual sources this time.)\n\nFurther details to follow.\n\n-- \nPeter Dalgaard, Professor\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "It is the intention of the R Core Team to release the finalized version of the 2.14.x series at the end of February, and soon thereafter to start the run-in for 2.15.0. I.e.,\n\n2.14.2 \"Gift-Getting Sea",
+      "thread_id": "thread-1be00c1bc561",
+      "thread_depth": 0,
+      "month": "2012-02"
+    },
+    {
+      "id": "msg-6df96c8be3a2",
+      "message_id": "<D5B3AA59-D3D4-44DD-A20D-016D78445545@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2012-02-29T15:40:36+01:00",
+      "subject": "R 2.14.2 is released + R anniversary",
+      "subject_clean": "R 2.14.2 is released + R anniversary",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The build system rolled up R-2.14.2.tar.gz (codename \"Gift-Getting Season\") at 9:00 this morning. This is intended to be the final round-up release of the 2.14 series; see the list below for details.\n\n(The codename is still not part of the actual sources. That feature will have to wait for 2.15.0, \"Easter Beagle\").\n\nThis release also marks the 3rd anniversary of R-1.0.0.\n\nYou can get the source code from\n\n   http://cran.r-project.org/src/base/R-2/R-2.14.2.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\nFor the R Core Team\n\nPeter Dalgaard\n\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nMD5 (AUTHORS) = cbf6da8f886ccd8d0dda0cc7ffd1b8ec\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = 748eae477f4c3c8d1f16cc82d9035d18\nMD5 (INSTALL) = 70447ae7f2c35233d3065b004aa4f331\nMD5 (NEWS) = 7fc0a51c884e59daae6ea82d7c36af85\nMD5 (NEWS.html) = 2fa78a01a352723ab3cc8e9796fb5c19\nMD5 (ONEWS) = 0c3e10eef74439786e5fceddd06dac71\nMD5 (OONEWS) = b0d650eba25fc5664980528c147a20db\nMD5 (R-latest.tar.gz) = f5c8657543a293a80d025be58cf1ef71\nMD5 (README) = 296871fcf14f49787910c57b92655c76\nMD5 (RESOURCES) = 020479f381d5f9038dcb18708997f5da\nMD5 (THANKS) = 159efc7bd4ae7b23dda07c1d431657bc\nMD5 (R-2/R-2.14.2.tar.gz) = f5c8657543a293a80d025be58cf1ef71\n\nThis is the relevant part of the NEWS file \n\nCHANGES IN R VERSION 2.14.2:\n\n  NEW FEATURES:\n\n    o The internal untar() (as used by default by R CMD INSTALL) now\n      knows about some pax headers which bsdtar (e.g., the default tar\n      for Mac OS >= 10.6) can incorrectly include in tar files, and\n      will skip them with a warning.\n\n    o PCRE has been upgraded to version 8.21: as well as bug fixes and\n      greater Perl compatibility, this adds a JIT pattern compiler,\n      about which PCRE's news says 'large performance benefits can be\n      had in many situations'.  This is supported on most but not all R\n      platforms.\n\n    o Function compactPDF() in package tools now takes the default for\n      argument gs_quality from environment variable GS_QUALITY: there\n      is a new value \"none\", the ultimate default, which prevents\n      GhostScript being used in preference to qpdf just because\n      environment variable R_GSCMD is set.  If R_GSCMD is unset or set\n      to \"\", the function will try to find a suitable GhostScript\n      executable.\n\n    o The included version of zlib has been updated to 1.2.6.\n\n    o For consistency with the logLik() method, nobs() for \"nls\" files\n      now excludes observations with zero weight.  (Reported by Berwin\n      Turlach.)\n\n  UTILITIES:\n\n    o R CMD check now reports by default on licenses not according to\n      the description in 'Writing R Extensions'.\n\n    o R CMD check has a new option --as-cran to turn on most of the\n      customizations that CRAN uses for its incoming checks.\n\n  PACKAGE INSTALLATION:\n\n    o R CMD INSTALL will now no longer install certain file types from\n      inst/doc: these are almost certainly mistakes and for some\n      packages are wasting a lot of space.  These are Makefile, files\n      generated by running LaTeX, and unless the package uses a\n      vignettes directory, PostScript and image bitmap files.\n\n      Note that only PDF vignettes have ever been supported: some of\n      these files come from DVI/PS output from the Sweave defaults\n      prior to R 2.13.0.\n\n  BUG FIXES:\n\n    o R configured with --disable-openmp would mistakenly set\n      HAVE_OPENMP (internal) and SUPPORT_OPENMP (in Rconfig.h) even\n      though no OpenMP flags were populated.\n\n    o The getS3method() implementation had an old computation to find\n      an S4 default method.\n\n    o readLines() could overflow a buffer if the last line of the file\n      was not terminated.  (PR#14766)\n\n    o R CMD check could miss undocumented S4 objects in packages which\n      used S4 classes but did not Depends: methods in their DESCRIPTION\n      file.\n\n    o The HTML Help Search page had malformed links.  (PR#14769)\n\n    o A couple of instances of lack of protection of SEXPs have been\n      squashed. (PR#14772, PR#14773)\n\n    o image(x, useRaster=TRUE) misbehaved on single-column x.\n      (PR#14774)\n\n    o Negative values for options(\"max.print\") or the max argument to\n      print.default() caused crashes.  Now the former are ignored and\n      the latter trigger an error.  (PR#14779)\n\n    o The text of a function body containing more than 4096 bytes was\n      not properly saved by the parser when entered at the console.\n\n    o Forgetting the #endif tag in an Rd file could cause the parser to\n      go into a loop.  (Reported by Hans-Jorg Bibiko.)\n\n    o str(*, ....., strict.width=\"cut\") now also obeys list.len = n.\n      (Reported by S\"oren Vogel.)\n\n    o Printing of arrays did not have enough protection (C level),\n      e.g., in the context of capture.output().  (Reported by Herv'e\n      Pag`es and Martin Morgan.)\n\n    o pdf(file = NULL) would produce a spurious file named NA.\n      (PR#14808)\n\n    o list2env() did not check the type of its envir argument.\n      (PR#14807)\n\n    o svg() could segfault if called with a non-existent file path.\n      (PR#14790)\n\n    o make install can install to a path containing + characters.\n      (PR#14798)\n\n    o The edit() function did not respect the options(\"keep.source\")\n      setting. (Reported by Cleridy Lennert.)\n\n    o predict.lm(*, type=\"terms\", terms=*, se.fit=TRUE) did not work.\n      (PR#14817)\n\n    o There is a partial workaround for errors in the TRE\n      regular-expressions engine with named classes and repeat counts\n      of at least 2 in a MBCS locale (PR#14408): these are avoided when\n      TRE is in 8-bit mode (e.g. for useBytes = TRUE and when all the\n      data are ASCII).\n\n    o The C function R_ReplDLLdo1() did not call top-level handlers.\n\n    o The Quartz device was unable to detect window sessions on Mac OS\n      X 10.7 (Lion) and higher and thus it was not used as the default\n      device on the console.  Since Lion any application can use window\n      sessions, so Quartz will now be the default device if the user's\n      window session is active and R is not run via ssh which is at\n      least close to the behavior in prior OS X versions.\n\n    o mclapply() would fail in code assembling the translated error\n      message if some (but not all) cores encountered an error.\n\n    o format.POSIXlt(x) raised an arithmetic exception when x was an\n      invalid object of class \"POSIXlt\" and parts were empty.\n\n    o installed.packages() has some more protection against package\n      installs going on in parallel.\n\n    o .Primitive() could be mis-used to call .Internal() entry points.\n\n--\nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "The build system rolled up R-2.14.2.tar.gz (codename \"Gift-Getting Season\") at 9:00 this morning. This is intended to be the final round-up release of the 2.14 series; see the list below for details.\n",
+      "thread_id": "thread-6df96c8be3a2",
+      "thread_depth": 0,
+      "month": "2012-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1be00c1bc561",
+      "subject": "Release plans for 2.14.2 and 2.15.0",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2012-02-13T10:12:38+01:00",
+      "last_reply": "2012-02-13T10:12:38+01:00",
+      "root_message_id": "msg-1be00c1bc561"
+    },
+    {
+      "id": "thread-6df96c8be3a2",
+      "subject": "R 2.14.2 is released + R anniversary",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2012-02-29T15:40:36+01:00",
+      "last_reply": "2012-02-29T15:40:36+01:00",
+      "root_message_id": "msg-6df96c8be3a2"
+    }
+  ]
+}

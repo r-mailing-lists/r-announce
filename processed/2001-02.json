@@ -1,0 +1,117 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-02",
+  "messages": [
+    {
+      "id": "msg-b58c1266a323",
+      "message_id": "<OF5A4E86CA.80978113-ON852569EB.004F49B5@rtp.epa.gov>",
+      "from_name": "Setzer.Woodrow at epamail.epa.gov",
+      "from_email_hash": "1106788dd9d815d1da9015b5ba13d0f8bef965cf298924e0693292211724f3f7",
+      "date": "2001-02-06T09:34:27-05:00",
+      "subject": "No subject",
+      "subject_clean": "No subject",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "CRAN now contains a new package for numerically solving ordinary\ndifferential equations.  The package (odesolve_0.5-3) currently provides an\ninterface to the solver \"LSODA\" written by Linda Petzold and Alan\nHindmarsh.  LSODA is an adaptive solver, switching between methods\nappropriate for non-stiff and stiff systems as the problem requires.  In\nthis implementation, the system of ODEs are written as an R function.  A\nvector of parameters may be passed to the function, making it relatively\neasy to use lsoda in functions to be passed to various R optimizers.\n\nR. Woodrow Setzer, Jr.                                            Phone:\n(919) 541-0128\nExperimental Toxicology Division                       Fax:  (919) 541-5394\nPharmacokinetics Branch\nNHEERL MD-74; US EPA; RTP, NC 27711\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "CRAN now contains a new package for numerically solving ordinary\ndifferential equations.  The package (odesolve_0.5-3) currently provides an\ninterface to the solver \"LSODA\" written by Linda Petzold an",
+      "thread_id": "thread-b58c1266a323",
+      "thread_depth": 0,
+      "month": "2001-02"
+    },
+    {
+      "id": "msg-63c40a986667",
+      "message_id": "<OFB5635B31.3FAE4376-ON852569EB.0058EBF4@rtp.epa.gov>",
+      "from_name": "Setzer.Woodrow at epamail.epa.gov",
+      "from_email_hash": "1106788dd9d815d1da9015b5ba13d0f8bef965cf298924e0693292211724f3f7",
+      "date": "2001-02-06T11:12:11-05:00",
+      "subject": "ODE solver submitted to CRAN",
+      "subject_clean": "ODE solver submitted to CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "[I inadvertantly submitted this just now without a subject line.  My\napologies for the double posting!]\n\nCRAN now contains a new package for numerically solving ordinary\ndifferential equations.  The package (odesolve_0.5-3) currently provides an\ninterface to the solver \"LSODA\" written by Linda Petzold and Alan\nHindmarsh.  LSODA is an adaptive solver, switching between methods\nappropriate for non-stiff and stiff systems as the problem requires.  In\nthis implementation, the system of ODEs are written as an R function.  A\nvector of parameters may be passed to the function, making it relatively\neasy to use lsoda in functions to be passed to various R optimizers.\n\nR. Woodrow Setzer, Jr.                                            Phone:\n(919) 541-0128\nExperimental Toxicology Division                       Fax:  (919) 541-5394\nPharmacokinetics Branch\nNHEERL MD-74; US EPA; RTP, NC 27711\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "[I inadvertantly submitted this just now without a subject line.  My\napologies for the double posting!]\n\nCRAN now contains a new package for numerically solving ordinary\ndifferential equations.  The p",
+      "thread_id": "thread-63c40a986667",
+      "thread_depth": 0,
+      "month": "2001-02"
+    },
+    {
+      "id": "msg-539076379226",
+      "message_id": "<x2lmqttvqj.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "df4a7a8ab4f8d0bef528c62db85abb1da002e92b7cf8c64fd891eca0ea281ee4",
+      "date": "2001-02-26T14:33:08+01:00",
+      "subject": "R-1.2.2 is released",
+      "subject_clean": "R-1.2.2 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.2.2.tgz a moment ago. This is mainly a release to\nadd Stefano's Macintosh sources, but there are also a couple of\nbugfixes and minor tweaks.\n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.2.2.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.2.2.tgz\n\nor wait for it to be mirrored at a CRAN site near you within a day or two.\n\nThere's also a version split in three for floppies and a patch file\nagainst 1.2.1.\n\n\tFor the R Core Team,\n\n\tPeter D.\n\nHere's the relevant part of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 1.2.2\n\n\nNEW FEATURES\n\n    o\tThe Macintosh port becomes a full member of the R family and its\n\tsources are incorporated as from this release.\t\n\tSee `src/macintosh/INSTALL' for how that port is built.\n\n    o\tThe API header files and export files `R.exp' are released under\n\tLGPL rather than GPL to allow dynamically loaded code to be\n\tdistributed under licences other than GPL.\n\n    o\tpostscript() and xfig() devices now make use of genuine Adobe\n\tafm files, and warn if characters are used in string width or\n\theight calculations that are not in the afm files.\n\n    o\tConfigure now uses a much expanded search list for finding a\n\tFORTRAN 77 compiler, and no longer disallows wrapper scripts for\n\tthis compiler.\n\n    o\tNew Rd markup \\method{GENERIC}{CLASS} for indicating the usage\n\tof methods.\n\n    o\tprint.ftable() and write.ftable() now have a `digits' argument.\n\n    o\tundoc() has a new `lib.loc' argument, and its first argument is\n\tnow called `package'.\n\n\nBUG FIXES\n\n    o\tThe behaviour of polygon() with NA coordinate values is now\n\tdocumented.\n\n    o\tpolygon() now correctly recycles the values of border and lty.\n\tThanks to Denis White.\n\n    o\treadBin() and writeBin() were not always making good use of\n\tlong types (such as long double) when available.\n\n    o\tThe C function fprec was not handling very small denormalized\n\tnumbers correctly.  This affected the way they were printed on\n\tWindows, for example.\n\n    o\tlegend() now draws points after lines allowing \"empty dots on\n\tlines\" thanks to Ben Bolker.\n\n    o\tSetting row/column names preserves the names of the dimnames\n\t(PR#809). \n\n    o\tUsing help() after help.start() on Unix was failing to find\n\tthe linked help files if more than one package was loaded (as\n\tnow happens by default).\n\n    o\tscan now sets the maximal sizes internally when `what' is a list\n\tfrom `nmax' and failing that `nlines'.\tThis uses memory much\n\tmore efficiently if `nmax' is specified.  read.table() makes use\n\tof this.\n\n    o\tThe FORTRAN code used is now much closer to ANSI compliance.\n\n    o\tcov.rob() gives a useful error message on nearly-degenerate\n\tmatrices.\n\n    o\tsummary() on a data frame was computing results to a precision\n\tbased on options(\"digits\") (default 4), not its `digits'\n\targument.  Now results are computed to full precision but \n\tformatted using `digits'.\n\n    o\tsummary(m, digits=*) also properly works for matrices.\n\n    o\tWhen returning parameters from .C/.Fortran, the OBJECT field was\n\tnot copied even though class attributes were (PR#834).\n\n    o\tThere was a spurious warning from the X11 driver on 100 dpi\n\tdisplays (PR#840, fix from Tom Vogels).\n\n    o\tscan() was reading all-blank numeric fields as zero. \n\tShould be read as NA, and are now. \n\n    o\tdnbinom(*, size, *) now works again for size < 1 (PR#842).\n\n    o\tdgeom(*, p = 0) and pgeom(*, p = 0) don't give NaN anymore.\n\n    o\tsmooth.spline() allows zero weights again.\n\n    o\taperm() fix for list arg; aperm(*, resize=FALSE) now works with\n\tdimnames (by dropping them).\n\n    o\tThe xfig() driver was not closing unclosed polygons as the R\n\tdriver expected (but did not document).\n\n    o\tspec.ar() now handles order 1 correctly.\n\n    o\tAdd fuzz to prevent anomalies with hist().\n\n    o\tprint.matrix() checks length of rowlab, collab (PR#850)\n\n    o\tadd1.glm() was using the wrong weights for binomial glms in\n\tcbind(successes, failures) ~ lhs  form, since 1.2.0.\n\n    o\tEliminate packing of the `structRstart' structure, which was\n\tprobably non-ISO C and caused some compilers problems (PR#852).\n\n    o\tall.vars() no longer returns empty `names' (PR#829).\n\n    o\tdotplot() passes `cex' down to the mtext() calls used for the\n\tlabels (PR#816).\n\n    o\tThe pictex() driver was drawing polylines incorrectly (PR#845).\n\n    o\tIn the event of a fatal X11 error (this can be generated under FVWM\n\tby selecting Destroy), the input handler would loop, leaving the\n\t\"please save work and shut down R\" advice useless. There should now\n\tbe an opportunity for a relatively graceful exit.  \n\n    o\tpolyroot() misbehaved if all coefficients except that of the highest\n\tdegree term were zero (partial fix for PR#751)\n\n    o\tspline(method=\"natural\") was extrapolating incorrectly (both\n\tto the left and to the right, for different reasons).  (PR#653)\n\n    o\tLine clipping was incorrect for log-plots. (PR#839)\n\n    o\tAdd explicit test for rank-deficient residuals to summary.manova().\n\n    o\tThe help search databases did not contain the data from the\n\tplatform-specific help files.\n\n    o\tparse.dcf() and hence package.contents() now work with a warning\n\tfor empty contents' files.\n\n    o\twhich.min() and which.max() now properly work for 0-length and\n\tNA-only arguments.\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.2.2.tgz a moment ago. This is mainly a release to\nadd Stefano's Macintosh sources, but there are also a couple of\nbugfixes and minor tweaks.\n\nYou can get it from\n\nftp://cvs.r-projec",
+      "thread_id": "thread-539076379226",
+      "thread_depth": 0,
+      "month": "2001-02"
+    },
+    {
+      "id": "msg-47981855bc1f",
+      "message_id": "<6rhf1h33sq.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2001-02-26T08:41:09-06:00",
+      "subject": "R-1.2.2 via rsync",
+      "subject_clean": "R-1.2.2 via rsync",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R-1.2.2 is now available via rsync as rsync.r-project.org::r-release\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "R-1.2.2 is now available via rsync as rsync.r-project.org::r-release\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwie",
+      "thread_id": "thread-47981855bc1f",
+      "thread_depth": 0,
+      "month": "2001-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b58c1266a323",
+      "subject": "No subject",
+      "message_count": 1,
+      "participants": [
+        "Setzer.Woodrow at epamail.epa.gov"
+      ],
+      "started": "2001-02-06T09:34:27-05:00",
+      "last_reply": "2001-02-06T09:34:27-05:00",
+      "root_message_id": "msg-b58c1266a323"
+    },
+    {
+      "id": "thread-63c40a986667",
+      "subject": "ODE solver submitted to CRAN",
+      "message_count": 1,
+      "participants": [
+        "Setzer.Woodrow at epamail.epa.gov"
+      ],
+      "started": "2001-02-06T11:12:11-05:00",
+      "last_reply": "2001-02-06T11:12:11-05:00",
+      "root_message_id": "msg-63c40a986667"
+    },
+    {
+      "id": "thread-47981855bc1f",
+      "subject": "R-1.2.2 via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2001-02-26T08:41:09-06:00",
+      "last_reply": "2001-02-26T08:41:09-06:00",
+      "root_message_id": "msg-47981855bc1f"
+    },
+    {
+      "id": "thread-539076379226",
+      "subject": "R-1.2.2 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2001-02-26T14:33:08+01:00",
+      "last_reply": "2001-02-26T14:33:08+01:00",
+      "root_message_id": "msg-539076379226"
+    }
+  ]
+}

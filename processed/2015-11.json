@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2015-11",
+  "messages": [
+    {
+      "id": "msg-698e6e2f7826",
+      "message_id": "<46A477A2-1E2A-46ED-9BEE-CAF66B3F0345@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2015-11-13T11:18:58+01:00",
+      "subject": "[R] Release of R 3.2.3 scheduled for December 10",
+      "subject_clean": "Release of R 3.2.3 scheduled for December 10",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We intend to have a patch release on December 10, nickname will be \"Wooden Christmas-Tree\". The detailed schedule will be made available via developer.r-project.org as usual (later today).\n\nFor the R Core Team,\n\nPeter D.",
+      "body_snippet": "We intend to have a patch release on December 10, nickname will be \"Wooden Christmas-Tree\". The detailed schedule will be made available via developer.r-project.org as usual (later today).\n\nFor the R ",
+      "thread_id": "thread-698e6e2f7826",
+      "thread_depth": 0,
+      "month": "2015-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-698e6e2f7826",
+      "subject": "Release of R 3.2.3 scheduled for December 10",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2015-11-13T11:18:58+01:00",
+      "last_reply": "2015-11-13T11:18:58+01:00",
+      "root_message_id": "msg-698e6e2f7826"
+    }
+  ]
+}

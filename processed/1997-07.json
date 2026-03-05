@@ -1,0 +1,144 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1997-07",
+  "messages": [
+    {
+      "id": "msg-7b9482f960da",
+      "message_id": "<Pine.SUN.3.95.970708093641.4305B-100000@zen>",
+      "from_name": "Thomas Lumley",
+      "from_email_hash": "61bcce0fdf9d5f23a30b727658d7a47ac11811000a72b388d394906e16dc4416",
+      "date": "1997-07-08T09:41:22-07:00",
+      "subject": "R-beta: integration, subset selection",
+      "subject_clean": "R-beta: integration, subset selection",
+      "in_reply_to": "<199707030527.HAA05571@aragorn.ci.tuwien.ac.at>",
+      "references": [],
+      "body_plain": "Two new libraries:\nleaps:  replaces and improves on S leaps() function for regression subset\nselection.\n\nintegrate:  Integration by adaptive quadrature in 1-20 dimensions.\n\nBoth available from http://www.biostat.washington.edu/~thomas/R.html and\nsoon from CRAN\n\nThomas Lumley\n------------------------------------------------------+------\nBiostatistics\t\t: \"Never attribute to malice what  :\nUni of Washington\t:  can be adequately explained by  :\nBox 357232\t\t:  incompetence\" - Hanlon's Razor  :\nSeattle WA 98195-7232\t:\t\t\t\t   :\n------------------------------------------------------------\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=",
+      "body_snippet": "Two new libraries:\nleaps:  replaces and improves on S leaps() function for regression subset\nselection.\n\nintegrate:  Integration by adaptive quadrature in 1-20 dimensions.\n\nBoth available from http://",
+      "thread_id": "thread-7b9482f960da",
+      "thread_depth": 0,
+      "month": "1997-07"
+    },
+    {
+      "id": "msg-5433fe16f2db",
+      "message_id": "<199707101310.PAA03881@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1997-07-10T15:10:35+02:00",
+      "subject": "New Packages in CRAN",
+      "subject_clean": "New Packages in CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The following packages have been contributed to CRAN by Thomas Lumley:\n\nintegrate-1.0.tar.gz:\n\tS function and supporting C and Fortran code for adaptive\n\tquadrature.  The underlyling fortran code is purported to\n\twork in from 2 to 20 dimensions.\n\n\tS original by Michael Meyer (mikem at andrew.cmu.edu).\n\tR port by Thomas Lumley <thomas at biostat.washington.edu>.\n\t[1997/07/10]\n\nleaps-1.0.tar.gz:\n\tThis library performs an exhaustive search for the best\n\tsubsets of a given set of potential regressors, using a\n\tbranch-and-bound algorithm, and also performs searches using\n\ta number of less time-consuming techniques. It is designed to\n\treplace the \"leaps()\" command in S. \n\n\tPackaged for R by Thomas Lumley <thomas at biostat.washington.edu>\n\tand based on FORTRAN77 code by Alan Miller\n\t<Alan.Miller at vic.cmis.csiro.au>.\n\t[1997/07/10]\n\t\n\nThe tar files are available from the CRAN main site at\n\n\tftp://ftp.ci.tuwien.ac.at/pub/R/\n\nin the directory\n\n\tsrc/contrib\n\nand from the mirror sites (tomorrow):\n\n    http://lib.stat.cmu.edu/R/CRAN/                     (U.S./Pennsylvania)\n    ftp://franz.stat.wisc.edu/pub/R/                    (U.S./Wisconsin)\n    ftp://ftp.stat.math.ethz.ch/R-CRAN/                 (Switzerland)\n    http://www.stat.unipg.it/pub/stat/statlib/R/CRAN/   (Italy)\n\nIf you want your server being added to the list of mirrors, please let\nus know.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-r-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-",
+      "body_snippet": "The following packages have been contributed to CRAN by Thomas Lumley:\n\nintegrate-1.0.tar.gz:\n\tS function and supporting C and Fortran code for adaptive\n\tquadrature.  The underlyling fortran code is p",
+      "thread_id": "thread-5433fe16f2db",
+      "thread_depth": 0,
+      "month": "1997-07"
+    },
+    {
+      "id": "msg-cb50c60574cc",
+      "message_id": "<199707101430.XAA04737@tansei.u-aizu.ac.jp>",
+      "from_name": "Takafumi Hayashi",
+      "from_email_hash": "04803134b10e626a01c369da8d2150d5a18a590f29efc2abf97215e7b82d2a5a",
+      "date": "1997-07-10T23:30:15+09:00",
+      "subject": "R-beta: New Packages in CRAN ",
+      "subject_clean": "R-beta: New Packages in CRAN",
+      "in_reply_to": "Your message of \"Thu, 10 Jul 1997 15:10:35 +0200.\" <199707101310.PAA03881@galadriel.ci.tuwien.ac.at> ",
+      "references": [],
+      "body_plain": "Dear Sirs,\n\n> and from the mirror sites (tomorrow):\n> \n>     http://lib.stat.cmu.edu/R/CRAN/                     (U.S./Pennsylvani=\n> a)\n>     ftp://franz.stat.wisc.edu/pub/R/                    (U.S./Wisconsin)\n>     ftp://ftp.stat.math.ethz.ch/R-CRAN/                 (Switzerland)\n>     http://www.stat.unipg.it/pub/stat/statlib/R/CRAN/   (Italy)\n\nWe are mirroring CARN daily to our ftp-server.\n      ftp://ftp.u-aizu.ac.jp/pub/lang/R/CRAN              (Japan)\nBest Regards,\n\n---\nTakafumi Hayashi             takafumi at u-aizu.ac.jp\nThe University of Aizu       phone : +81-242-37-2614\nFCS Lab.                     fax   : +81-242-37-2734\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=",
+      "body_snippet": "Dear Sirs,\n\n> and from the mirror sites (tomorrow):\n> \n>     http://lib.stat.cmu.edu/R/CRAN/                     (U.S./Pennsylvani=\n> a)\n>     ftp://franz.stat.wisc.edu/pub/R/                    (U.S.",
+      "thread_id": "thread-cb50c60574cc",
+      "thread_depth": 0,
+      "month": "1997-07"
+    },
+    {
+      "id": "msg-a9be142fd997",
+      "message_id": "<199707170843.KAA09296@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1997-07-17T10:43:22+02:00",
+      "subject": "new version 0.1 of e1071 in CRAN",
+      "subject_clean": "new version 0.1 of e1071 in CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The following functions have been added to the e1071 package\n\n\tskewness\n\tkurtosis\n\thamming.distance\n\n\nThe tar files are available from the CRAN main site at\n\n\tftp://ftp.ci.tuwien.ac.at/pub/R/\n\nin the directory\n\n\tsrc/contrib\n\nand from the mirror sites (tomorrow):\n\n    http://lib.stat.cmu.edu/R/CRAN/                     (U.S./Pennsylvania)\n    ftp://franz.stat.wisc.edu/pub/R/                    (U.S./Wisconsin)\n    ftp://ftp.stat.math.ethz.ch/R-CRAN/                 (Switzerland)\n    http://www.stat.unipg.it/pub/stat/statlib/R/CRAN/   (Italy)\n    ftp://ftp.u-aizu.ac.jp/pub/lang/R/CRAN/             (Japan)\n\nIf you want your server being added to the list of mirrors, please let\nus know.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-r-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-",
+      "body_snippet": "The following functions have been added to the e1071 package\n\n\tskewness\n\tkurtosis\n\thamming.distance\n\n\nThe tar files are available from the CRAN main site at\n\n\tftp://ftp.ci.tuwien.ac.at/pub/R/\n\nin the ",
+      "thread_id": "thread-a9be142fd997",
+      "thread_depth": 0,
+      "month": "1997-07"
+    },
+    {
+      "id": "msg-cbe240a8b7b3",
+      "message_id": "<3.0.1.16.19970729173011.31175978@droopy.iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "1997-07-29T17:30:11+02:00",
+      "subject": "RPM package for R",
+      "subject_clean": "RPM package for R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A precompiled \"RPM\" binary of R-0.50.a1 is now available on CRAN for\ninstallation on Linux systems which use the RedHat Package\nManager. The package also includes all contributed libraries\ncurrently in the CRAN archive. Source code is not included in the\npackage, but the source RPM file is available on CRAN. \n\nThe package is not PGP signed as PGP is illegal in France.\n\nThis is the first public release of the RPM package and may\nhave a few rough edges. Feedback is welcome.\n\nMartyn\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n\nReturn-Path: leisch at ci.tuwien.ac.at\nReceived: from fangorn.ci.tuwien.ac.at (root at fangorn.ci.tuwien.ac.at [128.130.170.24]) by hypatia.math.ethz.ch (8.6.12/Main-STAT-mailer) with ESMTP id SAA13229 for <r-announce at stat.math.ethz.ch>; Wed, 27 Aug 1997 18:38:48 +0200\nReceived: from galadriel.ci.tuwien.ac.at (leisch at galadriel.ci.tuwien.ac.at [128.130.170.37])\n          by fangorn.ci.tuwien.ac.at (8.8.5/8.8.4) with ESMTP\n\t  id SAA18524 for <r-announce at stat.math.ethz.ch>; Wed, 27 Aug 1997 18:38:19 +0200\nReceived: (from leisch at localhost) by galadriel.ci.tuwien.ac.at (8.8.5/8.7.3) id SAA00468; Wed, 27 Aug 1997 18:38:47 +0200\nDate: Wed, 27 Aug 1997 18:38:47 +0200\nMessage-Id: <199708271638.SAA00468 at galadriel.ci.tuwien.ac.at>\nFrom: Friedrich Leisch <Friedrich.Leisch at ci.tuwien.ac.at>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=iso-8859-1\nTo: r-announce at stat.math.ethz.ch\nSubject: CRAN goes HTML\nX-Mailer: VM 6.33 under Emacs 19.34.1\nContent-Transfer-Encoding: 8bit\nX-MIME-Autoconverted: from 8bit to quoted-printable by fangorn.ci.tuwien.ac.at id SAA18524\n\n\nHi all,\n\nthanks help by Thomas Lumley (who provided us also with a beautiful\nlogo!) I've finally made a start for an html frontend for CRAN. It\nshould be available on all mirror sites tomorrow.\n\nThe master site is at\n\n\thttp://www.ci.tuwien.ac.at/R\n\nand the usual mirror sites are\n\nhttp://www.stat.unipg.it/pub/stat/statlib/R/CRAN/ (IASC archive, Italy)\nftp://ftp.u-aizu.ac.jp/pub/lang/R/CRAN/           (University of Aizu, Japan)\nftp://ftp.stat.math.ethz.ch/R-CRAN/               (ETH Z?rich, Switzerland)\nhttp://lib.stat.cmu.edu/R/CRAN/                   (Statlib, CMU, USA)\nftp://ftp.biostat.washington.edu/mirrors/R/CRAN/  (University of Washington, USA)\nftp://franz.stat.wisc.edu/pub/R/                  (University of Wisconsin, USA)\n\n\nBest,\nFritz\n\n--\n-------------------------------------------------------------------\n                        Friedrich  Leisch\nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------",
+      "body_snippet": "A precompiled \"RPM\" binary of R-0.50.a1 is now available on CRAN for\ninstallation on Linux systems which use the RedHat Package\nManager. The package also includes all contributed libraries\ncurrently i",
+      "thread_id": "thread-cbe240a8b7b3",
+      "thread_depth": 0,
+      "month": "1997-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7b9482f960da",
+      "subject": "R-beta: integration, subset selection",
+      "message_count": 1,
+      "participants": [
+        "Thomas Lumley"
+      ],
+      "started": "1997-07-08T09:41:22-07:00",
+      "last_reply": "1997-07-08T09:41:22-07:00",
+      "root_message_id": "msg-7b9482f960da"
+    },
+    {
+      "id": "thread-5433fe16f2db",
+      "subject": "New Packages in CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1997-07-10T15:10:35+02:00",
+      "last_reply": "1997-07-10T15:10:35+02:00",
+      "root_message_id": "msg-5433fe16f2db"
+    },
+    {
+      "id": "thread-cb50c60574cc",
+      "subject": "R-beta: New Packages in CRAN",
+      "message_count": 1,
+      "participants": [
+        "Takafumi Hayashi"
+      ],
+      "started": "1997-07-10T23:30:15+09:00",
+      "last_reply": "1997-07-10T23:30:15+09:00",
+      "root_message_id": "msg-cb50c60574cc"
+    },
+    {
+      "id": "thread-a9be142fd997",
+      "subject": "new version 0.1 of e1071 in CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1997-07-17T10:43:22+02:00",
+      "last_reply": "1997-07-17T10:43:22+02:00",
+      "root_message_id": "msg-a9be142fd997"
+    },
+    {
+      "id": "thread-cbe240a8b7b3",
+      "subject": "RPM package for R",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "1997-07-29T17:30:11+02:00",
+      "last_reply": "1997-07-29T17:30:11+02:00",
+      "root_message_id": "msg-cbe240a8b7b3"
+    }
+  ]
+}

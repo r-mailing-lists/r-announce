@@ -1,0 +1,107 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1999-05",
+  "messages": [
+    {
+      "id": "msg-d1eff187379e",
+      "message_id": "<6rzp3mvslm.fsf_-_@verdi.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "1999-05-03T14:52:21-05:00",
+      "subject": "\"Advanced Programming in S\" short course ",
+      "subject_clean": "\"Advanced Programming in S\" short course",
+      "in_reply_to": "Bill Venables's message of \"Sat, 17 Apr 1999 12:18:40 +0930 (CST)\"",
+      "references": [],
+      "body_plain": "The Department of Statistics at the University of Wisconsin - Madison\nwill be presenting a two-day short course on \"Advanced Programming in\nS\" by Dr. William Venables, June 14-15, 1999 in Madison, Wisconsin,\nUSA.\n\nDetails are available at\n\t  http://www.stat.wisc.edu/shortcourse/Venables.html\nor by contacting Denise Roder <roder at stat.wisc.edu>.\n\nIn the title of the short course, \"S\" refers to the language, not a\nspecific product.  We regard S-PLUS and R as two dialects of the S\nlanguage.  Bill will be discussing both although, to be honest, the\nemphasis will be on S-PLUS.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The Department of Statistics at the University of Wisconsin - Madison\nwill be presenting a two-day short course on \"Advanced Programming in\nS\" by Dr. William Venables, June 14-15, 1999 in Madison, Wis",
+      "thread_id": "thread-d1eff187379e",
+      "thread_depth": 0,
+      "month": "1999-05"
+    },
+    {
+      "id": "msg-9403d2b33e05",
+      "message_id": "<x23e18udby.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1999-05-07T17:08:49+02:00",
+      "subject": "R-0.64.1 is released ",
+      "subject_clean": "R-0.64.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've put up R-0.64.1.tgz up for FTP from Auckland some a moment ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or two.\n\nFor those who *are* desperate, I'll put a copy in\n\n\tftp://blueberry.kubism.ku.dk/pub/R-devel/R-0.64.1.tgz \n\nThere's also a version split in two for floppies and a patch file if\nyou prefer that. (The patch file misses out on some binary files that\nhave been added since 0.64.0, but you only need them for compiling the\nWindows version).\n\n\tFor the R Core Team,\n\n\tPeter D.\n\nHere is the relevant part of the NEWS file:\n\n\n\n                CHANGES IN R VERSION 0.64.1\n\nNEW FEATURES\n\n    o   barplot() and boxplot() are now generic\n\n    o   relevel function to reorder levels in factors.\n\n    o   contr.treatment now has a base= argument for selecting the\n        baseline group.\n\n    o   New command line option `--no-environ' (under Unix) to prevent\n        sourcing the `~/.Renviron' file.  Implied by `--vanilla'.\n\n    o   Packages can now have a configure script.  If a file `configure'\n        is found it is executed before anything else is done by R\n        INSTALL.\n\n    o   If HTML help files are asked for but not available, text help \n        is used. \n\n    o   HTML help file conversion reports unsatisified \\link{..}s. \n\n    o   `vsize' and `nsize' can be set by the environment variables\n        R_VSIZE and R_NSIZE respectively, perhaps most conveniently from\n        `~/.Renviron' under Unix or Windows.  Command-line settings will\n        take precedence.\n\n        The defaults have been increased to 6M and 250k.\n\n    o   zip files can be used for storing help and example files. See\n        the help files for \"help\" and \"example\" for details.\n\n    o   New submission method \"none\" (for not sending email) in\n        bug.report().\n\n    o   `R CMD check' can now also be used for installed packages without\n        the corresponding sources.\n\n    o   The sources for the Windows port are included in src/gnuwin32.\n        See src/gnuwin32/readme.\n\nBUG FIXES\n\n    o   deparser left off empty parentheses on e.g. (function(x) x)()\n\n    o   cat() now works on \"name\" objects\n\n    o   forgot to set jump buffer in return context in one case\n\n    o   parser dropped off tagged missing args on function calls ( f(a=) )\n\n    o   relops tried to set time series parameters before dimensions\n\n    o   arithmetic tried to set time series parameters before dimensions\n\n    o   mvfft fixes (from Martyn Plummer) - not working with vectors and\n        segfault problem.\n\n    o   Rephrased error message on invalid assignment target.\n\n    o   ifelse() now evaluates yes/no only if needed\n\n    o   PROTECT'ed some memory in NewExtractNames that was getting overwritten\n        during garbage collection.\n\n    o   Crossing factors (`:') works again.\n\n    o   terms.formula used to choke on terms more than 60 characters long\n\n    o   is.nan() should now work correctly on new/old-style lists.\n\n    o   x[[i]] did not work correctly for negative subscripts i.\n\n    o   as.list() didn't work for expressions\n\n    o   x[[i]] <- quote(a) (x generic vector) didn't work\n\n    o   for method functions: many argument name changes, add ... where\n        needed, for consistency with the generic function.\n\n    o   example() will allow (again) aliased topic names. \n\n    o   HTML help file conversions will find hyperlinks in the main \n        library as well as the current library. Links containing `<'\n        or `>' now work properly.\n\n    o   Rdconv conversion of \\section{}{}s to Sd corrected.\n\n    o   ppois rounded non-integer `q', should truncate.\n\n    o   pnbinom was wrong for non-integer `q'.\n\n    o   dbinom, dgeom, dnbinom, dpois give 0 with a warning for\n        non-integer arguments.\n\n    o   load / save / data allow unlimited string sizes.\n\n    o   strsplit() allows unlimited string size.\n\n    o   eigen() now should work (again) in all cases.\n\n    o   is.nan() fixed to work (again) in architectures with \n        \"unspecified\" internal isnan().\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've put up R-0.64.1.tgz up for FTP from Auckland some a moment ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or ",
+      "thread_id": "thread-9403d2b33e05",
+      "thread_depth": 0,
+      "month": "1999-05"
+    },
+    {
+      "id": "msg-5801431c84e7",
+      "message_id": "<Pine.GSO.4.10.9905101134080.16882-100000@wompom.biostat.washington.edu>",
+      "from_name": "Thomas Lumley",
+      "from_email_hash": "61bcce0fdf9d5f23a30b727658d7a47ac11811000a72b388d394906e16dc4416",
+      "date": "1999-05-10T14:14:10-07:00",
+      "subject": "survival5 is released",
+      "subject_clean": "survival5 is released",
+      "in_reply_to": "<x23e18udby.fsf@blueberry.kubism.ku.dk>",
+      "references": [],
+      "body_plain": "Version 1.0 of survival5 will soon be percolating through CRAN.\n\nSurvival5 is the R port of the newest version of Terry Therneau's survival\nanalysis code for S(-PLUS).  It contains a number of bug fixes relative to\nsurvival4, a more robust parametric likelihood maximiser, updated US\nmortality ratetables, and facilities for penalised maximum (partial)\nlikelihood.\n\nThe R port REQUIRES version 0.64.1 or later. It also requires the splines\npackage, and the date package is strongly recommended.\n\nSome further documentation is available in Mayo Clinic technical reports\nfrom:\n http://www.mayo.edu/hsr/main/people/therneau.html\n\nPlease send questions about the R port to me, not to Terry Therneau, since\nmost of the major changes since survival4 are implemented incompatibly in\nR and S.\n\n\nThomas Lumley\nAssistant Professor, Biostatistics\nUniversity of Washington, Seattle\n\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Version 1.0 of survival5 will soon be percolating through CRAN.\n\nSurvival5 is the R port of the newest version of Terry Therneau's survival\nanalysis code for S(-PLUS).  It contains a number of bug fix",
+      "thread_id": "thread-9403d2b33e05",
+      "thread_depth": 1,
+      "month": "1999-05"
+    },
+    {
+      "id": "msg-3b761d2dd121",
+      "message_id": "<19990514135329.07489@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "1999-05-14T13:53:29+01:00",
+      "subject": "R0.64.1 for Windows",
+      "subject_clean": "R0.64.1 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A binary distribution of R 0.64.1 for Win9X/WinNT is available\nat CRAN/bin/windows/windows-NT/base.\nThere area lot of new Windows features. Check files \nCHANGES and README.\n\nguido masarotto \n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A binary distribution of R 0.64.1 for Win9X/WinNT is available\nat CRAN/bin/windows/windows-NT/base.\nThere area lot of new Windows features. Check files \nCHANGES and README.\n\nguido masarotto \n-.-.-.-.-",
+      "thread_id": "thread-3b761d2dd121",
+      "thread_depth": 0,
+      "month": "1999-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d1eff187379e",
+      "subject": "\"Advanced Programming in S\" short course",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "1999-05-03T14:52:21-05:00",
+      "last_reply": "1999-05-03T14:52:21-05:00",
+      "root_message_id": "msg-d1eff187379e"
+    },
+    {
+      "id": "thread-9403d2b33e05",
+      "subject": "R-0.64.1 is released",
+      "message_count": 2,
+      "participants": [
+        "Peter Dalgaard BSA",
+        "Thomas Lumley"
+      ],
+      "started": "1999-05-07T17:08:49+02:00",
+      "last_reply": "1999-05-10T14:14:10-07:00",
+      "root_message_id": "msg-9403d2b33e05"
+    },
+    {
+      "id": "thread-3b761d2dd121",
+      "subject": "R0.64.1 for Windows",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1999-05-14T13:53:29+01:00",
+      "last_reply": "1999-05-14T13:53:29+01:00",
+      "root_message_id": "msg-3b761d2dd121"
+    }
+  ]
+}

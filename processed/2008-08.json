@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2008-08",
+  "messages": [
+    {
+      "id": "msg-f13af922e00c",
+      "message_id": "<489F462A.6050408@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2008-08-10T21:48:58+02:00",
+      "subject": "R 2,7.2 is scheduled for August 25",
+      "subject_clean": "R 2,7.2 is scheduled for August 25",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.7.2 on Monday,\nAugust 25, 2008.\n\nRelease procedures start Friday August 15 (when we get back from useR).\n\nThe source tarballs will be made available daily (barring build\ntroubles) and the tarballs can be picked up at\n\nhttp://cran.r-project.org/src/base-prerelease/\n\na little later.\n\nBinary builds are expected to appear starting Monday 18 at the latest.\n\n\tFor the Core Team\n\tPeter Dalgaard\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "This is to announce that we plan to release R version 2.7.2 on Monday,\nAugust 25, 2008.\n\nRelease procedures start Friday August 15 (when we get back from useR).\n\nThe source tarballs will be made avail",
+      "thread_id": "thread-f13af922e00c",
+      "thread_depth": 0,
+      "month": "2008-08"
+    },
+    {
+      "id": "msg-406c76111d8c",
+      "message_id": "<18606.34734.358781.844169@lxh5.stat.uni-muenchen.de>",
+      "from_name": "Friedrich.Leisch at R-project.org",
+      "from_email_hash": "2272cd5a8d9728602b8c9c039d74bcebe6fc79965f3cb706baae64e9a862204b",
+      "date": "2008-08-22T11:32:30+02:00",
+      "subject": "Forthcoming R Conferences",
+      "subject_clean": "Forthcoming R Conferences",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear useRs and developeRs,\n\nI hope all attending useR! in Dortmund last week had as much a good\ntime as I had and a safe trip home. This email is to announce our\nplans for forthcoming conferences. In 2009 there will be a useR! in\nRennes, France (July 8-10), directly followed by a DSC in Copenhagen,\nDenmark (July 13-14).\n\nWe would like to have a useR! 2010 in North America, and 2011 in\nEurope. Locations for 2010 and 2011 have not been fixed yet, but there\nare already some plans.  Proposals to host a conference are of course\nmore than welcome.\n\nThere have also been questions why 2009 is again in Europe. The main\nreasons were:\n\na) we had a very good offer from Rennes, and (and at least almost one\n   year ago, when planning started) none from outside Europe\n\nb) Having European useR!s in odd years will make it easier to set a\n   date: in even years there are the biannual Compstat conferences,\n   which together with all their satellite meetings block mid-August\n   to the beginning of September. In odd years on the other hand,\n   there is no regular big conference on computational statistics in\n   Europe.\n\nSo the basic plan is to be in Europe in odd years, and North America\nin even years from now on. Either continent could of course be\nreplaced by one of the other 5 continents if we get a good\noffer. Antarctica may be hard to get to, though ;-)\n\nOn behalf of the R Foundation,\nFritz Leisch\n\n-- \n-----------------------------------------------------------------------\nProf. Dr. Friedrich Leisch \n\nInstitut f?r Statistik                          Tel: (+49 89) 2180 3165\nLudwig-Maximilians-Universit?t                  Fax: (+49 89) 2180 5308\nLudwigstra?e 33\nD-80539 M?nchen                     http://www.statistik.lmu.de/~leisch\n-----------------------------------------------------------------------\n   Journal Computational Statistics --- http://www.springer.com/180 \n          M?nchner R Kurse --- http://www.statistik.lmu.de/R",
+      "body_snippet": "Dear useRs and developeRs,\n\nI hope all attending useR! in Dortmund last week had as much a good\ntime as I had and a safe trip home. This email is to announce our\nplans for forthcoming conferences. In ",
+      "thread_id": "thread-406c76111d8c",
+      "thread_depth": 0,
+      "month": "2008-08"
+    },
+    {
+      "id": "msg-fc1d4034c64a",
+      "message_id": "<48B28209.6040106@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2008-08-25T11:57:29+02:00",
+      "subject": "R 2.7.2 is released",
+      "subject_clean": "R 2.7.2 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.7.2.tar.gz a short while ago.\n\nThis is intended as a wrap-up release containing all known fixes to issues with the 2.7.x series. \n\nSee the full list of changes below.\n\nYou can get it (in a short while) from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.7.2.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course.\n\n        For the R Core Team\n\n        Peter Dalgaard\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n70447ae7f2c35233d3065b004aa4f331  INSTALL\n433182754c05c2cf7a04ad0da474a1d0  README\n4f004de59e24a52d0f500063b4603bcb  OONEWS\nff4bd9073ef440b1eb43b1428ce96872  ONEWS\n2335719fbb03eb98954abf14b340e46f  NEWS\n1ad28cbc84485ccdf4ce5721b34ed645  THANKS\n070cca21d9f8a6af15f992edb47a24d5  AUTHORS\na6f89e2100d9b6cdffcea4f398e37343  COPYING.LIB\neb723b61539feef013de476e68b5c50a  COPYING\n020479f381d5f9038dcb18708997f5da  RESOURCES\n620f0b60f7f14bcb3f8adcbecd590768  FAQ\n6122945e9301825b97a506151b3cefde  R-2.7.2.tar.gz\n6122945e9301825b97a506151b3cefde  R-latest.tar.gz\n\nHere is the relevant bit of the NEWS file:\n\n\t\tCHANGES IN R VERSION 2.7.2\n\n\nNEW FEATURES\n\n    o\tsprintf() returns elements of the result in UTF-8 when the\n\tformat or any character input has a corresponding element\n\tdeclared as UTF-8.  Similarly for paste(), elements of the\n\tresult are in UTF-8 when any input to that element is declared\n\tas UTF-8.\n\n    o\taxis() has new arguments 'col.ticks' and 'lwd.ticks' to allow\n\tthe colour and line width of ticks to be set separately from\n\tthat of the line (e.g. to set one or the other to transparent\n\tor zero width).\n\n    o\tlegend() has a new argument 'box.col' to set the colour of the\n\tenclosing box.\n\n    o\tlegend() gains a 'xpd' argument to make it easier to place a\n\tlegend in the margins or outer margins.\n\n    o\tstripchart() now passes '...' to title() (as well as to\n\tplot.default() and axis()). (Wish of PR#12202)\n\n    o\thelp.search() has new argument 'searchEngine' to go\n\tdirectly to the search form: this is needed by users of\n\tFirefox 3 to workaround a bug in interpreting the search\n\tresults pages.\n\n\nBUG FIXES\n\n    o\tPlotmath computed the glyph metrics for the wrong character (and\n\tperhaps for a non-existent one) if this was a single-byte\n\tcharacter with the top bit set.  An example was\tsymbol(\"\\300\").\n\n    o\tsink() and cat() could divert output to a non-writable connection.\n\n    o\tphyper(x, 0,0,0) no longer hangs for huge x and gives 1 for x >= 0.\n\t(PR#11813)\n\n    o\tplnorm(x, ..., log.p=TRUE) is now correct for x <= 0. (PR#11867)\n\n    o\t<data.frame>[, ch] gives an error (again!) when ch is a string not\n\texactly matching the column names, thanks to an oral bug report by\n\tMatthew Dowle.\n\n    o\tdata.frame(x=1:2, y=3:4, row.names=c(\"a\",\"NA\"))[c(2,NA),] has\n\tcorrect row names c(\"NA,\"NA.1\") again.\n\n    o\tThe GUI data editor for dataframes did not handle escape\n\tcharacters in entries properly. (PR#11897)\n\n    o\tPCRE has been updated to 7.7 (bugfix release).\n\n    o\tpackage.skeleton() wrongly warned about invalid code_files names\n\twhen these were not in the current directory.\n\n    o\tshapiro.test(c(0,0,1)) now has P value >= 0 (instead of barely\n\tnegative).\n\n    o\tassign() now warns if given a character vector of length > 1,\n\trather than silently taking the first element.\n\n    o\trcond(<exactly singular matrix>) now gives 0 instead of an error.\n\n    o\tThere was a memory leak in C function ucstoutf8 used by some\n\tgraphics devices.\n\n    o\tPlots of profile.mle() objects (package 'stats4') were\n\tmisbehaving when the 'which' argument had been used in their\n\tcalculation.\n\n    o\tdnbinom(x, size, mu=*, ..) is now more accurate for very large\n\t'size'.  The same applies to pnbinom() and rnbinom().\n\n    o\taxis() was ignoring par() mgp[3] if mgp was set in-line.\n\n    o\tClosing an X11 View() or dataentry window via its frame's\n\tclose control now works better on some window managers.\n\n    o\tCalling lapply() was not handling method dispatch correctly for\n\tis.numeric(), is.matrix(), is.array(), log() and the Math2\n\tgroup.  This affected data.matrix() which incorrectly regarded\n\t\"Date\" and \"POSIXct\" objects as numeric, and has been adjusted\n\tto do so as exceptions.\n\n    o\tpackage.skeleton() was not looking for non-function objects in\n    \tits 'environment' argument.\n\n    o\tnls() was only finding its 'weights' argument in the case when\n    \tall the variables in the formula were of the same length and\n    \thence that model.frame() could be used.\n\n\tIt was silently ignoring 'subset' and 'na.action' except in\n\tthat case.  Now they are ignored only if 'data' is a list and\n\tvariables taken from 'data' are not all of the same length,\n\tin which case a warning is given.\n\n    o\tThe 'mle' confint() method now takes 'level' into account when\n\tsetting 'alpha' for the profile.\n\n    o\twithin() was not handling correctly expressions that produced\n\tNULL columns.  (PR#11131)\n\n    o\tdev.print() and dev.copy2{eps,pdf}() now ensure that the current\n\tdevice is restored as the active device even if an error\n\toccurs. (PR#9801)\n\n    o\tas.Date() could fail to convert character strings representing\n\tdays on which midnight did not exist in the current timezone\n\t(as happened in parts of Africa on 1960-01-01).\n\n    o\tThe automatic placement of legend() with 'title' and a\n\treversed 'x' axis was incorrect. (PR#12019)\n\n    o\tThe use of multiple packages in 'LinkingTo' works again, and\n    \tnow works when the dependent packages are in the library to be\n    \tinstalled to (but not in the library path seen by R --vanilla).\n\n    o\tbxp() (and hence boxplot) now respects in-line graphical\n\tparameters 'xaxp'/'yaxp' as appropriate.  (PR#11463)\n\n    o\tbarplot(log = \"y\") failed if there were NAs in the 'height'\n\targument.  (PR#11585)\n\n    o\tpbeta() is more accurate in some cases with extreme values of\n\t'ncp'.  (PR#11277).\n\n    o\tedit.data.frame() no longer fails if called on a 0-column\n\tdata frame and no column is created.\n\n    o\tpchisq(x, df=0) was always one even for x < 0; similarly for\n\tpgamma(x, alpha=0).\n\n    o\tadd1() and drop1() now return a P-value of NaN in cases with\n\tdf=0 for test=\"Chisq\" (they gave NaN until pchisq was altered\n\tin R 2.6.2).\n\n    o\tThe default methods of drop1() and add1() now re-evaluate in the\n\tobject's formula environment, rather than simply in the parent\n\t(informal bug report by Werner Stahel).\n\n    o\tThe undocumented limit of 8191 bytes on comments (from # to\n\tthe end of the line) in R code has been removed.\n\n    o\tqgamma() warns if used with shape < 1e-10, when it may be\n \tunreliable.  (PR#12324)\n\n    o\tInstalling a source package was not using the package's declared\n\tencoding (if any) as a default encoding for the help.search()\n\tdatabase in Meta/hsearch.rds.  This could cause packages with\n\ta default encoding to have some of their entries rejected by\n\thelp.search() in a multi-byte locale (such as a UTF-8 locale).\n\n    o\tduplicated() and unique() now handle 'incomparables' better,\n    \tand avoid occasional segfaults (PR#12551).\n\n    o\tdata.frame(row.names=NULL) once again behaves differently from\n\tthe default (as documented).\n\n    o\tplot(isoreg(x,y)) now plots the points correctly, also when 'x'\n\tis not sorted.\n\n\n\n\n \n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-2.7.2.tar.gz a short while ago.\n\nThis is intended as a wrap-up release containing all known fixes to issues with the 2.7.x series. \n\nSee the full list of changes below.\n\nYou can get i",
+      "thread_id": "thread-fc1d4034c64a",
+      "thread_depth": 0,
+      "month": "2008-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f13af922e00c",
+      "subject": "R 2,7.2 is scheduled for August 25",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2008-08-10T21:48:58+02:00",
+      "last_reply": "2008-08-10T21:48:58+02:00",
+      "root_message_id": "msg-f13af922e00c"
+    },
+    {
+      "id": "thread-406c76111d8c",
+      "subject": "Forthcoming R Conferences",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at R-project.org"
+      ],
+      "started": "2008-08-22T11:32:30+02:00",
+      "last_reply": "2008-08-22T11:32:30+02:00",
+      "root_message_id": "msg-406c76111d8c"
+    },
+    {
+      "id": "thread-fc1d4034c64a",
+      "subject": "R 2.7.2 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2008-08-25T11:57:29+02:00",
+      "last_reply": "2008-08-25T11:57:29+02:00",
+      "root_message_id": "msg-fc1d4034c64a"
+    }
+  ]
+}

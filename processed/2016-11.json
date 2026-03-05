@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2016-11",
+  "messages": [
+    {
+      "id": "msg-28ddda1a02ea",
+      "message_id": "<1478174191.2318.120.camel@r-project.org>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "a172213f54d02d8c46cd36ac95c2aaea4439b79c8fce553fb5a7295ac50db5d7",
+      "date": "2016-11-03T12:56:31+01:00",
+      "subject": "Five new ordinary members of the R Foundation",
+      "subject_clean": "Five new ordinary members of the R Foundation",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The R Foundation has elected five new ordinary members in recognition\nof their contributions to the R project:\n\n* Jennifer Bryan?\n??https://www.stat.ubc.ca/~jenny/\n* Diane Cook?\n??http://dicook.github.io/\n* Julie Josse?\n??http://juliejosse.com/\n* Tomas Kalibera\n??https://github.com/kalibera?\n* Balasubramanian Narasimhan\n??https://statistics.stanford.edu/people/balasubramanian-narasimhan\n\nOn behalf of the R Foundation I would like to extent my congratulations\nand a warm welcome to the new members.\n\nMartyn Plummer\nCo-president, The R Foundation\n-----------------------------------------------------------------------\nThis message and its attachments are strictly confidenti...{{dropped:8}}",
+      "body_snippet": "The R Foundation has elected five new ordinary members in recognition\nof their contributions to the R project:\n\n* Jennifer Bryan?\n??https://www.stat.ubc.ca/~jenny/\n* Diane Cook?\n??http://dicook.github",
+      "thread_id": "thread-28ddda1a02ea",
+      "thread_depth": 0,
+      "month": "2016-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-28ddda1a02ea",
+      "subject": "Five new ordinary members of the R Foundation",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2016-11-03T12:56:31+01:00",
+      "last_reply": "2016-11-03T12:56:31+01:00",
+      "root_message_id": "msg-28ddda1a02ea"
+    }
+  ]
+}

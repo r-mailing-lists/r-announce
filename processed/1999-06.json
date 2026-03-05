@@ -1,0 +1,162 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1999-06",
+  "messages": [
+    {
+      "id": "msg-ef4ad30b7ebb",
+      "message_id": "<199906010847.KAA12958@alpha.luc.ac.be>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "1999-06-01T10:47:27+02:00",
+      "subject": "libraries and repeated measurements code",
+      "subject_clean": "libraries and repeated measurements code",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have placed an alpha version 0.5 of the source code for my libraries\non my home page at\nwww.luc.ac.be/~jlindsey/rcode.html\n  The data and R code for the second edition of my Models for Repeated\nMeasurements (which requires these new libraries) can be found at\nwww.luc.ac.be/~jlindsey/books.html\n  Comments and corrections welcome!\n  Jim\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have placed an alpha version 0.5 of the source code for my libraries\non my home page at\nwww.luc.ac.be/~jlindsey/rcode.html\n  The data and R code for the second edition of my Models for Repeated\nMeas",
+      "thread_id": "thread-ef4ad30b7ebb",
+      "thread_depth": 0,
+      "month": "1999-06"
+    },
+    {
+      "id": "msg-c0be1955d221",
+      "message_id": "<199906011354.PAA21865@sophie.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "1999-06-01T15:54:54+02:00",
+      "subject": "libraries and repeated measurements code",
+      "subject_clean": "libraries and repeated measurements code",
+      "in_reply_to": "<199906010847.KAA12958@alpha.luc.ac.be> (message from Martin Maechler on Tue, 1 Jun 1999 10:47:27 +0200 (MET DST))",
+      "references": [
+        "<199906010847.KAA12958@alpha.luc.ac.be>"
+      ],
+      "body_plain": "This was Jim Lindsey <jlindsey at luc.ac.be>, not me.   \nSorry for the wrong \"From:\".\n\n{(as list manager I've forwarded his posting to R-announce which bounced\n because it came from jlindsey at alpha.luc.ac.be instead of jlindsey at luc.ac.be)}\n\nMartin\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "This was Jim Lindsey <jlindsey at luc.ac.be>, not me.   \nSorry for the wrong \"From:\".\n\n{(as list manager I've forwarded his posting to R-announce which bounced\n because it came from jlindsey at alpha.",
+      "thread_id": "thread-ef4ad30b7ebb",
+      "thread_depth": 1,
+      "month": "1999-06"
+    },
+    {
+      "id": "msg-e880172d2d76",
+      "message_id": "<XFMail.990604094113.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "1999-06-04T09:41:13+02:00",
+      "subject": "Red Hat Linux/Intel 6.0 RPMS for R",
+      "subject_clean": "Red Hat Linux/Intel 6.0 RPMS for R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "RPMs of R-0.64.1 are now available for Red Hat Linux/Intel 6.0.\nThey should be mirrored to a CRAN site near you over the weekend.\nIf you are desperate you can get them now from:\n\nftp://ftp-fis.iarc.fr/pub/R/RedHat/6.0/i386\n\nGNOME SUPPORT\n-------------\nIf you have GNOME installed, then use the \"R-base-gnome\" package.\nOtherwise just use the \"R-base\" package. This is change from the\nprevious arrangement in which GNOME support for R was distributed\nas a separate add-on package.\n\nDon't install both R-base and R-base-gnome.\u001b\n\nPGP\n---\nThis is a good opportunity to tell you, if you haven't noticed already,\nthat the RPM packages are PGP signed. You can pick up my public key\nfrom\n\nhttp://developer.redhat.com/rhcn/browse/conventional/memberinfo.php3?member=plum\nmer at iarc.fr\n\nThank you for your patience.\nMartyn\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "RPMs of R-0.64.1 are now available for Red Hat Linux/Intel 6.0.\nThey should be mirrored to a CRAN site near you over the weekend.\nIf you are desperate you can get them now from:\n\nftp://ftp-fis.iarc.fr",
+      "thread_id": "thread-e880172d2d76",
+      "thread_depth": 0,
+      "month": "1999-06"
+    },
+    {
+      "id": "msg-b77fc01dbf1f",
+      "message_id": "<XFMail.990611124121.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "1999-06-11T12:41:21+02:00",
+      "subject": "Basic time series library",
+      "subject_clean": "Basic time series library",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A small package called \"bats\" is now available in the \"Devel\" directory\nof CRAN.  This contains time series functions  which are not wholly\nunlike the ones found in S-PLUS\n\nIt currently does \n- Autocorrelation function estimation (acf, plot.acf)\n- Spectral density estimation (spec.pgram, plot.spec)\n- Autoregressive modelling (ar.yw)\nAll the functions handle multivariate time series.\n\nTesting and feedback would be most welcome.\n\nMartyn\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A small package called \"bats\" is now available in the \"Devel\" directory\nof CRAN.  This contains time series functions  which are not wholly\nunlike the ones found in S-PLUS\n\nIt currently does \n- Autoco",
+      "thread_id": "thread-b77fc01dbf1f",
+      "thread_depth": 0,
+      "month": "1999-06"
+    },
+    {
+      "id": "msg-8ab49006b4ba",
+      "message_id": "<14177.40137.381644.928820@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1999-06-12T01:33:29+02:00",
+      "subject": "``R Links'' Collection on CRAN",
+      "subject_clean": "``R Links'' Collection on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\non suggestion by Robert Gentleman we want to add a\n\n\t``Other R-related sites''\n\ncollection of links to CRAN, where we give pointers to non-CRAN sites\nthat might be of interest to R users. E.g., this could be pages in\nsome language other than English supporting the respective user\ncommunity or ...\n\nIf you think your site could appear in such a collection, please\nsend email to me and I will be happy to include it.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\non suggestion by Robert Gentleman we want to add a\n\n\t``Other R-related sites''\n\ncollection of links to CRAN, where we give pointers to non-CRAN sites\nthat might be of interest to R users. E.g., t",
+      "thread_id": "thread-8ab49006b4ba",
+      "thread_depth": 0,
+      "month": "1999-06"
+    },
+    {
+      "id": "msg-70375a45932d",
+      "message_id": "<19990630102526.A13430@sirio.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
+      "date": "1999-06-30T10:25:26+02:00",
+      "subject": "New packages (tcl/tk <-> R glue + Visual Tcl)",
+      "subject_clean": "New packages (tcl/tk <-> R glue + Visual Tcl)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "[Reposted by R-announce-owner because of  R-announce protection.\n\t\tGuido is subscribed under a different E-mail..]\n\nI have made available in the 'Contributed R code | Devel' section of CRAN \n(in this moment only at Wien) two new packages:\n\n'tcltk': this package let to create and use tcl/tk interpreters\n         from R.  The tcl interpreters have an additional command \n         'R some R commands' which let to execute R commands, e.g, \n         'R a<-rnorm(100)'.  This can be used to define button's\n         call-backs,... This package requires tcl/tk (tested only\n         with versions 8.0 and 8.1) installed. Please, look to the\n         README before installation. Status of this package is alpha. \n\n'vtcl': it contains only one function 'visual.tcl()' which let to exec\n        Visual Tcl (http://www.neuron.com/stewart/vtcl) from R.\n        Visual Tcl is a Rapid Application Development (RAD)\n        environment which in particular let to build interactively the user \n        interface.  Visual Tcl is included in the package.\n        This package is as stable as Visual Tcl is (which,\n        IMO, means quite stable). However, it depends from tcltk.\n        For this reason, it is in the devel section.\n\nI will be happy to hear comments, suggestions, ... . \nI also hope that someone else will find the time to contribute to the \ndevelopment.\n\nguido masarotto\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "[Reposted by R-announce-owner because of  R-announce protection.\n\t\tGuido is subscribed under a different E-mail..]\n\nI have made available in the 'Contributed R code | Devel' section of CRAN \n(in this ",
+      "thread_id": "thread-70375a45932d",
+      "thread_depth": 0,
+      "month": "1999-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-ef4ad30b7ebb",
+      "subject": "libraries and repeated measurements code",
+      "message_count": 2,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "1999-06-01T10:47:27+02:00",
+      "last_reply": "1999-06-01T15:54:54+02:00",
+      "root_message_id": "msg-ef4ad30b7ebb"
+    },
+    {
+      "id": "thread-e880172d2d76",
+      "subject": "Red Hat Linux/Intel 6.0 RPMS for R",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "1999-06-04T09:41:13+02:00",
+      "last_reply": "1999-06-04T09:41:13+02:00",
+      "root_message_id": "msg-e880172d2d76"
+    },
+    {
+      "id": "thread-b77fc01dbf1f",
+      "subject": "Basic time series library",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "1999-06-11T12:41:21+02:00",
+      "last_reply": "1999-06-11T12:41:21+02:00",
+      "root_message_id": "msg-b77fc01dbf1f"
+    },
+    {
+      "id": "thread-8ab49006b4ba",
+      "subject": "``R Links'' Collection on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1999-06-12T01:33:29+02:00",
+      "last_reply": "1999-06-12T01:33:29+02:00",
+      "root_message_id": "msg-8ab49006b4ba"
+    },
+    {
+      "id": "thread-70375a45932d",
+      "subject": "New packages (tcl/tk <-> R glue + Visual Tcl)",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1999-06-30T10:25:26+02:00",
+      "last_reply": "1999-06-30T10:25:26+02:00",
+      "root_message_id": "msg-70375a45932d"
+    }
+  ]
+}

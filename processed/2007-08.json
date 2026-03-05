@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2007-08",
+  "messages": [
+    {
+      "id": "msg-f4b12520c348",
+      "message_id": "<46B3242F.4060909@R-Project.org>",
+      "from_name": "Uwe Ligges",
+      "from_email_hash": "c17cae670f8f8c752d6cde87e94fcb58a5bfee16d5d4c88c9cb2b95d2275685b",
+      "date": "2007-08-03T14:48:47+02:00",
+      "subject": "useR! 2008",
+      "subject_clean": "useR! 2008",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are happy to announce that the R user conference\n\n   useR! 2008\n\nis scheduled for August 12-14, 2008, and will take place at the\nUniversity of Dortmund.\n\nAs for the predecessor conferences, the program will consist of two parts:\ninvited lectures and user-contributed sessions (abstract submission will\nbe available online starting from December 2007). Prior to the\nconference, there will be tutorials on R (proposals for tutorials should\nbe sent before 2007-10-31).\n\n\nINVITED LECTURES\n\nInvited speakers will include\n\n     Peter B?hlmann, John Fox, Kurt Hornik, Gary King, Duncan Murdoch,\n     Jean Thioulouse, Graham J. Williams, and Keith Worsley.\n\n\nUSER-CONTRIBUTED SESSIONS\n\nThe sessions will be a platform to bring together R users, contributors,\npackage maintainers and developers in the S spirit that `users are\ndevelopers'. People from different fields will show us how they solve\nproblems with R in fascinating applications.\nThe sessions are organized by members of the program committee, including\n\n     Micah Altman, Roger Bivand, Peter Dalgaard, Jan de Leeuw,\n     Ram?n D?az-Uriarte, Spencer Graves, Leonhard Held, Torsten Hothorn,\n     Fran?ois Husson, Christian Kleiber, Friedrich Leisch, Andy Liaw,\n     Martin M?chler, Kate Mullen, Ei-ji Nakama, Thomas Petzold,\n     Martin Theus, and Heather Turner.\n\nThe program will cover topics such as\n\n     * Applied Statistics & Biostatistics\n     * Bayesian Statistics\n     * Bioinformatics\n     * Chemometrics and Computational Physics\n     * Data Mining\n     * Econometrics & Finance\n     * Environmetrics & Ecological Modeling\n     * High Performance Computing\n     * Machine Learning\n     * Marketing & Business Analytics\n     * Psychometrics\n     * Robust Statistics\n     * Sensometrics\n     * Spatial Statistics\n     * Statistics in the Social and Political Sciences\n     * Teaching\n     * Visualization & Graphics\n     * and many more.\n\n\nPRE-CONFERENCE TUTORIALS\n\nBefore the official program, half-day tutorials will be offered\non Monday, August 11th.\nWe invite R users to submit proposals for three hour tutorials on\nspecial topics on R. The proposals should give a brief description of\nthe tutorial, including goals, detailed outline, justification why the\ntutorial is important, background knowledge required and potential\nattendees. The proposals should be sent before 2007-10-31 to\nuseR-2008 at R-project.org.\n\n\nA web page offering more information on the `useR!' conference is\navailable at\n\n   http://www.R-project.org/useR-2008\n\n\nABOUT DORTMUND\n\nIn the past, Dortmund was famous for coal, steel and the beer industry -\nquite typical for a city in the Ruhrgebiet. Today, Dortmund evolves to a\ncity with high tech industry, exhibitions and service companies.\nDortmund's football (i.e. soccer) club is world famous and attracts\nroughly 80000 people on a regular basis.\n\n\nIMPORTANT DATES\n\n     2007-10-31: submission deadline of tutorial proposals\n     2007-12-01: start of registration\n     2007-12-01: start of online abstract submission\n     2008-03-31: early registration deadline:\n     2008-03-31: submission deadline of abstracts\n     2008-05-15: notification of acceptance\n     2008-05-31: regular registration deadline\n     2008-07-25: registration deadline\n\n\nWe hope to meet you in Dortmund!\n\n\nThe conference committee:\n     Uwe Ligges (conference), Achim Zeileis (program), Claus Weihs,\n     Gerd Kopp (local organization), Friedrich Leisch, Torsten Hothorn",
+      "body_snippet": "We are happy to announce that the R user conference\n\n   useR! 2008\n\nis scheduled for August 12-14, 2008, and will take place at the\nUniversity of Dortmund.\n\nAs for the predecessor conferences, the pro",
+      "thread_id": "thread-f4b12520c348",
+      "thread_depth": 0,
+      "month": "2007-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f4b12520c348",
+      "subject": "useR! 2008",
+      "message_count": 1,
+      "participants": [
+        "Uwe Ligges"
+      ],
+      "started": "2007-08-03T14:48:47+02:00",
+      "last_reply": "2007-08-03T14:48:47+02:00",
+      "root_message_id": "msg-f4b12520c348"
+    }
+  ]
+}

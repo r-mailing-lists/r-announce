@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2019-02",
+  "messages": [
+    {
+      "id": "msg-d280b7a49538",
+      "message_id": "<5e4e0be3-9428-e736-24ee-211026c5bf93@inra.fr>",
+      "from_name": "Nathalie Vialaneix",
+      "from_email_hash": "0ec8da2ce2eb396290ffedd38b8a6c6b884f9d0dc060702729d563c64732234c",
+      "date": "2019-02-21T19:33:29+01:00",
+      "subject": "[useR! 2019] last chance to submit your abstracts",
+      "subject_clean": "[useR! 2019] last chance to submit your abstracts",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R-users,\n\nThe list of selected tutorials for useR! 2019 is out\nhttps://user2019.r-project.org/tutorials/. If you want to join them, you\ncan still submit a proposal for a talk, a lightning talk or a poster.\nThe submission process closes March 1st. See information at:\nhttps://user2019.r-project.org/abstracts/.\n\nStudents (Master, PhD, postdocs) and young employees also have the\nopportunity to engage the Data Challenge\nhttps://user2019.r-project.org/datathon/. The winner will be offered a\nfree ticket for the conference.\n\nDon't miss the opportunity to join!\n\nBest regards,\nNathalie Vialaneix\nOn behalf of the organization committee for useR! 2019\n\n** new email: nathalie.vialaneix at inra.fr **\n-- \nNathalie Vialaneix\nDirectrice de Recherche, Statistique\nUnit? MIAT, INRA de Toulouse\nEmail : nathalie.vialaneix at inra.fr\nWeb : http://www.nathalievialaneix.eu",
+      "body_snippet": "Dear R-users,\n\nThe list of selected tutorials for useR! 2019 is out\nhttps://user2019.r-project.org/tutorials/. If you want to join them, you\ncan still submit a proposal for a talk, a lightning talk or",
+      "thread_id": "thread-d280b7a49538",
+      "thread_depth": 0,
+      "month": "2019-02"
+    },
+    {
+      "id": "msg-542c825fd735",
+      "message_id": "<5E0AD3BC-059D-4528-991D-B7CF3F2B5716@gmail.com>",
+      "from_name": "peter dalgaard",
+      "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
+      "date": "2019-02-25T14:06:06+01:00",
+      "subject": "[Rd] R 3.5.3 scheduled for March 11",
+      "subject_clean": "R 3.5.3 scheduled for March 11",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Full schedule available on developer.r-project.org (pending auto-update from SVN)\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com\n\n______________________________________________\nR-devel at r-project.org mailing list\nhttps://stat.ethz.ch/mailman/listinfo/r-devel",
+      "body_snippet": "Full schedule available on developer.r-project.org (pending auto-update from SVN)\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg",
+      "thread_id": "thread-542c825fd735",
+      "thread_depth": 0,
+      "month": "2019-02"
+    },
+    {
+      "id": "msg-0b3ea80995e8",
+      "message_id": "<CADx-4xAMoR2mi3DC2Ae=-bE0E05sqA+WVWZHxwMZWOXf15D_JA@mail.gmail.com>",
+      "from_name": "John Verzani",
+      "from_email_hash": "cca1f7c01b0a74cd61425099f8427f59b614ad00b066825f3a152a26bd6569e7",
+      "date": "2019-02-25T12:11:44-05:00",
+      "subject": "New issue of The R Journal",
+      "subject_clean": "New issue of The R Journal",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nThe latest issue of The R Journal is now available at:\n\nhttps://journal.r-project.org/archive/2018-2/\n\nMany thanks to all contributors - especially reviewers and authors.\n\nRegards,\n\nJohn Verzani\nCUNY/College of Staten Island\n\n-- \nJohn Verzani\nDepartment of Mathematics\nCollege of Staten Island, CUNY\nverzani at math.csi.cuny.edu\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All,\n\nThe latest issue of The R Journal is now available at:\n\nhttps://journal.r-project.org/archive/2018-2/\n\nMany thanks to all contributors - especially reviewers and authors.\n\nRegards,\n\nJohn Ve",
+      "thread_id": "thread-0b3ea80995e8",
+      "thread_depth": 0,
+      "month": "2019-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d280b7a49538",
+      "subject": "[useR! 2019] last chance to submit your abstracts",
+      "message_count": 1,
+      "participants": [
+        "Nathalie Vialaneix"
+      ],
+      "started": "2019-02-21T19:33:29+01:00",
+      "last_reply": "2019-02-21T19:33:29+01:00",
+      "root_message_id": "msg-d280b7a49538"
+    },
+    {
+      "id": "thread-0b3ea80995e8",
+      "subject": "New issue of The R Journal",
+      "message_count": 1,
+      "participants": [
+        "John Verzani"
+      ],
+      "started": "2019-02-25T12:11:44-05:00",
+      "last_reply": "2019-02-25T12:11:44-05:00",
+      "root_message_id": "msg-0b3ea80995e8"
+    },
+    {
+      "id": "thread-542c825fd735",
+      "subject": "R 3.5.3 scheduled for March 11",
+      "message_count": 1,
+      "participants": [
+        "peter dalgaard"
+      ],
+      "started": "2019-02-25T14:06:06+01:00",
+      "last_reply": "2019-02-25T14:06:06+01:00",
+      "root_message_id": "msg-542c825fd735"
+    }
+  ]
+}

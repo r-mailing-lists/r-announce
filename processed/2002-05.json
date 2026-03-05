@@ -1,0 +1,198 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2002-05",
+  "messages": [
+    {
+      "id": "msg-6714551013cf",
+      "message_id": "<Pine.LNX.4.21.0205011138220.28022-100000@reclus.nhh.no>",
+      "from_name": "Roger Bivand",
+      "from_email_hash": "a0c87926e9477aa221755cc93bdef47227c3563fd707e66ae49044467663d168",
+      "date": "2002-05-01T11:42:03+02:00",
+      "subject": "Spatial statistics - new version of spdep",
+      "subject_clean": "Spatial statistics - new version of spdep",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Spatial statistics: A new version of the spdep package (0.1-4) is now\navailable from CRAN. This package contains all of the functions in the\nformer packages spweights, sptests, and spsarlm. They are no longer being\nmaintained and have been deprecated. Users are asked to REMOVE the old\ncomponent packages and replace them with the single spdep package, so\nthat update.packages() will do its magic in the future.\n\nThis release contains minor changes to existing functions, as well as the\nCressie/Read North Carolina SIDS data set, and the Harrison/Rubinfeld\nBoston housing data set as corrected by Gilley and Pace (with census tract\npoint positions).\n\nRoger Bivand\n\nEconomic Geography Section, Department of Economics, Norwegian School of\nEconomics and Business Administration, Breiviksveien 40, N-5045 Bergen,\nNorway. voice: +47 55 95 93 55; fax +47 55 95 93 93\ne-mail: Roger.Bivand at nhh.no\nand: Department of Geography and Regional Development, University of\nGdansk, al. Mar. J. Pilsudskiego 46, PL-81 378 Gdynia, Poland.\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Spatial statistics: A new version of the spdep package (0.1-4) is now\navailable from CRAN. This package contains all of the functions in the\nformer packages spweights, sptests, and spsarlm. They are n",
+      "thread_id": "thread-6714551013cf",
+      "thread_depth": 0,
+      "month": "2002-05"
+    },
+    {
+      "id": "msg-10fe20868fa7",
+      "message_id": "<Pine.LNX.4.33L2.0205021623170.2165-100000@localhost.localdomain>",
+      "from_name": "mikalzet at libero.it",
+      "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
+      "date": "2002-05-02T16:38:19+02:00",
+      "subject": "R 1.5.0 RPM's for Mandrake",
+      "subject_clean": "R 1.5.0 RPM's for Mandrake",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "RPM's and SRPM's for Mandrake versions 8.1 and 8.2 have been uploaded and\nwill be mirrored on CRAN shortly.\n\nPlease note that the binary -1mdk rpm's are for mandrake 8.1 while the\n-2mdk rpm's are for 8.2, install the correct version for your system.\n\nPeople with mandrake 8.0 or earlier can easily build (and hopefully\ncontribute) binaries; consult the readme file for instructions.\n\nPlease note: Mandrake 8.2 comes without netscape; the help.start()\nfunction must therefore be started as:\n\nhelp.start(browser = 'mozilla')\n\nN.B. :\nUnfortunately I have not yet figured out how to get the search applet on\nthe help page working - mozilla just refuses to initialize the applet even\nthough the java subsystem I have apparently works with applets on other\nsites (e.g. www.avsi.org). This happens both with the version shipped with\n8.1 and with the version shipped with 8.2 (I've tried sun java and IBM\njava).  An error messages flashes on the bottom bar for an instant,\nsomething about 'impossible to access'. If any Mandrake guru figures out\nwhy, please post. Meanwhile, 8.2 users could consider installing netscape.\n\n-- \nMichele Alzetta\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "RPM's and SRPM's for Mandrake versions 8.1 and 8.2 have been uploaded and\nwill be mirrored on CRAN shortly.\n\nPlease note that the binary -1mdk rpm's are for mandrake 8.1 while the\n-2mdk rpm's are for ",
+      "thread_id": "thread-10fe20868fa7",
+      "thread_depth": 0,
+      "month": "2002-05"
+    },
+    {
+      "id": "msg-2faa8e03f960",
+      "message_id": "<87k7qma86m.fsf@jeeves.blindglobe.net>",
+      "from_name": "A.J. Rossini",
+      "from_email_hash": "0c039ab537611416fe37b12e9ca69767bfd2c5030d7e2f2a7420f19217e05d1b",
+      "date": "2002-05-02T08:19:45-07:00",
+      "subject": "BioConductor 1.0",
+      "subject_clean": "BioConductor 1.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The Bioconductor development team would like to announce the first release of\nBioconductor packages for the analysis of genomic data. Bioconductor is an \nopen source bioinformatics software project based on R.\n\nTOOLS:\n======\n\nThe released packages include tools which facilitate:\n1. annotation (AnnBuilder, annotate).\n2. data management and organization through the use of the S4 class\n   structure (Biobase, marrayClasses).   \n3. identification of differentially expressed genes and clustering \n   (edd, genefilter, geneplotter, multtest, ROC)\n4. analysis of Affymetrix expression array data (affy)\n5. diagnostic plots and normalization for cDNA array data (marrayInput,\n    marrayNorm, marrayPlots)\n6. storage and retrieval of large datasets (rhdf5).\n7. facilitate user interaction (tkWidgets)\n\nPACKAGES:\n=========\n\nBiobase       : Base functions for Bioconductor\nannotate      : Annotation for microarrays \nAnnBuilder    : Bioconductor annotation data builder\ngenefilter    : Genefilter: filter genes \ngeneplotter   : Geneplotter: plot microarray data\nedd           : expression density diagnostics\nROC           : ROC analysis for differential expression in expression\n\t\tarrays\naffy          : Methods for Affymetrix Oligonucleotide Arrays\nmarrayClasses : Classes and methods for cDNA microarray data\nmarrayInput   : Data input for cDNA microarrays \nmarrayNorm    : Location and scale normalization for cDNA microarray data\nmarrayPlots   : Diagnostic plots for cDNA microarray data\nmulttest      : Multiple hypothesis testing\nrhdf5         : An HDF5 interface for R\ntkWidgets     : Useful tools for building graphical input widgets\n\nThe packages and more details may be found on the Bioconductor WWW\nsite: \n\n      http://www.bioconductor.org/\n\nHELP AND RESOURCES:\n===================\n\nInformation on subscribing to the mailing list and viewing its archives\ncan be found at:\n\n      http://www.stat.math.ethz.ch/mailman/listinfo/bioconductor\n\nPlease use that list to discuss Bioconductor specific issues, bugs,\nand problems.  Note that every package has a vignette (a literate\nprogram which provides an annotated example of the package's use) as\nwell as possibly some \"HOWTO\"s.  These document the tool's usage, and\nare provided in the \"doc\" subdirectory of each package library.\n\n\nWHO:\n====\n\nFor the Bioconductor development team:\n\nDouglas Bates, University of Wisconsin, USA.\nVince Carey, Harvard Medical School, USA.\nMarcel Dettling, Federal Inst. Technology, Switzerland.\nSandrine Dudoit, UC Berkeley, USA.\nByron Ellis, Harvard Department of Statistics, USA.\nLaurent Gautier, Technial University of Denmark, Denmark.\nRobert Gentleman, Harvard Medical School, USA.\nJeff Gentry, Dana-Farber Cancer Institute, USA.\nKurt Hornik, Technische Universitat Wien, Austria.\nTorsten Hothorn, Institut fuer Medizininformatik, Biometrie und Epidemiologie, Germany.\nRafael Irizarry, Department of Biostatistics, Johns Hopkins University, USA.\nFriedrich Leisch, Technische Universitat Wien, Austria.\nCheng Li, Harvard Medical School, USA.\nMartin Maechler, Federal Inst. Technology, Switzerland.\nA.J. Rossini, Biostatistics, Univ. of Washington and Fred Hutchinson Cancer Research Center, USA.\nGunther Sawitzki, Institute fur Angewandte Mathematik, Germany.\nLuke Tierney, University of Minnesota, USA.\nJean Yee Hwa Yang, UC Berkeley, USA.\nJianhua (John) Zhang, Dana-Farber Cancer Institute, USA.\n\n-- \nA.J. Rossini\t\t\t\tRsrch. Asst. Prof. of Biostatistics\nU. of Washington Biostatistics\t\trossini at u.washington.edu\t\nFHCRC/SCHARP/HIV Vaccine Trials Net\trossini at scharp.org\n-------------- http://software.biostat.washington.edu/ ----------------\nFHCRC: M-W: 206-667-7025 (fax=4812)|Voicemail is pretty sketchy/use Email\nUW:   Th: 206-543-1044 (fax=3286)|Change last 4 digits of phone to FAX\n(my friday location is usually completely unpredictable.)\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The Bioconductor development team would like to announce the first release of\nBioconductor packages for the analysis of genomic data. Bioconductor is an \nopen source bioinformatics software project ba",
+      "thread_id": "thread-2faa8e03f960",
+      "thread_depth": 0,
+      "month": "2002-05"
+    },
+    {
+      "id": "msg-0e198df2e534",
+      "message_id": "<XFMail.20020503104136.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "2002-05-03T10:41:36+02:00",
+      "subject": "R 1.5.0 RPMs for Red Hat Linux 7.2/Intel",
+      "subject_clean": "R 1.5.0 RPMs for Red Hat Linux 7.2/Intel",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "RPMS of R-1.5.0 and the recommended packages for Red Hat Linux/Intel 7.2\nare now available on the CRAN master site and should be on a mirror near\nyou soon.\n\nRPMS for Red Hat 7.1 and 7.0 will be made available soon.\n\nMartyn\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "RPMS of R-1.5.0 and the recommended packages for Red Hat Linux/Intel 7.2\nare now available on the CRAN master site and should be on a mirror near\nyou soon.\n\nRPMS for Red Hat 7.1 and 7.0 will be made a",
+      "thread_id": "thread-0e198df2e534",
+      "thread_depth": 0,
+      "month": "2002-05"
+    },
+    {
+      "id": "msg-6858fcaccad3",
+      "message_id": "<Pine.GSO.4.21.0205051856200.21846-100000@dolphin>",
+      "from_name": "Simon Wood",
+      "from_email_hash": "b5fa7b5e8008beb83d2b0cc9621a07c8805f876a9e1a19f304adfd6b73f991f2",
+      "date": "2002-05-05T19:05:12+01:00",
+      "subject": "mgcv 0.8 released",
+      "subject_clean": "mgcv 0.8 released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "mgcv version 0.8-0 is now on CRAN. mgcv provides generalized additive\nmodels with automatic smoothing parameter selection. Models may include\nsmooths of more than one variable. This release fixes one platform\ndependent problem that could result in convergence problems/ unstable\nmodels, provides facilities for using multi-dimensional smooths with very\nlarge data sets, provides a mechanism for conditioning smooths on factors,\nallows terms like s(x)+s(y)+s(x,y) in formulae and has improved\nconvergence diagnostics. Full details are at: \n\nwww.ruwpa.st-and.ac.uk/simon/mgcv.html\n\n  ______________________________________________________________________\n> Simon Wood  snw at st-and.ac.uk  http://www.ruwpa.st-and.ac.uk/simon.html\n> The Mathematical Institute, North Haugh, St. Andrews, Fife KY16 9SS UK\n> Direct telephone: (0)1334 463799          Indirect fax: (0)1334 463748 \n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "mgcv version 0.8-0 is now on CRAN. mgcv provides generalized additive\nmodels with automatic smoothing parameter selection. Models may include\nsmooths of more than one variable. This release fixes one ",
+      "thread_id": "thread-6858fcaccad3",
+      "thread_depth": 0,
+      "month": "2002-05"
+    },
+    {
+      "id": "msg-f6c5ec451bbd",
+      "message_id": "<D46FE5FC-639E-11D6-B27D-000393860F3C@stat.ucla.edu>",
+      "from_name": "Jan de Leeuw",
+      "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
+      "date": "2002-05-09T15:48:07-07:00",
+      "subject": "R-1.5.0 for Darwin",
+      "subject_clean": "R-1.5.0 for Darwin",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "ftp://gifi.stat.ucla.edu/pub/R\n\nCurrently it only has the base distribution. Unpack in /usr/local. In\naddition you may need many dylibs from fink. This version has\nsupport for gnome, but not for atlas yet. It also has libR.dylib.\nRecommended packages will come later.\n===\nJan de Leeuw; Professor and Chair, UCLA Department of Statistics;\nUS mail: 9432 Boelter Hall, Box 951554, Los Angeles, CA 90095-1554\nphone (310)-825-9550;  fax (310)-206-5658;  email: deleeuw at stat.ucla.edu\nhomepage: http://www.stat.ucla.edu/~deleeuw\n========================================================\n           No matter where you go, there you are. --- Buckaroo Banzai\n                    http://www.stat.ucla.edu/~deleeuw/sounds/nomatter.au\n========================================================\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "ftp://gifi.stat.ucla.edu/pub/R\n\nCurrently it only has the base distribution. Unpack in /usr/local. In\naddition you may need many dylibs from fink. This version has\nsupport for gnome, but not for atlas",
+      "thread_id": "thread-f6c5ec451bbd",
+      "thread_depth": 0,
+      "month": "2002-05"
+    },
+    {
+      "id": "msg-6d8909295fb4",
+      "message_id": "<20020520110718.73bb4d8f.fharrell@virginia.edu>",
+      "from_name": "Frank E Harrell Jr",
+      "from_email_hash": "bd19bd9f169b5f3d1a992f9f1800c6f882823514a102dfe1216f921e43131154",
+      "date": "2002-05-20T11:07:18-04:00",
+      "subject": "Hmisc and Design Packages",
+      "subject_clean": "Hmisc and Design Packages",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thanks to Xiao Gang Fan new versions of the Hmisc and Design libraries are now available for Windows users at http://hesweb1.med.virginia.edu/biostat/s/library/r\n\nThe libraries have also been updated for Linux/Unix/MacOSX users.  Hmisc now passes R CMD CHECK except for some warnings about help files.  Many bugs have been fixed and all help file examples now run.  It will soon be submitted to CRAN.  Design will be at that point in about 3 weeks hopefully.\n-- \nFrank E Harrell Jr              Prof. of Biostatistics & Statistics\nDiv. of Biostatistics & Epidem. Dept. of Health Evaluation Sciences\nU. Virginia School of Medicine  http://hesweb1.med.virginia.edu/biostat\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Thanks to Xiao Gang Fan new versions of the Hmisc and Design libraries are now available for Windows users at http://hesweb1.med.virginia.edu/biostat/s/library/r\n\nThe libraries have also been updated ",
+      "thread_id": "thread-6d8909295fb4",
+      "thread_depth": 0,
+      "month": "2002-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-6714551013cf",
+      "subject": "Spatial statistics - new version of spdep",
+      "message_count": 1,
+      "participants": [
+        "Roger Bivand"
+      ],
+      "started": "2002-05-01T11:42:03+02:00",
+      "last_reply": "2002-05-01T11:42:03+02:00",
+      "root_message_id": "msg-6714551013cf"
+    },
+    {
+      "id": "thread-2faa8e03f960",
+      "subject": "BioConductor 1.0",
+      "message_count": 1,
+      "participants": [
+        "A.J. Rossini"
+      ],
+      "started": "2002-05-02T08:19:45-07:00",
+      "last_reply": "2002-05-02T08:19:45-07:00",
+      "root_message_id": "msg-2faa8e03f960"
+    },
+    {
+      "id": "thread-10fe20868fa7",
+      "subject": "R 1.5.0 RPM's for Mandrake",
+      "message_count": 1,
+      "participants": [
+        "mikalzet at libero.it"
+      ],
+      "started": "2002-05-02T16:38:19+02:00",
+      "last_reply": "2002-05-02T16:38:19+02:00",
+      "root_message_id": "msg-10fe20868fa7"
+    },
+    {
+      "id": "thread-0e198df2e534",
+      "subject": "R 1.5.0 RPMs for Red Hat Linux 7.2/Intel",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2002-05-03T10:41:36+02:00",
+      "last_reply": "2002-05-03T10:41:36+02:00",
+      "root_message_id": "msg-0e198df2e534"
+    },
+    {
+      "id": "thread-6858fcaccad3",
+      "subject": "mgcv 0.8 released",
+      "message_count": 1,
+      "participants": [
+        "Simon Wood"
+      ],
+      "started": "2002-05-05T19:05:12+01:00",
+      "last_reply": "2002-05-05T19:05:12+01:00",
+      "root_message_id": "msg-6858fcaccad3"
+    },
+    {
+      "id": "thread-f6c5ec451bbd",
+      "subject": "R-1.5.0 for Darwin",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2002-05-09T15:48:07-07:00",
+      "last_reply": "2002-05-09T15:48:07-07:00",
+      "root_message_id": "msg-f6c5ec451bbd"
+    },
+    {
+      "id": "thread-6d8909295fb4",
+      "subject": "Hmisc and Design Packages",
+      "message_count": 1,
+      "participants": [
+        "Frank E Harrell Jr"
+      ],
+      "started": "2002-05-20T11:07:18-04:00",
+      "last_reply": "2002-05-20T11:07:18-04:00",
+      "root_message_id": "msg-6d8909295fb4"
+    }
+  ]
+}

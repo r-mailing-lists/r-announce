@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2003-08",
+  "messages": [
+    {
+      "id": "msg-195410d842db",
+      "message_id": "<8CBAA121CEB4D5118CB200508BB2BBEF54043E@xmx8lonib.lonib.commerzbank.com>",
+      "from_name": "Heywood, Giles",
+      "from_email_hash": "3e32592bc1e64cb535baa0bc558bd689ed2f59c3cd32d06a6de1fa640afaa5b7",
+      "date": "2003-08-11T07:27:03+01:00",
+      "subject": "New package: irregular time-series (its)",
+      "subject_clean": "New package: irregular time-series (its)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have uploaded to CRAN a new package named 'its' (Irregular Time-Series).\nIt\nimplements irregular time-series as an S4 class, extending the matrix class,\nand records the time-stamp of each row in the matrix using POSIX.  Print,\nplot,\nextraction, append, and related functionality are available.\n\nFeedback and suggestions are welcome.\n\nGiles Heywood\n\n\n********************************************************************** \nThis is a commercial communication from Commerzbank AG.\\ \\ T...{{dropped}}",
+      "body_snippet": "I have uploaded to CRAN a new package named 'its' (Irregular Time-Series).\nIt\nimplements irregular time-series as an S4 class, extending the matrix class,\nand records the time-stamp of each row in the",
+      "thread_id": "thread-195410d842db",
+      "thread_depth": 0,
+      "month": "2003-08"
+    },
+    {
+      "id": "msg-6cf48f68fd70",
+      "message_id": "<3F4F982D.3030300@statistik.uni-dortmund.de>",
+      "from_name": "Uwe Ligges",
+      "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
+      "date": "2003-08-29T20:15:09+02:00",
+      "subject": "Notes on Windows binaries of contributed  packages",
+      "subject_clean": "Notes on Windows binaries of contributed  packages",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Announcement for Windows users of R < 1.7.0\n  and maintainers of contributed packages\n\n\n[Please do not reply to r-announce!]\n\n\nWindows users of R < 1.7.0\n==========================\n[Users of R-1.7.x are not affected.]\n\nIn order to clean up the directory structure on CRAN, the Windows binary\nversion of contributed packages for R < 1.7.0 will be moved from\n   Your-CRAN-Mirror/bin/windows/contrib\nto a subdirectory ./1.6 shortly.\nTherefore, install.packages() and friends of R < 1.7.0 won't work\nwithout specifying argument \"contriburl\" explicitly. Of course, manual\ndownload and installation is possible as well. Note that these packages\nare no longer being updated (last update was: 11-Apr-2003).\nReadMe files will be available in the corresponding directories.\n\nIt is highly recommended to upgrade to a recent version of R!\n\n\nMaintainers of contributed packages\n===================================\nStarting with the first alpha releases of R-1.8.0 (in development), I am\ngoing to make Windows binary versions of contributed packages available\n(around September 13) at Your-CRAN-Mirror/bin/windows/contrib/1.8\n(currently still linked to the ./1.7 directory).\nPackages that do not compile out of the box or do not pass \"Rcmd check\"\nwith \"OK\" or \"WARNING\" will *not* be published. This \"Status\", i.e.\nresult of \"Rcmd check\" (\"OK\", \"WARNING\", \"ERROR\"), will be listed in a\nfile \"./1.8/Status\". Corresponding check.log will be available in\nsubdirectory ./1.8/check.\nFor details, please read the ReadMe (to appear).\n\n\nBest regards,\nUwe Ligges",
+      "body_snippet": "Announcement for Windows users of R < 1.7.0\n  and maintainers of contributed packages\n\n\n[Please do not reply to r-announce!]\n\n\nWindows users of R < 1.7.0\n==========================\n[Users of R-1.7.x a",
+      "thread_id": "thread-6cf48f68fd70",
+      "thread_depth": 0,
+      "month": "2003-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-195410d842db",
+      "subject": "New package: irregular time-series (its)",
+      "message_count": 1,
+      "participants": [
+        "Heywood, Giles"
+      ],
+      "started": "2003-08-11T07:27:03+01:00",
+      "last_reply": "2003-08-11T07:27:03+01:00",
+      "root_message_id": "msg-195410d842db"
+    },
+    {
+      "id": "thread-6cf48f68fd70",
+      "subject": "Notes on Windows binaries of contributed  packages",
+      "message_count": 1,
+      "participants": [
+        "Uwe Ligges"
+      ],
+      "started": "2003-08-29T20:15:09+02:00",
+      "last_reply": "2003-08-29T20:15:09+02:00",
+      "root_message_id": "msg-6cf48f68fd70"
+    }
+  ]
+}

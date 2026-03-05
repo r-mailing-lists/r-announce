@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2004-11",
+  "messages": [
+    {
+      "id": "msg-72561ce0150a",
+      "message_id": "<x2r7mvxiau.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2004-11-15T16:07:05+01:00",
+      "subject": "R-2.0.1 is released",
+      "subject_clean": "R-2.0.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.0.1.tgz a short while ago. This is a maintenance\nversion mainly to fix a number of minor bugs and issues. (Some rather\nnasty ones were Windows-specific - please check the CHANGES file for\nthose.)\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2.0.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course.\n \nThere is also a version split for floppies.\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n6f75951d61cc321f597ea28ad43a9ada  INSTALL\nb5519f795224506e7702f74dbbb152b1  NEWS\n1a2248b10e3dbf078559705a25b52ca4  ONEWS\nfb47b1fdef4323031e24d541a2f36b2b  R-2.0.1.tar.gz\n4e334bc539e5a2d8cc3e6b8cca4171be  R-2.0.1.tar.gz-split.aa\nbc7cb22034948998a4eeb18006a53094  R-2.0.1.tar.gz-split.ab\nb73f587c39599ce47bba00544f2cd100  R-2.0.1.tar.gz-split.ac\nbbec006c26c6a236c6b5e98989a2f0a2  R-2.0.1.tar.gz-split.ad\n8d04842319525ba6cead4bff1b259263  R-2.0.1.tar.gz-split.ae\ne3d1af261c7ea83820597f6fef9e9449  R-2.0.1.tar.gz-split.af\n3595c1939484762a6440a957908023ce  R-2.0.1.tar.gz-split.ag\n4492e468cc5003e06a2a85c496ff2672  R-2.0.1.tar.gz-split.ah\nfb47b1fdef4323031e24d541a2f36b2b  R-latest.tgz\nb5509d1e6232e66dee66d9644bf65490  README\n7a5a7cfe9419affd9574aba3cf525741  RESOURCES\n\n\nHere is the relevant bit of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 2.0.1\n\n\nNEW FEATURES\n\n    o\tPlatform equivalence in library() is tested by a new function\n\ttestPlatformEquivalence() which ignores the 'vendor' field and\n\tcan be customized by cognescenti.\n\n    o   The assignment form of split() allows recycling of vectors \n\twithin the value list. In particular, things like \n\t    split(x, g) <- lapply(split(x, g), mean)\n\tnow work\n\n\nDOCUMENTATION\n\n    o\tManual `Writing R Extensions' has new sections on writing\n\tportable packages and on writing new front-ends for R -- the\n\tlatter will be more comprehensive in R 2.1.0 which has new\n\tpublic header files.\n\n\nDEPRECATED & DEFUNCT\n\n    o\tThe aqua module in MacOS X is deprecated.\n\n    o\tCapabilities \"bzip2\", \"GNOME, \"libz\" and \"PCRE\" are deprecated.\n\n    o\tThe GNOME GUI on Unix-alikes is deprecated as part of R;\n\tit will be available in another form as from R 2.1.0.\n\n    o\tThe undocumented use of UseMethod() with no argument is now\n\tformally deprecated.\n\n\nINSTALLATION CHANGES\n\n    o\tBuilding on Alpha OSF/1 no longer forces the C flag -std1,\n\twhich appears to be no longer needed.  (PR#7257)\n\n    o\tThe compiler flag -mieee-fp is no longer used on i386 Linux\n\t(these days it is only passed to the linker and was only\n\tinvoked for compilation steps).\n\n    o\t-D__NO_MATH_INLINES is only used on older ix86 glibc-based\n\tsystems which need it (tested at configure time).  This leads to\n\tsmall improvements in speed and accuracy on modern systems.\n\n    o\tIf makeinfo >= 4.5 is not available, warnings are given that\n\tsome of the HTML manuals will be missing, and the index page\n\tgiven by help.start() will link to CRAN versions of those manuals.\n\n    o\tFiles aclocal.m4 and acinclude.m4 used in maintainer builds\n\tare not longer included in the distribution.\n\n\nC-LEVEL FACILITIES\n\n    o\tIt was not clear in 'Writing R Extensions' that some of the\n\tentry points in the 'Utilities' section were not declared in\n\t<R.h> (they were in <R_ext/Applic.h>).  Now all the entry\n\tpoints in that section are declared in <R_ext/Utils.h>,\n\tincluded by <R.h>.\n\n\nBUG FIXES\n\n    o   The grid.grab() function in package grid would throw an error\n\tif there were no viewports pushed (now returns NULL).\n\n    o\tmodel.frame.default() takes row names from the response\n\tvariable if that has suitable names and there is no 'data'\n\targument.  (This follows S but was not previously implemented\n\tin R.)\n\n    o\twrite.table() was not respecting the 'dec' argument for complex\n\tnumbers.\n\n    o\twrite.table() printed a mixture of numeric and complex numbers\n\tas all complex.\t (PR#7260)\n\n    o\tR CMD INSTALL failed with versioned installs on packages which\n\tsave images (only).\n\n    o\tdlogis() gave NaN not 0 for large negative arguments.\n\n    o\tImporting from another namespace was broken for versioned\n\tinstalls, incorrectly reporting something like\n\t\"package 'imported_from' does not have a name space\".\n\n    o\tThe GNOME interface under Linux/Unix was broken. (PR#7276)\n\n    o\tFor the jpeg/png devices under Linux/Unix, under certain rare\n\tcircumstances clipping needed to be cleared before starting a\n\tnew page.  (PR#7270, which has been the case since the devices\n\twere introduced in 1.1.0.)\n\n    o\tFirst lattice plot (first grid.newpage() call) did not start\n\ta new page IF there had been a previous traditional graphics\n\tplot (on the same device).\n\n    o\tUsing install.packages() to install the same package to more\n\tthan one library gave an incorrect warning message.  (If there\n\twere two or more such packages it might give an error.)\n\n    o\t.packages(all.available=TRUE) returned packages with an invalid\n\tversion field in their DESCRIPTION whereas .find.packages() and\n\tpackageDescription() did not.  Now all do not.\n\n    o\tpackageDescription() now correctly reports that a package does\n\tnot exist, rather than that its DESCRIPTION file is 'missing\n\tor broken'.\n\n    o\t'make dist' from builddir != sourcedir was copying not linking\n\trecommended packages to *.tgz.\n\n    o\tSlots in prototype objects can inherit from locally defined\n\tclasses (which were not being found correctly before).\n\n    o\tSeveral fixes to the behavior of as() when there are either\n\tcoerce= or replace= methods supplied in a call to\n\tsetIs(). Related fixes to setIs() to handle correctly previous\n\tmethods, if there were any.\n\n    o\tsplinefun(1[0], 1[0])(1) doesn't segfault anymore (PR#7290).\n\tspline() and splinefun() now also work with missing values by\n\tomiting them.\n\n    o\tecdf() was failing on inputs containing NAs. (Part of PR#7292)\n\n    o\ttools:::.install_package_description was splitting the Built:\n\tfield across lines on platforms with very long names.\n\n    o\tcapabilities() was wrong for the Aqua GUI on MacOS X.\n\n    o   Using Rprof() with a non-writable 'file' argument is now a \n\tnon-fatal error and does not abort R.\n\n    o   binom.test() did not deparse its arguments early enough such\n        that the reported data were ugly if x was a table.\n\n    o\tSystems based on glibc, including those using R's substitute for\n\tstrptime, were handling strptime(\"2001\", \"%Y\") incorrectly, in\n\tsome cases crashing.  R's substitute code has been corrected\n\t(but problems may remain if glibc is used).  See the ?strptime\n\tfor what should happen (which is system-specific).\n\n    o\tuntrace() after trace() failed if package 'methods' was attached.\n\t(PR#7301)\n\n    o\tsummary.stepfun() was reporting for n > 6 summaries of the\n\tknots and levels as the actual values.  Both print() and\n\tsummary() methods called the constant values \"step heights\",\n\talthough they were not the heights of the steps.\n\n    o\tis.na/is.nan() were giving spurious warnings if applied to a\n\traw vector.\n\n    o\tis.atomic() gave incorrect result (false) for a raw vector.\n\n    o\trank() and order() accepted raw and list inputs, but did not\n\tgive a sensible answer (always 1:n).  Similarly, partial sorts\n\tof a raw vector were accepted but did nothing.\n\n    o\trequire() without a version argument tried for an unversioned\n\tload of a package even though a versioned install was already\n\tloaded.  This often led to a message that a required package\n\twas being loaded when it was not actually being loaded.\n\n    o\tstr(<S4.object>) made use of attributes() instead of slot(),\n\tand hence didn't properly print NULL slots.\n\n    o\tcontrib.url() now handles URLs ending in '/' correctly.\n\n    o\tstr() removed any class from externalptr objects.\n\n    o\tlogLik() and hence AIC() failed or gave incorrect answers \n\ton \"lm\" fits with na.action = na.exclude (and perhaps other \n\tna.actions's except na.omit and na.fail).\n\n    o\tpmax() and pmin() sometimes used NAs in internal subassignments,\n\tand sometimes these failed.\n\n    o\tSubassigning an expression, e.g. expr[2] <- 1, could leave an\n\tinvalid object and so cause a segfault. (PR#7326)\n\n    o\tdownload/install.packages() would misbehave if there was more\n\tthan one version of a package in a repository.\n\n    o\tsort(partial=) silently ignored some other arguments: using\n\t'decreasing' or 'index.return' or supplying a factor are now\n\terrors.\n\t\n    o   The ave() function had trouble if the grouping contained \n        unused levels. \n\t\n    o   read.fwf() got confused by skip > 0 and could infinite loop\n\tunder some circumstances.  (PR#7350)\n\n    o\tupgrade(x, ask = FALSE) was broken for a \"packageStatus\" object.\n\n    o   Class \"raw\" had been omitted from the list of basic classes in\n\tthe \"methods\" package and so could not be used in S4 classes.\n\n    o   Function getGroupMembers(), part of the definition of S4\n\tclasses, had been promised for release 2.0, but slipped through.\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-2.0.1.tgz a short while ago. This is a maintenance\nversion mainly to fix a number of minor bugs and issues. (Some rather\nnasty ones were Windows-specific - please check the CHANGES fi",
+      "thread_id": "thread-72561ce0150a",
+      "thread_depth": 0,
+      "month": "2004-11"
+    },
+    {
+      "id": "msg-2be59526dc5f",
+      "message_id": "<x2oehzxgq7.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2004-11-15T16:41:04+01:00",
+      "subject": "R-2.0.1 is released",
+      "subject_clean": "R-2.0.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Whoops!\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.0.1.tar.gz\n\n(Notice the R-2 subdir)\n\nI also forgot to sign it on behalf of The R Core Team.\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907",
+      "body_snippet": "Whoops!\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.0.1.tar.gz\n\n(Notice the R-2 subdir)\n\nI also forgot to sign it on behalf of The R Core Team.\n\n-- \n   O__  ---- Peter Dalgaard   ",
+      "thread_id": "thread-2be59526dc5f",
+      "thread_depth": 0,
+      "month": "2004-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-72561ce0150a",
+      "subject": "R-2.0.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2004-11-15T16:07:05+01:00",
+      "last_reply": "2004-11-15T16:07:05+01:00",
+      "root_message_id": "msg-72561ce0150a"
+    },
+    {
+      "id": "thread-2be59526dc5f",
+      "subject": "R-2.0.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2004-11-15T16:41:04+01:00",
+      "last_reply": "2004-11-15T16:41:04+01:00",
+      "root_message_id": "msg-2be59526dc5f"
+    }
+  ]
+}

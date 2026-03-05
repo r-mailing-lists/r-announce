@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2011-09",
+  "messages": [
+    {
+      "id": "msg-18ab5f0e5ee2",
+      "message_id": "<E7CFB1CF-E5A4-494D-8F30-85BF3202F2B7@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2011-09-19T14:37:44+02:00",
+      "subject": "[R] R 2.14.0 scheduled for October 31, 2.13.2 for September 30",
+      "subject_clean": "R 2.14.0 scheduled for October 31, 2.13.2 for September 30",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.14.0 on Monday,\nOctober 31, 2011. \n\nAs a new feature, we will precede the run-in sequence for 2.14.0 with a final release of the 2.13 series, 2.13.2. No further patching of this series is intended. \n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) via\n\nhttp://cran.r-project.org/src/base-prerelease/\n\nFor the R Core Team\nPeter Dalgaard\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com\n\n_______________________________________________\nR-announce at r-project.org mailing list\nhttps://stat.ethz.ch/mailman/listinfo/r-announce\n\n______________________________________________\nR-help at r-project.org mailing list\nhttps://stat.ethz.ch/mailman/listinfo/r-help\nPLEASE do read the posting guide http://www.R-project.org/posting-guide.html\nand provide commented, minimal, self-contained, reproducible code.",
+      "body_snippet": "This is to announce that we plan to release R version 2.14.0 on Monday,\nOctober 31, 2011. \n\nAs a new feature, we will precede the run-in sequence for 2.14.0 with a final release of the 2.13 series, 2.",
+      "thread_id": "thread-18ab5f0e5ee2",
+      "thread_depth": 0,
+      "month": "2011-09"
+    },
+    {
+      "id": "msg-e3b12bdb2a4a",
+      "message_id": "<655C9702-B348-4B84-A189-AD963BA9E2C9@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2011-09-30T10:50:49+02:00",
+      "subject": "R 2.13.2 is released",
+      "subject_clean": "R 2.13.2 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The byte pixies have rolled up R-2.13.2.tar.gz at 9:00 this morning. This is intended to be the final release of the 2.13 series, for the benefit of those apprehensive of putting 2.14.x into production use. \n\nThe run-in for 2.14.0 starts on Monday, with a planned release on Oct 31 (The Great Pumpkin Man Release).\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.13.2.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n   For the R Core Team\n\n   Peter Dalgaard\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nMD5 (AUTHORS) = cbf6da8f886ccd8d0dda0cc7ffd1b8ec\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = 9313f40d1614e33bb2872dcdf09bdf1b\nMD5 (INSTALL) = 70447ae7f2c35233d3065b004aa4f331\nMD5 (NEWS) = af38550b8f19f81357158effdbc44fc3\nMD5 (NEWS.html) = 2c0741963f34888f5095225217e51666\nMD5 (ONEWS) = 0c3e10eef74439786e5fceddd06dac71\nMD5 (OONEWS) = b0d650eba25fc5664980528c147a20db\nMD5 (R-latest.tar.gz) = fbad74f6415385f86425d0f3968dd684\nMD5 (README) = 296871fcf14f49787910c57b92655c76\nMD5 (RESOURCES) = 020479f381d5f9038dcb18708997f5da\nMD5 (THANKS) = 159efc7bd4ae7b23dda07c1d431657bc\nMD5 (R-2/R-2.13.2.tar.gz) = fbad74f6415385f86425d0f3968dd684\n\nThis is the relevant part of the NEWS file:\n\nCHANGES IN R VERSION 2.13.2:\n\n  NEW FEATURES:\n\n    o mem.limits() now reports values larger than the maximum integer\n      (previously documented to be reported as NA), and allows larger\n      values to be set, including Inf to remove the limit.\n\n    o The print() methods for classes \"Date\", \"POSIXct\" and \"POSIXlt\"\n      respect the option \"max.print\" and so are much faster for very\n      long datetime vectors.  (Suggestion of Yohan Chalabi.)\n\n    o untar2() now works around errors generated with tar files that\n      use more than the standard 6 digits for the checksum.\n      (https://bugs.R-project.org/bugzilla3/show_bug.cgi?id=14654PR#14654)\n\n    o install.packages() with Ncpus > 1 guards against simultaneous\n      installation of indirect dependencies as well as direct ones.\n\n    o Sweave now knows about a few more Windows' encodings (including\n      cp1250 and cp1257) and some inputenx encodings such as koi8-r.\n\n    o postscript(colormodel = \"rgb-nogray\") no longer sets the sRGB\n      colorspace for each colour and so some viewers may render its\n      files much faster than the default colormodel =\"rgb\".\n\n    o The default for pdf(maxRasters=) has been increased from 64 to\n      1000.\n\n    o readBin() now warns if signed = FALSE is used inappropriately\n      (rather than being silently ignored).\n\n      It enforces the documented limit of 2^31-1 bytes in a single\n      call.\n\n    o PCRE has been updated to version 8.13, a bug-fix release with\n      updated Unicode tables (version 6.0.0). An additional patch (r611\n      from PCRE 8.20-to-be) has been added to fix a collation symbol\n      recognition issue.\n\n  INSTALLATION:\n\n    o It is possible to build in src/extra/xdr on more platforms.\n      (Needed since glibc 2.14 hides its RPC implementation.)\n\n    o configure will find the Sun TI-RPC implementation of xdr (in\n      libtirpc) provided its header files are in the search path: see\n      the 'R Installation and Administration Manual'.\n\n  PACKAGE INSTALLATION:\n\n    o Using a broad exportPattern directive in a NAMESPACE file is no\n      longer allowed to export internal objects such as .onLoad and\n      .__S3MethodsTable__. .\n\n      These are also excluded from imports, along with .First.lib.\n\n  BUG FIXES:\n\n    o fisher.test() had a buglet: If arguments were factors with unused\n      levels, levels were dropped and you would get an error saying\n      that there should be at least two levels, inconsistently with\n      pre-tabulated data.  (Reported by Michael Fay).\n\n    o package.skeleton() will no longer dump S4 objects supplied\n      directly rather than in a code file.  These cannot be restored\n      correctly from the dumped version.\n\n    o Build-time expressions in help files did not have access to\n      functions in the package being built (with R CMD build).\n\n    o Because quote() did not mark its result as being in use,\n      modification of the result could in some circumstances modify the\n      original call.\n\n    o Plotting pch = '.' now guarantees at least a one-pixel dot if cex\n      > 0.\n\n    o The very-rarely-used command-line option --max-vsize was\n      incorrectly interpreted as a number of Vcells and not in bytes as\n      documented.  (Spotted by Christophe Rhodes.)\n\n    o The HTML generated by Rd2HTML() comes closer to being standards\n      compliant.\n\n    o filter(x, recursive = TRUE) gave incorrect results on a series\n      containing NAs.  (Spotted by Bill Dunlap.)\n\n    o Profiling stats::mle() fits with a fixed parameter was not\n      supported.\n      (https://bugs.R-project.org/bugzilla3/show_bug.cgi?id=14646PR#14646)\n\n    o retracemem() was still using positional matching.\n      (https://bugs.R-project.org/bugzilla3/show_bug.cgi?id=14650PR#14650)\n\n    o The quantile method for \"ecdf\" objects now works and is\n      documented.\n\n    o xtabs(~ .., ..., sparse=TRUE) now also works together with an\n      exclude = .. specification.\n\n    o decompose() computed an incorrect seasonal component for time\n      series with odd frequencies.\n\n    o The pdf() device only includes the definition of the sRGB\n      colorspace in the output file for the \"rgb\" colormodel (and not\n      for \"gray\" nor \"cmyk\"): this saves ca 9KB in the output file.\n\n    o .hasSlot() wrongly gave FALSE in some cases.\n\n    o Sweave() with keep.source=TRUE could generate spurious NA lines\n      when a chunk reference appeared last in a code chunk.\n\n    o \\Sexpr[results=rd] in an .Rd file now first tries\n      parse_Rd(fragment=FALSE) to allow Rd section-level macros to be\n      inserted.\n\n    o The print() method for class \"summary.aov\" did not pass on\n      arguments such as signif.stars when summary() was called on a\n      single object.\n      (https://bugs.R-project.org/bugzilla3/show_bug.cgi?id=14684PR#14684)\n\n    o In rare cases ks.test() could return a p-value very slightly less\n      than 0 by rounding error.\n      (https://bugs.R-project.org/bugzilla3/show_bug.cgi?id=14671PR#14671)\n\n    o If trunc() was called on a \"POSIXlt\" vector and the result was\n      subsetted, all but the first element was converted to NA.\n      (https://bugs.R-project.org/bugzilla3/show_bug.cgi?id=14679PR#14679)\n\n    o cbind() and rbind() could cause memory corruption when used on a\n      combination of raw and logical/integer vectors.\n\n\n--\nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "The byte pixies have rolled up R-2.13.2.tar.gz at 9:00 this morning. This is intended to be the final release of the 2.13 series, for the benefit of those apprehensive of putting 2.14.x into productio",
+      "thread_id": "thread-e3b12bdb2a4a",
+      "thread_depth": 0,
+      "month": "2011-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-18ab5f0e5ee2",
+      "subject": "R 2.14.0 scheduled for October 31, 2.13.2 for September 30",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2011-09-19T14:37:44+02:00",
+      "last_reply": "2011-09-19T14:37:44+02:00",
+      "root_message_id": "msg-18ab5f0e5ee2"
+    },
+    {
+      "id": "thread-e3b12bdb2a4a",
+      "subject": "R 2.13.2 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2011-09-30T10:50:49+02:00",
+      "last_reply": "2011-09-30T10:50:49+02:00",
+      "root_message_id": "msg-e3b12bdb2a4a"
+    }
+  ]
+}

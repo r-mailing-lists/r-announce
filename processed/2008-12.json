@@ -1,0 +1,144 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2008-12",
+  "messages": [
+    {
+      "id": "msg-477ea72d8a75",
+      "message_id": "<4936BE10.3010206@agrocampus-ouest.fr>",
+      "from_name": "Francois Husson",
+      "from_email_hash": "9998c17f0bf71c02e34210987f58f60eeacb8f5a75c69d452719aa14411a2d69",
+      "date": "2008-12-03T17:12:48Z",
+      "subject": "useR!2009 conference announcement",
+      "subject_clean": "useR!2009 conference announcement",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are happy to inform you that the online abstract submission and \nregistration for `useR! 2009' is now available online from\n\nhttp://www.R-project.org/useR-2009/\n\nThis meeting of the R user community will take place at Agrocampus, \nRennes, France, July 8 to 10, 2000. The conference schedule comprises \ninvited lectures and user-contributed sessions as well as half-day \ntutorials presented by R experts on July 7, 2009, prior to the conference.\n\nInvited speakers will include\n\nAdele Cutler, Peter Dalgaard, Jerome H. Friedman,  Michael Greenacre,  \nTrevor Hastie, John Storey, Martin Theus.\n\nThe spectrum of user-contributed sessions will depend on your \nsubmissions. Hence, we invite you to submit abstracts for a talk or a \nposter on topics presenting innovations or exciting applications of R. \nThe call for papers along with the link to the online abstract \nsubmission is available at\n\nhttp://www.R-project.org/useR-2009/#Call\n\nBefore the start of the official program, half-day tutorials will be \noffered on Tuesday, July 7. A list of topics and speakers can be found at\n\nhttp://www.R-project.org/useR-2009/tutorials/\n\nThe deadline for early registration and to submit an abstract is \nFebruary 27th 2009, so now is the perfect time to write and submit an \nabstract, register as a participant and plan your trip to Rennes (Rennes \nwill be busy at the conference time because the cultural event `Festival \nLes tomb?es de la nuit' will take place at the same time, so we \nrecommend to book as soon as possible). The conference web page\n\nhttp://www.agrocampus-ouest.fr/math/useR-2009/accomodation.html\ngives a list of hotels and some student rooms (200) are also available \non the campus.\n\nWe hope to meet you in Rennes!\n\nThe conference committee,\n\nJulie Josse, Fran?ois Husson, David Causeur, Maela Kloareg, S?bastien \nL?, Aline Legrand, Eric Matzner-Lober & J?r?me Pag?s",
+      "body_snippet": "We are happy to inform you that the online abstract submission and \nregistration for `useR! 2009' is now available online from\n\nhttp://www.R-project.org/useR-2009/\n\nThis meeting of the R user communit",
+      "thread_id": "thread-477ea72d8a75",
+      "thread_depth": 0,
+      "month": "2008-12"
+    },
+    {
+      "id": "msg-9ee8bab3b5d6",
+      "message_id": "<493D59D6.10203@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2008-12-08T18:31:02+01:00",
+      "subject": "[R] R 2.8.1 is scheduled for December 22",
+      "subject_clean": "R 2.8.1 is scheduled for December 22",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.8.1 on Monday,\nDecember 22, 2008.\n\nRelease procedures start Friday, December 12.\n\nThose directly involved should review the generic schedule at \nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) and the tarballs can be picked up at\n\nhttp://cran.r-project.org/src/base-prerelease/\n\na little later.\n\nBinary builds are expected to appear starting Monday 15 at the latest.\n\n\tFor the Core Team\n\tPeter Dalgaard\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n(*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907\n\n_______________________________________________\nR-announce at stat.math.ethz.ch mailing list\nhttps://stat.ethz.ch/mailman/listinfo/r-announce\n\n______________________________________________\nR-help at r-project.org mailing list\nhttps://stat.ethz.ch/mailman/listinfo/r-help\nPLEASE do read the posting guide http://www.R-project.org/posting-guide.html\nand provide commented, minimal, self-contained, reproducible code.",
+      "body_snippet": "This is to announce that we plan to release R version 2.8.1 on Monday,\nDecember 22, 2008.\n\nRelease procedures start Friday, December 12.\n\nThose directly involved should review the generic schedule at ",
+      "thread_id": "thread-9ee8bab3b5d6",
+      "thread_depth": 0,
+      "month": "2008-12"
+    },
+    {
+      "id": "msg-3b628df0b34a",
+      "message_id": "<49427E18.8030003@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2008-12-12T16:07:04+01:00",
+      "subject": "DSC 2009: Now open for registration and abstract submission ",
+      "subject_clean": "DSC 2009: Now open for registration and abstract submission",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Re. Workshop on Directions in Statistical Computing, Copenhagen 13-14\nJuly 2009.\n\nhttp://www.r-project.org/dsc-2009\n\nThe web interface for registration and submission of abstracts is now open.\n\n(The site is still under construction in a number of respects. In\nparticular, we haven't negotiated discounts with any of the hotels yet.)\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "Re. Workshop on Directions in Statistical Computing, Copenhagen 13-14\nJuly 2009.\n\nhttp://www.r-project.org/dsc-2009\n\nThe web interface for registration and submission of abstracts is now open.\n\n(The s",
+      "thread_id": "thread-3b628df0b34a",
+      "thread_depth": 0,
+      "month": "2008-12"
+    },
+    {
+      "id": "msg-ff1973caa433",
+      "message_id": "<18763.64380.278257.890026@ron.nulle.part>",
+      "from_name": "Dirk Eddelbuettel",
+      "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
+      "date": "2008-12-19T13:52:28-06:00",
+      "subject": "R/Finance 2009: Applied Finance with R -- Call for Papers",
+      "subject_clean": "R/Finance 2009: Applied Finance with R -- Call for Papers",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Call for Papers\n \n    The Finance Department of the University of Illinois at Chicago (UIC),\n    the International Center for Futures and Derivatives at UIC, and\n    members of the R finance community are pleased to announce\n \n    R/Finance 2009: Applied Finance with R\n \n    on April 24 and 25, 2009, in Chicago, IL, USA\n \n    Confirmed keynote speakers include:\n \n       Patrick Burns (Burns Statistics)\n       David Kane (Kane Capital)\n       Roger Koenker (U of Illinois at Urbana/Champaign)\n       David Ruppert (Cornell)\n       Diethelm Wuertz (ETH Z?rich)\n       Eric Zivot (U of Washington)\n \n    We invite all users of R in Finance to submit one-page abstracts or\n    complete papers (in txt/pdf/doc format). We encourage papers both on\n    academic research topics and related to use of R by Finance practitioners.\n\n    Presenters are strongly encouraged to provide working R code to accompany\n    the presentation/paper.  Datasets need not be made public.\n \n    Please send submissions to committee at RinFinance.com.\n    The submission deadline is January 31st, 2009.\n    Submissions will be evaluated and submitters notified via email\n    on a rolling basis.\n \n    Additional details about the conference will be announced as available.\n \n    For the program committee:\n       Gib Bassett, Peter Carl, Dirk Eddelbuettel, John Miller,\n       Brian Peterson, Dale Rosenthal, Jeffrey Ryan",
+      "body_snippet": "Call for Papers\n \n    The Finance Department of the University of Illinois at Chicago (UIC),\n    the International Center for Futures and Derivatives at UIC, and\n    members of the R finance community",
+      "thread_id": "thread-ff1973caa433",
+      "thread_depth": 0,
+      "month": "2008-12"
+    },
+    {
+      "id": "msg-596ea7f10e90",
+      "message_id": "<494F5CCB.90203@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2008-12-22T10:24:27+01:00",
+      "subject": "R 2.8.1 is released",
+      "subject_clean": "R 2.8.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.8.1.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor bugs\nand platform issues.\n\nSee the full list of changes below.\n\nYou can get it (in a short while) from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.8.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course.\n\n         For the R Core Team\n\n         Peter Dalgaard\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n70447ae7f2c35233d3065b004aa4f331  INSTALL\n433182754c05c2cf7a04ad0da474a1d0  README\n4f004de59e24a52d0f500063b4603bcb  OONEWS\nff4bd9073ef440b1eb43b1428ce96872  ONEWS\n4eff8b4937a55a2c3ece8b0a31772b62  NEWS\n1ad28cbc84485ccdf4ce5721b34ed645  THANKS\n070cca21d9f8a6af15f992edb47a24d5  AUTHORS\na6f89e2100d9b6cdffcea4f398e37343  COPYING.LIB\neb723b61539feef013de476e68b5c50a  COPYING\n020479f381d5f9038dcb18708997f5da  RESOURCES\n5d443029346cbad2f2df7c62a0ea8e0f  FAQ\nacd40621b8942a2464daa2f9cef3273d  R-2.8.1.tar.gz\nacd40621b8942a2464daa2f9cef3273d  R-latest.tar.gz\n\n\n\nHere is the relevant part of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 2.8.1\n\n\nNEW FEATURES\n\n     o\tsum() now has a method for \"difftime\" objects (via the Summary\n\tgroup).\n\n\tmax(), min() and range() applied to \"difftime\" object(s) now\n\treturn a result in the common units of the objects, if there\n\tis one.\n\n     o\tinstalled.packages() is now tolerant of malformed DESCRIPTION\n\tfiles in installed packages (it ignores them, with a warning).\n\n     o\tqt() now works for 0 < df < 1.\n\n     o\tFor consistency with matrix() and array(), dimnames(x) <-\n\tlist() removes the dimnames (as assigning NULL would do).\n\tIt was previously an error.\n\n     o\tnlminb() copies names from 'start' to the parameter vector\n\tused (for consistency with optim()).\n\n     o\tlegend() gains a 'title.col' argument: the title colour was\n\tpreviously set from the first element of 'text.col' (which\n\tremains the default).\n\n     o\tIn an Rd file, use of top-level \\itemize{} inside a \\value{}\n\tblock is unnecessary and almost always gave a faulty\n\tconversion.  Most cases are now detected and corrected, but\n\tgive a warning as such code will not work correctly in earlier\n\tversins of R.\n\n\tAlso, use of \\code{} inside a code block such as \\examples{}\n\twill give a erroneous conversion that is now detected and\n\twarned against.\n\n     o\tAutoflushing of stdout is turned on when Rd processing, so\n\twarnings/error are likely to appear in the right place in\n\tredirected output (such as that from R CMD check).\n\n\nUTILITIES\n\n     o\tR_PDFLATEXCMD is added to the environment variables set by\n     \t'R CMD' and is used by R CMD Rd2dvi.\n\n\tR_LATEXCMD, R_PDFLATEXCMD, R_MAKEINDEXCMD and R_DVIPSCMD\n\tdefault to 'latex', 'pdflatex', 'makeindex' and 'dvips'\n\trespectively if no suitable executable was found at configure\n\ttime (since they might well be available at run time,\n\tparticularly for binary installations of R).  This affects\n\tR CMD Rd2dvi and help(offline=TRUE).\n\n\tR CMD Rd2dvi now gives an explicit error message if latex (or\n\tpdflatex) fails.\n\n\tR CMD Rd2dvi gains a --no-index argument: processing some\n\tspecial characters on PDF indices gave errors which used to be\n\tignored.\n\n\nDEPRECATED & DEFUNCT\n\n     o\tR CMD INSTALL --with-package-versions is deprecated (and\n\tsupport has always been incomplete on Windows).\n\n\tSo is install.packages(installWithVers = TRUE).\n\n     o\tRd conversion to Sd and Ssgm is now deprecated as we no longer\n\thave any means to check the results (and Sd is long obsolete).\n\n\nBUG FIXES\n\n     o\tadd1.glm() no longer warns if applied to a binomial glm with a\n\tfactor response.\n\n     o\taggregate.data.frame() now does something sensible with a\n\tzero-column 'x' rather than failing with an obscure error\n\tmessage.  It gives an explicit error message if called with a\n\tzero-row 'x'.\n\n     o\tintegrate() now accepts integer results from f(): as documented,\n\tbut only double was accepted.\n\n     o\tcontrib.url() produced an incorrect URL for the type\n         \"mac.binary\".\n\n     o   pairwise.wilcox.test() did not pass on the 'paired' argument\n         (caught by Matthias Kohl)\n\n     o\tbmp(), jpeg(), and png() on unix with type=\"cairo\" would segfault\n\ton closure if the output file could not be opened.\n\n     o\ttiff() on unix would not write the output file for the first page\n\twhen multiple pages were plotted.\n\n     o   str(1 + structure(1, class = \"test\")) no longer recurses \nindefinitely.\n\n     o\tpf(x, .., ncp, lower.tail=FALSE, log=TRUE) is much more accurate\n\tfor large x now.\n\n     o\tdev2bitmap() failed in 2.8.0 if 'taa' and 'gaa' were both NA.\n\n     o\tUnder rare circumstances equality tests for character strings\n     \tcould fail to report equality in 2.8.0 in the same way as\n     \t2.7.2.  (This needed a current encoding of Latin-1 or UTF-8,\n     \tone string whose encoding was marked as that encoding and one\n     \tthat was marked as \"unknown\".  In that circumstance the two\n     \tstrings are not actually known to be equal, but earlier\n     \tversions of R assumed that \"unknown\" meant the current\n     \tencoding, and this is done once again.)\n\n     o\tR CMD config could echo messages from GNU make if called from\n\twithin a Makefile (as e.g. package Rcpp did), especially from\n\twithin a parallel make run.\n\n     o\tRounding error could affect window(extend=TRUE) when applied\n\tto monthly series.  (PR#13272)\n\n     o\tOffline help on a Unix-alike now works even if options\n\t\"latexcmd\" and \"dvipscmd\" contain spaces\n\t(e.g. \"dvips -Pmy_printer\").\n\n\tInformative error messages are given if running latex or dvips\n\tfail.\n\n     o\tUsing plot.lm() on a \"glm\" object since 2.7.1 with which=5\n\tcaused the Pearson rather than deviance residuals to be used\n\tin which=2 or 3 (including in the default case).  (Thanks to\n\tEffie Greathouse and Greg Snow.)\n\n\tplot.lm() did not report on omitting observations with\n\tleverage one if they also had residual exactly zero.  This was\n\tseen in example(occupationalStatus).\n\n     o\tdeparse(nlines=) no longer pads short results with blank\n\tlines. (PR#13299)\n\n     o\tlegend(xpd=) now restores 'xpd' correctly.  (PR#12756)\n\n     o\tThe \"formula\" method for lines() now works if 'subset' is\n\tsupplied and no 'data' argument (as that for points() did).\n\n     o\tSweave() now takes the defaults for the options 'pdf.version'\n\tand 'pdf.encoding' of its RweaveLatex driver from pdf.options().\n\n     o\tprettyNum(x, drop0trailing=TRUE) treated \"1.1e20\" as \"1.1e2\"\n\tand hence str() did as well, in 2.8.0 only.\n\n     o\tdchisq(x, df, ncp) no longer hangs for large x and ncp > 0,\n\tand is more accurate in some cases (PR#13309).\n\n     o\tinstalled.packages(lib.loc = D, priority=\"NA\") now also works when\n\tD contains a single package.  (PR#13332)\n\n     o\tlegend(...., merge=TRUE) now warns and has no effect in the\n\tcase where no line segments are drawn.  (PR#13340)\n\n     o \ttransform.data.frame() works better when two or more columns are\n\tadded.\n\n     o\tDeparsing argument lists with non-syntactic names (e.g. that for\n\ttransform()) now uses backticks rather than double quotes to\n\tproduce syntactically valid output.\n\n     o\tmatrix() failed to check for 0-length 'dimnames': it now\n\ttreats them as NULL (as array did).  (PR#13361)\n\n     o\t0^NA is now NA, not Inf, consistent with x^NA, x != 1.\n\n     o\tanova.mlm() did not work if T had only one row (including\n\te.g. the case M = ~1).\n\n     o\taxis.POSIXct() mislabelled for some time ranges of a few hours\n\t(reported by Martin Becker).\n\n     o\tmantelhaen.test() with 'exact=FALSE' was not respecting\n\t'alternative'. It now does one-sided tests similarly to\n\tprop.test().\n\n     o\tanova.mlm() had trouble with some designs where near-zero rows of\n\tthe tranformation matrix were not removed (caught by Nils Skutara).\n\n     o\tRd conversion was handling expressions like\n\t'\\item{foo}{see \\eqn{x}}' (with one argument to \\eqn\n\timmediately followed by a right brace) incorrectly, sometimes\n\tgiving a spurious warning about 'missing text'.\n\n     o\tR CMD INSTALL used the C locale to install the DESCRIPTION\n\tfile, and so escaped non-ASCII characters in packages with a\n\tdeclared encoding of \"latin1\" or \"UTF-8\".  (However, the\n\tinstalled DESCRIPTION file was rarely used since the dumped\n\tmetadata are available.)\n\n     o\txspline() now respects inline par settings.\n\n\tIt and grid.xspline() now handle the special case of only two\n\tcontrol points, and splines with control points that are\n\tlocated well outside the device (e.g., a zoomed view of a\n\tlarger curve).\t(Both cases were giving the error \"reached\n\tMAXNUMPTS\").\n\n     o\tIn setClass(\"C\", contains=\"list\"); x <- new(\"C\", 1:3), x[2:3] now\n         remains of class \"C\".  So does rep(x, 2) or rep.int(x, 3).\n\n     o\tmedian.default() now also works for \"numeric\"-like vectors.\n\n     o\tThe pdf() device can now handle the case where an image uses a\n\tvery large number of colours with different levels of\n\tsemi-transparency (alpha-values).  It used to segfault.\n\t(Also PR#13264.)\n\n     o\twindow() failed to apply a fuzz to 'start' or 'end' and so\n\tsometimes warned incorrectly for time series with 'freq' not a\n\tpower of two (e.g. 12 or 24).\n\n     o\tunique.default() now preserves the \"tzone\" attribute on\n\t\"POSIXct\" objects.\n\n     o\tIf all the packages had dependency lists of equal lengths,\n\toccasionally install.packages() would compute an incorrect\n\tsort order.\n\n     o\tcol(x, as.factor=TRUE) and row(x, as.factor=TRUE) would fail\n\tif x had no column (row) names.  It was documented\n\tincorrectly, and now returns a matrix factor.\n\n     o\tsetRepositories() failed if \"pkgType\" was set to\n\t\"mac.binary.leopard\".\n\n     o\tformals<-() changed the body of the function if this was a\n     \tlength-one list.\n\n     o\tbody<-() failed if the function had no arguments.  It now\n\twarns if discarding elements from a 'value' of type \"expression\".\n\n     o\tqr.coef() failed in the complex case for non-square systems.\n     \t(PR#13305)\n\n     o\tplot.dendrogram(horizontal=TRUE) did not not plot 'edgetext'\n\tat the correct locations.  (PR#13313)\n\n     o\tThe starting point for plot.acf(ci.type=\"ma\") was lag 0 when it\n\tshould have been lag 1.  (PR#13071)\n\n     o   There was an obscure bug with srcrefs, which could put the\n         parser into a condition giving \"Error: bad value\" on any input\n\n\n-- \n    O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n   c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n  (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-2.8.1.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor bugs\nand platform issues.\n\nSee the full list of changes below.\n\nYou can get it (in a ",
+      "thread_id": "thread-596ea7f10e90",
+      "thread_depth": 0,
+      "month": "2008-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-477ea72d8a75",
+      "subject": "useR!2009 conference announcement",
+      "message_count": 1,
+      "participants": [
+        "Francois Husson"
+      ],
+      "started": "2008-12-03T17:12:48+00:00",
+      "last_reply": "2008-12-03T17:12:48+00:00",
+      "root_message_id": "msg-477ea72d8a75"
+    },
+    {
+      "id": "thread-9ee8bab3b5d6",
+      "subject": "R 2.8.1 is scheduled for December 22",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2008-12-08T18:31:02+01:00",
+      "last_reply": "2008-12-08T18:31:02+01:00",
+      "root_message_id": "msg-9ee8bab3b5d6"
+    },
+    {
+      "id": "thread-3b628df0b34a",
+      "subject": "DSC 2009: Now open for registration and abstract submission",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2008-12-12T16:07:04+01:00",
+      "last_reply": "2008-12-12T16:07:04+01:00",
+      "root_message_id": "msg-3b628df0b34a"
+    },
+    {
+      "id": "thread-ff1973caa433",
+      "subject": "R/Finance 2009: Applied Finance with R -- Call for Papers",
+      "message_count": 1,
+      "participants": [
+        "Dirk Eddelbuettel"
+      ],
+      "started": "2008-12-19T13:52:28-06:00",
+      "last_reply": "2008-12-19T13:52:28-06:00",
+      "root_message_id": "msg-ff1973caa433"
+    },
+    {
+      "id": "thread-596ea7f10e90",
+      "subject": "R 2.8.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2008-12-22T10:24:27+01:00",
+      "last_reply": "2008-12-22T10:24:27+01:00",
+      "root_message_id": "msg-596ea7f10e90"
+    }
+  ]
+}

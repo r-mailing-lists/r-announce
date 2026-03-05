@@ -1,0 +1,306 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2000-02",
+  "messages": [
+    {
+      "id": "msg-a811a9bc5d01",
+      "message_id": "<38972CE1.D433532A@nceas.ucsb.edu>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
+      "date": "2000-02-01T10:58:41-08:00",
+      "subject": "Install problems with RPgSQL",
+      "subject_clean": "Install problems with RPgSQL",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "If you have had problems with the latest configure script in RPgSQL,\nplease try the version attached to this message.  Let me know if you\nhave any problems.  Thanks.\n\nTim\n\n-- \nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n735 State Street, Suite 300, Santa Barbara, CA 93101\nPhone: 805-892-2519, FAX: 805-892-2510\nhttp://www.nceas.ucsb.edu/~keitt/\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: RPgSQL-0.4.tar.gz\nType: application/x-gzip\nSize: 31662 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-announce/attachments/20000201/ea8ed7a7/attachment.bin>",
+      "body_snippet": "If you have had problems with the latest configure script in RPgSQL,\nplease try the version attached to this message.  Let me know if you\nhave any problems.  Thanks.\n\nTim\n\n-- \nTimothy H. Keitt\nNationa",
+      "thread_id": "thread-a811a9bc5d01",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-925044c5d035",
+      "message_id": "<x2n1pdb287.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2000-02-07T13:56:24+01:00",
+      "subject": "R-0.99.0 is released",
+      "subject_clean": "R-0.99.0 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-0.99.0.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-0.99.0.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-0.99.0.tgz\n\nor wait for it to be mirrored at a CRAN site near you within a day or two.\n\nThere's also a version split in three (!) for floppies if you prefer\nthat.\n\nThe next release is to be 1.0.0 at the end of this month, and you may\nconsider this as a prerelease of that. I.e. this is your chance to\nhelp us making version 1.0.0 as bug-free as possible.\n\nNotice that GNOME support is still experimental. In particular,\nplotting of mathematical formulas is pretty much out of whack at the\nmoment. \n\n\tFor the R Core Team,\n\n\tPeter D.\n\n\nHere's the relevant bit of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 0.99.0\n\n\nNEW FEATURES\n\n    o\tThe ``Introduction to R'' manual, in doc/manual.\n\tThe ``Writing R Extensions'' manual is much enhanced for\n\tthis release.\n\n    o\tThe format for save/load has been changed. Workspaces and\n\tobjects saved in earlier versions can be loaded into this\n\tversion, but not conversely. Use save() or save.image() with\n\targument oldstyle=TRUE to save in the old format if you need to.\n\n    o\tThe header files for C code have been reorganised. The\n\tpreferred header file for user code is now \"R.h\", and\n\tancillary files such as Arith.h now need to be referred to\n\tas \"R_ext/Arith.h\". The `Writing R Extensions' manual now\n\tcontains the beginnings of a description of the public API and\n\thow to use it.\n\n    o\tMany of the exported symbols have been remapped or hidden. This\n\tmeans that code using Rdefines.h or Rinternals.h or Mathlib.h\n\twill need to be re-compiled, and code using Applic.h may do\n\tso.\n\n\tMany packages will need to be re-installed for use with this\n\trelease.\n\n    o\tThe random number generation interface has changed, although\n\tsaved .Random.seed's will work unchanged. The default\n\tgenerator is now Marsaglia's multicarry, and the Mersenne\n\tTwister GFSR and Knuth's Fibonacci subtraction are also\n\tavailable.  The type of normal generation can be selected by\n\tRNGkind() (and is encoded in .Random.seed).\n\n\tThe new function set.seed() which uses a single integer to set\n\tthe random number seeds is now the recommended way to do so.\n\n\tIt is now possible for a user to plug-in in a new RNG written\n\tin C: consult ?Random and ?Random-user for the details.\n\n    o\tAll the DPQ {probability density quantile} functions have new\n\targuments, \"lower_tail = TRUE\" and \"log{_p} = FALSE\".  This allows\n\tmore precise results when values would be close to 0 or 1.\n\n    o\tR CMD Rd2dvi has new options --pdf, --title and --output.\n\n    o\tNew fields Date, URL and Title in the DESCRIPTION file of\n\tpackages. The Title field replaces the separate TITLE file of\n\tpackages, which is no longer necessary.\n\n    o\tresiduals.lm() has a \"type\" argument, as S does.\n\n    o\tThe underlying code for nlm has been translated from Fortran\n\tto C and made re-entrant (changes contributed by Saikat DebRoy).\n\n    o\toptimize() can now be used recursively.\n\n    o\tNew suite of optimization methods optim(), covering\n\tNelder-Mead, BFGS quasi-Newton and conjugate-gradients methods\n\tfor unconstrained minimization and maximization with and\n\twithout derivatives.\n\n\toptim() also allows box constraints (interval bounds on\n\tindividual variables) in its limited-memory BFGS option.\n\n    o\tR now compiles in the GNU version of regex, so regular\n\texpressions (grep, sub, gsub, regexpr, \"pattern\" in ls) are\n\talways available. The class of regular expressions supported\n\tis now slightly wider on some Unix platforms.\n\n    o\tpackage ctest (for classical tests) is now part of the base\n\tdistribution, and also contains chisq.test, prop.test and\n\tt.test which previously were in package base. These three\n\tfunctions are auto-loaded from ctest.\n\n    o\tNew utility `R CMD build' for building add-on packages along\n\twith some useful testing and cleaning up.\n\n    o\tConversion of .Rd help files to text format is done in Perl,\n\tand no longer requires nroff.  This makes the conversion 8-bit\n\tclean and more accurate.\n\n    o\tBuilding help for a package now removes help files that no\n\tlonger exist in the source.\n\n    o\tstrsplit() now uses split regexps, and no longer insists on\n\tsplitting into non-empty tokens.\n\n    o\tLong-named options with arguments such as `--vsize' now use the\n\t`--name=VALUE' form; the old `--name VALUE' is deprecated.\n\tThe old-style command line options `-v' and `-n' are now defunct.\n\n    o\tpar(\"cxy\") { == par(\"cin\")/par(\"pin\") in user coordinates}\n\tfor S compatibility.\n\n    o\tIf R_PAPERSIZE is not specified otherwise, configure now tries\n\tto compute it by calling paperconf.\n\n    o\tThe deprecated alternative RPROFILE is no longer accepted: use\n\tR_PROFILE instead.\n\n    o\tAdded setequal() for set equality.\n\n    o\tFirst argument renamed to \"package\" for library(), require(),\n\tprovide().\n\n    o\tmodel.frame() now accepts data= arguments that can be coerced to\n\tdata frames.\n\n    o\tHelp files can now contain \\describe groups.\n\n    o\tHyperlinks in help files can now use LaTeX special characters.\n\n    o\trstandard() now also works for glm objects.\n\n    o\tglm drops 0-weight observations when fitting so that the\n\toutput is compatible with lm.influence() and plot.lm().\n\n    o\tNew function ftable() for creating and manipulating flat\n\tcontingency tables.\n\n    o\tNew function cutree() for cutting hclust trees in package\n\tmva.  New functions rect.hclust() and identify.hclust().\n\n    o\tUnder Unix, the default editor is obtained from the environment\n\tvariables EDITOR or VISUAL if either is set.\n\n    o\tNew command line option `--gui' to specify the graphical user\n\tinterface under Unix.  Currently, possible values are `X11' (the\n\t(default) and `GNOME', provided that GNOME support is available.\n\tCommand line options \\`-g' and `--gnome' are defunct.\n\n    o\tpower.t.test() and power.prop.test() functions added for power and\n\tsample size calculations.\n\n    o\tedit() is now generic and a new edit.data.frame() function\n\tcalls up the spreadsheet data editor. This is still rather\n\trudimentary, since the data editor really only knows about\n\tnumeric and character vectors.\n\n    o\tModifications to the data editor so that one can use ESC to\n\tquit a partial cell entry and entering an empty cell causes\n\tthe element to be set to NA.\n\n    o\tprop.table() and margin.table() functions (these are *really* trivial).\n\n    o\tR INSTALL checks the Depends field of DESCRIPTION if the\n\tcurrently running version of R meets an R\n\tdependency. old.packages() reports only packages conforming\n\tto the current version of R. New function\n\tpackage.dependencies() for parsing and checking dependencies.\n\n    o\toptions(\"expressions\") now does something, and the evaluation\n\tdepth is checked on all platforms (not just Macintosh). This\n\twill catch infinite recursions gracefully.\n\n    o\tThe default number of cons cells (`nsize') is now 350k (it\n\twas 250k).  This reflects the added base code and packages,\n\tand increases memory usage by about 2Mb (on a 32-bit machine).\n\n    o\tSome simple multiple comparison procedures: p.adjust() for\n\tgeneric adjustment of a set of p values by variants of the\n\tBonferroni method; pairwise.t.test, pairwise.wilcox.test,\n\tpairwise.prop.test for pairwise comparisons of grouped data\n\tand proportions.\n\n    o\tError / warning calls with a long description of the call are\n\tsplit into two lines. (This helps avoid scrolling in the\n\tWindows GUI.)\n\n    o\tlapply() is now internal and substantially faster (7% overall\n\tspeed-up on the tests for the base package).\n\n    o\tapply() no longer names the output dimensions unless FUN returns\n\ta result with names, and the same names for every result.\n\n    o\tcontour() can (at last) label contours by level.\n\n    o\tpersp() labels its axes.\n\n    o\tscan() and read.table() now have a dec= argument to set the\n\tdecimal point character. If sep= is set, quoting of strings is\n\tnow possible and follows the conventions for comma-separated\n\tfiles. This should make it easier to read the \"continental\n\tCSV\" format (fields separated by semicolon and using comma as\n\tdecimal point).\t The set of quoting characters has also been\n\tmade optional. Variants of read.table(), read.csv() and\n\tread.csv2() have been defined\n\n    o\tHDF5 support is gone from the R distribution, and provided by an\n\tadd-on package available from CRAN.\n\n    o\tNew function getOption() for retrieving the value of a single\n\toption.\n\n    o\tread.table.url() and related functions now use download.file,\n\twhich has an extra \"socket\" method for direct HTTP socket\n\tconnection. download.file has new option ``quiet''.\n\n    o\tpairs.default() has an oma argument to allow users to override\n\tthe internal setting of that graphics parameter.\n\n    o\tprincomp() in package mva allows the user to specify the\n\tcovariance matrix (and hence use, e.g. cov.mve).\n\n\nBUG FIXES\n\n    o\tsvd(matrix(2,1,0)),\n\tarma0f(NULL), cancor(F,F) and prcomp(F[F]) no longer segfault.\n\n    o\tloess.smooth(F[F],F[F]) and supsmu(F[F],F[F]) no longer segfault.\n\n    o\tsave(1, file = \"\"[F])  no longer segfaults.\n\n    o\tstop(list()) and warning(list()) no longer segfault.\n\n    o\tsystem(\"\"[F]) and save(1, file = \"\"[F])\t no longer segfault.\n\n    o\tOverflow of the pointer protection stack is handled correctly\n\n    o\tpredict.glm(, type=\"link\", se.fit=T) works\n\n    o\tstr() now works with Surv(.) objects from library(survival5).\n\n    o\tall.equal(-Inf, -1e5) now gives \"Mean absolute difference: Inf\"\n\tinstead of \"Mean relative  difference: NaN\".\n\n    o\tstrsplit fix broke copy.url.\n\n    o\t0 ^ -1 == Inf  and  min(NA, NaN) is now always NA\n\n    o\tR CMD xxx sets $R_HOME/bin to be first in PATH\n\n    o\tAdded more warnings to update.packages & friends. New function\n\told.packages for better control of update.packages.\n\n    o\tAdding matrices to data frames now happens column by column as\n\tdocumented, so character or logical matrices generate factor\n\tcolumns.\n\n    o\tFormulae containing interactions with the response were\n\thandled incorrectly by model.matrix, giving wrong answers or crashes.\n\n    o\tanova(lm(.)) with 0 weights now works.\n\n    o\tplot.lm(), dffits(), covratio() now do the right thing for weighted\n\tlm regression.\n\n    o\tformatC(as.integer(c(1,0,NA))) now works. PR#394, thanks to Jens O.-A.\n\n    o\tformat.char(.) is much faster for long vector argument [Jens O.-A.]\n\n    o\t\\enumerate now enumerates in text conversion of .Rd files.\n\n    o\tglm() no longer fails with names<- errors in cases where\n\tobservations with fits on the mu.eta boundary have been dropped.\n\n    o\tDeviance residuals could be NaN instead of 0 by rounding error.\n\n    o\tshapiro.test(x) now gives better error messages (eg. x=rep(1,5))\n\tand doesn't print ANYTHING anymore (in some cases).\n\n    o\tmode(as.formula(paste(\"~\", paste(1:50, collapse=\"+\")))[2]) now works.\n\n    o\tglm() now handles cases with numerically 0 or 1 fitted values in\n\tbinomial and numerically 0 in poisson correctly. (Previously\n\tthese observations were dropped even though the variances were\n\talso numerically 0.)\n\n    o\t(-4 + 0i) ^ (1/2)  now gives 2i.\n\n    o\tsystem.time() now does sensible things in the non-HAVE_TIMES\n\tcase, and that and proc.time() have better documentation.\n\n    o\tA couple of bugs in the data editor spreadsheet have been\n\teliminated.\n\n    o\tElapsed time in proc.time() is no longer rounded to whole\n\tseconds under Unix.\n\n    o\tAssigning character vectors to subsets of data frames now\n\tworks correctly (it used to assign the numeric codes of factors).\n\n    o\tExtensive enhancements and corrections to the help pages.\n\n    o\tThe possibility of buffer overruns during printing has been\n\tmuch reduced, and eliminated on systems with vsnprintf.\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-0.99.0.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-0.99.0.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-0.99.0.tgz\n\nor wait for it to",
+      "thread_id": "thread-925044c5d035",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-faabb0fc12be",
+      "message_id": "<6rhfflar8k.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2000-02-07T10:53:47-06:00",
+      "subject": "R-0.99.0 available from rsync.r-project.org",
+      "subject_clean": "R-0.99.0 available from rsync.r-project.org",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "rsync.r-project.org has been updated to serve the sources for R-0.99.0.\nThere are three versions of the R CVS source tree available for\nanonymous rsync.\n\n $ rsync rsync.r-project.org::\n r-release      \tR sources (feature-frozen version) CVS tree (approx 12 MB)\n r-release-patched\tpatched R sources (feature-frozen version) CVS tree (approx 12 MB)\n r-devel        \tR sources (development version) CVS tree (approx 12 MB)\n r-manuals      \tDevelopment sources for manuals for R\n xlispstat      \txlispstat sources (development version) CVS tree (approx 12 MB)\n ess            \tess (Emacs Speaks Statistics) CVS tree (approx 8.5 MB)\n omega          \tOmega Project for Statistical Computing CVS tree\n\nAs of today, `r-release' is R-0.99.0.  It will not be changed.  Minor\nbug fixes will go into r-release-patched.  Development for version\n1.0.0 will be carried on in r-devel.\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "rsync.r-project.org has been updated to serve the sources for R-0.99.0.\nThere are three versions of the R CVS source tree available for\nanonymous rsync.\n\n $ rsync rsync.r-project.org::\n r-release     ",
+      "thread_id": "thread-faabb0fc12be",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-56d7f5e313d7",
+      "message_id": "<qxpya8vljlo.fsf@ludwig.stat.wisc.edu>",
+      "from_name": "Saikat DebRoy",
+      "from_email_hash": "42b40a35fb367e85a5d9260ff175d6e36b489ee9da97eb36711bc6f5ed9eee2b",
+      "date": "2000-02-08T10:55:31-06:00",
+      "subject": "RMySQL-0.2 available for R-0.99.0",
+      "subject_clean": "RMySQL-0.2 available for R-0.99.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A package to access MySQL databases from R is now available from the\ndevelopment section of CRAN (http://cran.r-project.org/ and its\nmirrors). This implements a proposed common interface between S like\nlanguages and various relational databases. Details about this\nproposal can be obtained from http://www.omegahat.org/contrib/RS-DBI/.\n\nComments and bugs about the package should be reported to either\nsaikat at stat.wisc.edu. Comments about the SDBI interface should be\naddressed to omega-devel at omegahat.org and/or r-devel at r-project.org.\n\nSaikat DebRoy\n-- \nDepartment of Statistics                       Email: saikat at stat.wisc.edu\nUniversity of Wisconsin - Madison              Phone: (608) 263 5948\n1210 West Dayton Street                        Fax:   (608) 262 0032\nMadison, WI 53706-1685\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A package to access MySQL databases from R is now available from the\ndevelopment section of CRAN (http://cran.r-project.org/ and its\nmirrors). This implements a proposed common interface between S lik",
+      "thread_id": "thread-56d7f5e313d7",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-a8e38ccae79e",
+      "message_id": "<x2bt5qo8lz.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2000-02-09T13:36:56+01:00",
+      "subject": "R-0.99.0 bugfixes available",
+      "subject_clean": "R-0.99.0 bugfixes available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A couple of bugs turned up immediately after the release, one of them\ncausing nasty memory corruption when strsplit() was used.\n\nTherefore, a set of patches has been supplied on\n\nftp://cvs.r-project.org/pub/R/src/base/R-0.99.0-fixes.gz  \n\nand the rest of CRAN should soon follow. The recipe for patching is\n(GNU patch assumed)\n\ngunzip -dc R-0.99.0-fixes.gz | patch -p 1\n\nFor those with broken patch programs or fast connections, there is\nalso a patched distribution in\n\nftp://cvs.r-project.org/pub/R/src/base/R-0.99.0a.tgz\n\n\nFiles patched:\n\nuncmin.c --> demo(nlm) bug\ncharacter.c --> strsplit/devPS memory corruption\nprintutils.c --> va_list trouble\ndevGTK.c --> gnome/plotmath fix \nedit.R --> couldn't edit character vectors\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A couple of bugs turned up immediately after the release, one of them\ncausing nasty memory corruption when strsplit() was used.\n\nTherefore, a set of patches has been supplied on\n\nftp://cvs.r-project.o",
+      "thread_id": "thread-a8e38ccae79e",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-3e9389f697be",
+      "message_id": "<38A1BA1A.F75FAAAF@nceas.ucsb.edu>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
+      "date": "2000-02-09T11:03:54-08:00",
+      "subject": "RPgSQL and RPMS for 0.99",
+      "subject_clean": "RPgSQL and RPMS for 0.99",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The latest version of RPgSQL and RPMS for R version 0.99 can be found at\nhttp://www.nceas.ucsb.edu/~keitt/R/\n\nCheers,\nTim\n\n-- \nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n735 State Street, Suite 300, Santa Barbara, CA 93101\nPhone: 805-892-2519, FAX: 805-892-2510\nhttp://www.nceas.ucsb.edu/~keitt/\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The latest version of RPgSQL and RPMS for R version 0.99 can be found at\nhttp://www.nceas.ucsb.edu/~keitt/R/\n\nCheers,\nTim\n\n-- \nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n73",
+      "thread_id": "thread-3e9389f697be",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-8ad98c483f29",
+      "message_id": "<20000211114734.20126@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "2000-02-11T11:47:34+01:00",
+      "subject": "R 0.99.0a for Ms Windows (9X/NT)  ",
+      "subject_clean": "R 0.99.0a for Ms Windows (9X/NT)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A binary distribution of R 0.99.0a is available from\n   http://www.r-project.org/bin/windows/windows-NT/base\nPre-compiled packages for this version are now available from the Windows \ncontrib area on CRAN (http://www.r-project.org/bin/windows/windows-NT/contrib).\nIn many cases a new version is needed, and all have been rebuilt using the \nlatest improvements in the help conversion.\n\nAll the changes listed below are due to Brian Ripley. Hence, thank him\nfor them (and blame me if something doesn't work: it means that my\ntesting was not suffcient).\n\nguido masarotto \n(for the R Core Team)\n\nNew in this release\n===================\n\nThe console and internal pager now have horizontal scollbars. These\nare disabled (greyed out) if no text is obscured in the current view.\n\nHelp menu items will be greyed out if the corresponding files are not\ninstalled.\n\nMany of the menu items now call internal functions and so are much\nfaster, but produce nothing on the console.\n\nHelp files will be displayed in the internal pager with headings\nin a contrasting colour.\n\nThere are new functions winDialog() and winDialogString() to produce\ndialog boxes, and functions winMenu* (use ?winMenus) to manipulate\nuser menus.\n\nFollowing Unix, the handling of help(, offline=TRUE) has been altered.\nIt will be necessary to adjust helpPRINT.bat to set the TEXINPUTS path\nto find Rd.sty. TeX processing of these help files normally uses LaTeX\npackage `ae' to handle Latin-1 characters: this can be changed by\nsetting the environment variable R_RD4DVI.\n\nThe conversion to text help no longer requires groff.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A binary distribution of R 0.99.0a is available from\n   http://www.r-project.org/bin/windows/windows-NT/base\nPre-compiled packages for this version are now available from the Windows \ncontrib area on ",
+      "thread_id": "thread-8ad98c483f29",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-dfe36b3b9b2c",
+      "message_id": "<Pine.GSO.4.05.10002171839530.22098-100000@auk.stats>",
+      "from_name": "Prof Brian D Ripley",
+      "from_email_hash": "375ec446f7a1157a4f0268b6dc682d6c2a5b186f57aa61253477aa48159d2329",
+      "date": "2000-02-17T18:46:02Z",
+      "subject": "VR_6.1-7 is out",
+      "subject_clean": "VR_6.1-7 is out",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "VR_6.1-7.tar.gz is on CRAN in Vienna now, and a Windows version will be\nthere tomorrow morning.\n\nThis is for R 0.99.0 (and R-devel) only.  The main differences are\n\n- use of optim\n- about half the previously commented-out items in the scripts are now\n  working\n- the help pages can now be processed to dvi and pdf.\n\nThe problem with the help pages is that they were converted by Sd2Rd and \nfollowed the manual, but R would not process the specification its\nmanual gave!  This is properly sorted for 1.0.0, but I have managed to make \nthese pages work on 0.99.0 and  pre-1.0.0.\n\n\n-- \nBrian D. Ripley,                  ripley at stats.ox.ac.uk\nProfessor of Applied Statistics,  http://www.stats.ox.ac.uk/~ripley/\nUniversity of Oxford,             Tel:  +44 1865 272861 (self)\n1 South Parks Road,                     +44 1865 272860 (secr)\nOxford OX1 3TG, UK                Fax:  +44 1865 272595\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "VR_6.1-7.tar.gz is on CRAN in Vienna now, and a Windows version will be\nthere tomorrow morning.\n\nThis is for R 0.99.0 (and R-devel) only.  The main differences are\n\n- use of optim\n- about half the pre",
+      "thread_id": "thread-dfe36b3b9b2c",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-03374fbc986d",
+      "message_id": "<38B674E4.70092CEE@univie.ac.at>",
+      "from_name": "Erich Neuwirth",
+      "from_email_hash": "178c9665decd09e76ed713e123ba2a6b2ed2ac166995047eb6dc12c5ab93e7ac",
+      "date": "2000-02-25T13:26:12+01:00",
+      "subject": "r-excel interface code",
+      "subject_clean": "r-excel interface code",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "some of you might be interested.\n\ni just uploaded the first release of my \nr-excel interface package to CRAN.\n\nit is in\ncontributed extensions\nnonstandard extensions\n\nerich neuwirth\n\n--\nErich Neuwirth, Computer Supported Didactics Working Group\nVisit our SunSITE at http://sunsite.univie.ac.at\nPhone: +43-1-4277-38624 Fax: +43-1-4277-9386\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "some of you might be interested.\n\ni just uploaded the first release of my \nr-excel interface package to CRAN.\n\nit is in\ncontributed extensions\nnonstandard extensions\n\nerich neuwirth\n\n--\nErich Neuwirth",
+      "thread_id": "thread-03374fbc986d",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-fc76b5f5bf3e",
+      "message_id": "<x23dqc5obk.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2000-02-29T10:51:27+01:00",
+      "subject": "R-1.0.0 is released",
+      "subject_clean": "R-1.0.0 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.0.0.tgz a short while ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.0.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.0.tgz\n\nor wait for it to be mirrored at a CRAN site near you within a day or\ntwo. It should get to the CRAN master site within a few hours.\n\nThere's also a version split in three for floppies if you prefer\nthat.\n\nSince this is a major release, we've made a formal release\nstatement this time. Below is an excerpt; full text is available at \n\nhttp://developer.r-project.org/R-release-1.0.0.txt\n\n\"The release of a current major version indicates that we believe that\nR has reached a level of stability and maturity that makes it suitable\nfor production use. Also, the release of 1.0.0 marks that the base\nlanguage and the API for extension writers will remain stable for the\nforeseeable future. In addition we have taken the opportunity to tie\nup as many loose ends as we could.\"\n\n\n\tFor the R Core Team,\n\n\tPeter D.\n\n\nHere's the relevant bit of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 1.0.0\n\n\nNEW FEATURES\n\n    o\tThe entry points [dpq]norm no longer exist: the header file\n\tR_ext/Mathlib.h must be used and such code re-compiled.\n\n    o\tHeader files in R_ext must be given explicitly as e.g.\n\t\"R_ext/Mathlib.h\".\n\n    o\tNew function  log1p(x) := log(1 + x) , accurate for |x| << 1.\n\n    o\tHTML searches can now select between any combination of\n\ttitles, keywords and object names. The keyword list of\n\tSearchEngine.html is automatically built from KEYWORDS.db.\n\tMissing links are now resolved using the search engine.\n\n    o\tA data subdirectory of the working directory will be\n\tsearched for data, by default after all the loaded packages\n\t(including base).\n\n    o\tData directories can now be zipped as Rdata.zip, provided a\n\tlist of contents is provided in file `filelist'.\n\n    o\tNew function try(expr) which provides a user-friendly wrapper\n\tto restart().\n\n    o\tNew function geterrmessage() to retrieve the last error\n\tmessage, for use in try() and user's error handlers, and new\n\toption \"show.error.messages\" to control the printing of error\n\tmessages.\n\n    o\tpersp() now labels its axes.\n\n    o\t?plotmath documents the plotting expressions facility much\n\tmore comprehensively, with tables in the examples.\n\n    o\tNew functions dump.frames() and debugger() allow post-mortem\n\tdebugging.  See the help on debugger.\n\n    o\tNew functions by() and merge() to split and join data frames.\n\n    o   Generic methods now do \"match before dispatch\", so\n        plot(pch=2, y ~ x) invokes plot.formula.  Notice that this will\n        break user code if it has renamed the dispatch argument and\n        uses the original name for a different argument.\n\n    o\tLong-named command-line options also allow `--name VALUE'.\n\n    o   arima0() now uses optim() rather than nlm(), and is thereby\n\tnormally faster and gives more accurate solutions.  Perhaps\n\tmore importantly, it fails to converge much less often.\n\n    o   Enhanced pairs() function allowing separate upper, lower and\n\tdiagonal panel functions and control of diagonal labels.\n\t(Much of this was contributed by Jens Oehlschlaegel-Akiyoshi.)\n\n    o\tLinks to R objects in other packages in help files can now be\n\tspecified explicitly as \\link[pkg]{topic} or\n\t\\link[pkg:maintopic]{topic}\n\n    o\toptim() has a new simulated annealing method contributed by\n\tAdrian Trapletti.\n\n    o   Hershey vector fonts are available in text() and contour().\n        Documentation for Hershey vector fonts is in help(Hershey).\n\n    o\tThe HTML function indices (for packages and for all installed\n\tfunctions) and the index to the reference manual now omit\n\tmethods for generic functions if they would immediately follow\n\tthe generic and refer to the same file. This reduces the\n\tclutter considerably.\n\n    o   New functions points.formula() and lines.formula() to supplement\n        plot.formula(). The latter has been enhanced so that all\n        arguments are now evaluated in the supplied data frame and all\n        subsettable arguments are subsetted. Notice that the data=\n        argument can no longer be given as a positional argument but\n        must be given in keyword form.\n\n    o   The behaviour of pmatch() has been changed to be S-compatible:\n\tin particular the meaning of duplicates.ok=TRUE has changed.\n\tThe help for pmatch and charmatch now gives more precise\n\tdescriptions, including of their differences.\n\n    o   print.hclust(), hclust() and dist() now store the method\n\tthat has been used.\n\n    o   If there are unmatched function argument(s), the first found\n\tis named in the message, for example\n\t`unused argument(s) (xlabel ...)'.\n\n    o   Conversion from Rd to raw nroff is no longer available.\n\n    o   text() now accepts vector \"col\", \"cex\" and \"font\" arguments.\n\n    o   \"default\" is now a valid argument to RNGkind().\n\n    o   nlm() and optim() will now give up immediately they try to\n\tstep to a non-finite value: nlm at least would go into an\n\tinfinite loop.\n\n    o\t\"mostattributes(obj) <- value\" utility useful for careful\n        attributes' inheritance; e.g. for fixing pmax/pmin (see below).\n\n\nBUG FIXES\n\n    o   (0.99.0a) The internal code for strsplit no longer destroys\n\tother internal structures, e.g. postscript file output on\n\tLinux.\n\n    o   (0.99.0a) nlm() no longer segfaults with Hessian specified.\n\n    o   (0.99.0a) Gnome version plotmath works, kind of\n\n    o   (0.99.0a) edit.data.frame() now handles character vectors\n        better, provided they were generated with I().\n\n    o   (0.99.0a) Attempt to special-case print-buffer allocation\n\twith just a format argument was abandoned, since there is\n\tno portable way of doing it and it caused compile problem\n\ton Alpha.\n\n    o   tempfile(\"\") now works on all Unix platforms, and\n\ttempfile(\"a b c\") returns a single name (with spaces in).\n\tThe file names are now unique across processes (Unix), are\n\tguaranteed not to exist and very likely to be unique within\n\tan R session.\n\n    o\tThe search semantics of data(), example() and help() have changed\n\t(see their help pages). In particular, they will normally\n\tlook in the package which was loaded, even if it is not in\n\tone of the libraries given in .lib.loc.\t Autoloads are no\n\tlonger included in the search (as they searched whole packages,\n\tnot just the autoloaded objects).\n\n    o\tThe documentation for .Rd files said & must be entered as \\&\n\tbut only the unescaped form was processed correctly. Now both\n\tare accepted but & is preferred.\n\n    o\tlist.files now skips non-existent/unreadable directories with\n\ta warning, rather that failing with an error.\n\n    o\tLots of help examples now tidy up the files they created, and\n\tdetach data frames and libraries they attach.\n\n    o\tlibrary(help=foo) lists only contents of first version if\n\tmultiple matches are found on lib.loc.\n\n    o\tround(2.345e-99, 100) now works (not giving 0).\n\tC functions fprec() and fround() [= R's signif() and round()],\n\tnow use R_pow_di(10.0, n) which is clean and more efficient.\n\tThis changes some results in the least significant bits.\n\n    o   rpois sometimes had problems with mu=0, now special-cased\n\n    o   Rare memory overrun in rpois fixed.\n\n    o   --nsize and --vsize arguments to R CMD check now work.\n\n    o   plot.stepfun had renamed the dispatch argument and used the\n        original name \"x\" for a different argument which broke on the\n        new `match & dispatch' code. Changed to \"xval\".\n\n    o   The return value for par() was incorrectly documented, and in\n\tconsequence cpgram() was not re-setting \"pty\".\n\n    o   package.dependencies() printed unnecessary debugging messages\n\t(version comparison): these have been removed.\n\n    o   backslashes in examples in help files are now converted\n\tcorrectly to latex.\n\n    o   qchisq with non-centrality parameter now does something.\n\n    o   Greek symbols are now converted correctly in HTML help (but\n\tonly rendered correctly on a few browsers).\n\n    o   rbind(x, y) works when x has no columns.\n\n    o   \\tabular in Rd files is rendered better in latex, and long\n\ttabular material is now acceptable (and split over pages).\n\n    o   evaluation depth wasn't properly reset by  \"next\"\n\n    o   Old (pre-0.63.1) .Random.seed would cause problems if used.\n\n    o   Row indexing of data.frames by characters (e.g. y[\"ab\", ])\n\twas wrong, as pmatch was not S-compatible.\n\n    o   Contour labels used to be rounded to integers.\n\n    o   Calling rbinom() repeatedly with the same p but different n\n\tgave incorrect results.\n\n    o   Rd2contents assumed the \\name field was the file name, so\n\tsearches could lead to non-existent links.\n\n    o   Assigning functions to list elements is not longer disallowed.\n\n    o   Unified usage statement to R CMD xxx for all commands\n\n    o   Using duplicated new string indices in [<- caused a crash on\n\tsome platforms, e.g. x <- 1:2; x[c(\"3\", \"3\")] <- 3; x.\n\n    o   rle() can now handle character vectors, as documented.\n\n    o   print.default failed to reset its settings, so, e.g. na.print\n\tcould persist when printing a list.\n\n    o   [cr]bind could sometimes return an invisible value.\n\n    o\taxis() and rug() sometimes extended the axis line too far.\n\trug() always clipped x values to the plot region, but now\n\tadmits to doing so with a warning.\n\n    o\tplot() and axis() got into trouble with very small relative\n\tranges: these are now required to be at least 100x the machine\n\tprecision.\n\n    o\tsplit.screen(, erase=TRUE) failed to create a new plot, so\n\tfailed if it was used on a postscript device before other plots.\n\n    o\tplotting with lwd = 0 also set the dash length to 0: now\n\tdash lengths are scaled up for lwd > 1 but not reduced for\n\t0 <= lwd < 1.\n\n    o   plotting a \" \" vertically caused an X11 error with some fonts,\n        (notably URW fonts on RedHat) causing plot.lm to crash R\n\n    o   F distributions with huge DF now behave more sensibly\n\n    o   Crashes could occur if there was an error in inline\n        parameters, because the call was not being recorded. It is\n        now.\n\n    o   Title field of DESCRIPTION now overrides TITLE file.\n\n    o   R now reports `50 or more warnings', not just 50, as it only\n\tdisplays the first 50.\n\n    o   Resetting the RNG state resets the state of the Box-Muller\n\tgenerator too.\n\n    o   Pointer protection bug in load() code.\n\n    o\tAssignment with unknown string index caused memory corruption\n        when used on matrices.\n\n    o\tIt is now possible to call Fortran routines d1mach and 11mach\n\ton platforms which do not append underscores.\n\n    o\tAdditions to plots by identify() and locator() were not being\n\trecorded, and so did not appear when a plot was copied or\n\tprinted.\n\n    o\tThe defaults for `na.action' arguments were inconsistently\n\tdocumented. In R the default is taken from the\n\toptions(na.action) setting, and that defaults to `na.omit'.\n\tIf there is no `na.action' setting, the default is `na.fail'.\n\tFor consistency, the default for replications() has been\n\tchanged.\n\n    o   Fix cases with lambda==0 in Poisson distribution\n\n    o   demo(is.things) had been broken by the introduction of is.element.\n\n    o   palette() didn't check for overflow and was limited to 256\n        colors, so palette(colors()) would segfault. Limit increased\n        to 1024 and check inserted.\n\n    o\tC functions fprec() and fround() [= R's signif() and round()],\n\tnow use R_pow_di(10., n) which is clean and more efficient.\n\tThis changes some results in the least significant bits.\n\n    o\tpmin(c(a=1), 2:3) now works {and pmax(.) too}.\n\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.0.0.tgz a short while ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.0.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.0.tgz\n\nor wait for it ",
+      "thread_id": "thread-fc76b5f5bf3e",
+      "thread_depth": 0,
+      "month": "2000-02"
+    },
+    {
+      "id": "msg-3aedab20fdde",
+      "message_id": "<6rk8jogpln.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2000-02-29T06:28:20-06:00",
+      "subject": "R-1.0 is available via rsync",
+      "subject_clean": "R-1.0 is available via rsync",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "You can now obtain the R-1.0 sources via rsync from\nrsync.r-project.org as the r-release module.  For example,\n\n\t  rsync -aC rsync.r-project.org::r-release ./R-1.0.0\n\nwill create a copy of the source tree (minus the CVS subdirectories)\nin the subdirectory R-1.0.0\n\nThe module r-release-patched incorporates any patches that may be made\nto the current released version. The module r-devel is a copy of the\nunstable, development version of the CVS tree.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "You can now obtain the R-1.0 sources via rsync from\nrsync.r-project.org as the r-release module.  For example,\n\n\t  rsync -aC rsync.r-project.org::r-release ./R-1.0.0\n\nwill create a copy of the source ",
+      "thread_id": "thread-3aedab20fdde",
+      "thread_depth": 0,
+      "month": "2000-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-a811a9bc5d01",
+      "subject": "Install problems with RPgSQL",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "2000-02-01T10:58:41-08:00",
+      "last_reply": "2000-02-01T10:58:41-08:00",
+      "root_message_id": "msg-a811a9bc5d01"
+    },
+    {
+      "id": "thread-faabb0fc12be",
+      "subject": "R-0.99.0 available from rsync.r-project.org",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2000-02-07T10:53:47-06:00",
+      "last_reply": "2000-02-07T10:53:47-06:00",
+      "root_message_id": "msg-faabb0fc12be"
+    },
+    {
+      "id": "thread-925044c5d035",
+      "subject": "R-0.99.0 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2000-02-07T13:56:24+01:00",
+      "last_reply": "2000-02-07T13:56:24+01:00",
+      "root_message_id": "msg-925044c5d035"
+    },
+    {
+      "id": "thread-56d7f5e313d7",
+      "subject": "RMySQL-0.2 available for R-0.99.0",
+      "message_count": 1,
+      "participants": [
+        "Saikat DebRoy"
+      ],
+      "started": "2000-02-08T10:55:31-06:00",
+      "last_reply": "2000-02-08T10:55:31-06:00",
+      "root_message_id": "msg-56d7f5e313d7"
+    },
+    {
+      "id": "thread-3e9389f697be",
+      "subject": "RPgSQL and RPMS for 0.99",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "2000-02-09T11:03:54-08:00",
+      "last_reply": "2000-02-09T11:03:54-08:00",
+      "root_message_id": "msg-3e9389f697be"
+    },
+    {
+      "id": "thread-a8e38ccae79e",
+      "subject": "R-0.99.0 bugfixes available",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2000-02-09T13:36:56+01:00",
+      "last_reply": "2000-02-09T13:36:56+01:00",
+      "root_message_id": "msg-a8e38ccae79e"
+    },
+    {
+      "id": "thread-8ad98c483f29",
+      "subject": "R 0.99.0a for Ms Windows (9X/NT)",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "2000-02-11T11:47:34+01:00",
+      "last_reply": "2000-02-11T11:47:34+01:00",
+      "root_message_id": "msg-8ad98c483f29"
+    },
+    {
+      "id": "thread-dfe36b3b9b2c",
+      "subject": "VR_6.1-7 is out",
+      "message_count": 1,
+      "participants": [
+        "Prof Brian D Ripley"
+      ],
+      "started": "2000-02-17T18:46:02+00:00",
+      "last_reply": "2000-02-17T18:46:02+00:00",
+      "root_message_id": "msg-dfe36b3b9b2c"
+    },
+    {
+      "id": "thread-03374fbc986d",
+      "subject": "r-excel interface code",
+      "message_count": 1,
+      "participants": [
+        "Erich Neuwirth"
+      ],
+      "started": "2000-02-25T13:26:12+01:00",
+      "last_reply": "2000-02-25T13:26:12+01:00",
+      "root_message_id": "msg-03374fbc986d"
+    },
+    {
+      "id": "thread-3aedab20fdde",
+      "subject": "R-1.0 is available via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2000-02-29T06:28:20-06:00",
+      "last_reply": "2000-02-29T06:28:20-06:00",
+      "root_message_id": "msg-3aedab20fdde"
+    },
+    {
+      "id": "thread-fc76b5f5bf3e",
+      "subject": "R-1.0.0 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2000-02-29T10:51:27+01:00",
+      "last_reply": "2000-02-29T10:51:27+01:00",
+      "root_message_id": "msg-fc76b5f5bf3e"
+    }
+  ]
+}

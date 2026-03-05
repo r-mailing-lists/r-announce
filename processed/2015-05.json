@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2015-05",
+  "messages": [
+    {
+      "id": "msg-93814bbb895b",
+      "message_id": "<127E408C-FBBE-41D1-B6D6-2D53B8D8B208@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2015-05-18T09:30:11+02:00",
+      "subject": "Release of R 3.2.1 scheduled for June 18",
+      "subject_clean": "Release of R 3.2.1 scheduled for June 18",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We intend to have a patch release on June 18, nickname will be \"World-Famous Astronaut\". The detailed schedule will be made available via developer.r-project.org as usual.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "We intend to have a patch release on June 18, nickname will be \"World-Famous Astronaut\". The detailed schedule will be made available via developer.r-project.org as usual.\n\n-- \nPeter Dalgaard, Profess",
+      "thread_id": "thread-93814bbb895b",
+      "thread_depth": 0,
+      "month": "2015-05"
+    },
+    {
+      "id": "msg-5297ffbc2ae3",
+      "message_id": "<21853.40698.326587.61371@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "766068ea1db2bd472d09777fa03b0f09b8fc459fa51150ed3e26f51ff8e6ca42",
+      "date": "2015-05-21T11:01:46+02:00",
+      "subject": "The R Foundation announces new mailing list 'R-package-devel'",
+      "subject_clean": "The R Foundation announces new mailing list 'R-package-devel'",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "New Mailing list:  R-package-devel -- User R Packages Development\n\nAt last week's monthly meeting, the R foundation has decided to\ncreate a new mailing list in order to help R package authors in\ntheir package development and testing.\n\nThe idea is that some experienced R programmers (often those\ncurrently helping on R-devel or also R-help) will help package\nauthors and thus unload some of the burden of the CRAN team\nmembers.\n\nPlease read the detailed description of the mailing list here,\n       https://stat.ethz.ch/mailman/listinfo/r-package-devel\nor also the more extended announcement of the list on R-devel,\narchived at\n\t https://stat.ethz.ch/pipermail/r-devel/2015-May/071208.html\n\n\nFor the R foundation,\nMartin Maechler, Secretary General",
+      "body_snippet": "New Mailing list:  R-package-devel -- User R Packages Development\n\nAt last week's monthly meeting, the R foundation has decided to\ncreate a new mailing list in order to help R package authors in\ntheir",
+      "thread_id": "thread-5297ffbc2ae3",
+      "thread_depth": 0,
+      "month": "2015-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-93814bbb895b",
+      "subject": "Release of R 3.2.1 scheduled for June 18",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2015-05-18T09:30:11+02:00",
+      "last_reply": "2015-05-18T09:30:11+02:00",
+      "root_message_id": "msg-93814bbb895b"
+    },
+    {
+      "id": "thread-5297ffbc2ae3",
+      "subject": "The R Foundation announces new mailing list 'R-package-devel'",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2015-05-21T11:01:46+02:00",
+      "last_reply": "2015-05-21T11:01:46+02:00",
+      "root_message_id": "msg-5297ffbc2ae3"
+    }
+  ]
+}

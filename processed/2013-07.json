@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2013-07",
+  "messages": [
+    {
+      "id": "msg-0cf673d308a2",
+      "message_id": "<CABdHhvHVCeB6d9P=UFHHmSER7e-8mY7ObQmiP2XHpEw1Pw6CNg@mail.gmail.com>",
+      "from_name": "Hadley Wickham",
+      "from_email_hash": "e3cec7538d091387b4e090b248f6caea5bafdad99470dd7cf0628cdf6975e4fb",
+      "date": "2013-07-02T13:32:01-05:00",
+      "subject": "The R Journal, Volume 5, Issue 1",
+      "subject_clean": "The R Journal, Volume 5, Issue 1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2013-1/\n\nMany thanks to all contributors.\n\nHadley\n\n--\nEditor-in-chief, The R Journal",
+      "body_snippet": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2013-1/\n\nMany thanks to all contributors.\n\nHadley\n\n--\nEditor-in-chief, The R Journal",
+      "thread_id": "thread-0cf673d308a2",
+      "thread_depth": 0,
+      "month": "2013-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0cf673d308a2",
+      "subject": "The R Journal, Volume 5, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Hadley Wickham"
+      ],
+      "started": "2013-07-02T13:32:01-05:00",
+      "last_reply": "2013-07-02T13:32:01-05:00",
+      "root_message_id": "msg-0cf673d308a2"
+    }
+  ]
+}

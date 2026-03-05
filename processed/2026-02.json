@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2026-02",
+  "messages": [
+    {
+      "id": "msg-beb50ec767d6",
+      "message_id": "<922F989B-5BFE-4A04-BC94-AE8E94EDAE43@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "d9fd91d299a75b5bb12e8fe56282f6e3ab90721fbb5cc61dd67258dc21f7ad2a",
+      "date": "2026-02-23T14:04:01Z",
+      "subject": "[Rd] R 4.5.3 scheduled for March 11",
+      "subject_clean": "R 4.5.3 scheduled for March 11",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Full schedule is available on developer.r-project.org <http://developer.r-project.org/> (...soon; the impatient might try: https://svn.r-project.org/R-dev-web/trunk/index.html).\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com\n\n______________________________________________\nR-devel at r-project.org mailing list\nhttps://stat.ethz.ch/mailman/listinfo/r-devel",
+      "body_snippet": "Full schedule is available on developer.r-project.org <http://developer.r-project.org/> (...soon; the impatient might try: https://svn.r-project.org/R-dev-web/trunk/index.html).\n\n-- \nPeter Dalgaard, P",
+      "thread_id": "thread-beb50ec767d6",
+      "thread_depth": 0,
+      "month": "2026-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-beb50ec767d6",
+      "subject": "R 4.5.3 scheduled for March 11",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2026-02-23T14:04:01+00:00",
+      "last_reply": "2026-02-23T14:04:01+00:00",
+      "root_message_id": "msg-beb50ec767d6"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1998-10",
+  "messages": [
+    {
+      "id": "msg-f51f620fa6ab",
+      "message_id": "<x2btn3o21t.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-10-23T15:11:58+02:00",
+      "subject": "R-0.62.4 is out",
+      "subject_clean": "R-0.62.4 is out",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "As usual, it is available from the Auckland repository as of a few\nminutes ago, but it is preferred if you wait until it trickles out\ninto your nearby CRAN site in a couple of days.\n\nYes, I know I said there wouldn't be any more 0.62's, but there's\nstill some way to go before 0.63 and it turned out that at least some\nof the bugs could be fixed for the release version fairly easily.\n\nThere are still quite a few bugs (mainly memory handling ones) that\nare fixed only in the development version, but unfortunately some new\nones have been added too. We're trying to get a stable version of 0.63\nout in a couple of weeks.\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "As usual, it is available from the Auckland repository as of a few\nminutes ago, but it is preferred if you wait until it trickles out\ninto your nearby CRAN site in a couple of days.\n\nYes, I know I sai",
+      "thread_id": "thread-f51f620fa6ab",
+      "thread_depth": 0,
+      "month": "1998-10"
+    },
+    {
+      "id": "msg-9eafc93c5da3",
+      "message_id": "<XFMail.981029082534.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "1998-10-29T08:02:48Z",
+      "subject": "R binaries for Red Hat Linux/SPARC",
+      "subject_clean": "R binaries for Red Hat Linux/SPARC",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Thanks to Vin Everett and David Clayton <david.clayton at mrc-bsu.cam.ac.uk>,\nan RPM package of R-0.62.4 for Red Hat Linux/SPARC 5.1 is now available\non CRAN. This means that RPMs are available for all three platforms\n(Intel, Alpha, SPARC) currently supported by Red Hat.\n\nMartyn\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Thanks to Vin Everett and David Clayton <david.clayton at mrc-bsu.cam.ac.uk>,\nan RPM package of R-0.62.4 for Red Hat Linux/SPARC 5.1 is now available\non CRAN. This means that RPMs are available for al",
+      "thread_id": "thread-9eafc93c5da3",
+      "thread_depth": 0,
+      "month": "1998-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f51f620fa6ab",
+      "subject": "R-0.62.4 is out",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-10-23T15:11:58+02:00",
+      "last_reply": "1998-10-23T15:11:58+02:00",
+      "root_message_id": "msg-f51f620fa6ab"
+    },
+    {
+      "id": "thread-9eafc93c5da3",
+      "subject": "R binaries for Red Hat Linux/SPARC",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "1998-10-29T08:02:48+00:00",
+      "last_reply": "1998-10-29T08:02:48+00:00",
+      "root_message_id": "msg-9eafc93c5da3"
+    }
+  ]
+}

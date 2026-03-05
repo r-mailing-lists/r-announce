@@ -1,0 +1,432 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2002-06",
+  "messages": [
+    {
+      "id": "msg-0f3893c3cfe4",
+      "message_id": "<x2n0tu6rev.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2002-06-17T14:06:16+02:00",
+      "subject": "R-1.5.1 is released",
+      "subject_clean": "R-1.5.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.5.1.tgz a short while ago. This is a patch upgrade,\nfixing the most important bugs that cropped up after the 1.5.0 release.\n\nA set of recommended packages which have been tested with R-1.5.1 has\nbeen bundled up. Binary distributions should include these packages.\n\nYou can get the files from the developer site\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.5.1.tgz\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.5.1-recommended.tgz\n\nor\n\nhttp://cran.us.r-project.org/src/base/R-1.5.1.tgz\nhttp://cran.us.r-project.org/src/base/R-1.5.1-recommended.tgz\n\nor wait for them to be mirrored at a CRAN site near you. Binaries for\nvarious platforms will appear in due course.\n\nThere are also versions split for floppies and a patch file against 1.5.0.\n\n\n        For the R Core Team,\n\n        Peter D.\n\n NOTE: I discovered late in the release process that there is still a\n small problem with the 8.0.x tcl/tk compatibility. A fix is\n forthcoming.\n\nHere's the relevant part of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 1.5.1\n\n\nNEW FEATURES\n\n    o\tEnhancements to mathematical annotation of plots:\n\n\t- expressions involving dot(<something>) now produce a dot accent\n\t  above the <something> (initial patch from Ben Bolker).\n\n\t- within an expression, the symbol partialdiff is now converted\n\t  to a partial differential symbol (greek delta).\n\n    o\tsmooth.spline() has a new argument `nknots' allowing to set the\n\tdefault number of knots (when `all.knots = FALSE' as per default).\n\n\nBUG FIXES\n\n    o\tRdconv now skips CRs in input files, even on Unix.\n\n    o\treadBin() had a (very slow) memory leak if changing size or reading\n\tcharacter strings.  writeChar() had a memory leak.\n\n    o\tpolygon() and rect() with lty = \"blank\" were omitting the fill\n\tcolour (if present).  symbols(circles=, lty=\"blank\") was\n\tdrawing the border of the disks.\n\n    o\tSubsetting non-existent rows in a data frame would produce\n\tmissing row names, which are not allowed.\n\n    o\tOn Unix, R_PAPERSIZE was set to '' instead of 'a4' as default on\n\tsystems without paperconf.\n\n    o\tUnder GNOME, capabilities() now reports correctly that X11, png\n\tand jpeg are available (if they are under X11).\n\n    o\tThe names of some results of unlist() had the wrong internal\n\tlength, which confused paste().\t Both have been corrected. (PR#1524)\n\n    o\tRweaveLatex.Rd had unbalanced braces in section \"Supported\n\tOptions\".\n\n    o\tmerge() with multiple and differently-named match columns\n\tfailed. (PR#1510)\n\n    o\tNAs in right-justified unquoted character matrices were being\n\tmis-aligned.  This mainly affected printing data frames.\n\n    o\tpredict.*bSpline() bugs extrapolating for deriv >= 1 (PR#1473),\n\tand predict.[bn]s bug e.g. for bs(x), reported by Ch.Sangiorgio.\n\n    o\tqr.X was failing if n < p.  Fixed, but only in the case when\n\tpivoting does not occur. (PR#1519)\n\n    o\txx[, 1:3] was returning a list if xx had only one row, even\n\tthough xx[1, 1:3] was a data frame. (PR#1530)\n\n    o\tnls() was reporting incorrectly the number of iterations if the\n\tmaximum was reached.\n\n    o\trbind.data.frame() was coercing logical columns to factors.\n\t(PR#1536)\n\n    o\tRprof(NULL) or Rprof(\"\") called when not profiling caused a\n\tsegfault: now silently ignored.\t (PR#1471)\n\n    o\tOn systems (e.g. Windows) using R's own code for expm1, the\n\tvalues were wrong for large negative x, and this affected\n\tpweibull(), for example.\n\n    o\tprettyNum(*, bigmark=*) added extra marks in some cases. (PR#1548)\n\n    o\tcut.dendrogram() failed in some cases. (PR#1552)\n\n    o\tThe links in refman.pdf were broken by a single invalid\n\t\\alias{}. Now Rdconv checks more comprehensively. (PR#1550)\n\n    o\tpredict(smooth.spline(x,*), deriv =1) did not predict at all `x'\n\tvalues, and\n\tsmooth.spline(x,*, all.knots = TRUE) used much too much memory\n\twhen length(x) was largish.\n\tsmooth.spline(*, .... trace = TRUE ..) is a bit more self-explaining.\n\n    o\tpexp(x, log=TRUE) and pweibull(*) were losing precision for large x.\n\n    o\tWorkaround for NetBSD bug in compiling dounzip.c. (PR#1565/6)\n\n    o\tConversions to numeric in type.convert were always treating \"NA\" as\n\tmissing whatever the setting of na.strings. (PR#1568)\n\n    o\tR CMD check now deals correctly with package names containing a\n\t'.' in the Depends field of a DESCRIPTION file. (PR#1591)\n\n    o\tpbinom() and pbinom() were misssing the \"fuzz\" that other discrete\n\tdistributions have in order to guard against truncation.\n\n    o\tThe \"=\" assignment operator behaved as \"<<-\" in some constructions\n\twith composite left-hand sides.\n\n    o\tAdded print.AsIs() method to ensure \"AsIs\" objects are printed\n\tby the method for their real class. (PR#1587)\n\n    o\tmosaicplot(*, color = v) now recycles v[] if needed.\n\n    o\tCalling dev.control(\"inhibit\") with no graphics device open\n\tcrashed R. (PR#1605)\n\n    o\tread.dcf() was not checking that memory allocation succeeded.\n\n    o\tThe C function fprec might overflow for > 16 digits, showing\n\tup in example(str) on some platforms.\n\n    o\tChanges to the methods package:\n\n\t- Nonstandard generic function definitions given to\n\t  setGeneric now work; these were previously ignored.\n\n\t- Classes that extend matrix, etc. as the data part previously lost\n\t  their attributes.\n\n\t- There were bugs in distinguishing methods for \"missing\" from\n\t  methods for \"ANY\".\n\n\t- Some coerce methods were not selected correctly when the two classes\n\t  were related by an \"is\" relation.\n\n\t- extends() now works correctly if given a class definition rather\n\t  than a name.\n\n\t- class()<- was leaving in an explicit class attribute for basic data\n\t  types.\n\n\t- Method signatures including arguments following \"...\" in the\n\t  argument list of the generic didn't work.\n\n    o\tpar(mgp = v) now allows negative `v' (S-compatibly and sensibly).\n\n    o\tidentify.hclust() masked its `x' argument and so failed.\n\n    o\tSystem rint was never being used in fround.c.\n\n    o\tround/trunc.POSIXt were erroneously retaining information on\n\tDST. (PR#1543)\n\n    o\ttcltk package didn't work with tcl8.0.x.  Compatibility code\n\tinserted (PR#1640, thanks to Ren? Bertin for helping out with\n\tthis).\n\n    o\tselfStart() {pkg \"nls\"} now works again when parameter names are\n\tnot specified (but implicit).\n\n    o\tlegend() now treats lty=\"0\" properly (as solid).\n\n    o\tARMAacf was failing if 0 < p < q+1: it failed to say that ar needed\n\tto be padded with zeroes, and now the code does that.\n\n    o\told.packages() was assuming a bundle was installed in only one\n\tlibrary, and so update.packages() would only update a bundle\n\tin the first location in lib.loc.\n\n    o\tfisher.test() could miscalculate odds ratio and confidence\n\tinterval for tables with large entries, due to numerical\n\toverflow.\n\n    o\tUsing lty = \"1\" (or \"10\") does no longer produce invalid\n\tpostscript or pdf.  Using \"0\" in a character lty is currently not\n\timplemented device-independently and needs more fixing.\n\n    o\tccf(plot = FALSE) was returning a spurious extra 0 at lag 0.\n\n    o\tOn console-based versions of R (Windows, GNOME, probably\n\tMacOS) warning/error messages longer than 8192 chars could\n\tcrash R. (PR#1651)\n\n    o\tComparisons between objects of mode \"call\" using \"==\" now return\n\tTRUE if both sides deparse to the same string (as always intended).\n\n    o\tHoltWinters() now initializes correctly in the exponential\n\tsmoothing case, and plot.HoltWinters() allows lty to be set.\n\n    o\tfisher.test() crashed due to corruption on some large\n\tproblems.  It also crashed on tables with total one. (PR#1662)\n\n    o\tThe substitution code for strptime (used e.g. on Windows)\n\tcached the month names and so did not recognise locale changes\n\tduring an R session, as used by get.hist.quote{tseries}.\n\tCaching has been supressed.  (PR#1116)\n\n    o\tSome functions used the non-existing error() function instead\n\tof stop().\n\n    o\tvector(\"complex\",n)  doesn't return random garbage anymore.\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.5.1.tgz a short while ago. This is a patch upgrade,\nfixing the most important bugs that cropped up after the 1.5.0 release.\n\nA set of recommended packages which have been tested wit",
+      "thread_id": "thread-0f3893c3cfe4",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-c77ddb9dd63f",
+      "message_id": "<x2elf66pz9.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2002-06-17T14:37:14+02:00",
+      "subject": "R-1.5.1 is released",
+      "subject_clean": "R-1.5.1 is released",
+      "in_reply_to": "<x2n0tu6rev.fsf@blueberry.kubism.ku.dk>",
+      "references": [
+        "<x2n0tu6rev.fsf@blueberry.kubism.ku.dk>"
+      ],
+      "body_plain": "Peter Dalgaard BSA <p.dalgaard at biostat.ku.dk> writes:\n\n>  NOTE: I discovered late in the release process that there is still a\n>  small problem with the 8.0.x tcl/tk compatibility. A fix is\n>  forthcoming.\n\nFor those who need to know, the fix follows below. Sorry about the\ninconvenience.\n\ndiff -u -r1.14.2.1 tcltk.c\n--- src/library/tcltk/src/tcltk.c       7 Jun 2002 16:37:35 -0000       1.14.2.1\n+++ src/library/tcltk/src/tcltk.c       17 Jun 2002 12:23:22 -0000\n@@ -239,7 +239,7 @@\n \n     PROTECT(ans = allocVector(STRSXP, count));\n     for (i = 0 ; i < count ; i++)\n-       SET_STRING_ELT(ans, i, mkChar(Tcl_GetString(elem[i])));\n+       SET_STRING_ELT(ans, i, mkChar(Tcl_GetStringFromObj(elem[i], NULL)));\n     UNPROTECT(1);\n     return ans;\n }\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Peter Dalgaard BSA <p.dalgaard at biostat.ku.dk> writes:\n\n>  NOTE: I discovered late in the release process that there is still a\n>  small problem with the 8.0.x tcl/tk compatibility. A fix is\n>  fort",
+      "thread_id": "thread-0f3893c3cfe4",
+      "thread_depth": 1,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-2ffd41db2ab0",
+      "message_id": "<20020617150834.AACDE49136@ac.lisse.na>",
+      "from_name": "Eberhard Lisse",
+      "from_email_hash": "faa872b8fde7e64688be2e1a81534a11bc4a885e5b8b54fe0fbbb59251397797",
+      "date": "2002-06-17T17:08:34+02:00",
+      "subject": "R-1.5.1 is released ",
+      "subject_clean": "R-1.5.1 is released",
+      "in_reply_to": "Your message of \"17 Jun 2002 14:06:16 +0200.\" <x2n0tu6rev.fsf@blueberry.kubism.ku.dk> ",
+      "references": [],
+      "body_plain": "Peter, anyone,\n\nI would like to see SUSE 8.0 RPMs. Will these be forthcoming at asome\nstage?\n\nel\n\nIn message <x2n0tu6rev.fsf at blueberry.kubism.ku.dk>, Peter Dalgaard BSA writes:\n> \n> \n> I've rolled up R-1.5.1.tgz a short while ago. This is a patch upgrade,\n> fixing the most important bugs that cropped up after the 1.5.0 release.\n> \n> A set of recommended packages which have been tested with R-1.5.1 has\n> been bundled up. Binary distributions should include these packages.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Peter, anyone,\n\nI would like to see SUSE 8.0 RPMs. Will these be forthcoming at asome\nstage?\n\nel\n\nIn message <x2n0tu6rev.fsf at blueberry.kubism.ku.dk>, Peter Dalgaard BSA writes:\n> \n> \n> I've rolled ",
+      "thread_id": "thread-2ffd41db2ab0",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-8c9fa4a1b581",
+      "message_id": "<15630.40152.509381.859379@sonny.eddelbuettel.com>",
+      "from_name": "Dirk Eddelbuettel",
+      "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
+      "date": "2002-06-17T21:37:12-05:00",
+      "subject": "Debian packages of R 1.5.1 available",
+      "subject_clean": "Debian packages of R 1.5.1 available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Debian packages for r-base_1.5.1 and r-recommended_1.5.1 have been uploaded\nto the main Debian archive and should hit the mirrors tomorrow. These\npackages were built on i386, packages for the other architectures (alpha,\nhppa, ia64, m68k, mips. mipsel, powerpc, s390, sparc) should become available\nin the next few days.  \n\nDirk\n\n-- \nGood judgement comes from experience; experience comes from bad judgement. \n\t\t\t\t\t\t\t    -- Fred Brooks\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Debian packages for r-base_1.5.1 and r-recommended_1.5.1 have been uploaded\nto the main Debian archive and should hit the mirrors tomorrow. These\npackages were built on i386, packages for the other ar",
+      "thread_id": "thread-8c9fa4a1b581",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-87e9714310d0",
+      "message_id": "<XFMail.20020618091712.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "2002-06-18T09:17:12+02:00",
+      "subject": "RPMS for Red Hat Linux/Intel 7.x",
+      "subject_clean": "RPMS for Red Hat Linux/Intel 7.x",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Binary packages R-base-1.5.1 and R-recommended-1.5.1\nfor Red Hat linux on the x86 architecture are now\navailable on the CRAN master site.  They should soon\nbe available on mirror sites.\n\nMartyn\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Binary packages R-base-1.5.1 and R-recommended-1.5.1\nfor Red Hat linux on the x86 architecture are now\navailable on the CRAN master site.  They should soon\nbe available on mirror sites.\n\nMartyn\n-.-.-.",
+      "thread_id": "thread-87e9714310d0",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-61d8766fc955",
+      "message_id": "<Pine.LNX.4.44.0206180922400.2885-100000@macchinetta.miadimora>",
+      "from_name": "mikalzet at libero.it",
+      "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
+      "date": "2002-06-18T09:33:45+02:00",
+      "subject": "Mandrake R 1.5.1 RPM's",
+      "subject_clean": "Mandrake R 1.5.1 RPM's",
+      "in_reply_to": "<Pine.LNX.4.31.0206180742560.12426-100000@gannet.stats>",
+      "references": [],
+      "body_plain": "R 1.5.1 binary packages for Mandrake 8.2 and source packages for \nMandrake have been uploaded to CRAN.\n\nPeople wishing to contribute RPM's for Mandrake 8.1 or 8.0 are welcome to \ndo so and will find complete instructions in the Mandrake-readme file.\n\nThe 8.2 binary package adopts mozilla as default browser as this \ndistribution no longer ships netscape; however, as Netscape 4.7 series is \nthe only browser with which the help.start() search applet works on \nMandrake I suggest people might like to download and install the 8.1 \nnetscape rpm on 8.2 systems as I have. \n\nThe SRPM will still build a package with netscape as default browser. \n\n-- \nMichele Alzetta\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "R 1.5.1 binary packages for Mandrake 8.2 and source packages for \nMandrake have been uploaded to CRAN.\n\nPeople wishing to contribute RPM's for Mandrake 8.1 or 8.0 are welcome to \ndo so and will find c",
+      "thread_id": "thread-61d8766fc955",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-b2b04e1968d9",
+      "message_id": "<XFMail.20020618170345.steuer@unibw-hamburg.de>",
+      "from_name": "Detlef Steuer",
+      "from_email_hash": "42e2ced0cb8946767b5dd5289e390e9730773aa3c75c5ae563ce2815875a2401",
+      "date": "2002-06-18T17:03:45+02:00",
+      "subject": "SuSE rpms 7.3 and 8.0",
+      "subject_clean": "SuSE rpms 7.3 and 8.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello!\n\nGood news for the SuSE fans out there.\nI?ve just completed the upload of rpms for SuSE 7.3 and 8.0\nto the master site. You?ll probably find them on CRAN tomorrow morning. \n\nThe archiv has rpms for R-1.5.1 and roughly 130 contrib packages.\n\nIf you are missing a package, consult the build logs before asking, please.\nSome of the missings failed \"make check\", others were missing some libraries on\nmy system.\nWhen time permitts I?ll try to complete the collection. \n\nThanks again to Albrecht Gebhardt, who formerly maintained the packages!\n\n\nHappy downloading!\ndetlef\n\n\nDetlef Steuer --- http://fawn.unibw-hamburg.de/steuer.html\n***** Encrypted mail preferred *****\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hello!\n\nGood news for the SuSE fans out there.\nI?ve just completed the upload of rpms for SuSE 7.3 and 8.0\nto the master site. You?ll probably find them on CRAN tomorrow morning. \n\nThe archiv has rpms",
+      "thread_id": "thread-b2b04e1968d9",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-4951a5d06a2c",
+      "message_id": "<77CD881E-82CD-11D6-A244-003065CC4CB8@mclink.it>",
+      "from_name": "Stefano Iacus",
+      "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
+      "date": "2002-06-18T17:10:04+02:00",
+      "subject": "Carbon R 1.5.1 + Bioconductor released",
+      "subject_clean": "Carbon R 1.5.1 + Bioconductor released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have built and uploaded to CRAN the Carbon version of R for \nMacOS/MacOSX.\n\nYou'll find the base set (rm151.sit) and the recommended packages \n(recommended.sit) separately or all in one single file (rm151_FULL.sit) \non CRAN and their mirrors soon.\n\nI have also built the Bioconductor suite of packages (corresponding to \nthe Bioconductor_1.0.tgz file) as it seems to be one of the most \nappealing packages for Mac users.\n\nYou'll find it in the macos/contrib/rm151  folder on CRAN.\n\nOther packages will follow.\n\nThis version of R contains a fully working methods library.\n\n\nStefano\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have built and uploaded to CRAN the Carbon version of R for \nMacOS/MacOSX.\n\nYou'll find the base set (rm151.sit) and the recommended packages \n(recommended.sit) separately or all in one single file ",
+      "thread_id": "thread-4951a5d06a2c",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-6d1af0f97482",
+      "message_id": "<6rsn3ka6rb.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2002-06-18T11:31:04-05:00",
+      "subject": "R-1.5.1 sources available via rsync",
+      "subject_clean": "R-1.5.1 sources available via rsync",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Sources for release 1.5.1 of R are now available via rsync at\nrsync.r-project.org\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Sources for release 1.5.1 of R are now available via rsync at\nrsync.r-project.org\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http:/",
+      "thread_id": "thread-6d1af0f97482",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-af846a3120b6",
+      "message_id": "<4f6vgusovpvp279422fl0klt5cp7jpg4rh@4ax.com>",
+      "from_name": "Duncan Murdoch",
+      "from_email_hash": "f10e1920504dfef879061667fbcfa0823bbc832410cad04707fb294db3bd8d83",
+      "date": "2002-06-18T16:41:16-04:00",
+      "subject": "Binary build of 1.5.1 for Windows",
+      "subject_clean": "Binary build of 1.5.1 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I put the Windows build of R 1.5.1 online yesterday, but due to an\nerror in one of my scripts, it included obsolete versions of VR and\nsurvival.  I'm in the process of uploading a corrected version.  It\nwill show up on CRAN sometime later today or tomorrow, and on the\nmirrors soon after that.\n\nIf you've already downloaded the Windows release (or you do so before\nthe new version shows up), you can get the latest versions of those\npackages using the \"Packages|Update packages from CRAN\"  menu\nselection in Rgui.\n\nSorry for the inconvenience.\n\nDuncan Murdoch\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I put the Windows build of R 1.5.1 online yesterday, but due to an\nerror in one of my scripts, it included obsolete versions of VR and\nsurvival.  I'm in the process of uploading a corrected version.  ",
+      "thread_id": "thread-af846a3120b6",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-556168fb4b53",
+      "message_id": "<C79F1393-83C2-11D6-9F70-003065A21C86@stat.ucla.edu>",
+      "from_name": "Jan de Leeuw",
+      "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
+      "date": "2002-06-19T13:26:04-07:00",
+      "subject": "R-1.5.1 for Darwin/X11",
+      "subject_clean": "R-1.5.1 for Darwin/X11",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The file\n\nftp://gifi.stat.ucla.edu/pub/R-1.5.1.dmg\n\nhas grown to 60 MB. It consists of a meta-package and its packages and\nit will allow you to install binaries for R-1.5.1 and about 300 \npackages, just by\nclicking the R-1.5.1.mpkg file. It also install quite a few dylibs in \n/sw, but not\nthe ones for X11R6 and gnome yet. You can choose which of the packages \nto install,\nof course.\n\nThe same directory also contains the same files in tar.gz form.\n\n===\nJan de Leeuw; Professor and Chair, UCLA Department of Statistics\nUS mail: 8142 Math Sciences Bldg, Box 951554, Los Angeles, CA 90095-1554\nphone (310)-825-9550;  fax (310)-206-5658;  email: deleeuw at stat.ucla.edu\n                  www: http://www.stat.ucla.edu/~deleeuw\n==========================================================================\n==\n          Remember, wherever you go, there you are. --- Buckaroo Banzai\n==========================================================================\n==\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: text/enriched\nSize: 1029 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-announce/attachments/20020619/b7262ea9/attachment.bin>",
+      "body_snippet": "The file\n\nftp://gifi.stat.ucla.edu/pub/R-1.5.1.dmg\n\nhas grown to 60 MB. It consists of a meta-package and its packages and\nit will allow you to install binaries for R-1.5.1 and about 300 \npackages, ju",
+      "thread_id": "thread-556168fb4b53",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-d9e8ab6e3602",
+      "message_id": "<Pine.LNX.4.21.0206201743230.24563-100000@artemis>",
+      "from_name": "Torsten Hothorn",
+      "from_email_hash": "41e657384fb07a3764a554d5304d033ebaccbd11a54485f1b6386a932843f125",
+      "date": "2002-06-20T17:47:12+02:00",
+      "subject": "new package `multcomp'",
+      "subject_clean": "new package `multcomp'",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "New package `multcomp' for general multiple comparisons\n\n\twritten by Frank Bretz, Torsten Hothorn and Peter Westfall\n\nWe've uploaded the package `multcomp' to CRAN.\nThe R package allows for multiple comparisons of\nk groups in general linear models. We use the unifying\nrepresentations of multiple contrast tests, which include all\ncommon multiple comparison procedures, such as the many-to-one\ncomparisons of Dunnett, the all-pairwise comparisons of Tukey and\nmany other procedures. We provide a list of 9\nstandard procedures (Dunnett, Tukey, Sequen, AVE, Changepoint,\nWilliams, Marcus, McDermott, Tetrade), where the user selects the \ncomparisons of his interest. In addition, a free input interface \nfor the contrast matrix allows for more special comparisons.\n\nThe comparisons itself are not restricted to balanced or simple\ndesigns. Instead, the programs are designed to suit multiple\ncomparisons within the general linear model, thus allowing for\ncovariates, nested effects, correlated means and missing values.\nThe program is designed for the normal set-up with a common (possibly unknown)\nvariance and a known covariance matrix. But instead of using the\nusual Bonferroni and Holm procedures, we take the exact\ncorrelations between the test statistics into account by use of\nthe multivariate t-distribution. The resulting procedures are\ntherefore more powerful (the Bonferroni and Holm adjusted \np-values are reported for reference). We also allow the user to perform an\nasymptotic analysis based on the multivariate normal\ndistribution (as required e.g. in multiple comparisons based on\nasymptotic rank transformations; assumed asymptotic normality\nwhen comparing binomial parameters; etc.). Two functions will be\nprovided. The first one computes confidence intervals for the\ncommon single step procedures (`simint'). This approach can be uniformly\nimproved by applying the closed testing principle, what is\nimplemented in the second function (`simtest'; but no confidence intervals\nare available for the latter procedure). Use either `csimint' or\n`csimtest' if you want to pass the estimates by hand. \n\nFor testing and validation purposes we included some examples from Westfall\net al. (1999).\n    \nThis is a first release and needs some improvement, therefore the user \ninterfaces may change in forthcoming versions. Suggestions for \nimprovements are very welcome!\n\n>From the DESCRIPTION file:\n\nPackage: multcomp\nTitle: Multiple Tests and Simultaneous Confidence Intervals \nVersion: 0.2-6\nDate: $Date: 2002/06/19 07:24:40 $\nAuthor: Frank Bretz <bretz at ifgb.uni-hannover.de>,\n Torsten Hothorn <Torsten.Hothorn at rzmail.uni-erlangen.de> and \n Peter Westfall <WESTFALL at ba.ttu.edu>\nDescription: Multiple comparison procedures for the one-way layout.\nMaintainer: Torsten Hothorn <Torsten.Hothorn at rzmail.uni-erlangen.de>\nDepends: R (>= 1.4.0), mvtnorm (>=0.5-4)\nLicense: GPL\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "New package `multcomp' for general multiple comparisons\n\n\twritten by Frank Bretz, Torsten Hothorn and Peter Westfall\n\nWe've uploaded the package `multcomp' to CRAN.\nThe R package allows for multiple c",
+      "thread_id": "thread-d9e8ab6e3602",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-e4331c462beb",
+      "message_id": "<1024595642.21384.12.camel@keittlab-6>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "5f509a58331f152b93e1da1feaeb82ce1f162cc02ef9db349b3783e068a20ce0",
+      "date": "2002-06-20T13:54:02-04:00",
+      "subject": "R bindings for GDAL",
+      "subject_clean": "R bindings for GDAL",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have an experimental R package that wraps Frank Warmerdam's Geographic\nData Abstraction Library. GDAL lets you read and write a variety of\nraster image formats. Details are at\n\n\thttp://keittlab.bio.sunysb.edu/R/GDAL/\n\nI haven't yet written bindings for the OGR vector bits. That will likely\nwait until I have a need to read vector shape files.\n\nCheers,\nTim\n\n-- \nTimothy H. Keitt\nDepartment of Ecology and Evolution\nState University of New York at Stony Brook\nStony Brook, New York 11794 USA\nPhone: 631-632-1101, FAX: 631-632-7626\nhttp://life.bio.sunysb.edu/ee/keitt/\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have an experimental R package that wraps Frank Warmerdam's Geographic\nData Abstraction Library. GDAL lets you read and write a variety of\nraster image formats. Details are at\n\n\thttp://keittlab.bio.",
+      "thread_id": "thread-e4331c462beb",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-345f8b351ffc",
+      "message_id": "<1024598448.21380.39.camel@keittlab-6>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "836371f8ab4aebd5b5f67ccf2c2f1aa6cb3c6078416bd69e57b87bda99ccf4ca",
+      "date": "2002-06-20T14:40:48-04:00",
+      "subject": "R bindings for GDAL",
+      "subject_clean": "R bindings for GDAL",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have an experimental R package that wraps Frank Warmerdam's Geospatial\nData Abstraction Library. GDAL lets you read and write a variety of\nraster image formats. Details are at\n\n        http://keittlab.bio.sunysb.edu/R/GDAL/\n\nI haven't yet written bindings for the OGR vector bits. That will likely\nwait until I have a need to read vector shape files.\n\nCheers,\nTim\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have an experimental R package that wraps Frank Warmerdam's Geospatial\nData Abstraction Library. GDAL lets you read and write a variety of\nraster image formats. Details are at\n\n        http://keittl",
+      "thread_id": "thread-345f8b351ffc",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-edc8e009f246",
+      "message_id": "<15635.17406.468493.410571@mithrandir.hornik.net>",
+      "from_name": "Kurt Hornik",
+      "from_email_hash": "c259ef400cb20a19b00d24612508e4d9cef4c260cf545ea89764819aaa0fcbd4",
+      "date": "2002-06-21T17:19:26+02:00",
+      "subject": "R News Volume 2/2",
+      "subject_clean": "R News Volume 2/2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We have just published the 2002/2 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file.  It\nwill propagate to the CRAN mirrors within a day or two.\n\nThis issue focuses on the R 1.5.0 release, with key innovations in the\nstandard add-on package 'ts' and the two new recommended packages 'grid'\nand 'lattice'.  There is much more exciting information, including news\non R and spatial statistics, distributed computing, and bioinformatics.\n\nContents:\n\nTime Series in R 1.5.0\nNaive Time Series Forecasting Methods\nRmpi: Parallel Statistical Computing in R\nThe grid Graphics Package\nLattice\nProgrammer's Niche\ngeoRglm: A Package for Generalised Linear Spatial Models\nQuerying PubMed\nevd: Extreme Value Distributions\nipred: Improved Predictors\nChanges in R\nChanges on CRAN\nUpcoming Events\n\nwhich makes a total of 44 pages.\n\nFor the editorial board,\nKurt Hornik\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We have just published the 2002/2 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file.  It\nwill propagate to the CRAN mirrors with",
+      "thread_id": "thread-edc8e009f246",
+      "thread_depth": 0,
+      "month": "2002-06"
+    },
+    {
+      "id": "msg-47f41072af75",
+      "message_id": "<200206262305.g5QN5xbC023856@odds.stat.purdue.edu>",
+      "from_name": "Chong Gu",
+      "from_email_hash": "d33adf3cbf719825a60530324abb0b76a44f89d6dbd571cefcdb32ea7c686d6a",
+      "date": "2002-06-26T18:05:58-05:00",
+      "subject": "gss_0.7-2",
+      "subject_clean": "gss_0.7-2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new version of the gss package (gss_0.7-2.tar.gz) is on CRAN now.  A\nnew ssden suite is added for density estimation with up to 4 numeric\nr.v.'s; computation in higher dimension can be very slow as numerical\nintegrations are involved.  Support for discrete variables will be\nadded in the future.\n\nThe utility provides limited support for the nonparametric estimation\nof graphical models, as conditional independence structures can be\nbuilt in via selective inclusion of terms in ANOVA decompositions of\nthe log density.\n\nd- and dc- functions are provided for the evaluation of pdf and\nconditional pdf.  p-, q-, pc-, qc- functions are provided for 1-D cdf,\nquantiles, conditional cdf, and conditional quantiles, respectively.\nr- function is missing.\n\nBug reports and feature suggestions will be appreciated.\n\nChong Gu\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new version of the gss package (gss_0.7-2.tar.gz) is on CRAN now.  A\nnew ssden suite is added for density estimation with up to 4 numeric\nr.v.'s; computation in higher dimension can be very slow as ",
+      "thread_id": "thread-47f41072af75",
+      "thread_depth": 0,
+      "month": "2002-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0f3893c3cfe4",
+      "subject": "R-1.5.1 is released",
+      "message_count": 2,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2002-06-17T14:06:16+02:00",
+      "last_reply": "2002-06-17T14:37:14+02:00",
+      "root_message_id": "msg-0f3893c3cfe4"
+    },
+    {
+      "id": "thread-2ffd41db2ab0",
+      "subject": "R-1.5.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Eberhard Lisse"
+      ],
+      "started": "2002-06-17T17:08:34+02:00",
+      "last_reply": "2002-06-17T17:08:34+02:00",
+      "root_message_id": "msg-2ffd41db2ab0"
+    },
+    {
+      "id": "thread-8c9fa4a1b581",
+      "subject": "Debian packages of R 1.5.1 available",
+      "message_count": 1,
+      "participants": [
+        "Dirk Eddelbuettel"
+      ],
+      "started": "2002-06-17T21:37:12-05:00",
+      "last_reply": "2002-06-17T21:37:12-05:00",
+      "root_message_id": "msg-8c9fa4a1b581"
+    },
+    {
+      "id": "thread-87e9714310d0",
+      "subject": "RPMS for Red Hat Linux/Intel 7.x",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2002-06-18T09:17:12+02:00",
+      "last_reply": "2002-06-18T09:17:12+02:00",
+      "root_message_id": "msg-87e9714310d0"
+    },
+    {
+      "id": "thread-61d8766fc955",
+      "subject": "Mandrake R 1.5.1 RPM's",
+      "message_count": 1,
+      "participants": [
+        "mikalzet at libero.it"
+      ],
+      "started": "2002-06-18T09:33:45+02:00",
+      "last_reply": "2002-06-18T09:33:45+02:00",
+      "root_message_id": "msg-61d8766fc955"
+    },
+    {
+      "id": "thread-6d1af0f97482",
+      "subject": "R-1.5.1 sources available via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2002-06-18T11:31:04-05:00",
+      "last_reply": "2002-06-18T11:31:04-05:00",
+      "root_message_id": "msg-6d1af0f97482"
+    },
+    {
+      "id": "thread-af846a3120b6",
+      "subject": "Binary build of 1.5.1 for Windows",
+      "message_count": 1,
+      "participants": [
+        "Duncan Murdoch"
+      ],
+      "started": "2002-06-18T16:41:16-04:00",
+      "last_reply": "2002-06-18T16:41:16-04:00",
+      "root_message_id": "msg-af846a3120b6"
+    },
+    {
+      "id": "thread-b2b04e1968d9",
+      "subject": "SuSE rpms 7.3 and 8.0",
+      "message_count": 1,
+      "participants": [
+        "Detlef Steuer"
+      ],
+      "started": "2002-06-18T17:03:45+02:00",
+      "last_reply": "2002-06-18T17:03:45+02:00",
+      "root_message_id": "msg-b2b04e1968d9"
+    },
+    {
+      "id": "thread-4951a5d06a2c",
+      "subject": "Carbon R 1.5.1 + Bioconductor released",
+      "message_count": 1,
+      "participants": [
+        "Stefano Iacus"
+      ],
+      "started": "2002-06-18T17:10:04+02:00",
+      "last_reply": "2002-06-18T17:10:04+02:00",
+      "root_message_id": "msg-4951a5d06a2c"
+    },
+    {
+      "id": "thread-556168fb4b53",
+      "subject": "R-1.5.1 for Darwin/X11",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2002-06-19T13:26:04-07:00",
+      "last_reply": "2002-06-19T13:26:04-07:00",
+      "root_message_id": "msg-556168fb4b53"
+    },
+    {
+      "id": "thread-e4331c462beb",
+      "subject": "R bindings for GDAL",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "2002-06-20T13:54:02-04:00",
+      "last_reply": "2002-06-20T13:54:02-04:00",
+      "root_message_id": "msg-e4331c462beb"
+    },
+    {
+      "id": "thread-345f8b351ffc",
+      "subject": "R bindings for GDAL",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "2002-06-20T14:40:48-04:00",
+      "last_reply": "2002-06-20T14:40:48-04:00",
+      "root_message_id": "msg-345f8b351ffc"
+    },
+    {
+      "id": "thread-d9e8ab6e3602",
+      "subject": "new package `multcomp'",
+      "message_count": 1,
+      "participants": [
+        "Torsten Hothorn"
+      ],
+      "started": "2002-06-20T17:47:12+02:00",
+      "last_reply": "2002-06-20T17:47:12+02:00",
+      "root_message_id": "msg-d9e8ab6e3602"
+    },
+    {
+      "id": "thread-edc8e009f246",
+      "subject": "R News Volume 2/2",
+      "message_count": 1,
+      "participants": [
+        "Kurt Hornik"
+      ],
+      "started": "2002-06-21T17:19:26+02:00",
+      "last_reply": "2002-06-21T17:19:26+02:00",
+      "root_message_id": "msg-edc8e009f246"
+    },
+    {
+      "id": "thread-47f41072af75",
+      "subject": "gss_0.7-2",
+      "message_count": 1,
+      "participants": [
+        "Chong Gu"
+      ],
+      "started": "2002-06-26T18:05:58-05:00",
+      "last_reply": "2002-06-26T18:05:58-05:00",
+      "root_message_id": "msg-47f41072af75"
+    }
+  ]
+}

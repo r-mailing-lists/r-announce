@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2011-12",
+  "messages": [
+    {
+      "id": "msg-472de0811adf",
+      "message_id": "<67151BB7-6F13-42BC-92C2-2AE4F3BFF136@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2011-12-08T15:30:26+01:00",
+      "subject": "R 2.14.1 scheduled for December 22",
+      "subject_clean": "R 2.14.1 scheduled for December 22",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.14.1 on Friday,\nDecember 22, 2011. \n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) via\n\nhttp://cran.r-project.org/src/base-prerelease/\n\nFor the R Core Team\nPeter Dalgaard\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "This is to announce that we plan to release R version 2.14.1 on Friday,\nDecember 22, 2011. \n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checkl",
+      "thread_id": "thread-472de0811adf",
+      "thread_depth": 0,
+      "month": "2011-12"
+    },
+    {
+      "id": "msg-24914f936b43",
+      "message_id": "<4EEE6614.5010509@heatherturner.net>",
+      "from_name": "Heather Turner",
+      "from_email_hash": "49583fb1b51260f190c0422a6ca38b323f8d4d61c030599d75fabebdfeaf5bd4",
+      "date": "2011-12-18T22:15:48Z",
+      "subject": "The R Journal Vol. 3/2 now published",
+      "subject_clean": "The R Journal Vol. 3/2 now published",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nThe second issue of the third volume of The R Journal is now available:\nhttp://journal.r-project.org/current.html.\n\nThanks to everyone involved.\n\nHeather\n\n--\nEditor in chief\nHeather.Turner at r-project.org",
+      "body_snippet": "Dear All,\n\nThe second issue of the third volume of The R Journal is now available:\nhttp://journal.r-project.org/current.html.\n\nThanks to everyone involved.\n\nHeather\n\n--\nEditor in chief\nHeather.Turner ",
+      "thread_id": "thread-24914f936b43",
+      "thread_depth": 0,
+      "month": "2011-12"
+    },
+    {
+      "id": "msg-586568a1d67c",
+      "message_id": "<69376E88-2DA0-405B-BFE0-48D5678E8BF6@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2011-12-22T12:02:34+01:00",
+      "subject": "R 2.14.1 is released",
+      "subject_clean": "R 2.14.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The byte pixies have rolled up R-2.14.1.tar.gz (codename \"December Snowflakes\") at 9:00 this morning. This is a maintenance release; see the list below for details.\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.14.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n For the R Core Team\n\n Peter Dalgaard\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n\nMD5 (AUTHORS) = cbf6da8f886ccd8d0dda0cc7ffd1b8ec\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = 3a8fc6d4f7ae7c6f7e42b028240a46b0\nMD5 (INSTALL) = 70447ae7f2c35233d3065b004aa4f331\nMD5 (NEWS) = 99d2842cf6a964716e960fadead402c4\nMD5 (NEWS.html) = 592a459fecefd8bb4573ba45ea9d3f36\nMD5 (ONEWS) = 0c3e10eef74439786e5fceddd06dac71\nMD5 (OONEWS) = b0d650eba25fc5664980528c147a20db\nMD5 (R-latest.tar.gz) = ba5b6fb15b660670ea29b885348f322a\nMD5 (README) = 296871fcf14f49787910c57b92655c76\nMD5 (RESOURCES) = 020479f381d5f9038dcb18708997f5da\nMD5 (THANKS) = 159efc7bd4ae7b23dda07c1d431657bc\nMD5 (R-2/R-2.14.1.tar.gz) = ba5b6fb15b660670ea29b885348f322a\n\n\nThis is the relevant part of the NEWS file (yes, I _have_ spotted the minor mishap....):\n\nCHANGES IN R VERSION 2.14.0 patched:\n\n  NEW FEATURES:\n\n    o parallel::detectCores() is now able to find the number of\n      physical cores (rather than CPUs) on Sparc Solaris.\n\n      It can also do so on most versions of Windows; however the\n      default remains detectCores(logical = TRUE) on that platform.\n\n    o Reference classes now keep a record of which fields are locked.\n      $lock() with no arguments returns the names of the locked fields.\n\n    o HoltWinters() reports a warning rather than an error for some\n      optimization failures (where the answer might be a reasonable\n      one).\n\n    o tools::dependsOnPkg() now accepts the shorthand dependencies =\n      \"all\".\n\n    o parallel::clusterExport() now allows specification of an\n      environment from which to export.\n\n    o The quartz() device now does tilde expansion on its file\n      argument.\n\n    o tempfile() on a Unix-alike now takes the process ID into account.\n      This is needed with multicore (and as part of parallel) because\n      the parent and all the children share a session temporary\n      directory, and they can share the C random number stream used to\n      produce the uniaue part.  Further, two children can call\n      tempfile() simultaneously.\n\n    o Option print in Sweave's RweaveLatex() driver now emulates\n      auto-printing rather than printing (which can differ for an S4\n      object by calling show() rather than print()).\n\n    o filled.contour() now accepts infinite values: previously it might\n      have generated invalid graphics files (e.g. containing NaN\n      values).\n\n  INSTALLATION:\n\n    o On 64-bit Linux systems, configure now only sets LIBnn to lib64\n      if /usr/lib64 exists.  This may obviate setting LIBnn explicitly\n      on Debian-derived systems.\n\n      It is still necessary to set LIBnn = lib (or lib32) for 32-bit\n      builds of R on a 64-bit OS on those Linux distributions capable\n      for supporting that concept.\n\n    o configure looks for inconsolata.sty, and if not found adjusts the\n      default R_RD4PDF to not use it (with a warning, since it is\n      needed for high-quality rendering of manuals).\n\n  PACKAGE INSTALLATION:\n\n    o R CMD INSTALL will now do a test load for all sub-architectures\n      for which code was compiled (rather than just the primary\n      sub-architecture).\n\n  UTILITIES:\n\n    o When checking examples under more than one sub-architecture, R\n      CMD check now uses a separate directory examples_arch for each\n      sub-architecture, and leaves the output in file\n      pkgname-Ex_arch.Rout.  Some packages expect their examples to be\n      run in a clean directory ....\n\n  BUG FIXES:\n\n    o stack() now gives an error if no vector column is selected,\n      rather than returning a 1-column data frame (contrary to its\n      documentation).\n\n    o summary.mlm() did not handle objects where the formula had been\n      specified by an expression.  (Reported by Helios de Rosario\n      Martinez).\n\n    o tools::deparseLatex(dropBraces=TRUE) could drop text as well as\n      braces.\n\n    o colormodel = \"grey\" (new in R 2.14.0)) did not always work in\n      postscript() and pdf().\n\n    o file.append() could return TRUE for failures.  (PR#14727)\n\n    o gzcon() connections are no longer subject to garbage collection:\n      it was possible for this to happen when unintended (e.g. when\n      calling load()).\n\n    o nobs() does not count zero-weight observations for glm() fits,\n      for consistency with lm().  This affects the BIC() values\n      reported for such glm() fits.  (Spotted by Bill Dunlap.)\n\n    o options(warn = 0) failed to end a (C-level) context with more\n      than 50 accumulated warnings.  (Spotted by Jeffery Horner.)\n\n    o The internal plot.default() code did not do sanity checks on a\n      cex argument, so invalid input could cause problems.  (Reported\n      by Ben Bolker.)\n\n    o anyDuplicated(<array>, MARGIN=0) no longer fails.  (Reported by\n      Herv'e Pag`es.)\n\n    o read.dcf() removes trailing blanks: unfortunately on some\n      platforms this included \\xa0 (non-breaking space) which is the\n      trailing byte of a UTF-8 character.  It now only considers ASCII\n      space and tab to be 'blank'.\n\n    o There was a sign error in part of the calculations for the\n      variance returned by KalmanSmooth().  (PR#14738)\n\n    o pbinom(10, 1e6, 0.01, log.p = TRUE) was NaN thanks to the buggy\n      fix to PR#14320 in R 2.11.0.  (PR#14739)\n\n    o RweaveLatex() now emulates auto-printing rather than printing, by\n      calling methods::show() when auto-printing would.\n\n    o duplicated() ignored fromLast for a one-column data frame.\n      (PR#14742)\n\n    o source() and related functions did not put the correct timestamp\n      on the source references; srcfilecopy() has gained a new argument\n      timestamp to support this fix. (PR#14750)\n\n    o LaTeX conversion of Rd files did not correctly handle\n      preformatted backslashes.  (PR#14751)\n\n    o HTML conversion of Rd files did not handle markup within tabular\n      cells properly.  (PR#14708)\n\n    o source() on an empty file with keep.source = TRUE tried to read\n      from stdin(), in R 2.14.0 only.  (PR#14753)\n\n    o The code to check Rd files in packages would abort if duplicate\n      description sections were present.\n\n\n\n--\nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "The byte pixies have rolled up R-2.14.1.tar.gz (codename \"December Snowflakes\") at 9:00 this morning. This is a maintenance release; see the list below for details.\n\nYou can get it from\n\nhttp://cran.r",
+      "thread_id": "thread-586568a1d67c",
+      "thread_depth": 0,
+      "month": "2011-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-472de0811adf",
+      "subject": "R 2.14.1 scheduled for December 22",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2011-12-08T15:30:26+01:00",
+      "last_reply": "2011-12-08T15:30:26+01:00",
+      "root_message_id": "msg-472de0811adf"
+    },
+    {
+      "id": "thread-24914f936b43",
+      "subject": "The R Journal Vol. 3/2 now published",
+      "message_count": 1,
+      "participants": [
+        "Heather Turner"
+      ],
+      "started": "2011-12-18T22:15:48+00:00",
+      "last_reply": "2011-12-18T22:15:48+00:00",
+      "root_message_id": "msg-24914f936b43"
+    },
+    {
+      "id": "thread-586568a1d67c",
+      "subject": "R 2.14.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2011-12-22T12:02:34+01:00",
+      "last_reply": "2011-12-22T12:02:34+01:00",
+      "root_message_id": "msg-586568a1d67c"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2011-06",
+  "messages": [
+    {
+      "id": "msg-299e5b2fac7b",
+      "message_id": "<1308824021.12206.1466358913@webmail.messagingengine.com>",
+      "from_name": "Heather Turner",
+      "from_email_hash": "49583fb1b51260f190c0422a6ca38b323f8d4d61c030599d75fabebdfeaf5bd4",
+      "date": "2011-06-23T11:13:41+01:00",
+      "subject": "The R Journal Vol. 3/1 now published",
+      "subject_clean": "The R Journal Vol. 3/1 now published",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nThe first issue of the third volume of The R Journal is now available at\nhttp://journal.r-project.org/current.html. \n\nThanks to everyone involved.\n\nHeather\n\n--\nEditor in chief\nHeather.Turner at r-project.org",
+      "body_snippet": "Dear All,\n\nThe first issue of the third volume of The R Journal is now available at\nhttp://journal.r-project.org/current.html. \n\nThanks to everyone involved.\n\nHeather\n\n--\nEditor in chief\nHeather.Turne",
+      "thread_id": "thread-299e5b2fac7b",
+      "thread_depth": 0,
+      "month": "2011-06"
+    },
+    {
+      "id": "msg-064058e851e2",
+      "message_id": "<C7920F2D-2678-4EAB-9964-AF985CA924A8@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2011-06-30T14:13:18+02:00",
+      "subject": "R 2.13.1 scheduled for July 8",
+      "subject_clean": "R 2.13.1 scheduled for July 8",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.13.1 on Friday,\nJuly 8, 2011. \n\nThe 2.13.0 release has been quite solid, but some people expect an x.y.1 to roll out on larger installations for the next academic year. Of course, there have also been a sampling of minor bug fixes.  \n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\n(We are breaking the schedule a little this time because of traveling.)\n\nThe source tarballs will be made available daily (barring build\ntroubles) via\n\nhttp://cran.r-project.org/src/base-prerelease/\n\nFor the R Core Team\nPeter Dalgaard\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "This is to announce that we plan to release R version 2.13.1 on Friday,\nJuly 8, 2011. \n\nThe 2.13.0 release has been quite solid, but some people expect an x.y.1 to roll out on larger installations for",
+      "thread_id": "thread-064058e851e2",
+      "thread_depth": 0,
+      "month": "2011-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-299e5b2fac7b",
+      "subject": "The R Journal Vol. 3/1 now published",
+      "message_count": 1,
+      "participants": [
+        "Heather Turner"
+      ],
+      "started": "2011-06-23T11:13:41+01:00",
+      "last_reply": "2011-06-23T11:13:41+01:00",
+      "root_message_id": "msg-299e5b2fac7b"
+    },
+    {
+      "id": "thread-064058e851e2",
+      "subject": "R 2.13.1 scheduled for July 8",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2011-06-30T14:13:18+02:00",
+      "last_reply": "2011-06-30T14:13:18+02:00",
+      "root_message_id": "msg-064058e851e2"
+    }
+  ]
+}

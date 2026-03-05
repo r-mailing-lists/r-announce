@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1999-02",
+  "messages": [
+    {
+      "id": "msg-55a5a2c02937",
+      "message_id": "<x2ogn5p48b.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1999-02-08T11:41:24+01:00",
+      "subject": "R-bugs interfacing to R-devel mailing list",
+      "subject_clean": "R-bugs interfacing to R-devel mailing list",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've been hacking at the JitterBug sources a little, so that it should\nwork better with mailing lists. It has been running with the core team\nlist for a while and seems to be OK.\n\nI will now move the forwarding address to the r-devel list where it\nreally belongs. I hope this will make it easier for people outside the\ncore team to contribute to the development of R by participating in\nthe discussions and helping to analyse bug reports.\n\nPoints to note:\n\nAll entries (web or email) to R-bugs are echoed to R-devel, *except*\nthose marked \"private\" on the web form, and/or containing the word\nPRIVATE (in uppercase) in the subject field.\n\nThe Reports arrive at R-devel with R-bugs in the Cc: field, so if you\nreply to \"sender and all recipients\" (AKA \"wide reply\") the reply gets\nregistered as a followup in R-bugs. There is code in Jitterbug to\nprevent the autoforwarding of messages which have already been copied\nto R-devel, but note that if the original sender also reads R-devel,\nhe or she will still get the reply twice, so you may still need to\nedit the headers.\n\nPlease do *not* Cc: bug reports to other lists. This will only cause\nmost people to receive it in two versions, one of which will be\nlacking the Problem Report identifier (PR# xxx). If someone then\nreplies to \"all recipients\", this will open up a *new* Problem Report,\netc. \n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've been hacking at the JitterBug sources a little, so that it should\nwork better with mailing lists. It has been running with the core team\nlist for a while and seems to be OK.\n\nI will now move the ",
+      "thread_id": "thread-55a5a2c02937",
+      "thread_depth": 0,
+      "month": "1999-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-55a5a2c02937",
+      "subject": "R-bugs interfacing to R-devel mailing list",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1999-02-08T11:41:24+01:00",
+      "last_reply": "1999-02-08T11:41:24+01:00",
+      "root_message_id": "msg-55a5a2c02937"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2004-01",
+  "messages": [
+    {
+      "id": "msg-945f3b52e6ae",
+      "message_id": "<16398.24909.685006.795255@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2004-01-21T12:23:57+01:00",
+      "subject": "R News Volume 3/3",
+      "subject_clean": "R News Volume 3/3",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We have published the 2003/3 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a day or two.\n\nContents of this issue:\n\nDimensional Reduction for Data Mapping\nR as a Simulation Platform in Ecological Modelling\nUsing R for Estimating Longitudinal Student Achievement Models\nlmeSplines\nDebugging Without (Too Many) Tears\nTh R2HTML Package\nR Help Desk: Package Management\nProgrammer's Niche: Regular Expressions\nRecent Events\nUpcoming Events\nChanges in R 1.8.1\nChanges on CRAN\nR Foundation News\n\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch",
+      "body_snippet": "We have published the 2003/3 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a d",
+      "thread_id": "thread-945f3b52e6ae",
+      "thread_depth": 0,
+      "month": "2004-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-945f3b52e6ae",
+      "subject": "R News Volume 3/3",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at ci.tuwien.ac.at"
+      ],
+      "started": "2004-01-21T12:23:57+01:00",
+      "last_reply": "2004-01-21T12:23:57+01:00",
+      "root_message_id": "msg-945f3b52e6ae"
+    }
+  ]
+}

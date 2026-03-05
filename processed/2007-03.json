@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2007-03",
+  "messages": [
+    {
+      "id": "msg-8317c2326994",
+      "message_id": "<6FA60D2B-695D-4249-B546-AB2018BA71CB@iastate.edu>",
+      "from_name": "Dianne Cook",
+      "from_email_hash": "6c4c2b1e0814a4370219e89f51b2083d2460b41068e542ee969c30257ae6647e",
+      "date": "2007-03-09T15:26:24-06:00",
+      "subject": "useR! 2007 --- Call for papers and posters",
+      "subject_clean": "useR! 2007 --- Call for papers and posters",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R Users and Developers,\n\nThe first North American useR! will be held at Iowa State University,  \nAmes, Iowa, August 8?10, 2007. Information about the meeting can be  \nfound at http://www.user2007.org/.\n\nWe are now ready to accept paper and poster submissions.\n\nPapers are encouraged in all areas, but particular emphasis is given  \nto work describing newly created or improved R packages. Papers will  \nbe refereed and a best paper/presentation award is likely. Your full  \npaper needs to be submitted by April 23, 5:00PM CST, to be considered  \nfor the meeting.\n\nThere will also be the opportunity to present your work as a poster  \ninstead of a paper. Poster submissions will be in the form of an  \nabstract and needs to be submitted by June 30.\n\nSubmit full papers, and poster abstracts, to submissions at user2007.org.\n\nuseR! Program Committee\nuser2007 at iastate.edu",
+      "body_snippet": "R Users and Developers,\n\nThe first North American useR! will be held at Iowa State University,  \nAmes, Iowa, August 8?10, 2007. Information about the meeting can be  \nfound at http://www.user2007.org/",
+      "thread_id": "thread-8317c2326994",
+      "thread_depth": 0,
+      "month": "2007-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8317c2326994",
+      "subject": "useR! 2007 --- Call for papers and posters",
+      "message_count": 1,
+      "participants": [
+        "Dianne Cook"
+      ],
+      "started": "2007-03-09T15:26:24-06:00",
+      "last_reply": "2007-03-09T15:26:24-06:00",
+      "root_message_id": "msg-8317c2326994"
+    }
+  ]
+}

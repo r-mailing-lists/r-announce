@@ -1,0 +1,69 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2008-09",
+  "messages": [
+    {
+      "id": "msg-8c3a54669052",
+      "message_id": "<48D13EBC.3000700@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2008-09-17T19:30:36+02:00",
+      "subject": "R 2.8.0 is scheduled for October 20",
+      "subject_clean": "R 2.8.0 is scheduled for October 20",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.8.0 on Monday,\nOctober 20, 2008.\n\nRelease procedures start Friday, September 19. The detailed schedule can\nbe found on http://developer.r-project.org\n\nThe source tarballs will be made available daily (barring build\ntroubles) and the tarballs can be picked up at\n\nhttp://cran.r-project.org/src/base-prerelease/\n\na little later.\n\nBinary builds are expected to appear starting Monday, September 22.\n\n    For the Core Team\n    Peter Dalgaard\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "This is to announce that we plan to release R version 2.8.0 on Monday,\nOctober 20, 2008.\n\nRelease procedures start Friday, September 19. The detailed schedule can\nbe found on http://developer.r-projec",
+      "thread_id": "thread-8c3a54669052",
+      "thread_depth": 0,
+      "month": "2008-09"
+    },
+    {
+      "id": "msg-8d43ae6ff1d5",
+      "message_id": "<18651.64324.600568.842290@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2008-09-25T22:57:40+02:00",
+      "subject": "R Foundation adopts Certification/Validation document",
+      "subject_clean": "R Foundation adopts Certification/Validation document",
+      "in_reply_to": "<48DB90DD.70908@fhcrc.org>",
+      "references": [
+        "<48D930FD.6040401@fhcrc.org>",
+        "<3f1d2410809240833t5fe6ca53w309a98ce23223cc2@mail.gmail.com>",
+        "<48DACC04.8080502@fhcrc.org>",
+        "<18651.24665.485342.595935@stat.math.ethz.ch>",
+        "<48DB90DD.70908@fhcrc.org>"
+      ],
+      "body_plain": "The Board of the R Foundation would like to announce the unanimous\nadoption of the document entitled:\n\n\"R: Regulatory Compliance and Validation Issues. A Guidance Document for\nthe Use of R in Regulated Clinical Trial Environments\"\n\nThe updated version of the document, dated August 17, 2008, is available\nfrom the main R web page (http://www.r-project.org/) via the\nCertification link, listed under Documentation.\n\nThe document provides extensive background and detailed guidance for the\nuse of R within the regulated framework of human clinical trials,\ncovering GxP and 21 CFR Part 11 issues. This document should serve R\nusers as a key reference for their internal regulatory activities\nrelating to the use of statistical software for clinical trials.\n\nWe would like to thank all of those whose hard work has resulted in this\nfinished document!\n\n- - - - -\n\nFor The R Foundation for Statistical Computing,\nMartin Maechler\nETH Zurich\n\nNote: As an exception, we are announcing this through R-announce.",
+      "body_snippet": "The Board of the R Foundation would like to announce the unanimous\nadoption of the document entitled:\n\n\"R: Regulatory Compliance and Validation Issues. A Guidance Document for\nthe Use of R in Regulate",
+      "thread_id": "thread-8d43ae6ff1d5",
+      "thread_depth": 0,
+      "month": "2008-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8c3a54669052",
+      "subject": "R 2.8.0 is scheduled for October 20",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2008-09-17T19:30:36+02:00",
+      "last_reply": "2008-09-17T19:30:36+02:00",
+      "root_message_id": "msg-8c3a54669052"
+    },
+    {
+      "id": "thread-8d43ae6ff1d5",
+      "subject": "R Foundation adopts Certification/Validation document",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2008-09-25T22:57:40+02:00",
+      "last_reply": "2008-09-25T22:57:40+02:00",
+      "root_message_id": "msg-8d43ae6ff1d5"
+    }
+  ]
+}

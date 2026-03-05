@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1998-12",
+  "messages": [
+    {
+      "id": "msg-f8cfd240e2ba",
+      "message_id": "<x21zmgoulc.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-12-04T15:22:23+01:00",
+      "subject": "R-0.63.1 is released",
+      "subject_clean": "R-0.63.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've put up R-0.63.1.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or two.\n\nFor those who *are* desperate, I've left a copy in\n\tftp://blueberry.kubism.ku.dk/pub/R-devel/R-0.63.1.tgz \n(Be gentle, that's my desktop PC!)\n\nThe person who fetched R-0.63 *from New Zealand* last time might\nprefer ftp.stat.auckland.ac.nz, though...\n\nThere's also a version split in two for floppies and a patch file if\nyou prefer that.\n\nHere is the relevant part of the NEWS file:\n\n\t\tCHANGES IN R VERSION 0.63.1\n\nNEW FEATURES\n\n    o   new function mosaicplot().\n\n    o\txy.coords(.) has a  \"recycle = FALSE\" argument,\t used in text().\n\n    o\tRNGtype() allows to choose different Random Number Generators.\n\t\t__EXPERIMENTAL__\n\n    o\tprint.default(.) now also works with a `right = TRUE' argument.\n\t{{ print.matrix(.) is bound to become deprecated... }}\n\n    o\tnew help page `Memory' on the usage of command line options\n\t--vsize and --nsize. Error message if R runs out of memory\n\tpoints to help(Memory).\n\n    o\trowsum() and improved na.omit() added from survival4\n    \n    o\tbacksolve(.) has new arguments \"upper.tri = TRUE,  transpose = FALSE\"\n\n    o\thist() has new \"right = TRUE\" argument;\t \n\t\"right = FALSE\" gives  [a,b) intervals\n\n    o\thelp() has \"htmlhelp\" argument, allowing to suppress htmlhelp after\n\thelp.start().  This is desired for ESS.\n\n    o   quantile(.) has an \"names = TRUE\" argument for speed.\n\tIt is much better documented now.\n\n\nBUG FIXES\n\n    o\tbuild-help --dosnames should now also work for text help,\n\tlatex and examples.\n\n    o\tseq() should work better now (fuzz-factor 1e-7 inserted)\n\n    o\tmultiple arguments to return caused value to be a pairlist\n\n    o\tdata.frame choked on long names from deparse()\n\n    o\tdata.edit now works (dataedit doesn't need pairlist()s anymore)\n\n    o\tas.pairlist(NULL) is ok\n\n    o\tts(1:5, start=2, end=4) now work.  Further plot(ts(..), ts(..))\n\n    o\teigen() returns $vectors in any case [S compat].\n\n    o\tapply(cbind(1,1:9, 2, quantile) doesn't drop quantile names anymore\n\n    o\tarray(1, dim=(1:3)[c(F,F,F)]) is now valid == array(1,NULL) == c(1);\n\tthe same for array(a,d, list())\n\n    o\tfix problem with step() and offsets\n\n    o\tdrop attributes on matrix subsetting\n\n    o\tkappa(.) now works [dtrco now in load table (ROUTINES)].\n\n    o\tpmin() and pmax() now preserve attributes.\n\n    o\thandle null models arising in drop1(), step, etc.\n\n    o\tpartial matching problem with $ indexing\n\n    o\tmatplot(.) works with lwd (vectors)\n\n    o\tpar(\"cex.axis\") now has the desired effect...\n\n    o\twhich(.) now omits NAs in its argument.\n\n    o\trbind.data.frame caused character-to-factor coercion a bit too often\n\n    o\tcouple of messups in dotplot\n\n    o\tz[[1]] <- ~x probl fixed as suggested by J.Lindsey \n\n    o   do_modelframe could lose contrast attributes\n\n    o\t\"make check\" needed standardisation of locale\n\n    o\tunlist(...,recursive=F) got names wrong\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've put up R-0.63.1.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or t",
+      "thread_id": "thread-f8cfd240e2ba",
+      "thread_depth": 0,
+      "month": "1998-12"
+    },
+    {
+      "id": "msg-7ebe6ce9a64e",
+      "message_id": "<19981221131443.A8032@sirio.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
+      "date": "1998-12-21T13:14:43+01:00",
+      "subject": "R 0.63.1 for Windows",
+      "subject_clean": "R 0.63.1 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new version of R for Windows is available from CRAN in directory\nbin/windows/windows-NT. This supersedes rw0630, rw63-io, bdr0631 and earlier\nversions.  It runs on Windows 95, 98, NT4 (on i386), at least.\n\nThere are two executables, Rgui.exe and Rterm.exe.\n\nNEW FEATURES\n\n  Will run from NT command line.\n\n  No `tricks' are needed for animated graphics.\n\n  The windows are much more responsive.\n\n  R commands can be interrupted by Esc.\n\n  Rterm allows batch mode operation and can also be run in \n  inferior-R-mode under NTEmacs.\n\n  There is a history mechanism for graphics plots.\n  \n  Graphics can be copied to the clipboard.\n\n  Commands history is saved between session (only by Rgui.exe).\n  \n  Saved images and user profile are called .RData and .Rprofile as under Unix\n  (before they were RData and Rprofile).\n\nPACKAGES:\n\nPre-compiled packages for this (and hopefully all subsequent versions)\nare available at CRAN/bin/windows-NT/contrib.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new version of R for Windows is available from CRAN in directory\nbin/windows/windows-NT. This supersedes rw0630, rw63-io, bdr0631 and earlier\nversions.  It runs on Windows 95, 98, NT4 (on i386), at ",
+      "thread_id": "thread-7ebe6ce9a64e",
+      "thread_depth": 0,
+      "month": "1998-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f8cfd240e2ba",
+      "subject": "R-0.63.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-12-04T15:22:23+01:00",
+      "last_reply": "1998-12-04T15:22:23+01:00",
+      "root_message_id": "msg-f8cfd240e2ba"
+    },
+    {
+      "id": "thread-7ebe6ce9a64e",
+      "subject": "R 0.63.1 for Windows",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1998-12-21T13:14:43+01:00",
+      "last_reply": "1998-12-21T13:14:43+01:00",
+      "root_message_id": "msg-7ebe6ce9a64e"
+    }
+  ]
+}

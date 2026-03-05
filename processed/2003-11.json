@@ -1,0 +1,82 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2003-11",
+  "messages": [
+    {
+      "id": "msg-a0c7dec49024",
+      "message_id": "<Pine.LNX.4.51.0311110847230.2239@artemis.imbe.med.uni-erlangen.de>",
+      "from_name": "Torsten Hothorn",
+      "from_email_hash": "41e657384fb07a3764a554d5304d033ebaccbd11a54485f1b6386a932843f125",
+      "date": "2003-11-11T08:49:05+01:00",
+      "subject": "useR! 2004",
+      "subject_clean": "useR! 2004",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are happy to announce that the first R user conference\n\n  useR! 2004\n\nis scheduled for May 20-22 2004 and will take place at the Vienna\nUniversity of Technology.\n\nThe conference will focus on\n  - giving an overview of the new features of the rapidly evolving R project,\n  - providing a platform for R users to discuss and exchange ideas how R can\n    be used to do statistical computations, data analysis, visualization and\n    exciting applications in various fields.\n\n\nKEYNOTE LECTURES\nA huge amount of exciting features and innovations came up in the last\nreleases of R. How these features can be used efficiently will be presented in\nkeynote lectures given by R core team members, addressing hot topics such as\n  - grid Graphics\n  - Good Programming Practice\n  - Dynamic Documents\n  - Language Interfaces\n  - Packaging and Quality Assurance\n  - Datamining and Large Databases\n\nSpeakers will include Peter Dalgaard, Kurt Hornik, Fritz Leisch, Paul Murrell\nand Brian D. Ripley.\n\nUSER-CONTRIBUTED SESSIONS\nOral and poster presentations will be a platform to bring together R users,\ncontributers, package maintainers and developers in the S spirit that\n`users are developers'. People from different fields will show us how they solve\nproblems with R in fascinating applications. The sessions are organized by\nmembers of the program committee, including Axel Benner, Roger Bivand, Dirk\nEddelbuettel, John Fox, Kurt Hornik, Stefano Iacus, Steffen L. Lauritzen,\nFriedrich Leisch, Uwe Ligges and Martin Theus, and will cover topics such as\n  - Finance & Econometrics\n  - Visualization & Graphics\n  - Spatial Statistics\n  - Biostatistics\n  - Graphical Models\n  - and many more.\n\nAfter the official presentations, Vienna's famous wine and beer pubs, cafes\nand restaurants proofed to be a very stimulating environment for fruitful\ndiscussions at previous meetings of the R community like this year's DSC 2003.\n\nWe invite all R users to submit abstracts on topics presenting innovations or\nexciting applications of R. A web page offering more information on the `useR!'\nconference, abstract submission, registration and Vienna is available at\n\n  http://www.ci.tuwien.ac.at/Conferences/useR-2004/\n\nWe hope to meet you in Vienna!\n\nFor the organizing committee:\n\nTorsten Hothorn, Achim Zeileis and David Meyer.",
+      "body_snippet": "We are happy to announce that the first R user conference\n\n  useR! 2004\n\nis scheduled for May 20-22 2004 and will take place at the Vienna\nUniversity of Technology.\n\nThe conference will focus on\n  - g",
+      "thread_id": "thread-a0c7dec49024",
+      "thread_depth": 0,
+      "month": "2003-11"
+    },
+    {
+      "id": "msg-0fd652984e87",
+      "message_id": "<x2oev5x532.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2003-11-21T13:45:53+01:00",
+      "subject": "R-1.8.1 is released ",
+      "subject_clean": "R-1.8.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.8.1.tgz a short while ago. This is a patch version\nmostly fixing a number of issues in 1.8.0, some of which were quite\nserious. As usual, a few new features have crept in as well. (See below\nfor details.)\n\nYou can get it from\n\nhttp://cran.us.r-project.org/src/base/R-1.8.1.tgz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course.\n \nThere is also a version split for floppies.\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\ncd81fdeaf22f93dfc28979e8132722ec  R-1.8.1.tgz\n5690ed4e1f453115551122facb4b34b0  R-1.8.1.tgz-split.aa\ncd2fd749085c1e63fce22e3e09f70cdb  R-1.8.1.tgz-split.ab\nab0b08746d1f5bd56a736a8b1f5bfee6  R-1.8.1.tgz-split.ac\n41332e09272598bfb64c25ac84274404  R-1.8.1.tgz-split.ad\n51d3f4e376efdee4ae069b135f909621  R-1.8.1.tgz-split.ae\nc50f27fdf41c44c71c5b4f285a2dd98f  R-1.8.1.tgz-split.af\n2eb71e8a54e41b3e30e3e40f35151aa0  R-1.8.1.tgz-split.ag\n\nOn behalf of the R Core Team,\n\n        Peter Dalgaard\n\n\nHere's the relevant part of the NEWS file\n\n\n\t\tCHANGES IN R VERSION 1.8.1\n\n\nNEW FEATURES\n\n    o\tThere is now a \"Complex\" S3 group generic (a side-effect of\n\tfixing up the corresponding S4 group generic).\n\n    o\thelp(\"regex\") now gives a description of the regular expressions\n\tused in R.\n\n    o\tThe startup message now shows the R Foundation as copyright\n\tholder, and includes the R ISBN number and a pointer to the new\n\tcitation() function.\n\n    o\tThe solve() function now uses the `tol' argument for all\n\tnon-complex cases.  The default tolerance for LINPACK is 1e-7,\n\tas before.  For LAPACK it currently is .Machine$double.eps but\n\tmay be changed in later versions of R.\n\n    o\thelp.search() now defaults to agrep = FALSE when keyword= is\n\tspecified, since no one wants fuzzy matching of categories.\n\n    o\tFunction texi2dvi() in package tools can be used to compile\n\tlatex files from within R.\n\n    o\tObjects with formal S4 classes saved in pre-1.8 versions and\n\tloaded into the current version have incompatible class\n\tattributes (no package information).  A new function,\n\tfixPre1.8() in package methods, will fix the class attributes.\n\tSee the help for this function.\n\n    o\theatmap() allows Rowv/Colv = NA, suppressing the corresponding\n\tdendrogram.\n\n    o   An \"antifeature\": Tcl 8.0 is now officially unsupported. In 1.8.0\n\tit just didn't work. This very old version lacks several features\n        that are needed for the new version of the tcltk package. R will\n\tstill build the tcltk package against Tcl 8.0 but the resulting\n\tpackage will not load.\n\n\nBUG FIXES\n\n    o\tsymnum(x) now behaves as documented when length(x) == 0 and uses\n\tlower.triangular = FALSE for logical arrays.\n\n    o\tc() now has a method for \"noquote\" objects and hence works as\n\texpected.\n\n    o\tsplit(1:10, c(1,2)) no longer gives a spurious warning.\n\n    o\tThe \"Complex\" S4 group generic now works.\n\n    o\tabbreviate() doesn't get into infinite loops on input that differs\n\tonly by leading/trailing space\n\n    o\tAdded check for user interrupt in Rvprintf to allow printing to be\n\tinterrupted.\n\n    o\tFixed bug that would cause segfault on protect stack overflow.\n\n    o\tcrossprod() on matrices with zero extents would return an\n\tuninitialized matrix (rather than one filled with zeros).\n\n    o\tDF[[i,j]] for a data frame used row j and col i, not as intended\n\trow i and col j.\n\n    o\tEven more user errors in recursive indexing of lists are now\n\tcaught.\t (PR#4486)\n\n    o\tcor(<matrix>, use = \"pairwise\") gave wrong result in 1.8.0 (only).\n\t(PR#4646)\n\n    o\tmerge.data.frame() could give incorrect names when one of the\n\targuments had only one column.\t(PR#4299)\n\n    o\tSubsetting a one-dimensional array dropped dimensions even when\n\tthey were not of length one.  (Related to PR#4110)\n\n    o\tThe plot() method for `ecdf' objects, plot.ecdf(), now allows to\n\tset a `ylab' argument (different from the default).\n\n    o\tcor.test(*, method=\"spearman\") gave wrong results `randomly'\n\t(because of a wrong type passed to C; PR#4718).\n\n    o\tdist() objects with NA's didn't print these, now do. (PR#4866).\n\n    o\tregexpr(fixed = TRUE) returned 0-based indices.\n\n    o\tdf[, length_1_index] <- value did not recycle short rhs. (PR#4820)\n\n    o\tmedian() no longer `works' for odd-length factor variables.\n\n    o\tpackageStatus() is more robust to failing to contact a\n\trepository, and contacts the correct paths in the repositories\n\tunder Windows.\n\n    o\t.setOldIs (methods) contained a typo stopping POSIXct objects (etc)\n\tbeing included in formal classes.\n\n    o\tterms() sometimes removed offset() terms incorrectly, since it\n\tcounted by variables and not terms.  Its \"offset\" attribute\n\twas incorrectly documented as referring to terms not\n\tvariables. (Related to PR#4941)\n\n    o\tbuildVignettes() and pkgVignettes() in package tools are now\n\tdocumented.  The call to texi2dvi is wrapped in the new\n\tfunction texi2dvi() which also works on Windows.\n\n    o   hclust() was sometimes not finding the correct inter-cluster\n\tdistances with non-monotone methods.  (PR#4195)\n\n    o   plot.hclust() now tolerates mode changes on dumped objects. (PR#4361)\n\n    o   prompt() no longer insists files are in the current directory.\n\t(PR#4978)\n\n    o   filter() did not use init in reverse order as documented. (PR#5017)\n\n    o\tcontrasts<-() and model.matrix() now have sanity checks that\n\tfactors having at least 2 levels (or one level and a contrast\n\tmatrix): model.matrix() gave nonsensical results for 0-level\n\tfactors.\n\n    o   writeChar() could segfault if more characters were requested\n\tthan exist. (PR#5090)\n\n    o\tround() and signif() dropped attributes with 0-length inputs,\n\tonly. (PR#4710)\n\n    o\tThe default graphics device in the GNOME interface was gtk,\n\twhich is no longer in the base package. It is now X11.\n\n    o\tThe print button on the toolbar of the GNOME graphics device\n\tdid not work.\n\n    o\tThe example code on the man page for TkWidgetcmds had not been\n\tupdated after the change that made tkget (et al.) return\n\ttclObj objects, so the \"Submit\" button didn't work.\n\n    o\tRd conversion to latex did not add a new line before\n\t\\end{Section} for the section environments, which caused\n\tproblems if the last thing in a section was \\preformatted{}\n\t(and potentially elsewhere).\n\n    o\tUnder some circumstances mosaicplot() failed if main was\n\tsupplied as it was passed on to model.frame.default().\n\n    o\tConversion to POSIXlt (including printing) of POSIXct dates\n\tbefore 1902 and after 2038 computed which were leap years from\n\t(year-1900) so got some xx00 years wrong.\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-1.8.1.tgz a short while ago. This is a patch version\nmostly fixing a number of issues in 1.8.0, some of which were quite\nserious. As usual, a few new features have crept in as well. (",
+      "thread_id": "thread-0fd652984e87",
+      "thread_depth": 0,
+      "month": "2003-11"
+    },
+    {
+      "id": "msg-6dd36e00be7e",
+      "message_id": "<84rurv0ltq4kcl6hse170od1sgkhn7fpr6@4ax.com>",
+      "from_name": "Duncan Murdoch",
+      "from_email_hash": "0b169dc9578e443c97ef875feba9794619f6e667997aabcb13de6d581cba9312",
+      "date": "2003-11-22T09:07:12-05:00",
+      "subject": "[R] R-1.8.1 is released ",
+      "subject_clean": "R-1.8.1 is released",
+      "in_reply_to": "<x2oev5x532.fsf@biostat.ku.dk>",
+      "references": [
+        "<x2oev5x532.fsf@biostat.ku.dk>"
+      ],
+      "body_plain": "On 21 Nov 2003 13:45:53 +0100, you wrote:\n\n>I've rolled up R-1.8.1.tgz a short while ago. This is a patch version\n>mostly fixing a number of issues in 1.8.0, some of which were quite\n>serious. As usual, a few new features have crept in as well. (See below\n>for details.)\n>\n>You can get it from\n>\n>http://cran.us.r-project.org/src/base/R-1.8.1.tgz\n\nThe Windows build of 1.8.1 is now on CRAN and the mirrors.  Get it at\n\n<http://cran.us.r-project.org/bin/windows/base>.\n\nSee the CHANGES file in that directory for Windows-specific news.\n\n\nDuncan Murdoch",
+      "body_snippet": "On 21 Nov 2003 13:45:53 +0100, you wrote:\n\n>I've rolled up R-1.8.1.tgz a short while ago. This is a patch version\n>mostly fixing a number of issues in 1.8.0, some of which were quite\n>serious. As usua",
+      "thread_id": "thread-0fd652984e87",
+      "thread_depth": 1,
+      "month": "2003-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-a0c7dec49024",
+      "subject": "useR! 2004",
+      "message_count": 1,
+      "participants": [
+        "Torsten Hothorn"
+      ],
+      "started": "2003-11-11T08:49:05+01:00",
+      "last_reply": "2003-11-11T08:49:05+01:00",
+      "root_message_id": "msg-a0c7dec49024"
+    },
+    {
+      "id": "thread-0fd652984e87",
+      "subject": "R-1.8.1 is released",
+      "message_count": 2,
+      "participants": [
+        "Duncan Murdoch",
+        "Peter Dalgaard"
+      ],
+      "started": "2003-11-21T13:45:53+01:00",
+      "last_reply": "2003-11-22T09:07:12-05:00",
+      "root_message_id": "msg-0fd652984e87"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2003-12",
+  "messages": [
+    {
+      "id": "msg-1bf23e81f6d2",
+      "message_id": "<Pine.LNX.4.51.0312191802400.16585@artemis.imbe.med.uni-erlangen.de>",
+      "from_name": "Torsten Hothorn",
+      "from_email_hash": "41e657384fb07a3764a554d5304d033ebaccbd11a54485f1b6386a932843f125",
+      "date": "2003-12-19T18:04:36+01:00",
+      "subject": "`useR! 2004': Submission & Registration started",
+      "subject_clean": "`useR! 2004': Submission & Registration started",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are happy to inform you that the topics of the keynote lectures to be\npresented at the first R user conference `useR! 2004' in Vienna (May\n20-22th) are now available from the conference web page at\n\n        http://www.ci.tuwien.ac.at/Conferences/useR-2004/\n\nThe submission process for oral and poster presentations started this\nmonth and a web form for registration is available since last week.\n\nThe Xmas days are a perfect time to write and submit an abstract, the\nfinal deadline for the submission of oral or poster presentations is\nFebruary 15th, 2004. Authors will be notified about the acceptance of\ntheir contribution until March 15th. For poster presentations only, an\nextended final deadline ends April 15th.\n\nA poster highlighting the most important informations about the conference\nis available from the conference web page. It would be great if you could\nput up a poster in your department if only to demonstrate that using R is\nserious research and not only a hobby for computer geeks.\n\nWe wish you a Merry Xmas, a Happy New Year and hope to see you in Vienna!\n\nTorsten, Achim, David.",
+      "body_snippet": "We are happy to inform you that the topics of the keynote lectures to be\npresented at the first R user conference `useR! 2004' in Vienna (May\n20-22th) are now available from the conference web page at",
+      "thread_id": "thread-1bf23e81f6d2",
+      "thread_depth": 0,
+      "month": "2003-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1bf23e81f6d2",
+      "subject": "`useR! 2004': Submission & Registration started",
+      "message_count": 1,
+      "participants": [
+        "Torsten Hothorn"
+      ],
+      "started": "2003-12-19T18:04:36+01:00",
+      "last_reply": "2003-12-19T18:04:36+01:00",
+      "root_message_id": "msg-1bf23e81f6d2"
+    }
+  ]
+}

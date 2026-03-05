@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2008-05",
+  "messages": [
+    {
+      "id": "msg-1dc729029377",
+      "message_id": "<64D6F100-FFE1-4557-8D0A-5BBA99909CD8@mcmaster.ca>",
+      "from_name": "John Fox",
+      "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
+      "date": "2008-05-27T23:02:14-04:00",
+      "subject": "R News, volume 8, issue 1 is now available",
+      "subject_clean": "R News, volume 8, issue 1 is now available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R users,\nThe May 2008 issue of `R News' is now available on CRAN under the  \nDocumentation/Newsletter link.\nJohn\n(on behalf of the R News Editorial Board)\n\n--------------------------------------------\nJohn Fox, Professor\nDepartment of Sociology\nMcMaster University\nHamilton ON Canada L8S 4M4\nweb: socserv.mcmaster.ca/jfox",
+      "body_snippet": "Dear R users,\nThe May 2008 issue of `R News' is now available on CRAN under the  \nDocumentation/Newsletter link.\nJohn\n(on behalf of the R News Editorial Board)\n\n---------------------------------------",
+      "thread_id": "thread-1dc729029377",
+      "thread_depth": 0,
+      "month": "2008-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1dc729029377",
+      "subject": "R News, volume 8, issue 1 is now available",
+      "message_count": 1,
+      "participants": [
+        "John Fox"
+      ],
+      "started": "2008-05-27T23:02:14-04:00",
+      "last_reply": "2008-05-27T23:02:14-04:00",
+      "root_message_id": "msg-1dc729029377"
+    }
+  ]
+}

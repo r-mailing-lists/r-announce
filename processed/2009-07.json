@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2009-07",
+  "messages": [
+    {
+      "id": "msg-04376c812d1d",
+      "message_id": "<C6F54C1933C95048825CDED1369A88E8208E143673@MBCLUSTER.xchange.nist.gov>",
+      "from_name": "Mullen, Katharine Megan",
+      "from_email_hash": "41df092c2da931c806f79139c572049b1f7eb1de63a693dd000cfe91f40ba58f",
+      "date": "2009-07-27T10:02:58-04:00",
+      "subject": "useR! 2010",
+      "subject_clean": "useR! 2010",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are happy to announce that the R user conference\n\n   useR! 2010\n\nis scheduled for July 21-23, 2010, and will take place at the campus\nof the National Institute of Standards and Technology (NIST) in\nGaithersburg, Maryland, USA.\n\nAs for the predecessor conferences, the program will consist of two\nparts: invited lectures and user-contributed sessions (abstract\nsubmission will be available online starting from October 2009). Prior\nto the conference, there will be tutorials on R (proposals for\ntutorials should be sent before 2009-11-01).\n\nINVITED LECTURES\n\nInvited speakers will include\n\n        Mark Handcock, Frank Harrell Jr, Friedrich Leisch, Michael Meyer,  \n\tRichard Stallman, Luke Tierney, Diethelm Wuertz.\n\nUSER-CONTRIBUTED SESSIONS\n\nThe sessions will be a platform to bring together R users,\ncontributors, package maintainers and developers in the S spirit that\n`users are developers'. People from different fields will show us how\nthey solve problems with R in fascinating applications.  \nThe sessions are organized by members of the program committee,\nincluding\n\n         Dirk Eddelbuettel, John Fox, Virgilio Gomez-Rubio, \n\t Richard Heiberger, Torsten Hothorn, Aaron King, Jan de Leeuw,\n         Nicholas Lewin-Koh, Andy Liaw, Uwe Ligges, Martin Maechler,\n         Katharine Mullen, Heather Turner, Ravi Varadhan, H. D. Vinod,\n         John Verzani, Alan Zaslavsky, Achim Zeileis.\n\nThe program will cover topics such as\n\n     * Applied Statistics & Biostatistics\n     * Bayesian Statistics\n     * Bioinformatics\n     * Chemometrics and Computational Physics\n     * Data Mining\n     * Econometrics & Finance\n     * Environmetrics & Ecological Modeling\n     * High Performance Computing\n     * Machine Learning\n     * Marketing & Business Analytics\n     * Psychometrics\n     * Robust Statistics\n     * Social network analysis\n     * Spatial Statistics\n     * Statistics in the Social and Political Sciences\n     * Teaching\n     * Visualization & Graphics\n     * and many more.\n\nPRE-CONFERENCE TUTORIALS\n\nBefore the official program, half-day tutorials will be offered on\nTuesday, July 20th.\n\nWe invite R users to submit proposals for three hour tutorials on\nspecial topics on R. The proposals should give a brief description of\nthe tutorial, including goals, detailed outline, justification why the\ntutorial is important, background knowledge required and potential\nattendees. The proposals should be sent before 2009-11-01 to useR-2010\nat R-project.org.\n\nCONFERENCE WEBPAGE\n\nA webpage offering more information is available at\n\n   http://www.R-project.org/useR-2010\n\nIMPORTANT DATES\n\n   2009-10-01\topen submission of abstracts \n   2009-10-01\topen registration\n   2009-11-01\ttutorial submission deadline\n   2010-03-01\tearly registration deadline\n   2010-03-01\tsubmission deadline for abstracts\n   Before 2010-03-15\tnotification of acceptance\n   2010-06-20\tregistration deadline (later registration NOT possible on site) \n   2010-07-20\ttutorials\n   2010-07-21\tconference start\n   2010-07-23\tconference end\n\nWe hope to meet you in Gaithersburg!\n\nThe organizing committee:\n         Nathan Dodder, William Guthrie, Walter Liggett, John Lu,\n         Katharine Mullen, Jonathon Phillips, Antonio Possolo, \n   \t Ravi Varadhan.",
+      "body_snippet": "We are happy to announce that the R user conference\n\n   useR! 2010\n\nis scheduled for July 21-23, 2010, and will take place at the campus\nof the National Institute of Standards and Technology (NIST) in",
+      "thread_id": "thread-04376c812d1d",
+      "thread_depth": 0,
+      "month": "2009-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-04376c812d1d",
+      "subject": "useR! 2010",
+      "message_count": 1,
+      "participants": [
+        "Mullen, Katharine Megan"
+      ],
+      "started": "2009-07-27T10:02:58-04:00",
+      "last_reply": "2009-07-27T10:02:58-04:00",
+      "root_message_id": "msg-04376c812d1d"
+    }
+  ]
+}

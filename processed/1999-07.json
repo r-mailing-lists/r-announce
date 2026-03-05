@@ -1,0 +1,171 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1999-07",
+  "messages": [
+    {
+      "id": "msg-be2b96c03687",
+      "message_id": "<x2wvwjb03f.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1999-07-02T16:25:08+02:00",
+      "subject": "R-0.64.2 is released (well, mostly)",
+      "subject_clean": "R-0.64.2 is released (well, mostly)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-0.64.2.tgz a moment ago.\n\nHowever, due to a configuration error with the new machine at\nAuckland, it is not up for FTP from there just yet. In any case, you\nshouldn't get it from Auckland, but wait for it to be mirrored at a\nCRAN site near you within a day or two.\n\nFor those who are too curious to wait, I've put a copy in\n\n\tftp://blueberry.kubism.ku.dk/pub/R-devel/R-0.64.2.tgz \n\nThere's also a version split in two for floppies and a patch file if\nyou prefer that.\n\n\tFor the R Core Team,\n\n\tPeter D.\n\n\n\nHere is the relevant part of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 0.64.2\n\nNEW FEATURES\n\n    o\tnew target for R installation testing :\t make strict-tests.\n\n    o\tsymnum(x) now nicely codes logical x.\n\n    o\tconvolve() has a new type = c(\"circular\", \"open\", \"filter\")\n\targument allowing more than the only circular convolution.\n\n    o\tpar(xpd) now has three settings:  FALSE (clip to plot region),\n\tTRUE (clip to figure region), or NA (clip to device region).\n\n    o\tzapsmall(x) works for complex x.\n\n    o\tnew global variable R.version.string (for plots & reports).\n\tDeprecated version & Version for new  R.version & R.Version.\n\n    o\tR CMD Rd2dvi  has builtin \"Usage\" help and works for multiple files.\n\tUseful for automatic reference manual of a package.\n\t(doc/manual/lib2tex is more efficient for installed packages, however).\n\n\nBUG FIXES\n\n    o\tpower() is now fully implemented and documented.\n\n    o   A couple of problems with group generic operations.\n\n    o   A bug which meant that it was not possible to add elements\n        to zero length lists in the obvious way has been fixed.\n                x <- list(); x[[1]] <- 10\n                x <- list(); x[[\"a\"]] <- 11\n        both now work.\n\n    o\tsave.image() ignored dot-names. (esp. .First())\n\n    o   lab= argument to plot() misinterpreted by axis() via ... passing\n\n    o\tNULL labels in text() caused segfault\n\n    o   matrix(f,...) with f a factor now coerces to character\n\n    o   documentation errors for substitute and is.vector, minor fixups for\n        trig and nlm \n\n    o\tBackground colours are set properly on X11 devices with \n\tcolortype=\"pseudo\": sometimes they were not allocated separately.\n\n    o\tC() works (again?) for a single argument.\n\n    o\tis.na() didn't work properly for \"list\" arguments.\n\n    o\tsymnum() sometimes failed with arrays of rank >= 3.\n\n    o\tin some cases one could get nonblack color instead of\n\tblack on 2nd x11() window.\n\n    o\tinfluence.measures(.) $ is.influential was wrong on the \n\tcooks.distance.\n\n    o\tprinting of complex NaN/Inf was wrong as well.\n\n    o\tprinting of complex named vectors had a wrong initial space.\n\n    o\tallow trailing space in character->numeric coercion\n\n    o\tlibrary() gave wrong \"masked\" warnings in some cases.\n\n    o\tpar(xpd) semantics were not compatible with S.\n\n    o\trect() output was not clipped in PostScript.\n\n    o\tpar(pin=c(width, height)) was behaving as par(pin=c(width, width)).\n\n    o\tNon-blank separated data files didn't have their 1st field\n\thandled properly.\n\n    o\t\"aux\" directory moved to \"tools\" to avoid difficulties on\n\tWindows.\n\n    o\tstructure() clobbered factors with missing levels.\n\n    o\tpmatch() misbehaved on duplicate matches.\n\n    o\tR CMD Rd2dvi <file.Rd> works again.\n\n    o\tlogical binops tried to set time series parameters before dimensions.\n\n    o\tupped the BUFSIZE in model.c (NOT proper long-term solution).\n\n    o\tdput(), dump() and deparse()  now always use DBL_DIG (=15) digits\n\tfor numeric formatting.\n\n    o\tchull() now works for vertical borders, such as in chull(c(1,1,2),3:1).\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-0.64.2.tgz a moment ago.\n\nHowever, due to a configuration error with the new machine at\nAuckland, it is not up for FTP from there just yet. In any case, you\nshouldn't get it from Auck",
+      "thread_id": "thread-be2b96c03687",
+      "thread_depth": 0,
+      "month": "1999-07"
+    },
+    {
+      "id": "msg-c9d5a1e27ae0",
+      "message_id": "<14209.59548.671786.553380@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1999-07-06T13:29:32+02:00",
+      "subject": "R 0.64.2 at CRAN",
+      "subject_clean": "R 0.64.2 at CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\ndue to some FTP problems in Auckland and me not being in office\nyesterday R 0.64.2 took some time to travel from Denmark to New\nZealand and then back to Europe ... but now it is finally available at\nthe CRAN master site\n\n\thttp://www.ci.tuwien.ac.at/R\n\nhere in Vienna and it should propagate to the\nvarious miroors within the next 24 hours or so.\n\nBest,\nFritz\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\ndue to some FTP problems in Auckland and me not being in office\nyesterday R 0.64.2 took some time to travel from Denmark to New\nZealand and then back to Europe ... but now it is finally available",
+      "thread_id": "thread-c9d5a1e27ae0",
+      "thread_depth": 0,
+      "month": "1999-07"
+    },
+    {
+      "id": "msg-61efe91bba99",
+      "message_id": "<199907061640.LAA54480@mean.stat.purdue.edu>",
+      "from_name": "Chong Gu",
+      "from_email_hash": "d33adf3cbf719825a60530324abb0b76a44f89d6dbd571cefcdb32ea7c686d6a",
+      "date": "1999-07-06T11:40:14-05:00",
+      "subject": "New smoothing spline package gss",
+      "subject_clean": "New smoothing spline package gss",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear fellow R users,\n\nI just uploaded a new package gss to ftp.ci.tuwien.ac.at.  The package\nname gss stands for General Smoothing Spline.\n\nIn the current version (0.4-1), it handles nonparametric multivariate\nregression with Gaussian, Binomial, Poisson, Gamma, Inverse Gaussian,\nand Negative Binomial responses.  I am still working on code for\ndensity estimation and hazard rate estimation to be made available in\nfuture releases.\n\nOn the modeling side, gss uses tensor-product smoothing splines to\nconstruct nonparametric ANOVA structures using cubic spline, linear\nspline, and thin-plate spline marginals.  The popular\n(main-effect-only) additive models are special cases of nonparametric\nANOVA models.  The syntax of gss functions resembles that of the lm\nand glm suites.\n\nAmong new features that are not available from other spline packages\nare the standard errors needed for the construction of Wahba's Bayesian\nconfidence intervals for smoothing spline fits, so you may want to try\nout gss even if you only wants to calculate a univariate cubic spline\nor a single term thin-plate spline.\n\nFor those familiar with smoothing splines, gss is a front end to\nRKPACK, which encodes O(n^3) generic algorithms for reproducing kernel\nbased smoothing spline calculation.\n\nReports on bugs and suggestions for improvements/new features are most\nwelcome.\n\nChong Gu \n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear fellow R users,\n\nI just uploaded a new package gss to ftp.ci.tuwien.ac.at.  The package\nname gss stands for General Smoothing Spline.\n\nIn the current version (0.4-1), it handles nonparametric mul",
+      "thread_id": "thread-61efe91bba99",
+      "thread_depth": 0,
+      "month": "1999-07"
+    },
+    {
+      "id": "msg-38b0793a6b72",
+      "message_id": "<19990707112029.33708@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "1999-07-07T11:20:29+01:00",
+      "subject": "Win9X/NT binaries updated",
+      "subject_clean": "Win9X/NT binaries updated",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A binary distribution of R-0.64.2 for Windows is available at \nCRAN/bin/windows/windows-NT.\nThere are few Windows-specific enhancements: rw0642 (and R-0.64.2) is\na bug-fixing release.\n\nCHANGES\n=======\n\nIf options(pager=\"console\") then files are listed in the console\nwindow, as happened prior to rw0640.\n\nOn request, we have enabled `pagerstyle = singlewindow' in MDI mode,\nalthough we do not recommend this combination.\n\nThe file HOME\\.Renviron is read (it was HOME\\Renviron, and the\ndocumentation used both names). Only the last line was successfully\nprocessed in rw0641, but all lines are in this version.\n\nunlink() on non-existent files no longer causes a crash.\n\nThe new function win.version() will report details of the run-time\nWindows version, principally for use in bug.report().\n\nbug.report() has a new argument wait: wait=FALSE gives a non-modal editor\nscreen.\n\nGenerally TAB will move between fields in dialog boxes, and return and\nescape will work (selecting OK and Cancel) in the Change Directory\ndialog box.\n\nThe installer will allow several packages to be selected, and will\ninstall them in sequence. It should give more informative messages on\nsome error conditions. Usually return will select Next or Finish,\nescape will select Cancel and B Back.\n\nThere is a new target `make check' for running the standard tests and \nchecking the standard packages (as on Unix).\n\nSaving the content of a graphic device as GIF should work again \n(saving of an image with less than 256 colours was broken in rw0641).\n \n\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A binary distribution of R-0.64.2 for Windows is available at \nCRAN/bin/windows/windows-NT.\nThere are few Windows-specific enhancements: rw0642 (and R-0.64.2) is\na bug-fixing release.\n\nCHANGES\n=======",
+      "thread_id": "thread-38b0793a6b72",
+      "thread_depth": 0,
+      "month": "1999-07"
+    },
+    {
+      "id": "msg-17a5140da7d3",
+      "message_id": "<3784CFDC.C81BC8E6@wu-wien.ac.at>",
+      "from_name": "Adrian Trapletti",
+      "from_email_hash": "94097c27a99323f538fdba5c7db04b652799b5fec72edc3301703c27d28303fb",
+      "date": "1999-07-08T16:20:44Z",
+      "subject": "new time series package available",
+      "subject_clean": "new time series package available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Fritz just put the first version of a new time series package to the\ncontrib section at CRAN.\nThe package is called \"tseries.tgz\" and provides a library for time\nseries analysis. It contains\n\nacf                      Autocorrelation Function\nadf.test                 Augmented Dickey-Fuller Test\namif                     Auto Mutual Information Function\nbds.test                 BDS Test\nbox.test                 Box-Pierce and Box-Ljung Test\nccf                      Crosscorrelation Function\ncross spectra            Cross Spectra Estimation (cross spectrum,\n                         cospectrum, quadrature spectrum, amplitude\nspectrum,\n                         phase spectrum, and absolute coherency\nestimation)\ncumulative.periodogram   Cumulative Periodogram\nembed                    Embedding a Time Series\nfinance                  Daily Closing Prices of Major European Stock\n                         Indices, 1991-1998.\nintgrt                   Discrete Integrals\nis.univariate.ts         Test for Univariate Time Series\nkernel                   Smoothing Kernel Objects\npacf                     Partial Autocorrelation Function\nportfolio.optim          Portfolio Optimization\npp.test                  Phillips-Perron Unit Root Test\nprint.bdstest            Print BDS Test\nquadmap                  Quadratic Map (Logistic Equation)\nread.matrix              Read Matrix Data\nread.ts                  Read Time Series Data\nruns.test                Runs Test\nsales                    Sales Data with Leading Indicator.\nspectrum                 Spectrum Estimation\nsunspot                  Yearly Sunspot Data, 1700-1988.   Monthly\n                         Sunspot Data, 1749-1997.\nsurrogate                Generate Surrogate Data\ntoeplitz                 Form Symmetric Toeplitz Matrix\ntreering                 Yearly Treering Data, -6000-1979.\ntsparam                  Time Series Paramater Object\n\nand should be more or less well documented. The library is a port of a\npart of my\noctave time series library, and, at the moment it does not contain\nroutines for\nestimating particular time series models. However, I plan to port my VAR\nroutines (Johansen\nMLE methodology) and to implement MLE of ARMA models within the next few\nmonths. Finally,\nthanks to Ross: I used some of his ideas to implement the \"tsparam\" and\nthe \"kernel\" classes.\n\nTesting, suggestions, and comments are welcome!\n\nAdrian\n\n--\nAdrian Trapletti, Vienna University of Economics and Business\nAdministration, Augasse 2-6, A-1090 Vienna, Austria\nPhone: ++43 1 31336 4561, Fax: ++43 1 31336 708,\nEmail: adrian.trapletti at wu-wien.ac.at\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Fritz just put the first version of a new time series package to the\ncontrib section at CRAN.\nThe package is called \"tseries.tgz\" and provides a library for time\nseries analysis. It contains\n\nacf     ",
+      "thread_id": "thread-17a5140da7d3",
+      "thread_depth": 0,
+      "month": "1999-07"
+    },
+    {
+      "id": "msg-76f344657e74",
+      "message_id": "<14220.15753.113683.711700@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1999-07-14T09:34:33+02:00",
+      "subject": "CRAN Vienna shutdowns",
+      "subject_clean": "CRAN Vienna shutdowns",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\ndu to construction work in our rooms and some hardware/software\nupgrades the CRAN master site in Vienna will be down several times\nwithin the next fortnight.\n\nFirst shutdown will be this afternoon, when we relocate the server to\nanother room. Another shutdown will be during most of Sunday, when the\ncomplete building will have no electricity at all.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\ndu to construction work in our rooms and some hardware/software\nupgrades the CRAN master site in Vienna will be down several times\nwithin the next fortnight.\n\nFirst shutdown will be this afternoo",
+      "thread_id": "thread-76f344657e74",
+      "thread_depth": 0,
+      "month": "1999-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-be2b96c03687",
+      "subject": "R-0.64.2 is released (well, mostly)",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1999-07-02T16:25:08+02:00",
+      "last_reply": "1999-07-02T16:25:08+02:00",
+      "root_message_id": "msg-be2b96c03687"
+    },
+    {
+      "id": "thread-61efe91bba99",
+      "subject": "New smoothing spline package gss",
+      "message_count": 1,
+      "participants": [
+        "Chong Gu"
+      ],
+      "started": "1999-07-06T11:40:14-05:00",
+      "last_reply": "1999-07-06T11:40:14-05:00",
+      "root_message_id": "msg-61efe91bba99"
+    },
+    {
+      "id": "thread-c9d5a1e27ae0",
+      "subject": "R 0.64.2 at CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1999-07-06T13:29:32+02:00",
+      "last_reply": "1999-07-06T13:29:32+02:00",
+      "root_message_id": "msg-c9d5a1e27ae0"
+    },
+    {
+      "id": "thread-38b0793a6b72",
+      "subject": "Win9X/NT binaries updated",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1999-07-07T11:20:29+01:00",
+      "last_reply": "1999-07-07T11:20:29+01:00",
+      "root_message_id": "msg-38b0793a6b72"
+    },
+    {
+      "id": "thread-17a5140da7d3",
+      "subject": "new time series package available",
+      "message_count": 1,
+      "participants": [
+        "Adrian Trapletti"
+      ],
+      "started": "1999-07-08T16:20:44+00:00",
+      "last_reply": "1999-07-08T16:20:44+00:00",
+      "root_message_id": "msg-17a5140da7d3"
+    },
+    {
+      "id": "thread-76f344657e74",
+      "subject": "CRAN Vienna shutdowns",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1999-07-14T09:34:33+02:00",
+      "last_reply": "1999-07-14T09:34:33+02:00",
+      "root_message_id": "msg-76f344657e74"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2010-12",
+  "messages": [
+    {
+      "id": "msg-f96bad57b23d",
+      "message_id": "<BA61CFBC-F5D6-4A0D-A632-DAD852E13FA0@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2010-12-06T11:19:37+01:00",
+      "subject": "R 2.12.1 scheduled for December 16 ",
+      "subject_clean": "R 2.12.1 scheduled for December 16",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.12.1 on Thursday,\nDecember 16, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) via\n\nhttp://cran.r-project.org/src/base-prerelease/\n\n For the R Core Team\n Peter Dalgaard\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "This is to announce that we plan to release R version 2.12.1 on Thursday,\nDecember 16, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-check",
+      "thread_id": "thread-f96bad57b23d",
+      "thread_depth": 0,
+      "month": "2010-12"
+    },
+    {
+      "id": "msg-7425fefa6726",
+      "message_id": "<36B535C9-D476-450F-96FA-A85158C416B7@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2010-12-16T10:35:01+01:00",
+      "subject": "[R] R 2.12.1 is released",
+      "subject_clean": "R 2.12.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.12.1.tar.gz a short while ago. This is an update release, which fixes a number of mostly minor issues, and some consolidation within the area of reference classes. The most serious issues were probably that we were not catching misspelled NAMESPACE directives and not catching accidentally unnamed switch() arguments (notice that fixing either will likely uncover errors in preexisting code) \n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.12.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n     For the R Core Team\n\n     Peter Dalgaard\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nMD5 (AUTHORS) = ac9746b4845ae866661f51cfc99262f5\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = 49b596b26b3e5c082dfde8bacfdffcb0\nMD5 (INSTALL) = 70447ae7f2c35233d3065b004aa4f331\nMD5 (NEWS) = 453317871e758763aa9bf385b545bdc6\nMD5 (ONEWS) = 0c3e10eef74439786e5fceddd06dac71\nMD5 (OONEWS) = 58d5b3b614888a6e366ff0c60073584f\nMD5 (R-latest.tar.gz) = 078e8d1179fc9a762e326e6da2725468\nMD5 (README) = 296871fcf14f49787910c57b92655c76\nMD5 (RESOURCES) = 020479f381d5f9038dcb18708997f5da\nMD5 (THANKS) = f2ccf22f3e20ebaa86f8ee5cc6b0f655\nMD5 (R-2/R-2.12.1.tar.gz) = 078e8d1179fc9a762e326e6da2725468\n\n\nThis is the relevant part of the NEWS file:\n\nR News\n\nCHANGES IN R VERSION 2.12.1:\n\n  NEW FEATURES:\n\n    ? The DVI/PDF reference manual now includes the help pages for all\n      the standard packages: splines, stats4 and tcltk were previously\n      omitted (intentionally).\n\n    ? <URL: http://www.rforge.net> has been added to the default set of\n      repositories known to setRepositories().\n\n    ? xz-utils has been updated to version 5.0.0.\n\n    ? reshape() now makes use of sep when forming names during\n      reshaping to wide format.  (PR#14435)\n\n    ? legend() allows the length of lines to be set by the end user\n      _via_ the new argument seg.len.\n\n    ? New reference class utility methods copy(), field(),\n      getRefClass() and getClass() have been added.\n\n    ? When a character value is used for the EXPR argument in switch(),\n      a warning is given if more than one unnamed alternative value is\n      given.  This will become an error in R 2.13.0.\n\n    ? StructTS(type = \"BSM\") now allows series with just two seasons.\n      (Reported by Birgit Erni.)\n\n  INSTALLATION:\n\n    ? The PDF reference manual is now built as PDF version 1.5 with\n      object compression, which on platforms for which this is not the\n      default (notably MiKTeX) halves its size.\n\n    ? Variable FCLIBS can be set during configuration, for any\n      additional library flags needed when linking a shared object with\n      the Fortran 9x compiler.  (Needed with Solaris Studio 12.2.)\n\n  BUG FIXES:\n\n    ? seq.int() no longer sometimes evaluates arguments twice.\n      (PR#14388)\n\n    ? The data.frame method of format() failed if a column name was\n      longer than 256 bytes (the maximum length allowed for an R name).\n\n    ? predict(<lm object>, type =\"terms\", ...) failed if both terms and\n      interval were specified.  (Reported by Bill Dunlap.)\n\n      Also, if se.fit = TRUE the standard errors were reported for all\n      terms, not just those selected by a non-null terms.\n\n    ? The TRE regular expressions engine could terminate R rather than\n      give an error when given certain invalid regular expressions.\n      (PR#14398)\n\n    ? cmdscale(eig = TRUE) was documented to return n-1 eigenvalues but\n      in fact only returned k.  It now returns all n eigenvalues.\n\n      cmdscale(add = TRUE) failed to centre the return configuration\n      and sometimes lost the labels on the points.  Its return value\n      was described wrongly (it is always a list and contains component\n      ac).\n\n    ? promptClass() in package methods now works for reference classes\n      and gives a suitably specialized skeleton of documentation.\n\n      Also, callSuper() now works via the methods() invocation as well\n      as for initially specified methods.\n\n    ? download.file() could leave the destination file open if the URL\n      was not able to be opened.  (PR#14414)\n\n    ? Assignment of an environment to functions or as an attribute to\n      other objects now works for S4 subclasses of \"environment\".\n\n    ? Use of [[<- for S4 subclasses of \"environment\" generated an\n      infinite recursion from the method.  The method has been replaced\n      by internal code.\n\n    ? In a reference class S4 method, callSuper() now works in\n      initialize() methods when there is no explicit superclass method.\n\n    ? ! dropped attributes such as names and dimensions from a\n      length-zero argument.  (PR#14424)\n\n    ? When list2env() created an environment it was missing a PROTECT\n      call and so was vulnerable to garbage collection.\n\n    ? Sweave() with keep.source=TRUE dropped comments at the start and\n      end of code chunks.  It could also fail when \\SweaveInput was\n      combined with named chunks.\n\n    ? The Fortran code used by nls(algorithm = \"port\") could\n      infinite-loop when compiled with high optimization on a modern\n      version of gcc, and SAFE_FFLAGS is now used to make this less\n      likely.  (PR#14427, seen with 32-bit Windows using gcc 4.5.0 used\n      from R 2.12.0.)\n\n    ? sapply() with default simplify = TRUE and mapply() with default\n      SIMPLIFY = TRUE wrongly simplified language-like results, as,\n      e.g., in mapply(1:2, c(3,7), FUN = function(i,j) call(':',i,j)).\n\n    ? Backreferences to undefined patterns in [g]sub(pcre = TRUE) could\n      cause a segfault.  (PR#14431)\n\n    ? The format() (and hence the print()) method for class \"Date\"\n      rounded fractional dates towards zero: it now always rounds them\n      down.\n\n    ? Reference S4 class creation could generate ambiguous inheritance\n      patterns under very special circumstances.\n\n    ? [[<- turned S4 subclasses of \"environment\" into plain\n      environments.\n\n    ? Long titles for help pages were truncated in package indices and\n      a few other places.\n\n    ? Additional utilities now work correctly with S4 subclasses of\n      \"environment\" (rm, locking tools and active bindings).\n\n    ? spec.ar() now also work for the \"ols\" method.  (Reported by\n      Hans-Ruedi Kuensch.)\n\n    ? The initialization of objects from S4 subclasses of \"environment\"\n      now allocates a new environment object.\n\n    ? R CMD check has more protection against (probably erroneous)\n      example or test output which is invalid in the current locale.\n\n    ? qr.X() with column names and pivoting now also pivots the column\n      names.  (PR#14438)\n\n    ? unit.pmax() and unit.pmin() in package grid gave incorrect\n      results when all inputs were of length 1.  (PR#14443)\n\n    ? The parser for NAMESPACE files ignored misspelled directives,\n      rather than signalling an error.  For 2.12.x a warning will be\n      issued, but this will be correctly reported as an error in later\n      releases. (Reported by Charles Berry.)\n\n    ? Fix for subsetting of \"raster\" objects when only one of i or j is\n      specified.\n\n    ? grid.raster() in package grid did not accept \"nativeRaster\"\n      objects (like rasterImage() does).\n\n    ? Rendering raster images in PDF output was resetting the clipping\n      region.\n\n    ? Rendering of raster images on Cairo X11 device was wrong,\n      particularly when a small image was being scaled up using\n      interpolation.\n\n      With Cairo < 1.6, will be better than before, though still a\n      little clunky.  With Cairo >= 1.6, should be sweet as.\n\n    ? Several bugs fixed in read.DIF(): single column inputs caused\n      errors, cells marked as \"character\" could be converted to other\n      types, and (in Windows) copying from the clipboard failed.\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "I've rolled up R-2.12.1.tar.gz a short while ago. This is an update release, which fixes a number of mostly minor issues, and some consolidation within the area of reference classes. The most serious ",
+      "thread_id": "thread-7425fefa6726",
+      "thread_depth": 0,
+      "month": "2010-12"
+    },
+    {
+      "id": "msg-2b7a3c32a55a",
+      "message_id": "<9DFEF59F-1FEE-4CF3-B360-F987CAC98F1D@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2010-12-30T23:37:20+01:00",
+      "subject": "[R] The R Journal, Vol.2 Issue 2",
+      "subject_clean": "The R Journal, Vol.2 Issue 2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The second issue of the second volume of The R Journal is now available at http://journal.r-project.org/current.html. Thanks to everyone involved.\n\nNext year, Heather Turner will be Editor-in-chief, and Hadley Wickham joins the Editorial Board, and Vince Carey leaves us.\n\nPeter Dalgaard\nEditor-in-chief\n\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "The second issue of the second volume of The R Journal is now available at http://journal.r-project.org/current.html. Thanks to everyone involved.\n\nNext year, Heather Turner will be Editor-in-chief, a",
+      "thread_id": "thread-2b7a3c32a55a",
+      "thread_depth": 0,
+      "month": "2010-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f96bad57b23d",
+      "subject": "R 2.12.1 scheduled for December 16",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2010-12-06T11:19:37+01:00",
+      "last_reply": "2010-12-06T11:19:37+01:00",
+      "root_message_id": "msg-f96bad57b23d"
+    },
+    {
+      "id": "thread-7425fefa6726",
+      "subject": "R 2.12.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2010-12-16T10:35:01+01:00",
+      "last_reply": "2010-12-16T10:35:01+01:00",
+      "root_message_id": "msg-7425fefa6726"
+    },
+    {
+      "id": "thread-2b7a3c32a55a",
+      "subject": "The R Journal, Vol.2 Issue 2",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2010-12-30T23:37:20+01:00",
+      "last_reply": "2010-12-30T23:37:20+01:00",
+      "root_message_id": "msg-2b7a3c32a55a"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2009-12",
+  "messages": [
+    {
+      "id": "msg-7292275dcc68",
+      "message_id": "<4B14F59C.1020201@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2009-12-01T11:53:16+01:00",
+      "subject": "R 2.10.1 Scheduled for December 14, 2009",
+      "subject_clean": "R 2.10.1 Scheduled for December 14, 2009",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.10.1 on Monday,\nDecember 14, 2009.\n\nRelease procedures start Friday, December 4.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) and the tarballs can be picked up at\n\nhttp://cran.r-project.org/src/base-prerelease/\n\na little later.\n\nBinary builds are expected to appear starting Monday, December 7 at the\nlatest.\n\n    For the Core Team\n    Peter Dalgaard\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "This is to announce that we plan to release R version 2.10.1 on Monday,\nDecember 14, 2009.\n\nRelease procedures start Friday, December 4.\n\nThose directly involved should review the generic schedule at\n",
+      "thread_id": "thread-7292275dcc68",
+      "thread_depth": 0,
+      "month": "2009-12"
+    },
+    {
+      "id": "msg-2a2065a8ca1a",
+      "message_id": "<4B261164.6070008@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2009-12-14T11:20:20+01:00",
+      "subject": "R 2.10.1 is released",
+      "subject_clean": "R 2.10.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R-2.10.1.tar.gz was built a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor issues.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.10.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course.\n\n\n        For the R Core Team\n\n        Peter Dalgaard\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n70447ae7f2c35233d3065b004aa4f331  INSTALL\n433182754c05c2cf7a04ad0da474a1d0  README\n4f004de59e24a52d0f500063b4603bcb  OONEWS\nff4bd9073ef440b1eb43b1428ce96872  ONEWS\n08687cc1d9e5bb23875c1182f9f9cb2d  NEWS\nd80a5c5808f038b36f79d8f0defaa0b9  THANKS\n070cca21d9f8a6af15f992edb47a24d5  AUTHORS\na6f89e2100d9b6cdffcea4f398e37343  COPYING.LIB\neb723b61539feef013de476e68b5c50a  COPYING\n020479f381d5f9038dcb18708997f5da  RESOURCES\n4219bfcf875f995b84e5aebb1e02f3a5  FAQ\n75f8b7e875b846ea96a4c6cc0abc00a4  R-2.10.1.tar.gz\n75f8b7e875b846ea96a4c6cc0abc00a4  R-latest.tar.gz\n\n\n\nHere is the relevant part of the NEWS file:\n\n                CHANGES IN R VERSION 2.10.1\n\nNEW FEATURES\n\n    o   The PCRE library has been updated to version 8.00.\n\n    o   R CMD INSTALL has new options --no-R, --no-libs, --no-data,\n        --no-help, --no-demo, --no-exec, and --no-inst to suppress\n        installation of the specified part of the package.  These are\n        intended for special purposes (e.g. building a database\n        of help pages without fully installing all packages).\n\n    o   The documented line-length limit of 4095 bytes when reading\n        from the console now also applies also to parse(file=\"\")\n        (which previously had a limit of around 1024 bytes).\n\n    o   A Bioconductor mirror can be set for use by setRepositories()\n        via the option \"BioC_mirror\", e.g. the European mirror can be\n        selected by\n        options(BioC_mirror=\"http://bioconductor.statistik.tu-dortmund.de\")\n\n    o   Double-clicking in a tk_select.list() list box now selects the\n        item and closes the list box (as happens on the Windows\n        select.list() widget).\n\nINSTALLATION\n\n    o   configure will be able to find a usable libtiff in some rare\n        circumstances where it did not previously (where libtiff\n        needed to be linked explicitly against -ljpeg).\n\n    o   Making refman.pdf works around a problem with the indexing\n        with hyperref 6.79d and later.\n\nDEPRECATED & DEFUNCT\n\n    o   The 'extended' argument is deprecated in strsplit(), grep(),\n        grepl(), sub(), gsub(), regexpr() and gregexpr() (not just the\n        value extended = FALSE) and will be removed in R 2.11.0.\n\nBUG FIXES\n\n    o   trigamma(x) and other psigamma(x, n) calls are now accurate for\n        very large abs(x). (PR#14020)\n\n    o   [g]sub(perl=FALSE, fixed=FALSE) could use excessive stack space\n        when used with a very long vector containing some non-ASCII\n        strings.\n\n    o   The default method of weighted.mean(na.rm = TRUE) did not omit\n        weights for NA observations in 2.10.0.  (PR#14032)\n\n    o   [g]regexpr(pattern, fixed = TRUE) returned match positions in\n        bytes (not characters) in an MBCS locale if 'pattern' was a\n        single byte.\n\n        [g]sub(fixed = TRUE) with a single-byte pattern could\n        conceivably have matched part of a multibyte character in a\n        non-UTF-8 MBCS.\n\n    o   findLineNum() and setBreakpoint() would sometimes fail if the\n        specified file was not in the current directory.\n\n    o   Package tcltk's demo(tkdensity) was broken in 2.9.0 when demo()\n        was changed to set par(ask = TRUE).\n\n    o   gsub() with backrefs could fail on extremely long strings\n        (hundreds of thousands of characters) due to integer overflow\n        in a length calculation.\n\n    o   abline(*, untf=TRUE) now uses a better x-grid in log-scale, e.g.,\n        for plot(c(1,300), c(1,300), log=\"xy\") ; abline(4,1, untf=TRUE).\n\n    o   detach/unloadNamespace() arrange to flush the package's\n        lazyload cache of R objects once the package/namespace is no\n        longer needed.\n\n    o   There have been small fixes to the rendering of help,\n        e.g. \\command is now rendered verbatim (so e.g. -- is not\n        interpreted, PR#14045).\n\n        Also, there are many small changes to help files where the new\n        converters were not rendering them in the same way as before.\n\n    o   available.packages() would fail when run on a repository\n        with no packages meeting the filtering conditions. (PR#14042)\n\n    o   rep(x, times, each = 2) gave invalid results when the 'times'\n        argument is a vector longer than 'x'.  Reported by Bill Dunlap.\n\n    o   An error when unloadNamespace() attempted to run the .onUnload()\n        function gave an error in the reporting function and so was\n        not reported properly.\n\n    o   Text help rendering did not handle very long input lines\n        properly.\n\n    o   promptMethods() generated signature documentation improperly.\n\n    o   pgamma(x, a, lower.tail=FALSE) and qgamma(..) are now\n        considerably more accurate in some regions for very small 'a'.\n        qgamma() now correctly returns 0 instead of NaN in similar\n        extreme cases, and qgamma() no longer warns in the case of\n        small 'a', see (PR#12324).\n\n    o   unname() now also removes names from a zero length vector.\n\n    o   Printing results from ls.str() no longer evaluates unevaluated\n        calls.\n\n    o   complete.cases() failed on a 0-column data frame argument.\n        (Underlies PR#14066.)\n\n        It could return nonsensical results if no input determined the\n        number of cases (seen in the no-segfault tests).\n\n    o   An error in nls() with a long formula could cause a segfault.\n        (PR#14059)\n\n    o   qchisq(p, df, ncp, lower.tail = FALSE) with ncp >= 80 was\n        inaccurate for small p (as the help page said): it is now\n        less inaccurate. (In part, PR#13999.)\n\n        For ncp less than but close to 80, pchisq() and qchisq() are\n        more accurate for probablilities very close to 1 (a series\n        expansion was truncated slightly too early).\n\n        pchisq(x, df, ncp) can no longer return values just larger\n        than one for large values of ncp.\n\n    o   intToUtf8() could fail when asked to produce 10Mb or more\n        strings, something it was never intended to do: unfortunately\n        Windows crashed R (other OSes reported a lack of resources).\n        (PR#14068)\n\n    o   chisq.test() could fail when given argument 'x' or 'y' which\n        deparsed to more than one line.  (Reported by Laurent Gauthier.)\n\n    o   S4 methods are uncached whenever the name space containing\n        them is unloaded (by unloadNamespace() as well as by\n        detach(unload = TRUE)).\n\n    o   The internal record-keeping by dyn.load/dyn.unload was\n        incomplete, which could crash R if a DLL that registered\n        .External routines had earlier been unloaded.\n\n    o   bessel[JY](x, nu) with nu a negative integer (a singular case)\n        is now correct, analogously to besselI(), see PR#13556, below.\n\n    o   tools::file_path_as_absolute() doubled the file separator when\n        applied to a file such as \"/vmunix\" or (on Windows) \"d:/afile\"\n        in a directory for which getwd() would return a path with a\n        trailing separator (largely cosmetic, as reasonable file\n        systems handle such a path correctly).  (Perhaps what was\n        meant by PR#14078.)\n\n    o   unsplit(drop = TRUE) applied to a data frame failed to pass\n        'drop' to the computation of row names. (PR#14084)\n\n    o   The \"difftime\" method of mean() ignored its 'na.rm' argument.\n\n    o   tcltk::tk_select.list() is now more likely to remove the\n        widget immediately after selection is complete.\n\n    o   Adding/subtracting a \"difftime\" object to/from a \"POSIXt\" or\n        \"Date\" object works again (it was broken by the addition of\n        Ops.difftime).\n\n    o   Conversion to latex of an Rd file with no aliases failed.\n\n    o   wilcox.test(*, conf.int=TRUE) has achieved.level corrected and, for\n        exact=FALSE, now gives an 'estimate' which does not depend on the\n        alternative used.\n\n    o   help.search() failed when the package argument was specified.\n        (PR#14113)\n\n    o   switch(EXPR = \"A\")  now returns NULL, as switch(1) {which used to\n        signal an error}.\n\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "R-2.10.1.tar.gz was built a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor issues.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-project.",
+      "thread_id": "thread-2a2065a8ca1a",
+      "thread_depth": 0,
+      "month": "2009-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7292275dcc68",
+      "subject": "R 2.10.1 Scheduled for December 14, 2009",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-12-01T11:53:16+01:00",
+      "last_reply": "2009-12-01T11:53:16+01:00",
+      "root_message_id": "msg-7292275dcc68"
+    },
+    {
+      "id": "thread-2a2065a8ca1a",
+      "subject": "R 2.10.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-12-14T11:20:20+01:00",
+      "last_reply": "2009-12-14T11:20:20+01:00",
+      "root_message_id": "msg-2a2065a8ca1a"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2018-08",
+  "messages": [
+    {
+      "id": "msg-f788f043209b",
+      "message_id": "<CADx-4xCkTFEKFZxryVfSvwwQ7+kHt9O1Lup-Tkm840UxHiLaQw@mail.gmail.com>",
+      "from_name": "John Verzani",
+      "from_email_hash": "dedf076b804511a6f7c7095c493f97550dbfcdaa588ef93e4f5624008e5349f8",
+      "date": "2018-08-08T09:55:37-04:00",
+      "subject": "[ANN] New issue of The R Journal",
+      "subject_clean": "[ANN] New issue of The R Journal",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nThe latest issue of The R Journal is now available at:\n\nhttps://journal.r-project.org/archive/2018-1/.\n\nMany thanks to all contributors - especially reviewers and authors.\n\nRegards,\n\nJohn Verzani\nCUNY/College of Staten Island\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Dear All,\n\nThe latest issue of The R Journal is now available at:\n\nhttps://journal.r-project.org/archive/2018-1/.\n\nMany thanks to all contributors - especially reviewers and authors.\n\nRegards,\n\nJohn V",
+      "thread_id": "thread-f788f043209b",
+      "thread_depth": 0,
+      "month": "2018-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f788f043209b",
+      "subject": "[ANN] New issue of The R Journal",
+      "message_count": 1,
+      "participants": [
+        "John Verzani"
+      ],
+      "started": "2018-08-08T09:55:37-04:00",
+      "last_reply": "2018-08-08T09:55:37-04:00",
+      "root_message_id": "msg-f788f043209b"
+    }
+  ]
+}

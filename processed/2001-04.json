@@ -1,0 +1,387 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-04",
+  "messages": [
+    {
+      "id": "msg-7c620ad8fa04",
+      "message_id": "<3ADD62CF.D9905314@stat.auckland.ac.nz>",
+      "from_name": "Ross Ihaka",
+      "from_email_hash": "04ecc52df29664f6d7d78462a431210f1fc44efa859cdf5ba96c05176d368866",
+      "date": "2001-04-18T21:47:59+12:00",
+      "subject": "New R Core Member",
+      "subject_clean": "New R Core Member",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I would like (somewhat belatedly) to announce that Steffano Iacus\nhas joined the R-core group, and will oversee the Macintosh port(s)\nfor R.  Steffano has done a stirling job of bringing the of Mac\nport into line with the other ports.\n\nWell done Steffano, and welcome aboard!\n\n\n-- \nRoss Ihaka                         Email:  ihaka at stat.auckland.ac.nz\nDepartment of Statistics           Phone:  (64-9) 373-7599 x 5054\nUniversity of Auckland             Fax:    (64-9) 373-7018\nPrivate Bag 92019, Auckland\nNew Zealand\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I would like (somewhat belatedly) to announce that Steffano Iacus\nhas joined the R-core group, and will oversee the Macintosh port(s)\nfor R.  Steffano has done a stirling job of bringing the of Mac\npo",
+      "thread_id": "thread-7c620ad8fa04",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-1945614c781f",
+      "message_id": "<200104221555.IAA98495@pine.frazmtn.com>",
+      "from_name": "Jan de Leeuw",
+      "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
+      "date": "2001-04-22T08:54:51-07:00",
+      "subject": "new Darwin/X11 builds",
+      "subject_clean": "new Darwin/X11 builds",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "New MacOS X (Darwin with X11R6) builds are at\n\nhttp://www.stat.ucla.edu/~deleeuw/R\n\nThese include some dylibs that were missing from previous\nbuilds. One is of R-1.2.2 (patched), the other of R-devel\n(with many add-on libraries included).\n\nYou do need some version of X11 (I use Xtools, they tell me\nXfree also works) installed.\n\nIf something does not work for you, drop me an email.\n===\nJan de Leeuw; Professor and Chair, UCLA Department of Statistics;\nUS mail: 9432 Boulter Hall, Box 951554, Los Angeles, CA 90095-1554\nphone (310)-825-9550;  fax (310)-206-5658;  email: deleeuw at stat.ucla.edu\n    http://www.stat.ucla.edu/~deleeuw and http://home1.gte.net/datamine/\n========================================================\n          No matter where you go, there you are. --- Buckaroo Banzai\n                   http://www.stat.ucla.edu/sounds/nomatter.au\n========================================================\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "New MacOS X (Darwin with X11R6) builds are at\n\nhttp://www.stat.ucla.edu/~deleeuw/R\n\nThese include some dylibs that were missing from previous\nbuilds. One is of R-1.2.2 (patched), the other of R-devel\n",
+      "thread_id": "thread-1945614c781f",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-e030449721a2",
+      "message_id": "<3AE5573D.FE48A63@fmrib.ox.ac.uk>",
+      "from_name": "Didier Leibovici",
+      "from_email_hash": "1244ff647a497583dfb38cdce343da3ee5bc1406a857a46609570ab1b07c04b7",
+      "date": "2001-04-24T11:36:45+01:00",
+      "subject": "New Package Released: PTAk ",
+      "subject_clean": "New Package Released: PTAk",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "PTAk_1.1-1 ( Principal Tensor Analysis on k modes) has been released on\nCRAN\n            A multiway method to decompose a tensor (array) of any\norder,\n             as a generalisation of SVD also supporting non-identity\nmetrics and penalisations.\n             2-way SVD with these extensions is also available. The\npackage includes also some other multiway\n             methods: PCAn (Tucker-n) and PARAFAC/CANDECOMP with these\nextensions.\n\nplease send comments\n+ looking for nice not too big multi-arrays for the next release demos\n\nDidier\n--\n  Didier G. Leibovici    didier at fmrib.ox.ac.uk    +44 (0)1865 222 739\nImage Analysis Group                          fax:+44 (0)1865 222 717\nOxford University, Centre For Functional Magnetic Resonance Imaging of\nthe Brain (FMRIB), John Radcliffe Hospital, Headington, Oxford OX3 9DU,\nU.K\nhttp://www.fmrib.ox.ac.uk/~didier/\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "PTAk_1.1-1 ( Principal Tensor Analysis on k modes) has been released on\nCRAN\n            A multiway method to decompose a tensor (array) of any\norder,\n             as a generalisation of SVD also supp",
+      "thread_id": "thread-e030449721a2",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-8e99ff3774a9",
+      "message_id": "<3AE5A0C8.F3859BBB@ci.tuwien.ac.at>",
+      "from_name": "Achim Zeileis",
+      "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
+      "date": "2001-04-24T17:50:32+02:00",
+      "subject": "DSC 2001 Proceedings Announcement",
+      "subject_clean": "DSC 2001 Proceedings Announcement",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are pleased to announce that the proceedings of the\n\n  2nd International Workshop on Distributed Statistical Computing\n  March 15-17, 2001, Technische Universit?t Wien, Vienna, Austria\n\nare now available online at\n\n  http://www.ci.tuwien.ac.at/Conferences/DSC.html\n\n\nCiting Thomas Lumley's conference summary:\n\n``DSC 2001: Cooperation between programs (and programmers)\n\n  There were about 30 presentations over the three days of the\n  conference, with speakers from universities, industrial research\n  groups, and software companies in twelve countries. Despite the\n  programmed sessions' running about 30% over time there was lively\n  discussion over coffee and lunch and in during the conference's social\n  program.\n\n  DSC 2001 emphasized the value of high quality open source software as\n  a statistical research platform but also for the ultimate goal of\n  delivering modern statistical methods to those with little knowledge\n  of (or interest in) statistical computing.''\n\n\nTable of Contents:\n-------------------\n\n                         Summary\n\n Thomas Lumley           DSC 2001: Cooperation between\n                         programs (and programmers)\n\n\n                         Contributions\n\n Anna Bartkowiak         A Set of XLispStat Subroutines\n                         for Detecting Outliers\n Douglas Bates, Saikat   C++ Classes for R Objects\n DebRoy\n Roger Bivand            R and geographical information\n                         systems, especially GRASS\n Vince Carey             GEE solvers: case studies in\n                         DSC design and implementation\n Peter Dalgaard          The R-Tcl/Tk interface\n John W. Eaton           Octave: Past, Present and\n                         Future\n Robert Gentleman        Modeling with Objects\n Richard M. Heiberger    Emacs Speaks Statistics: One\n                         Interface - Many Programs\n Torsten Hothorn, David  R/S Interfaces to Databases\n A. James,\n Brian D. Ripley\n Stefano Iacus           R porting for the Macintosh\n Ross Ihaka              R Graphics - The Good, the Bad,\n                         and the Ugly\n Thomas Lumley           Orca [ R [ RJava]]\n Duncan Murdoch          RGL: An R Interface to OpenGL\n Paul Murrell            R Lattice Graphics\n Balasubramanian         JDiehard: An implementation of\n Narasimhan              Diehard in Java\n Erich Neuwirth, Thomas  Embedding R in Standard\n Baier                   Software, and the other way\n                         round\n Erich Neuwirth          R sings - or using R to sonify\n                         data\n B. D. Ripley, R. M.     Applications of R Clients and\n Ripley                  Servers\n Anthony Rossini         Literate Statistical Analysis\n Duncan Temple Lang,     GGobi meets R: an extensible\n Deborah F. Swayne       environment for interactive\n                         dynamic data visualization\n Duncan Temple Lang      Embedding S in Other Languages\n                         and Environments\n Martin Theus            What dataminers want\n Luke Tierney            Compiling R: A Preliminary\n                         Report\n Antony Unwin            R objects, two interfaces! (R\n                         objects to interfaces?)\n Mikko Virtanen          Distributing data to different\n                         platforms using XML\n Gregory R. Warnes       Hydra: A Java library for\n                         Markov Chain Monte Carlo\n Hengyi Xue, E. James    JavaStat: A Distributed\n Harner                  Statistical Computing\n                         Environment\n Gilles Zumbach, Adrian  Orla: A data flow programming\n Trapletti               system for processing very\n                         large time series\n\n\nFor the organizing committee\nAchim Zeileis\n\n---------------------------\nInstitut f?r Statistik\nTechnische Universti?t Wien\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We are pleased to announce that the proceedings of the\n\n  2nd International Workshop on Distributed Statistical Computing\n  March 15-17, 2001, Technische Universit?t Wien, Vienna, Austria\n\nare now ava",
+      "thread_id": "thread-8e99ff3774a9",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-08c314bcc5c8",
+      "message_id": "<x2ae53rg56.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2001-04-26T14:37:25+02:00",
+      "subject": "R-1.2.3 is released",
+      "subject_clean": "R-1.2.3 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.2.3.tgz a moment ago. This is mainly adds fixes to\nthe Macintosh port, but it also has a number of bugfixes for all\nversions.\n\nYou can get it from the developer site\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.2.3.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.2.3.tgz\n\nor wait for it to be mirrored at a CRAN site near you within a day or two.\nBinaries for various platforms will appear in due course.\n\nThere's also a version split in three for floppies and a patch file\nagainst 1.2.3.\n\n(The patches miss out on one file because binary files cannot be\npatched: R-1.2.3/src/gnuwin32/installer/R.bmp .  This not likely to be\nof consequence to anyone, but drop us a note if it bothers you.)\n\n\n\tFor the R Core Team,\n\n\tPeter D.\n\n\nHere's the relevant part of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 1.2.3\n\nNEW FEATURES\n\n    o\tSupport for configuration and building the Unix version of R\n\tunder Mac OS X.\t (The `classic' Macintosh port is `Carbonized'\n\tand also runs under that OS.)\n\n    o\tdotchart() and stripchart() become the preferred names for\n\tdotplot() and stripplot(), respectively.  The old names are now\n\tdeprecated.\n\n    o\tFunctions in package ctest now consistently use +/-Inf rather\n\tthan NA for one-sided confidence intervals.\n\n\n\nBUG FIXES\n\n    o\t`Writing R Extensions' incorrectly described an entry point\n\t`fmod' which was not included in the R binary on most systems.\n\tThe entry point has been removed, to avoid any confusion with\n\tthe standard C entry point of the same name.\n\n    o\tPrinting of kernels in package ts was unreliable: the internal\n\trepresentation was correct.\n\n    o\tA problem with \"...\" in substitutions has been fixed (PR#860).\n\n    o\tVarious strangeness with match.call() and \"...\" has been fixed\n\t(PR#813).\n\n    o\tsys.function() could return an unevaluated promise, messing up\n\tformals() and match.arg() (PR#872)\n\n    o\tDeparsing or dumping attributes with non-standard names was\n\tnot quoting the name (PR#871).\n\n    o\tWe now use match.fun() in tapply() so that it won't get trapped\n\tby non-functions masking FUN.\n\n    o\tThe `nmax' argument in scan(what=list(...), nmax=300) was\n\tcounting blank lines, although they were said to be ignored.\n\tThis affected using read.table on files with blank lines in\n\t1.2.2, and using `n' with `what' a list.\n\n    o\tas.numeric(), as.integer(), as.complex() returned zero on\n\tcompletely blank strings. Now they return NA. (PR#870)\n\n    o\tOverflow in deparse() in terms(formula) with very long left-hand\n\tside fixed.  (PR#873)\n\n    o\tlowess(c(1:3, 7:5)) now should give the same on different platforms,\n\tsince now in the C code (int)(f*n + 1e-7) is used.\n\n    o\tcurve(*, add = TRUE) now works properly with active log scales.\n\n    o\trt() could give different results on different platforms as\n\tthe order of evaluation of calls to random numbers was not\n\tfully defined.\tThis affected the Mac port.\n\n    o\tppr() inside nested calls sometimes failed to find objects\n\tdue to a typo in the eval call in ppr.formula.\n\n    o\tqchisq(0.025, 31, ncp=1, lower.tail=FALSE) now works.  (PR#875)\n    \n    o\tdchisq with integer x, df and ncp sometimes gave incorrect\n\tresults on i686 Linux.\n\n    o\tCancelling a quit caused quit() not to ask next time it was called.\n\n    o\tSome complicated operations with \"...\" didn't work.\n\n    o\tMissingness was not correctly propagated in some cases.\n\n    o\teigen() segfaulted on 0-dimensional matrices.\n\n    o\tnls( ~ rhs, ..)\t now works (formula with empty left hand side).\n\n    o\tThe fuzz added in hist() for 1.2.2 broke the logic testing for\n\tequidistant breakpoints.\n\n    o\tCalls to replacement functions (\"f<-\") lost argument names\n\t(PR#888).\n\n    o\tis.na() and is.nan() gave random results on lists containing\n\tzero-length objects.\n\n    o\tcor(), cov() and var() gave a result on a zero-length argument\n\t(now an error).\t cov(x, NULL) and cor(x, NULL) are now errors\n\tif x is a vector.  (PR#883).\n\n    o\t?smooth.spline now properly describes `spar' which is *not*\n\tlambda.\t smooth.spline(1:20, spar = 50) gives an error instead\n\tof silent nonsense.  print.smooth.spline() now makes use of a\n\tdigits argument.\n\n    o\tConfidence intervals for wilcox.test() had the samples reversed\n\tin the two-sided case (PR#895), and sometimes got continuity\n\tcorrection wrong (PR#896).\n\n    o\tUsing out-of-range font values in text() on a postscript()\n\tdevice on Windows could crash.\t.ps.prolog was incorrectly\n\tnamed in some of the documentation.  (PR#914)\n\n    o\tWarning messages of > 8191 chars could crash R (PR#902), as\n\tcould errors.  Now they are truncated to 8191 chars on\n\tmachines which have vsnprintf (almost all).\n\n    o\trange() now works properly for date-time objects.\n\n    o\tcontour() could loop infinitely (PR#897).\n\n    o\tR-lang manual had precedence of %% wrong (PR#879).\n\n    o\ttry() constructs lost protection of R_alloc'ed memory (PR#877).\n\n    o\tDocumented that as.numeric() dispatches to as.double.foo methods\n\t(PR#918.1).\n\n    o\thttpclient() (and the \"socket\" method of download.file) skipped ^V\n\trather than ^Z in input (if drop.ctrl.z = TRUE, the default).\n    \n    o\tboxplot(*, range = 0) and boxplot.stats(*, coef = 0) now\n\tdon't return outliers anymore (PR#917).\n\n    o   segmentation fault with tmp[[1,]] (PR#904)\n\n    o   incorrect \"...\" handling in plot.factor (PR#830)\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.2.3.tgz a moment ago. This is mainly adds fixes to\nthe Macintosh port, but it also has a number of bugfixes for all\nversions.\n\nYou can get it from the developer site\n\nftp://cvs.r-pr",
+      "thread_id": "thread-08c314bcc5c8",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-f6504c51e0aa",
+      "message_id": "<20010426170621.28351@smtp.frazmtn.com>",
+      "from_name": "Jan de Leeuw",
+      "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
+      "date": "2001-04-26T10:06:21-07:00",
+      "subject": "R-1.2.3 for MacOS X",
+      "subject_clean": "R-1.2.3 for MacOS X",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A tar ball (14MB compressed) with R-1.2.3 for OS X/X11 is at\n\nhttp://www.stat.ucla.edu/~deleeuw/R\n\nIt includes some of the dylibs that you need, but not the X11R6\ndistribution.\n\nIt also has compiled/installed versions of the following packages\n\nCoCoAn          Constrained Correspondence Analysis\nGLMMGibbs       Generalised Linear Mixed Models by Gibbs Sampling\nGenKern         Functions for generating and manipulating generalised\n                kernel density estimates\nKernSmooth      Functions for kernel smoothing for Wand &Jones (1995)\nMASS            Main Library of Venables and Ripley's MASS\nPTAk            Principal Tensor Analysis on k modes\nR2HTML          Functions for exporting R objects in an HTML document\nXML             Tools for parsing and generating XML within R and\n                S-Plus.\nacepack         ace() and avas() for selecting regression\n                transformations\nakima           Interpolation of irregularly spaced data\nash             David Scott's ASH routines\nbase            The R base package\nboot            Bootstrap R (S-Plus) Functions (Canty)\nbootstrap       Functions for the Book \"An Introduction to the\n                Bootstrap\"\ncclust          Convex Clustering Methods and Clustering Indexes\nchron           Chronological objects which can handle dates and times\nclass           Functions for classification\ncluster         Functions for clustering (by Rousseeuw et al.)\ncoda            Output analysis and diagnostics for MCMC\nconf.design     Construction of factorial designs\nctest           Classical Tests\ncurve           Dynamic Systems Estimation - Curvature extensions\ndse1            Dynamic Systems Estimation (time series package)\ndse2            Dynamic Systems Estimation - extensions\ndsepadi         Dynamic Systems Estimation - PADI extensions\ne1071           Misc Functions of the Department of Statistics (e1071),\n                TU Wien\neda             Exploratory Data Analysis\nellipse         library ellipse for drawing ellipses and ellipse-like\n                confidence regions\nevent           Event History Procedures and Models\nforeign         Read data stored by Minitab, SAS, SPSS, Stata, ...\nfracdiff        Fractionally differenced ARIMA (p,d,q) models\ngee             Generalized Estimation Equation solver\ngeoR            geoR R functions for geostatistcal analysis\ngnlm            Generalized Nonlinear Regression Models\ngrowth          Multivariate Normal and Elliptically-contoured Repeated\n                Measurements Models\ngss             General Smoothing Splines\nintegrate       numerical integration\njuice           Dynamic Systems Estimation - juice extensions\nlocfit          Local Regression, Likelihood and Density Estimation.\nlqs             Resistant Regression and Covariance Estimation\nmaptree         Mapping and graphing tree models\nmclust          Model-based cluster analysis\nmda             Mixture and flexible discriminant analysis\nmgcv            Multiple smoothing parameter estimation and GAMs by GCV\nmodreg          Modern Regression: Smoothing and Local Methods\nmonitor         Dynamic Systems Estimation - monitoring extensions\nmultidim        statistiques descriptives multidimensionnelles \nmultiv          Multivariate Data Analysis Routines\nmva             Classical Multivariate Analysis\nmvnmle          ML estimation for multivariate normal data with missing\n                values\nmvtnorm         Multivariate Normal and T Distribution \nnlme            Linear and nonlinear mixed effects models\nnls             Nonlinear regression\nnnet            Feed-forward neural networks and multinomial log-linear\n                models\nnorm            Analysis of multivariate normal datasets with missing\nordinal         Ordinal Library\npolymars        Polychotomous Regression based on MARS\nprincurve       Fits a Principal Curve in Arbitrary Dimension\npspline         Penalized Smoothing Splines\nquadprog        Functions to solve Quadratic Programming Problems.\nquantreg        Quantile Regression\nrepeated        Non-normal Repeated Measurements Models\nrmutil          Utilities for Nonlinear Regression and Repeated\n                Measurements Models\nrpart           Recursive partitioning\n                in S+\nspatial         functions for kriging and point pattern analysis\nsplancs         Spatial and Space-Time Point Pattern Analysis\nsplines         Regression Spline Functions and Classes\nstable          Probability Functions and Generalized Regression Models\n                for Stable Distributions\nstepfun         Step Functions, including Empirical Distributions\nsurvival5       Survival analysis, including penalised likelihood.\nsyskern         coding kernel for S/R and OS compatability\ntcltk           Interface to Tcl/Tk\ntframe          Time Frame coding kernel\ntree            Classification and regression trees\nts              Time series functions\ntseries         Package for time series analysis\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A tar ball (14MB compressed) with R-1.2.3 for OS X/X11 is at\n\nhttp://www.stat.ucla.edu/~deleeuw/R\n\nIt includes some of the dylibs that you need, but not the X11R6\ndistribution.\n\nIt also has compiled/i",
+      "thread_id": "thread-f6504c51e0aa",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-e93069ee00c6",
+      "message_id": "<6rzod24gmc.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2001-04-27T08:27:55-05:00",
+      "subject": "R-1.2.3 available via rsync",
+      "subject_clean": "R-1.2.3 available via rsync",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R-1.2.3 sources are now available via rsync as r-release at rsync.r-project.org\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "R-1.2.3 sources are now available via rsync as r-release at rsync.r-project.org\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://w",
+      "thread_id": "thread-e93069ee00c6",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-ecda6bba9fc4",
+      "message_id": "<5.0.2.1.2.20010427224918.0193d588@mcmail.cis.mcmaster.ca>",
+      "from_name": "John Fox",
+      "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
+      "date": "2001-04-27T22:51:37-04:00",
+      "subject": "two new packages",
+      "subject_clean": "two new packages",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've prepared preliminary versions of two packages that I plan eventually \nto contribute to CRAN:\n\ncar (for \"Companion to Applied Regression\") is a package that provides a \nvariety of functions in support of linear and generalized linear models, \nincluding regression diagnostics (e.g., studentized residuals, hat-values, \nCook's distances, dfbeta, dfbetas, added-variable plots, component+residual \nplots, ceres plots, Durbin-Watson statistics); some tools for graphing and \nexploring data (e.g., enhanced quantile-comparison plots -- with simulated \nenvelopes for studentized residuals from linear models, scatterplot, and \nscatterplot-matrix functions); some utilities (e.g., for recoding \nvariables); some functions for transformations of data (e.g., multivariate \nunconditional Box-Cox transformation); an enhanced Anova function; and many \ndatasets. The object is to make tasks that are commonly employed in \nregression modeling more convenient, particularly for students with limited \nprogramming skills. I've tried largely to avoid duplicating capabilities in \nexisting packages.\n\nsem is a package for fitting \"structural-equation models.\" The package \nsupports general structural equation models with latent varibles, fit by \nmaximum likelihood assuming multinormality, and single-equation estimation \nfor observed-variable models by two-stage least squares.\n\nFor the present, I'm making these packages available on my web site, at \n<http://www.socsci.mcmaster.ca/jfox/Misc/car/> and \n<http://socserv.socsci.mcmaster.ca/jfox/Misc/sem/>.\n\nI'm particularly interested in suggestions and comments.\n\nJohn\n\n\n________________________________\n  John Fox\n  Department of Sociology\n  McMaster University\n  email: jfox at McMaster.ca\n  web: www.socsci.mcmaster.ca/jfox\n________________________________\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've prepared preliminary versions of two packages that I plan eventually \nto contribute to CRAN:\n\ncar (for \"Companion to Applied Regression\") is a package that provides a \nvariety of functions in sup",
+      "thread_id": "thread-ecda6bba9fc4",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-89c38f16d257",
+      "message_id": "<200104281505.f3SF54q08771@mail.mclink.it>",
+      "from_name": "Stefano",
+      "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
+      "date": "2001-04-28T17:05:09+02:00",
+      "subject": "R 1.2.3 for MacOS/X available",
+      "subject_clean": "R 1.2.3 for MacOS/X available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "From release 1.2.3, R can run different Macintosh platforms.\n\nTwo versions are currently available that are non concurrent.\n\nOne version runs on MacOS Systems from 8.6 to 9.1 and MacOSX using the \nstandard MacOS/MacOSX interface, that means that is behaves like any \nusual Macintosh application. (This is mantained by Stefano M. Iacus)\n\nThe other version is a Darwin/X11 that means a Unix-like version taking \nadvantages of the X11 server (to be installed separately) and of the BSD \nkernel of MacOS X. (This version is mantained by Jan de Leeuw).\n\n\nAbout the Carbon version\nThis new version of R fixes may bugs of the previous Macintosh release \nand adopt Apple's Carbon technology to let R run natively under both \nMacOS 8.6 to 9.1 and MacOS X. This means that under MacOS X when you \ndouble click on the R icon, the System no longer launches the Classic \nCompatibility environment. Under MacOS X the Carbon R take advantages of \nthe new Aqua look/interface and memory management.\n\nMore informations on this version can be found at:\n\nhttp://www.eco-dip.unimi.it/R/rmac-FAQ.html\n\nYou can download the carbon distribution at:\n\nhttp://cran.r-project.org/bin/macos\n\n\n\nAbout the Darwin/X11 version\nThere are two builds for Mac OS X, more precisely for Darwin/X11, of the \nR-patched and R-devel distributions of 04/14/01.\n\nThey were build using the native cc compiler, with help from f2c, \ndlcompat, libjpeg, libpng, libz, OS X versions of tcl/tk., and Tenon's \nXtools distribution.\n\nThe dynamic libraries you need are included, except for the X11 \nlibraries, which you have to install anyway along with an X11 server.\n\n\nIn order to install one of these builds, su root, move to /, and unpack. \nEverything installs in /usr/local/lib, except for the R driver which \ngoes to /usr/local/bin. The R-devel tarball contains most of the \ncontributed R packages.\n\n\nYou can find this distribution on Jan's page :\n\nhttp://www.stat.ucla.edu/~deleeuw/R\n\nFor more information read the following r-announce msg\n\nhttp://www.r-project.org/nocvs/mail/r-announce/latest/0026.html\n\nStefano\n\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: text/enriched\nSize: 2429 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-announce/attachments/20010428/515ce113/attachment.bin>",
+      "body_snippet": "From release 1.2.3, R can run different Macintosh platforms.\n\nTwo versions are currently available that are non concurrent.\n\nOne version runs on MacOS Systems from 8.6 to 9.1 and MacOSX using the \nsta",
+      "thread_id": "thread-89c38f16d257",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-2e5ba7eabf75",
+      "message_id": "<200104281505.f3SF59q08828@mail.mclink.it>",
+      "from_name": "Stefano",
+      "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
+      "date": "2001-04-28T17:05:24+02:00",
+      "subject": "R for Mac Special Interest Group",
+      "subject_clean": "R for Mac Special Interest Group",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R for Mac Special Interest Group\nAlog with the forthcoming version 1.2.3 of R a new mailing list has been \nactivated. The list is intended to exchange ideas, impressions, give \nsuggestions etc on the portings of R for MacOS and MacOS X.\n\nYou can subscribe to the list going to its official page:\n\nGo to the list page :\n\nhttp://www.stat.math.ethz.ch/mailman/listinfo/r-sig-mac\n\n\nTo post a message to this list just send a mail to r-sig-\nmac at stat.math.ethz.ch\n\n\nStefano\n\n\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: text/enriched\nSize: 819 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-announce/attachments/20010428/f43a25e6/attachment.bin>",
+      "body_snippet": "R for Mac Special Interest Group\nAlog with the forthcoming version 1.2.3 of R a new mailing list has been \nactivated. The list is intended to exchange ideas, impressions, give \nsuggestions etc on the ",
+      "thread_id": "thread-2e5ba7eabf75",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-7c67972e73c3",
+      "message_id": "<200104281524.f3SFOYY14401@mail.mclink.it>",
+      "from_name": "Stefano Iacus",
+      "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
+      "date": "2001-04-28T17:24:55+02:00",
+      "subject": "R 1.2.3 for MacOS/X available",
+      "subject_clean": "R 1.2.3 for MacOS/X available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "From release 1.2.3, R can run different Macintosh platforms.\n\nTwo versions are currently available that are non concurrent.\n\nOne version runs on MacOS Systems from 8.6 to 9.1 and MacOSX using the \nstandard MacOS/MacOSX interface, that means that is behaves like any \nusual Macintosh application. (This is mantained by Stefano M. Iacus)\n\nThe other version is a Darwin/X11 that means a Unix-like version taking \nadvantages of the X11 server (to be installed separately) and of the BSD \nkernel of MacOS X. (This version is mantained by Jan de Leeuw).\n\n\nAbout the Carbon version\nThis new version of R fixes may bugs of the previous Macintosh release \nand adopt Apple's Carbon technology to let R run natively under both \nMacOS 8.6 to 9.1 and MacOS X. This means that under MacOS X when you \ndouble click on the R icon, the System no longer launches the Classic \nCompatibility environment. Under MacOS X the Carbon R take advantages of \nthe new Aqua look/interface and memory management.\n\nMore informations on this version can be found at:\n\nhttp://www.eco-dip.unimi.it/R/rmac-FAQ.html\n\nYou can download the carbon distribution at:\n\nhttp://cran.r-project.org/bin/macos\n\n\n\nAbout the Darwin/X11 version\nThere are two builds for Mac OS X, more precisely for Darwin/X11, of the \nR-patched and R-devel distributions of 04/14/01.\n\nThey were build using the native cc compiler, with help from f2c, \ndlcompat, libjpeg, libpng, libz, OS X versions of tcl/tk., and Tenon's \nXtools distribution.\n\nThe dynamic libraries you need are included, except for the X11 \nlibraries, which you have to install anyway along with an X11 server.\n\n\nIn order to install one of these builds, su root, move to /, and unpack. \nEverything installs in /usr/local/lib, except for the R driver which \ngoes to /usr/local/bin. The R-devel tarball contains most of the \ncontributed R packages.\n\n\nYou can find this distribution on Jan's page :\n\nhttp://www.stat.ucla.edu/~deleeuw/R\n\nFor more information read the following r-announce msg\n\nhttp://www.r-project.org/nocvs/mail/r-announce/latest/0026.html\n\nStefano\n\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: text/enriched\nSize: 2429 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-announce/attachments/20010428/683dd760/attachment.bin>",
+      "body_snippet": "From release 1.2.3, R can run different Macintosh platforms.\n\nTwo versions are currently available that are non concurrent.\n\nOne version runs on MacOS Systems from 8.6 to 9.1 and MacOSX using the \nsta",
+      "thread_id": "thread-7c67972e73c3",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-342ff63e18b9",
+      "message_id": "<200104281525.f3SFP1Y14654@mail.mclink.it>",
+      "from_name": "Stefano Iacus",
+      "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
+      "date": "2001-04-28T17:25:22+02:00",
+      "subject": "R for Mac Special Interest Group",
+      "subject_clean": "R for Mac Special Interest Group",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R for Mac Special Interest Group\nAlong with latest version 1.2.3 of R a new mailing list has been \nactivated. The list is intended to exchange ideas, impressions, give \nsuggestions etc on the portings of R for MacOS and MacOS X.\n\nYou can subscribe to the list going to its official page:\n\nGo to the list page :\n\nhttp://www.stat.math.ethz.ch/mailman/listinfo/r-sig-mac\n\n\nTo post a message to this list just send a mail to r-sig-\nmac at stat.math.ethz.ch\n\n\nStefano\n\n\n\n-------------- next part --------------\nA non-text attachment was scrubbed...\nName: not available\nType: text/enriched\nSize: 811 bytes\nDesc: not available\nURL: <https://stat.ethz.ch/pipermail/r-announce/attachments/20010428/6c0d697b/attachment.bin>",
+      "body_snippet": "R for Mac Special Interest Group\nAlong with latest version 1.2.3 of R a new mailing list has been \nactivated. The list is intended to exchange ideas, impressions, give \nsuggestions etc on the portings",
+      "thread_id": "thread-342ff63e18b9",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-9fa8875c22f8",
+      "message_id": "<20010429135224.13386@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "2001-04-29T13:52:24+02:00",
+      "subject": "R 1.2.3 for Windows available ",
+      "subject_clean": "R 1.2.3 for Windows available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A Windows binary distribution of R 1.2.3 is available at\n         http://sirio.stat.unipd.it/RWin\nIt will be mirrored at a CRAN site near you in a couple of days.\nSee below for a list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\tWindows-specific changes to R\n\t\t=============================\nrw1023\n======\n\nAlternative installers based on Inno Setup 2.0.x, either SetupR.exe or\nminiR* (which fits on four floppies).\n\nThe location of R_HOME and the version can optionally be recorded in\nthe Registry (and will be used by the DCOM interface).  The Inno Setup\ninstallers register the installation, and unregister on\nuninstallation.  rwinst.exe has an option to register.  Program\nrw1023\\bin\\RSetReg.exe will register, and rw1023\\bin\\RSetReg.exe /U\nwill unregister.\n\nThe windows() device no longer rounds width and height to the nearest inch.\n\nYou can override the settings Windows reports for pixels per inch\n(sometimes it is seriously adrift).  See ?windows.\n\nFile `extract-usage' needed for codoc was missing from rw1022sp.zip.\n\nThe default memory limit (as reset by --max-mem-size) is set to at\nleast 16Mb, to allow R to start on machines with 8Mb of RAM.\n\nlink.html.help() has been re-written using connections and so is\nseveral times faster.\n\nRcmd INSTALL now allows Windows-style paths to a tar file.\n\nrproxy.dll is now built for StatConnector version 0.99: earlier versions\nare no longer supported.\n\nA Windows-specific bug in bitmap() which caused output to appear twice\nhas been fixed.\n\nRcmd check now stops when package-specific tests fail (not just\nreports on the console).\n\n\n\n\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A Windows binary distribution of R 1.2.3 is available at\n         http://sirio.stat.unipd.it/RWin\nIt will be mirrored at a CRAN site near you in a couple of days.\nSee below for a list of Windows-speci",
+      "thread_id": "thread-9fa8875c22f8",
+      "thread_depth": 0,
+      "month": "2001-04"
+    },
+    {
+      "id": "msg-5a9a51f66e66",
+      "message_id": "<3AED1B0C.75D0A038@univie.ac.at>",
+      "from_name": "Erich Neuwirth",
+      "from_email_hash": "178c9665decd09e76ed713e123ba2a6b2ed2ac166995047eb6dc12c5ab93e7ac",
+      "date": "2001-04-30T09:58:04+02:00",
+      "subject": "RExcel, new version",
+      "subject_clean": "RExcel, new version",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I just uploaded the new version of RExcel to the incoming directory.\n\nHere is part of the ReadMe:\n\n===============================================================================\nR-Excel Interface, Version 0.73                                      \n01-04-30\n===============================================================================\n\nOverview:\n---------\n\n  This package contains an Excel Addin to use R from within Microsoft\nExcel\n  on Microsoft Windows platforms.\n\n\nFeatures:\n---------\n\n  Data-transfer both from R to the Excel and vice versa, currently\n  supporting scalars (booleans, integers, doubles and strings) and\narrays of\n  these. \n  R can be called by executing macros \"real time\", and we also have\n  worksheet functions calling R as part of Excels automatic\nrecalculation.\n\n\nBugs/unimplemented features:\n----------------------------\n\n  * COM server sometimes dies unexpectedly, then Excel has to be closed\n    and restarted.\n\n\nArchives:\n---------\n\n  RExel073.zip   ... Excel Addin and examples\n\nInstallation:\n-------------\n\n  * Install the latest R release  (>= R 1.2.3)\n  * Install the DCOM server for R (>= 0.99.0)\n    Installing the R-(D)COM Interface is still a little bit tricky\n    (not yet fully automatic), your really have to read \n    the instructions carefully.\n\n\n\n\n\n--\nErich Neuwirth, Computer Supported Didactics Working Group\nVisit our SunSITE at http://sunsite.univie.ac.at\nPhone: +43-1-4277-38624 Fax: +43-1-4277-9386\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I just uploaded the new version of RExcel to the incoming directory.\n\nHere is part of the ReadMe:\n\n===============================================================================\nR-Excel Interface, Ve",
+      "thread_id": "thread-5a9a51f66e66",
+      "thread_depth": 0,
+      "month": "2001-04"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7c620ad8fa04",
+      "subject": "New R Core Member",
+      "message_count": 1,
+      "participants": [
+        "Ross Ihaka"
+      ],
+      "started": "2001-04-18T21:47:59+12:00",
+      "last_reply": "2001-04-18T21:47:59+12:00",
+      "root_message_id": "msg-7c620ad8fa04"
+    },
+    {
+      "id": "thread-1945614c781f",
+      "subject": "new Darwin/X11 builds",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2001-04-22T08:54:51-07:00",
+      "last_reply": "2001-04-22T08:54:51-07:00",
+      "root_message_id": "msg-1945614c781f"
+    },
+    {
+      "id": "thread-e030449721a2",
+      "subject": "New Package Released: PTAk",
+      "message_count": 1,
+      "participants": [
+        "Didier Leibovici"
+      ],
+      "started": "2001-04-24T11:36:45+01:00",
+      "last_reply": "2001-04-24T11:36:45+01:00",
+      "root_message_id": "msg-e030449721a2"
+    },
+    {
+      "id": "thread-8e99ff3774a9",
+      "subject": "DSC 2001 Proceedings Announcement",
+      "message_count": 1,
+      "participants": [
+        "Achim Zeileis"
+      ],
+      "started": "2001-04-24T17:50:32+02:00",
+      "last_reply": "2001-04-24T17:50:32+02:00",
+      "root_message_id": "msg-8e99ff3774a9"
+    },
+    {
+      "id": "thread-f6504c51e0aa",
+      "subject": "R-1.2.3 for MacOS X",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2001-04-26T10:06:21-07:00",
+      "last_reply": "2001-04-26T10:06:21-07:00",
+      "root_message_id": "msg-f6504c51e0aa"
+    },
+    {
+      "id": "thread-08c314bcc5c8",
+      "subject": "R-1.2.3 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2001-04-26T14:37:25+02:00",
+      "last_reply": "2001-04-26T14:37:25+02:00",
+      "root_message_id": "msg-08c314bcc5c8"
+    },
+    {
+      "id": "thread-e93069ee00c6",
+      "subject": "R-1.2.3 available via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2001-04-27T08:27:55-05:00",
+      "last_reply": "2001-04-27T08:27:55-05:00",
+      "root_message_id": "msg-e93069ee00c6"
+    },
+    {
+      "id": "thread-ecda6bba9fc4",
+      "subject": "two new packages",
+      "message_count": 1,
+      "participants": [
+        "John Fox"
+      ],
+      "started": "2001-04-27T22:51:37-04:00",
+      "last_reply": "2001-04-27T22:51:37-04:00",
+      "root_message_id": "msg-ecda6bba9fc4"
+    },
+    {
+      "id": "thread-89c38f16d257",
+      "subject": "R 1.2.3 for MacOS/X available",
+      "message_count": 1,
+      "participants": [
+        "Stefano"
+      ],
+      "started": "2001-04-28T17:05:09+02:00",
+      "last_reply": "2001-04-28T17:05:09+02:00",
+      "root_message_id": "msg-89c38f16d257"
+    },
+    {
+      "id": "thread-2e5ba7eabf75",
+      "subject": "R for Mac Special Interest Group",
+      "message_count": 1,
+      "participants": [
+        "Stefano"
+      ],
+      "started": "2001-04-28T17:05:24+02:00",
+      "last_reply": "2001-04-28T17:05:24+02:00",
+      "root_message_id": "msg-2e5ba7eabf75"
+    },
+    {
+      "id": "thread-7c67972e73c3",
+      "subject": "R 1.2.3 for MacOS/X available",
+      "message_count": 1,
+      "participants": [
+        "Stefano Iacus"
+      ],
+      "started": "2001-04-28T17:24:55+02:00",
+      "last_reply": "2001-04-28T17:24:55+02:00",
+      "root_message_id": "msg-7c67972e73c3"
+    },
+    {
+      "id": "thread-342ff63e18b9",
+      "subject": "R for Mac Special Interest Group",
+      "message_count": 1,
+      "participants": [
+        "Stefano Iacus"
+      ],
+      "started": "2001-04-28T17:25:22+02:00",
+      "last_reply": "2001-04-28T17:25:22+02:00",
+      "root_message_id": "msg-342ff63e18b9"
+    },
+    {
+      "id": "thread-9fa8875c22f8",
+      "subject": "R 1.2.3 for Windows available",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "2001-04-29T13:52:24+02:00",
+      "last_reply": "2001-04-29T13:52:24+02:00",
+      "root_message_id": "msg-9fa8875c22f8"
+    },
+    {
+      "id": "thread-5a9a51f66e66",
+      "subject": "RExcel, new version",
+      "message_count": 1,
+      "participants": [
+        "Erich Neuwirth"
+      ],
+      "started": "2001-04-30T09:58:04+02:00",
+      "last_reply": "2001-04-30T09:58:04+02:00",
+      "root_message_id": "msg-5a9a51f66e66"
+    }
+  ]
+}

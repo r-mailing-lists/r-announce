@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2023-10",
+  "messages": [
+    {
+      "id": "msg-cf80bc8392f7",
+      "message_id": "<ED7A693B-A436-456A-A676-9D97378F7F08@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "d9fd91d299a75b5bb12e8fe56282f6e3ab90721fbb5cc61dd67258dc21f7ad2a",
+      "date": "2023-10-13T14:25:44Z",
+      "subject": "[Rd] R 4.3.2 scheduled for October 31",
+      "subject_clean": "R 4.3.2 scheduled for October 31",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Full schedule available on developer.r-project.org in a short while.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Full schedule available on developer.r-project.org in a short while.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPho",
+      "thread_id": "thread-cf80bc8392f7",
+      "thread_depth": 0,
+      "month": "2023-10"
+    },
+    {
+      "id": "msg-bd28cbbe877d",
+      "message_id": "<9C7406A5-ACA0-4EC0-8F23-8D8E673F457B@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "d9fd91d299a75b5bb12e8fe56282f6e3ab90721fbb5cc61dd67258dc21f7ad2a",
+      "date": "2023-10-31T09:07:53Z",
+      "subject": "[Rd] R 4.3.2 is released",
+      "subject_clean": "R 4.3.2 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The build system rolled up R-4.3.2.tar.gz (codename \"Eye Holes\") this morning.\n\nThis is a minor update, with a few bug fixes.\n\nThe list below details the changes in this release. \n\nYou can get the source code from\n\nhttps://cran.r-project.org/src/base/R-4/R-4.3.2.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n\nFor the R Core Team,\n\nPeter Dalgaard\n\n\nThese are the checksums (md5 and SHA-256) for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nMD5 (AUTHORS) = 320967884b547734d6279dedbc739dd4\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = 97a3ddc25aab502a70bfb1a79ab6f862\nMD5 (INSTALL) = 7893f754308ca31f1ccf62055090ad7b\nMD5 (NEWS) = b9ad3b7a9f54856444ec9849a69b18e3\nMD5 (NEWS.0) = bfcd7c147251b5474d96848c6f57e5a8\nMD5 (NEWS.1) = 4108ab429e768e29b1c3b418c224246e\nMD5 (NEWS.2) = b38d94569700664205a76a7de836ba83\nMD5 (NEWS.3) = e55ed2c8a547b827b46e08eb7137ba23\nMD5 (R-latest.tar.gz) = 3217f2606bbde5a76fe4deaa4b4d3321\nMD5 (README) = f468f281c919665e276a1b691decbbe6\nMD5 (RESOURCES) = a79b9b338cab09bd665f6b62ac6f455b\nMD5 (THANKS) = 45b6d2e88a6ecb5b24fa33a781351cd5\nMD5 (VERSION-INFO.dcf) = 8d6576e0a33475e8b6dcb61f8e49a2b4\nMD5 (R-4/R-4.3.2.tar.gz) = 3217f2606bbde5a76fe4deaa4b4d3321\n\n60a0d150e6fc1f424be76ad7b645d236b56e747692a4679f81ce6536c550e949  AUTHORS\ne6d6a009505e345fe949e1310334fcb0747f28dae2856759de102ab66b722cb4  COPYING\n6095e9ffa777dd22839f7801aa845b31c9ed07f3d6bf8a26dc5d2dec8ccc0ef3  COPYING.LIB\n3a47bca1e2a7db27c0ca12be388c238e2608ff2f768e627650a71a0ffc826038  FAQ\nf87461be6cbaecc4dce44ac58e5bd52364b0491ccdadaf846cb9b452e9550f31  INSTALL\nec6844344589b717144d51ca3d5d1dbe5bc453d69287c06430f9bb2263abe01f  NEWS\n4e21b62f515b749f80997063fceab626d7258c7d650e81a662ba8e0640f12f62  NEWS.0\n5de7657c5e58e481403c0dd1a74a5c090b3ef481ce75a91dfe05d4b03f63163f  NEWS.1\ncde079b6beab7d700d3d4ecda494e2681ad3b7f8fab13b68be090f949393ec62  NEWS.2\n1910a2405300b9bc7c76beeb0753a5249cf799afe175ce28f8d782fab723e012  NEWS.3\nb3f5760ac2eee8026a3f0eefcb25b47723d978038eee8e844762094c860c452a  R-latest.tar.gz\n2fdd3e90f23f32692d4b3a0c0452f2c219a10882033d1774f8cadf25886c3ddc  README\n8b7d3856100220f4555d4d57140829f2e81c27eccec5b441f5dce616e9ec9061  RESOURCES\n8319c5415de58ee10d4bc058d79c370fd8e6b2ad09e25d7a1e04b74ca5f380a6  THANKS\nf3acaa77b0034a44c9c9b02767a2d383a7c2c2e2a3e7fec929fa20c5102304c5  VERSION-INFO.dcf\nb3f5760ac2eee8026a3f0eefcb25b47723d978038eee8e844762094c860c452a  R-4/R-4.3.2.tar.gz\n\nThis is the relevant part of the NEWS file\n\nCHANGES IN R 4.3.2:\n\n  NEW FEATURES:\n\n    * The default initialization of the \"repos\" option from the\n      repositories file at startup can be skipped by setting\n      environment variable R_REPOSITORIES to NULL such that\n      getOption(\"repos\") is empty if not set elsewhere.\n\n    * qr.X() is now an implicit S4 generic in methods.\n\n    * iconv(to = \"ASCII//TRANSLIT\") is emulated using substitution on\n      platforms which do not support it (notably Alpine Linux).  This\n      should give a human-readable conversion in ASCII on all platforms\n      (rather than NA_character_).\n\n    * trans3d() gains options continuous and verbose addressing the\n      problem of possible \"wrap around\" when projecting too long\n      curves, as reported by Achim Zeileis in PR#18537.\n\n    * tools::showNonASCII() has been rewritten to work better on macOS\n      14 (which has a changed implementation of iconv()).\n\n    * tiff(type = \"quartz\") (the default on macOS) now warns if\n      compression is specified: it continues to be ignored.\n\n  INSTALLATION on a UNIX-ALIKE:\n\n    * There is some support for building with Intel's LLVM-based\n      compilers on x86_64 Linux, such as (C) icx, (C++) ipcx and\n      (Fortran) ifx from oneAPI 2023.x.y.\n\n    * There is support for using LLVM's flang-new as the Fortran\n      compiler from LLVM 16.0.x (preferably 17.0.0 or later).\n\n  UTILITIES:\n\n    * R CMD check reports the use of the Fortran 90 random number\n      generator RANDOM_NUMBER() and the subroutines to initialize it.\n\n      'Writing R Extensions' has example code to use R's RNGs from\n      Fortran.\n\n  BUG FIXES:\n\n    * substr(x, n, L) <- cc now works (more) correctly for multibyte\n      UTF-8 strings x when L > nchar(x), thanks to a report and patch\n      by 'Architect 95'.\n\n    * contrib.url(character()) now returns 0-length character() as\n      documented, which also avoids spurious warnings from\n      available.packages() et al. in the edge case of an empty vector\n      of repository URLs.\n\n    * readChar(., 4e8) no longer fails, thanks to Kodi Arfer's report\n      (PR#18557).\n\n    * lapply(<list>, as.data.frame) no longer warns falsely for some\n      base vector components.\n\n    * Communication between parent and child processes in the multicore\n      part of parallel could fail on platforms that do not support an\n      arbitrarily large payload in system functions read()/write() on\n      pipes (seen on macOS where a restriction to INT_MAX bytes is\n      documented, without doing a partial read unlike Linux). The\n      payload is now split into 1Gb chunks to avoid that problem.\n      (PR#18571)\n\n    * qqplot(x,y, conf.level=.) gives better confidence bounds when\n      length(x) != length(y), thanks to Alexander Ploner's report and\n      patch proposal (PR#18557).\n\n    * norm(<0-length>, \"2\") now gives zero instead of an error, as all\n      the other norm types, thanks to Mikael Jagan's PR#18542.\n\n    * Build-stage Rd macros \\packageAuthor and \\packageMaintainer now\n      process Authors at R, fixing NA results when the package DESCRIPTION\n      omits Author and Maintainer fields.\n\n    * Formatting and printing complex numbers could give things like\n      0.1683-0i because of rounding error: -0i is now replaced by +0i.\n\n    * postscript() refused to accept a title comment containing the\n      letter \"W\" (PR#18599).\n\n    * isoreg(c(1,Inf)) signals an error instead of segfaulting, fixing\n      PR#18603.\n\n    * tiff(type = \"Xlib\") was only outputting the last page of\n      multi-page plots.\n\n    * tools::latexToUtf8() again knows about \\~{n} and other letters\n      with tilde, fixing a regression in R 4.3.0, and about \\^{i} as an\n      alternative to \\^{\\i} (similarly with other accents).\n      Furthermore, LaTeX codes for accented I letters are now correctly\n      converted, also fixing related mistakes in\n      tools::encoded_text_to_latex().\n\n    * tar(*, tar = \"internal\") no longer creates out-of-spec tar files\n      in the very rare case of user or group names longer than 32\n      bytes, fixing PR#17871 with thanks to Ivan Krylov.\n\n    * When using the \"internal\" timezone datetime code, adding a\n      fraction of a second no longer adds one second, fixing PR#16856\n      from a patch by Ivan Krylov.\n\n    * tools::checkRd() no longer produces spurious notes about\n      \"unnecessary braces\" from multi-line Rd results of \\Sexpr macros.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "The build system rolled up R-4.3.2.tar.gz (codename \"Eye Holes\") this morning.\n\nThis is a minor update, with a few bug fixes.\n\nThe list below details the changes in this release. \n\nYou can get the sou",
+      "thread_id": "thread-bd28cbbe877d",
+      "thread_depth": 0,
+      "month": "2023-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-cf80bc8392f7",
+      "subject": "R 4.3.2 scheduled for October 31",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2023-10-13T14:25:44+00:00",
+      "last_reply": "2023-10-13T14:25:44+00:00",
+      "root_message_id": "msg-cf80bc8392f7"
+    },
+    {
+      "id": "thread-bd28cbbe877d",
+      "subject": "R 4.3.2 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2023-10-31T09:07:53+00:00",
+      "last_reply": "2023-10-31T09:07:53+00:00",
+      "root_message_id": "msg-bd28cbbe877d"
+    }
+  ]
+}

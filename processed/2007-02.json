@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2007-02",
+  "messages": [
+    {
+      "id": "msg-b6d64f1f4371",
+      "message_id": "<BBAC5956-FC69-4795-94F5-0477A02BB3E1@iastate.edu>",
+      "from_name": "Dianne Cook",
+      "from_email_hash": "6c4c2b1e0814a4370219e89f51b2083d2460b41068e542ee969c30257ae6647e",
+      "date": "2007-02-11T07:00:48-06:00",
+      "subject": "useR! 2007",
+      "subject_clean": "useR! 2007",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "R Users and Developers,\n\nPlans are being made to hold the first North American useR! will be\nheld at Iowa State University, Ames, Iowa, August 8?10, 2007, which\nwill be a week after JSM'07.\n\nThis follows successful meetings in Vienna, Austria, in 2006 and 2004,\nand also Directions in Statistical Computing (DSC) meetings in\nAuckland, NZ (Feb 2007), Seattle (2005), and Vienna (1999, 2001,\n2003).\n\nInformation about the meeting can be found at\nhttp://www.user2007.org/\n\nIf you have suggestions for the meeting please email the program\ncommittee at user2007 at iastate.edu.\n\nRegards,\nuseR! 2007 Program Committee\nDouglas Bates, Dianne Cook, Dave Henderson, Heike Hofmann, Luke Tierney",
+      "body_snippet": "R Users and Developers,\n\nPlans are being made to hold the first North American useR! will be\nheld at Iowa State University, Ames, Iowa, August 8?10, 2007, which\nwill be a week after JSM'07.\n\nThis foll",
+      "thread_id": "thread-b6d64f1f4371",
+      "thread_depth": 0,
+      "month": "2007-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b6d64f1f4371",
+      "subject": "useR! 2007",
+      "message_count": 1,
+      "participants": [
+        "Dianne Cook"
+      ],
+      "started": "2007-02-11T07:00:48-06:00",
+      "last_reply": "2007-02-11T07:00:48-06:00",
+      "root_message_id": "msg-b6d64f1f4371"
+    }
+  ]
+}

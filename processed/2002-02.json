@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2002-02",
+  "messages": [
+    {
+      "id": "msg-7e7a717422d9",
+      "message_id": "<XFMail.20020201171609.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "2002-02-01T17:16:09+01:00",
+      "subject": "RPM binaries of R 1.4.1 for RedHat/Mandrake/Linuxppc",
+      "subject_clean": "RPM binaries of R 1.4.1 for RedHat/Mandrake/Linuxppc",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The following RPM based binary distributions of R 1.4.1 are avaiable\non ftp://ftp-fis.iarc.fr/pub/R, and will soon be on a CRAN near mirror\nnear you.\n\nDistribution Version Platform Packager\nRed Hat       7.x    intel    Martyn Plummer <plummer at iarc.fr>\nRed Hat       7.x    alpha    Naoki Takebayashi <ntakebay at bio.indiana.edu>\nMandrake      8.1    intel    Michele Alzetta <mikalzet at libero.it>\nLinuxPPC             ppc      Alex Buerkle <buerkla at uwec.edu>\n\nThe RPMS are\nR-base:        The base distribution\nR-recommended: Recommended packages\n\nMartyn Plummer\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The following RPM based binary distributions of R 1.4.1 are avaiable\non ftp://ftp-fis.iarc.fr/pub/R, and will soon be on a CRAN near mirror\nnear you.\n\nDistribution Version Platform Packager\nRed Hat   ",
+      "thread_id": "thread-7e7a717422d9",
+      "thread_depth": 0,
+      "month": "2002-02"
+    },
+    {
+      "id": "msg-ec67d2dfc3bd",
+      "message_id": "<MABBLJDICACNFOLGIHJOGEFHCJAA.phgrosje@ulb.ac.be>",
+      "from_name": "Philippe Grosjean",
+      "from_email_hash": "770209afedd1d3da5c82d42e01056a2854596f44a6bf854f1ec924dd4a3242e7",
+      "date": "2002-02-14T15:31:21+01:00",
+      "subject": "New package pastecs",
+      "subject_clean": "New package pastecs",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\nThere is a new package in CRAN:\n\nPASTECS (package for analysis of space-time ecological series).\n\nAlthough primarily intended for ecologists, it should be useful to analyze\nany kind of time-series. It provides several methods that are complementary\nto other existing time-series libraries in CRAN. It's strength is in\nregulation and decomposition of series. Some methods are quite original,\nlike the turnogram, Auto/CrossD2 and D2 to the center, the area method, the\ndistogram,...\n\nIt runs on R (Unix/Linux, Windows and Macintosh) and also on Splus.\n\nBeside it's availability on CRAN, there are also various versions\n(Splus,...) available from the web site http://www.sciviews.org/pastecs...\nand shortly a 250+ pages user manual in French but that is planned to be\ntranslated in English shortly.\n\nBest,\n\nPhilippe Grosjean\n\n\n...........]<(({?<...............<?}))><...............................\n ) ) ) ) )\t __               \t __\n( ( ( ( ( \t|__)              \t|  _\n ) ) ) ) )\t|   hilippe       \t|__)rosjean\n( ( ( ( ( \tMarine Biol. Lab., ULB, Belgium\n ) ) ) ) )\t                  \t __\n( ( ( ( ( \t|\\  /|            \t|__)\n ) ) ) ) )\t| \\/ |ariculture &\t|__)iostatistics\n( ( ( ( (\n ) ) ) ) )\te-mail: phgrosje at ulb.ac.be or phgrosjean at sciviews.org\n( ( ( ( ( \tSciViews project coordinator (http://www.sciviews.org)\n ) ) ) ) )      tel: 00-32-2-650.29.70 (lab), 00-32-2-673.31.33 (home)\n( ( ( ( (\n ) ) ) ) )      \"I'm 100% confident that p is between 0 and 1\"\n( ( ( ( (                                  L. Gonick & W. Smith (1993)\n ) ) ) ) )\n.......................................................................\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi all,\n\nThere is a new package in CRAN:\n\nPASTECS (package for analysis of space-time ecological series).\n\nAlthough primarily intended for ecologists, it should be useful to analyze\nany kind of time-s",
+      "thread_id": "thread-ec67d2dfc3bd",
+      "thread_depth": 0,
+      "month": "2002-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-7e7a717422d9",
+      "subject": "RPM binaries of R 1.4.1 for RedHat/Mandrake/Linuxppc",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2002-02-01T17:16:09+01:00",
+      "last_reply": "2002-02-01T17:16:09+01:00",
+      "root_message_id": "msg-7e7a717422d9"
+    },
+    {
+      "id": "thread-ec67d2dfc3bd",
+      "subject": "New package pastecs",
+      "message_count": 1,
+      "participants": [
+        "Philippe Grosjean"
+      ],
+      "started": "2002-02-14T15:31:21+01:00",
+      "last_reply": "2002-02-14T15:31:21+01:00",
+      "root_message_id": "msg-ec67d2dfc3bd"
+    }
+  ]
+}

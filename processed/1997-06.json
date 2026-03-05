@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1997-06",
+  "messages": [
+    {
+      "id": "msg-8b008f969f0f",
+      "message_id": "<199706091621.SAA16397@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1997-06-09T18:21:45+02:00",
+      "subject": "mlbench-0.1 --- machine learning benchmark problems ",
+      "subject_clean": "mlbench-0.1 --- machine learning benchmark problems",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've made a package from some benchmark datasets for use with R and\nuploaded it to CRAN. \n\nHere's the Index entry:\n\nmlbench-0.1.tar.gz:\n\tA collection of artificial and real-world machine learning\n\tbenchmark problems, including, e.g., the boston housing\n\tdata from the UCI repository.\n\n\tWritten/packaged by Fritz Leisch <Friedrich.Leisch at ci.tuwien.ac.at>\n\tOriginal data sets from various sources.\n\t[1997/06/09]\n\n\nThis (naturally) includes some data files ... hence you have to do\nsome parts of the installation manually, see the INSTALL file for\ndetails (IMHO R has no clear concept for data: one flat directory is\ncertainly not sufficient). \n\nR&R: Any news on this front?\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-r-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-",
+      "body_snippet": "I've made a package from some benchmark datasets for use with R and\nuploaded it to CRAN. \n\nHere's the Index entry:\n\nmlbench-0.1.tar.gz:\n\tA collection of artificial and real-world machine learning\n\tben",
+      "thread_id": "thread-8b008f969f0f",
+      "thread_depth": 0,
+      "month": "1997-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8b008f969f0f",
+      "subject": "mlbench-0.1 --- machine learning benchmark problems",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1997-06-09T18:21:45+02:00",
+      "last_reply": "1997-06-09T18:21:45+02:00",
+      "root_message_id": "msg-8b008f969f0f"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2011-02",
+  "messages": [
+    {
+      "id": "msg-e467de1c9789",
+      "message_id": "<3C63E424-4271-40C9-A39F-613528A46D5F@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2011-02-14T15:59:39+01:00",
+      "subject": "R 2.12.2 scheduled for February 25",
+      "subject_clean": "R 2.12.2 scheduled for February 25",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.12.2 on Friday,\nFebruary 25, 2011. (Mainly to sort out complex arithmetic issues with some compiler platforms.)\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) via\n\nhttp://cran.r-project.org/src/base-prerelease/\n\nFor the R Core Team\nPeter Dalgaard\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "This is to announce that we plan to release R version 2.12.2 on Friday,\nFebruary 25, 2011. (Mainly to sort out complex arithmetic issues with some compiler platforms.)\n\nThose directly involved should ",
+      "thread_id": "thread-e467de1c9789",
+      "thread_depth": 0,
+      "month": "2011-02"
+    },
+    {
+      "id": "msg-38686828f323",
+      "message_id": "<21DD70BD-EA56-46B5-A29C-1092EB091A5E@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2011-02-25T13:49:42+01:00",
+      "subject": "[R] R 2.12.2 is released",
+      "subject_clean": "R 2.12.2 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.12.2.tar.gz a short while ago. This is an update release, which fixes a number of mostly minor issues, and one major issue in which complex arithmetic was being messed up on some compiler platform.\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.12.2.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n    For the R Core Team\n\n    Peter Dalgaard\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nMD5 (AUTHORS) = ac9746b4845ae866661f51cfc99262f5\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = 72deeabefdf6fd14e83bf5703dce9176\nMD5 (INSTALL) = 70447ae7f2c35233d3065b004aa4f331\nMD5 (NEWS) = 30b55e4f34c155fcb2fafa7ebb55528e\nMD5 (ONEWS) = 0c3e10eef74439786e5fceddd06dac71\nMD5 (OONEWS) = b0d650eba25fc5664980528c147a20db\nMD5 (R-latest.tar.gz) = bc70b51dddab8aa39066710624e55d5e\nMD5 (README) = 296871fcf14f49787910c57b92655c76\nMD5 (RESOURCES) = 020479f381d5f9038dcb18708997f5da\nMD5 (THANKS) = f2ccf22f3e20ebaa86f8ee5cc6b0f655\nMD5 (R-2/R-2.12.2.tar.gz) = bc70b51dddab8aa39066710624e55d5e\n\nThis is the relevant part of the NEWS file:\n\nR News\n\nCHANGES IN R VERSION 2.12.2:\n\n  SIGNIFICANT USER-VISIBLE CHANGES:\n\n    ? Complex arithmetic (notably z^n for complex z and integer n) gave\n      incorrect results since R 2.10.0 on platforms without C99 complex\n      support.  This and some lesser issues in trignometric functions\n      have been corrected.\n\n      Such platforms were rare (we know of Cygwin and FreeBSD).\n      However, because of new compiler optimizations in the way complex\n      arguments are handled, the same code was selected on x86_64 Linux\n      with gcc 4.5.x at the default -O2 optimization (but not at -O).\n\n    ? There is a workaround for crashes seen with several packages on\n      systems using zlib 1.2.5: see the INSTALLATION section.\n\n  NEW FEATURES:\n\n    ? PCRE has been updated to 8.12 (two bug-fix releases since 8.10).\n\n    ? rep(), seq(), seq.int() and seq_len() report more often when the\n      first element is taken of an argument of incorrect length.\n\n    ? The Cocoa back-end for the quartz() graphics device on Mac OS X\n      provides a way to disable event loop processing temporarily\n      (useful, e.g., for forked instances of R).\n\n    ? kernel()'s default for m was not appropriate if coef was a set of\n      coefficients.  (Reported by Pierre Chausse.)\n\n    ? bug.report() has been updated for the current R bug tracker,\n      which does not accept emailed submissions.\n\n    ? R CMD check now checks for the correct use of $(LAPACK_LIBS) (as\n      well as $(BLAS_LIBS)), since several CRAN recent submissions have\n      ignored ?Writing R Extensions?.\n\n  INSTALLATION:\n\n    ? The zlib sources in the distribution are now built with all\n      symbols remapped: this is intended to avoid problems seen with\n      packages such as XML and rggobi which link to zlib.so.1 on\n      systems using zlib 1.2.5.\n\n    ? The default for FFLAGS and FCFLAGS with gfortran on x86_64 Linux\n      has been changed back to -g -O2: however, setting -g -O may still\n      be needed for gfortran 4.3.x.\n\n  PACKAGE INSTALLATION:\n\n    ? A LazyDataCompression field in the DESCRIPTION file will be used\n      to set the value for the --data-compress option of R CMD INSTALL.\n\n    ? Files R/sysdata.rda of more than 1Mb are now stored in the\n      lazyload daabase using xz compression: this for example halves\n      the installed size of package Imap.\n\n    ? R CMD INSTALL now ensures that directories installed from inst\n      have search permission for everyone.\n\n      It no longer installs files inst/doc/Rplots.ps and\n      inst/doc/Rplots.pdf.  These are almost certainly left-overs from\n      Sweave runs, and are often large.\n\n  DEPRECATED & DEFUNCT:\n\n    ? The ?experimental? alternative specification of a name space via\n      .Export() etc is now deprecated.\n\n    ? zip.file.extract() is now deprecated.\n\n    ? Zip-ing data sets in packages (and hence R CMD INSTALL\n      --use-zip-data and the ZipData: yes field in a DESCRIPTION file)\n      is deprecated: using efficiently compressed .rda images and\n      lazy-loading of data has superseded it.\n\n  BUG FIXES:\n\n    ? identical() could in rare cases generate a warning about\n      non-pairlist attributes on CHARSXPs.  As these are used for\n      internal purposes, the attribute check should be skipped.\n      (Reported by Niels Richard Hansen).\n\n    ? If the filename extension (usually .Rnw) was not included in a\n      call to Sweave(), source references would not work properly and\n      the keep.source option failed.  (PR#14459)\n\n    ? format.data.frame() now keeps zero character column names.\n\n    ? pretty(x) no longer raises an error when x contains solely\n      non-finite values. (PR#14468)\n\n    ? The plot.TukeyHSD() function now uses a line width of 0.5 for its\n      reference lines rather than lwd = 0 (which caused problems for\n      some PDF and PostScript viewers).\n\n    ? The big.mark argument to prettyNum(), format(), etc. was inserted\n      reversed if it was more than one character long.\n\n    ? R CMD check failed to check the filenames under man for Windows'\n      reserved names.\n\n    ? The \"Date\" and \"POSIXt\" methods for seq() could overshoot when to\n      was supplied and by was specified in months or years.\n\n    ? The internal method of untar() now restores hard links as file\n      copies rather than symbolic links (which did not work for\n      cross-directory links).\n\n    ? unzip() did not handle zip files which contained filepaths with\n      two or more leading directories which were not in the zipfile and\n      did not already exist.  (It is unclear if such zipfiles are valid\n      and the third-party C code used did not support them, but\n      PR#14462 created one.)\n\n    ? combn(n, m) now behaves more regularly for the border case m = 0.\n      (PR#14473)\n\n    ? The rendering of numbers in plotmath expressions (e.g.\n      expression(10^2)) used the current settings for conversion to\n      strings rather than setting the defaults, and so could be\n      affected by what has been done before.  (PR#14477)\n\n    ? The methods of napredict() and naresid() for na.action =\n      na.exclude fits did not work correctly in the very rare event\n      that every case had been omitted in the fit.  (Reported by Simon\n      Wood.)\n\n    ? weighted.residuals(drop0=TRUE) returned a vector when the\n      residuals were a matrix (e.g. those of class \"mlm\").  (Reported\n      by Bill Dunlap.)\n\n    ? Package HTML index files <pkg>/html/00Index.html were generated\n      with a stylesheet reference that was not correct for static\n      browsing in libraries.\n\n    ? ccf(na.action = na.pass) was not implemented.\n\n    ? The parser accepted some incorrect numeric constants, e.g. 20x2.\n      (Reported by Olaf Mersmann.)\n\n    ? format(*, zero.print) did not always replace the full zero parts.\n\n    ? Fixes for subsetting or subassignment of \"raster\" objects when\n      not both i and j are specified.\n\n    ? R CMD INSTALL was not always respecting the ZipData: yes field of\n      a DESCRIPTION file (although this is frequently incorrectly\n      specified for packages with no data or which specify lazy-loading\n      of data).\n\n      R CMD INSTALL --use-zip-data was incorrectly implemented as\n      --use-zipdata since R 2.9.0.\n\n    ? source(file, echo=TRUE) could fail if the file contained #line\n      directives.  It now recovers more gracefully, but may still\n      display the wrong line if the directive gives incorrect\n      information.\n\n    ? atan(1i) returned NaN+Infi (rather than 0+Infi) on platforms\n      without C99 complex support.\n\n    ? library() failed to cache S4 metadata (unlike loadNamespace())\n      causing failures in S4-using packages without a namespace (e.g.\n      those using reference classes).\n\n    ? The function qlogis(lp, log.p=TRUE) no longer prematurely\n      overflows to Inf when exp(lp) is close to 1.\n\n    ? Updating S4 methods for a group generic function requires\n      resetting the methods tables for the members of the group (patch\n      contributed by Martin Morgan).\n\n    ? In some circumstances (including for package XML), R CMD INSTALL\n      installed version-control directories from source packages.\n\n    ? Added PROTECT calls to some constructed expressions used in C\n      level eval calls.\n\n    ? utils:::create.post() (used by bug.report() and help.request())\n      failed to quote arguments to the mailer, and so often failed.\n\n    ? bug.report() was naive about how to extract maintainer email\n      addresses from package descriptions, so would often try mailing\n      to incorrect addresses.\n\n    ? debugger() could fail to read the environment of a call to a\n      function with a ... argument.  (Reported by Charlie Roosen.)\n\n    ? prettyNum(c(1i, NA), drop0=TRUE) or str(NA_complex_) now work\n      correctly.\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "I've rolled up R-2.12.2.tar.gz a short while ago. This is an update release, which fixes a number of mostly minor issues, and one major issue in which complex arithmetic was being messed up on some co",
+      "thread_id": "thread-38686828f323",
+      "thread_depth": 0,
+      "month": "2011-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e467de1c9789",
+      "subject": "R 2.12.2 scheduled for February 25",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2011-02-14T15:59:39+01:00",
+      "last_reply": "2011-02-14T15:59:39+01:00",
+      "root_message_id": "msg-e467de1c9789"
+    },
+    {
+      "id": "thread-38686828f323",
+      "subject": "R 2.12.2 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2011-02-25T13:49:42+01:00",
+      "last_reply": "2011-02-25T13:49:42+01:00",
+      "root_message_id": "msg-38686828f323"
+    }
+  ]
+}

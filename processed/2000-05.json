@@ -1,0 +1,171 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2000-05",
+  "messages": [
+    {
+      "id": "msg-b665956911d2",
+      "message_id": "<14615.62302.797487.291706@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2000-05-09T13:15:42+02:00",
+      "subject": "contributed documentation",
+      "subject_clean": "contributed documentation",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\nas promised I have started a ``user contributed documentation''\nsection on CRAN. It currently contains a Spanish version of the\n``Notes on R'' by Andr?s Gonz?lez and Silvia Gonz?lez and ``Data\nAnalysis and Graphics Using R'' by John Maindonald.\n\nAll contributions are welcome!\n\nPlease note that I had a little accident last week (shoulder\ndislocation) such that CRAN maintainance will be a bit slower for the\nnext 2-3 weeks ...\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\nas promised I have started a ``user contributed documentation''\nsection on CRAN. It currently contains a Spanish version of the\n``Notes on R'' by Andr?s Gonz?lez and Silvia Gonz?lez and ``Data\nAn",
+      "thread_id": "thread-b665956911d2",
+      "thread_depth": 0,
+      "month": "2000-05"
+    },
+    {
+      "id": "msg-9188ca65666b",
+      "message_id": "<200005172052.WAA17183@alpha.luc.ac.be>",
+      "from_name": "Jim Lindsey",
+      "from_email_hash": "7759bdd86e7565cb5bc22504926c6000c9b3b2ac7dc893d54622731d35116779",
+      "date": "2000-05-17T22:52:59+02:00",
+      "subject": "Introductory Statistics",
+      "subject_clean": "Introductory Statistics",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Following the recent discussion on the R-help list about introductory\nstatistics, I have spent some time updating the R code for my\nIntroductory Statistics book (OUP, 1995). The previous version was\nover four years old and used R v0.7! (under current numbering that\nwould be 0.07 -- it still used my Fortran implementation of nlm).\n  The R (and GLIM4) code for all examples and answers to the exercises\nare available at www.luc.ac.be/~jlindsey/books.html and the\ninstructors manual at www.luc.ac.be/~jlindsey/publications.html\n(A professor using the book at UCLA has also promised Stata code for\nit.)\n  Errors, comments, and suggestions welcome!\n  Jim\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Following the recent discussion on the R-help list about introductory\nstatistics, I have spent some time updating the R code for my\nIntroductory Statistics book (OUP, 1995). The previous version was\no",
+      "thread_id": "thread-9188ca65666b",
+      "thread_depth": 0,
+      "month": "2000-05"
+    },
+    {
+      "id": "msg-2fb75b68cfb7",
+      "message_id": "<3.0.32.19700101010000.0091a100@162.38.183.200>",
+      "from_name": "Emmanuel Paradis",
+      "from_email_hash": "279a25fc4a41e9310e9fb424624945d36d0266c02d86a58d5e8e9c1d7d268282",
+      "date": "2000-05-18T10:51:48+02:00",
+      "subject": "tutorial \"R pour les débutants\"  is  available on CRAN",
+      "subject_clean": "tutorial \"R pour les débutants\"  is  available on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R-users,\n\nThanks to Friedrich Leisch, my document \"R pour les d?butants\" is available\non CRAN in the contributed documentation section:\nhttp://cran.r-project.org/doc/contrib/Rdebuts.pdf.\nIt is written in French. \"R pour les d?butants\" (\"R for beginners\") gives a\nstarting point for people with no experience with R (or S). I tried to\nexplain the basics in the simplest way, as well as giving useful details\n(mostly with tables). Any feed-back would be greatly appreciated. If some\npeople think that an English translation would be useful, I would be ready\nto consider it.\n\nChers utilisateurs de R,\n\nGr?ce ? Friedrich Leisch, mon document \"R pour les d?butants\" est\ndisponible sur CRAN dans la section \"contributed documentation\":\nhttp://cran.r-project.org/doc/contrib/Rdebuts.pdf.\nLe but de \"R pour les d?butants\" est de fournir un point de d?part pour les\nutilisateurs qui n'ont aucune exp?rience avec R (ou S). J'ai essay? de\nsimplifier les explications, tout en donnant des d?tails utiles (le plus\nsouvent sous forme de tableaux). Tout commentaire ou suggestion serait\ngrandement appr?ci?. Si certaines personnes pensent qu'une tranduction en\nanglais serait utile, je serais pr?t ? examiner cette possibilit?.\n\n\n\nEmmanuel Paradis\nLaboratoire de Pal?ontologie\nInstitut des Sciences de l'Evolution\nUniversit? Montpellier II\nF-34095 Montpellier c?dex 05\nFrance\n\tphone: +33  4 67 14 39 64\n\tfax: +33  4 67 14 36 10\n\tmailto:paradis at isem.univ-montp2.fr\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear R-users,\n\nThanks to Friedrich Leisch, my document \"R pour les d?butants\" is available\non CRAN in the contributed documentation section:\nhttp://cran.r-project.org/doc/contrib/Rdebuts.pdf.\nIt is wr",
+      "thread_id": "thread-2fb75b68cfb7",
+      "thread_depth": 0,
+      "month": "2000-05"
+    },
+    {
+      "id": "msg-75ed9e23c82b",
+      "message_id": "<x2itwaz1ak.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2000-05-19T23:18:43+02:00",
+      "subject": "New R core member",
+      "subject_clean": "New R core member",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are pleased to announce that John Chambers has joined the R core\nteam. It is hard to believe that anyone on this list wouldn't know who\nJohn is, but just in case: He is the principal designer of the S\nlanguage and environment, for which he received the ACM Software\nSystems Award in 1999.\n\nJohn has been very supportive and helpful throughout the development\nof R. He is joining the core development group to help enhance R as an\nOpen Source project that can efficiently support the development of\nnew approaches and ideas in statistical computing.\n\nIn his own words:\n\n\"[...] the focus of much or our research here on statistical computing\nis in finding high leverage in new computing directions.  I'm hoping\nthat we can share related ideas with the rest of the community working\non R, and benefit everybody.\n\n[...] R seems to be poised to expand its role in statistics, perhaps\nespecially in terms of the audience.  As Linux and other open-source\nsoftware makes its way beyond academia, there is potential for R to\nappeal to a wider user base.  Maybe I can offer a few ideas as this\nprocess goes on.\"\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We are pleased to announce that John Chambers has joined the R core\nteam. It is hard to believe that anyone on this list wouldn't know who\nJohn is, but just in case: He is the principal designer of th",
+      "thread_id": "thread-75ed9e23c82b",
+      "thread_depth": 0,
+      "month": "2000-05"
+    },
+    {
+      "id": "msg-d46e65cb6e28",
+      "message_id": "<20000524085500.A3565@athome.lapsley>",
+      "from_name": "Michael Lapsley",
+      "from_email_hash": "825f1929890dd935212bcf5c6d964514d8eef2efcd79fc782df598d0c0b4207d",
+      "date": "2000-05-24T08:55:00+01:00",
+      "subject": "RODBC",
+      "subject_clean": "RODBC",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R-fans,\n\nMy database access package RODBC is now available on CRAN.\nFor those who have never used it, odbc is a database and\nplatform independant API which provides an SQL interface\nto a large number of database engines.  The databases supported\ninclude not only SQL based RDBMS but also CSV files, foxbase,\ndBase, MSExcel etc.\n\nODBC has been promoted mainly by Microsoft and this is where the\ndriver support is most widespread and solid.  Unix support is\navailable (free) for some of the more common database engines.\n\nTo my knowledge RODBC works with oracle, MSAccess, Sybase,\nDB2 and SQLServer on MSWindows platforms, and with\nMySQL, postgreSQL and oracle (with a slightly buggy\nbeta driver) under unix.  With access to the server I\nhave been able to use it with MSAccess from unix as well by\ninstalling (free) bridging software.\n\nSQL itself is very easy to learn and use in the context of\nselecting data from a single table; a rather contrived search will look\nlike 'SELECT col1,col2,col3 from MYTABLE where col1 > 999 and col2 = 'exact\nmatch' and col3 like '%wildcard match%'\n\nThere are a number of convenience functions in the package to wrap up\nsome of the more common usages of saving and retrieving dataframes.\n\nPlease keep me posted with bug reports and suggestions.\n\nMichael\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear R-fans,\n\nMy database access package RODBC is now available on CRAN.\nFor those who have never used it, odbc is a database and\nplatform independant API which provides an SQL interface\nto a large nu",
+      "thread_id": "thread-d46e65cb6e28",
+      "thread_depth": 0,
+      "month": "2000-05"
+    },
+    {
+      "id": "msg-337967ff472e",
+      "message_id": "<392D8CF8.7BB4DA29@nceas.ucsb.edu>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
+      "date": "2000-05-25T13:28:40-07:00",
+      "subject": "RPgSQL at SourceForge",
+      "subject_clean": "RPgSQL at SourceForge",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi Folks,\n\nI recently moved my RPgSQL package over to\n\n\thttp://rpgsql.sourceforge.net/\n\nThe package does everything that I need it to do, but I am hoping that\nothers will be interested in maintaining and extending the package. \nFull instructions on using SourceForge can be found at\n\n\thttp://sourceforge.net/\n\nCheers,\nTim\n\n-- \nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n735 State Street, Suite 300, Santa Barbara, CA 93101\nPhone: 805-892-2519, FAX: 805-892-2510\nhttp://www.nceas.ucsb.edu/~keitt/\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi Folks,\n\nI recently moved my RPgSQL package over to\n\n\thttp://rpgsql.sourceforge.net/\n\nThe package does everything that I need it to do, but I am hoping that\nothers will be interested in maintaining ",
+      "thread_id": "thread-337967ff472e",
+      "thread_depth": 0,
+      "month": "2000-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b665956911d2",
+      "subject": "contributed documentation",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "2000-05-09T13:15:42+02:00",
+      "last_reply": "2000-05-09T13:15:42+02:00",
+      "root_message_id": "msg-b665956911d2"
+    },
+    {
+      "id": "thread-9188ca65666b",
+      "subject": "Introductory Statistics",
+      "message_count": 1,
+      "participants": [
+        "Jim Lindsey"
+      ],
+      "started": "2000-05-17T22:52:59+02:00",
+      "last_reply": "2000-05-17T22:52:59+02:00",
+      "root_message_id": "msg-9188ca65666b"
+    },
+    {
+      "id": "thread-2fb75b68cfb7",
+      "subject": "tutorial \"R pour les débutants\"  is  available on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Emmanuel Paradis"
+      ],
+      "started": "2000-05-18T10:51:48+02:00",
+      "last_reply": "2000-05-18T10:51:48+02:00",
+      "root_message_id": "msg-2fb75b68cfb7"
+    },
+    {
+      "id": "thread-75ed9e23c82b",
+      "subject": "New R core member",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2000-05-19T23:18:43+02:00",
+      "last_reply": "2000-05-19T23:18:43+02:00",
+      "root_message_id": "msg-75ed9e23c82b"
+    },
+    {
+      "id": "thread-d46e65cb6e28",
+      "subject": "RODBC",
+      "message_count": 1,
+      "participants": [
+        "Michael Lapsley"
+      ],
+      "started": "2000-05-24T08:55:00+01:00",
+      "last_reply": "2000-05-24T08:55:00+01:00",
+      "root_message_id": "msg-d46e65cb6e28"
+    },
+    {
+      "id": "thread-337967ff472e",
+      "subject": "RPgSQL at SourceForge",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "2000-05-25T13:28:40-07:00",
+      "last_reply": "2000-05-25T13:28:40-07:00",
+      "root_message_id": "msg-337967ff472e"
+    }
+  ]
+}

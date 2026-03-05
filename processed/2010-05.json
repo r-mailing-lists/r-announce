@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2010-05",
+  "messages": [
+    {
+      "id": "msg-66a5ca28c895",
+      "message_id": "<E92BDDCC-C49F-4C29-858F-C38A915E852D@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2010-05-20T12:03:09+02:00",
+      "subject": "R 2.11.1 Scheduled for May 31",
+      "subject_clean": "R 2.11.1 Scheduled for May 31",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.11.1 on Monday,\nMay 31, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) via\n\nhttp://cran.r-project.org/src/base-prerelease/\n\n  For the R Core Team\n  Peter Dalgaard\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "This is to announce that we plan to release R version 2.11.1 on Monday,\nMay 31, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.ht",
+      "thread_id": "thread-66a5ca28c895",
+      "thread_depth": 0,
+      "month": "2010-05"
+    },
+    {
+      "id": "msg-186ae0f683fb",
+      "message_id": "<43D125EC-EEB8-4282-8036-6914335B4159@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2010-05-31T11:16:36+02:00",
+      "subject": "[R] R 2.11.1 is released",
+      "subject_clean": "R 2.11.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.11.1.tar.gz a short while ago. This is an update release, which fixes a number of mostly minor issues. The most annoying one was probably the problem with format.POSIXlt causing C stack overflow on long date vectors. See the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.11.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n      For the R Core Team\n\n      Peter Dalgaard\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nMD5 (AUTHORS) = ac9746b4845ae866661f51cfc99262f5\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = 15600c9a568cbfcb72ea074f2bc5bfb3\nMD5 (INSTALL) = 70447ae7f2c35233d3065b004aa4f331\nMD5 (NEWS) = 32e5abe211dc0a7d13758d576ba20c01\nMD5 (ONEWS) = a8c985af5ad5e9c7e0a9f502d07baeb4\nMD5 (OONEWS) = 4f004de59e24a52d0f500063b4603bcb\nMD5 (R-latest.tar.gz) = 7421108ade3e9223263394b9bbe277ce\nMD5 (README) = 433182754c05c2cf7a04ad0da474a1d0\nMD5 (RESOURCES) = 020479f381d5f9038dcb18708997f5da\nMD5 (THANKS) = f2ccf22f3e20ebaa86f8ee5cc6b0f655\nMD5 (R-2/R-2.11.1.tar.gz) = 7421108ade3e9223263394b9bbe277ce\n\n\nThis is the relevant part of the NEWS file:\n\n                CHANGES IN R VERSION 2.11.1\n\n\nNEW FEATURES\n\n    o   R CMD INSTALL checks if dependent packages are available early on\n        in the installation of source packages, thereby giving clearer\n        error messages.\n\n    o   R CMD INSTALL --build now names the file in the format used\n        for Mac OS X binary files on that platform.\n\n    o   BIC() in package stats4 now also works with multiple fitted models,\n        analogously to AIC().\n\n\nDEPRECATED & DEFUNCT\n\n    o   Use of file extension .C for C++ code in packages is now\n        deprecated: it has caused problems for some 'make's on\n        case-insensitive file systems (although it currently works\n        with the recommended toolkits).\n\n\nINSTALLATION\n\n    o   Command 'gnutar' is preferred to 'tar' when configure sets\n        TAR.  This is needed on Mac OS 10.6, where the default tar,\n        bsdtar 2.6.2, has been reported to produce archives with\n        illegal extensions to tar (according to the POSIX standard).\n\n\nBUG FIXES\n\n    o   The C function mkCharLenCE now no longer reads past 'len' bytes\n        (unlikely to be a problem except in user code). (PR#14246)\n\n    o   On systems without any default LD_LIBRARY_PATH (not even\n        /usr/local/lib), [DY]LIB_LIBRARY_PATH is now set without a\n        trailing colon.  (PR#13637)\n\n    o   More efficient utf8ToInt() on long multi-byte strings with\n        many multi-byte characters.  (PR#14262)\n\n    o   aggregate.ts() gave platform-depedent results due to rounding\n        error for ndeltat != 1.\n\n    o   package.skeleton() sometimes failed to fix filenames for .R or\n        .Rd files to start with an alphanumeric.  (PR#14253)\n        It also failed when only an S4 class without any methods was\n        defined.  (PR#14280)\n\n    o   splinefun(*, method = \"monoH.FC\")  was not quite monotone in rare\n        cases.  (PR#14215)\n\n    o   Rhttpd no longer crashes due to SIGPIPE when the client closes\n        the connection prematurely.  (PR#14266)\n\n    o   format.POSIXlt() could cause a stack overflow and crash when used on\n        very long vectors.  (PR#14267)\n\n    o   Rd2latex() incorrectly escaped special characters in \\usage sections.\n\n    o   mcnemar.test() could alter the levels (dropping unused levels)\n        if passed 'x' and 'y' as factors (reported by Greg Snow).\n\n    o   Rd2pdf sometimes needed a further pdflatex pass to get\n        hyperlinked pages correct.\n\n    o   interaction() produced malformed results when levels were\n        duplicated, causing segfaults in split().\n\n    o   cut(d, breaks = <n>)  now also works for \"Date\" or \"POSIXt\"\n        argument d.  (PR#14288)\n\n    o   memDecompress() could decompress incompletely rare xz-compressed\n        input due to incorrect documentation of xz utils.  (Report\n        and patch from Olaf Mersmann.)\n\n    o   The S4 initialize() methods for \"matrix\", \"array\", and \"ts\" have\n        been fixed to call validObject(). (PR#14284)\n\n    o   R CMD INSTALL now behaves the same way with or without\n        --no-multiarch on platforms with only one installed\n        architecture.  (It used to clean the src directory without\n        --no-multiarch.)\n\n    o   [<-.data.frame was not quite careful enough in assigning (and\n        potentially deleting) columns right-to-left. (PR#14263)\n\n    o   rbeta(n, a,b) no longer occasionally returns NaN for a >> 1 > b.\n        (PR#14291)\n\n    o   pnorm(x, log.p = TRUE) could return NaN not -Inf for x near\n        (minus for lower.tail=TRUE) the largest representable number.\n\n    o   Compressed data files *.(txt|tab|csv).(gz|bz2|xz) were not\n        recognized for the list of data topics and hence for packages\n        using LazyData.  (PR#14273)\n\n    o   textConnection() did an unnecessary translation on strings in\n        a foreign encoding (e.g. UTF-8 strings on Windows) and so was\n        slower than it could have been on very long input strings.\n        (PR#14286)\n        \n    o   tools::Rd2txt() did not render poorly written Rd files\n        consistently with other renderers.\n\n    o   na.action() did not extract the 'na.action' component as\n        duplicated, causing segfaults in split().\n\n    o   cut(d, breaks = <n>)  now also works for \"Date\" or \"POSIXt\"\n        argument d.  (PR#14288)\n\n    o   memDecompress() could decompress incompletely rare xz-compressed\n    o   On systems without any default LD_LIBRARY_PATH (not even\n        /usr/local/lib), [DY]LIB_LIBRARY_PATH is now set without a\n        trailing colon.  (PR#13637)\n\n    o   More efficient utf8ToInt() on long multi-byte strings with\n        many multi-byte characters.  (PR#14262)\n\n    o   aggregate.ts() gave platform-depedent results due to rounding\n        error for ndeltat != 1.\n\n    o   package.skeleton() sometimes failed to fix filenames for .R or\n        .Rd files to start with an alphanumeric.  (PR#14253)\n        It also failed when only an S4 class without any methods was\n        defined.  (PR#14280)\n\n    o   splinefun(*, method = \"monoH.FC\")  was not quite monotone in rare\n        cases.  (PR#14215)\n\n    o   Rhttpd no longer crashes due to SIGPIPE when the client closes\n        the connection prematurely.  (PR#14266)\n\n    o   format.POSIXlt() could cause a stack overflow and crash when used on\n        very long vectors.  (PR#14267)\n\n    o   Rd2latex() incorrectly escaped special characters in \\usage sections.\n\n    o   mcnemar.test() could alter the levels (dropping unused levels)\n        if passed 'x' and 'y' as factors (reported by Greg Snow).\n\n    o   Rd2pdf sometimes needed a further pdflatex pass to get\n        hyperlinked pages correct.\n\n    o   interaction() produced malformed results when levels were\n        duplicated, causing segfaults in split().\n\n    o   cut(d, breaks = <n>)  now also works for \"Date\" or \"POSIXt\"\n        argument d.  (PR#14288)\n\n    o   memDecompress() could decompress incompletely rare xz-compressed\n        input due to incorrect documentation of xz utils.  (Report\n        and patch from Olaf Mersmann.)\n\n    o   The S4 initialize() methods for \"matrix\", \"array\", and \"ts\" have\n        been fixed to call validObject(). (PR#14284)\n\n    o   R CMD INSTALL now behaves the same way with or without\n        --no-multiarch on platforms with only one installed\n        architecture.  (It used to clean the src directory without\n        --no-multiarch.)\n\n    o   [<-.data.frame was not quite careful enough in assigning (and\n        potentially deleting) columns right-to-left. (PR#14263)\n\n    o   rbeta(n, a,b) no longer occasionally returns NaN for a >> 1 > b.\n        (PR#14291)\n\n    o   pnorm(x, log.p = TRUE) could return NaN not -Inf for x near\n        (minus for lower.tail=TRUE) the largest representable number.\n\n    o   Compressed data files *.(txt|tab|csv).(gz|bz2|xz) were not\n        recognized for the list of data topics and hence for packages\n        using LazyData.  (PR#14273)\n\n    o   textConnection() did an unnecessary translation on strings in\n        a foreign encoding (e.g. UTF-8 strings on Windows) and so was\n        slower than it could have been on very long input strings.\n        (PR#14286)\n        \n    o   tools::Rd2txt() did not render poorly written Rd files\n        consistently with other renderers.\n\n    o   na.action() did not extract the 'na.action' component as\n        documented.",
+      "body_snippet": "I've rolled up R-2.11.1.tar.gz a short while ago. This is an update release, which fixes a number of mostly minor issues. The most annoying one was probably the problem with format.POSIXlt causing C s",
+      "thread_id": "thread-186ae0f683fb",
+      "thread_depth": 0,
+      "month": "2010-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-66a5ca28c895",
+      "subject": "R 2.11.1 Scheduled for May 31",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2010-05-20T12:03:09+02:00",
+      "last_reply": "2010-05-20T12:03:09+02:00",
+      "root_message_id": "msg-66a5ca28c895"
+    },
+    {
+      "id": "thread-186ae0f683fb",
+      "subject": "R 2.11.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2010-05-31T11:16:36+02:00",
+      "last_reply": "2010-05-31T11:16:36+02:00",
+      "root_message_id": "msg-186ae0f683fb"
+    }
+  ]
+}

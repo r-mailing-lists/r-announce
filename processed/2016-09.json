@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2016-09",
+  "messages": [
+    {
+      "id": "msg-cdafe4983f83",
+      "message_id": "<CAOQ5NydXL7bbvFGMFOPR5wyVm5whZ7S8RNfYXO0MyxP5rBVYiA@mail.gmail.com>",
+      "from_name": "Michael Lawrence",
+      "from_email_hash": "bfe89466f88aa4e170d0a66a4e53638a9e527ae59f6b2639e8267ad3421950bf",
+      "date": "2016-09-07T07:06:20-07:00",
+      "subject": "The R Journal, Volume 8, Issue 1",
+      "subject_clean": "The R Journal, Volume 8, Issue 1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2016-1/\n\nMany thanks to all contributors.\n\nMichael Lawrence",
+      "body_snippet": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2016-1/\n\nMany thanks to all contributors.\n\nMichael Lawrence",
+      "thread_id": "thread-cdafe4983f83",
+      "thread_depth": 0,
+      "month": "2016-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-cdafe4983f83",
+      "subject": "The R Journal, Volume 8, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Michael Lawrence"
+      ],
+      "started": "2016-09-07T07:06:20-07:00",
+      "last_reply": "2016-09-07T07:06:20-07:00",
+      "root_message_id": "msg-cdafe4983f83"
+    }
+  ]
+}

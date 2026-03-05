@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2008-01",
+  "messages": [
+    {
+      "id": "msg-1acca470f94b",
+      "message_id": "<47A05A94.8010406@R-Project.org>",
+      "from_name": "Uwe Ligges",
+      "from_email_hash": "c17cae670f8f8c752d6cde87e94fcb58a5bfee16d5d4c88c9cb2b95d2275685b",
+      "date": "2008-01-30T12:08:04+01:00",
+      "subject": "useR! 2008: submission & registration started!",
+      "subject_clean": "useR! 2008: submission & registration started!",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are happy to inform you that the online abstract submission and\nregistration for `useR! 2008' is now available online from\n\n   http://www.R-project.org/useR-2008/\n\nThis meeting of the R user community will take place at the Technische \nUniversit?t Dortmund, Dortmund, Germany, August 12 to 14, 2008.\nThe conference schedule comprises invited lectures and user-contributed \nsessions as well as half-day tutorials presented by R experts on August \n11, 2008, prior to the conference.\n\nInvited speakers will include\n   Peter B?hlmann, John Fox, Andrew Gelman, Kurt Hornik, Gary King,\n   Duncan Murdoch, Jean Thioulouse, and Graham J. Williams.\n\nThe spectrum of user-contributed sessions will depend on your \nsubmissions. Hence, we invite you to submit abstracts on topics \npresenting innovations or exciting applications of R. The call for \npapers along with the link to the online abstract submission is available at\n   http://www.R-project.org/useR-2008/#Call\n\nBefore the start of the official program, half-day tutorials will be \noffered on Monday, August 11. A list of topics and speakers can be found at\n   http://www.R-project.org/useR-2008/tutorials/\n\nEarly birds fly until March 31st 2008, so now is the perfect time to\nwrite and submit an abstract, register as a participant and plan your \ntrip to Dortmund. The conference web page\n   http://www.R-project.org/useR-2008/\nhas a link to a local hotel booking service and much more news.\n\nWe hope to meet you in Dortmund!\n\nThe conference committee,\n   Uwe Ligges (conference), Achim Zeileis (program), Claus Weihs,\n   Gerd Kopp (local organization), Friedrich Leisch, Torsten Hothorn",
+      "body_snippet": "We are happy to inform you that the online abstract submission and\nregistration for `useR! 2008' is now available online from\n\n   http://www.R-project.org/useR-2008/\n\nThis meeting of the R user commun",
+      "thread_id": "thread-1acca470f94b",
+      "thread_depth": 0,
+      "month": "2008-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1acca470f94b",
+      "subject": "useR! 2008: submission & registration started!",
+      "message_count": 1,
+      "participants": [
+        "Uwe Ligges"
+      ],
+      "started": "2008-01-30T12:08:04+01:00",
+      "last_reply": "2008-01-30T12:08:04+01:00",
+      "root_message_id": "msg-1acca470f94b"
+    }
+  ]
+}

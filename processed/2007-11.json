@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2007-11",
+  "messages": [
+    {
+      "id": "msg-2a400dbeab55",
+      "message_id": "<472A116A.9080106@statistik.uni-dortmund.de>",
+      "from_name": "Uwe Ligges",
+      "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
+      "date": "2007-11-01T18:48:26+01:00",
+      "subject": "useR! 2008 - last call for tutorial proposals",
+      "subject_clean": "useR! 2008 - last call for tutorial proposals",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "As most of you already know from a previous announcement, the R user \nconference\n\n    useR! 2008\n\nis scheduled for August 12-14, 2008, and will take place at the\nUniversity of Dortmund.\n\n\n\n    PRE-CONFERENCE TUTORIALS\n\n\nBefore the official program, half-day tutorials will be offered\non Monday, August 11th. We invite R users to submit proposals for three \nhour tutorials on special topics on R. The proposals should give a brief \ndescription of the tutorial, including goals, detailed outline, \njustification why the tutorial is important, background knowledge \nrequired and potential attendees.\n\nThis is the last call for submitting proposals for pre-conference \ntutorials to useR-2008 at R-project.org. The proposals should be sent \nbefore 2007-11-09.\n\n\nA web page offering more information on the `useR!' conference is\navailable at\n\n    http://www.R-project.org/useR-2008\n\n\nWe hope to meet you in Dortmund!\n\n\nThe conference committee:\n      Uwe Ligges (conference), Achim Zeileis (program), Claus Weihs,\n      Gerd Kopp (local organization), Friedrich Leisch, Torsten Hothorn",
+      "body_snippet": "As most of you already know from a previous announcement, the R user \nconference\n\n    useR! 2008\n\nis scheduled for August 12-14, 2008, and will take place at the\nUniversity of Dortmund.\n\n\n\n    PRE-CON",
+      "thread_id": "thread-2a400dbeab55",
+      "thread_depth": 0,
+      "month": "2007-11"
+    },
+    {
+      "id": "msg-8cc614c523cc",
+      "message_id": "<474ADA7E.7030209@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2007-11-26T15:38:54+01:00",
+      "subject": "R-2.6.1 is released",
+      "subject_clean": "R-2.6.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.6.1.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor bugs\nand platform issues, as well as a couple of major problems.\n\nProbably, the most important issues were\n- save-to-postscript on Windows\n- tcltk event loop with X11\n- build issue on recent MacOSX\n\nSee the full list of changes below.\n\nYou can get it (in a short while) from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.6.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course.\n\n        For the R Core Team\n\n        Peter Dalgaard\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n070cca21d9f8a6af15f992edb47a24d5  AUTHORS\neb723b61539feef013de476e68b5c50a  COPYING\na6f89e2100d9b6cdffcea4f398e37343  COPYING.LIB\n619aa712a6032fdbffd4f0c69d962859  FAQ\n70447ae7f2c35233d3065b004aa4f331  INSTALL\nb6ed12e20f627a466378fc28006dc9c9  NEWS\n88bbd6781faedc788a1cbd434194480c  ONEWS\n4f004de59e24a52d0f500063b4603bcb  OONEWS\n19c35a69e1afa73f5f70f91ff9939233  R-2.6.1.tar.gz\n19c35a69e1afa73f5f70f91ff9939233  R-latest.tar.gz\n433182754c05c2cf7a04ad0da474a1d0  README\n020479f381d5f9038dcb18708997f5da  RESOURCES\n1ad28cbc84485ccdf4ce5721b34ed645  THANKS\n\nHere is the relevant bit of the NEWS file:\n\n                CHANGES IN R VERSION 2.6.1\n\nNEW FEATURES\n\n    o   The \"data.frame\" and \"factor\" methods for [[ now support\n        the 'exact' argument introduced in 2.6.0.\n\n    o   plot.lm() gains a new argument 'cex.caption' to allow the\n        size of the captions to be controlled.\n\n    o   A series of changes make the CHARSXP cache introduced in 2.6.0\n        faster (and in some cases many times faster) in sessions with\n        a large number (e.g. a million) of unique character strings,\n        and also if there are many empty strings.\n\n    o   embedFonts(), bitmap() and dev2bitmap() explicitly turn off\n        auto-rotation in Ghostscript when generating PDF.\n\n    o   The canonical architecture is no longer checked when loading\n        packages using a non-empty sub-architecture, since it is\n        possible to (e.g.) build packages for i386-pc-linux-gnu on both\n        that architecture and on x86_64-unknown-linux-gnu.\n\n    o   Deparsing will (if option warnIncomplete is set) warn on\n        strings longer than the parser limit (8192 bytes).\n\n    o   url() now uses the UserAgent header in http transactions in\n        the same way as download.file() (making use of option\n        \"HTTPUserAgent\").\n\nBUG FIXES\n\n    o   iconv() is again able to translate character strings with\n        embedded nuls (such as those in UCS-2).\n\n    o   new.packages() and update.packages() failed when called on an\n        empty library, since old.packages() threw an error.\n        old.packages() now returns NULL (as documented) in that case.\n\n    o   Builds on Mac OS X 10.4 or higher now allocate enough space\n        in the binary headers to relocate dependent libraries into the\n        framework.\n\n    o   R CMD build now computes the exclusion list on the copy it\n        makes: this avoids problems if the original sources contain\n        symbolic links (which are resolved in the copy).  Thanks to\n        Michael Lawrence for diagnosis and patch.\n\n    o   object.size() had slightly too low a size for objects of type \"S4\".\n\n    o   symbol() in plotmath expressions was only accepting valid\n        character strings, which made it impossible to specify symbols\n        such as aleph (obtained by symbol(\"\\300\")) in a UTF-8 locale.\n\n    o   An event handling issue caused autorepeat functions to\n        misbehave with tcltk (notably scrollbars).\n\n    o   plot(sin, -5, 5) gives ylab 'sin(x)' again, where it resulted\n        in 'x(x)' in 2.6.0.  Further,  plot(sin)  again plots from\n        [0,1] also in cases where a previously used coordinate system\n        differs.\n\n    o   curve() with unspecified 'from', 'to' and 'xlim' now reuses the\n        previous x limits, and not slightly larger ones.\n\n    o   It was intended that R code filenames in packages should start\n        with an ASCII letter or digits (and R CMD INSTALL uses that),\n        but the test used in R CMD build ([A-Za-z0-9]) was\n        locale-specific (and excluded t to y in Estonian, for\n        example).  (PR#10351)\n\n    o   'R CMD build' could misbehave when faced with files with CRLF\n        line endings *and* no line ending on the final line of the\n        file, removing the last byte of the file.\n\n    o   DF[i, j] failed in 2.6.0 if j was a logical vector selecting a\n        single column.\n\n    o   Unix x11() would fail if a valid 'display' was specified but\n        DISPLAY was unset. (PR#10379)\n\n    o   postscript() was not always ignoring .Postscript.Options in\n        the workspace (where it should not have occurred).\n\n    o   help.search() would give an error if it found a badly\n        installed package, even if 'package' was not specified.\n\n    o   tclServiceMode() (package tcltk) now works under Unix-alikes.\n        (Although documented, it used only to work under Windows.)\n\n    o   As Mac OS X 10.5.0 comes with incompatible /bin/sh shell, we\n        force SHELL=/bin/bash (which is ok) in that case. [Only for\n        2.6.x: another solution is used in 2.7.0.]\n\n    o   Deliberately using malformed source attributes no longer\n        causes deparsing/printing of functions to crash R. (PR#10437)\n\n    o   R CMD check and R CMD INSTALL now work with (some) directory\n        names containing spaces.\n\n    o   choose(n, k) gave incorrect values for negative n and small k.\n\n    o   plot.ts(x,y) could use wrong default labels; fixed thanks to\n        Antonio, Fabio di Narzo.\n\n    o   reshape() got column names out of sync with contents in some\n        cases; found by Antonio, Fabio Di Narzo.\n\n    o   ar(x) for short 'x' (i.e. length <= 10) could fail because the\n        default 'order.max' was >= length(x) which is non-sensical.\n\n    o   Keyboard events in getGraphicsEvent() could cause stack\n        imbalance errors (PR#10453)\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark          Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)                  FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-2.6.1.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor bugs\nand platform issues, as well as a couple of major problems.\n\nProbably, the most ",
+      "thread_id": "thread-8cc614c523cc",
+      "thread_depth": 0,
+      "month": "2007-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2a400dbeab55",
+      "subject": "useR! 2008 - last call for tutorial proposals",
+      "message_count": 1,
+      "participants": [
+        "Uwe Ligges"
+      ],
+      "started": "2007-11-01T18:48:26+01:00",
+      "last_reply": "2007-11-01T18:48:26+01:00",
+      "root_message_id": "msg-2a400dbeab55"
+    },
+    {
+      "id": "thread-8cc614c523cc",
+      "subject": "R-2.6.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2007-11-26T15:38:54+01:00",
+      "last_reply": "2007-11-26T15:38:54+01:00",
+      "root_message_id": "msg-8cc614c523cc"
+    }
+  ]
+}

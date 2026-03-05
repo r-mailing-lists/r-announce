@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-10",
+  "messages": [
+    {
+      "id": "msg-50658a8a7ab2",
+      "message_id": "<15292.6089.760015.233382@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-10-04T10:03:21+02:00",
+      "subject": "new version of e1071 on CRAN",
+      "subject_clean": "new version of e1071 on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new version of e1071 has been released to CRAN which should be much\neasier to install on a lot of platforms because reading/writing PNM\nimages has been moved to the pixmap package, hence there are no longer\ndependencies on external libraries and no configure mechanism.\n\nFor the authors,\nFritz Leisch\n\n\n**********************************************************\n\nChanges in Version 1.2-0:\n\n  o Added functions for bagged clustering, see help(bclust).\n\n  o read.pnm() and write.pgm() have been removed from e1071, much\n    improved versions can now be found in the new package pixmap. \n\n  o Lots of documentation updates and bugfixes.\n\n  o Support Vector Machine interface now upgraded to libsvm V. 2.31\n    featuring:\n    - Multi-Class Classification\n    - weighting of classes for C-classification (for asymmetric sample sizes)\n    - nu-regression\n    - Formula Interface\n    - k-fold cross-validation\n    In addition, an introductory article is provided in directory\n    `docs/' (svmdoc.pdf).\n\n  o classAgreement now features an option to match factor levels\n\n  o updated API design for the fuzzy clustering functions\n    (cmeans, cshell, scaclust). Documentation updates and function\n    name changes (cmeanscl -> cmeans, validity.measures -> fclustIndex)\n\n\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new version of e1071 has been released to CRAN which should be much\neasier to install on a lot of platforms because reading/writing PNM\nimages has been moved to the pixmap package, hence there are n",
+      "thread_id": "thread-50658a8a7ab2",
+      "thread_depth": 0,
+      "month": "2001-10"
+    },
+    {
+      "id": "msg-d9b5ee69d782",
+      "message_id": "<200110171049.MAA21217@luc.ac.be>",
+      "from_name": "Jim Lindsey",
+      "from_email_hash": "c972a47c9a68053d636829d49e0dfa9a99122349c7033c4a6738ed74c9218fbc",
+      "date": "2001-10-17T12:49:29+02:00",
+      "subject": "stochastic course notes with R",
+      "subject_clean": "stochastic course notes with R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just put the postscript file for the first draft of a\nmanuscript of a course on The Statistical Analysis of Stochastic\nProcesses in Time, as well as the R code to do all of the examples, on\nmy web page at\n\nwww.luc.ac.be/~jlindsey/manuscripts.html\n\nThe chapters are\nPart I Basic principles\n 1. What is a stochastic process?\n 2. Normal theory models and extensions.\nPart II Categorical state space\n 3. Survival processes.\n 4. Recurrent events.\n 5. Discrete-time Markov chains.\n 6. Event histories.\n 7. Dynamic models.\n 8. More complex dependencies.\nPart III Continuous state space\n 9. Time series.\n10. Growth curves.\n11. Dynamic models.\n12. Repeated measurements.\n\nAlthough it contains chapters on survival analysis and time series, as\nfar as I have been able to see, the ts and survival libraries are not\ncapable of performing the analyses that I required, except for some of\nthe simple plots.\n\nAs a reminder, the following books all have complete R code available\non my web page as well:\n\nIntroductory Statistics. A Modelling Approach. OUP, 1995 0-19-852345-9\n\t(also instructor's manual can be downloaded)\nModels for Repeated Measurements. (2nd edn) OUP, 1999 0-19-850559-0\nNonlinear Models in Medical Statistics. OUP, 2001 0-19-850812-3\n\nOf course, all four require my R libraries available at\n\nwww.luc.ac.be/~jlindsey/rcode.html\n\nComments and criticisms are very welcome.\n  Jim\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just put the postscript file for the first draft of a\nmanuscript of a course on The Statistical Analysis of Stochastic\nProcesses in Time, as well as the R code to do all of the examples, on\nmy ",
+      "thread_id": "thread-d9b5ee69d782",
+      "thread_depth": 0,
+      "month": "2001-10"
+    },
+    {
+      "id": "msg-54cd8b231346",
+      "message_id": "<15318.47880.81171.759753@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-10-24T14:58:48+02:00",
+      "subject": "bugfix release of e1071",
+      "subject_clean": "bugfix release of e1071",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A bugfix release of package e1071 that passes `Rcmd check' on windows\nhas been uploaded to CRAN.\n\nChanges in Version 1.2-1:\n\n  o Bug fixes in cmeans.c, cshell.c and scaclust.c (R header files\n    included and unused variables removed)\n  \n  o Bug fixes in Rsvm.c and svm.R (incomplete list of returned Support \n    Vectors).\n\n  o Encapsulate kmeans call in bclust() in a try construct, because\n    kmeans gives an error when a cluster becomes empty (which can\n    happen for almost every data set from time to time).\n\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A bugfix release of package e1071 that passes `Rcmd check' on windows\nhas been uploaded to CRAN.\n\nChanges in Version 1.2-1:\n\n  o Bug fixes in cmeans.c, cshell.c and scaclust.c (R header files\n    incl",
+      "thread_id": "thread-54cd8b231346",
+      "thread_depth": 0,
+      "month": "2001-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-50658a8a7ab2",
+      "subject": "new version of e1071 on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "2001-10-04T10:03:21+02:00",
+      "last_reply": "2001-10-04T10:03:21+02:00",
+      "root_message_id": "msg-50658a8a7ab2"
+    },
+    {
+      "id": "thread-d9b5ee69d782",
+      "subject": "stochastic course notes with R",
+      "message_count": 1,
+      "participants": [
+        "Jim Lindsey"
+      ],
+      "started": "2001-10-17T12:49:29+02:00",
+      "last_reply": "2001-10-17T12:49:29+02:00",
+      "root_message_id": "msg-d9b5ee69d782"
+    },
+    {
+      "id": "thread-54cd8b231346",
+      "subject": "bugfix release of e1071",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "2001-10-24T14:58:48+02:00",
+      "last_reply": "2001-10-24T14:58:48+02:00",
+      "root_message_id": "msg-54cd8b231346"
+    }
+  ]
+}

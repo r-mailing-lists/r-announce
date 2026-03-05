@@ -1,0 +1,144 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1998-05",
+  "messages": [
+    {
+      "id": "msg-9a35c43d0d70",
+      "message_id": "<x267jojuis.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-05-02T22:19:07+02:00",
+      "subject": "R-0.61.3 released",
+      "subject_clean": "R-0.61.3 released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've just put up R-0.61.3.tgz and R-0.61.2-0.61.3.diff.gz for\nanonymous FTP on ftp.stat.auckland.ac.nz. \n\nAs usual: Don't get it from there unless you are in a desperate hurry.\nIt will migrate to the CRAN sites within a day or two. (See the FAQ\nfor the list of CRAN sites. And see the footer for the FAQ location....)\n\nThis release mainly fixes a couple of embarassing bugs in 0.61.2. It\nis expected to be the last of the 0.61.x series (unless something\n*really* ghastly is discovered), 0.62.0 being scheduled for release\nsome time in mid-June.\n\nHere is the list of changes:\n\n\n                CHANGES IN R VERSION 0.61.3\n\nNEW FEATURES\n\n    o   find(.) function [on wish of many...]\n\nBUG FIXES\n\n    o   Remove \"Alpha\" revision from opening blurb. Didn't make sense\n        with our development model\n\n    o   set SHELL=/bin/sh in Makefile and use $(MAKE). Avoid use of \n        wildcards in $(MANSRC) for non-gnu \"make\" (notably Solaris).\n\n    o   rhyper gave wrong results in degenerate cases\n\n    o   Using get with pos=length(search()) or envir=NULL was\n        actually actually starting the search in .GlobalEnv.\n\n    o   first=0 (or negative) argument to substr() caused trouble.\n\n    o   1%o%1 would segfault\n\n    o   .Dyn.libs would linger in .RData causing code not to be dyn.loaded.\n        Now removed in .First(), if necessary\n\n    o   system.time() expression could not access local variables in\n        functions.\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've just put up R-0.61.3.tgz and R-0.61.2-0.61.3.diff.gz for\nanonymous FTP on ftp.stat.auckland.ac.nz. \n\nAs usual: Don't get it from there unless you are in a desperate hurry.\nIt will migrate to the ",
+      "thread_id": "thread-9a35c43d0d70",
+      "thread_depth": 0,
+      "month": "1998-05"
+    },
+    {
+      "id": "msg-d12646b93ba1",
+      "message_id": "<XFMail.980522094346.plummer@iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
+      "date": "1998-05-22T09:05:46Z",
+      "subject": "CODA package for R",
+      "subject_clean": "CODA package for R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just uploaded the R port of the CODA (Convergence Diagnostics\nand Output Analysis) package to CRAN.  This is a suite of functions\nfor analyzing the output of Markov Chain Monte Carlo simulations and\ndiagnosing lack of convergence of the simulated output.  It is designed\nto work with (but is not necessarily limited to) the BUGS program:\nhttp://www.mrc-bsu.cam.ac.uk/bugs/ \n\nI have made substantial changes to the original S code, not just to make\nthe package run under R but to put the code on a more sound basis. The\nR version also includes a license change to GPL.\n\nI have tried to maintain the functionality of the original, while at the\nsame time allowing experienced R users to free themselves from the menu\ndriven interface.  The graphics are a bit rough, but apart from that it\nworks well in testing here. More testing and feedback from others is,\nof course, welcome.\n\nSince the R version is very different you should refer to the online\nhelp rather than the existing CODA manual.\n\nMartyn\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just uploaded the R port of the CODA (Convergence Diagnostics\nand Output Analysis) package to CRAN.  This is a suite of functions\nfor analyzing the output of Markov Chain Monte Carlo simulation",
+      "thread_id": "thread-d12646b93ba1",
+      "thread_depth": 0,
+      "month": "1998-05"
+    },
+    {
+      "id": "msg-b36861f8cd30",
+      "message_id": "<19980522123205.10247.qmail@sirio.stat.unipd.it>",
+      "from_name": "guido at sirio.stat.unipd.it",
+      "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
+      "date": "1998-05-22T13:32:05+01:00",
+      "subject": "R-0.61.3 for Win95/NT available",
+      "subject_clean": "R-0.61.3 for Win95/NT available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just put on ftp://sirio.stat.unipd.it/pub/R a new version \nof R for Win95/NT.\nThe main difference concerns dynamic linking (see below).\nIn addition, the binary distribution contains many of the \navailable packages (all the ones that I have installed on\nmy Unix machine).\nIn the afternoon, I will upload the files on CRAN.\ng.m.\n\nThis is the README file:\nrw0613b.zip is  a new binary distribution of R (based on the last \"stable\"\nversion, 0.61.3) for Win95 and WinNT. It is compiled using  egcs-minw32.\nrw0613s.zip contains the MsWindows sources.\n\nNews\n(a) Now, a dll can call a routine in the main executable. This\n    means that call_S, R_alloc,... work. Try, for example,\n    demo(dyn.load).\n    All R.exe (non static) functions and all global variables\n    are exported.\n    In this way, more packages can be ported and furthermore\n    the size of the dll cuts down.\n(b) I fixed a nasty bug which made impossible to set the\n    memory size. Now, R -v VVVV -n NNNN works.\n(c) There is a new command line switch -home aDir which\n    sets for the current run the HOME directory.\n    Workspace and user RProfile file are  searched in HOME.\n    In addition, now tempfile() try to use the environmental variables \n    TMP, TEMP and HOME (in this order).\n(d) The following packages are included in the binary distribution:\n      acepack    ace() and avas() for selecting regression transformations \n      base       The R base package \n      bootstrap  Functions for the Book \"An Introduction to the Bootstrap\" \n      class      Functions for classification \n      ctest      Classical Tests \n      eda        Exploratory Data Analysis \n      gee        Generalized Estimating Equation models  \n      integrate  numerical integration \n      leaps      Regression subset selection \n      locfit     Local Regression, Likelihood and Density Estimtion. \n      mva        Classical Multivariate Analysis \n      polymars   (polychotomous) regression based on  \n                 Multivariate Adaptive Regression Splines \n      polynom    A collection of functions to implement a class for  \n\t\t univariate polynomial manipulations \n      spatial    functions for kriging and point pattern analysis \n      splines    Regression Spline Functions and Classes \n      stepfun    Step Functions, including Empirical Distributions \n      survival4  Survival analysis [needs library(splines)] \n\n    Of course, I cannot test all the functions. So, don't flame me\n    if something doesn't work.\n    \n\nInstallation (binary distribution)\nJust unzip the archive. You will get a new directory (rw0613).\nThe executable is bin/R.exe.\n\nInstallation (sources)\nFirst of all, you have to download and untar the complete sources.\nThen, in the directory R-0.61.3, unzip rw0613s.zip.\nTo rebuild the system using egcs-mingw32 go to the src/gnuwin32\ndirectory and type \n> make\nThis will build the main executable (in R-0.61.3/bin) and\nthe standard packages: base, eda, mva, stepfun.\n\nInstalling other packages\nUncompress the package you want in R-0.61.3/src/library.\nThen, from the gnuwin32 directory, \n> make -f MakePkg -C ../library/xxx PKG=xxx [HAVEG77=NO] [DLLNAME=yyy]\nwill try to build the package xxx.\nThe HAVEG77=NO options must be used if:\n(a) you don't have or don't want to use g77;\nor\n(b) the package has a src-c directory but not a src one.\nThe option DLLNAME=yyy must be used if the package requires a\ndll with a name different from xxx.dll. For example, the dll\nof integrate is adapt.dll.\nIf you don't need the two flags, you can use the short command\n> make pkg-xxx\nCompiler flags must be setted in MakeDll. Look to this file\nfor some example.\n\n\nHelp files\nThere are no support for generating the help files.\nYou have to download the pre-formatted one by any CRAN site or\nto build them yourself on a Unix machine.\n\nTools\nTo rebuild the system and to install other packages, you need\nnot only a compiler but also some Gnu tools. The ones that I used,\ncoming from DJGPP, are  in djtools.zip.\nYou must uncompress this file from C:. It will expand\nunder usr/bin and usr/home.\nTo use the tools usr/bin must be in the PATH.\nIn djtools.zip, a version of bash is included.\nI am not sure that you need it but I did all my work \nusing it. To use bash, the environmental variable HOME\nshould point to /usr/home. You have to start bash, in a console\nor a MsDos windows, with\n> bash -login\nIf you install djtools.zip, please use the make in usr/bin not\nthe one of your compiler.\n\n\nguido masarotto (22/05/1998)\nguido at sirio.stat.unipd.it\nhttp://sirio.stat.unipd.it\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just put on ftp://sirio.stat.unipd.it/pub/R a new version \nof R for Win95/NT.\nThe main difference concerns dynamic linking (see below).\nIn addition, the binary distribution contains many of the",
+      "thread_id": "thread-b36861f8cd30",
+      "thread_depth": 0,
+      "month": "1998-05"
+    },
+    {
+      "id": "msg-7a144e8df51e",
+      "message_id": "<19980527140645.522.qmail@sirio.stat.unipd.it>",
+      "from_name": "guido at sirio.stat.unipd.it",
+      "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
+      "date": "1998-05-27T15:06:44+01:00",
+      "subject": "R-0.61.3 for MsWindows3.1+Win32s available",
+      "subject_clean": "R-0.61.3 for MsWindows3.1+Win32s available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just uploaded to CRAN a binary distribution of R for \nWindows3.1 + Win32s. \nYou can also find it at ftp://sirio.stat.unipd.it/pub/R\nguido m.\n\n---------------------------readme.31----------------------------------------\nrwin31b.zip contains a binary distribution of R-0.61.3 for MsWindows3.1\nwith Win32s installed. The executable and the dll's are compiled\nwith egcs-mingw32.\nThis distribution is equal to the one for Win95/NT (rw0613b.zip).\nIn particular, it contais the same packages (see README.95).\nI simple modified one  line of the source which is never\nexecuted under Win95/NT but which raises an error under Win31 \nand converted (using the included Unix shell script win31.sh)\nthe names of the files to the MsDos 8.3 format. I hope to\nhave converted also the links in the html files.\nInstallation is easy: just unzip rwin31b.zip somewhere and\nyou will get a new directory (rw0613); the executable is\nrw0613\\bin\\r.exe.\n\nNotes:\n(1) You need a recent version of Win32s. How much recent I don't know. \n    But r.exe doesn't work with version 1.30.142.0 and it works with \n    1.30.172.0. If you have a too old version of Win32s installed\n    you will get get some message of the type \"symbol xxxx not found\n    in crtdll.dll\". The Win32s version can be found in the file\n    windows\\system\\win32s.ini.\n    \n(2) To load a package, you should use only the first 8 characters\n    of the name, i.e., use\n    > library(survival)\n    not\n    > library(survival4)\n    \n(3) The system() command doesn't work. I have no time now to understand \n    why so I put a dummy definition in library/Rprofile.\n\n-----------------------------------------------------------------------------\nRemember that this distribution is experimental. So, use it at your \nown risk. This distribution is not formally maintained, but I am interested \nin hearing (on r-devel and r-help) from people who have problems with it, \nalthough I may not be able to solve them.\n-----------------------------------------------------------------------------\n\n\nguido masarotto (26/5/1998)\nguido at sirio.stat.unipd.it\nhttp://sirio.stat.unipd.it\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just uploaded to CRAN a binary distribution of R for \nWindows3.1 + Win32s. \nYou can also find it at ftp://sirio.stat.unipd.it/pub/R\nguido m.\n\n---------------------------readme.31---------------",
+      "thread_id": "thread-7a144e8df51e",
+      "thread_depth": 0,
+      "month": "1998-05"
+    },
+    {
+      "id": "msg-2851795f8987",
+      "message_id": "<13678.40103.628403.602684@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1998-05-29T13:31:51+02:00",
+      "subject": "multiv package on CRAN",
+      "subject_clean": "multiv package on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've ported F. Murtagh's statlib package \"multiv\" to R, it can be\nfound in the usual place on CRAN.\n\nContents:\n\nbea                      Bond Energy Algorithm\nca                       Correspondence Analysis\nsupplc                   Supplementary Columns in Correspondence Analysis\nsupplr                   Supplementary Rows in Correspondence Analysis\nflou                     Fuzzy Coding (3-Way)\nhierclust                Hierarchical Clustering\nlogique                  Logical Coding\nmembers                  Cluster Memberships\npartition                Partitioning by Iterative Optimization\npca                      Principal Components Analysis\nsammon                   Sammon's Non-Linear Mapping\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4546\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've ported F. Murtagh's statlib package \"multiv\" to R, it can be\nfound in the usual place on CRAN.\n\nContents:\n\nbea                      Bond Energy Algorithm\nca                       Correspondence A",
+      "thread_id": "thread-2851795f8987",
+      "thread_depth": 0,
+      "month": "1998-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-9a35c43d0d70",
+      "subject": "R-0.61.3 released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-05-02T22:19:07+02:00",
+      "last_reply": "1998-05-02T22:19:07+02:00",
+      "root_message_id": "msg-9a35c43d0d70"
+    },
+    {
+      "id": "thread-d12646b93ba1",
+      "subject": "CODA package for R",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "1998-05-22T09:05:46+00:00",
+      "last_reply": "1998-05-22T09:05:46+00:00",
+      "root_message_id": "msg-d12646b93ba1"
+    },
+    {
+      "id": "thread-b36861f8cd30",
+      "subject": "R-0.61.3 for Win95/NT available",
+      "message_count": 1,
+      "participants": [
+        "guido at sirio.stat.unipd.it"
+      ],
+      "started": "1998-05-22T13:32:05+01:00",
+      "last_reply": "1998-05-22T13:32:05+01:00",
+      "root_message_id": "msg-b36861f8cd30"
+    },
+    {
+      "id": "thread-7a144e8df51e",
+      "subject": "R-0.61.3 for MsWindows3.1+Win32s available",
+      "message_count": 1,
+      "participants": [
+        "guido at sirio.stat.unipd.it"
+      ],
+      "started": "1998-05-27T15:06:44+01:00",
+      "last_reply": "1998-05-27T15:06:44+01:00",
+      "root_message_id": "msg-7a144e8df51e"
+    },
+    {
+      "id": "thread-2851795f8987",
+      "subject": "multiv package on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1998-05-29T13:31:51+02:00",
+      "last_reply": "1998-05-29T13:31:51+02:00",
+      "root_message_id": "msg-2851795f8987"
+    }
+  ]
+}

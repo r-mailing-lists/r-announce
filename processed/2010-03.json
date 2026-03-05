@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2010-03",
+  "messages": [
+    {
+      "id": "msg-454e2c1dce27",
+      "message_id": "<785F3934-10B5-45F5-9829-010206E6FB00@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2010-03-22T11:38:23+01:00",
+      "subject": "R 2.11.0 Scheduled for April 22, 2010",
+      "subject_clean": "R 2.11.0 Scheduled for April 22, 2010",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.11.0 on Thursday,\nApril 22, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) via\n\nhttp://cran.r-project.org/src/base-prerelease/\n\n   For the R Core Team\n   Peter Dalgaard\n\n\n-- \n  O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n(*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907\n\n\n\n\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "This is to announce that we plan to release R version 2.11.0 on Thursday,\nApril 22, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklis",
+      "thread_id": "thread-454e2c1dce27",
+      "thread_depth": 0,
+      "month": "2010-03"
+    },
+    {
+      "id": "msg-d3cd9aff38be",
+      "message_id": "<19368.55659.435905.884614@ron.nulle.part>",
+      "from_name": "Dirk Eddelbuettel",
+      "from_email_hash": "8b79bd175967d91ecdd7979d4279ce0b4d94d50f3ec4f327ced43f7d41be7110",
+      "date": "2010-03-23T10:08:27-05:00",
+      "subject": "R Participation in the Google Summer of Code 2010",
+      "subject_clean": "R Participation in the Google Summer of Code 2010",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R Users,\n\nWe would like to highlight that R has once again been selected to participate\nin the Google Summer of Code.  Suggested projects can be found in the R-Wiki:\nhttp://rwiki.sciviews.org/doku.php?id=developers:projects:gsoc2010.  The GSoC\nis a program from Google that offers student developers stipends to write\ncode for various open source software projects (more information can be found\nhere: http://code.google.com/soc/).\n\nAll discussion related to R and the Google Summer of Code should preferably\ntak place on the respective google group:\nhttp://groups.google.com/group/gsoc-r (gsoc-r at googlegroups.com).\n \nWe are currently in a time period during which interested students can\ndiscuss an idea from the wiki with the respective project mentor, or contact\nthe gsoc-r group to propose a new one and find a mentor.  Please note that\nsome projects on the R-Wiki also provide test questions, so please read these\npages thoroughly before contacting a project mentor. The student application\nperiod opens on March 29th.\n\nBest regards,\n\nthe R Project GSoC mentors",
+      "body_snippet": "Dear R Users,\n\nWe would like to highlight that R has once again been selected to participate\nin the Google Summer of Code.  Suggested projects can be found in the R-Wiki:\nhttp://rwiki.sciviews.org/dok",
+      "thread_id": "thread-d3cd9aff38be",
+      "thread_depth": 0,
+      "month": "2010-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-454e2c1dce27",
+      "subject": "R 2.11.0 Scheduled for April 22, 2010",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2010-03-22T11:38:23+01:00",
+      "last_reply": "2010-03-22T11:38:23+01:00",
+      "root_message_id": "msg-454e2c1dce27"
+    },
+    {
+      "id": "thread-d3cd9aff38be",
+      "subject": "R Participation in the Google Summer of Code 2010",
+      "message_count": 1,
+      "participants": [
+        "Dirk Eddelbuettel"
+      ],
+      "started": "2010-03-23T10:08:27-05:00",
+      "last_reply": "2010-03-23T10:08:27-05:00",
+      "root_message_id": "msg-d3cd9aff38be"
+    }
+  ]
+}

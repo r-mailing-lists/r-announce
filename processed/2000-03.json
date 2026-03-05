@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2000-03",
+  "messages": [
+    {
+      "id": "msg-45fe63bcbf78",
+      "message_id": "<20000302111302.32118@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "2000-03-02T11:13:02+01:00",
+      "subject": "R 1.0.0 for Windows",
+      "subject_clean": "R 1.0.0 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "As Brian Ripley said this morning on 'r-help', a binary distribution\nof R 1.0.0 to run on Windows 95, 98, NT4.0 and 2000 on Intel/clone chips\nis available at CRAN (at least in Wien). The URL is\n     http://cran.r-project.org/bin/windows/windows-NT/base/\n\nSee 'README.rw1000' for installation instructions and 'CHANGES' \nfor a list of Windows specific news.\n\nAs always, pre-compiled version of most of the contributed packages are\navailable from\n     http://cran.r-project.org/bin/windows/windows-NT/contrib/\n\nA FAQ for this port of R is included in the distribution and can be\nread on line at \n     http://www.stats.ox.ac.uk/pub/R/rw-FAQ.html\n\nguido masarotto\n(for the R-Core team)\n\n\n\n\n\n\n\n\n\n\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "As Brian Ripley said this morning on 'r-help', a binary distribution\nof R 1.0.0 to run on Windows 95, 98, NT4.0 and 2000 on Intel/clone chips\nis available at CRAN (at least in Wien). The URL is\n     h",
+      "thread_id": "thread-45fe63bcbf78",
+      "thread_depth": 0,
+      "month": "2000-03"
+    },
+    {
+      "id": "msg-fff6cd576349",
+      "message_id": "<Pine.OSF.4.21.0003021142411.4778-100000@zidsrv.sci.uni-klu.ac.at>",
+      "from_name": "Albrecht Gebhardt",
+      "from_email_hash": "93d9ddebd2208e9000f83f779e2ec76983533fd90865a7e32c9a5915c69007f4",
+      "date": "2000-03-02T14:00:29+01:00",
+      "subject": "R 1.0.0 for SuSE Linux",
+      "subject_clean": "R 1.0.0 for SuSE Linux",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "New RPM packages for SuSE Linux are available now at \n\n  ftp://ftp-stat.uni-klu.ac.at/pub/R/bin/linux/suse/6.3/RPMS/i386/\n\nand should soon arrive at \n\n  ftp://cvs.r-project.org/pub/R/bin/linux/suse/6.3/RPMS/i386/\n\nThey are built on SuSE 6.3, but run also on SuSE 6.2. \n\nRPMs for SuSE 5.3 and 6.{0,1} will drop in later this or next week and\nreplace the 0.9x.x versions.\n\nNOTE:\n-----\n\nI changed the installation prefix from /usr/local to /usr, so you cannot\nmix older contrib RPMs with the new base RPM without explicitly\nmodifying the R_LIBS variable! \n\nThe ESS package (currently only a xemacs version) will only run on SuSE\n6.3, please use the older one (under the suse/6.2 tree) for 6.2. \n\nNote for ESS on SuSE 6.3: \n------------------------ \nDo not forget to check that your /dev/pty* devices are world\nread-writeable !! If necessary execute \"chmod o+rw /dev/pty*\" or ESS will\nnot work. Of course this may affect your security. See also\nhttp://sdb.suse.de/sdb/en/html/ke_devpts-63.html for notes on this topic.\n\nThe ess-xemacs package creates a new file /etc/profile.d/xemacs-site.sh\nwhich sets EMACSLOADPATH=/usr/share/xemacs/site-packages, where it also\ncreates site-start.el with a reference to ESS's start files. I don't\nknow if this interferes with GNU emacs installations.\n\n\nAlbrecht Gebhardt\n\n.....................................................................\n| Albrecht Gebhardt          Tel.: (++43 463) 2700/832               |\n| Institut fuer Mathematik   Fax : (++43 463) 2700/834               |\n| Universitaet Klagenfurt    mailto:albrecht.gebhardt at uni-klu.ac.at  |\n| Villacher Str. 161         http://www-stat.uni-klu.ac.at/~agebhard |\n| A-9020 Klagenfurt, Austria                                         |\n`--------------------------------------------------------------------'\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "New RPM packages for SuSE Linux are available now at \n\n  ftp://ftp-stat.uni-klu.ac.at/pub/R/bin/linux/suse/6.3/RPMS/i386/\n\nand should soon arrive at \n\n  ftp://cvs.r-project.org/pub/R/bin/linux/suse/6.",
+      "thread_id": "thread-fff6cd576349",
+      "thread_depth": 0,
+      "month": "2000-03"
+    },
+    {
+      "id": "msg-3949dfe77577",
+      "message_id": "<200003231744.SAA11616@alpha.luc.ac.be>",
+      "from_name": "Jim Lindsey",
+      "from_email_hash": "7759bdd86e7565cb5bc22504926c6000c9b3b2ac7dc893d54622731d35116779",
+      "date": "2000-03-23T18:44:18+01:00",
+      "subject": "dna library",
+      "subject_clean": "dna library",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just placed version 0.2 alpha of my library, dna, on my web\npage at\nwww.luc.ac.be/~jlindsey/rcode.html\nThe R functions in this library cover most of the basic methods of\ndna and protein sequence analysis. The library includes ports of\nCLUSTAL W for multiple sequence alignment and flip for finding open\nreading frames in a dna sequence.\n  There are an enormous number of interesting and challenging\nstatistical problems in current molecular biology and I am hoping that\nmaking these procedures available to the R community will encourage\npeople to get involved.\n  Some links to useful sites for learning about molecular biology can\nbe found at\nwww.luc.ac.be/~jlindsey/url.html\n  Comments and suggestions for further inclusions in the library are\nvery welcome.\n  Jim\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just placed version 0.2 alpha of my library, dna, on my web\npage at\nwww.luc.ac.be/~jlindsey/rcode.html\nThe R functions in this library cover most of the basic methods of\ndna and protein sequenc",
+      "thread_id": "thread-3949dfe77577",
+      "thread_depth": 0,
+      "month": "2000-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-45fe63bcbf78",
+      "subject": "R 1.0.0 for Windows",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "2000-03-02T11:13:02+01:00",
+      "last_reply": "2000-03-02T11:13:02+01:00",
+      "root_message_id": "msg-45fe63bcbf78"
+    },
+    {
+      "id": "thread-fff6cd576349",
+      "subject": "R 1.0.0 for SuSE Linux",
+      "message_count": 1,
+      "participants": [
+        "Albrecht Gebhardt"
+      ],
+      "started": "2000-03-02T14:00:29+01:00",
+      "last_reply": "2000-03-02T14:00:29+01:00",
+      "root_message_id": "msg-fff6cd576349"
+    },
+    {
+      "id": "thread-3949dfe77577",
+      "subject": "dna library",
+      "message_count": 1,
+      "participants": [
+        "Jim Lindsey"
+      ],
+      "started": "2000-03-23T18:44:18+01:00",
+      "last_reply": "2000-03-23T18:44:18+01:00",
+      "root_message_id": "msg-3949dfe77577"
+    }
+  ]
+}

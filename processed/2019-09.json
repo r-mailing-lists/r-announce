@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2019-09",
+  "messages": [
+    {
+      "id": "msg-bc957d143aad",
+      "message_id": "<CAKbPKxsjXrJMxOStvBHsryHO=hqc1+xdffNQR3pnH3GkTxNmpw@mail.gmail.com>",
+      "from_name": "Norman Matloff",
+      "from_email_hash": "601454fb5668438d7f6cf13be278d97df7df67ad54e88a0fd6a40fa3514a20cb",
+      "date": "2019-09-13T09:56:11-07:00",
+      "subject": "R Journal, Vol. 11, Issue 1",
+      "subject_clean": "R Journal, Vol. 11, Issue 1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "After a long delay, the issue was put online on Wednesday evening. As noted\nin the editorial, we are taking measures to help ensure that future issues\nwill be more timely.\n\nNorm Matloff\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "After a long delay, the issue was put online on Wednesday evening. As noted\nin the editorial, we are taking measures to help ensure that future issues\nwill be more timely.\n\nNorm Matloff\n\n\t[[alternativ",
+      "thread_id": "thread-bc957d143aad",
+      "thread_depth": 0,
+      "month": "2019-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-bc957d143aad",
+      "subject": "R Journal, Vol. 11, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Norman Matloff"
+      ],
+      "started": "2019-09-13T09:56:11-07:00",
+      "last_reply": "2019-09-13T09:56:11-07:00",
+      "root_message_id": "msg-bc957d143aad"
+    }
+  ]
+}

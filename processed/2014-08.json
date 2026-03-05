@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2014-08",
+  "messages": [
+    {
+      "id": "msg-4e5d292a530b",
+      "message_id": "<CADfFDC6u-3VbHZYyr8B6Nk-0bhS-i+zxF5=tjv-E5_CA7wYxLw@mail.gmail.com>",
+      "from_name": "Deepayan Sarkar",
+      "from_email_hash": "fa7cd18e8aabec28b1c7ad2f082e4585b0a924d4ab9e0fa7da5fe77aaaada8df",
+      "date": "2014-08-05T13:01:03+05:30",
+      "subject": "The R Journal, Volume 6, Issue 1",
+      "subject_clean": "The R Journal, Volume 6, Issue 1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2014-1/\n\nMany thanks to all contributors, and apologies for the delay.\n\nRegards,\n-Deepayan",
+      "body_snippet": "Dear All,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2014-1/\n\nMany thanks to all contributors, and apologies for the delay.\n\nRegards,\n-Deepayan",
+      "thread_id": "thread-4e5d292a530b",
+      "thread_depth": 0,
+      "month": "2014-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-4e5d292a530b",
+      "subject": "The R Journal, Volume 6, Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Deepayan Sarkar"
+      ],
+      "started": "2014-08-05T13:01:03+05:30",
+      "last_reply": "2014-08-05T13:01:03+05:30",
+      "root_message_id": "msg-4e5d292a530b"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1998-08",
+  "messages": [
+    {
+      "id": "msg-9ff1422c8df9",
+      "message_id": "<x2yasoajuj.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-08-16T19:59:32+02:00",
+      "subject": "Bug tracking system",
+      "subject_clean": "Bug tracking system",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I'm happy to announce that there is now a real bug tracking system for\nR.\n\nHopefully, this will make it easier for us to keep track of unresolved\nbugs, which has been difficult because of the massive amount of email\nthat we receive.\n\nThe system, which is of the JitterBug variety is available through the\nweb at\n\nhttp://r-bugs.biostat.ku.dk\n\nor via email to\n\nr-bugs at biostat.ku.dk (which is aliased to r-bugs at stat.math.ethz.ch for\nthe absent-minded...)\n\nThere are no particular formatting requirements for reports, although\nthe web interface tries to help you remember to give information on\nyour R version, OS, etc.\n\nThe web interface also allows you to browse through old reports to see\nwhether your problem has already been reported by someone else.\n\nThe members of the core team are automatically notified when new\nreports come in. You will not necessarily receive any response to a\nbug report, other than perhaps that the next version of R will have\none bug less.\n\nNote that this is intended to help us get rid of bugs in R, not as a\ngeneral helpdesk service. For problems in using and installing R, the\nmailing lists should still be preferred.\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I'm happy to announce that there is now a real bug tracking system for\nR.\n\nHopefully, this will make it easier for us to keep track of unresolved\nbugs, which has been difficult because of the massive ",
+      "thread_id": "thread-9ff1422c8df9",
+      "thread_depth": 0,
+      "month": "1998-08"
+    },
+    {
+      "id": "msg-254bb2ccf800",
+      "message_id": "<Pine.SUN.3.91.980817023536.21259A-100000@bhairav.ee.iitb.ernet.in>",
+      "from_name": "R. MANIVASAKAN",
+      "from_email_hash": "47f6cf7200c8e900060836c4573e25697f7e5795359481c94abe2460248f9c30",
+      "date": "1998-08-17T02:37:07+05:30",
+      "subject": "Bug tracking system",
+      "subject_clean": "Bug tracking system",
+      "in_reply_to": "<x2yasoajuj.fsf@biostat.ku.dk>",
+      "references": [],
+      "body_plain": "Hi all,\n\tis there any code in R implimenting the Whittle's MLE estimator \nfor Hurst parameter H of the given dataset?.\n\n\tthanks,\n\tmani.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi all,\n\tis there any code in R implimenting the Whittle's MLE estimator \nfor Hurst parameter H of the given dataset?.\n\n\tthanks,\n\tmani.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-",
+      "thread_id": "thread-9ff1422c8df9",
+      "thread_depth": 1,
+      "month": "1998-08"
+    },
+    {
+      "id": "msg-055b43b10c21",
+      "message_id": "<Pine.LNX.3.93.980819085630.947A-100000@solzhenitsyn.ens.gu.edu.au>",
+      "from_name": "Robert King",
+      "from_email_hash": "3e47985edd702296210dd56bc0e83b1a036860e99e6ddf20317bc352bb3db1b0",
+      "date": "1998-08-19T09:00:40+10:00",
+      "subject": "HTML version of R mailing list archives",
+      "subject_clean": "HTML version of R mailing list archives",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The HTML version of the R-help mailing list archives has been moved\nslightly.  The new address is \n\nhttp://www.ens.gu.edu.au/robertk/R/help/98b/index.htm \n\nfor the present section and\n\nhttp://www.ens.gu.edu.au/robertk/R/\n\nis a page containing links to all the sections.\n\nThe move has taken place because they have been expanded to include\nr-devel and r-announce archives as well.  (at present these archives only\ncontain from August 1998 onwards, but I will also convert the earlier\narchives).\n\n----\nRobert King, || The Society for the Preservation of Tithesis commends your \nEnvironmental|| ebriated and scrutable use of \"delible\" and \"defatigable\", \nScience,     || which are gainly, sipid and couth.  We are gruntled and \nGriffith Uni,|| consolate that you have the ertia and eptitude to choose such \nAustralia    || putably pensible tithesis, which we parage. - Evan Kirshenbaum\n\n    Robert.King at ens.gu.edu.au    http://www.ens.gu.edu.au/robertk/index.htm\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The HTML version of the R-help mailing list archives has been moved\nslightly.  The new address is \n\nhttp://www.ens.gu.edu.au/robertk/R/help/98b/index.htm \n\nfor the present section and\n\nhttp://www.ens.",
+      "thread_id": "thread-055b43b10c21",
+      "thread_depth": 0,
+      "month": "1998-08"
+    },
+    {
+      "id": "msg-dc4052d5f617",
+      "message_id": "<13786.48818.964893.60214@elendil.ci.tuwien.ac.at>",
+      "from_name": "Andreas Weingessel",
+      "from_email_hash": "887106bd89e9e1fc47c21927f0fcf51aeeb866ad2ff9d8e6adf4cac2c060ac3c",
+      "date": "1998-08-19T14:01:54+02:00",
+      "subject": "CRAN incoming",
+      "subject_clean": "CRAN incoming",
+      "in_reply_to": "<Pine.SUN.3.95.980811152337.509H-100000@beast>",
+      "references": [
+        "<Pine.SUN.3.95.980811152337.509H-100000@beast>"
+      ],
+      "body_plain": ">>>>> On Tue, 11 Aug 1998 15:24:43 -0700 (PDT),\n>>>>> Thomas Lumley wrote:\n\n> updated version of integrate package\n> \tintegrate_1.1-1.tar.gz\n> now in /incoming.\n\n> \t-thomas\n\nI moved the new version to CRAN.\n\n\tAndreas\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": ">>>>> On Tue, 11 Aug 1998 15:24:43 -0700 (PDT),\n>>>>> Thomas Lumley wrote:\n\n> updated version of integrate package\n> \tintegrate_1.1-1.tar.gz\n> now in /incoming.\n\n> \t-thomas\n\nI moved the new version to",
+      "thread_id": "thread-dc4052d5f617",
+      "thread_depth": 0,
+      "month": "1998-08"
+    },
+    {
+      "id": "msg-7cf9fe202b99",
+      "message_id": "<x2btp55oan.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-08-28T13:38:40+02:00",
+      "subject": "R-0.62.3 is released",
+      "subject_clean": "R-0.62.3 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just put R-0.62.3.tgz and R-0.62.2-0.62.3.diff.gz into the FTP\narea at Auckland. As usual, do not fetch it from there unless\nabsolutely urgent, because of the NZ Internet billing system. The\nfiles should get mirrored to the main CRAN site in Vienna tonight and\nthe rest of CRAN within days.\n\n[And, may I add, the NZ connection is slower than a sloth in a tarpit.\nI had turnaround times of up to at least 15s while packaging the\nrelease!]\n\nThis is a patch release, mainly fixing bugs, but with a few new\nfeatures too.\n\nMost likely, this will be the last of the 0.62 series, 0.63 is getting\npretty stable now.\n\nHere's the top of the CHANGES file:\n\n\n\t\tCHANGES IN R VERSION 0.62.3\n\nNEW FEATURES\n\n    o   preserve factor levels and contrast settings in model objects\n\n    o   factor[...,drop=T] reduces level set\n\n    o   added dblepr, intpr\n\n    o   do_modelmatrix(model.c): Set rownames from data argument.\n\n    o   New generic function preplot().\n\n    o\tA new R BATCH interface for non-interactive execution.\n\n    o   Added `offline' argument to help() for producing hardcopy via\n\tlatex and dvips.\n\n    o   glm.fit.null now calculates AIC and print.glm.null prints it\n\n    o   effects.lm implemented\n\n    o   new class \"mlm\" for multivariate \"lm\", predict.mlm to go with it\n\nBUG FIXES\n\n    o   biplot[.default]() was redundant in \"base\" package; now only in \"mva\".\n\n    o\tunix(..) now helps the user to find  system(..) instead.\n\n    o   apropos(\"[\") and methods(\"[\") now both work (even though \"[\" is not\n\ta valid regular expression).\n\n    o   row.names<-.default now exists. Converts object to data\n        frame and then adds row names\n\n    o\tcodes() now distinguishes between ordered and unordered factors\n\n    o\tcodes() had *opposite* semantics of Splus. Now it's the same.\n\n    o   replicating factors now yields factors (again)\n\n    o   print.summary.xxx  functions more consistent, using new function\n\tprint.coefmat().\n\n    o   Changed many `T' to `TRUE'  and  `F' to `FALSE' in the base package.\n\n    o   binary operation on 1x1 matrix lost dimension\n\n    o   fix anova.glm for null model\n\n    o   glm.fit.null: ensure df.residual == df.null for a null model\n\n    o   summary.glm: correlations in saturated cases\n\n    o   stat.anova: use match.arg and labeled switch statement\n\n    o   Major cleanup of glm iteration code\n\n    o   Correct reordering of glm coefficients if pivoting\n\n    o   Rownames on contrast matrices\n\n    o   factor() and [.factor preserves class \"ordered\"\n\n    o   Code rearrangement in predict.lm (avoid unnecessary computation)\n        + let rownames through on predictions\n\n    o   model.matrix.default: Initial code to define model frame\n        simplified considerably after defaulting data argument to\n        sys.frame(sys.parent()).  This also removes the problem where\n        data.frame mangles I(x^2) and similar names, so that the\n        \"reorder\" sanity check at the end fails.\n\n    o\tThe handling of extra FORTRAN libraries (f2c-related and BLAS)\n\tshould now be correct.  Via SHLIBLDFLAGS, add-ons will also be\n\tlinked against these libraries.\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just put R-0.62.3.tgz and R-0.62.2-0.62.3.diff.gz into the FTP\narea at Auckland. As usual, do not fetch it from there unless\nabsolutely urgent, because of the NZ Internet billing system. The\nfi",
+      "thread_id": "thread-7cf9fe202b99",
+      "thread_depth": 0,
+      "month": "1998-08"
+    },
+    {
+      "id": "msg-a20184b29b81",
+      "message_id": "<x2af4p5o49.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-08-28T13:42:30+02:00",
+      "subject": "R-0.62.3 is released",
+      "subject_clean": "R-0.62.3 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Here's the top of the CHANGES file:\n\n[again, forgot to sync the last changes into my local version....]\n\n\t\tCHANGES IN R VERSION 0.62.3\n\nNEW FEATURES\n\n    o   preserve factor levels and contrast settings in model objects\n\n    o   factor[...,drop=T] reduces level set\n\n    o   added dblepr, intpr\n\n    o   do_modelmatrix(model.c): Set rownames from data argument.\n\n    o   New generic function preplot().\n\n    o\ta new R BATCH interface for non-interactive execution.\n\n    o   added `offline' argument to help() for producing hardcopy via\n\tlatex and dvips.\n\n    o   glm.fit.null now calculates AIC and print.glm.null prints it\n\n    o   effects.lm implemented\n\n    o   new class \"mlm\" for multivariate \"lm\", predict.mlm to go with it\n\n    o   \"Details\" section added to .Rd format\n\n    o   R_PRINTCMD and R_PAPERSIZE can now be set via users' environment,\n\toverriding setting in startup script.\n\n    o   enhanced identify() \n\n    o   new function print.coefmat() \n\n    o   added unix() as .Deprecated(\"system\")\n\n    o   date() replacing system.date()\n\nBUG FIXES\n\n    o   substitute would re-substitute after expanding ... \n\n    o   indexing modified object in some cases\n\n    o   sweep should work again on dataframes\n\n    o   minor changes in aov()\n\n    o\tbuilds should now actually work on systems that do not add \n\tunderscores to Fortran symbols\n\n    o   biplot[.default]() was redundant in \"base\" package; now only in \"mva\".\n\n    o\tunix(..) now helps the user to find  system(..) instead.\n\n    o   apropos(\"[\") and methods(\"[\") now both work (even though \"[\" is not\n\ta valid regular expression).\n\n    o   row.names<-.default now exists. Converts object to data\n        frame and then adds row names\n\n    o\tcodes() now distinguishes between ordered and unordered factors\n\n    o\tcodes() had *opposite* semantics of Splus. Now it's the same.\n\n    o   replicating factors now yields factors (again)\n\n    o   print.summary.xxx  functions more consistent, using new function\n\tprint.coefmat().\n\n    o   Changed many `T' to `TRUE'  and  `F' to `FALSE' in the base package.\n\n    o   binary operation on 1x1 matrix lost dimension\n\n    o   fix anova.glm for null model\n\n    o   glm.fit.null: ensure df.residual == df.null for a null model\n\n    o   summary.glm: correlations in saturated cases\n\n    o   stat.anova: use match.arg and labeled switch statement\n\n    o   Major cleanup of glm iteration code\n\n    o   Correct reordering of glm coefficients if pivoting\n\n    o   Rownames on contrast matrices\n\n    o   factor() and [.factor preserves class \"ordered\"\n\n    o   Code rearrangement in predict.lm (avoid unnecessary computation)\n        + let rownames through on predictions\n\n    o   model.matrix.default: Initial code to define model frame\n        simplified considerably after defaulting data argument to\n        sys.frame(sys.parent()).  This also removes the problem where\n        data.frame mangles I(x^2) and similar names, so that the\n        \"reorder\" sanity check at the end fails.\n\n    o\tThe handling of extra FORTRAN libraries (f2c-related and BLAS)\n\tshould now be correct.  Via SHLIBLDFLAGS, add-ons will also be\n\tlinked against these libraries.\n\n    o   Modified makefiles so configure followed by \"make distclean\"\n        should restore the source tree to its original form.\n\n    o   a leftover \"colours <- colors\" caused trouble when collating\n\tsequence changes caused files to go into the \"base\" file in a \n\tdifferent order\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Here's the top of the CHANGES file:\n\n[again, forgot to sync the last changes into my local version....]\n\n\t\tCHANGES IN R VERSION 0.62.3\n\nNEW FEATURES\n\n    o   preserve factor levels and contrast settin",
+      "thread_id": "thread-a20184b29b81",
+      "thread_depth": 0,
+      "month": "1998-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-9ff1422c8df9",
+      "subject": "Bug tracking system",
+      "message_count": 2,
+      "participants": [
+        "Peter Dalgaard BSA",
+        "R. MANIVASAKAN"
+      ],
+      "started": "1998-08-16T19:59:32+02:00",
+      "last_reply": "1998-08-17T02:37:07+05:30",
+      "root_message_id": "msg-9ff1422c8df9"
+    },
+    {
+      "id": "thread-055b43b10c21",
+      "subject": "HTML version of R mailing list archives",
+      "message_count": 1,
+      "participants": [
+        "Robert King"
+      ],
+      "started": "1998-08-19T09:00:40+10:00",
+      "last_reply": "1998-08-19T09:00:40+10:00",
+      "root_message_id": "msg-055b43b10c21"
+    },
+    {
+      "id": "thread-dc4052d5f617",
+      "subject": "CRAN incoming",
+      "message_count": 1,
+      "participants": [
+        "Andreas Weingessel"
+      ],
+      "started": "1998-08-19T14:01:54+02:00",
+      "last_reply": "1998-08-19T14:01:54+02:00",
+      "root_message_id": "msg-dc4052d5f617"
+    },
+    {
+      "id": "thread-7cf9fe202b99",
+      "subject": "R-0.62.3 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-08-28T13:38:40+02:00",
+      "last_reply": "1998-08-28T13:38:40+02:00",
+      "root_message_id": "msg-7cf9fe202b99"
+    },
+    {
+      "id": "thread-a20184b29b81",
+      "subject": "R-0.62.3 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-08-28T13:42:30+02:00",
+      "last_reply": "1998-08-28T13:42:30+02:00",
+      "root_message_id": "msg-a20184b29b81"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2010-08",
+  "messages": [
+    {
+      "id": "msg-6cc24a7ca2a6",
+      "message_id": "<4C61341B.2000501@warwick.ac.uk>",
+      "from_name": "Heather Turner",
+      "from_email_hash": "0911b72acd4c4e74f954731d4353d1daed292f8cf3007384bd729892dd3a85ec",
+      "date": "2010-08-10T12:12:27+01:00",
+      "subject": "useR! 2011: announcement and call for tutorials",
+      "subject_clean": "useR! 2011: announcement and call for tutorials",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are pleased to announce that the R user conference\n\n   useR! 2011\n\nis scheduled for August 16-18, 2011, and will take place at the\nUniversity of Warwick, Coventry, UK.\n\nAs for the predecessor conferences, the program will consist of two\nparts: invited lectures and user-contributed sessions (abstract\nsubmission will be available online later this year). Prior to the\nconference, there will be tutorials on R (proposals for tutorials should\nbe sent before October 29, 2010, see below).\n\nINVITED SPEAKERS\n\nAdrian Bowman, Lee Edlefsen, Ulrike Gr?mping, Wolfgang Huber, Brian\nRipley, Jonathan Rougier, Simon Urbanek, and Brandon Whitcher.\n\nUSER-CONTRIBUTED SESSIONS\n\nThe conference will feature both talks and posters illustrating the use\nof R in practice. Contributions are welcome that introduce recent\ndevelopments in the R Project (including CRAN packages), demonstrate\napplications of R in areas of current interest, or otherwise engage and\ninspire participants in their use of R.\n\nPRE-CONFERENCE TUTORIALS\n\nBefore the official program, half-day tutorials will be offered on\nMonday, August 15.\n\nWe invite R users to submit proposals for three hour tutorials on\nspecial topics regarding R. The proposals should give a brief\ndescription of the tutorial, including goals, detailed outline,\njustification of why the tutorial is important, background knowledge\nrequired and potential attendees. The proposals should be sent before\nOctober 29, 2010 to useR-2011_at_R-project.org.\n\nA web page offering more information on the `useR!' conference is\navailable at\n\n   http://www.R-project.org/useR-2011\n\nWe hope to see you in Coventry!\n\nThe organizing committee:\n\nJohn Aston, Julia Brettschneider, David Firth, Ashley Ford, Ioannis\nKosmidis, Tom Nichols, Elke Th?nnes and Heather Turner",
+      "body_snippet": "We are pleased to announce that the R user conference\n\n   useR! 2011\n\nis scheduled for August 16-18, 2011, and will take place at the\nUniversity of Warwick, Coventry, UK.\n\nAs for the predecessor confe",
+      "thread_id": "thread-6cc24a7ca2a6",
+      "thread_depth": 0,
+      "month": "2010-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-6cc24a7ca2a6",
+      "subject": "useR! 2011: announcement and call for tutorials",
+      "message_count": 1,
+      "participants": [
+        "Heather Turner"
+      ],
+      "started": "2010-08-10T12:12:27+01:00",
+      "last_reply": "2010-08-10T12:12:27+01:00",
+      "root_message_id": "msg-6cc24a7ca2a6"
+    }
+  ]
+}

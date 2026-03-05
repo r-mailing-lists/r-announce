@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2016-12",
+  "messages": [
+    {
+      "id": "msg-58dabb3a0452",
+      "message_id": "<22619.42704.738227.771907@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2016-12-22T11:11:28+01:00",
+      "subject": "Tomas Kalibera joins the R core team",
+      "subject_clean": "Tomas Kalibera joins the R core team",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are very happy to announce that\n\nTomas Kalibera (e.g. https://github.com/kalibera )\n\nhas joined the R core team (on Dec 17).  He has been a\ncontributor to the R source with numerous improvements\nsince mid 2014. \n\nNote that he's been among the five newly elected\nordinary members of the R Foundation in early November,\nhttps://stat.ethz.ch/pipermail/r-announce/2016/000609.html\n\n\nFor the R core team, \nMartin Maechler, ETH Zurich",
+      "body_snippet": "We are very happy to announce that\n\nTomas Kalibera (e.g. https://github.com/kalibera )\n\nhas joined the R core team (on Dec 17).  He has been a\ncontributor to the R source with numerous improvements\nsi",
+      "thread_id": "thread-58dabb3a0452",
+      "thread_depth": 0,
+      "month": "2016-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-58dabb3a0452",
+      "subject": "Tomas Kalibera joins the R core team",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2016-12-22T11:11:28+01:00",
+      "last_reply": "2016-12-22T11:11:28+01:00",
+      "root_message_id": "msg-58dabb3a0452"
+    }
+  ]
+}

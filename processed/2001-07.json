@@ -1,0 +1,171 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-07",
+  "messages": [
+    {
+      "id": "msg-e97d44e1d368",
+      "message_id": "<Pine.LNX.4.33L2.0107031252470.2993-100000@localhost.localdomain>",
+      "from_name": "mikalzet at libero.it",
+      "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
+      "date": "2001-07-03T12:54:45+02:00",
+      "subject": "R-1.3.0 RPM for Mandrake 8.0 (correct version) ",
+      "subject_clean": "R-1.3.0 RPM for Mandrake 8.0 (correct version)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The RPM of R-1.3.0 for Mandrake 8.0 is now available on CRAN\nin the complete and correct version.\n\nSorry to all those who had problems with the previous version\nbecause of absent linking against the readline library.\n\n--\nMichele Alzetta\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The RPM of R-1.3.0 for Mandrake 8.0 is now available on CRAN\nin the complete and correct version.\n\nSorry to all those who had problems with the previous version\nbecause of absent linking against the r",
+      "thread_id": "thread-e97d44e1d368",
+      "thread_depth": 0,
+      "month": "2001-07"
+    },
+    {
+      "id": "msg-1c27e8c3fb55",
+      "message_id": "<Pine.LNX.4.33L2.0107032342210.2020-100000@localhost.localdomain>",
+      "from_name": "mikalzet at libero.it",
+      "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
+      "date": "2001-07-04T00:36:23+02:00",
+      "subject": "R-recommended RPM for Mandrake 8.0",
+      "subject_clean": "R-recommended RPM for Mandrake 8.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The RPM of R-recommended packages for Mandrake 8.0\nwill be propagating to CRAN shortly.\n\nI keep on receiving requests for Mandrake 7.1 and\n7.2 RPM's; I am no longer able to support these.\n\nBuilding the RPM is quite simple, and in fact I've\nalready sent a detailed HowTo to those who have\nasked; I will now be away for a couple of days,\nin the meantime the HowTo can be found on\nhttp://mikalzet.hobbiton.org\n\n--\nMichele Alzetta\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The RPM of R-recommended packages for Mandrake 8.0\nwill be propagating to CRAN shortly.\n\nI keep on receiving requests for Mandrake 7.1 and\n7.2 RPM's; I am no longer able to support these.\n\nBuilding th",
+      "thread_id": "thread-1c27e8c3fb55",
+      "thread_depth": 0,
+      "month": "2001-07"
+    },
+    {
+      "id": "msg-e1adb8459acf",
+      "message_id": "<200107061455.JAA86812@odds.stat.purdue.edu>",
+      "from_name": "Chong Gu",
+      "from_email_hash": "d33adf3cbf719825a60530324abb0b76a44f89d6dbd571cefcdb32ea7c686d6a",
+      "date": "2001-07-06T09:55:52-05:00",
+      "subject": "gss 0.6-2",
+      "subject_clean": "gss 0.6-2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new release of gss (0.6-2) is available at CRAN.  Support is added\nin gssanova for accelerated life models with right-censored,\nleft-truncated data.  The added families are weibull, log normal, and\nlog logistic, extending the parametric models of survreg in the\nsurvival package.\n\nChong Gu\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new release of gss (0.6-2) is available at CRAN.  Support is added\nin gssanova for accelerated life models with right-censored,\nleft-truncated data.  The added families are weibull, log normal, and\n",
+      "thread_id": "thread-e1adb8459acf",
+      "thread_depth": 0,
+      "month": "2001-07"
+    },
+    {
+      "id": "msg-3136194e9bf5",
+      "message_id": "<6rith5pjio.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2001-07-06T21:20:31-05:00",
+      "subject": "New Debian packages for R-1.3.0 available",
+      "subject_clean": "New Debian packages for R-1.3.0 available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have installed new Debian packages r-base_1.3.0-2 and\nr-recommended_1.3.0-2 for the testing distribution (woody) and\nr-base_1.3.0-1 for the stable distribution (potato) on\nhttp://cran.us.r-project.org/ \n\nThey should be transferred to cran.r-project.org within 24 hours and\nto the other mirrors within 48 hours.\n\nMy thanks to James MacKinnon of Queen's University for building the\npackages for the stable distribution.\n\n-- \nDouglas Bates                            bates at stat.wisc.edu\nStatistics Department                    608/262-2598\nUniversity of Wisconsin - Madison        http://www.stat.wisc.edu/~bates/\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have installed new Debian packages r-base_1.3.0-2 and\nr-recommended_1.3.0-2 for the testing distribution (woody) and\nr-base_1.3.0-1 for the stable distribution (potato) on\nhttp://cran.us.r-project.o",
+      "thread_id": "thread-3136194e9bf5",
+      "thread_depth": 0,
+      "month": "2001-07"
+    },
+    {
+      "id": "msg-be6f0c7d507f",
+      "message_id": "<15177.32986.93029.526128@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-07-09T12:00:58+02:00",
+      "subject": "R News Volume 1/2 published",
+      "subject_clean": "R News Volume 1/2 published",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We have just published the second volume of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or postscript file. It\nwill propagate to the CRAN mirrors within a day or two..\n\nContents:\n\nChanges in R\nChanges on CRAN\nDate-Time Classes\nInstalling R under Windows\nSpatial Statistics in R\ngeoR: A Package for Geostatistical Analysis\nSimulation and Analysis of RAndom Fields\nmgcv: GAMs and Generalized Ridge Regression for R\nWhat's the Point of `tensor'?\nOn Multivariate t and Gau? Probabilities in R\nProgrammer's Niche\nRecent Events\n\n\nwhich makes a total of 32 pages of features, applications and riddles\nabout our favourite data analysis environment.\n\nEnjoy reading!\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We have just published the second volume of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or postscript file. It\nwill propagate to the CRAN mirrors with",
+      "thread_id": "thread-be6f0c7d507f",
+      "thread_depth": 0,
+      "month": "2001-07"
+    },
+    {
+      "id": "msg-a8e83b8323a4",
+      "message_id": "<01071114144200.01550@linux>",
+      "from_name": "Maximino Ameneiro Gomez",
+      "from_email_hash": "bb2ee3ff542e23d0e4ff68e642e733b7271756c6ce2eca3864236cfbce72ce98",
+      "date": "2001-07-11T14:14:42+02:00",
+      "subject": "R-1.3.0 RPM for Mandrake 7.2",
+      "subject_clean": "R-1.3.0 RPM for Mandrake 7.2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The RPMs of R-1.3.0 and R-recommended for Mandrake 7.2 are now available on \nCRAN and its mirrors.\n\nThanks to Michele Alzetta for his support.\n\nMaximino Ameneiro Gomez\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The RPMs of R-1.3.0 and R-recommended for Mandrake 7.2 are now available on \nCRAN and its mirrors.\n\nThanks to Michele Alzetta for his support.\n\nMaximino Ameneiro Gomez\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.",
+      "thread_id": "thread-a8e83b8323a4",
+      "thread_depth": 0,
+      "month": "2001-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e97d44e1d368",
+      "subject": "R-1.3.0 RPM for Mandrake 8.0 (correct version)",
+      "message_count": 1,
+      "participants": [
+        "mikalzet at libero.it"
+      ],
+      "started": "2001-07-03T12:54:45+02:00",
+      "last_reply": "2001-07-03T12:54:45+02:00",
+      "root_message_id": "msg-e97d44e1d368"
+    },
+    {
+      "id": "thread-1c27e8c3fb55",
+      "subject": "R-recommended RPM for Mandrake 8.0",
+      "message_count": 1,
+      "participants": [
+        "mikalzet at libero.it"
+      ],
+      "started": "2001-07-04T00:36:23+02:00",
+      "last_reply": "2001-07-04T00:36:23+02:00",
+      "root_message_id": "msg-1c27e8c3fb55"
+    },
+    {
+      "id": "thread-e1adb8459acf",
+      "subject": "gss 0.6-2",
+      "message_count": 1,
+      "participants": [
+        "Chong Gu"
+      ],
+      "started": "2001-07-06T09:55:52-05:00",
+      "last_reply": "2001-07-06T09:55:52-05:00",
+      "root_message_id": "msg-e1adb8459acf"
+    },
+    {
+      "id": "thread-3136194e9bf5",
+      "subject": "New Debian packages for R-1.3.0 available",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2001-07-06T21:20:31-05:00",
+      "last_reply": "2001-07-06T21:20:31-05:00",
+      "root_message_id": "msg-3136194e9bf5"
+    },
+    {
+      "id": "thread-be6f0c7d507f",
+      "subject": "R News Volume 1/2 published",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "2001-07-09T12:00:58+02:00",
+      "last_reply": "2001-07-09T12:00:58+02:00",
+      "root_message_id": "msg-be6f0c7d507f"
+    },
+    {
+      "id": "thread-a8e83b8323a4",
+      "subject": "R-1.3.0 RPM for Mandrake 7.2",
+      "message_count": 1,
+      "participants": [
+        "Maximino Ameneiro Gomez"
+      ],
+      "started": "2001-07-11T14:14:42+02:00",
+      "last_reply": "2001-07-11T14:14:42+02:00",
+      "root_message_id": "msg-a8e83b8323a4"
+    }
+  ]
+}

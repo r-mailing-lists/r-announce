@@ -1,0 +1,144 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2003-03",
+  "messages": [
+    {
+      "id": "msg-a7a29d87c45b",
+      "message_id": "<3E64D640.8185C15A@lmttrading.com>",
+      "from_name": "Adrian Trapletti",
+      "from_email_hash": "981e0c8f386db4a8202536a4b9abe467327de0671de9d73968704e34795dec79",
+      "date": "2003-03-04T17:37:20+01:00",
+      "subject": "tseries contains a class for irregularly spaced time series",
+      "subject_clean": "tseries contains a class for irregularly spaced time series",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new version of tseries (0.9-10) has been uploaded to CRAN. The new\nversion contains the class \"irts\" for irregularly spaced time series.\nIrregular time series are basically time series where each observation\n(uni- or multivariate) has a time-stamp represented by an object of\nclass \"POSIXct\". It provides some basic functionality such as reading\nand writing irregular time series from files, or plotting, printing,\nsubscripting, and interpolating irregular time series. This is a first\nversion of the class \"irts\" and I very much welcome feedback.\n\nbest\nAdrian\n\n--\nDr. Adrian Trapletti             Phone :             +41 (0) 1 994 5631\nTrapletti Statistical Computing  Mobile:             +41 (0)76 370 5631\nWildsbergstrasse 31              Fax   :             +41 (0) 1 994 5631\nCH-8610 Uster                    Email :  mailto:a.trapletti at bluewin.ch\nSwitzerland                      WWW   : http://trapletti.homelinux.com",
+      "body_snippet": "A new version of tseries (0.9-10) has been uploaded to CRAN. The new\nversion contains the class \"irts\" for irregularly spaced time series.\nIrregular time series are basically time series where each ob",
+      "thread_id": "thread-a7a29d87c45b",
+      "thread_depth": 0,
+      "month": "2003-03"
+    },
+    {
+      "id": "msg-34252efec8c7",
+      "message_id": "<D7A3CFD7825BD6119B880002A58F06C202F2C696@groexmb02.pfizer.com>",
+      "from_name": "Warnes, Gregory R",
+      "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
+      "date": "2003-03-06T17:21:37-05:00",
+      "subject": "Initial release of RSessionDA",
+      "subject_clean": "Initial release of RSessionDA",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "> Announcing the initial release of RSessionDA.\n> \n> RSessionDA provides objects for interacting with R from Zope\n> <www.zope.org>, a full-featured web application development system.  These\n> objects permit evaluation of functions in the R language using information\n> in Zope.  R data objects, graphics files, printed output, script\n> transcripts, and data files can be returned to Zope for display. These\n> tools make it easy to create web applications that include advanced\n> statistical functionality.\n> \n> RSessionDA is built on RSOAP package, which provides access to R via the\n> SOAP <http://www.w3.org/TR/SOAP/\"> communications protocol.  This allows\n> Zope to access multiple independent R sessions running (if desired) on a\n> separate compute server.\n> \n> For more information on or to download RSessionDA see:\n> \n> <http://software.biostat.washington.edu/statsoft/snake/RSessionDA> or\n> <http://www.zope.org/Members/warnes/RSessionDA/> \n> \n> For more information on or to download RSOAP see:\n> \n> <http://software.biostat.washington.edu/statsoft/snake/RSOAP> or \n> \n> For more information on Zope see:\n> \n> <http://www.zope.org>\n> \n> -Greg\n\n\nLEGAL NOTICE\\ Unless expressly stated otherwise, this message is... [[dropped]]",
+      "body_snippet": "> Announcing the initial release of RSessionDA.\n> \n> RSessionDA provides objects for interacting with R from Zope\n> <www.zope.org>, a full-featured web application development system.  These\n> objects",
+      "thread_id": "thread-34252efec8c7",
+      "thread_depth": 0,
+      "month": "2003-03"
+    },
+    {
+      "id": "msg-f4afc6244a9f",
+      "message_id": "<3E6F0FF4.CCD7EDC9@geog.uu.nl>",
+      "from_name": "Edzer J. Pebesma",
+      "from_email_hash": "a7fb0ca623e251a5aff6aa466eb7f50e3c643594fe03e3232d546a007043eef0",
+      "date": "2003-03-12T11:46:12+01:00",
+      "subject": "Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "subject_clean": "Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The majority of the functionality present in the gstat stand-alone\nprogram (http://www.gstat.org/) is now available as a package/library for\nthe S language (R, S-Plus), again called gstat. The package provides\nmultivariable geostatistical modelling, prediction and simulation, as\nwell as several visualisation functions.  Gstat was started 10 years\nago and was released under the GPL in 1996; the original stand-alone\nprogram is closely linked to several GIS systems. Gstat was not initially\nwritten for teaching purposes, but for research purposes, emphasizing\nflexibility, scalability and portability. It can deal with a large number\nof practical issues in geostatistics, including change of support (block\nkriging), simple/ordinary/universal (co)kriging, fast local neighbourhood\nselection, flexible trend modelling, variables with different sampling\nconfigurations, and efficient simulation of large spatially correlated\nrandom fields, indicator kriging and simulation, and (directional)\nvariogram and cross variogram modelling. The S formula/models interface\nis used to define multivariable geostatistical models.\n\nThe source and windows package for R are available from CRAN. The page on\nhttp://www.gstat.org/s.html has links to R and S-Plus (6.x) source code,\nas well as examples, graphs, and a longer list of features. (A binary\nWin32 S-Plus library is planned later this year.)\n\nOn http://www.ci.tuwien.ac.at/Conferences/DSC-2003/ you can find a\ndraft paper further describing the package.\n\nAny feedback is appreciated.\n--\nEdzer",
+      "body_snippet": "The majority of the functionality present in the gstat stand-alone\nprogram (http://www.gstat.org/) is now available as a package/library for\nthe S language (R, S-Plus), again called gstat. The package",
+      "thread_id": "thread-f4afc6244a9f",
+      "thread_depth": 0,
+      "month": "2003-03"
+    },
+    {
+      "id": "msg-f4afc6244a9f",
+      "message_id": "<3E6F0FF4.CCD7EDC9@geog.uu.nl>",
+      "from_name": "Edzer J. Pebesma",
+      "from_email_hash": "a7fb0ca623e251a5aff6aa466eb7f50e3c643594fe03e3232d546a007043eef0",
+      "date": "2003-03-12T11:46:12+01:00",
+      "subject": "[S] Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "subject_clean": "[S] Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The majority of the functionality present in the gstat stand-alone\nprogram (http://www.gstat.org/) is now available as a package/library for\nthe S language (R, S-Plus), again called gstat. The package provides\nmultivariable geostatistical modelling, prediction and simulation, as\nwell as several visualisation functions.  Gstat was started 10 years\nago and was released under the GPL in 1996; the original stand-alone\nprogram is closely linked to several GIS systems. Gstat was not initially\nwritten for teaching purposes, but for research purposes, emphasizing\nflexibility, scalability and portability. It can deal with a large number\nof practical issues in geostatistics, including change of support (block\nkriging), simple/ordinary/universal (co)kriging, fast local neighbourhood\nselection, flexible trend modelling, variables with different sampling\nconfigurations, and efficient simulation of large spatially correlated\nrandom fields, indicator kriging and simulation, and (directional)\nvariogram and cross variogram modelling. The S formula/models interface\nis used to define multivariable geostatistical models.\n\nThe source and windows package for R are available from CRAN. The page on\nhttp://www.gstat.org/s.html has links to R and S-Plus (6.x) source code,\nas well as examples, graphs, and a longer list of features. (A binary\nWin32 S-Plus library is planned later this year.)\n\nOn http://www.ci.tuwien.ac.at/Conferences/DSC-2003/ you can find a\ndraft paper further describing the package.\n\nAny feedback is appreciated.\n--\nEdzer\n--------------------------------------------------------------------\nThis message was distributed by s-news at lists.biostat.wustl.edu.  To\n...(s-news.. clipped)...\n\n.",
+      "body_snippet": "The majority of the functionality present in the gstat stand-alone\nprogram (http://www.gstat.org/) is now available as a package/library for\nthe S language (R, S-Plus), again called gstat. The package",
+      "thread_id": "thread-f4afc6244a9f",
+      "thread_depth": 0,
+      "month": "2003-03"
+    },
+    {
+      "id": "msg-0c5dae9ba693",
+      "message_id": "<20030321100147.B14924@jimmy.harvard.edu>",
+      "from_name": "Robert Gentleman",
+      "from_email_hash": "123d8a37b4c33764383aec6209d5a3d3e15f649311f260d043f9839e1d8aeacc",
+      "date": "2003-03-21T10:01:47-05:00",
+      "subject": "ArrayAnalyzer and Bioconductor",
+      "subject_clean": "ArrayAnalyzer and Bioconductor",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Today, Insightful Corporation (www.insightful.com) is announcing the\navailability of S+ArrayAnalyzer, a new, integrated module for S-PLUS\nbased on collaboration with the BioConductor Project\n(www.bioconductor.org) - an open source and open development software\nproject for the analysis and comprehension of genomic data.\n\nThe collaboration between Insightful and BioConductor delivers\nbenefits to both commercial and academic researchers analyzing\nmicroarray experiments:\n\n- BioConductor's advanced analytics for genomic data will be available\n  to a wider audience via a commercially supported product from\n  Insightful, a long-established vendor with fully staffed tech\n  support, training, and consulting.\n\n- S+ArrayAnalyzer adds numerous features that can improve productivity\n  for many users, such as installation, more data access and import\n  options, a guided-workflow interface, interactive graphs with\n  hyperlinked annotation, Web deployment of applications.\n\n- Insightful will sponsor a graduate student position in the\n  BioConductor project to help drive continued advancements and\n  innovation in both the open source and commercial offerings.\n\n- A new differential expression library (lpetest), written by\n  Insightful and the University of Virginia, will be ported to R and\n  made available on the Comprehensive R Archive Network (CRAN) and\n  BioConductor in Summer 2003.\n\nSpokespeople for BioConductor see the collaboration as helping ensure\nthe distribution and high-level end-user support of key research tools\nto the broadest possible population of researchers. These people\ninclude: S.Dudoit, Division of Biostatistics, University of\nCalifornia, Berkeley; R.A. Irizarry, Department of Biostatistics,\nJohns Hopkins University; V.J. Carey, Harvard Medical School;\nR. Gentleman, Harvard School of Public Health.\n\nShawn Javid, Insightful's CEO had this to add, \"The collaboration with\nBioConductor is a blueprint for how Insightful can work with the open\nsource community to bring highly innovative data analysis applications\nto the widest possible user base.  This cooperation improves the\nanalytic solutions available to our common base of S programmers and\nthe non-statisticians who benefit from using applications developed\nwith S-PLUS and R.\"\n\nS+ArrayAnalyzer is available now with pricing for commercial and\nacademic organizations available by calling (800)569-0123 x479, or via\nemail at pharmasales at insightful.com",
+      "body_snippet": "Today, Insightful Corporation (www.insightful.com) is announcing the\navailability of S+ArrayAnalyzer, a new, integrated module for S-PLUS\nbased on collaboration with the BioConductor Project\n(www.bioc",
+      "thread_id": "thread-0c5dae9ba693",
+      "thread_depth": 0,
+      "month": "2003-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-a7a29d87c45b",
+      "subject": "tseries contains a class for irregularly spaced time series",
+      "message_count": 1,
+      "participants": [
+        "Adrian Trapletti"
+      ],
+      "started": "2003-03-04T17:37:20+01:00",
+      "last_reply": "2003-03-04T17:37:20+01:00",
+      "root_message_id": "msg-a7a29d87c45b"
+    },
+    {
+      "id": "thread-34252efec8c7",
+      "subject": "Initial release of RSessionDA",
+      "message_count": 1,
+      "participants": [
+        "Warnes, Gregory R"
+      ],
+      "started": "2003-03-06T17:21:37-05:00",
+      "last_reply": "2003-03-06T17:21:37-05:00",
+      "root_message_id": "msg-34252efec8c7"
+    },
+    {
+      "id": "thread-f4afc6244a9f",
+      "subject": "Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "message_count": 1,
+      "participants": [
+        "Edzer J. Pebesma"
+      ],
+      "started": "2003-03-12T11:46:12+01:00",
+      "last_reply": "2003-03-12T11:46:12+01:00",
+      "root_message_id": "msg-f4afc6244a9f"
+    },
+    {
+      "id": "thread-f4afc6244a9f",
+      "subject": "[S] Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "message_count": 1,
+      "participants": [
+        "Edzer J. Pebesma"
+      ],
+      "started": "2003-03-12T11:46:12+01:00",
+      "last_reply": "2003-03-12T11:46:12+01:00",
+      "root_message_id": "msg-f4afc6244a9f"
+    },
+    {
+      "id": "thread-0c5dae9ba693",
+      "subject": "ArrayAnalyzer and Bioconductor",
+      "message_count": 1,
+      "participants": [
+        "Robert Gentleman"
+      ],
+      "started": "2003-03-21T10:01:47-05:00",
+      "last_reply": "2003-03-21T10:01:47-05:00",
+      "root_message_id": "msg-0c5dae9ba693"
+    }
+  ]
+}

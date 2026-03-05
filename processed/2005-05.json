@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2005-05",
+  "messages": [
+    {
+      "id": "msg-4da4385f1308",
+      "message_id": "<427BD667.7000906@stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2005-05-06T15:41:11-05:00",
+      "subject": "R News, 2005, issue 1",
+      "subject_clean": "R News, 2005, issue 1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "RNews_2005-1.pdf has been uploaded to CRAN.  It should be on the main\nCRAN site Saturday and on the mirrors by Sunday or Monday.\n\nThis issue is being distributed as PDF only.  Please email\nrnews-editors at r-project.org if not having a gzipped PostScript version\nwill be a problem for you.\n\nMy thanks to all the contributors to R News and especially to the\neditorial team.  We hope you will enjoy this issue.",
+      "body_snippet": "RNews_2005-1.pdf has been uploaded to CRAN.  It should be on the main\nCRAN site Saturday and on the mirrors by Sunday or Monday.\n\nThis issue is being distributed as PDF only.  Please email\nrnews-edito",
+      "thread_id": "thread-4da4385f1308",
+      "thread_depth": 0,
+      "month": "2005-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-4da4385f1308",
+      "subject": "R News, 2005, issue 1",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2005-05-06T15:41:11-05:00",
+      "last_reply": "2005-05-06T15:41:11-05:00",
+      "root_message_id": "msg-4da4385f1308"
+    }
+  ]
+}

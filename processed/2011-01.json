@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2011-01",
+  "messages": [
+    {
+      "id": "msg-2512625b5cc0",
+      "message_id": "<4D319086.8090406@r-project.org>",
+      "from_name": "useR-2011 at r-project.org",
+      "from_email_hash": "fd52f21dcfb2ef78e5d36a8c6e6ad7842638eaab0568db32cfde1d0fa8227c9c",
+      "date": "2011-01-15T12:18:14Z",
+      "subject": "useR! 2011: abstract submission & registration open",
+      "subject_clean": "useR! 2011: abstract submission & registration open",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are happy to inform you that abstract submission and registration for\nuseR! 2011 is now available online, see\n\n    http://www.R-project.org/useR-2011\n\nThis meeting of the R user community will take place at the University\nof Warwick, Coventry, UK, August 16-18, 2011.\n\nThe conference schedule comprises invited lectures and user-contributed\nsessions. In addition half-day tutorials presented by R experts will run\non August 15, 2011, prior to the conference.\n\nWe invite you to submit abstracts for oral or poster presentations on\ninnovative and exciting applications of R. The call for papers along\nwith the link for abstract submission is available at\n\n    http://www.R-project.org/useR-2011/#Call\n\nIn addition to the regular contributed talks, all participants are\ninvited to present a Lightning Talk, for which no abstract is required.\nThese talks provide a 5-minute platform to speak on any R-related topic\nand should particularly appeal to R newbies. Participants wishing to\ngive such a talk must provide an informative title on their registration\nform.\n\nWe hope to see you in Coventry!\n\nThe organizing committee:\n\nJohn Aston, Julia Brettschneider, David Firth, Ashley Ford, Ioannis\nKosmidis, Tom Nichols, Elke Th?nnes and Heather Turner",
+      "body_snippet": "We are happy to inform you that abstract submission and registration for\nuseR! 2011 is now available online, see\n\n    http://www.R-project.org/useR-2011\n\nThis meeting of the R user community will take",
+      "thread_id": "thread-2512625b5cc0",
+      "thread_depth": 0,
+      "month": "2011-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2512625b5cc0",
+      "subject": "useR! 2011: abstract submission & registration open",
+      "message_count": 1,
+      "participants": [
+        "useR-2011 at r-project.org"
+      ],
+      "started": "2011-01-15T12:18:14+00:00",
+      "last_reply": "2011-01-15T12:18:14+00:00",
+      "root_message_id": "msg-2512625b5cc0"
+    }
+  ]
+}

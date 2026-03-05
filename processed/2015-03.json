@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2015-03",
+  "messages": [
+    {
+      "id": "msg-4fcf1fcf44bc",
+      "message_id": "<CAPRP4-e0OjY9EFJdmSp99amsSy8NYewwimo5QUeseYNY+Aq_Eg@mail.gmail.com>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2015-03-04T23:13:14+01:00",
+      "subject": "format( \"www.R-project.org\" , year = 2015)",
+      "subject_clean": "format( \"www.R-project.org\" , year = 2015)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The R Foundation is pleased to announce that our website\n http://www.r-project.org/ has under gone a nice retouch (and\n thus arrived in the 21st century :-)\n\n Thanks to a working group of Dirk Eddelbuettel, Simon Urbanek and\nHadley Wickham.,\n the current page sources are in markdown, and the html is auto\nproduced using pandoc\n (and IT infrastructure in Vienna and Zurich).\n\nMartin Maechler,\nas secretary of the R Foundation",
+      "body_snippet": "The R Foundation is pleased to announce that our website\n http://www.r-project.org/ has under gone a nice retouch (and\n thus arrived in the 21st century :-)\n\n Thanks to a working group of Dirk Eddelbu",
+      "thread_id": "thread-4fcf1fcf44bc",
+      "thread_depth": 0,
+      "month": "2015-03"
+    },
+    {
+      "id": "msg-380913231b47",
+      "message_id": "<4EE2768D-1C4B-487F-A72C-2AA8EEE50D05@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2015-03-09T10:04:28+01:00",
+      "subject": "R 3.1.3 is released",
+      "subject_clean": "R 3.1.3 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The build system rolled up R-3.1.3.tar.gz (codename \"Smooth Sidewalk\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/base/R-3/R-3.1.3.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n\nFor the R Core Team\n\nPeter Dalgaard\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nMD5 (AUTHORS) = cebbdd1eb8cd620bf2a6ac84c9e731c2\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = a699fa0eeef280b78134f0abe0b1c1b0\nMD5 (INSTALL) = 3964b9119adeaab9ceb633773fc94aac\nMD5 (NEWS) = 8790db3a8000910f0bf00fb1ee039634\nMD5 (NEWS.0) = bfcd7c147251b5474d96848c6f57e5a8\nMD5 (NEWS.1) = eb78c4d053ec9c32b815cf0c2ebea801\nMD5 (NEWS.2) = 8e2f4d1d5228663ae598a09bf1e2bc6b\nMD5 (R-latest.tar.gz) = 53a85b884925aa6b5811dfc361d73fc4\nMD5 (R.css) = 444535b9cb76ddff1bab1e1865a3fb14\nMD5 (README) = aece1dfbd18c1760128c3787f5456af6\nMD5 (RESOURCES) = a59076c1ac7e9bab0f0a38b3f57a3914\nMD5 (THANKS) = 1989ce89fb3891420c9964dc418ab71c\nMD5 (R-3/R-3.1.3.tar.gz) = 53a85b884925aa6b5811dfc361d73fc4\n\n\nThis is the relevant part of the NEWS file\n\nCHANGES IN R 3.1.3:\n\n  NEW FEATURES:\n\n    * The internal method of download.file() can now handle files\n      larger than 2GB on 32-bit builds which support such files (tested\n      on 32-bit R running on 64-bit Windows).\n\n    * kruskal.test() warns on more types of suspicious input.\n\n    * The as.dendrogram() method for \"hclust\" objects gains a check\n      argument protecting against memory explosion for invalid inputs.\n\n    * capabilities() has a new item long.double which indicates if the\n      build uses a long double type which is longer than double.\n\n    * nlm() no longer modifies the callback argument in place (a new\n      vector is allocated for each invocation, which mimics the\n      implicit duplication that occurred in R < 3.1.0); note that this\n      is a change from the previously documented behavior. (PR#15958)\n\n    * icuSetCollate() now accepts locale = \"ASCII\" which uses the basic\n      C function strcmp and so collates strings byte-by-byte in\n      numerical order.\n\n    * sessionInfo() tries to report the OS version in use (not just\n      that compiled under, and including details of Linux\n      distributions).\n\n    * model.frame() (used by lm() and many other modelling functions)\n      now warns when it drops contrasts from factors.  (Wish of\n      PR#16119)\n\n    * install.packages() and friends now accept the value type =\n      \"binary\" as a synonym for the native binary type on the platform\n      (if it has one).\n\n    * Single source or binary files can be supplied for\n      install.packages(type = \"both\") and the appropriate type and\n      repos = NULL will be inferred.\n\n    * New function pcre_config() to report on some of the configuration\n      options of the version of PCRE in use.  In particular, this\n      reports if regular expressions using \\p{xx} are supported.\n\n    * (Windows.) download.file(cacheOK = FALSE) is now supported when\n      internet2.dll is used.\n\n    * browseURL() has been updated to work with Firefox 36.0 which has\n      dropped support for the -remote interface.\n\n  INSTALLATION and INCLUDED SOFTWARE:\n\n    * The included version of PCRE has been updated to 8.36.\n\n    * configure accepts MAKEINFO=texi2any as another way to ensure\n      texinfo 5.x is used when both 5.x and 4.x are installed.\n\n  UTILITIES:\n\n    * R CMD check now checks the packages used in \\donttest sections of\n      the examples are specified in the DESCRIPTION file.  (These are\n      needed to run the examples interactively.)\n\n    * R CMD check checks for the undeclared use of GNU extensions in\n      Makefiles, and for Makefiles with a missing final linefeed.\n\n      R CMD build will correct line endings in all Makefiles, not just\n      those in the src directory.\n\n    * R CMD check notes uses of library() and require() in package\n      code: see the section 'Suggested packages' of 'Writing R\n      Extensions' for good practice.\n\n  DEPRECATED AND DEFUNCT:\n\n    * The configure option --with-valgrind-instrumentation=3 is\n      deprecated and will be removed in R 3.2.0.\n\n  BUG FIXES:\n\n    * (Windows.) Rscript.exe was missing a manifest specifying the\n      modern style for common controls (e.g., the download progress\n      bar).\n\n    * If a package had extra documentation files but no vignette, the\n      HTML help system produced an empty index page.\n\n    * The parser now gives an error if a null character is included in\n      a string using Unicode escapes. (PR#16046)\n\n    * qr.Q() failed on complex arguments due to pre-3.0(!) typo.\n      (PR#16054)\n\n    * abs() failed with named arguments when the argument was complex.\n      (PR#16047)\n\n    * \"noquote\" objects may now be used as columns in dataframes.\n      (PR#15997)\n\n    * Some values with extremely long names were printed incorrectly.\n      (PR#15999)\n\n    * Extremely large exponents on zero expressed in scientific\n      notation (e.g. 0.0e50000) could give NaN.  (PR#15976)\n\n    * download.file() reported downloaded sizes as 0KB if less than\n      1MB, only for R 3.1.2 and only on big-endian platforms.\n\n    * prompt() did not escape percent signs in the automatically\n      generated usage section of help files.\n\n    * drop.terms() dropped some of the attributes of the object it was\n      working with.  (PR#16029)\n\n    * (Windows.) The command completion in Rgui.exe messed up the\n      console.  (PR#15791)\n\n    * (Windows.) The choose.files() command returned a blank string\n      when the user asked for a single file but cancelled the request.\n      (PR#16074)\n\n    * Math2 S4 group generics failed to correctly dispatch \"structure\"-\n      and \"nonStructure\"-derived classes.\n\n    * loadNamespace() imposed undocumented restrictions on the\n      versionCheck parameter.  (Reported by Geoff Lee.)\n\n    * Rare over-runs detected by AddressSanitizer in substr() and its\n      replacement version have been avoided.\n\n      _Inter alia_ that fix gives the documented behaviour for\n      substr(x, 1, 2) <- \"\" (subsequently reported as PR#16214).\n\n    * Loading packages incorrectly defining an S4 generic followed by a\n      function of the same name caused an erroneous cyclic namespace\n      dependency error.\n\n    * Declared vignette encodings are now always passed to the vignette\n      engine.\n\n    * Port Tomas Kalibera's fix from R-devel that restores the\n      loadMethod() fast path, effectively doubling the speed of S4\n      dispatch.\n\n    * power.t.test() and power.prop.test() now make use of the\n      extendInt option of uniroot() and hence work in more extreme\n      cases.  (PR#15792)\n\n    * If a package was updated and attached when its namespace was\n      already loaded, it could end up with parts from one version and\n      parts from the other.  (PR#16120)\n\n    * tools:::.Rdconv() didn't accept --encoding= due to a typo.\n      (PR#16121)\n\n    * Unix-alike builds without a suitable makeinfo were documented to\n      link the missing HTML manuals to CRAN, but did not.\n\n    * save(*, ascii=TRUE) and load() now correctly deal with NaN's.\n      (PR#16137)\n\n    * split.Date() retains fractional representations while avoiding\n      incomplete class propagation.\n\n    * R_ext/Lapack.h had not been updated for changes made by LAPACK to\n      the argument lists of its (largely internal) functions dlaed2 and\n      dlaed3.  (PR#16157)\n\n    * RShowDoc(\"NEWS\", \"txt\") had not been updated for the layout\n      changes of R 3.1.0.\n\n    * The xtfrm() method for class \"Surv\" has been corrected and its\n      description expanded.\n\n    * mode(x) <- y would incorrectly evaluate x before changing its\n      mode. (PR#16215)\n\n    * besselJ(1, 2^64) and besselY(..) now signal a warning, returning\n      NaN instead of typically segfaulting. (Issue 3 of PR#15554)\n\n    * HTML conversion of \\href markup in .Rd files did not remove the\n      backslash from \\% and so gave an invalid URL.  In a related\n      change, the \\ escape is now required in such URLs.\n\n\n\n--\nPeter Dalgaard, Professor\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "The build system rolled up R-3.1.3.tar.gz (codename \"Smooth Sidewalk\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/s",
+      "thread_id": "thread-380913231b47",
+      "thread_depth": 0,
+      "month": "2015-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-4fcf1fcf44bc",
+      "subject": "format( \"www.R-project.org\" , year = 2015)",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2015-03-04T23:13:14+01:00",
+      "last_reply": "2015-03-04T23:13:14+01:00",
+      "root_message_id": "msg-4fcf1fcf44bc"
+    },
+    {
+      "id": "thread-380913231b47",
+      "subject": "R 3.1.3 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2015-03-09T10:04:28+01:00",
+      "last_reply": "2015-03-09T10:04:28+01:00",
+      "root_message_id": "msg-380913231b47"
+    }
+  ]
+}

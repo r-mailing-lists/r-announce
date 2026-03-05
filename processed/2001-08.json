@@ -1,0 +1,117 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-08",
+  "messages": [
+    {
+      "id": "msg-c80b6ded2ec6",
+      "message_id": "<200108201500.IAA41864@pine.frazmtn.com>",
+      "from_name": "Jan de Leeuw",
+      "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
+      "date": "2001-08-20T07:59:44-07:00",
+      "subject": "R-1.3.0 full update (151 packages)",
+      "subject_clean": "R-1.3.0 full update (151 packages)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "You may want to wait for R-1.3.1, but there is a new version \nR-1.3.0-MacOSX.tar.gz\nin http//www.stat.ucla.edu/~deleeuw/R. It's in the folder \"overfull\", \nand it\n\n-- will be updated to 1.3.1 as soon as that exists\n\n-- has support for gnome, tcl/tk, and atlas\n\n-- includes 151 add-on packages (see the list in packages.txt). Most of \nthem have\n    been updated to the latest CRAN versions.\n\n-- uses the newest versions of the readline, dlcompat, gnome, f2c, \natlas, tcl/tk libraries\n    (all from fink, see fink.sourceforge.net)\n\n-- has the necessary dylibs in the folder \"dylibs\". If you find you need \none,\n    because R asks for it, download it and install it. If R asks for one\n    which is not there, drop me an email.\n\n-- has five screenshots in the folder \"screenshots\", a small sample of \nthe\n    many possibilities.\n\n    a. One has rootless XFree86 with the gnome interface for R. This may \nbe as close\n    to the Carbon version as you can get with Xfree.\n    b. The Aqua rootless mode is fine if you want to interact directly \nwith Carbon and\n    Cocoa applications. The second screenshot is full screen X11, and \nproud of it.\n    It has some tcl/tk demos running.\n    c. The windowmanager for the first two screenshots is blackbox, and \nyou see two\n    fancy eterm windows running as well (with dragons and far-away \nplanets and stuff).\n    The third screenshot uses the sawfish window manager, running in a \ngnome-session.\n    d. If you don't like gnome (most sane persons don't), then screenshot \nfour\n    uses the ice window manager, and shows another tcltk demo. Look in \nthe lower\n    left hand corner of this screen -- you are running Linux. And on a\n    decent computer too.\n    e. Finally, there is a screenshot which uses the Xtools Aqua window \nmanager in rootless\n    mode.  This is obviously close to optimal for Mac junkies. By the \nway, the gnome gui\n    does not work with XTools.\n\nNote:\nRunning cksum on the file it should give\n\n3276119375 28310961 R-1.3.0-MacOSX.tar.gz\n\nNote:\nIf you install fink on your system, you will have easy access to the \nfollowing\nwindow managers: twm, mwm, pwm, fvwm, xfwm, icewm, blackbox, \nenlightenment, windowmaker, sawfish, oroborus, afterstep. Xtools adds \nthe Aqua window manager.\nThus you can make your Mac look like a machine running vanilla X11, \nMotif, NextStep, Gnome, and even Aqua/Quartz.\n\nreferences:\nhttp://fink.sourceforge.net/doc/x11/index.php\nhttp://www.xwinman.org/\n===\nJan de Leeuw; Professor and Chair, UCLA Department of Statistics;\nUS mail: 9432 Boulter Hall, Box 951554, Los Angeles, CA 90095-1554\nphone (310)-825-9550;  fax (310)-206-5658;  email: deleeuw at stat.ucla.edu\nhomepage: http://www.stat.ucla.edu/~deleeuw\n========================================================\n           No matter where you go, there you are. --- Buckaroo Banzai\n                    http://www.stat.ucla.edu/~deleeuw/sounds/nomatter.au\n========================================================\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "You may want to wait for R-1.3.1, but there is a new version \nR-1.3.0-MacOSX.tar.gz\nin http//www.stat.ucla.edu/~deleeuw/R. It's in the folder \"overfull\", \nand it\n\n-- will be updated to 1.3.1 as soon a",
+      "thread_id": "thread-c80b6ded2ec6",
+      "thread_depth": 0,
+      "month": "2001-08"
+    },
+    {
+      "id": "msg-bc80c2d0556a",
+      "message_id": "<x2heuos597.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2001-08-31T15:55:48+02:00",
+      "subject": "R-1.3.1 is released ",
+      "subject_clean": "R-1.3.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.3.1.tgz a short while ago. This is a minor upgrade,\nfixing a number of bugs and only containing a few small new features.\nThe most immediately visible new feature is that \"less\" is used for\nviewing help pages if available.\n\nA set of recommended packages which have been tested with R-1.3.1 has\nbeen bundled up. Binary distributions are expected to include these\npackages. The mgcv package is included this time (we intended to have\nit in 1.3.0, but encountered portability problems).\n\nPlease note (as for 1.3.0) that the former \"survival5\" package is now\nnamed \"survival\". If you install over an existing installation which\nhas survival5 installed, make sure to \"R CMD REMOVE survival5\"\n\nYou can get the files from the developer site\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.3.1.tgz\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.3.1-recommended.tgz\n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.3.1.tgz\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.3.1-recommended.tgz\n\nor wait for them to be mirrored at a CRAN site near you. This will\nprobably happen after the weekend due to circumstances in Vienna.\nBinaries for various platforms will appear in due course.\n\nThere are also versions split for floppies, and a patch file relative\nto R-1.3.0.\n\n\n        For the R Core Team,\n\n        Peter D.\n\n\nHere's the relevant part of the NEWS file:\n\n\n                CHANGES IN R VERSION 1.3.1\n\n\nNEW FEATURES\n\n    o   massage-examples is now a Perl script and about 50x faster.\n\n    o   On Unix(-alike) systems the default pager is now determined\n        during configuration, and is `less' if available, otherwise\n        `more' (and not `more -s' as previously).\n\n    o   configure now tests for strptime functions that fail on inputs\n        before 1970 (found on Irix).  It no longer checks for the SCSL\n        and SGIMATH libraries on Irix.\n\n    o   New formula interface to cor.test() in package ctest.\n\n    o   \"NA\" is now a valid color name (as NA has been a valid integer\n        color).\n\n    o   pairs() function has a new `gap' argument for adjusting the\n        spacing between panels.\n\n    o   R CMD check has a new test for unbalanced braces in Rd files.\n\n    o   readBin() has a new argument `signed' to simplify reading\n        unsigned 8- and 16-bit integers.\n\n    o   New capabilities() option \"cledit\".\n\n    o   Modified restore code to give clearer error messages in some cases.\n\n\n\nBUG FIXES\n\n    o   Fixed placement of mtext() output (including tick labels)\n        when text is perpendicular to axis AND axis is logged\n        (PR#997 and PR#865).\n\n    o   rect() and arrows() now respond to setting of par(xpd)\n\n    o   abline() now responds to the setting of par(xpd), including\n        via the \"...\" argument (PR#750).\n\n    o   Using cat() to a gzfile() connection no longer compresses poorly\n        (at the expense of some latency).\n\n    o   The `exact' p-values for the two-sided two-sample\n        Kolmogorov-Smirnov test in 1.3.0 were for the wrong tail.\n\n    o   In the HTML conversion of .Rd files, \\link[foo]{bar} was\n        ignoring [foo] outside \\code{} statements.\n\n    o   lm.influence(), plot.lm(), influence.measures() and the\n        related diagnostic measures now handle lm() fits with\n        na.action=na.exclude.\n\n    o   Eliminated segmentation fault in while loops without braces\n        in their bodies.\n\n    o   barplot did not accept NA heights unless ylim was specified.\n\n    o   predict.lm() failed with single-column model matrix (PR#1018).\n\n    o   legend() now also works with 100s of entries (thanks to\n        M. Schlather).\n\n    o   A long-standing bug leading to inaccuracy in polyroot() has been\n        fixed (PR#751)\n\n    o   A very old bug with eval() not handling a numeric `envir' argument\n        according to specifications has been fixed. [This in particular\n        broke ported S-PLUS code that used eval(..., sys.parent())]. Also,\n        eval() now checks that a numeric `envir' has length one to prevent\n        accidental passing of matrices instead of data frames.\n\n    o   The C code underlying nlm(f, *) now also works correctly when f(x)\n        returns +Inf {nlm() itself *did* work!}.\n\n    o   pdfcolor.tex is now included in doc/manual, as pdftex seems no\n        longer to include it.\n\n    o   Fixed protect bug in save() code that might have been responsible\n        for occasionally saving corrupted workspaces.\n\n    o   capabilities(\"X11\") now reports if X11 is available in this\n        session, thereby giving the correct answer if --gui=none was\n        specified.\n\n    o   Rd files with ,, inside \\code{} were treating this as a\n        ligature in LaTeX: now corrected in Rdconv.\n\n    o   dlopen on Compaq Tru64 was finding the wrong entry points:\n        worked-around by using different names in the modules.\n\n    o   plot.mts() allows a type argument again (broken in 1.3.0: PR#1010).\n\n    o   scan() has a limit of 8190 on the length of char strings, and\n        now warns if it is exceeded (when the string has always been\n        truncated).\n\n    o   par adj now accepts values of integer mode (such as text(adj=0:1)).\n\n    o   horizontal adj values outside the range [0, 1] are now\n        supported on devices with canHAdj==1 (Windows devices, xfig).\n\n    o   xtabs() without a response was ignoring drop.unused.levels=TRUE.\n\n    o   readLines(ok=FALSE) was not generating an error when it should.\n\n    o   princomp(covmat=) has been broken.\n\n    o   Many documentation clean-ups: formerly undocumented arguments,\n        use of T/F rather than TRUE/FALSE.\n\n    o   df[] <- foo now works for data frames (PR#1047).\n\n    o   nargs() was documented incorrectly.\n\n    o   Using seq.POSIXt(by=\"2 weeks\") was stepping by single weeks\n        (PR#1046).\n\n    o   dummy.coef.lm was not handling complex terms like z:I(x).\n        It now either does or warns and gives NAs (PR#1048).\n\n    o   predict.mlm() was broken (PR#1049).\n\n    o   ksmooth (in package modreg) was using points to the left\n        of the kernel under some circumstances (PR#1050).\n\n    o   attr(x, \"class\") <- character(0) was segfaulting.  Similar problem\n        with \"comment\" attribute also fixed.\n\n    o   loadings() results from PCA (as well as from factor analysis)\n        are now printed by print.loadings.\n\n    o   Using chol() on an non-positive-definite matrix gave an\n        misleading error message (PR#1061).\n\n    o   as.character() on a language object was truncating to about 70\n        characters: the internal limit (from the deparse code) is now the\n        maximum possible 500.\n\n    o   X11() device was failing to re-initialize correctly after all\n        devices were shut down, so the colortype could not be changed\n        and some systems showed protocol errors. (PR#1065)\n\n    o   Converting Inf and NaN values by as.character() and reading by\n        scan() was supported by strtod on some platforms and not\n        others: these are now handled by R itself. (PR#1072)\n\n    o   hclust(dist(1)) doesn't loop infinitely but signal an error.\n\n    o   cutree() can now cut outside heights and does not return\n        garbage for h >= max(tree$heights) anymore. (PR#1067)\n\n    o   interaction(...,drop=F) returned an object looking like a\n        factor, but with storage mode \"double\", confusing\n        model.matrix.default (PR#1003)\n\n    o   splineDesign(*, ord=) and others give better error messages for\n        wrong `ord' (and have slightly improved documentation).\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.3.1.tgz a short while ago. This is a minor upgrade,\nfixing a number of bugs and only containing a few small new features.\nThe most immediately visible new feature is that \"less\" is ",
+      "thread_id": "thread-bc80c2d0556a",
+      "thread_depth": 0,
+      "month": "2001-08"
+    },
+    {
+      "id": "msg-505ff08247e5",
+      "message_id": "<6r3d68xpa1.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2001-08-31T09:44:22-05:00",
+      "subject": "rsync repository updated to R-1.3.1",
+      "subject_clean": "rsync repository updated to R-1.3.1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The rsync repository at rsync.r-project.org has been updated to\nR-1.3.1\n\nFor example you can create a local directory R-1.3.1 and populate it\nwith the source tree by\n\n rsync -avC rsycn.r-project.org::r-release ./R-1.3.1\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The rsync repository at rsync.r-project.org has been updated to\nR-1.3.1\n\nFor example you can create a local directory R-1.3.1 and populate it\nwith the source tree by\n\n rsync -avC rsycn.r-project.org::",
+      "thread_id": "thread-505ff08247e5",
+      "thread_depth": 0,
+      "month": "2001-08"
+    },
+    {
+      "id": "msg-74660ed86ac1",
+      "message_id": "<200108311733.KAA25682@pine.frazmtn.com>",
+      "from_name": "Jan de Leeuw",
+      "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
+      "date": "2001-08-31T10:33:32-07:00",
+      "subject": "R-1.3.1 for OS X",
+      "subject_clean": "R-1.3.1 for OS X",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The full version with 154 packages is on\n\nhttp://gifi.stat.ucla.edu/R\n\nI dropped the gnome support, and ATLAS is now standard.\n\nUnpack in /usr/local\n\nOnce again, if your R complains about missing dynamic\nlibraries, first look in\n\nhttp://gifi.stat.ucla.edu/R/dylibs\n\nand if you cannot find what you need drop me an email.\n===\nJan de Leeuw; Professor and Chair, UCLA Department of Statistics;\nUS mail: 9432 Boulter Hall, Box 951554, Los Angeles, CA 90095-1554\nphone (310)-825-9550;  fax (310)-206-5658;  email: deleeuw at stat.ucla.edu\nhomepage: http://www.stat.ucla.edu/~deleeuw\n========================================================\n           No matter where you go, there you are. --- Buckaroo Banzai\n                    http://www.stat.ucla.edu/~deleeuw/sounds/nomatter.au\n========================================================\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The full version with 154 packages is on\n\nhttp://gifi.stat.ucla.edu/R\n\nI dropped the gnome support, and ATLAS is now standard.\n\nUnpack in /usr/local\n\nOnce again, if your R complains about missing dyna",
+      "thread_id": "thread-74660ed86ac1",
+      "thread_depth": 0,
+      "month": "2001-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-c80b6ded2ec6",
+      "subject": "R-1.3.0 full update (151 packages)",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2001-08-20T07:59:44-07:00",
+      "last_reply": "2001-08-20T07:59:44-07:00",
+      "root_message_id": "msg-c80b6ded2ec6"
+    },
+    {
+      "id": "thread-505ff08247e5",
+      "subject": "rsync repository updated to R-1.3.1",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2001-08-31T09:44:22-05:00",
+      "last_reply": "2001-08-31T09:44:22-05:00",
+      "root_message_id": "msg-505ff08247e5"
+    },
+    {
+      "id": "thread-74660ed86ac1",
+      "subject": "R-1.3.1 for OS X",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2001-08-31T10:33:32-07:00",
+      "last_reply": "2001-08-31T10:33:32-07:00",
+      "root_message_id": "msg-74660ed86ac1"
+    },
+    {
+      "id": "thread-bc80c2d0556a",
+      "subject": "R-1.3.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2001-08-31T15:55:48+02:00",
+      "last_reply": "2001-08-31T15:55:48+02:00",
+      "root_message_id": "msg-bc80c2d0556a"
+    }
+  ]
+}

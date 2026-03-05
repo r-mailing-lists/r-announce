@@ -1,0 +1,597 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2002-11",
+  "messages": [
+    {
+      "id": "msg-9e133c084414",
+      "message_id": "<x23cql1pq5.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2002-11-01T12:41:54+01:00",
+      "subject": "R-1.6.1 is released",
+      "subject_clean": "R-1.6.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.6.1.tgz a short while ago. This is a minor upgrade,\nfixing an assortment of minor bugs, and one major one: 1.6.0\nintroduced a memory leak in deparsing, causing much trouble for people\nrunning simulations.\n\nYou can get it from the developer site at\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.6.1.tgz\n\nor wait for it to be mirrored at a CRAN site near you. Binaries for\nvarious platforms will appear in due course.\n \nThere is also a version split for floppies, but due to the inclusion\nof recommended packages as binary .tar.gz files, I'm no longer\nproviding a patch file.\n\n\n        For the R Core Team,\n\n        Peter D.\n\n\nHere's the relevant part of the NEWS file:\n\n\n                CHANGES IN R VERSION 1.6.1\n\n\nNEW FEATURES\n\n    o   Added a few \"trivial and obviously missing\" functions to tcltk:\n        tkchooseDirectory, tkpopup, tkdialog, tkread\n\n    o   barplot() has a new argument `axis.lty', which if set to 1\n        allows the pre-1.6.0 behaviour of plotting the axis and tick\n        marks for the categorical axis.  (This was apparently not\n        intentional, but axis() used to ignore lty=0.)\n        The argument `border' is no longer \".NotYetUsed\".\n\n\nBUG FIXES\n\n    o   hist(<datetime>, cex.axis = f)  now works for x-axis too.\n\n    o   prompt() gave wrong \\usage{.} for long argument default expressions.\n\n    o   summary(x) gives more information when `x' is a logical\n        (or a data frame with a logical column which is now quite customary).\n\n    o   seq.POSIXt(from, to, length.out= . ) could give too long results\n\n    o   summaryRprof() was counting nested calls to the same function\n        twice.\n\n    o   Printing of objects of mode \"expression\" did strange things if\n        there were \"%\" characters in the deparsed expression (PR#2120).\n\n    o   as.matrix.data.frame converted missings to \"NA\" not character NA.\n        (PR#2130)\n\n    o   spec.pgram() was only interpolating zero freq for one series. (PR#2123)\n\n    o   help(randu) had % unescaped in the example. (PR#2141)\n\n    o   Making html links would fail if packages-head.html was not\n        writeable. (PR#2133)\n\n    o   Sweave.sty was not installed to $R_HOME/share/texmf when\n        builddir != srcdir. On Windows backslashes in latex paths have\n        to be replaced by slashes.\n\n    o   A memory leak in deparsing was introduced when eliminating\n        static variables (thanks to Achim Zeileis for spotting this).\n        A similar problem in loading workspaces has been corrected.\n\n    o   TclInterface.Rd incorrectly used \\synopsis for \\usage so that\n        the usage section wasn't output.\n\n    o   Readline stack off-by-one error. (PR#2165)\n\n    o   R_ExpandFileName had a memory leak in the case libreadline was\n        used under Unix-alikes.\n\n    o   sys.save.image() now closes all connections so it will work even\n        if the connection list has become full.\n\n    o   loess() had an unstated limit of four predictors: this is now\n        documented and enforced.\n\n    o   ${R_HOME}/etc/Renviron.site is now not read if R_ENVIRON is\n        set, as documented.  Previously it was read unless R_ENVIRON\n        pointed to an actual file.\n\n    o   Startup.Rd described the proceesing under Unix-alikes but\n        incorrectly implied it happened that way on the Windows and\n        MacOS ports.  Neither use Renviron.site, for example.\n\n    o   besselK(x,*) now returns 0 instead of Inf for large x. (PR#2179)\n\n    o   The Tcl console code didn't work with Tcl/TK 8.0, and has been\n        #ifdef'd out.  (PR#2090)\n\n    o   format.AsIs() was not handling matrices.\n\n    o   sd() was not passing na.rm to var() for matrices and data frames.\n\n    o   dist() {mva} silently treated +/-Inf as NA.\n\n    o   setwd() now returns NULL invisibly.\n\n    o   basename() and dirname() did not check the length of their\n        input and ignored elements after the first.  This affected\n        undoc {tools}.\n\n    o   If A had dimnames, eigen(A) had inappropriate dimnames. (PR#2116)\n\n    o   as.POSIXct.dates had a sign error for the origin (PR#2222)\n\n    o   The claim that pie charts should be avoiden (in pie.Rd) is now\n        supported by a quote from Cleveland (1985).\n\n    o   The vsnprintf() functions supplied for systems that don't\n        supply their own had a bug in the output of fractional parts,\n        corrupting data if using save() with ascii=TRUE. (PR#2144)\n\n    o   pretty() values close to 0 in some cases which are now 0 (PR#1032\n        and D.Brahm's mails).\n\n\nBUILD ISSUES\n\n    o   Toplevel Makefile was missing dependency of \"docs\" on \"R\" (causing\n        parallel makes to go wrong)\n\n    o   When building with recommended packages those were installed\n        into the first path in R_LIBS, if the environment variable was\n        present.\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-1.6.1.tgz a short while ago. This is a minor upgrade,\nfixing an assortment of minor bugs, and one major one: 1.6.0\nintroduced a memory leak in deparsing, causing much trouble for peop",
+      "thread_id": "thread-9e133c084414",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-249addd7e085",
+      "message_id": "<x2y98dz6ib.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2002-11-01T15:53:00+01:00",
+      "subject": "R-1.6.1 is released",
+      "subject_clean": "R-1.6.1 is released",
+      "in_reply_to": "<x23cql1pq5.fsf@biostat.ku.dk>",
+      "references": [
+        "<x23cql1pq5.fsf@biostat.ku.dk>"
+      ],
+      "body_plain": "Peter Dalgaard BSA <p.dalgaard at biostat.ku.dk> writes:\n\n> I've rolled up R-1.6.1.tgz a short while ago. This is a minor upgrade,\n> fixing an assortment of minor bugs, and one major one: 1.6.0\n> introduced a memory leak in deparsing, causing much trouble for people\n> running simulations.\n> \n> You can get it from the developer site at\n> \n> http://cvs.r-project.org/pub/CRAN/src/base/R-1.6.1.tgz\n\nOops. That doesn't seem to work anymore after the hardware troubles on\ncvs.r-project.org. This should work better:\n\nhttp://cran.us.r-project.org/src/base/R-1.6.1.tgz\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Peter Dalgaard BSA <p.dalgaard at biostat.ku.dk> writes:\n\n> I've rolled up R-1.6.1.tgz a short while ago. This is a minor upgrade,\n> fixing an assortment of minor bugs, and one major one: 1.6.0\n> intr",
+      "thread_id": "thread-9e133c084414",
+      "thread_depth": 1,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-7449cc63902a",
+      "message_id": "<6r1y65dngj.fsf_-_@bates4.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2002-11-01T14:50:04-06:00",
+      "subject": "R-1.6.1 available via rsync",
+      "subject_clean": "R-1.6.1 available via rsync",
+      "in_reply_to": "<6r65vhdsat.fsf@bates4.stat.wisc.edu>",
+      "references": [
+        "<Pine.SOL.4.20.0211011127180.26027-100000@santiam.dfci.harvard.edu>",
+        "<6r65vhdsat.fsf@bates4.stat.wisc.edu>"
+      ],
+      "body_plain": "Jeff Gentry <jgentry at jimmy.harvard.edu> writes:\n\n> Is there a rsync target for 1.6.1?\n\nThanks for the reminder, Jeff.  Sources for R-1.6.1 are now available\nvia rsync at rsync.r-project.org\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Jeff Gentry <jgentry at jimmy.harvard.edu> writes:\n\n> Is there a rsync target for 1.6.1?\n\nThanks for the reminder, Jeff.  Sources for R-1.6.1 are now available\nvia rsync at rsync.r-project.org\n-.-.-.-",
+      "thread_id": "thread-7449cc63902a",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-41a97e7a21b9",
+      "message_id": "<Pine.LNX.4.44.0211041555110.2251-100000@macchinetta.miadimora>",
+      "from_name": "mikalzet at libero.it",
+      "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
+      "date": "2002-11-04T15:57:20+01:00",
+      "subject": "Mandrake RPMS for R 1.6.1",
+      "subject_clean": "Mandrake RPMS for R 1.6.1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\n\nBinary RPM's compiled for Mandrake 8.0, 8.1, 8.2 and 9.0 have been\nuploaded and will duly appear on CRAN, together with the SRPM for people\nwishing to recompile R for earlier distributions.\n\n- -- \nMichele Alzetta\n-----BEGIN PGP SIGNATURE-----\nVersion: GnuPG v1.0.6 (GNU/Linux)\nComment: Per informazioni si veda http://www.gnupg.org\n\niD8DBQE9xoraCcFfzlIKnH4RAsRMAJ9jrxMBF4JiafPOOAjqtmgufUDjzACcDhJP\nYRuWHvmcJvfnuz01NvFwKgg=\n=d2vG\n-----END PGP SIGNATURE-----\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\n\nBinary RPM's compiled for Mandrake 8.0, 8.1, 8.2 and 9.0 have been\nuploaded and will duly appear on CRAN, together with the SRPM for people\nwishing to r",
+      "thread_id": "thread-41a97e7a21b9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-28c64442f1a6",
+      "message_id": "<gmifsusbvh1jufjlpjfnajvteioo7kqdih@4ax.com>",
+      "from_name": "Duncan Murdoch",
+      "from_email_hash": "f10e1920504dfef879061667fbcfa0823bbc832410cad04707fb294db3bd8d83",
+      "date": "2002-11-05T08:46:53-05:00",
+      "subject": "Windows binary for R 1.6.1 on CRAN",
+      "subject_clean": "Windows binary for R 1.6.1 on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've just uploaded a Windows binary of R 1.6.1 to CRAN.  It should be\nvisible at <http://cran.r-project.org/bin/windows/base/> by tomorrow,\nand will hopefully show up on the mirrors around the same time.\n\nBesides the (mostly bug fix) changes in all versions of R, this\nWindows version contains the following changes:\n\n - Changed titles on help windows so topic name shows when minimized.\n\n - Dependencies were not being generated properly in packages using\nC++.\n\n - share/R/firstlib.R was not being included in the binary\ndistribution.\n\nImportant for downloaders:  the main file to download is called\nrw1061.exe.  (This file was called SetupR.exe before 1.6.0.) The\nseries of rw*.zip files is no longer being distributed.  The mini-R\nfiles are as before.\n\nDuncan Murdoch\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've just uploaded a Windows binary of R 1.6.1 to CRAN.  It should be\nvisible at <http://cran.r-project.org/bin/windows/base/> by tomorrow,\nand will hopefully show up on the mirrors around the same ti",
+      "thread_id": "thread-28c64442f1a6",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-862589523a6e",
+      "message_id": "<8m6osu0kg1ic63fheksu8pvtmmpe4it77g@4ax.com>",
+      "from_name": "Duncan Murdoch",
+      "from_email_hash": "f10e1920504dfef879061667fbcfa0823bbc832410cad04707fb294db3bd8d83",
+      "date": "2002-11-08T15:18:49-05:00",
+      "subject": "Windows binary for R 1.6.1 FIXED",
+      "subject_clean": "Windows binary for R 1.6.1 FIXED",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "To Windows R users:\n\nThe binary build of R that I uploaded on Tuesday contained errors in\nthe compiled HTML help files and some of the PDF versions of the\nmanuals.  In particular, the index was missing from the CHM files, and\nthe table of contents was missing from at least one of the manuals.\n\nI've since found the error in my setup, and have rebuilt the\ndistribution.  I uploaded it to CRAN this afternoon; it will likely\npropagate to all of the mirrors over the weekend.\n\nBefore you download it, please make sure that you see the note on the\ndownload page about the correction (otherwise you may be downloading\nthe original version).\n\nThe URL is <http://cran.r-project.org/bin/windows/base>.\n\nI'm sorry for any inconvenience that this has caused.\n\nDuncan Murdoch\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "To Windows R users:\n\nThe binary build of R that I uploaded on Tuesday contained errors in\nthe compiled HTML help files and some of the PDF versions of the\nmanuals.  In particular, the index was missin",
+      "thread_id": "thread-862589523a6e",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-35b091cf364f",
+      "message_id": "<3DCF9D8A.60509@ic.ac.uk>",
+      "from_name": "Chris Jackson",
+      "from_email_hash": "4cb7cf5bd9b1209400d506285ffba521ac39d8e16151c429a7fb66162ca4880e",
+      "date": "2002-11-11T12:07:38Z",
+      "subject": "New package: msm for multi-state models",
+      "subject_clean": "New package: msm for multi-state models",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R users,\n\nA new package \"msm\", for multi-state modelling, is now available on CRAN.  \nIt can be used to fit continuous-time Markov models to irregularly-observed\ncategorical processes.  These models are typically used for the \nprogression of\nchronic diseases, where a patient visits a doctor at irregular intervals \nand is\ndiagnosed as being in one of a set of disease stages. The transition rates\nof the Markov process can be modelled as a function of covariates, and \nthe models\nare estimated by maximum likelihood.\n\nThe software can also fit a form of hidden Markov model: a multi-state\nmodel in which the stages are observed with misclassification.  These \nmight be\nused in cases where a disease screening test is subject to false \npositives or negatives.\nThe probabilities of misclassification and the Markov chain transition \nrates can then\nbe estimated simultaneously, by maximum likelihood.  Covariates can be \nfitted to\nboth the transition rates and the misclassification probabilities.\n\nBug reports, reports of successes or failures, and suggestions for \nimprovement are\nwelcome. We would also be interested to hear what applications people \nmight be\ninterested in using this package for.\n\n-- \nChristopher Jackson <chris.jackson at ic.ac.uk>, Research Associate,\nDepartment of Epidemiology and Public Health, Imperial College School of \nMedicine, Norfolk Place, London W2 1PG\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear R users,\n\nA new package \"msm\", for multi-state modelling, is now available on CRAN.  \nIt can be used to fit continuous-time Markov models to irregularly-observed\ncategorical processes.  These mod",
+      "thread_id": "thread-35b091cf364f",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-84646dfed1b7",
+      "message_id": "<15824.23762.26065.934271@musil.localdomain>",
+      "from_name": "Jasjeet Singh Sekhon",
+      "from_email_hash": "fb8bc0cb16830f8ea34021b5d9997f1823661f62edbc610e2d4de765bec91e4c",
+      "date": "2002-11-11T20:43:46-05:00",
+      "subject": "New version of rgenoud",
+      "subject_clean": "New version of rgenoud",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We would like to announce the availability of a new version of our\nR-GENetic Optimization Using Derivatives (RGENOUD) package.  The new\nversion is 1.20.\n\nSource code along with LINUX, Windows, and MacOS binaries are\navailable on CRAN and at http://jsekhon.fas.harvard.edu/rgenoud/.\n\n\nDESCRIPTION:\nPackage: rgenoud\nVersion: 1.20\nDate: 2002-11-05\nTitle: R version of GENetic Optimization Using Derivatives\nAuthor: Walter R. Mebane, Jr. <wrm1 at cornell.edu>,\n Jasjeet Singh Sekhon <jasjeet_sekhon at harvard.edu> \nMaintainer: Jasjeet Singh Sekhon <jasjeet_sekhon at harvard.edu>\nDepends: R (>= 1.6.0)\nDescription: A genetic algorithm plus derivative optimizer\nLicense: GPL version 2 or newer\nURL: http://jsekhon.fas.harvard.edu/rgenoud/\n\n\nGENOUD is a function that combines evolutionary algorithm methods with\na derivative-based, quasi-Newton method to solve difficult\nunconstrained optimization problems.  GENOUD is made to solve problems\nthat are nonlinear or perhaps even discontinuous in the parameters of\nthe function to be optimized.  When a statistical model's estimating\nfunction (for example, a log-likelihood) is nonlinear in the model's\nparameters, the function to be optimized will usually not be globally\nconcave and may contain irregularities such as saddlepoints or\ndiscontinuous jumps.  Optimization methods that rely on derivatives of\nthe objective function may be unable to find any optimum at all.\nMultiple local optima may exist, so that there is no guarantee that a\nderivative-based method will converge to the global optimum.  On the\nother hand, algorithms that do not use derivative information (such as\npure GAs) are for many problems needlessly poor at local hill\nclimbing.  Most statistical problems are regular in the neighborhood\nof the solution.  Therefore, for some portion of the search space\nderivative information is useful.\n\nCHANGES from v1.19:\n1) A memory error related to long running processes using MemoryMatrix\nhas been corrected.\n2) An erroneous warning which was issued when the number of parameters\nwas larger than 25 has been corrected.\n\nFor more information please visit\nhttp://jsekhon.fas.harvard.edu/rgenoud/\n\n\nWe look forward to receiving questions, comments and suggestions.\nPlease send them to Jasjeet Sekhon <jasjeet_sekhon at harvard.edu>.\n\nWalter R. Mebane, Jr. <wrm1 at cornell.edu>\nAssociate Professor, Cornell University\nhttp://macht.arts.cornell.edu/wrm1\nVoice: 607/255-3868  Fax:  607/255-4530\n\nJasjeet S. Sekhon <jasjeet_sekhon at harvard.edu>\nAssistant Professor, Harvard University\nhttp://jsekhon.fas.harvard.edu/\nVoice: 617.496.2426 Fax: 617.496.5149\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We would like to announce the availability of a new version of our\nR-GENetic Optimization Using Derivatives (RGENOUD) package.  The new\nversion is 1.20.\n\nSource code along with LINUX, Windows, and Mac",
+      "thread_id": "thread-84646dfed1b7",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-521cc9fe7320",
+      "message_id": "<5.1.0.14.2.20021124091444.01dc6318@mcmail.cis.mcmaster.ca>",
+      "from_name": "John Fox",
+      "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
+      "date": "2002-11-24T09:18:55-05:00",
+      "subject": "Using XEmacs and ESS with R for MS/Windows",
+      "subject_clean": "Using XEmacs and ESS with R for MS/Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've been working on a document describing the use of XEmacs and ESS with R \nfor Windows users, along with configuration files that are meant to make \nthings simple for Windows users. This was initially intended for my \nstudents, but with recent discussions of Windows (and other) editors on the \nthe R-help list, I thought that I'd make the material more widely available.\n\nThe document describes how to install, configure, and use XEmacs and ESS \nwith R under Windows. The configuration files divide the XEmacs windows \ninto two sub-windows, one for R source files (with tabs when multiple files \nare open), the other with the R process. A customized toolbar is provided \nwith buttons to send individual lines, \"paragraphs,\" marked regions of \ntext, and functions from the source window to the R process; there are \nother buttons to source the whole file silently, and to interrupt the R \nprocess. Menus are provided to perform operations similar to those in the \nstandard Windows R GUI -- for example, to install, load, and update \npackages. In general, I've tried to provide features available in the R GUI \nand in Uwe Ligges's R plug-in for the shareware editor WinEdt. As well, \nI've attempted to make XEmacs appear more Windows-like in its behaviour, \nfor example by defining standard Windows editing keys.\n\nMore information is available at \n<http://www.socsci.mcmaster.ca/jfox/Books/Companion/ESS/>.\n\nComments and suggestions would be appreciated.\n\n  John\n-----------------------------------------------------\nJohn Fox\nDepartment of Sociology\nMcMaster University\nHamilton, Ontario, Canada L8S 4M4\nemail: jfox at mcmaster.ca\nphone: 905-525-9140x23604\nweb: www.socsci.mcmaster.ca/jfox\n-----------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've been working on a document describing the use of XEmacs and ESS with R \nfor Windows users, along with configuration files that are meant to make \nthings simple for Windows users. This was initial",
+      "thread_id": "thread-521cc9fe7320",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-e3985b33e217",
+      "message_id": "<15842.27605.877712.518702@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2002-11-25T19:28:37+01:00",
+      "subject": "Final CFP: DSC 2003",
+      "subject_clean": "Final CFP: DSC 2003",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is a short reminder that the submission deadline for the workshop\nDistributed Statistical Computing DSC 2003 is approaching rapidly. If\nyou want to give a talk to the conference please submit a paper or\nextended abstract (1-2 pages) by the end of this week. Details on the\nworkshop can be found at\n\n\thttp://www.ci.tuwien.ac.at/Conferences/DSC-2003/\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "This is a short reminder that the submission deadline for the workshop\nDistributed Statistical Computing DSC 2003 is approaching rapidly. If\nyou want to give a talk to the conference please submit a p",
+      "thread_id": "thread-e3985b33e217",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-9e133c084414",
+      "subject": "R-1.6.1 is released",
+      "message_count": 2,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2002-11-01T12:41:54+01:00",
+      "last_reply": "2002-11-01T15:53:00+01:00",
+      "root_message_id": "msg-9e133c084414"
+    },
+    {
+      "id": "thread-7449cc63902a",
+      "subject": "R-1.6.1 available via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2002-11-01T14:50:04-06:00",
+      "last_reply": "2002-11-01T14:50:04-06:00",
+      "root_message_id": "msg-7449cc63902a"
+    },
+    {
+      "id": "thread-41a97e7a21b9",
+      "subject": "Mandrake RPMS for R 1.6.1",
+      "message_count": 1,
+      "participants": [
+        "mikalzet at libero.it"
+      ],
+      "started": "2002-11-04T15:57:20+01:00",
+      "last_reply": "2002-11-04T15:57:20+01:00",
+      "root_message_id": "msg-41a97e7a21b9"
+    },
+    {
+      "id": "thread-28c64442f1a6",
+      "subject": "Windows binary for R 1.6.1 on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Duncan Murdoch"
+      ],
+      "started": "2002-11-05T08:46:53-05:00",
+      "last_reply": "2002-11-05T08:46:53-05:00",
+      "root_message_id": "msg-28c64442f1a6"
+    },
+    {
+      "id": "thread-862589523a6e",
+      "subject": "Windows binary for R 1.6.1 FIXED",
+      "message_count": 1,
+      "participants": [
+        "Duncan Murdoch"
+      ],
+      "started": "2002-11-08T15:18:49-05:00",
+      "last_reply": "2002-11-08T15:18:49-05:00",
+      "root_message_id": "msg-862589523a6e"
+    },
+    {
+      "id": "thread-35b091cf364f",
+      "subject": "New package: msm for multi-state models",
+      "message_count": 1,
+      "participants": [
+        "Chris Jackson"
+      ],
+      "started": "2002-11-11T12:07:38+00:00",
+      "last_reply": "2002-11-11T12:07:38+00:00",
+      "root_message_id": "msg-35b091cf364f"
+    },
+    {
+      "id": "thread-84646dfed1b7",
+      "subject": "New version of rgenoud",
+      "message_count": 1,
+      "participants": [
+        "Jasjeet Singh Sekhon"
+      ],
+      "started": "2002-11-11T20:43:46-05:00",
+      "last_reply": "2002-11-11T20:43:46-05:00",
+      "root_message_id": "msg-84646dfed1b7"
+    },
+    {
+      "id": "thread-521cc9fe7320",
+      "subject": "Using XEmacs and ESS with R for MS/Windows",
+      "message_count": 1,
+      "participants": [
+        "John Fox"
+      ],
+      "started": "2002-11-24T09:18:55-05:00",
+      "last_reply": "2002-11-24T09:18:55-05:00",
+      "root_message_id": "msg-521cc9fe7320"
+    },
+    {
+      "id": "thread-e3985b33e217",
+      "subject": "Final CFP: DSC 2003",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at ci.tuwien.ac.at"
+      ],
+      "started": "2002-11-25T19:28:37+01:00",
+      "last_reply": "2002-11-25T19:28:37+01:00",
+      "root_message_id": "msg-e3985b33e217"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    }
+  ]
+}

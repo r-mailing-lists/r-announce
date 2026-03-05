@@ -1,0 +1,144 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2003-06",
+  "messages": [
+    {
+      "id": "msg-bc44e53cda37",
+      "message_id": "<16095.14452.682830.688153@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2003-06-05T14:32:52+02:00",
+      "subject": "R News Volume 3/1",
+      "subject_clean": "R News Volume 3/1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We have published the 2003/1 issue of R News on\n\n        http://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a day or two.\n\n\nContents of this issue:\n\nName Space Management for R\nConverting Packages to S4\nThe genetics Package\nVariance Inflation Factors    13\nBuilding Microsoft Windows Versions of R and R packages under Intel Linux\nAnalysing Survey Data in R\nComputational Gains Using RPVM on a Beowulf Cluster\nR Help Desk  \nBook Reviews   \nChanges in R 1.7.0 \nChanges on CRAN \nCrossword \nRecent Events\n\n\nFor the editorial board,\nFritz Leisch",
+      "body_snippet": "We have published the 2003/1 issue of R News on\n\n        http://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors wit",
+      "thread_id": "thread-bc44e53cda37",
+      "thread_depth": 0,
+      "month": "2003-06"
+    },
+    {
+      "id": "msg-415515f98a07",
+      "message_id": "<Pine.LNX.4.44.0306161115420.8790-100000@tal.stat.umu.se>",
+      "from_name": "Göran Broström",
+      "from_email_hash": "a5c32d25a912fd2e7d07bfdf35a470dbdd4bb162dffcf7d688b64aeeb247d678",
+      "date": "2003-06-16T11:20:07+02:00",
+      "subject": "new package: eha",
+      "subject_clean": "new package: eha",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A few days ago I uploaded to CRAN a new package called 'eha', which \nstands for 'Event History Analysis'. Its main focus is on proportional \nhazards modeling in survival analysis, and in that respect  eha  can\nbe regarded as a complement and an extension to the 'survival'\npackage. In fact  eha  requires  survival. Eha contains three functions\nfor proportional hazards analysis:\n\n1. 'coxreg': Performs Cox regression, almost as 'coxph' in survival. \nThere are two methods, 'efron' (default) and 'breslow', exactly as in\ncoxph. There are two extensions, compared to  coxph: (i) Sampling of \nsurvivors in risk sets (at event times), which can be useful with \nhuge data sets and few events. (ii) The so-called 'weird bootstrap':\nFor the fitted model, new events are drawn in each risk set with \nprobabilities given by the fitted model, independently between \nrisk sets (that's the 'weird' part). This is repeated  R  times\nand the output is two Rxp matrices, one with the bootstrap estimates \nof the regression coefficients, and one with the corresponding \nstandard errors. The analysis is up to the user for now.\nThe 'boot' package?\n\n2. 'mlreg': A discrete time proportional hazards model is fitted along \nthe lines of Kalbfleisch & Prentice (1980, pp. 98--103). See also \nBrostr?m (2002): \"Cox regression; Ties withot tears\", Communications \nin Statistics, Theory & Methods 31, 285--297. This function has two methods;\n\"ML\", the purely discrete model with one parameter per observed distinct \nevent time, and \"MPPL\", which is a hybrid between Cox regression and \nthe discrete model: Only tied event times are associated to a unique\nparameter; the untied event times contributes a \"Cox regression term\".\nFor completely untied data this results in ordinary Cox regression.\n\"MPPL\" can be regarded as an attempt to handle tied data in Cox regression, \ncomparable to the 'efron' method. This method does not break down because \nof too heavily tied data, which the  efron  method might do.    \n \n3. 'weibreg': Weibull regression for left truncated and right censored \ndata. Allows for stratification with different shape and scale parameters \nin the strata. \n\nMoreover, there are functions for extracting subsamples as 'rectangles'\nin the Lexis diagram, including external ('communal') covariates in a\n'survival data frame', extracting information from risk sets, summary \nstatistics from the Lexis diagram, etc, etc.\n\nG?ran\n---\n G?ran Brostr?m                    tel: +46 90 786 5223\n Department of Statistics          fax: +46 90 786 6614\n Ume? University                   http://www.stat.umu.se/egna/gb/\n SE-90187 Ume?, Sweden             e-mail: gb at stat.umu.se",
+      "body_snippet": "A few days ago I uploaded to CRAN a new package called 'eha', which \nstands for 'Event History Analysis'. Its main focus is on proportional \nhazards modeling in survival analysis, and in that respect ",
+      "thread_id": "thread-415515f98a07",
+      "thread_depth": 0,
+      "month": "2003-06"
+    },
+    {
+      "id": "msg-8916436dc8d6",
+      "message_id": "<x2n0gil26b.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2003-06-16T10:48:33Z",
+      "subject": "R 1.7.1 is released",
+      "subject_clean": "R 1.7.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.7.1.tgz a short while ago. This is a patch version\nmainly fixing up an assortment of issues (see below). Note also that\nit comes with an updated set of recommended packages, fixing a couple\nof nasty issues in at least foreign and nlme.\n\nYou can get it from\n\nhttp://cran.us.r-project.org/src/base/R-1.7.1.tgz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course.\n \nThere is also a version split for floppies. \n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n833c2a9a62818211f2f9f0353ecd9bbd  R-1.7.1.tgz\n0c3029b42f8eba12cc9acab6f28196dc  R-1.7.1.tgz-split.aa\n3aafef440adfa65d1dd34b50399736d2  R-1.7.1.tgz-split.ab\n388544d79c50b294783838ff8d3646e2  R-1.7.1.tgz-split.ac\nf1f6e913030568b3416b9fe09d486aa6  R-1.7.1.tgz-split.ad\n191cfeb78a2f98f084def26b4716e3ed  R-1.7.1.tgz-split.ae\n73cf3ede9066716568219a8b13765fcf  R-1.7.1.tgz-split.af\n65dc2729eaa13e91e867b2624cb80e11  R-1.7.1.tgz-split.ag\n\n\n        For the R Core Team,\n\n        Peter D.\n\n\nHere's the relevant part of the NEWS file:\n\n                CHANGES IN R VERSION 1.7.1\n\n\nNEW FEATURES\n\n    o   The help pages give appropriate references to the Blue,\n        White or Green books for functions based on the descriptions\n        of S functions given there. (E&OE)\n\n    o   Function getAnywhere() can find non-exported objects, for\n        namespaces or registered methods.\n\n\nDEPRECATED & DEFUNCT\n\n    o   The (unimplemented) argument 'white' of parse() is deprecated.\n\n    o   The tkfilefind demo in the tcltk library is deprecated, since\n        it never worked well, and apparently not at all with Tcl/Tk 8.4.\n\n\nBUG FIXES\n\n    o   print.table() used too much white space in some cases in 1.7.0.\n\n    o   selectMethod() failed if `f' was a non-generic and\n        optional=TRUE, and gave a confusing error message if\n        optional=FALSE.\n\n    o   pchisq(*, ncp) and qchisq(*, ncp) work in more cases for large ncp\n        or quantile and give warning or error messages otherwise.\n\n    o   str(x) now also works when x is an \"externalptr\" (or \"weakref\").\n\n    o   rbeta(), rf(), and rt() now support infinite parameter values;\n        other distributions return NaN instead of NA for such.\n\n    o   Redefining a class is now safer if the new definition\n        generates an error (previously some invalid metadata could be\n        left behind).\n\n    o   A number of errors are now caught in setClass() that\n        previously either went unchecked or waited until new() to\n        appear:\n        - classes may not contain themselves, directly or indirectly;\n        - classes appearing either as slots or as superclasses must\n          themselves be defined;\n        - slot names (direct or inherited) must be unique.\n        In related changes, prototype() now works as documented, and is the\n        recommended way to provide prototype objects.\n\n    o   Sorting an ordered factor would return an unordered one.\n        This caused some trouble with panel.superpose (PR#974).\n\n    o   methods() could return duplicates if a method in a namespace\n        was both exported and registered.\n\n    o   The internal zip.unpack() could crash if more than 500 files\n        were to be extracted. (PR#2818)\n\n    o   The \"r+\" and \"r+b\" modes of opening file connections disallowed\n        writing.\n\n    o   library() now warns the user if the chosen package name\n        doesn't match the internal package name, and corrects the\n        error. (PR#2816)\n\n    o   qr(LAPACK=TRUE) (and qr for complex arguments) might have failed\n        to pivot for rank-deficient inputs. (PR#2867)\n\n    o   Only re-mapped symbols are exported by regex.o, to avoid\n        problems with embedded R on RedHat 9.\n\n    o   arima() did not set transform.pars to FALSE if AR parameters\n        were fixed, although it claimed to.\n\n    o   pnorm() was slower than necessary in the outer tails in some\n        cases due to a typo in the improvements from PR#699.  (PR#2883)\n\n    o   setGeneric() and setMethod() now catch some examples where the\n        generic and the method have different argument lists; the\n        evaluator checks for internal consistency of these argument lists.\n\n    o   expand.grid(x) {the rare case of one argument} now treats factor\n        levels as in the typical case of two or more arguments.\n\n    o   Some implicit coercions to lists could cause segfaults, e.g.\n          x <- matrix(nrow=20000, ncol=20); x$any <- numeric(0)\n        due to a PROTECT bug. (PR#2923)\n\n    o   The replacement functions for colnames() and rownames() did not\n        work for arrays with more than two dimensions.  They could\n        create dimnames of the form list(NULL, NULL) rather than\n        remove the dimnames attribute.\n\n    o   termplot() gave incorrect answers with rug=TRUE or\n        partial=TRUE for factors whose levels were not in\n        lexicographical order.\n\n    o   A serious performance flaw in as() computations was fixed (the\n        methods were not being cached properly.)\n\n    o   model.frame(~1, data) always returned 1 row. (PR#2958)\n\n    o   The data editor was truncating objects to 65535 rows.  Pro\n        tem, editing objects with more than 65535 rows is an error,\n        and objects cannot be extended beyond that row. This restriction\n        will be removed in 1.8.0.  (PR#2962)\n\n    o   A bug could produce apparent loops in formal method selection\n        when inheritance was restricted (used for the as() function).\n        A related problem sometimes broke attaching a package that had\n        methods for basic functions, such as names(), used in method\n        selection.\n\n    o   Empty expressions as in return(x,) could generate subsequent\n        segfaults: they are now errors.  (PR#2880)\n\n    o   The Kinderman-Ramage Normal Random Generator had several\n        problems leading to not-quite normally distributed variates\n        (PR#2846).  One problem was traced to an error in the original\n        1976 JASA paper!  Thanks to Josef Leydold and his team for\n        investigating this. The old generator has been retained for\n        reproducibility of older results, under the name\n        \"Buggy Kinderman-Ramage\".  A warning is issued if you select it\n        (also indirectly via RNGversion()).\n\n    o   promptMethods() now puts the \\alias lines for methods in the\n        normal place, near the top of the file, and quotes class\n         names in signatures.\n\n    o   getS3method() and methods() were not finding methods for\n        coefficients() and fitted.values() (which dispatch on \"coef\"\n        and \"fitted\" respectively).\n\n    o   scan() (and hence read.table) was not finding matches for\n        separator chars with the upper bit set.  (PR#3035)\n\n    o   lm.(w)fit failed if the fit had rank 0.\n\n    o   lqs() did not report explicitly that it had failed if all\n        samples gave singular fits.\n\n    o   predict.lm(*, se=TRUE) {w/ weights, w/o newdata} now gives correct\n        SE's.  (PR#3043)\n\n    o   cor.test(x, y, method=\"spearman\") now also works for\n        length(x) > 1290.\n\n    o   Matrices were printed mis-aligned if right=TRUE and na.print\n        was specified.  (PR#3058)\n\n    o   R CMD check gives now a clearer message when latex produces\n        errors on the package manual.  (PR#3070)\n\n    o   isSeekable() was incorrectly returning FALSE on all file connections.\n\n    o   tkpager() wasn't quite using its title and header arguments in\n        the way prescribed by file.show()\n\n    o   legend(*, pch=p, lty=l) now works better when `p' or `l' have\n        NAs.\n\n    o   All braces in regular expressions used by Sweave() are now\n        escaped by a backslash.\n\n    o   unloadNamespace() failed because getNamespaceImports() now coerces a\n        string argument to a name space.\n\n    o   deriv3 gave incorrect Hessians for some very simple\n        expressions such as expression(x*y) (since the comments in the\n        C code were incorrect).  (PR#2577)\n\n    o   power.t.test(..., delta=NULL,alternative='two.sided') failed. (PR#2993)\n\n    o   Lines on postscript() plots with thousands of segments might\n        have been plotted inaccurately in 1.7.0. (PR#3132)\n\n        Solid lines in postscript() output are split into groups of 1000\n        segments to help some PostScript interpreters (typically old\n        level-1 interpreters).\n\n    o   cut.POSIXt failed when the breaks were date/time objects. (PR#3181)\n\n    o   Usage of methods in dist.Rd is now correctly documented\n        (as.matrix.dist() is not an exported symbol).\n\n    o   The predict() method for ar fits was not retrieving the series\n        from the parent environment.\n\n    o   eigen() and La.eigen() were not returning a matrix of\n        eigenvectors for a 1x1 input.\n\n    o   hsv() and rgb() now return character(0) when one of their args has\n        length 0.  This also fixes terrain.color(1). (PR#3233)\n\n    o   [[<-.data.frame checked if a replacment was too short, but not\n        if it was too long.  (related to PR#3229)\n\n    o   qt(x, df) was quite inaccurate for df=1+epsilon; it is now much more\n        accurate for df in (1,2) and more precise for other df. (PR#2991)\n\n    o   qbeta() now has slightly improved C code in two places, as suggested\n        in the 2nd followup to PR#2894.\n\n\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-1.7.1.tgz a short while ago. This is a patch version\nmainly fixing up an assortment of issues (see below). Note also that\nit comes with an updated set of recommended packages, fixing ",
+      "thread_id": "thread-8916436dc8d6",
+      "thread_depth": 0,
+      "month": "2003-06"
+    },
+    {
+      "id": "msg-578431b93fa4",
+      "message_id": "<36jsevkatmrbr6lrrgv6opv8t1jl98tpqg@4ax.com>",
+      "from_name": "Duncan Murdoch",
+      "from_email_hash": "0b169dc9578e443c97ef875feba9794619f6e667997aabcb13de6d581cba9312",
+      "date": "2003-06-16T19:04:45-04:00",
+      "subject": "Windows binary for 1.7.1 uploaded to CRAN",
+      "subject_clean": "Windows binary for 1.7.1 uploaded to CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've built the Windows binary for 1.7.1, and sent it to CRAN.  It\nshould be visible within a few hours, and will soon propagate to the\nmirrors.\n\nDuncan Murdoch",
+      "body_snippet": "I've built the Windows binary for 1.7.1, and sent it to CRAN.  It\nshould be visible within a few hours, and will soon propagate to the\nmirrors.\n\nDuncan Murdoch",
+      "thread_id": "thread-578431b93fa4",
+      "thread_depth": 0,
+      "month": "2003-06"
+    },
+    {
+      "id": "msg-3d63ce68fcc1",
+      "message_id": "<3BA35499-A051-11D7-B5A3-003065CC4CB8@unimi.it>",
+      "from_name": "Stefano Iacus",
+      "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
+      "date": "2003-06-17T01:21:18+02:00",
+      "subject": "Carbon R 1.7.1 on CRAN",
+      "subject_clean": "Carbon R 1.7.1 on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just uploaded Carbon R 1.7.1 on CRAN.\nIt will be available to you with the usual timing of mirroring.\n\nContributed packages and the BioConductore bunble will follow shortly.\n\nstefano iacus\n\n\n-----------------------------------\n\nStefano M. Iacus\nDepartment of Economics\nUniversity of Milan\nVia Mercalli, 23\nI-20123 Milan - Italy\nPh.: +39 02 50321 461\nFax: +39 02 50321 505\n------------------------------------------------------------------------ \n------------\nPlease don't send me Word or PowerPoint attachments if not\nabsolutely necessary. See:\nhttp://www.gnu.org/philosophy/no-word-attachments.html",
+      "body_snippet": "I have just uploaded Carbon R 1.7.1 on CRAN.\nIt will be available to you with the usual timing of mirroring.\n\nContributed packages and the BioConductore bunble will follow shortly.\n\nstefano iacus\n\n\n--",
+      "thread_id": "thread-3d63ce68fcc1",
+      "thread_depth": 0,
+      "month": "2003-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-bc44e53cda37",
+      "subject": "R News Volume 3/1",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at ci.tuwien.ac.at"
+      ],
+      "started": "2003-06-05T14:32:52+02:00",
+      "last_reply": "2003-06-05T14:32:52+02:00",
+      "root_message_id": "msg-bc44e53cda37"
+    },
+    {
+      "id": "thread-8916436dc8d6",
+      "subject": "R 1.7.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2003-06-16T10:48:33+00:00",
+      "last_reply": "2003-06-16T10:48:33+00:00",
+      "root_message_id": "msg-8916436dc8d6"
+    },
+    {
+      "id": "thread-415515f98a07",
+      "subject": "new package: eha",
+      "message_count": 1,
+      "participants": [
+        "Göran Broström"
+      ],
+      "started": "2003-06-16T11:20:07+02:00",
+      "last_reply": "2003-06-16T11:20:07+02:00",
+      "root_message_id": "msg-415515f98a07"
+    },
+    {
+      "id": "thread-578431b93fa4",
+      "subject": "Windows binary for 1.7.1 uploaded to CRAN",
+      "message_count": 1,
+      "participants": [
+        "Duncan Murdoch"
+      ],
+      "started": "2003-06-16T19:04:45-04:00",
+      "last_reply": "2003-06-16T19:04:45-04:00",
+      "root_message_id": "msg-578431b93fa4"
+    },
+    {
+      "id": "thread-3d63ce68fcc1",
+      "subject": "Carbon R 1.7.1 on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Stefano Iacus"
+      ],
+      "started": "2003-06-17T01:21:18+02:00",
+      "last_reply": "2003-06-17T01:21:18+02:00",
+      "root_message_id": "msg-3d63ce68fcc1"
+    }
+  ]
+}

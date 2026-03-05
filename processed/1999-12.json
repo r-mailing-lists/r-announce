@@ -1,0 +1,171 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1999-12",
+  "messages": [
+    {
+      "id": "msg-eb6610b9d6b4",
+      "message_id": "<m11tcPR-000ZSxC@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "1999-12-02T14:00:57-06:00",
+      "subject": "rsync.r-project.org has been updated",
+      "subject_clean": "rsync.r-project.org has been updated",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "rsync.r-project.org now offers three flavors of the R sources.\n $ rsync rsync.r-project.org::\n r-release      \tR sources (feature-frozen version) CVS tree (approx 10 MB)\n r-release-patched\tpatched R sources (feature-frozen version) CVS tree (approx 10 MB)\n r-devel        \tR sources (development version) CVS tree (approx 10 MB)\n xlispstat      \txlispstat sources (development version) CVS tree (approx 12 MB)\n ess            \tess (Emacs Speaks Statistics) CVS tree (approx 8.5 MB)\n omega          \tOmega Project for Statistical Computing CVS tree\n\nThese three versions correspond to the tar.gz files available in\nCRAN as\n r-release         -> CRAN/src/base/R-0.90.0.tgz\n r-release-patched -> CRAN/src/devel/R-release.tar.gz\n r-devel           -> CRAN/src/devel/R-devel.tar.gz\nThe rsync trees are created directly from the master CVS archive and\nare updated hourly.\n\nI believe that the problems with g+s permissions on some of the files\nfrom rsync.r-project.org have been fixed.  Please send me e-mail if\nyou encounter such problems again.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "rsync.r-project.org now offers three flavors of the R sources.\n $ rsync rsync.r-project.org::\n r-release      \tR sources (feature-frozen version) CVS tree (approx 10 MB)\n r-release-patched\tpatched R s",
+      "thread_id": "thread-eb6610b9d6b4",
+      "thread_depth": 0,
+      "month": "1999-12"
+    },
+    {
+      "id": "msg-544b96547764",
+      "message_id": "<3849DBCB.C1C4966A@nceas.ucsb.edu>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
+      "date": "1999-12-04T19:28:11-08:00",
+      "subject": "PostgreSQL package",
+      "subject_clean": "PostgreSQL package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 0.2 is now available at\n\n    http://www.nceas.ucsb.edu/~keitt/R/\n\nThis version includes a user extensible type conversion system.  By\ndefining three functions, you can now store and retrieve arbitrary data\ntypes in PostgreSQL tables.  Enjoy.\n\nTim\n\n--\nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n735 State Street, Suite 300, Santa Barbara, CA 93101\nPhone: 805-892-2519, FAX: 805-892-2510\nhttp://www.nceas.ucsb.edu/~keitt/\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Version 0.2 is now available at\n\n    http://www.nceas.ucsb.edu/~keitt/R/\n\nThis version includes a user extensible type conversion system.  By\ndefining three functions, you can now store and retrieve a",
+      "thread_id": "thread-544b96547764",
+      "thread_depth": 0,
+      "month": "1999-12"
+    },
+    {
+      "id": "msg-09494ac61bd9",
+      "message_id": "<38551D3C.855B9935@wu-wien.ac.at>",
+      "from_name": "Adrian Trapletti",
+      "from_email_hash": "94097c27a99323f538fdba5c7db04b652799b5fec72edc3301703c27d28303fb",
+      "date": "1999-12-13T16:22:20Z",
+      "subject": "tseries 0.4",
+      "subject_clean": "tseries 0.4",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Fritz just put tseries_0.4-0 on CRAN. New is mainly the non-parametric\nbootstrap for time series which should be quite efficient since\nresampling is completely done within C.\n\nComments and suggestions are welcome!\n\nAdrian\n\n\n--\nAdrian Trapletti, Vienna University of Economics and Business\nAdministration, Augasse 2-6, A-1090 Vienna, Austria\nPhone: ++43 1 31336 4561, Fax: ++43 1 31336 708,\nEmail: adrian.trapletti at wu-wien.ac.at\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Fritz just put tseries_0.4-0 on CRAN. New is mainly the non-parametric\nbootstrap for time series which should be quite efficient since\nresampling is completely done within C.\n\nComments and suggestions",
+      "thread_id": "thread-09494ac61bd9",
+      "thread_depth": 0,
+      "month": "1999-12"
+    },
+    {
+      "id": "msg-0fd00b4a9373",
+      "message_id": "<x2wvqgbatv.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1999-12-15T14:19:40+01:00",
+      "subject": "R-0.90.1 is released ",
+      "subject_clean": "R-0.90.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-0.90.1.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-0.90.1.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-0.90.1.tgz\n\nor wait for it to be mirrored at a CRAN site near you within a day or two.\n\nThere's also a version split in two for floppies and a patch file if\nyou prefer that.\n\n\tFor the R Core Team,\n\n\tPeter D.\n\nHere's the relevant bit of the NEWS file:\n\n\n                CHANGES IN R VERSION 0.90.1\n\n\nNEW FEATURES\n\n    o   rect(.) has `lwd' argument.\n\n    o   legend() has a `adj' argument and has been streamlined (and fixed up).\n\n    o   `unname' convenience function [experimental data.frame behavior].\n\n    o   `examples' sections have been added to the documentation\n        for most of the data sets in the base library.\n\n    o   update.packages & friends have new argument contriburl for\n        incomplete CRAN mirrors. Package bundles such as VR can be\n        directly installed both from the shell and from inside R.\n\n    o   RLIBS is no longer accepted as well as R_LIBS (which has been\n        the documented form since 0.65.0).\n\n    o   demo(nlm) has examples of using analytical gradients and\n        Hessians.\n\n    o   .Platform$OS.type is standardized to be `unix', `mac' or `windows'\n\n    o   setting cex in matplot(matrix(1:25,5), cex=1:5) now works\n\n    o   ar.ols() has separate demean and intercept arguments, uses\n        internal scaling for greater accuracy.\n\n    o   xxxPR functions allow NCHAR=-1 for S compatibility.\n\n    o   `Rcomplex' is preferred to `complex' (a future reserved word\n        in C) for R complex objects passed to C.\n\n    o   new function dir.create() for platform-independence.\n\n    o   help.search() creates a database for faster searching later in\n        the R session.\n\n    o   density() allows for more kernels and has a new argument\n        `give.Rkern' to access the relevant kernel property.\n\n    o   multivariate methods for ar: \"yule-walker\" (now in C) and\n        \"burg\" (new) contributed by Martyn Plummer.\n\n    o   New data sets `HairEyeColor' (hair and eye color of statistics\n        students), `Titanic' (survival of passengers on the Titanic),\n        and `UCBAdmissions' (student admissions at UC Berkeley).\n\n\nBUG FIXES\n\n    o   Many help pages have been revised and enhanced.\n\n    o   predict.glm() works again with type=\"link\".\n\n    o   subscripting arrays and matrices no longer loses the names of\n        the dimnames vector.  Transpose also preserves the names.\n\n    o   examples in help files containing \\testonly are no longer\n        (partially) duplicated.\n\n    o   is.numeric() of a factor is now FALSE\n\n    o   prevent a segfault in plotmath\n\n    o   f <- get(\"function\"); f(,); f(F,F)  now \"ok\" (PR#361).\n\n    o   blank-line reject code in parse.dcf was wrong (Martyn Plummer)\n\n    o   made filled.contour independent of pointsize. Make plot key\n        wider so there's room for a title. Touchup example.\n\n    o   font size fixups for the X11 driver (mainly)\n\n    o   some.list[[NA]] is NULL, following S, rather than giving spurious\n        error messages\n\n    o   segfault when running out of heap\n\n    o   segfault in rbind of a vector without names fixed. cbind, too.\n\n    o   fixed symbol size problems with PostScript driver\n\n    o   unique() & duplicated() only work for atomic vectors;\n        unique(data.frame(\"\"[F])) doesn't segfault anymore.\n\n    o   get(\"attr<-\")(\"\"[0],\"\"[0]) doesn't segfault anymore.\n\n    o   blunder in do_memoryprofile, causing segfault on Alpha machines\n\n    o   erroneous error message in coerceToSymbol\n\n    o   partial workaround for workspace restore problems. This can\n        happen if an environment on the search path is assigned to a\n        variable which gets saved. The error \"unresolved node during\n        restore\" is turned into a warning, allowing the rest of the\n        workspace to be restored, but the variable contains an empty\n        environment on reload.\n\n    o   density(x) now works also when IQR(x) == 0.\n        density(x, window=...) now works [S compatibility].\n\n    o   prevent points from being plotted if pch, cex, or col are NA.\n        Does not apply to bg on pch 21--25 (where NA means\n        \"transparent\") because it would require fixes at the driver\n        level.\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-0.90.1.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-0.90.1.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-0.90.1.tgz\n\nor wait for it to",
+      "thread_id": "thread-0fd00b4a9373",
+      "thread_depth": 0,
+      "month": "1999-12"
+    },
+    {
+      "id": "msg-dc4da2e28b5f",
+      "message_id": "<19991217104711.64662@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "1999-12-17T10:47:11+01:00",
+      "subject": "R 0.90.1 for Windows",
+      "subject_clean": "R 0.90.1 for Windows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A binary distribution  of R 0.90.1 is available at\n\n      http://www.r-project.org/bin/windows/windows-NT/base/\n\nInstallation instruction are given in the README file at the same\nlocation.\n\nguido masarotto\n\n\n\nWindows changes since 0.90.0\n----------------------------\nIt is possible to install packages from any directory (set PKGDIR on\nthe make command) and to any directory (set RLIB on the make command).\n\nRLIBS is no longer accepted for the library directory: use R_LIBS\n(which has been preferred since 0.65.0).\n\nThe code to set the `cra' parameter for a windows() device (and hence\nthe base character size of symbols) is more robust.\n\nThe code handling Ctrl-like keys has been changed and ought to be more\nrobust (AltGr on Danish Windows NT used to misbehave.)\n\nsavePlot recognises filename=\"clipboard\" (or \"\") for wmf plots.\n\nThe installer has always been version-specific and now tests it is\nbeing used for the right version.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A binary distribution  of R 0.90.1 is available at\n\n      http://www.r-project.org/bin/windows/windows-NT/base/\n\nInstallation instruction are given in the README file at the same\nlocation.\n\nguido masa",
+      "thread_id": "thread-dc4da2e28b5f",
+      "thread_depth": 0,
+      "month": "1999-12"
+    },
+    {
+      "id": "msg-55ef6a0d0c13",
+      "message_id": "<385FEE0D.524A7EA7@bank-banque-canada.ca>",
+      "from_name": "Paul Gilbert",
+      "from_email_hash": "51f348dc0febec9b32e9d9dcb86f6de731958e1295e818209b4c127bffef5569",
+      "date": "1999-12-21T16:15:57-05:00",
+      "subject": "DSE revised for R 0.90.1",
+      "subject_clean": "DSE revised for R 0.90.1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A slightly revised version of my DSE package for multi-variate time series\nanalysis is  now available at <www.bank-banque-canada.ca/pgilbert>.  This\nversion works with R 0.90.1 (and not with R 90.0 or earlier versions). It can\nalso be installed with\n\ninstall.packages(c(\"syskern\", \"tframe\", \"dse\"),\n contriburl=\"http://www.bank-banque-canada.ca/pgilbert/dse/R\")\n\nA draft version of the new users guide is also available at the web site.\nComments would be appreciated. I will put a version of the libraries on CRAN in\nthe new year.\n\nPaul Gilbert\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A slightly revised version of my DSE package for multi-variate time series\nanalysis is  now available at <www.bank-banque-canada.ca/pgilbert>.  This\nversion works with R 0.90.1 (and not with R 90.0 or",
+      "thread_id": "thread-55ef6a0d0c13",
+      "thread_depth": 0,
+      "month": "1999-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-eb6610b9d6b4",
+      "subject": "rsync.r-project.org has been updated",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "1999-12-02T14:00:57-06:00",
+      "last_reply": "1999-12-02T14:00:57-06:00",
+      "root_message_id": "msg-eb6610b9d6b4"
+    },
+    {
+      "id": "thread-544b96547764",
+      "subject": "PostgreSQL package",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "1999-12-04T19:28:11-08:00",
+      "last_reply": "1999-12-04T19:28:11-08:00",
+      "root_message_id": "msg-544b96547764"
+    },
+    {
+      "id": "thread-09494ac61bd9",
+      "subject": "tseries 0.4",
+      "message_count": 1,
+      "participants": [
+        "Adrian Trapletti"
+      ],
+      "started": "1999-12-13T16:22:20+00:00",
+      "last_reply": "1999-12-13T16:22:20+00:00",
+      "root_message_id": "msg-09494ac61bd9"
+    },
+    {
+      "id": "thread-0fd00b4a9373",
+      "subject": "R-0.90.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1999-12-15T14:19:40+01:00",
+      "last_reply": "1999-12-15T14:19:40+01:00",
+      "root_message_id": "msg-0fd00b4a9373"
+    },
+    {
+      "id": "thread-dc4da2e28b5f",
+      "subject": "R 0.90.1 for Windows",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1999-12-17T10:47:11+01:00",
+      "last_reply": "1999-12-17T10:47:11+01:00",
+      "root_message_id": "msg-dc4da2e28b5f"
+    },
+    {
+      "id": "thread-55ef6a0d0c13",
+      "subject": "DSE revised for R 0.90.1",
+      "message_count": 1,
+      "participants": [
+        "Paul Gilbert"
+      ],
+      "started": "1999-12-21T16:15:57-05:00",
+      "last_reply": "1999-12-21T16:15:57-05:00",
+      "root_message_id": "msg-55ef6a0d0c13"
+    }
+  ]
+}

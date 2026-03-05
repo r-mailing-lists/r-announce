@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2006-11",
+  "messages": [
+    {
+      "id": "msg-8420f533b6c9",
+      "message_id": "<45479B59.60103@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2006-11-01T07:52:09+13:00",
+      "subject": "R News, volume 6, issue 4 is now available",
+      "subject_clean": "R News, volume 6, issue 4 is now available",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nThe October 2006 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nPaul\n(on behalf of the R News Editorial Board)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe University of Auckland\nPrivate Bag 92019\nAuckland\nNew Zealand\n64 9 3737599 x85392\npaul at stat.auckland.ac.nz\nhttp://www.stat.auckland.ac.nz/~paul/",
+      "body_snippet": "Hi\n\nThe October 2006 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nPaul\n(on behalf of the R News Editorial Board)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe ",
+      "thread_id": "thread-8420f533b6c9",
+      "thread_depth": 0,
+      "month": "2006-11"
+    },
+    {
+      "id": "msg-32e5b5a13873",
+      "message_id": "<4564F83C.7060500@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2006-11-23T14:24:12+13:00",
+      "subject": "DSC 2007 registration and scientific program",
+      "subject_clean": "DSC 2007 registration and scientific program",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nDSC 2007, a conference on systems and environments for statistical\ncomputing, will take place in Auckland, New Zealand on February 15 & 16,\n2007.\n\nThis is a reminder that the deadline for early bird DSC registration is\nDecember 1, 2006.\n\nAlso, the accepted abstracts for DSC are now available on the web site\nhttp://www.stat.auckland.ac.nz/dsc-2007/abstracts/abstracts.html\n\nFinally, a reminder that there is a small amount of financial assistance\nbeing offered to help people attend DSC.  For details, please see\nhttp://www.stat.auckland.ac.nz/dsc-2007/#funding\n\nPlease visit the conference web page at\nhttp://www.stat.auckland.ac.nz/dsc-2007/\n\nPaul\n(on behalf of the Organising Committee)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe University of Auckland\nPrivate Bag 92019\nAuckland\nNew Zealand\n64 9 3737599 x85392\npaul at stat.auckland.ac.nz\nhttp://www.stat.auckland.ac.nz/~paul/",
+      "body_snippet": "Hi\n\nDSC 2007, a conference on systems and environments for statistical\ncomputing, will take place in Auckland, New Zealand on February 15 & 16,\n2007.\n\nThis is a reminder that the deadline for early bi",
+      "thread_id": "thread-32e5b5a13873",
+      "thread_depth": 0,
+      "month": "2006-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8420f533b6c9",
+      "subject": "R News, volume 6, issue 4 is now available",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2006-11-01T07:52:09+13:00",
+      "last_reply": "2006-11-01T07:52:09+13:00",
+      "root_message_id": "msg-8420f533b6c9"
+    },
+    {
+      "id": "thread-32e5b5a13873",
+      "subject": "DSC 2007 registration and scientific program",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2006-11-23T14:24:12+13:00",
+      "last_reply": "2006-11-23T14:24:12+13:00",
+      "root_message_id": "msg-32e5b5a13873"
+    }
+  ]
+}

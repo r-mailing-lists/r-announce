@@ -1,0 +1,279 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2002-09",
+  "messages": [
+    {
+      "id": "msg-5c354ee13b19",
+      "message_id": "<3.0.32.20020905103036.00906db0@162.38.183.200>",
+      "from_name": "Emmanuel Paradis",
+      "from_email_hash": "279a25fc4a41e9310e9fb424624945d36d0266c02d86a58d5e8e9c1d7d268282",
+      "date": "2002-09-05T10:30:36+02:00",
+      "subject": "ape 0.1 is released",
+      "subject_clean": "ape 0.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Ape is an R package for \"analyses of phylogenetics and evolution\". The\nfirst version (0.1) has been released on 27 August 2002 and is available on\nCRAN. \n\n>From the 'Description' file of version 0.1:\n\n       Ape provides functions for reading, and plotting\n       phylogenetic trees in parenthetic format (standard Newick\n       format), analyses of comparative data in a phylogenetic\n       framework, analyses of diversification and macroevolution,\n       computing distances from allelic and nucleotide data,\n       reading nucleotide sequences from GenBank via internet, and\n       several tools such as Mantel's test, computation of minimum\n       spanning tree, or the population parameter theta based on\n       various approaches.\n\nBug reports, comments and suggestions on Ape are welcome.\n\n\n\nEmmanuel Paradis\nLaboratoire de Pal?ontologie\nInstitut des Sciences de l'?volution\nUniversit? Montpellier II\nF-34095 Montpellier c?dex 05\nFrance\n   phone: +33  4 67 14 39 64\n     fax: +33  4 67 14 36 10\n  mailto:paradis at isem.univ-montp2.fr\nhttp://www.isem.univ-montp2.fr/ISEMFre/Equipes/PPP/PPerso/Paradis.php\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Ape is an R package for \"analyses of phylogenetics and evolution\". The\nfirst version (0.1) has been released on 27 August 2002 and is available on\nCRAN. \n\n>From the 'Description' file of version 0.1:\n",
+      "thread_id": "thread-5c354ee13b19",
+      "thread_depth": 0,
+      "month": "2002-09"
+    },
+    {
+      "id": "msg-dffeaadc97a0",
+      "message_id": "<Pine.LNX.4.33L2.0209171155390.12526-100000@linaria.dst.unive.it>",
+      "from_name": "Claudio Agostinelli",
+      "from_email_hash": "8bab9e7af796ed09645aa0a01dae91664e073647b6ea5da7e5cc7276c6fde982",
+      "date": "2002-09-17T12:03:55+02:00",
+      "subject": "ga: genetic algorithms package ",
+      "subject_clean": "ga: genetic algorithms package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\nat the following address\n\nhttp://linaria.dst.unive.it/~claudio/R/Rmaterial.html#ga\n\nyou can download a package to build simple genetic algorithms. I wrote\nthis package to introduce genetic algorithms to student in labs, which\nmeans, the package emphasize \"how a ga works\" instead of \"how\nfast it could be\".\n\nPlease, let me know any comments or suggestions,\n\nBests,\nClaudio Agostinelli\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear all,\nat the following address\n\nhttp://linaria.dst.unive.it/~claudio/R/Rmaterial.html#ga\n\nyou can download a package to build simple genetic algorithms. I wrote\nthis package to introduce genetic a",
+      "thread_id": "thread-dffeaadc97a0",
+      "thread_depth": 0,
+      "month": "2002-09"
+    },
+    {
+      "id": "msg-46bf2e14d55d",
+      "message_id": "<20020921202920.356c965f.fharrell@virginia.edu>",
+      "from_name": "Frank E Harrell Jr",
+      "from_email_hash": "bd19bd9f169b5f3d1a992f9f1800c6f882823514a102dfe1216f921e43131154",
+      "date": "2002-09-21T20:29:20-04:00",
+      "subject": "Updates to Hmisc and Design Libraries",
+      "subject_clean": "Updates to Hmisc and Design Libraries",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The Hmisc and Design libraries have had major improvements.  New versions for Linux/Unix/Windows may be obtained from http://hesweb1.med.virginia.edu/biostat/s/library/r\n\nThanks to Xiao Gang Fan for porting the libraries to Windows once again.\n\nChange logs may be obtained from http://hesweb1.med.virginia.edu/biostat/s/library/common\n\nSeveral bugs have been fixed in Design, and many bugs have been fixed in Hmisc and new features and functions have been added.  Advanced table making functions related to summary.formula have been enhanced to automatically add results of statistical tests comparing columns in tables.  Some new latex options have been added.  The contents function has been enhanced and an html method written for it.  For example, html(contents(mydataframe)) will produce an html document whose initial part is a table containing variable names, labels, units, storage mode, number of levels, and number of NAs.  The number of levels is hyperlinked to a separate table containin the factor levels.\n\nR help files for Hmisc have been significantly improved.  But there are many aspects of Hmisc and Design help files that still do not pass R CMD CHECK, hence the non-appearance of Hmisc and Design on CRAN.  It will take some time to make all the help files meet CRAN package specifications.\n\nThanks to those who have reported bugs and fixes.\n\n-- \nFrank E Harrell Jr              Prof. of Biostatistics & Statistics\nDiv. of Biostatistics & Epidem. Dept. of Health Evaluation Sciences\nU. Virginia School of Medicine  http://hesweb1.med.virginia.edu/biostat\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The Hmisc and Design libraries have had major improvements.  New versions for Linux/Unix/Windows may be obtained from http://hesweb1.med.virginia.edu/biostat/s/library/r\n\nThanks to Xiao Gang Fan for p",
+      "thread_id": "thread-46bf2e14d55d",
+      "thread_depth": 0,
+      "month": "2002-09"
+    },
+    {
+      "id": "msg-1e7682ade9e7",
+      "message_id": "<D7A3CFD7825BD6119B880002A58F06C20149CFA7@groexmb02.pfizer.com>",
+      "from_name": "Warnes, Gregory R",
+      "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
+      "date": "2002-09-23T14:35:28-04:00",
+      "subject": "New version of gregmisc package",
+      "subject_clean": "New version of gregmisc package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 0.6.0 of the gregmisc package has just been released on CRAN.   \n\n\nDescription:\n===========\n\nPackage: gregmisc\nDescription: Misc Functions written/maintained by Gregory R. Warnes\nTitle: Greg's Miscellaneous Functions\nVersion: 0.6.0\nDate: 2002/09/23\nMaintainer: Gregory R. Warnes <Gregory_R_Warnes at groton.pfizer.com>\nAuthor: Gregory R. Warnes.  Includes code provided by Ben Bolker,\n        Bendix Carstensen, Don MacQueen, William Venables, and Marc\n        Schwartz\nLicense: GPL (version 2 or later)\n\nIndex:\n\nCrossTable              Cross Tabulation with Tests for Factor \n                        Independence\naggregate.table         Create 2-Way Table of Summary Statistics\nbandplot                Plot x-y Points with Locally Smoothed Mean and\n                        Standard Deviation\nbarplot2                Enhanced Bar Plots\nboxplot.n               Produce a Boxplot Annotated with the Number of\n                        Observations\nci                      Compute Confidence Intervals\ncombinations            Enumerate the Combinations or Permutations of\n                        the Elements of a Vector\ncombine                 Combine R Objects With a Column Labeling the\n                        Source\ncontrast.lm             Compute (and test) arbitrary contrasts for\n                        regression objects\nestimable               Compute and test estimable linear functions of\n                        the fitted coefficients (including contrasts)\n                        of regression objects\nfactorial               Compute factorial function\nglh.test                Test a General Linear Hypothesis for a\n                        Regression Model \nhist2d                  Compute and Plot a 2-Dimensional Histogram \ninterleave              Interleave Rows of Data Frames or Matrices \nlowess                  Scatter Plot Smoothing\nnobs                    Compute the Number of Non-missing Observations \nplotCI                  Plot Error Bars\nplotmeans               Plot Group Means and Confidence Intervals\nquantcut                Create a Factor Variable Using the Quantiles of\n                        a Continuous Variable\nrename.vars             Rename variables in a dataframe \nreorder                 Reorder the Levels of a Factor\nrunning                 Apply a Function Over Adjacent Subsets of a\n                        Vector\nspace                   Space points in an x-y plot so they don't\n                        overlap.\nundocumented            Undocumented functions\nwapply                  Compute the Value of a Function Over a Local\n                        Region Of An X-Y Plot\n\nChangelog Since 0.5.5\n=====================\n\n- Added barplot2():  \n\n    barplot2 is an enhanced version of barplot that can add confidence\n    intervals for each bar, color plot region separately from the \n    background area, draw \"height\" axis grid lines *behind* the bars,\n    and log-scale the data axis.  Contributed by Mark Schwartz\n\n- Added CrossTable(): \n\n\tCrossTable is an implementation of a cross-tabulation function\n \twith output similar to S-Plus crosstabs() and SAS Proc Freq with\n\tChi-square and Fisher tests of the independence of table factors\n\n- Permit combinations() to be used when r>n provided   \n  repeat.allowed=TRUE\n\n- Renamed 'concat' function to 'combine' to avoid name conflict with\n  an existing S-Plus function.\n\n- Misc fixes to files for compatibility with R 1.6.0\n\n- Correction of some documentation typos\n\n\n\n\nLEGAL NOTICE\nUnless expressly stated otherwise, this message is confidential and may be privileged. It is intended for the addressee(s) only. Access to this E-mail by anyone else is unauthorized. If you are not an addressee, any disclosure or copying of the contents of this E-mail or any action taken (or not taken) in reliance on it is unauthorized and may be unlawful. If you are not an addressee, please inform the sender immediately.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Version 0.6.0 of the gregmisc package has just been released on CRAN.   \n\n\nDescription:\n===========\n\nPackage: gregmisc\nDescription: Misc Functions written/maintained by Gregory R. Warnes\nTitle: Greg's",
+      "thread_id": "thread-1e7682ade9e7",
+      "thread_depth": 0,
+      "month": "2002-09"
+    },
+    {
+      "id": "msg-91523775dea0",
+      "message_id": "<D7A3CFD7825BD6119B880002A58F06C20149CFAA@groexmb02.pfizer.com>",
+      "from_name": "Warnes, Gregory R",
+      "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
+      "date": "2002-09-23T16:00:33-04:00",
+      "subject": "New version of gregmisc package",
+      "subject_clean": "New version of gregmisc package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I forgot to note that Marc Schwartz contributed barplot2() and CrossTable().\n\n-Greg\n\n> -----Original Message-----\n> From: Warnes, Gregory R \n> Sent: Monday, September 23, 2002 2:35 PM\n> To: 'r-announce at lists.R-project.org'\n> Subject: New version of gregmisc package\n> \n> \n> \n> \n> Version 0.6.0 of the gregmisc package has just been released \n> on CRAN.   \n> \n> \n> Description:\n> ===========\n> \n> Package: gregmisc\n> Description: Misc Functions written/maintained by Gregory R. Warnes\n> Title: Greg's Miscellaneous Functions\n> Version: 0.6.0\n> Date: 2002/09/23\n> Maintainer: Gregory R. Warnes <Gregory_R_Warnes at groton.pfizer.com>\n> Author: Gregory R. Warnes.  Includes code provided by Ben Bolker,\n>         Bendix Carstensen, Don MacQueen, William Venables, and Marc\n>         Schwartz\n> License: GPL (version 2 or later)\n> \n> Index:\n> \n> CrossTable              Cross Tabulation with Tests for Factor \n>                         Independence\n> aggregate.table         Create 2-Way Table of Summary Statistics\n> bandplot                Plot x-y Points with Locally Smoothed Mean and\n>                         Standard Deviation\n> barplot2                Enhanced Bar Plots\n> boxplot.n               Produce a Boxplot Annotated with the Number of\n>                         Observations\n> ci                      Compute Confidence Intervals\n> combinations            Enumerate the Combinations or Permutations of\n>                         the Elements of a Vector\n> combine                 Combine R Objects With a Column Labeling the\n>                         Source\n> contrast.lm             Compute (and test) arbitrary contrasts for\n>                         regression objects\n> estimable               Compute and test estimable linear functions of\n>                         the fitted coefficients (including contrasts)\n>                         of regression objects\n> factorial               Compute factorial function\n> glh.test                Test a General Linear Hypothesis for a\n>                         Regression Model \n> hist2d                  Compute and Plot a 2-Dimensional Histogram \n> interleave              Interleave Rows of Data Frames or Matrices \n> lowess                  Scatter Plot Smoothing\n> nobs                    Compute the Number of Non-missing \n> Observations \n> plotCI                  Plot Error Bars\n> plotmeans               Plot Group Means and Confidence Intervals\n> quantcut                Create a Factor Variable Using the \n> Quantiles of\n>                         a Continuous Variable\n> rename.vars             Rename variables in a dataframe \n> reorder                 Reorder the Levels of a Factor\n> running                 Apply a Function Over Adjacent Subsets of a\n>                         Vector\n> space                   Space points in an x-y plot so they don't\n>                         overlap.\n> undocumented            Undocumented functions\n> wapply                  Compute the Value of a Function Over a Local\n>                         Region Of An X-Y Plot\n> \n> Changelog Since 0.5.5\n> =====================\n> \n> - Added barplot2():  \n> \n>     barplot2 is an enhanced version of barplot that can add confidence\n>     intervals for each bar, color plot region separately from the \n>     background area, draw \"height\" axis grid lines *behind* the bars,\n>     and log-scale the data axis.  Contributed by Mark Schwartz\n> \n> - Added CrossTable(): \n> \n> \tCrossTable is an implementation of a cross-tabulation function\n>  \twith output similar to S-Plus crosstabs() and SAS Proc Freq with\n> \tChi-square and Fisher tests of the independence of table factors\n> \n> - Permit combinations() to be used when r>n provided   \n>   repeat.allowed=TRUE\n> \n> - Renamed 'concat' function to 'combine' to avoid name conflict with\n>   an existing S-Plus function.\n> \n> - Misc fixes to files for compatibility with R 1.6.0\n> \n> - Correction of some documentation typos\n> \n> \n> \n> \n> LEGAL NOTICE\n> Unless expressly stated otherwise, this message is \n> confidential and may be privileged. It is intended for the \n> addressee(s) only. Access to this E-mail by anyone else is \n> unauthorized. If you are not an addressee, any disclosure or \n> copying of the contents of this E-mail or any action taken \n> (or not taken) in reliance on it is unauthorized and may be \n> unlawful. If you are not an addressee, please inform the \n> sender immediately.\n> -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.\n> -.-.-.-.-.-.-.-.-\n> r-announce mailing list -- Read \n> http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\n> Send \"info\", \"help\", or \"[un]subscribe\"\n> (in the \"body\", not the subject !)  To: \n> r-announce-request at stat.math.ethz.ch\n> _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.\n> _._._._._._._._._\n> \n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I forgot to note that Marc Schwartz contributed barplot2() and CrossTable().\n\n-Greg\n\n> -----Original Message-----\n> From: Warnes, Gregory R \n> Sent: Monday, September 23, 2002 2:35 PM\n> To: 'r-announc",
+      "thread_id": "thread-91523775dea0",
+      "thread_depth": 0,
+      "month": "2002-09"
+    },
+    {
+      "id": "msg-f0fd4af4f5db",
+      "message_id": "<D7A3CFD7825BD6119B880002A58F06C20149CFC6@groexmb02.pfizer.com>",
+      "from_name": "Warnes, Gregory R",
+      "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
+      "date": "2002-09-25T16:47:46-04:00",
+      "subject": "New version of gregmisc package",
+      "subject_clean": "New version of gregmisc package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Shortly after the release of version 0.6.0 of the gregmisc package, several\nbugs were located by users.  A new release, 0.7.0, is now available on CRAN.\n\n\nThis version corrects these bugs, and adds regression test code.  This\nregression test code should to help to prevent introduction of bugs of this\nsort in the future\n\nThanks to Matthew McDonald and Sven Garbade for the bug reports prompted\nthis re-release.\n\n-Greg\n\n\n\nLEGAL NOTICE\nUnless expressly stated otherwise, this message is confidential and may be privileged. It is intended for the addressee(s) only. Access to this E-mail by anyone else is unauthorized. If you are not an addressee, any disclosure or copying of the contents of this E-mail or any action taken (or not taken) in reliance on it is unauthorized and may be unlawful. If you are not an addressee, please inform the sender immediately.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Shortly after the release of version 0.6.0 of the gregmisc package, several\nbugs were located by users.  A new release, 0.7.0, is now available on CRAN.\n\n\nThis version corrects these bugs, and adds re",
+      "thread_id": "thread-f0fd4af4f5db",
+      "thread_depth": 0,
+      "month": "2002-09"
+    },
+    {
+      "id": "msg-0a97638a3c73",
+      "message_id": "<51F9C42DA15CD311BD220008C707D81906FFC703@usrymx10.merck.com>",
+      "from_name": "Liaw, Andy",
+      "from_email_hash": "898c214b2bc6c21da39a883e12ded19760ce149cfa1067d738a1a4f3200f2bc0",
+      "date": "2002-09-26T20:07:46-04:00",
+      "subject": "new patched version of randomForest",
+      "subject_clean": "new patched version of randomForest",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "There's now a new version of randomForest (3.3-4) on CRAN.  Changes from the\nlast version include:\n\no  \"Unsupervised learning\" now works again.\n\no  Fixed a bug in the original Fortran: the mtry variables chosen \n   to split each node are now sampled without replacement.\n\no  Variable importance for regression now works correctly (i.e.,\n   reproducible when random seed is set).  The problem was simply\n   un-initialized array.  The problem is also in the original\n   Fortran code, so users of that beware!\n\no  A new option keep.forest (default TRUE), which, when set to FALSE,\n   supresses the `forest' component of the returned object.  This\n   can reduce memory usage and execution time significantly, if\n   prediction of test set is not needed.\n\no  The default value of mtry is now set to sqrt(p) for classification\n   and p/3 for regression (where p is the number of predictors), \n   consistent with Prof. Breiman's suggestion.\n\nQuestions/comments/bug-reports/patches welcomed!\n\nRegards,\nAndy\nAndy I. Liaw, PhD\nBiometrics Research          Phone: (732) 594-0820\nMerck & Co., Inc.              Fax: (732) 594-1565\nP.O. Box 2000, RY84-16            Rahway, NJ 07065\nmailto:andy_liaw at merck.com\n\n\n\n\n------------------------------------------------------------------------------\nNotice:  This e-mail message, together with any attachments, contains information of Merck & Co., Inc. (Whitehouse Station, New Jersey, USA) that may be confidential, proprietary copyrighted and/or legally privileged, and is intended solely for the use of the individual or entity named in this message.  If you are not the intended recipient, and have received this message in error, please immediately return this by e-mail and then delete it.\n\n==============================================================================\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "There's now a new version of randomForest (3.3-4) on CRAN.  Changes from the\nlast version include:\n\no  \"Unsupervised learning\" now works again.\n\no  Fixed a bug in the original Fortran: the mtry variab",
+      "thread_id": "thread-0a97638a3c73",
+      "thread_depth": 0,
+      "month": "2002-09"
+    },
+    {
+      "id": "msg-012d33e1479c",
+      "message_id": "<Pine.LNX.4.33.0209301635220.3488-100000@imbe78.imbe.med.uni-erlangen.de>",
+      "from_name": "Andrea Peters",
+      "from_email_hash": "b7e1caff2d9fb45c10c69bda554b0216cb7fc75e13fbf62dc880c5a7a1bf6357",
+      "date": "2002-09-30T16:38:56+02:00",
+      "subject": "New version of ipred package",
+      "subject_clean": "New version of ipred package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de> and\n  Torsten Hothorn <Torsten.Hothorn at rzmail.uni-erlangen.de>\nMaintainer: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de>\nDescription: Improved predictive models by indirect classification and\n  bagging for classification, regression and survival problems\n  as well as resampling based estimators of prediction error.\nDepends: rpart (>= 3.1-8), MASS, mlbench, survival, nnet, class\nLicense: GPL\n\n\nMajor changes since 0.4-6:\n\n        o  parts of the code have been completely rewritten.\n\n        o  added bagging for censored data.\n\n        o  the Brier score for censored data (Graf et al., 1999) is\n           available in function `sbrier' and can be used\n           to measure the prediction error in survival problems.\n\n        o  bagging is roughly 50% faster now.\n\n        o  stabilised linear disciminant analysis (`slda') implemented.\n\n        o  some datasets were added, especially those used as\n           examples in R News (2002, 2(2), 33-36).\n\n        o  cross-validated predictions can be computed: useful for\n           estimating sensitivity and specifity, for example.\n\n        o  the package now has a small vignette with some examples.\n\nThe authors would like to thank Guenther Sawitzki and Antony Unwin for\nhelpful comments and suggestions.\n\nRegards,\nAndrea\n\n-------------------------------------------------------------------------\n\n        Dipl.-Stat. Andrea Peters\n        Institut fr Medizininformatik, Biometrie und Epidemiologie\n        Waldstrasse 6, D-91054 Erlangen, Deutschland\n        Tel: ++49-9131-85-22722\n        Fax: ++49-9131-85-25740\n\n-------------------------------------------------------------------------\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Pe",
+      "thread_id": "thread-012d33e1479c",
+      "thread_depth": 0,
+      "month": "2002-09"
+    },
+    {
+      "id": "msg-012d33e1479c",
+      "message_id": "<Pine.LNX.4.33.0209301635220.3488-100000@imbe78.imbe.med.uni-erlangen.de>",
+      "from_name": "Andrea Peters",
+      "from_email_hash": "b7e1caff2d9fb45c10c69bda554b0216cb7fc75e13fbf62dc880c5a7a1bf6357",
+      "date": "2002-09-30T16:38:56+02:00",
+      "subject": "New version of ipred package",
+      "subject_clean": "New version of ipred package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de> and\n  Torsten Hothorn <Torsten.Hothorn at rzmail.uni-erlangen.de>\nMaintainer: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de>\nDescription: Improved predictive models by indirect classification and\n  bagging for classification, regression and survival problems\n  as well as resampling based estimators of prediction error.\nDepends: rpart (>= 3.1-8), MASS, mlbench, survival, nnet, class\nLicense: GPL\n\n\nMajor changes since 0.4-6:\n\n        o  parts of the code have been completely rewritten.\n\n        o  added bagging for censored data.\n\n        o  the Brier score for censored data (Graf et al., 1999) is\n           available in function `sbrier' and can be used\n           to measure the prediction error in survival problems.\n\n        o  bagging is roughly 50% faster now.\n\n        o  stabilised linear disciminant analysis (`slda') implemented.\n\n        o  some datasets were added, especially those used as\n           examples in R News (2002, 2(2), 33-36).\n\n        o  cross-validated predictions can be computed: useful for\n           estimating sensitivity and specifity, for example.\n\n        o  the package now has a small vignette with some examples.\n\nThe authors would like to thank Guenther Sawitzki and Antony Unwin for\nhelpful comments and suggestions.\n\nRegards,\nAndrea\n\n-------------------------------------------------------------------------\n\n        Dipl.-Stat. Andrea Peters\n        Institut fr Medizininformatik, Biometrie und Epidemiologie\n        Waldstrasse 6, D-91054 Erlangen, Deutschland\n        Tel: ++49-9131-85-22722\n        Fax: ++49-9131-85-25740\n\n-------------------------------------------------------------------------\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Pe",
+      "thread_id": "thread-012d33e1479c",
+      "thread_depth": 0,
+      "month": "2002-09"
+    },
+    {
+      "id": "msg-012d33e1479c",
+      "message_id": "<Pine.LNX.4.33.0209301635220.3488-100000@imbe78.imbe.med.uni-erlangen.de>",
+      "from_name": "Andrea Peters",
+      "from_email_hash": "b7e1caff2d9fb45c10c69bda554b0216cb7fc75e13fbf62dc880c5a7a1bf6357",
+      "date": "2002-09-30T16:38:56+02:00",
+      "subject": "New version of ipred package",
+      "subject_clean": "New version of ipred package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de> and\n  Torsten Hothorn <Torsten.Hothorn at rzmail.uni-erlangen.de>\nMaintainer: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de>\nDescription: Improved predictive models by indirect classification and\n  bagging for classification, regression and survival problems\n  as well as resampling based estimators of prediction error.\nDepends: rpart (>= 3.1-8), MASS, mlbench, survival, nnet, class\nLicense: GPL\n\n\nMajor changes since 0.4-6:\n\n        o  parts of the code have been completely rewritten.\n\n        o  added bagging for censored data.\n\n        o  the Brier score for censored data (Graf et al., 1999) is\n           available in function `sbrier' and can be used\n           to measure the prediction error in survival problems.\n\n        o  bagging is roughly 50% faster now.\n\n        o  stabilised linear disciminant analysis (`slda') implemented.\n\n        o  some datasets were added, especially those used as\n           examples in R News (2002, 2(2), 33-36).\n\n        o  cross-validated predictions can be computed: useful for\n           estimating sensitivity and specifity, for example.\n\n        o  the package now has a small vignette with some examples.\n\nThe authors would like to thank Guenther Sawitzki and Antony Unwin for\nhelpful comments and suggestions.\n\nRegards,\nAndrea\n\n-------------------------------------------------------------------------\n\n        Dipl.-Stat. Andrea Peters\n        Institut fr Medizininformatik, Biometrie und Epidemiologie\n        Waldstrasse 6, D-91054 Erlangen, Deutschland\n        Tel: ++49-9131-85-22722\n        Fax: ++49-9131-85-25740\n\n-------------------------------------------------------------------------\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Pe",
+      "thread_id": "thread-012d33e1479c",
+      "thread_depth": 0,
+      "month": "2002-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-5c354ee13b19",
+      "subject": "ape 0.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Emmanuel Paradis"
+      ],
+      "started": "2002-09-05T10:30:36+02:00",
+      "last_reply": "2002-09-05T10:30:36+02:00",
+      "root_message_id": "msg-5c354ee13b19"
+    },
+    {
+      "id": "thread-dffeaadc97a0",
+      "subject": "ga: genetic algorithms package",
+      "message_count": 1,
+      "participants": [
+        "Claudio Agostinelli"
+      ],
+      "started": "2002-09-17T12:03:55+02:00",
+      "last_reply": "2002-09-17T12:03:55+02:00",
+      "root_message_id": "msg-dffeaadc97a0"
+    },
+    {
+      "id": "thread-46bf2e14d55d",
+      "subject": "Updates to Hmisc and Design Libraries",
+      "message_count": 1,
+      "participants": [
+        "Frank E Harrell Jr"
+      ],
+      "started": "2002-09-21T20:29:20-04:00",
+      "last_reply": "2002-09-21T20:29:20-04:00",
+      "root_message_id": "msg-46bf2e14d55d"
+    },
+    {
+      "id": "thread-1e7682ade9e7",
+      "subject": "New version of gregmisc package",
+      "message_count": 1,
+      "participants": [
+        "Warnes, Gregory R"
+      ],
+      "started": "2002-09-23T14:35:28-04:00",
+      "last_reply": "2002-09-23T14:35:28-04:00",
+      "root_message_id": "msg-1e7682ade9e7"
+    },
+    {
+      "id": "thread-91523775dea0",
+      "subject": "New version of gregmisc package",
+      "message_count": 1,
+      "participants": [
+        "Warnes, Gregory R"
+      ],
+      "started": "2002-09-23T16:00:33-04:00",
+      "last_reply": "2002-09-23T16:00:33-04:00",
+      "root_message_id": "msg-91523775dea0"
+    },
+    {
+      "id": "thread-f0fd4af4f5db",
+      "subject": "New version of gregmisc package",
+      "message_count": 1,
+      "participants": [
+        "Warnes, Gregory R"
+      ],
+      "started": "2002-09-25T16:47:46-04:00",
+      "last_reply": "2002-09-25T16:47:46-04:00",
+      "root_message_id": "msg-f0fd4af4f5db"
+    },
+    {
+      "id": "thread-0a97638a3c73",
+      "subject": "new patched version of randomForest",
+      "message_count": 1,
+      "participants": [
+        "Liaw, Andy"
+      ],
+      "started": "2002-09-26T20:07:46-04:00",
+      "last_reply": "2002-09-26T20:07:46-04:00",
+      "root_message_id": "msg-0a97638a3c73"
+    },
+    {
+      "id": "thread-012d33e1479c",
+      "subject": "New version of ipred package",
+      "message_count": 1,
+      "participants": [
+        "Andrea Peters"
+      ],
+      "started": "2002-09-30T16:38:56+02:00",
+      "last_reply": "2002-09-30T16:38:56+02:00",
+      "root_message_id": "msg-012d33e1479c"
+    },
+    {
+      "id": "thread-012d33e1479c",
+      "subject": "New version of ipred package",
+      "message_count": 1,
+      "participants": [
+        "Andrea Peters"
+      ],
+      "started": "2002-09-30T16:38:56+02:00",
+      "last_reply": "2002-09-30T16:38:56+02:00",
+      "root_message_id": "msg-012d33e1479c"
+    },
+    {
+      "id": "thread-012d33e1479c",
+      "subject": "New version of ipred package",
+      "message_count": 1,
+      "participants": [
+        "Andrea Peters"
+      ],
+      "started": "2002-09-30T16:38:56+02:00",
+      "last_reply": "2002-09-30T16:38:56+02:00",
+      "root_message_id": "msg-012d33e1479c"
+    }
+  ]
+}

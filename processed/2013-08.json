@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2013-08",
+  "messages": [
+    {
+      "id": "msg-41726ea3127b",
+      "message_id": "<9354C77B-01F6-45CA-A585-EEA97B34C72A@gmail.com>",
+      "from_name": "peter dalgaard",
+      "from_email_hash": "d2573f0c0a474184a9d96c815fc6bf37ff7c6392082069d810139c562d5a6f71",
+      "date": "2013-08-22T08:29:53+02:00",
+      "subject": "R-3.0.2 on September 25",
+      "subject_clean": "R-3.0.2 on September 25",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Just a quick note, mainly to warn off maintainers of the recommended packages, that we intend to release R-3.0.2 on Wednesday, September 25.\n\nWe'll be following the usual schedule from\nhttp://developer.r-project.org/release-checklist.html\n\nNotice in particular that new versions of recommended packages should be finalized 14 days before release.\n\nFor the R Core Team\nPeter Dalgaard\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Just a quick note, mainly to warn off maintainers of the recommended packages, that we intend to release R-3.0.2 on Wednesday, September 25.\n\nWe'll be following the usual schedule from\nhttp://develope",
+      "thread_id": "thread-41726ea3127b",
+      "thread_depth": 0,
+      "month": "2013-08"
+    },
+    {
+      "id": "msg-d0fadbcd8747",
+      "message_id": "<002501ce9f89$15a4a250$40ede6f0$@mcmaster.ca>",
+      "from_name": "John Fox",
+      "from_email_hash": "9fc2f6144953b53eb53d3480f700aed858778cd0863b6b018aa7146c110d813a",
+      "date": "2013-08-22T18:43:55-04:00",
+      "subject": "Rcmdr version 2.0-0 now on CRAN",
+      "subject_clean": "Rcmdr version 2.0-0 now on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R-help list members,\n\nVersion 2.0-0 of the Rcmdr package is now on CRAN and should appear\npresently on the various CRAN mirrors. As its number implies, this version\nrepresents a milestone in the development of the package, which first\nappeared on CRAN more than 10 years ago. The transition to version 2.0-0\nreflects both substantial upgrades to the Rcmdr interface in the new release\n(see the release notes below) as well as accumulated changes in recent\nversions. Of particular note beyond the interface improvements is the\nintegration of HTML and PDF report generation via the knitr and markdown\npackages.\n\n>From the package NEWS file:\n\nChanges to Version 2.0-0\n\n  o New package co-author: Milan Bouchet-Valet. \n\n  o Many changes to style of dialogs: tabs, Reset button, Apply button,\nsmall interface improvements.\n\n  o Support for R Markdown, with script and Rmd tabs.\n\n  o Expanded Options dialog and new Save Options dialog.\n\n  o Better handling of default fonts.\n\n  o Improved probability plots. \n\n  o Introduced plotDistr(), lineplot(), indexplot() convenience functions.\n\n  o New nonparametric density estimate dialog.\n\n  o Use automatic point identification as default in plot dialogs.\n\n  o Calls to deprecated functions .find.package() and .path.package()\nreplaced by find.package() and path.package() (suggestion of Brian Ripley).\n\n  o Partial correlations now optionally report pairwise p-values (suggestion\nof Aaron Swink).\n\n  o Removed Sciviews support code.\n\n  o Small fixes.\n\n  o Updated translations (with thanks to the translators): Italian (Stefano\nCalza), Korean (Jong-Hwa Shin), Romanian (Adrian Dusa), Russian (Alexey\nShipunov), Spanish (Manuel Munoz-Marquez).\n\n  o Show menu item for English introductory manual even if a \"translation\"\nis available (suggestion of Manuel Munoz-Marquez).\n\nAs usual, please report bugs or problems to jfox at mcmaster.ca. Comments and\nsuggestions are also appreciated.\n\nBest,\nJohn and Milan\n\n-----------------------------------------------\nJohn Fox\nMcMaster University\nHamilton, Ontario, Canada",
+      "body_snippet": "Dear R-help list members,\n\nVersion 2.0-0 of the Rcmdr package is now on CRAN and should appear\npresently on the various CRAN mirrors. As its number implies, this version\nrepresents a milestone in the ",
+      "thread_id": "thread-d0fadbcd8747",
+      "thread_depth": 0,
+      "month": "2013-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-41726ea3127b",
+      "subject": "R-3.0.2 on September 25",
+      "message_count": 1,
+      "participants": [
+        "peter dalgaard"
+      ],
+      "started": "2013-08-22T08:29:53+02:00",
+      "last_reply": "2013-08-22T08:29:53+02:00",
+      "root_message_id": "msg-41726ea3127b"
+    },
+    {
+      "id": "thread-d0fadbcd8747",
+      "subject": "Rcmdr version 2.0-0 now on CRAN",
+      "message_count": 1,
+      "participants": [
+        "John Fox"
+      ],
+      "started": "2013-08-22T18:43:55-04:00",
+      "last_reply": "2013-08-22T18:43:55-04:00",
+      "root_message_id": "msg-d0fadbcd8747"
+    }
+  ]
+}

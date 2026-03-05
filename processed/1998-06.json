@@ -1,0 +1,287 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1998-06",
+  "messages": [
+    {
+      "id": "msg-1a309164af53",
+      "message_id": "<199806041216.NAA01566@toucan.stats.ox.ac.uk>",
+      "from_name": "Prof Brian Ripley",
+      "from_email_hash": "375ec446f7a1157a4f0268b6dc682d6c2a5b186f57aa61253477aa48159d2329",
+      "date": "1998-06-04T13:16:01+01:00",
+      "subject": "MASS libraries for R",
+      "subject_clean": "MASS libraries for R",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We have made a nearly complete set of the V&R2 libraries for R.\nThese are in the devel section of contributions to CRAN as\n\n\tVR5.3pl021-1.tar.gz\n\nand at\n\n\thttp://www.stats.ox.ac.uk/pub/R/VR5.3pl021-1.tar.gz\n\tftp://ftp.stats.ox.ac.uk/pub/R/VR5.3pl021-1.tar.gz\n\nThey have been developed under a very recent snapshot, and this is\nprobably needed.  Also in that file is a set of scripts from the book\nmodified for use with R.\n\nThis is a beta-test version: we are interested to hear of your\nexperiences but will not support this seriously until R-0.62 is\nreleased.  We are grateful to Kurt Hornik and Albrecht Gebhardt\nfor their work on earlier versions.\n\nThe current status is\n\nMASS:\t\talmost all working, the remaining things depend\n\t\t   on bug fixes or on Trellis, nls, ...\nclass\t\tOK\nnnet\t\tOK\nspatial\t\tOK\n\nTo come are a R clone of the tree() software and of RPART, both\nof which are done but need more testing.\n\n-- \nBrian D. Ripley,                  ripley at stats.ox.ac.uk\nProfessor of Applied Statistics,  http://www.stats.ox.ac.uk/~ripley/\nUniversity of Oxford,             Tel:  +44 1865 272861 (self)\n1 South Parks Road,                     +44 1865 272860 (secr)\nOxford OX1 3TG, UK                Fax:  +44 1865 272595\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We have made a nearly complete set of the V&R2 libraries for R.\nThese are in the devel section of contributions to CRAN as\n\n\tVR5.3pl021-1.tar.gz\n\nand at\n\n\thttp://www.stats.ox.ac.uk/pub/R/VR5.3pl021-1.",
+      "thread_id": "thread-1a309164af53",
+      "thread_depth": 0,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-22fbd4fa103b",
+      "message_id": "<x2ra0sujs9.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-06-14T16:42:30+02:00",
+      "subject": "R-0.62 is released",
+      "subject_clean": "R-0.62 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've put up R-0.62.0.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or two.\n\nNote that beginning with this version, you need Fortran in some form\nor other to compile R. (f2c is good enough)\n\nHere is the relevant part of the CHANGES file:\n\n\t\tCHANGES IN R VERSION 0.62\n\nNEW FEATURES\n\n    o   Many more help(.) pages.\n\n    o   The top level Makefile now supports the usual\n\t   ./configure; make; make install\n\tprocedure (new make targets `all' and `install').\n\n    o   The HTML help pages can now be searched for keywords.\n\n    o\tConversion of functions to and from lists. formals<- and body<-.\n\tThe alist() function makes it easier to construct argument lists,\n\tetc. Added expression-->list coercion.\n\n    o\tcomplex(.) now has optional 'argument' and 'modulus' arguments,\n\tallowing ``polar coordinate'' specifications.\n\n    o\tlayout() documented and improved: starts default device if needed, and\n\treturns number of figures.\n\n    o\tNew find() function [relying on apropos(..)].\n\n    o\tobjects(<integer>) now works, being equivalent to\n\tobjects(pos=<int.>).\n\n    o\tstorage.mode() and related functions now return\n\t\"double\" instead of \"real\", for compatibility.\n\t\"real\" is still allowed as synomym for \"double\".\n\n    o\tA tests/ directory has been added (in the source), and \"make tests\"\n\thas been modified to run more than all the examples from the base\n\tpackage.  The exact 'make tests' behavior is still bound to change.\n\n    o\tAn experimental directory etc/Rdoc has been added with a perl5\n\tmodule to parse R documentation files.\tSample perl programs\n\tto use this module are also included.\n\n    o\tAll internal mechanisms to support factors and data.frames\n\thave been removed.  These are now entirely supported by\n\tinterpreted code! `is.unordered' has been eliminated.\n\tThanks to John Chambers for allowing the distribution of his\n\tStatLib code.\n\n    o\t\"pmatch\" is now completely S compatible and is not just another\n\tname for \"charmatch\".\n\n    o\tThere is now a function called \".Alias\" which can be used to\n\tprovide multiple names for the same object.  Example:\n\t\tlm2 <- .Alias(lm)\n\tThis is dangerous because it can be used to defeat the\n\tcall-by-value illusion.\n\n    o\tMany functions changed from <primitive> to .Internal(..).\n\tCurrently, new .Internal(.)s in ..library/base/R/New-Internal.R\n\tPrimitive functions are now printed as ``.Primitive(..)''.\n\n    o\t[dpqr]hyper(.) now also work with some 0 arguments.\n\n    o\tC-code: Many \"-Wall\" fixes (MM & DB).\n\n    o\tmva's dist() now takes arguments diag and upper which control\n\thow the distance matrix is printed. plot.hclust() now takes a\n\tlabels argument.\n\n    o\tAttributes are now propagated correctly in binary operations.\n\tChanges from:\n\t  Steve Oncley and Gordon Maclean\n\t  National Center for Atmospheric Research\n\t  Boulder, Colorado USA\n\n    o\tconfigure now also checks for fort77.\n\n    o\tUsage of R INSTALL now is\n\t  R INSTALL [options] [-l lib] pkg_1 ... pkg_n\n\tThe +/- options were replaced by GNU-style `--no-docs' and\n\t`--no-text', `--no-html', and `--no-latex'.\n\n    o\tUsage of R REMOVE now is\n\t  R REMOVE [options] [-l lib] pkg_1 ... pkg_n\n\n    o\tUsage of R COMPILE now is R COMPILE [options] srcfiles, where\n\tthrough options one can set e.g. CFLAGS or FFLAGS.\n\n    o\tUsage of R SHLIB now is R SHLIB [-o libname] files, where the\n\tfile names can be that of source or object files.\n\n    o   A new R CMD interface allows invokation of executables in\n\t$RHOME/{etc,cmd} without installing them or setting paths.\n\n    o\tData files are now also documented using the Rd format, all\n\tdata documentation in the base package has been converted\n\taccordingly. Rd files for data have a \\keyword{datasets} as\n\tidentifier.\n\n    o\tnew function mahalanobis() for Mahalanobis distance\n\n    o\tquantile.default() now handles Inf's correctly.\n\n    o\tNew command line options `--enable-blas' and `--enable-readline'\n\tto configure.\n\n    o\tpretty(x) is more reasonable when max(x)-min(x) < 1e-10 max(|x|),\n\tand has a new argument \"shrink.sml\" for that case.\n\n    o\tformatC(.) supports a new \"fg\" format for flexible\n\tnon-exponential formatting.\n\n    o\tetc/build-htmlpkglist has been integrated into etc/build-help\n\t(option --htmllists)\n\n    o\tfamily\tgaussian(.) and inverse.gaussian(.) both accept several\n\tlink arguments [J.Lindsey].\n\n    o\tThe graphics function \"tck\" now produces effects just\n\tlike those in S (e.g. par(tck=1) now produces grid lines).\n\tSince using \"tck\" produces nasty results in some circumstances\n\tthere is also an alternative parameter \"tcl\" which defines\n\tthe tick length in terms of lines of text.  The default\n\tsetting is par(tcl=-0.5).\n\n    o\tmenu() now takes additional arguments `graphics' (currently\n\tunused) and `title'.\n\n    o\tNew function plot.formula().\n\tplot.factor() now produces boxplots when given 2 arguments.\n\n    o\tNew function write.table().\n\n    o\tsignif() now has a `digits' default of 6.\n\n    o\tOld-style long command line options (`-save' etc) changed to\n\tGNU-style (`--save' etc).\n\tDebugging options (`-ddd', `-gdb', `-xxgdb') unified into the\n\tnew `--debugger' (`-d').\n\tNew command line options `--version' (`-V') and `--help' (`-h')\n\twhich print useful information and exit.\n\n    o\tThe loading of profiles at startup now works as follows.\n\tUnless the new `--no-site-file' was given, a site profile is\n\tsought (as specified via the environment variable `RPROFILE',\n\tor if this is unset defaulting to `${RHOME}/etc/Rprofile'.\n\tThen, unless the new `--no-init-file' was given, the user\n\tprofiles (`.Rprofile' and `~/.Rprofile') are sought.\n\n    o\tNew functions subset() and transform() intended primarily to\n\tmake life with dataframes easier.\n\n    o\tdebian directory has been added so Debian GNU/Linux packages can be\n\tcreated from raw source.\n\n    o\tThe graphics system has been through a major overhaul.\n\tIt is now possible to have multiple active device drivers\n\tand to control them with full suite of dev.xxx() functions\n\tavailable in S.\t Display lists are now kept for interactive\n\tdevices.  When an on-screen graphics window is resized,\n\tthe content of that window is redrawn at the new size.\n\tAt present only X11 and PostScript graphics device drivers\n\tare available, but more are on the way.\n\n    o\tOn systems using IEEE arithmetic, the builtin Inf and NaN\n\tvalues are now recognised and used.  NA and NaN should\n\tpropagate correctly in computations, with NA dominating\n\tin computations involving both quantities.\n\tE.g. NA+NaN is NA.\n\n    o\tSome of the t, F, and chisq distribution/probability functions\n\tnow allow a noncentrality parameter `ncp'.\n\n    o\tFunctions ptukey() and qtukey() provide the distribution and\n\tquantile functions for the maximum of several studentized\n\tranges.\n\n    o\tsystem.file()  [now documented] returns all files matched by\n\twildcards.\n\n    o\tdata() now supports more file formats: .RData for binary\n\tfiles, .txt or .tab for data to be read by\n\t`read.table(file, header=TRUE)' and .csv for data to be read\n\tby `read.table(file, header=TRUE, sep=\";\")'\n\n    o\tRdconv: new tabular environment, new sections `\\format' and\n\t`\\source', new output format `-type Sd' for S documentation\n\n    o\t.First.lib() now implemented; called by library() after loading\n\ta package.\n\n    o\tprint.summary.[g]lm() now give `significance stars' and a symbolic\n\tcorrelation matrix.\n\n    o\tnew is.R() function.\n\n    o\tglm() now also returns an AIC value [from JL].\n\tprint..glm methods indicate the options()$contrasts in some cases.\n\tIn summary.glm(..., correlation=..), the default has been changed to\n\tcorr. = FALSE  which is consistent with\t summary.lm().\n\tpredict() now works again for glm objects.\n\n    o\tthe `flag' argument in formatC(.) can now have more than one\n\tcharacter.\n\n    o\tnlm() returns the number of iterations used [from J.Lindsey].\n\n    o\tcut, diff, hist, mean, quantile, seq, trunc()  are now all generic.\n\tcut() has an `include.lowest' argument as S.\n\n    o\tsave.image() as short-cut to save the current session in .RData.\n\n    o\tnew design of HTML help pages, including an index of all\n\tfunctions from all installed packages.\n\n    o\tnew editor function pico()\n\n    o\tmatrices and arrays can have zero extents\n\nBUG FIXES (many of which resulted from the added features...)\n\n    o\tatanh(.) now works\n\n    o   summary(glm) and summary(lm) now use compatible names.\n\n    o   [pq]tukey(.) now working.\n\n    o\ttitle() now handles main=, sub=, xlab=, ylab= with embedded\n\tnewlines correctly.  This is partly a change in title and\n\tpartly a change in the underlying graphics code.\n\n    o\tmin(.), max(.), sum(.)\tnow return integer for integer arguments.\n\n    o\twhich(.) now returns integer.\n\n    o\tRd files: leading whitespace of lines in user-defined sections\n\twas not correctly removed by Rdconv\n\n    o\tsign(.) works again.\n\n    o\t[.data.frame segfaulted if arg. wasn't a data frame\n\n    o\t\"R --no-readline\" now again gives proper prompts.\n\n    o\tdemos/zero.R  dyn.load(.) now should be working more easily.\n\n    o\tmode(.) now returns \"(\" for a \"parentheses 'call'\".\n\n    o\tBug fix in mva dist.c for method binary (gave \"invalid\n\tdistance\"). plot.hclust failed for data without row names.\n\n    o\tR INSTALL should work (again) now when `pkg' is a relative file\n\tname.\n\n    o\t.not.yet.implemented() now takes an arbitrary number of args.\n\n    o\tPlotting of dendrograms is working again.\n\n    o\tdata.frame(.) now uses \"1:n\" as default row.names.\n\n    o\timage(.) and contour(.) now also work called as, e.g., ``image(z)''.\n\n    o\tthe first argument of axis(.) is now called `side' as in S.\n\n    o\tformat(NULL) now works.\n\n    o\tminor fix in symnum.\n\n    o\thist() now is more compatible to S, has a new `labels' argument,\n\tand should work ok for non-equidistant breaks.\n\n    o\tplot(-1) now labels properly.\n\n    o\tMany small code changes (eliminating extraneous variables, nested comm.)\n\tin C code in order to satisfy `gcc -Wall' [Doug Bates].\n\n    o\tmodel.extract() will now extract arbitrary model frame arguments.\n\n\n    o\tlist of currently loaded libraries (.Dyn.libs) not saved\n\tfrom session to session (really, this time)\n\n    o\trhyper works with vectorisation, degenerate cases.\n\n    o   printing of objects in lists now dispatches methods correctly\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've put up R-0.62.0.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or t",
+      "thread_id": "thread-22fbd4fa103b",
+      "thread_depth": 0,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-53488070593f",
+      "message_id": "<XFMail.980614195518.Ted.Harding@nessie.mcc.ac.uk>",
+      "from_name": "(Ted Harding)",
+      "from_email_hash": "3d4318ff6a959f5c775739481bc6cf1ab6840374b5d56f1960afc84e49e8e02f",
+      "date": "1998-06-14T19:55:18+01:00",
+      "subject": "R-beta: R-0.62 is released",
+      "subject_clean": "R-beta: R-0.62 is released",
+      "in_reply_to": "<x2ra0sujs9.fsf@blueberry.kubism.ku.dk>",
+      "references": [],
+      "body_plain": "On 14-Jun-98 Peter Dalgaard BSA wrote:\n> I've put up R-0.62.0.tgz up for FTP from Auckland some minutes ago.\n> As usual, don't get it from there unless you are desperate, but wait\n> for it to be mirrored at a CRAN site near you within a day or two.\n\nYou didn't expect us to be THAT patient, did you?!\n\nSome comments (compiling on S.u.S.E. Linux 5.1):\n\n1. I like to compile in a side-room, /depot/R-0.62 as it happens.\n   My intended ultimate destination was /usr/local/R-0.62. After setting\n   prefix, \"./configure\", \"make\", and \"make install\", it wouldn't run properly.\n\n   Despite trying every obvious config option, the \"R\" script had insisted\n   on setting RHOME as the directory it was compiled from: /depot/R-0.62/R-0.62/\n\n   It took some time to suss out that this needed to be edited to read\n   RHOME=/usr/local/R-0.62/lib/R\n\n   After this was done, it seems fine. The above is NOT obvious from the INSTALL\n   document.\n\n2. The \"help\" browser seems to be hard-wired to be netscape. This can of course\n   be changed by editing the function \"help.start\" in\n   /usr/local/R-0.62/lib/R/library/base/R\n   but the knock-on effects are not obvious.\n\n   a) I don't have netscape on the machine I run R on;\n   b) In any case, with KDE on this machine, I like to use the program\n      /opt/kde/bin/kdehelp\n      as HTML browser: it's attractive-looking, slim (199428 bytes!) and fast.\n\n   I'd welcome informed advice on how to change this function without breaking\n   anything else that depends on it, and on any consequential changes that may\n   be needed.\n\nThat's it for now. More later, possibly ... !\n\nWith thanks, and best wishes to all,\nTed.\n\n--------------------------------------------------------------------\nE-Mail: (Ted Harding) <Ted.Harding at nessie.mcc.ac.uk>\nDate: 14-Jun-98                                       Time: 19:55:18\n--------------------------------------------------------------------\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "On 14-Jun-98 Peter Dalgaard BSA wrote:\n> I've put up R-0.62.0.tgz up for FTP from Auckland some minutes ago.\n> As usual, don't get it from there unless you are desperate, but wait\n> for it to be mirro",
+      "thread_id": "thread-22fbd4fa103b",
+      "thread_depth": 1,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-9789d799e744",
+      "message_id": "<x2sol7wxcm.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-06-14T22:18:49+02:00",
+      "subject": "R-beta: R-0.62 is released *WATCH THE RETURN ADDRESS*",
+      "subject_clean": "R-beta: R-0.62 is released *WATCH THE RETURN ADDRESS*",
+      "in_reply_to": "Egon Schmid's message of Sun, 14 Jun 1998 21:37:35 +0200 (MET DST)",
+      "references": [
+        "<Pine.NEB.3.95.980614212003.21844A-100000@delos.stuttgart.netsurf.de>"
+      ],
+      "body_plain": "Before this gets out of hand: \n\nPlease make sure that responses to the announcement goes somewhere\nelse than to R-announce, which is reserved for people who\nwant to minimise their email traffic by avoiding the discussion part.\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Before this gets out of hand: \n\nPlease make sure that responses to the announcement goes somewhere\nelse than to R-announce, which is reserved for people who\nwant to minimise their email traffic by avo",
+      "thread_id": "thread-9789d799e744",
+      "thread_depth": 0,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-a58a4ca1df73",
+      "message_id": "<x2sol7r4nl.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-06-15T00:37:34+02:00",
+      "subject": "R-0.62.1",
+      "subject_clean": "R-0.62.1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Due to a glitch with the CVS version management software (quite likely\nmy own fault), R-0.62.0 got shipped without the \"tests\" directory.\nApart from preventing \"make tests\" from working, it also has untoward\nconsequences for \"make clean\" and the like.\n\nSo there's an updated version in R-0.62.1.tgz in the usual places.\n\nFor good measure, there's also a patch file.\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Due to a glitch with the CVS version management software (quite likely\nmy own fault), R-0.62.0 got shipped without the \"tests\" directory.\nApart from preventing \"make tests\" from working, it also has u",
+      "thread_id": "thread-a58a4ca1df73",
+      "thread_depth": 0,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-326b66af1199",
+      "message_id": "<XFMail.980615011606.Ted.Harding@nessie.mcc.ac.uk>",
+      "from_name": "(Ted Harding)",
+      "from_email_hash": "3d4318ff6a959f5c775739481bc6cf1ab6840374b5d56f1960afc84e49e8e02f",
+      "date": "1998-06-15T01:16:06+01:00",
+      "subject": "Literal \"&\" in help index",
+      "subject_clean": "Literal \"&\" in help index",
+      "in_reply_to": "<x2ra0sujs9.fsf@blueberry.kubism.ku.dk>",
+      "references": [],
+      "body_plain": "Hi Folks,\n\nThe file .../lib/R/library/base/html/00Index.html (the contents list of the R\nbase package help) contains the lines:\n\n<TR><TD width=25%><A HREF=\"Logic.html\">&</A></TD>\n<TD>Logical Operators</TD></TR>\n<TR><TD width=25%><A HREF=\"Logic.html\">&&</A></TD>\n<TD>Logical Operators</TD></TR>\n\nThese cause my neat little \"kdehelp\" browser to segfault when clicking on an\nHREF from this file (though netscape seems robust to it). This is because \"&\"\nis an escape for \"special characters\" in HTML, and the problem is cured if each\n\"&\" is replaced by the HTML escape code for a literal \"&\", namely \"&amp;\", so\nthat the lines become\n\n<TR><TD width=25%><A HREF=\"Logic.html\">&amp;</A></TD>\n<TD>Logical Operators</TD></TR>\n<TR><TD width=25%><A HREF=\"Logic.html\">&amp;&amp;</A></TD>\n<TD>Logical Operators</TD></TR>\n\nFor those of you contemplating using something other than netscape, the above\nchange may be worth noting, in case you encounter the same problem.\n\nIt is probably worth \"officially\" making this change anyway, for the sake of\n\"pure\" HTML.\n\nBest wishes to all,\nTed.\n\n\n--------------------------------------------------------------------\nE-Mail: (Ted Harding) <Ted.Harding at nessie.mcc.ac.uk>\nDate: 15-Jun-98                                       Time: 01:16:06\n--------------------------------------------------------------------\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi Folks,\n\nThe file .../lib/R/library/base/html/00Index.html (the contents list of the R\nbase package help) contains the lines:\n\n<TR><TD width=25%><A HREF=\"Logic.html\">&</A></TD>\n<TD>Logical Operators",
+      "thread_id": "thread-22fbd4fa103b",
+      "thread_depth": 1,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-7a2a4601b747",
+      "message_id": "<13702.11255.28465.291926@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1998-06-16T10:25:27+02:00",
+      "subject": "New Package bindata at CRAN",
+      "subject_clean": "New Package bindata at CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have put the new package bindata to CRAN, which provides a method\nfor creating binary (i.e., 0-1-valued) random variables with\ncorrelation structures by converting multivariate random variables to\nbinary variables.\n\nThe package includes a postscript file of a technical report\ndescribing the method, here's the abstract:\n\n**********************************************************\nThe generation of random variates from multivariate binary\ndistributions has not gained as much interest in the literature as,\ne.g., multivariate normal or Poisson distributions. Binary variables\nare important in many types of applications. Our main interest is in\nthe segmentation of marketing data, where data come from customer\nquestionnaires with ``yes/no'' questions. Artificial data provide a\nvaluable tool for the analysis of segmentation tools, because data\nwith known structure can be constructed to mimic situations from the\nreal world (Dolnicar et al. 1998). Questionnaire data can be highly\ncorrelated, when several questions covering the same field are likely\nto be answered similarly by a subject. In this paper we present a\ncomputationally fast method to simulate multivariate binary\ndistributions with a given correlation structure. The implementation\nof the algorithm in R, an implementation of the S statistical\nlanguage, is described in the appendix.\n**********************************************************\n\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4546\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have put the new package bindata to CRAN, which provides a method\nfor creating binary (i.e., 0-1-valued) random variables with\ncorrelation structures by converting multivariate random variables to\nb",
+      "thread_id": "thread-7a2a4601b747",
+      "thread_depth": 0,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-279cdc29c813",
+      "message_id": "<Pine.LNX.3.96.980616164701.11851F-100000@isildur.ci.tuwien.ac.at>",
+      "from_name": "Evgenia Dimitriadou",
+      "from_email_hash": "b4f2bc9e72b02679a766e7059050bc38f309fdd4ff443cb5c09f59be85bb1eed",
+      "date": "1998-06-16T16:54:58+02:00",
+      "subject": "New Package",
+      "subject_clean": "New Package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have put a new package called \"cclust\", that is dealing with Convex\nClustering Methods. More anallyticaly, it is performing the normal Kmeans \nclustering, the On-line Update clustering(Hard Competitive Learning) and\nthe Neural Gas (Soft Competitive) clustering method.\nFor more details there is a help page in R.\n\n\n\n************************************************************************\n*                          Evgenia Dimitriadou                         *\n************************************************************************\n* Institut f?r Statistik      *                Tel: (+43 1) 58801 4592 *\n* Technische Universit?t Wien *                Fax: (+43 1)  504 14 98 *\n* Wiedner Hauptstr. 8-10/1071 *                   dimi at ci.tuwien.ac.at *\n* A-1040 Wien, Austria        *                                        *\n************************************************************************\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have put a new package called \"cclust\", that is dealing with Convex\nClustering Methods. More anallyticaly, it is performing the normal Kmeans \nclustering, the On-line Update clustering(Hard Competit",
+      "thread_id": "thread-279cdc29c813",
+      "thread_depth": 0,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-3e1cc3510e18",
+      "message_id": "<Pine.LNX.3.96.980622151027.31323D-100000@isildur.ci.tuwien.ac.at>",
+      "from_name": "Evgenia Dimitriadou",
+      "from_email_hash": "b4f2bc9e72b02679a766e7059050bc38f309fdd4ff443cb5c09f59be85bb1eed",
+      "date": "1998-06-22T15:15:33+02:00",
+      "subject": "\"cclust\" Package",
+      "subject_clean": "\"cclust\" Package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "There is a  new version of the 'CCLUST' package ,where i removed the extra\ncommand for the kmeans algorithm in the .R programm and also the comments\nabout it in the .Rd help page. Now in the cclust library the kmeans\nalgorithm can be applied only by using the cclust function. \n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "There is a  new version of the 'CCLUST' package ,where i removed the extra\ncommand for the kmeans algorithm in the .R programm and also the comments\nabout it in the .Rd help page. Now in the cclust li",
+      "thread_id": "thread-3e1cc3510e18",
+      "thread_depth": 0,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-9a7337ae62ae",
+      "message_id": "<199806240807.JAA21896@toucan.stats.ox.ac.uk>",
+      "from_name": "Prof Brian Ripley",
+      "from_email_hash": "375ec446f7a1157a4f0268b6dc682d6c2a5b186f57aa61253477aa48159d2329",
+      "date": "1998-06-24T09:07:56+01:00",
+      "subject": "Packages: KernSmooth logspline ppr rpart tree",
+      "subject_clean": "Packages: KernSmooth logspline ppr rpart tree",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The following are now on CRAN:\n\nKernSmooth:  version 2.2 of the code for Wand & Jones book on kernel smoothing.\nlogspline:   spline fits to log denisites, with automatic choice of smoothing.\nppr:         projection pursuit regression.\nrpart:       recursive partitioning (CART-like)\nVR:          Venables & Ripley libraries 5.3pl021 for 0.62.1\n\nand in the devel section\n\ntree:        a clone of tree, prune.tree, cv.tree ...\n\nwhich is fully operational but not much documented. Use your V&R2!\n\nYou can find out about KernSmooth, logspline, ppr and rpart in the\non-line statistics complements to Venables & Ripley at\n\n    http://www.stats.ox.ac.uk/pub/MASS2\n\nThe final release of the VR libraries is yet to come: it will follow\nthe bug-fixes in 0.62.2. If you really want to experiment, the current\nversion will be at http://www.stats.ox.ac.uk/pub/R, but do use this with\nthe latest R-release.tar.gz or R-snapshot.tar.gz.\n\n-- \nBrian D. Ripley,                  ripley at stats.ox.ac.uk\nProfessor of Applied Statistics,  http://www.stats.ox.ac.uk/~ripley/\nUniversity of Oxford,             Tel:  +44 1865 272861 (self)\n1 South Parks Road,                     +44 1865 272860 (secr)\nOxford OX1 3TG, UK                Fax:  +44 1865 272595\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The following are now on CRAN:\n\nKernSmooth:  version 2.2 of the code for Wand & Jones book on kernel smoothing.\nlogspline:   spline fits to log denisites, with automatic choice of smoothing.\nppr:     ",
+      "thread_id": "thread-9a7337ae62ae",
+      "thread_depth": 0,
+      "month": "1998-06"
+    },
+    {
+      "id": "msg-44538f7a2c9a",
+      "message_id": "<98Jun25.152447edt.13441@mailgate.bank-banque-canada.ca>",
+      "from_name": "Paul Gilbert",
+      "from_email_hash": "51f348dc0febec9b32e9d9dcb86f6de731958e1295e818209b4c127bffef5569",
+      "date": "1998-06-25T15:00:17-04:00",
+      "subject": "DSE package",
+      "subject_clean": "DSE package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "There is now an \"alpha\" version of my DSE time series library available at\n<http://www.bank-banque-canada.ca/pgilbert>. The main changes between this and\nthe version in the development area of CRAN  are for installing under R 0.62.1.\nThere are also a few bug fixes.\n\nI have so far only tested on Solaris, but hope to test on Linux in the next few\ndays. If anyone installs the package and runs the tests on other operating\nsystems, I would appreciate having reports. I will submit the new version to\nCRAN once I am relatively sure everything is working fairly well on other\nplatforms.\n\nPaul Gilbert\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "There is now an \"alpha\" version of my DSE time series library available at\n<http://www.bank-banque-canada.ca/pgilbert>. The main changes between this and\nthe version in the development area of CRAN  a",
+      "thread_id": "thread-44538f7a2c9a",
+      "thread_depth": 0,
+      "month": "1998-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-1a309164af53",
+      "subject": "MASS libraries for R",
+      "message_count": 1,
+      "participants": [
+        "Prof Brian Ripley"
+      ],
+      "started": "1998-06-04T13:16:01+01:00",
+      "last_reply": "1998-06-04T13:16:01+01:00",
+      "root_message_id": "msg-1a309164af53"
+    },
+    {
+      "id": "thread-22fbd4fa103b",
+      "subject": "R-0.62 is released",
+      "message_count": 3,
+      "participants": [
+        "(Ted Harding)",
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-06-14T16:42:30+02:00",
+      "last_reply": "1998-06-15T01:16:06+01:00",
+      "root_message_id": "msg-22fbd4fa103b"
+    },
+    {
+      "id": "thread-9789d799e744",
+      "subject": "R-beta: R-0.62 is released *WATCH THE RETURN ADDRESS*",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-06-14T22:18:49+02:00",
+      "last_reply": "1998-06-14T22:18:49+02:00",
+      "root_message_id": "msg-9789d799e744"
+    },
+    {
+      "id": "thread-a58a4ca1df73",
+      "subject": "R-0.62.1",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-06-15T00:37:34+02:00",
+      "last_reply": "1998-06-15T00:37:34+02:00",
+      "root_message_id": "msg-a58a4ca1df73"
+    },
+    {
+      "id": "thread-7a2a4601b747",
+      "subject": "New Package bindata at CRAN",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1998-06-16T10:25:27+02:00",
+      "last_reply": "1998-06-16T10:25:27+02:00",
+      "root_message_id": "msg-7a2a4601b747"
+    },
+    {
+      "id": "thread-279cdc29c813",
+      "subject": "New Package",
+      "message_count": 1,
+      "participants": [
+        "Evgenia Dimitriadou"
+      ],
+      "started": "1998-06-16T16:54:58+02:00",
+      "last_reply": "1998-06-16T16:54:58+02:00",
+      "root_message_id": "msg-279cdc29c813"
+    },
+    {
+      "id": "thread-3e1cc3510e18",
+      "subject": "\"cclust\" Package",
+      "message_count": 1,
+      "participants": [
+        "Evgenia Dimitriadou"
+      ],
+      "started": "1998-06-22T15:15:33+02:00",
+      "last_reply": "1998-06-22T15:15:33+02:00",
+      "root_message_id": "msg-3e1cc3510e18"
+    },
+    {
+      "id": "thread-9a7337ae62ae",
+      "subject": "Packages: KernSmooth logspline ppr rpart tree",
+      "message_count": 1,
+      "participants": [
+        "Prof Brian Ripley"
+      ],
+      "started": "1998-06-24T09:07:56+01:00",
+      "last_reply": "1998-06-24T09:07:56+01:00",
+      "root_message_id": "msg-9a7337ae62ae"
+    },
+    {
+      "id": "thread-44538f7a2c9a",
+      "subject": "DSE package",
+      "message_count": 1,
+      "participants": [
+        "Paul Gilbert"
+      ],
+      "started": "1998-06-25T15:00:17-04:00",
+      "last_reply": "1998-06-25T15:00:17-04:00",
+      "root_message_id": "msg-44538f7a2c9a"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2010-02",
+  "messages": [
+    {
+      "id": "msg-dcbcd6bbc611",
+      "message_id": "<alpine.DEB.1.10.1002011428150.17588@h180239.nist.gov>",
+      "from_name": "Katharine Mullen",
+      "from_email_hash": "e66758f72249d606022873f1d14e90d33cdef4e090cd376986ff85496beafd8d",
+      "date": "2010-02-01T14:31:12-05:00",
+      "subject": "Abstract submission deadline, useR! 2010",
+      "subject_clean": "Abstract submission deadline, useR! 2010",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The abstract submission deadline for the R Users Conference, useR! 2010, \nis just one month away.\n\n     Submission deadline: 2010-03-01\n\nEarly registration will also close on 2010-03-01.\n\nNow is the perfect time to prepare an abstract presenting innovations or \nexciting applications of R. The call for abstracts along with the link for \nsubmission is available at:\n     http://www.R-project.org/useR-2010/#Call\n\nThis meeting of the R user community will take place at the Gaithersburg, \nMaryland, USA campus of the National Institute of Standards and Technology \n(NIST), July 21-23, 2010.\n\nThe conference schedule is comprised of invited lectures and \nuser-contributed sessions as well as half-day tutorials presented by R \nexperts on July 20, 2010, prior to the conference.\n\nInvited speakers will include\n     Mark Handcock, Frank Harrell Jr, Friedrich Leisch, Michael Meyer,\n     Richard Stallman, Luke Tierney, and Diethelm Wuertz.\n\nThe full spectrum of conference information is available from the webpage:\n     http://www.R-project.org/useR-2010/\n\nWe hope to meet you in Gaithersburg!\n\nKate Mullen, for the organizing committee",
+      "body_snippet": "The abstract submission deadline for the R Users Conference, useR! 2010, \nis just one month away.\n\n     Submission deadline: 2010-03-01\n\nEarly registration will also close on 2010-03-01.\n\nNow is the p",
+      "thread_id": "thread-dcbcd6bbc611",
+      "thread_depth": 0,
+      "month": "2010-02"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-dcbcd6bbc611",
+      "subject": "Abstract submission deadline, useR! 2010",
+      "message_count": 1,
+      "participants": [
+        "Katharine Mullen"
+      ],
+      "started": "2010-02-01T14:31:12-05:00",
+      "last_reply": "2010-02-01T14:31:12-05:00",
+      "root_message_id": "msg-dcbcd6bbc611"
+    }
+  ]
+}

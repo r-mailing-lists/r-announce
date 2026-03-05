@@ -1,0 +1,81 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2021-10",
+  "messages": [
+    {
+      "id": "msg-9e312603e1f6",
+      "message_id": "<7BC92570-396C-47AD-A035-6558E1FEEAC0@gmail.com>",
+      "from_name": "peter dalgaard",
+      "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
+      "date": "2021-10-03T18:40:48+02:00",
+      "subject": "[Rd] R 4.1.2 scheduled for November 1",
+      "subject_clean": "R 4.1.2 scheduled for November 1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "(Just a quick heads-up for developers.)\n \nFull schedule to be made available soon.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "(Just a quick heads-up for developers.)\n \nFull schedule to be made available soon.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksber",
+      "thread_id": "thread-9e312603e1f6",
+      "thread_depth": 0,
+      "month": "2021-10"
+    },
+    {
+      "id": "msg-7fd82c8ac812",
+      "message_id": "<EE1D7D21-430D-4FF8-BEF8-3B46DBD29B7A@gmail.com>",
+      "from_name": "peter dalgaard",
+      "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
+      "date": "2021-10-03T18:58:08+02:00",
+      "subject": "[Rd] R 4.1.2 scheduled for November 1",
+      "subject_clean": "R 4.1.2 scheduled for November 1",
+      "in_reply_to": "<7BC92570-396C-47AD-A035-6558E1FEEAC0@gmail.com>",
+      "references": [
+        "<7BC92570-396C-47AD-A035-6558E1FEEAC0@gmail.com>"
+      ],
+      "body_plain": "Schedule should appear on developer.r-project.org when it gets updated from SVN.\n\n> On 3 Oct 2021, at 18:40 , peter dalgaard <pdalgd at gmail.com> wrote:\n> \n> (Just a quick heads-up for developers.)\n> \n> Full schedule to be made available soon.\n> \n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Schedule should appear on developer.r-project.org when it gets updated from SVN.\n\n> On 3 Oct 2021, at 18:40 , peter dalgaard <pdalgd at gmail.com> wrote:\n> \n> (Just a quick heads-up for developers.)\n>",
+      "thread_id": "thread-9e312603e1f6",
+      "thread_depth": 1,
+      "month": "2021-10"
+    },
+    {
+      "id": "msg-3cc88c9c27fb",
+      "message_id": "<24936.25288.415151.966468@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "a92f4a07d4e3cad5fba985e30db2b0fff598d5ddfbadbb2e91ffe91636400c62",
+      "date": "2021-10-14T19:03:04+02:00",
+      "subject": "Sebastian Meyer joins the R core team",
+      "subject_clean": "Sebastian Meyer joins the R core team",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are very happy to announce that\n\nSebastian Meyer (http://www.imbe.med.uni-erlangen.de/ma/S.Meyer ;\n                 Twitter @bastistician; also https://github.com/bastistician/)\n\nhas joined the R core team yesterday (Oct 13).  He has been an\nactive contributor notably in handling and fixing R bugzilla issues in\ndozens of contributions and also by direct communication,\nmainly during the last 2 years but starting considerably earlier.\n\nThe R Core team",
+      "body_snippet": "We are very happy to announce that\n\nSebastian Meyer (http://www.imbe.med.uni-erlangen.de/ma/S.Meyer ;\n                 Twitter @bastistician; also https://github.com/bastistician/)\n\nhas joined the R c",
+      "thread_id": "thread-3cc88c9c27fb",
+      "thread_depth": 0,
+      "month": "2021-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-9e312603e1f6",
+      "subject": "R 4.1.2 scheduled for November 1",
+      "message_count": 2,
+      "participants": [
+        "peter dalgaard"
+      ],
+      "started": "2021-10-03T18:40:48+02:00",
+      "last_reply": "2021-10-03T18:58:08+02:00",
+      "root_message_id": "msg-9e312603e1f6"
+    },
+    {
+      "id": "thread-3cc88c9c27fb",
+      "subject": "Sebastian Meyer joins the R core team",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2021-10-14T19:03:04+02:00",
+      "last_reply": "2021-10-14T19:03:04+02:00",
+      "root_message_id": "msg-3cc88c9c27fb"
+    }
+  ]
+}

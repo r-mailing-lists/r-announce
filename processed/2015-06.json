@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2015-06",
+  "messages": [
+    {
+      "id": "msg-f5db861fa2e5",
+      "message_id": "<7442C2E6-39F7-4EF5-9670-245B096EEC05@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2015-06-18T11:04:58+02:00",
+      "subject": "R 3.2.1 liftoff",
+      "subject_clean": "R 3.2.1 liftoff",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The build system sent R-3.2.1.tar.gz (codename \"World-Famous Astronaut\") in orbit this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/base/R-3/R-3.2.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n\nFor the R Core Team,\n\nPeter Dalgaard\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n\nMD5 (AUTHORS) = eb97a5cd38acb1cfc6408988bffef765\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = 181370b39076e34f64b842257076cd5c\nMD5 (INSTALL) = 3964b9119adeaab9ceb633773fc94aac\nMD5 (NEWS) = 6342bc1164e9f8e17713f47cff1910b4\nMD5 (NEWS.0) = bfcd7c147251b5474d96848c6f57e5a8\nMD5 (NEWS.1) = eb78c4d053ec9c32b815cf0c2ebea801\nMD5 (NEWS.2) = 8e2f4d1d5228663ae598a09bf1e2bc6b\nMD5 (R-latest.tar.gz) = c2aac8b40f84e08e7f8c9068de9239a3\nMD5 (README) = aece1dfbd18c1760128c3787f5456af6\nMD5 (RESOURCES) = a59076c1ac7e9bab0f0a38b3f57a3914\nMD5 (THANKS) = ba00f6cc68a823e1741cfa6011f40ccb\nMD5 (R-3/R-3.2.1.tar.gz) = c2aac8b40f84e08e7f8c9068de9239a3\n\n\nThis is the relevant part of the NEWS file\n\nCHANGES IN R 3.2.1:\n\n  NEW FEATURES:\n\n    * utf8ToInt() now checks that its input is valid UTF-8 and returns\n      NA if it is not.\n\n    * install.packages() now allows type = \"both\" with repos = NULL if\n      it can infer the type of file.\n\n    * nchar(x, *) and nzchar(x) gain a new argument keepNA which\n      governs how the result for NAs in x is determined.  For the R\n      3.2.x series, the default remains FALSE which is fully back\n      compatible.  From R 3.3.0, the default will change to keepNA = NA\n      and you are advised to consider this for code portability.\n\n    * news() more flexibly extracts dates from package NEWS.Rd files.\n\n    * lengths(x) now also works (trivially) for atomic x and hence can\n      be used more generally as an efficient replacement of sapply(x,\n      length) and similar.\n\n    * The included version of PCRE has been updated to 8.37, a bug-fix\n      release.\n\n    * diag() no longer duplicates a matrix when extracting its\n      diagonal.\n\n    * as.character.srcref() gains an argument to allow characters\n      corresponding to a range of source references to be extracted.\n\n  BUG FIXES:\n\n    * acf() and ccf() now guarantee values strictly in [-1,1] (instead\n      of sometimes very slightly outside). PR#15832.\n\n    * as.integer(\"111111111111\") now gives NA (with a warning) as it\n      does for the corresponding numeric or negative number coercions.\n      Further, as.integer(M + 0.1) now gives M (instead of NA) when M\n      is the maximal representable integer.\n\n    * On some platforms nchar(x, \"c\") and nchar(x, \"w\") would return\n      values (possibly NA) for inputs which were declared to be UTF-8\n      but were not, or for invalid strings without a marked encoding in\n      a multi-byte locale, rather than give an error.  Additional\n      checks have been added to mitigate this.\n\n    * apply(a, M, function(u) c(X = ., Y = .)) again has dimnames\n      containing \"X\" and \"Y\" (as in R < 3.2.0).\n\n    * (Windows only) In some cases, the --clean option to R CMD INSTALL\n      could fail.  (PR#16178)\n\n    * (Windows only) choose.files() would occasionally include\n      characters from the result of an earlier call in the result of a\n      later one.  (PR#16270)\n\n    * A change in RSiteSearch() in R 3.2.0 caused it to submit invalid\n      URLs.  (PR#16329)\n\n    * Rscript and command line R silently ignored incomplete statements\n      at the end of a script; now they are reported as parse errors.\n      (PR#16350)\n\n    * Parse data for very long strings was not stored.  (PR#16354)\n\n    * plotNode(), the workhorse of the plot method for \"dendrogram\"s is\n      no longer recursive, thanks to Suharto Anggono, and hence also\n      works for deeply nested dendrograms.  (PR#15215)\n\n    * The parser could overflow internally when given numbers in\n      scientific format with extremely large exponents.  (PR#16358)\n\n    * If the CRAN mirror was not set, install.packages(type = \"both\")\n      and related functions could repeatedly query the user for it.\n      (Part of PR#16362)\n\n    * The low-level functions .rowSums() etc. did not check the length\n      of their argument, so could segfault. (PR#16367)\n\n    * The quietly argument of library() is now correctly propagated\n      from .getRequiredPackages2().\n\n    * Under some circumstances using the internal PCRE when building R\n      fron source would cause external libs such as -llzma to be\n      omitted from the main link.\n\n    * The .Primitive default methods of the logic operators, i.e., !, &\n      and |, now give correct error messages when appropriate, e.g.,\n      for `&`(TRUE) or `!`().  (PR#16385)\n\n    * cummax(x) now correctly propagates NAs also when x is of type\n      integer and begins with an NA.\n\n    * summaryRprof() could fail when the profile contained only two\n      records.  (PR#16395)\n\n    * HTML vignettes opened using vignette() did not support links into\n      the rest of the HTML help system.  (Links worked properly when\n      the vignette was opened using browseVignettes() or from within\n      the help system.)\n\n    * arima(*, xreg = .) (for d >= 1) computes estimated variances\n      based on a the number of effective observations as in R version\n      3.0.1 and earlier.  (PR#16278)\n\n    * slotNames(.) is now correct for \"signature\" objects (mostly used\n      internally in methods).\n\n    * On some systems, the first string comparison after a locale\n      change would result in NA.",
+      "body_snippet": "The build system sent R-3.2.1.tar.gz (codename \"World-Famous Astronaut\") in orbit this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-pr",
+      "thread_id": "thread-f5db861fa2e5",
+      "thread_depth": 0,
+      "month": "2015-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f5db861fa2e5",
+      "subject": "R 3.2.1 liftoff",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2015-06-18T11:04:58+02:00",
+      "last_reply": "2015-06-18T11:04:58+02:00",
+      "root_message_id": "msg-f5db861fa2e5"
+    }
+  ]
+}

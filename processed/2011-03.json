@@ -1,0 +1,73 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2011-03",
+  "messages": [
+    {
+      "id": "msg-e08f1c8ed311",
+      "message_id": "<20607753-46E1-40A6-AEA6-AAFD3C1AC01A@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2011-03-13T10:55:37+01:00",
+      "subject": "R 2.13.0 scheduled for April 13",
+      "subject_clean": "R 2.13.0 scheduled for April 13",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.13.0 on Wednesday,\nApril 13, 2011.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) via\n\nhttp://cran.r-project.org/src/base-prerelease/\n\nFor the R Core Team\nPeter Dalgaard\n\n-- \nPeter Dalgaard\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "This is to announce that we plan to release R version 2.13.0 on Wednesday,\nApril 13, 2011.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checkli",
+      "thread_id": "thread-e08f1c8ed311",
+      "thread_depth": 0,
+      "month": "2011-03"
+    },
+    {
+      "id": "msg-e7bbbae223a2",
+      "message_id": "<4919A50DE4014143B6F13F9377E346E001CAA676@HOLLY.ads.warwick.ac.uk>",
+      "from_name": "useR! 2011, Resource",
+      "from_email_hash": "b12b8a3cc4589928883356f75b19030217e88133fc043c1881eefb75587e17b4",
+      "date": "2011-03-21T10:41:00Z",
+      "subject": "CONFERENCE: useR! 2011, August 16-18, University of Warwick, early bird deadline",
+      "subject_clean": "CONFERENCE: useR! 2011, August 16-18, University of Warwick, early bird deadline",
+      "in_reply_to": null,
+      "references": [
+        "<4D59A6A3.2040802@warwick.ac.uk>",
+        "<7BEB494D4E69964C8292CE4EDA2B981101896128@LAUREL.ads.warwick.ac.uk>",
+        "<7BEB494D4E69964C8292CE4EDA2B98110189612B@LAUREL.ads.warwick.ac.uk>",
+        "<4919A50DE4014143B6F13F9377E346E001CAA65A@HOLLY.ads.warwick.ac.uk>",
+        "<4919A50DE4014143B6F13F9377E346E001CAA669@HOLLY.ads.warwick.ac.uk>",
+        "<COL122-W36974FC95C3CD40A6186E58DB50@phx.gbl>",
+        "<7BEB494D4E69964C8292CE4EDA2B981101896223@LAUREL.ads.warwick.ac.uk>",
+        "<7BEB494D4E69964C8292CE4EDA2B981101896224@LAUREL.ads.warwick.ac.uk>",
+        "<4919A50DE4014143B6F13F9377E346E001CAA674@HOLLY.ads.warwick.ac.uk>"
+      ],
+      "body_plain": "This is a reminder that the deadline for abstract submission and early bird registration for the R User Conference 2011 is April 1st.\n \nuseR! 2011\nhttp://www.R-project.org/useR-2011\n \nA conference centred on the use of R for data analysis and statistical\ncomputing.\n \nAugust 16-18, University of Warwick, Coventry, UK\n \nCONTRIBUTED TALKS/POSTERS **DEADLINE APRIL 1**\nhttp://www.R-project.org/useR-2011/#Call\nAbstracts are invited on innovative or interesting applications of R.\n \nREGISTRATION **EARLY BIRD DEADLINE APRIL 1**\nhttp://www.R-project.org/useR-2011/registration\nEarly bird rates are ?100/?200/?300 for student/academic/other respectively.\n \nPRE-CONFERENCE TUTORIALS, AUGUST 15\nhttp://www.R-project.org/useR-2011/tutorials\nA range of half-day tutorials presented by R experts.\n \nINVITED SPEAKERS\nhttp://www.R-project.org/useR-2011/invited\nAdrian Bowman, Lee Edlefsen, Ulrike Gr?mping, Wolfgang Huber, Brian\nRipley, Jonathan Rougier, Simon Urbanek, and Brandon Whitcher.\n  \n**New for useR! 2011**\nAll participants are invited to present a Lightning Talk, for which no\nabstract is required.\nhttp://www.R-project.org/useR-2011/lightning\nThese talks provide a 5-minute platform to speak on any R-related topic\nand should particularly appeal to R newbies. Participants wishing to\ngive such a talk must provide an informative title on their registration\nform.\n\nFurther details including information on accommodation and travel can be\nfound on the conference website.\n\nPlease send enquiries to:\nuseR-2011 at r-project.org \n\nWe hope to see you in Coventry!\n\nOn behalf of the organizing committee:\n\nJohn Aston, Julia Brettschneider, David Firth, Ashley Ford, Ioannis\nKosmidis, Tom Nichols, Jennifer Rogers, Elke Th?nnes and Heather Turner\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "This is a reminder that the deadline for abstract submission and early bird registration for the R User Conference 2011 is April 1st.\n \nuseR! 2011\nhttp://www.R-project.org/useR-2011\n \nA conference cen",
+      "thread_id": "thread-e7bbbae223a2",
+      "thread_depth": 0,
+      "month": "2011-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e08f1c8ed311",
+      "subject": "R 2.13.0 scheduled for April 13",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2011-03-13T10:55:37+01:00",
+      "last_reply": "2011-03-13T10:55:37+01:00",
+      "root_message_id": "msg-e08f1c8ed311"
+    },
+    {
+      "id": "thread-e7bbbae223a2",
+      "subject": "CONFERENCE: useR! 2011, August 16-18, University of Warwick, early bird deadline",
+      "message_count": 1,
+      "participants": [
+        "useR! 2011, Resource"
+      ],
+      "started": "2011-03-21T10:41:00+00:00",
+      "last_reply": "2011-03-21T10:41:00+00:00",
+      "root_message_id": "msg-e7bbbae223a2"
+    }
+  ]
+}

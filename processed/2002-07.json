@@ -1,0 +1,92 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2002-07",
+  "messages": [
+    {
+      "id": "msg-8b04fb6d1cc8",
+      "message_id": "<E17PiWq-0000bf-00@DMjcadima>",
+      "from_name": "Jorge Cadima",
+      "from_email_hash": "a263d5a66379eed6efe61017b0d94c4dcb2bc08bbac49d7abd304fb5bd8e4523",
+      "date": "2002-07-03T12:42:35+01:00",
+      "subject": "No subject",
+      "subject_clean": "No subject",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new  version (0.2) of package 'subselect' has been uploaded to CRAN.\n\nPackage 'subselect' provides functions to carry out local search\nalgorithms for k-variable subsets that are optimal, as surrogates for\nthe full (p-variable, p > k) data sets, under three different criteria.\n\nThe functions 'rm.coef', 'rv.coef' and 'gcd.coef' assess the quality\nof given k-subsets of variables under the following three \ncriteria: RM (McCabe's second criterion for Principal Variables, which\nmeasures the quality of the subset as a linear predictor of all the\nvariables), RV (based on Escoufier's RV-criterion, which measures the\nsimilarity of the n point configurations defined by the original p variables\nand the n point configuration resulting from the regression of all variables\non a k-subset of the variables) and GCD (based on Yanai's GCD, and which\nmeasures the similarity of the subspaces spanned by a k-variable subset, and\na subset of g Principal Components of the full data set). \n\nThree additional functions, 'anneal', 'genetic' and 'improve', search for\noptimal k-variable subsets under those criteria, using three different\nalgorithms: a simulated annealing algorithm, a genetic algorithm and a\nrestricted local improvement algorithm. For computational efficiency, the\nbasic code implementing these algorithms is written in Fortran (with calls\nto Lapack subroutines), but the R functions provide a user-friendly\ninterface where many parameters associated with the algorithms can be\nspecified. Among the options, the user can control the number of\niterations, initial temperature, cooling factors  \nand cooling frequency in simulated annealing, and the number of generations,\npopulation size, admissibility of clones and presence and frequency of\nmutations in the \ngenetic algorithm. For all algorithms, it is possible to specify the number\nof solutions required in one or more cardinalities, to specify the initial\nsolutions and to force the solutions to include and/or to exclude given\nsubsets of variables. The results of these functions are lists of R objects\ndetailing the resulting subsets and values of criteria, which can be\nmanipulated in R. \n\nThere is a CHANGELOG file in subdirectory 'inst' documenting changes\nfrom Version 0.1.\n\nHere is the DESCRIPTION file for the package:\n\nPackage: subselect\nVersion: 0.2-0\nDate: 2002/06/20\nTitle: Selecting variable subsets. \nAuthor: Jorge Orestes Cerdeira <orestes at isa.utl.pt>\n        Jorge Cadima <jcadima at isa.utl.pt>\n        Manuel Minhoto <minhoto at uevora.pt>\nMaintainer: Jorge Cadima <jcadima at isa.utl.pt>\nDescription: A collection of functions which assess the quality of\nvariable subsets as surrogates for a full data set using three\ndifferent criteria (Yanais' GCD, Escoufier's RV and McCabe's RM), and\nsearch for subsets which are optimal under those criteria, using a\nsimulated annealing algorithm, a genetic algorithm, or a restricted\nlocal improvement algorithm.\nLicense: GPL\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new  version (0.2) of package 'subselect' has been uploaded to CRAN.\n\nPackage 'subselect' provides functions to carry out local search\nalgorithms for k-variable subsets that are optimal, as surrogat",
+      "thread_id": "thread-8b04fb6d1cc8",
+      "thread_depth": 0,
+      "month": "2002-07"
+    },
+    {
+      "id": "msg-c73bccef4595",
+      "message_id": "<p05111b02b9630a3ef122@[217.88.224.76]>",
+      "from_name": "G. Sawitzki",
+      "from_email_hash": "b235128b50c97d6fb85da3d4af0ea4166f3e3bd45fbb4d25613db10a2d6ecff1",
+      "date": "2002-07-23T15:30:07+02:00",
+      "subject": "Quartz ?",
+      "subject_clean": "Quartz ?",
+      "in_reply_to": "<C79F1393-83C2-11D6-9F70-003065A21C86@stat.ucla.edu>",
+      "references": [
+        "<C79F1393-83C2-11D6-9F70-003065A21C86@stat.ucla.edu>"
+      ],
+      "body_plain": "Jan,\n\n  the current development version of R does not build in my \nenvironment. Is a compiled/packed version with Quartz support on the \nnet somewhere? Is quartz() the right incantation?\n\n  Greetings,\n   g.\n\nP.S. S. Urbanek from Augsburg has fixed SJava for MacX. I have asked \nhim to pass his patches to Duncan.\n   g.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Jan,\n\n  the current development version of R does not build in my \nenvironment. Is a compiled/packed version with Quartz support on the \nnet somewhere? Is quartz() the right incantation?\n\n  Greetings,",
+      "thread_id": "thread-c73bccef4595",
+      "thread_depth": 0,
+      "month": "2002-07"
+    },
+    {
+      "id": "msg-e4e8efa25b4a",
+      "message_id": "<Pine.LNX.4.31.0207302019340.11520-100000@matheron.estadi.uv.es>",
+      "from_name": "virgil at uv.es",
+      "from_email_hash": "adba6f97a489d8d386a397d35611fe5655201163d1ab3cd4127f665a8a412a41",
+      "date": "2002-07-30T20:26:02+02:00",
+      "subject": "RArcInfo 0.3",
+      "subject_clean": "RArcInfo 0.3",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\nA new release of the package RArcInfo is out. I have just uploaded it to\nCRAN. This package allows the user to import Arc/Info Version 7.x binary\ncoverages into R.\n\n The improvements in this release are:\n\n- Proper compiling under 'Big endian' platforms.\n\n- A new function (read.coverage) has been added for easier coverage\nimporting. PLease, read the documentation before using it.\n\n- Plots now are resized according the proportions of the map.\n\n- Minor bug fixes.\n\nI hope you find the package interesting and useful.\n\nRegards and have a good holidays,\n\n             Virgilio G?mez Rubio\n\nDpto. Estad?stica e I. O. - Facultat de Matem?tiques\nAvda. Vicent A. Estell?s, 1 - 46100 Burjassot\nValencia - SPAIN\n\nTLF: 00 32 96 386 43 62 - FAX: 00 32 96 398 35 99\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\nA new release of the package RArcInfo is out. I have just uploaded it to\nCRAN. This package allows the user to import Arc/Info Version 7.x binary\ncoverages into R.\n\n The improvements in this rele",
+      "thread_id": "thread-e4e8efa25b4a",
+      "thread_depth": 0,
+      "month": "2002-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8b04fb6d1cc8",
+      "subject": "No subject",
+      "message_count": 1,
+      "participants": [
+        "Jorge Cadima"
+      ],
+      "started": "2002-07-03T12:42:35+01:00",
+      "last_reply": "2002-07-03T12:42:35+01:00",
+      "root_message_id": "msg-8b04fb6d1cc8"
+    },
+    {
+      "id": "thread-c73bccef4595",
+      "subject": "Quartz ?",
+      "message_count": 1,
+      "participants": [
+        "G. Sawitzki"
+      ],
+      "started": "2002-07-23T15:30:07+02:00",
+      "last_reply": "2002-07-23T15:30:07+02:00",
+      "root_message_id": "msg-c73bccef4595"
+    },
+    {
+      "id": "thread-e4e8efa25b4a",
+      "subject": "RArcInfo 0.3",
+      "message_count": 1,
+      "participants": [
+        "virgil at uv.es"
+      ],
+      "started": "2002-07-30T20:26:02+02:00",
+      "last_reply": "2002-07-30T20:26:02+02:00",
+      "root_message_id": "msg-e4e8efa25b4a"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2002-03",
+  "messages": [
+    {
+      "id": "msg-2becd4867983",
+      "message_id": "<Pine.LNX.4.31.0203081511270.4486-100000@matheron.estadi.uv.es>",
+      "from_name": "virgil at uv.es",
+      "from_email_hash": "adba6f97a489d8d386a397d35611fe5655201163d1ab3cd4127f665a8a412a41",
+      "date": "2002-03-08T15:24:15+01:00",
+      "subject": "RArcInfo 0.2 Released (Source and Windows binary)",
+      "subject_clean": "RArcInfo 0.2 Released (Source and Windows binary)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hello,\n\n I have uploaded a new release of the package RArcInfo. It allows the\nuser to import Arc/Info V7.x binary coverages into R and to plot maps\nwith them.\n\nAt CRAN, you can find the source code together with a precompiled package\nfor Windows.\n\nThe news in this release are:\n\n* V 0.2\n- Added a new function to plot polygons (plotpoly).\n- get.tabledata labels the columns using get.tablefields.\n- Added a function to import TXT data (get_txt_data).\n- Fixed a bug in the documentation. \"infodir\" has been changed to\n\"datadir\" in most functions.\n- Added a new manual page about the whole package. Try 'help(RArcInfo)'.\n\n\nEnjoy!,\n\n Virgilio\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hello,\n\n I have uploaded a new release of the package RArcInfo. It allows the\nuser to import Arc/Info V7.x binary coverages into R and to plot maps\nwith them.\n\nAt CRAN, you can find the source code to",
+      "thread_id": "thread-2becd4867983",
+      "thread_depth": 0,
+      "month": "2002-03"
+    },
+    {
+      "id": "msg-760d625a442a",
+      "message_id": "<15496.57143.14805.650186@celeborn.leisch.at>",
+      "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2002-03-08T16:56:39+01:00",
+      "subject": "R News Volume 2/1",
+      "subject_clean": "R News Volume 2/1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We have just published the fourth issue of R News on\n\n        http://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or postscript file. It\nwill propagate to the CRAN mirrors within a day or two.\n\nThis is the first special issue of R News, with an emphasis on\napplying R in medical statistics.  It is special in many ways: first,\nit took longer to prepare than we had originally antipicated (which\ntypically seems to happen for special issues).  Second, the newsletter\nfile is rather large as there are many exciting images---in fact, in\ntrying to keep the size reasonable, in some cases images are only\nincluded at a lower resolution, with the ``real stuff'' available from\nthe respective authors' web pages.  And finally, articles are fewer\nbut longer: as many of the applications described are based on recent\nadvances in medical technology, we felt that extra space with\nbackground information was warranted.\n\nContents:\n\nReading foreign files\nMaximally selected rank statistics in R.\nQuality control and early diagnostics for cDNA microarrays.\nBioconductor.\nAnalyzeFMRI: An R package for the exploration and analysis of MRI and\n  fMRI datasets. \nUsing R for the analysis of DNA microarray data.\nChanges in R\nChanges on CRAN\n\n\nwhich makes a total of 41 pages.\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We have just published the fourth issue of R News on\n\n        http://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or postscript file. It\nwill propagate to the CRAN mirror",
+      "thread_id": "thread-760d625a442a",
+      "thread_depth": 0,
+      "month": "2002-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2becd4867983",
+      "subject": "RArcInfo 0.2 Released (Source and Windows binary)",
+      "message_count": 1,
+      "participants": [
+        "virgil at uv.es"
+      ],
+      "started": "2002-03-08T15:24:15+01:00",
+      "last_reply": "2002-03-08T15:24:15+01:00",
+      "root_message_id": "msg-2becd4867983"
+    },
+    {
+      "id": "thread-760d625a442a",
+      "subject": "R News Volume 2/1",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at ci.tuwien.ac.at"
+      ],
+      "started": "2002-03-08T16:56:39+01:00",
+      "last_reply": "2002-03-08T16:56:39+01:00",
+      "root_message_id": "msg-760d625a442a"
+    }
+  ]
+}

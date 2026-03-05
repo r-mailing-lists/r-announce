@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2015-10",
+  "messages": [
+    {
+      "id": "msg-b4e790d29f99",
+      "message_id": "<1445519194.6634.174.camel@r-project.org>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "a172213f54d02d8c46cd36ac95c2aaea4439b79c8fce553fb5a7295ac50db5d7",
+      "date": "2015-10-22T15:06:34+02:00",
+      "subject": "Codes of Conduct at R Conferences",
+      "subject_clean": "Codes of Conduct at R Conferences",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The useR! conferences in 2014 and 2015 both had codes of conduct in\norder to ensure an experience free from harassment for all participants.\nAfter a request from some members of the R community, the R Foundation\nhas decided to endorse this practice. Future conferences supported by\nthe R Foundation must have a code of conduct.  We encourage other R\nmeetings not affiliated with the R Foundation to adopt the same policy.\n\nA code of conduct serves two important purposes. Firstly, it sends a\nclear message to those outside the community that an R conference is a\nprofessional and comfortable working environment for all participants.\nSecondly, it provides a mechanism for reporting and monitoring any\nincidents of harassment that may occur.\n\nWe have decided not to require a particular formulation for the code of\nconduct, but suggest that conference organizers use the model of the\nuseR! 2015 meeting ( http://user2015.math.aau.dk/behaviouR ). This will\nallow the code to be adapted to local circumstances and to evolve in the\nfuture. Conference organizers should ensure that any sanctions laid out\nin the code of conduct are legally and practically enforceable. \n\nVigorous debate and lively exchange are important features of R\nconferences. We expect this to continue within the boundaries set by the\ncode of conduct.\n\nFor the R Foundation\nMartyn Plummer, Co-President\n\n-----------------------------------------------------------------------\nThis message and its attachments are strictly confidenti...{{dropped:8}}",
+      "body_snippet": "The useR! conferences in 2014 and 2015 both had codes of conduct in\norder to ensure an experience free from harassment for all participants.\nAfter a request from some members of the R community, the R",
+      "thread_id": "thread-b4e790d29f99",
+      "thread_depth": 0,
+      "month": "2015-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b4e790d29f99",
+      "subject": "Codes of Conduct at R Conferences",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2015-10-22T15:06:34+02:00",
+      "last_reply": "2015-10-22T15:06:34+02:00",
+      "root_message_id": "msg-b4e790d29f99"
+    }
+  ]
+}

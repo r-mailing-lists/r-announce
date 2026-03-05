@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2003-05",
+  "messages": [
+    {
+      "id": "msg-2303f144e4fb",
+      "message_id": "<5.1.0.14.2.20030526102510.01ea68e0@mcmail.cis.mcmaster.ca>",
+      "from_name": "John Fox",
+      "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
+      "date": "2003-05-26T10:27:53-04:00",
+      "subject": "new cross-platform basic-statistics GUI",
+      "subject_clean": "new cross-platform basic-statistics GUI",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R-announce list members,\n\nI've submitted a new package to CRAN, Rcmdr, which provides a \ncross-platform basic-statistics GUI for R. Rcmdr is based on the tcltk \npackage and uses only standard Tk widgets. It therefore runs under Windows \nif Tcl/Tk support is installed with R, although it requires the \nsingle-document interface (SDI). I've tested Rcmdr with Windows and Red Hat \nLinux; others have reported that it works on other Linux/Unix and Macintosh \nsystems (the latter under X11).\n\nThe R-Commander GUI consists of a window containing several menus, buttons, \nand information fields. The Commander window also contains a log/script \nbox. The R-Commander menus are easily configurable through a text file. The \nmenu tree and additional information are available at \n<http://www.socsci.mcmaster.ca/jfox/Misc/Rcmdr/>.\n\nThe menus lead to simple dialog boxes, the general contents of which are \nmore or less obvious from the names of the menu items. These boxes have a \ncommon structure, including a help button leading to the help page for a \nrelevant function.\n\nCommands generated via dialogs are posted to the R session window, along \nwith printed output, and to the log window. Lines in the log window may be \nedited and (re)submitted for execution. Logs can be saved and reloaded.\n\nMy object in designing and implementing this GUI was to cover the content \nof a basic-statistics course. The target text was Moore's The Basic \nPractice of Statistics, Second Edition (Freeman, 2000), which is the text \nthat I currently use for a two-semester introduction to statistics for \nundergraduate sociology majors. The R Commander implements the content of \nthis text plus some additional material (e.g., linear and generalized \nlinear models). As a result of several suggestions that I received, the \ncoverage is now larger than originally envisaged, and I'm happy to \nentertain suggestions for further additions -- keeping in mind, however, \nthe intended limited scope of the project.\n\nUntil the package appears on CRAN, you can download the package source and \na Windows binary from my web site. The Rcmdr package mostly uses functions \nin the base and recommended packages; it also uses some functions in my car \npackage.\n\nJohn\n\n-----------------------------------------------------\nJohn Fox\nDepartment of Sociology\nMcMaster University\nHamilton, Ontario, Canada L8S 4M4\nemail: jfox at mcmaster.ca\nphone: 905-525-9140x23604\nweb: www.socsci.mcmaster.ca/jfox",
+      "body_snippet": "Dear R-announce list members,\n\nI've submitted a new package to CRAN, Rcmdr, which provides a \ncross-platform basic-statistics GUI for R. Rcmdr is based on the tcltk \npackage and uses only standard Tk ",
+      "thread_id": "thread-2303f144e4fb",
+      "thread_depth": 0,
+      "month": "2003-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2303f144e4fb",
+      "subject": "new cross-platform basic-statistics GUI",
+      "message_count": 1,
+      "participants": [
+        "John Fox"
+      ],
+      "started": "2003-05-26T10:27:53-04:00",
+      "last_reply": "2003-05-26T10:27:53-04:00",
+      "root_message_id": "msg-2303f144e4fb"
+    }
+  ]
+}

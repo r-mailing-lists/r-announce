@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2000-07",
+  "messages": [
+    {
+      "id": "msg-02f70fa61687",
+      "message_id": "<Pine.LNX.4.10.10007030943090.7217-100000@xenia.sote.hu>",
+      "from_name": "Tornoci Laszlo",
+      "from_email_hash": "b2b24da313e33ebde60af26e93d366f4d0a99c8eb53aaee5bf373e3c636a61ca",
+      "date": "2000-07-03T09:51:22+02:00",
+      "subject": "A new mirror site in Hungary",
+      "subject_clean": "A new mirror site in Hungary",
+      "in_reply_to": "<14681.50931.593674.41223@galadriel.ci.tuwien.ac.at>",
+      "references": [],
+      "body_plain": "Hi,\n\nI have set up a mirror of CRAN at xenia.sote.hu (193.6.210.44).\n\nIt is accessible by:\nftp://cran.hu.r-project.org/pub/mirrors/CRAN\nrsync://cran.hu.r-project.org/CRAN\nhttp://cran.hu.r-project.org\n \nThe mirror gets updated daily. If you have any problems accessing it,\nplease inform me: <Laszlo Tornoci> torlasz at xenia.sote.hu\n\n                                  Yours: Laszlo\n\n----------------------------------------------------------------------\nLaszlo L Tornoci                            Inst Pathophysiology\nE-mail: torlasz at xenia.sote.hu               Semmelweis Univ Med School\n        torlasz at net.sote.hu                 Nagyvarad ter 4.\nfax:    (36-1)-210-4409                     Budapest, H-1089, Hungary\n----------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\nI have set up a mirror of CRAN at xenia.sote.hu (193.6.210.44).\n\nIt is accessible by:\nftp://cran.hu.r-project.org/pub/mirrors/CRAN\nrsync://cran.hu.r-project.org/CRAN\nhttp://cran.hu.r-project.org\n",
+      "thread_id": "thread-02f70fa61687",
+      "thread_depth": 0,
+      "month": "2000-07"
+    },
+    {
+      "id": "msg-0376b0dc80b1",
+      "message_id": "<396CE292.AA2D74F8@nceas.ucsb.edu>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
+      "date": "2000-07-12T14:26:42-07:00",
+      "subject": "New release of RPgSQL",
+      "subject_clean": "New release of RPgSQL",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've done some major house cleaning on RPgSQL.  The latest release is\navailable at http://rpgsql.sourceforge.net/ and should soon appear on\nCRAN.\n\nCheers,\nTim\n\n-- \nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n735 State Street, Suite 300, Santa Barbara, CA 93101\nPhone: 805-892-2519, FAX: 805-892-2510\nhttp://www.nceas.ucsb.edu/~keitt/\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've done some major house cleaning on RPgSQL.  The latest release is\navailable at http://rpgsql.sourceforge.net/ and should soon appear on\nCRAN.\n\nCheers,\nTim\n\n-- \nTimothy H. Keitt\nNational Center for",
+      "thread_id": "thread-0376b0dc80b1",
+      "thread_depth": 0,
+      "month": "2000-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-02f70fa61687",
+      "subject": "A new mirror site in Hungary",
+      "message_count": 1,
+      "participants": [
+        "Tornoci Laszlo"
+      ],
+      "started": "2000-07-03T09:51:22+02:00",
+      "last_reply": "2000-07-03T09:51:22+02:00",
+      "root_message_id": "msg-02f70fa61687"
+    },
+    {
+      "id": "thread-0376b0dc80b1",
+      "subject": "New release of RPgSQL",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "2000-07-12T14:26:42-07:00",
+      "last_reply": "2000-07-12T14:26:42-07:00",
+      "root_message_id": "msg-0376b0dc80b1"
+    }
+  ]
+}

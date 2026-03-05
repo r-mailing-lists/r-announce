@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2017-08",
+  "messages": [
+    {
+      "id": "msg-e1df44cc3b18",
+      "message_id": "<C9C9C9EB-50D7-4656-A3E7-FA53A86BE199@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2017-08-31T12:46:18Z",
+      "subject": "R 3.4.2  scheduled for September 28",
+      "subject_clean": "R 3.4.2  scheduled for September 28",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Full schedule available on developer.r-project.org (pending auto-update from SVN)\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Full schedule available on developer.r-project.org (pending auto-update from SVN)\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg",
+      "thread_id": "thread-e1df44cc3b18",
+      "thread_depth": 0,
+      "month": "2017-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-e1df44cc3b18",
+      "subject": "R 3.4.2  scheduled for September 28",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2017-08-31T12:46:18+00:00",
+      "last_reply": "2017-08-31T12:46:18+00:00",
+      "root_message_id": "msg-e1df44cc3b18"
+    }
+  ]
+}

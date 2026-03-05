@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2012-07",
+  "messages": [
+    {
+      "id": "msg-962ffd2b0dd9",
+      "message_id": "<1341993446.1963.42.camel@braque.iarc.fr>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "bcc3467147417e7930b92295d6b6e1e40d825ba4817d5fd5066dc9d092f633fb",
+      "date": "2012-07-11T09:57:26+02:00",
+      "subject": "The R Journal, Vol. 4 Issue 1",
+      "subject_clean": "The R Journal, Vol. 4 Issue 1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear All,\n\nThe first issue of the fourth volume of The R Journal is now available\nat http://journal.r-project.org/current.html\n\nThanks to everyone involved.\n\nMartyn Plummer\nEditor-in-Chief\n\n\n-----------------------------------------------------------------------\nThis message and its attachments are strictly confidenti...{{dropped:8}}",
+      "body_snippet": "Dear All,\n\nThe first issue of the fourth volume of The R Journal is now available\nat http://journal.r-project.org/current.html\n\nThanks to everyone involved.\n\nMartyn Plummer\nEditor-in-Chief\n\n\n---------",
+      "thread_id": "thread-962ffd2b0dd9",
+      "thread_depth": 0,
+      "month": "2012-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-962ffd2b0dd9",
+      "subject": "The R Journal, Vol. 4 Issue 1",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2012-07-11T09:57:26+02:00",
+      "last_reply": "2012-07-11T09:57:26+02:00",
+      "root_message_id": "msg-962ffd2b0dd9"
+    }
+  ]
+}

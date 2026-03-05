@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2018-01",
+  "messages": [
+    {
+      "id": "msg-2a4c6a1ddcd2",
+      "message_id": "<alpine.LFD.2.21.1801291245030.4114@reclus.nhh.no>",
+      "from_name": "Roger Bivand",
+      "from_email_hash": "a0c87926e9477aa221755cc93bdef47227c3563fd707e66ae49044467663d168",
+      "date": "2018-01-29T13:24:58+01:00",
+      "subject": "The R Journal, Volume 9, Issue 2",
+      "subject_clean": "The R Journal, Volume 9, Issue 2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear all,\n\nThe latest issue of The R Journal is now available at:\n\nhttps://journal.r-project.org/archive/2017-2/.\n\nNew this time - quick access to news and notes 2013-to date in the \nnavigation bar to the left including new Forwards and R-teaching columns; \narticles in 2017-2 may link to code and other supplementary matter from \nlanding pages.\n\nMany thanks to all contributors - especially reviewers and authors.\n\nBest wishes,\n\nRoger\n\n-- \nRoger Bivand\nDepartment of Economics, Norwegian School of Economics,\nHelleveien 30, N-5045 Bergen, Norway.\nvoice: +47 55 95 93 55; e-mail: Roger.Bivand at nhh.no\nhttp://orcid.org/0000-0003-2392-6140\nhttps://scholar.google.no/citations?user=AWeghB0AAAAJ&hl=en",
+      "body_snippet": "Dear all,\n\nThe latest issue of The R Journal is now available at:\n\nhttps://journal.r-project.org/archive/2017-2/.\n\nNew this time - quick access to news and notes 2013-to date in the \nnavigation bar to",
+      "thread_id": "thread-2a4c6a1ddcd2",
+      "thread_depth": 0,
+      "month": "2018-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-2a4c6a1ddcd2",
+      "subject": "The R Journal, Volume 9, Issue 2",
+      "message_count": 1,
+      "participants": [
+        "Roger Bivand"
+      ],
+      "started": "2018-01-29T13:24:58+01:00",
+      "last_reply": "2018-01-29T13:24:58+01:00",
+      "root_message_id": "msg-2a4c6a1ddcd2"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2018-09",
+  "messages": [
+    {
+      "id": "msg-4bf414bcee7c",
+      "message_id": "<CA+aisX1L1A2qzn1cux+xyHAyK=YHAAA8ezhNoOtmdhGfhFrzBg@mail.gmail.com>",
+      "from_name": "Martyn Plummer",
+      "from_email_hash": "8d038229f1ee71ae10452a65edb4783350c09f16ad799801602b2225714ff9af",
+      "date": "2018-09-21T12:22:11+01:00",
+      "subject": "Call for Proposals to host userR! 2020",
+      "subject_clean": "Call for Proposals to host userR! 2020",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The R Foundation Conference Committee has published a call for proposals to\nhost the useR! 2020 conference in North America. For details see:\n\nhttps://www.r-project.org/useR-2020_call.html\n\nThe deadline for submissions is 16 November.\n\nOn behalf of the R Foundation.\nMartyn Plummer\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "The R Foundation Conference Committee has published a call for proposals to\nhost the useR! 2020 conference in North America. For details see:\n\nhttps://www.r-project.org/useR-2020_call.html\n\nThe deadli",
+      "thread_id": "thread-4bf414bcee7c",
+      "thread_depth": 0,
+      "month": "2018-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-4bf414bcee7c",
+      "subject": "Call for Proposals to host userR! 2020",
+      "message_count": 1,
+      "participants": [
+        "Martyn Plummer"
+      ],
+      "started": "2018-09-21T12:22:11+01:00",
+      "last_reply": "2018-09-21T12:22:11+01:00",
+      "root_message_id": "msg-4bf414bcee7c"
+    }
+  ]
+}

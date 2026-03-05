@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2014-09",
+  "messages": [
+    {
+      "id": "msg-a90c81a19980",
+      "message_id": "<CAGYbZUDSY-uh7svf4QO4=F8xgvsCHLshCEUuD7adfgdbNnRYDg@mail.gmail.com>",
+      "from_name": "Robert Gentleman",
+      "from_email_hash": "12c7439ade453dc62b9fec8ce5bd0f33b8a75f01b0092f6b408307065ed51b3c",
+      "date": "2014-09-15T09:36:17-07:00",
+      "subject": "Updates to R Core and R Foundation Membership",
+      "subject_clean": "Updates to R Core and R Foundation Membership",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n  It is my pleasure to announce new members to R Core and to the R\nFoundation\n whose efforts will be most appreciated as R continues to evolve and\nadvance.\n\n    There are 2 new R core members:  Martin Morgan and Michael Lawrence.\n    In addition Stefano Iacus has decided to step down from R Core.\n\n   There are 7 new R foundation members:\n  Dirk Eddelbuettel, Torsten Hothorn, Marc Schwartz,\n  Hadley Wickham, and Achim Zeileis, Martin Morgan and Michael Lawrence.\n  The R Foundation now has 29 ordinary members.\n\n  Please join me in welcoming them to their new roles and especially in\nthanking\n Stefano for his many years of contributions.\n\n\n  best wishes\n    Robert\n\n for the R Foundation\n\n-- \nRobert Gentleman\nrgentlem at gmail.com\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\n  It is my pleasure to announce new members to R Core and to the R\nFoundation\n whose efforts will be most appreciated as R continues to evolve and\nadvance.\n\n    There are 2 new R core members:",
+      "thread_id": "thread-a90c81a19980",
+      "thread_depth": 0,
+      "month": "2014-09"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-a90c81a19980",
+      "subject": "Updates to R Core and R Foundation Membership",
+      "message_count": 1,
+      "participants": [
+        "Robert Gentleman"
+      ],
+      "started": "2014-09-15T09:36:17-07:00",
+      "last_reply": "2014-09-15T09:36:17-07:00",
+      "root_message_id": "msg-a90c81a19980"
+    }
+  ]
+}

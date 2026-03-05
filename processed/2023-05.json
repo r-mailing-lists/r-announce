@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2023-05",
+  "messages": [
+    {
+      "id": "msg-aab392c5d47b",
+      "message_id": "<CAAsRM+CLSMKrgRQ5ddxbdE8X_Lxzw6X2K5FtQ_CZDwFH5ndjAg@mail.gmail.com>",
+      "from_name": "Black, James",
+      "from_email_hash": "a5c71bd65a469f8ab03ceee4d943379f7d35ddc2c3b80d07b1ebaad4d4ec79f7",
+      "date": "2023-05-18T14:16:01+02:00",
+      "subject": "useR 2023 regional events",
+      "subject_clean": "useR 2023 regional events",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "With the support of the R Foundation Conference Committee, we are happy to\nannounce the promotion of regional R events to connect our R community and\nbridge us till useR! 2024.\n\nOn July 21st we hold an event in Basel, with all ticket sales for the\nBasel event being directly donated to the R Foundation. Similar events are\nbeing planned in Shanghai and San Francisco this summer.\n\nBasel event link (call for abstracts is currently open):\nhttps://user-regional-2023.gitlab.io/basel/\n\nWe also wanted to help promote events beyond those organised in\ncollaboration with the R Foundation and R User Group (RUGs), so are hosting\nthis dashboard of R events this summer which will also include the Shanghai\nand San Francisco events when they are launched:\nhttps://user-regional-2023.gitlab.io/user-regional-2023.io/\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "With the support of the R Foundation Conference Committee, we are happy to\nannounce the promotion of regional R events to connect our R community and\nbridge us till useR! 2024.\n\nOn July 21st we hold a",
+      "thread_id": "thread-aab392c5d47b",
+      "thread_depth": 0,
+      "month": "2023-05"
+    },
+    {
+      "id": "msg-2d0e61f805fb",
+      "message_id": "<F0BAE012-7041-443D-A95E-D03465D55024@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "d9fd91d299a75b5bb12e8fe56282f6e3ab90721fbb5cc61dd67258dc21f7ad2a",
+      "date": "2023-05-25T13:44:18Z",
+      "subject": "[Rd] R 4.3.1 scheduled for June 16",
+      "subject_clean": "R 4.3.1 scheduled for June 16",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Full schedule available on developer.r-project.org in a short while.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Full schedule available on developer.r-project.org in a short while.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPho",
+      "thread_id": "thread-2d0e61f805fb",
+      "thread_depth": 0,
+      "month": "2023-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-aab392c5d47b",
+      "subject": "useR 2023 regional events",
+      "message_count": 1,
+      "participants": [
+        "Black, James"
+      ],
+      "started": "2023-05-18T14:16:01+02:00",
+      "last_reply": "2023-05-18T14:16:01+02:00",
+      "root_message_id": "msg-aab392c5d47b"
+    },
+    {
+      "id": "thread-2d0e61f805fb",
+      "subject": "R 4.3.1 scheduled for June 16",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2023-05-25T13:44:18+00:00",
+      "last_reply": "2023-05-25T13:44:18+00:00",
+      "root_message_id": "msg-2d0e61f805fb"
+    }
+  ]
+}

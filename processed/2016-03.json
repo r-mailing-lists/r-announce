@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2016-03",
+  "messages": [
+    {
+      "id": "msg-ebd5495246e3",
+      "message_id": "<F7BD53EB-4322-41F1-9045-577F9E1D2502@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2016-03-10T09:45:50Z",
+      "subject": "R 3.2.4 is released",
+      "subject_clean": "R 3.2.4 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The build system rolled up  R-3.2.4.tar.gz (codename \"Very Secure Dishes\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/base/R-3/R-3.2.4.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n\nFor the R Core Team,\n\nPeter Dalgaard\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n\nMD5 (AUTHORS) = eb97a5cd38acb1cfc6408988bffef765\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = d2e93152b963acbb53027c355dda539a\nMD5 (INSTALL) = 3964b9119adeaab9ceb633773fc94aac\nMD5 (NEWS) = 087f64ddfe922d2a565ff64bb8543039\nMD5 (NEWS.0) = bfcd7c147251b5474d96848c6f57e5a8\nMD5 (NEWS.1) = eb78c4d053ec9c32b815cf0c2ebea801\nMD5 (NEWS.2) = 8e2f4d1d5228663ae598a09bf1e2bc6b\nMD5 (R-latest.tar.gz) = 5953104583ed93dc2085a6c80e884e4a\nMD5 (README) = aece1dfbd18c1760128c3787f5456af6\nMD5 (RESOURCES) = 529223fd3ffef95731d0a87353108435\nMD5 (THANKS) = ba00f6cc68a823e1741cfa6011f40ccb\nMD5 (VERSION-INFO.dcf) = 71584fcd5c399b40750fcd7113521636\nMD5 (R-3/R-3.2.4.tar.gz) = 5953104583ed93dc2085a6c80e884e4a\n\n\nThis is the relevant part of the NEWS file\n\nCHANGES IN R 3.2.4:\n\n  NEW FEATURES:\n\n    * install.packages() and related functions now give a more\n      informative warning when an attempt is made to install a base\n      package.\n\n    * summary(x) now prints with less rounding when x contains infinite\n      values. (Request of PR#16620.)\n\n    * provideDimnames() gets an optional unique argument.\n\n    * shQuote() gains type = \"cmd2\" for quoting in cmd.exe in Windows.\n      (Response to PR#16636.)\n\n    * The data.frame method of rbind() gains an optional argument\n      stringsAsFactors (instead of only depending on\n      getOption(\"stringsAsFactors\")).\n\n    * smooth(x, *) now also works for long vectors.\n\n    * tools::texi2dvi() has a workaround for problems with the texi2dvi\n      script supplied by texinfo 6.1.\n\n      It extracts more error messages from the LaTeX logs when in\n      emulation mode.\n\n  UTILITIES:\n\n    * R CMD check will leave a log file build_vignettes.log from the\n      re-building of vignettes in the .Rcheck directory if there is a\n      problem, and always if environment variable\n      _R_CHECK_ALWAYS_LOG_VIGNETTE_OUTPUT_ is set to a true value.\n\n  DEPRECATED AND DEFUNCT:\n\n    * Use of SUPPORT_OPENMP from header Rconfig.h is deprecated in\n      favour of the standard OpenMP define _OPENMP.\n\n      (This has been the recommendation in the manual for a while now.)\n\n    * The make macro AWK which is long unused by R itself but recorded\n      in file etc/Makeconf is deprecated and will be removed in R\n      3.3.0.\n\n    * The C header file S.h is no longer documented: its use should be\n      replaced by R.h.\n\n  BUG FIXES:\n\n    * kmeans(x, centers = <1-row>) now works. (PR#16623)\n\n    * Vectorize() now checks for clashes in argument names.  (PR#16577)\n\n    * file.copy(overwrite = FALSE) would signal a successful copy when\n      none had taken place.  (PR#16576)\n\n    * ngettext() now uses the same default domain as gettext().\n      (PR#14605)\n\n    * array(.., dimnames = *) now warns about non-list dimnames and,\n      from R 3.3.0, will signal the same error for invalid dimnames as\n      matrix() has always done.\n\n    * addmargins() now adds dimnames for the extended margins in all\n      cases, as always documented.\n\n    * heatmap() evaluated its add.expr argument in the wrong\n      environment.  (PR#16583)\n\n    * require() etc now give the correct entry of lib.loc in the\n      warning about an old version of a package masking a newer\n      required one.\n\n    * The internal deparser did not add parentheses when necessary,\n      e.g. before [] or [[]].  (Reported by Lukas Stadler; additional\n      fixes included as well).\n\n    * as.data.frame.vector(*, row.names=*) no longer produces\n      'corrupted' data frames from row names of incorrect length, but\n      rather warns about them.  This will become an error.\n\n    * url connections with method = \"libcurl\" are destroyed properly.\n      (PR#16681)\n\n    * withCallingHandler() now (again) handles warnings even during S4\n      generic's argument evaluation.  (PR#16111)\n\n    * deparse(..., control = \"quoteExpressions\") incorrectly quoted\n      empty expressions.  (PR#16686)\n\n    * format()ting datetime objects (\"POSIX[cl]?t\") could segfault or\n      recycle wrongly.  (PR#16685)\n\n    * plot.ts(<matrix>, las = 1) now does use las.\n\n    * saveRDS(*, compress = \"gzip\") now works as documented.\n      (PR#16653)\n\n    * (Windows only) The Rgui front end did not always initialize the\n      console properly, and could cause R to crash.  (PR#16998)\n\n    * dummy.coef.lm() now works in more cases, thanks to a proposal by\n      Werner Stahel (PR#16665).  In addition, it now works for\n      multivariate linear models (\"mlm\", manova) thanks to a proposal\n      by Daniel Wollschlaeger.\n\n    * The as.hclust() method for \"dendrogram\"s failed often when there\n      were ties in the heights.\n\n    * reorder() and midcache.dendrogram() now are non-recursive and\n      hence applicable to somewhat deeply nested dendrograms, thanks to\n      a proposal by Suharto Anggono in PR#16424.\n\n    * cor.test() now calculates very small p values more accurately\n      (affecting the result only in extreme not statistically relevant\n      cases).  (PR#16704)\n\n    * smooth(*, do.ends=TRUE) did not always work correctly in R\n      versions between 3.0.0 and 3.2.3.\n\n    * pretty(D) for date-time objects D now also works well if range(D)\n      is (much) smaller than a second.  In the case of only one unique\n      value in D, the pretty range now is more symmetric around that\n      value than previously.\n\n      Similarly, pretty(dt) no longer returns a length 5 vector with\n      duplicated entries for Date objects dt which span only a few\n      days.\n\n    * The figures in help pages such as ?points were accidentally\n      damaged, and did not appear in R 3.2.3.  (PR#16708)\n\n    * available.packages() sometimes deleted the wrong file when\n      cleaning up temporary files.  (PR#16712)\n\n    * The X11() device sometimes froze on Red Hat Enterprise Linux 6.\n      It now waits for MapNotify events instead of Expose events,\n      thanks to Siteshwar Vashisht. (PR#16497)\n\n    * [dpqr]nbinom(*, size=Inf, mu=.) now works as limit case, for\n      'dpq' as the Poisson.  (PR#16727)\n      pnbinom() no longer loops infinitely in border cases.\n\n    * approxfun(*, method=\"constant\") and hence ecdf() which calls the\n      former now correctly \"predict\" NaN values as NaN.\n\n    * summary.data.frame() now displays NAs in Date columns in all\n      cases.  (PR#16709)\n\n\n\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "The build system rolled up  R-3.2.4.tar.gz (codename \"Very Secure Dishes\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.o",
+      "thread_id": "thread-ebd5495246e3",
+      "thread_depth": 0,
+      "month": "2016-03"
+    },
+    {
+      "id": "msg-86d4e2699d78",
+      "message_id": "<A252BB23-7C0A-4495-AE46-BD0CA1003B6B@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2016-03-16T20:39:53Z",
+      "subject": "R 3.2.4-revised is released",
+      "subject_clean": "R 3.2.4-revised is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The 3.2.4 release had two annoyances which we would rather not have in an \"ultra-stable\" release, designed to hang around for the duration of the 3.3 series. One was a relatively minor Makefile issue affecting system using R's bundled lzma library. The other, rather more serious, affected printing and formatting of POSIXlt objects, which would unpredictably get the Daylight Savings Time wrong.\n\nAccordingly a revised version has been created.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/base/R-3/R-3.2.4-revised.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nMaintainers of binary versions are requested to rebuild their binaries using the revised sources.\n\n\nFor the R Core Team,\n\nPeter Dalgaard\n\nNew md5 sums are\n\nMD5 (NEWS) = b0b43ac87a5b5858098da065966551af\nMD5 (R-3/R-3.2.4-revised.tar.gz) = 552b0c8088bab08ca4188797b919a58f\n\nThe relevant NEWS file entry is\n\n  BUG FIXES:\n\n    ? format.POSIXlt() behaved wrongly, e.g.,\n      format(as.POSIXlt(paste0(1940:2000,\"-01-01\"), tz=\"CET\"),\n      usetz=TRUE) ended in two \"CEST\" time formats.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "The 3.2.4 release had two annoyances which we would rather not have in an \"ultra-stable\" release, designed to hang around for the duration of the 3.3 series. One was a relatively minor Makefile issue ",
+      "thread_id": "thread-86d4e2699d78",
+      "thread_depth": 0,
+      "month": "2016-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-ebd5495246e3",
+      "subject": "R 3.2.4 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2016-03-10T09:45:50+00:00",
+      "last_reply": "2016-03-10T09:45:50+00:00",
+      "root_message_id": "msg-ebd5495246e3"
+    },
+    {
+      "id": "thread-86d4e2699d78",
+      "subject": "R 3.2.4-revised is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2016-03-16T20:39:53+00:00",
+      "last_reply": "2016-03-16T20:39:53+00:00",
+      "root_message_id": "msg-86d4e2699d78"
+    }
+  ]
+}

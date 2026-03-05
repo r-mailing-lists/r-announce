@@ -1,0 +1,117 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2003-07",
+  "messages": [
+    {
+      "id": "msg-085f23eff507",
+      "message_id": "<056e01c34a5c$cbe699c0$3f039a82@rand.org>",
+      "from_name": "Greg Ridgeway",
+      "from_email_hash": "b12cfb043a5966f8848f8e40f9b9253a016be699e0d7afb394a507a7ca35736b",
+      "date": "2003-07-14T16:08:11-07:00",
+      "subject": "package announcement: Generalized Boosted Models (gbm)",
+      "subject_clean": "package announcement: Generalized Boosted Models (gbm)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Generalized Boosted Models (gbm)\n\nThis package implements extensions to Y. Freund and R. Schapire's AdaBoost\nalgorithm and J. Friedman's gradient boosting machine (aka multivariate\nadaptive regression trees, MART). It includes regression methods for least\nsquares, absolute loss, logistic, Poisson, Cox proportional hazards/partial\nlikelihood, and the AdaBoost exponential loss. It handles continuous,\nnominal, ordinal covariates as well as those containing missing values. This\npackage also includes a preliminary out-of-bag estimator for the optimal\nnumber of iterations, graphical tools for lower dimensional projections of\nthe fitted surface, and a few demos of example gbm sessions.\n\ngbm 1.0 will soon appear on CRAN. Earlier versions have been up for a few\nmonths and the latest includes many of the suggestions and fixes sent to me\nby the early adopters.\n\nEnjoy!\n\nGreg\n\n_______________________________________________________________\nGreg Ridgeway, Ph.D.\nStatistician\nRAND\nhttp://www.rand.org/methodology/stat/",
+      "body_snippet": "Generalized Boosted Models (gbm)\n\nThis package implements extensions to Y. Freund and R. Schapire's AdaBoost\nalgorithm and J. Friedman's gradient boosting machine (aka multivariate\nadaptive regression",
+      "thread_id": "thread-085f23eff507",
+      "thread_depth": 0,
+      "month": "2003-07"
+    },
+    {
+      "id": "msg-8c08bb46be13",
+      "message_id": "<16149.5962.212995.750145@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2003-07-16T11:13:46+02:00",
+      "subject": "CRAN package orphanizing process",
+      "subject_clean": "CRAN package orphanizing process",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "As the list of packages on CRAN becomes longer almost on a weekly\nbasis, we need a formal mechanism to handle the case when somebody\nwants to resign from maintaining a package.\n\n\nPossible reasons for orphanizing a package:\n\n1) The current maintainer actively wants to orphanize the package,\n   e.g., because he has no longer the time or interest to act as\n   package maintainer.\n\n2) The current maintainer does not answer to emails by the CRAN admins\n   for longer periods of time.\n\n\nThe orphanizing process:\n\n1) The package gets the special keyword \"ORPHANED\" as maintainer in\n   the DESCRIPTION file, the patch level of the version number is\n   increased.\n\n2) The package is moved from $CRAN/src/contrib to\n   $CRAN/src/contrin/Orphaned.\n\n3) As long as the package passes \"R CMD check\" for the current release\n   version of R, it additionally remains in $CRAN/src/contrib/.\n\n\nEverybody is more than welcome to take over as maintainer of an\norphaned package. Simply download the package sources, make changes if\nnecessary (respecting original author and license!) and resubmit the\npackage to CRAN with your name as maintainer in the DESCRIPTION file\nof the package.\n\nFor the CRAN admins,\nFritz Leisch",
+      "body_snippet": "As the list of packages on CRAN becomes longer almost on a weekly\nbasis, we need a formal mechanism to handle the case when somebody\nwants to resign from maintaining a package.\n\n\nPossible reasons for ",
+      "thread_id": "thread-8c08bb46be13",
+      "thread_depth": 0,
+      "month": "2003-07"
+    },
+    {
+      "id": "msg-4e772593c1e1",
+      "message_id": "<20030718072911.0a9d38af.fharrell@virginia.edu>",
+      "from_name": "Frank E Harrell Jr",
+      "from_email_hash": "bd19bd9f169b5f3d1a992f9f1800c6f882823514a102dfe1216f921e43131154",
+      "date": "2003-07-18T16:39:59Z",
+      "subject": "Hmisc on CRAN",
+      "subject_clean": "Hmisc on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I am pleased to announce that a new version of the Hmisc package, 2.0-0, is on CRAN.  Thanks to Kurt Hornik and Uwe Ligges and others for making this possible.  Thanks also to Xiao Gang Fan who has generously ported Hmisc and Design to Windows multiple times until now.  The Design package will soon be on CRAN too.\n\n---\nFrank E Harrell Jr              Prof. of Biostatistics & Statistics\nDiv. of Biostatistics & Epidem. Dept. of Health Evaluation Sciences\nU. Virginia School of Medicine  http://hesweb1.med.virginia.edu/biostat",
+      "body_snippet": "I am pleased to announce that a new version of the Hmisc package, 2.0-0, is on CRAN.  Thanks to Kurt Hornik and Uwe Ligges and others for making this possible.  Thanks also to Xiao Gang Fan who has ge",
+      "thread_id": "thread-4e772593c1e1",
+      "thread_depth": 0,
+      "month": "2003-07"
+    },
+    {
+      "id": "msg-c9bea599d17f",
+      "message_id": "<Pine.A41.4.44.0307271703170.159126-100000@homer06.u.washington.edu>",
+      "from_name": "Thomas Lumley",
+      "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
+      "date": "2003-07-27T17:16:50-07:00",
+      "subject": "survey package",
+      "subject_clean": "survey package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 1.9 of the survey package, now percolating through CRAN, adds a\nbeta implementation of replication weights.  These can either be created\nfrom a survey design (using BRR, JK1, or JKn schemes) or provided by the\nuser.  These have been tested on only a few examples so far: there seem to\nbe relatively few published datasets with suitable analyses.\n\nAs with earlier versions of the package, I particularly welcome feedback\non the user interface from practising survey statisticians.\n\n\n\t-thomas\n\nThomas Lumley\t\t\tAssoc. Professor, Biostatistics\ntlumley at u.washington.edu\tUniversity of Washington, Seattle",
+      "body_snippet": "Version 1.9 of the survey package, now percolating through CRAN, adds a\nbeta implementation of replication weights.  These can either be created\nfrom a survey design (using BRR, JK1, or JKn schemes) o",
+      "thread_id": "thread-c9bea599d17f",
+      "thread_depth": 0,
+      "month": "2003-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-085f23eff507",
+      "subject": "package announcement: Generalized Boosted Models (gbm)",
+      "message_count": 1,
+      "participants": [
+        "Greg Ridgeway"
+      ],
+      "started": "2003-07-14T16:08:11-07:00",
+      "last_reply": "2003-07-14T16:08:11-07:00",
+      "root_message_id": "msg-085f23eff507"
+    },
+    {
+      "id": "thread-8c08bb46be13",
+      "subject": "CRAN package orphanizing process",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at ci.tuwien.ac.at"
+      ],
+      "started": "2003-07-16T11:13:46+02:00",
+      "last_reply": "2003-07-16T11:13:46+02:00",
+      "root_message_id": "msg-8c08bb46be13"
+    },
+    {
+      "id": "thread-4e772593c1e1",
+      "subject": "Hmisc on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Frank E Harrell Jr"
+      ],
+      "started": "2003-07-18T16:39:59+00:00",
+      "last_reply": "2003-07-18T16:39:59+00:00",
+      "root_message_id": "msg-4e772593c1e1"
+    },
+    {
+      "id": "thread-c9bea599d17f",
+      "subject": "survey package",
+      "message_count": 1,
+      "participants": [
+        "Thomas Lumley"
+      ],
+      "started": "2003-07-27T17:16:50-07:00",
+      "last_reply": "2003-07-27T17:16:50-07:00",
+      "root_message_id": "msg-c9bea599d17f"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2002-08",
+  "messages": [
+    {
+      "id": "msg-b9eeb9fa0e3f",
+      "message_id": "<15697.33533.801840.70359@debian>",
+      "from_name": "Brian Gough",
+      "from_email_hash": "8ea00ce71bf2615de75d7fec7aa4e93609666093eb7cfe50bb06660f34d4fa5a",
+      "date": "2002-08-07T21:28:45+01:00",
+      "subject": "printed copies of \"An Introduction to R\" ",
+      "subject_clean": "printed copies of \"An Introduction to R\"",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "\"An Introduction to R\"\n -- by W.N. Venables, D.M. Smith and the R Development Core Team\n\nThis tutorial manual is now available as a paperback book.  \nIt can be ordered from most online bookshops.  The ISBN is 0-9541617-4-2.\nIt's 148 pages, retail price $19.95 (12.95 pounds in UK)\n\nFor more information see:\n\n  http://www.network-theory.co.uk/R/manual/\n\nAll the money raised from the sale of this book supports the\ndevelopment of free software.\n\nregards\n\n-- \nBrian Gough\n\n----------------------------------------------------------------------\nNetwork Theory Ltd              Phone: 0117 3179309 (+44 117 3179309)\n15 Royal Park                   WWW: http://www.network-theory.co.uk/\nBristol BS8 3AL                 Email: bjg at network-theory.co.uk     \nUnited Kingdom                \n----------------------------------------------------------------------\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "\"An Introduction to R\"\n -- by W.N. Venables, D.M. Smith and the R Development Core Team\n\nThis tutorial manual is now available as a paperback book.  \nIt can be ordered from most online bookshops.  The",
+      "thread_id": "thread-b9eeb9fa0e3f",
+      "thread_depth": 0,
+      "month": "2002-08"
+    },
+    {
+      "id": "msg-e08d8254b837",
+      "message_id": "<3.0.32.20020822151935.0090f210@162.38.183.200>",
+      "from_name": "Emmanuel Paradis",
+      "from_email_hash": "279a25fc4a41e9310e9fb424624945d36d0266c02d86a58d5e8e9c1d7d268282",
+      "date": "2002-08-22T15:19:35+02:00",
+      "subject": "revised versions of \"R for Beginners\" on CRAN",
+      "subject_clean": "revised versions of \"R for Beginners\" on CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear colleagues,\n\nNew versions of \"R for Beginners\" in French and in English are available on\nCRAN in the Contributed Documentation section. The document is now nearly\n60 pages long, and has been completely revised. The description of\n\"objects\" and of data manipulation has been completely re-written. The\nsection on graphics has been particularly extended, and includes now an\nintroduction on the packages grid and lattice. Comments are welcome.\n\n\n\nChers coll?gues,\n\nUne nouvelle version de \"R pour les d?butants\" en fran?ais et en anglais\nest disponible sur le CRAN dans la partie \"Contributed Documentation\". Le\ndocument fait maintenant presque 60 pages et a ?t? enti?rement r?vis?. La\ndescription des \"objets\" et de la manipulation des donn?es a ?t?\ncompl?tement r?-?crite. La partie sur les graphiques a ?t? notamment\n?tendue et inclue maintenant une introduction aux packages grid et lattice.\nTout commentaire sera le bienvenu.\n\n\n\nBest wishes,\n\nEmmanuel Paradis\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear colleagues,\n\nNew versions of \"R for Beginners\" in French and in English are available on\nCRAN in the Contributed Documentation section. The document is now nearly\n60 pages long, and has been comp",
+      "thread_id": "thread-e08d8254b837",
+      "thread_depth": 0,
+      "month": "2002-08"
+    },
+    {
+      "id": "msg-c955a5838e8b",
+      "message_id": "<6rit2298w1.fsf@franz.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2002-08-22T11:05:18-05:00",
+      "subject": "CD's of R from CheapBytes",
+      "subject_clean": "CD's of R from CheapBytes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "CheapBytes, a vendor of Linux CDs, now offers a CD of R.  See\n   www.cheapbytes.com \n      -> \"Enter the store\" \n         -> CheapBytes CDs\n            -> CheapBytes \"R\" Project CD-R\n\nor use the direct link\n\nhttp://cart.cheapbytes.com/cgi-bin/cart/0070010796?I2uHEGKI;;13\n\nwhich says, in part,\n\n CheapBytes includes binary files for the following platforms:\n\n     * Debian\n          o Potato\n          o Woody\n     * Linux PPC\n     * Mandrake Linux 8.1\n     * Red Hat\n           o Version 6.x\n           o Version 7.x\n     * SuSE 7.2\n     * Windows\n\nTheir price is $4.99/CD plus a flat fee of $5 for shipping up to 18 CDs\nwithin the U.S.A. or Canada.  Prices for shipping to other countries\nare listed on www.cheapbytes.com -> .27777778 Do the Math\n\nThis announcement is not an endorsement.  In general the R-announce\nlist is for announcements about the development of R and the\navailability of new code.  We made an exception in announcing this\nproduct because it is, to our knowledge, the first commercially\navailable CD of R.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "CheapBytes, a vendor of Linux CDs, now offers a CD of R.  See\n   www.cheapbytes.com \n      -> \"Enter the store\" \n         -> CheapBytes CDs\n            -> CheapBytes \"R\" Project CD-R\n\nor use the direc",
+      "thread_id": "thread-c955a5838e8b",
+      "thread_depth": 0,
+      "month": "2002-08"
+    },
+    {
+      "id": "msg-95c508ef9d1e",
+      "message_id": "<51F9C42DA15CD311BD220008C707D81906FFC60A@usrymx10.merck.com>",
+      "from_name": "Liaw, Andy",
+      "from_email_hash": "898c214b2bc6c21da39a883e12ded19760ce149cfa1067d738a1a4f3200f2bc0",
+      "date": "2002-08-28T11:15:34-04:00",
+      "subject": "new version of the randomForest package",
+      "subject_clean": "new version of the randomForest package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just uploaded to CRAN the new version of the randomForest package.\nThose who had used the previous version will absolutely want to upgrade, as\nthe new version fixes a few serious bugs (some giving wrong results w/o\nwarning or error).  This version matches version 3.3 of the classification\ncode and version 1.0 of the regression code on Prof. Breiman's web site.\n\nThe package provides an R interface to Prof. Breiman's code for regression\nand classification by the random forest algorithm.  Details about the\nalgorithm (and the original Fortran code) can be found on\n\n  http://oz.berkeley.edu/users/breiman\n\nNew features and bug fixes include:\n\no  Random forest for regression problems now incorporated into the package.\n\no  Factor (categorical) predictors are now handled correctly, especially\nthrough the formula interface.  (The previous version wrongly expands\nfactors into contrasts.)\n\no  Ordered factor predictors are now correctly handled.\n\no  For classification problem, there is an new option for the predict method\nto calculate proximity measure for the test data.\n\no  Calls to R's random number generator from Fortran have been made more\nportable.  I believe this was causing segmentation faults on some platforms\nin the previous version.\n\no  The Example section of the help page for randomForest now show some of\nthe extra things that can be done with the randomForest object.\n\no  The call to the underlying C/Fortran code no longer copy data (i.e.,\n.C(..., DUP=FALSE) is used).  This should reduce memory requirement quite a\nbit, especially for large data sets.  This should be fairly safe since data\npass to C/Fortran are copies made at the R level anyway.\n\no  The version number of the package now tracks the version number of Prof.\nBreiman's classification code (i.e., currently 3.3).\n\no  The spelling of my co-author's name has been corrected!\n\nBecause of the limited amount of time I was able to spend on this package,\nthe code are not the most elegant.  I would appreciate any\ncomments/suggestions/bugs/patches.\n\nRegards,\nAndy\n\nAndy I. Liaw, PhD\nBiometrics Research          Phone: (732) 594-0820\nMerck & Co., Inc.              Fax: (732) 594-1565\nP.O. Box 2000, RY84-16            Rahway, NJ 07065\nmailto:andy_liaw at merck.com\n\n\n\n------------------------------------------------------------------------------\nNotice: This e-mail message, together with any attachments, contains information of Merck & Co., Inc. (Whitehouse Station, New Jersey, USA) that may be confidential, proprietary copyrighted and/or legally privileged, and is intended solely for the use of the individual or entity named on this message.  If you are not the intended recipient, and have received this message in error, please immediately return this by e-mail and then delete it.\n\n==============================================================================\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have just uploaded to CRAN the new version of the randomForest package.\nThose who had used the previous version will absolutely want to upgrade, as\nthe new version fixes a few serious bugs (some giv",
+      "thread_id": "thread-95c508ef9d1e",
+      "thread_depth": 0,
+      "month": "2002-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b9eeb9fa0e3f",
+      "subject": "printed copies of \"An Introduction to R\"",
+      "message_count": 1,
+      "participants": [
+        "Brian Gough"
+      ],
+      "started": "2002-08-07T21:28:45+01:00",
+      "last_reply": "2002-08-07T21:28:45+01:00",
+      "root_message_id": "msg-b9eeb9fa0e3f"
+    },
+    {
+      "id": "thread-c955a5838e8b",
+      "subject": "CD's of R from CheapBytes",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2002-08-22T11:05:18-05:00",
+      "last_reply": "2002-08-22T11:05:18-05:00",
+      "root_message_id": "msg-c955a5838e8b"
+    },
+    {
+      "id": "thread-e08d8254b837",
+      "subject": "revised versions of \"R for Beginners\" on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Emmanuel Paradis"
+      ],
+      "started": "2002-08-22T15:19:35+02:00",
+      "last_reply": "2002-08-22T15:19:35+02:00",
+      "root_message_id": "msg-e08d8254b837"
+    },
+    {
+      "id": "thread-95c508ef9d1e",
+      "subject": "new version of the randomForest package",
+      "message_count": 1,
+      "participants": [
+        "Liaw, Andy"
+      ],
+      "started": "2002-08-28T11:15:34-04:00",
+      "last_reply": "2002-08-28T11:15:34-04:00",
+      "root_message_id": "msg-95c508ef9d1e"
+    }
+  ]
+}

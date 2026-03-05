@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2013-01",
+  "messages": [
+    {
+      "id": "msg-0cdb3fa83756",
+      "message_id": "<B2F7DDF9-1994-443D-AAA7-942049ED142F@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2013-01-01T19:07:39+01:00",
+      "subject": "R version 3.0.0",
+      "subject_clean": "R version 3.0.0",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is no secret to those who read the NEWS file of the development version regularly, as the following has been in place since December 12th:\n\n\\section{\\Rlogo CHANGES IN R-devel}{\n  \\subsection{SIGNIFICANT USER-VISIBLE CHANGES}{\n    \\itemize{\n      \\item It is intended that this version will be released as \\R\n      3.0.0.\n....\n\nHowever, it seems reasonable to supplement this with a more direct public announcement.\n\nThe intended timing is to follow the annual release schedule and have R 3.0.0 around April 1 and a finalizing 2.15.3 a month earlier.\n\nMajor R releases have not previously marked great landslides in terms of new features. Rather, they represent that the codebase has developed to a new level of maturity. This is not going to be an exception to the rule.\n\nVersion 1.0.0 was released at a point in time when we felt that we had reached a level of completeness and stability high enough to characterize a full statistical system, which could be put to production use. \n\nVersion 2.0.0 came out after strong enhancements of the memory management subsystem as well as several major features, including Sweave.\n\nVersion 3.0.0, as of this writing, contains only really major new feature: The inclusion of long vectors (containing more than 2^31-1 elements!). More changes are likely to make it into the final release, but the main reason for having it as a new major release is that R over the last 8.5 years has reached a new level: we now have 64 bit support on all platforms, support for parallel processing, the Matrix package, and much more.\n\nOn behalf of the R Core Team,\n\nPeter D.\n\nHappy New Year!\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "This is no secret to those who read the NEWS file of the development version regularly, as the following has been in place since December 12th:\n\n\\section{\\Rlogo CHANGES IN R-devel}{\n  \\subsection{SIGN",
+      "thread_id": "thread-0cdb3fa83756",
+      "thread_depth": 0,
+      "month": "2013-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-0cdb3fa83756",
+      "subject": "R version 3.0.0",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2013-01-01T19:07:39+01:00",
+      "last_reply": "2013-01-01T19:07:39+01:00",
+      "root_message_id": "msg-0cdb3fa83756"
+    }
+  ]
+}

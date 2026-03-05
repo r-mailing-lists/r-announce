@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2013-05",
+  "messages": [
+    {
+      "id": "msg-12fad8d433b6",
+      "message_id": "<144C148F-C18F-40DD-9DF5-D292CEE88EC7@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2013-05-06T13:58:17+02:00",
+      "subject": "[R] Release plans: R-3.0.1 on May 16",
+      "subject_clean": "Release plans: R-3.0.1 on May 16",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We intend to have a patch release version on May 16. The nickname will be \"Good Sport\".\n\nApologies for the somewhat belated announcement.\n\n-- \nPeter Dalgaard, Professor\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "We intend to have a patch release version on May 16. The nickname will be \"Good Sport\".\n\nApologies for the somewhat belated announcement.\n\n-- \nPeter Dalgaard, Professor\nCenter for Statistics, Copenhag",
+      "thread_id": "thread-12fad8d433b6",
+      "thread_depth": 0,
+      "month": "2013-05"
+    },
+    {
+      "id": "msg-f0dad3bac55c",
+      "message_id": "<C203CE34-3463-4422-B18F-626658D8B899@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2013-05-16T09:51:42+02:00",
+      "subject": "R 3.0.1 is released",
+      "subject_clean": "R 3.0.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The build system rolled up R-3.0.1.tar.gz (codename \"Good Sport\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/base/R-3/R-3.0.1.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you.\n\nBinaries for various platforms will appear in due course.\n\n\n For the R Core Team\n\n Peter Dalgaard\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\nMD5 (AUTHORS) = cbf6da8f886ccd8d0dda0cc7ffd1b8ec\nMD5 (COPYING) = eb723b61539feef013de476e68b5c50a\nMD5 (COPYING.LIB) = a6f89e2100d9b6cdffcea4f398e37343\nMD5 (FAQ) = c7720d17cb5b89d93797b1a768554331\nMD5 (INSTALL) = 37adac6d0fbadf25b5a40e3f7535415e\nMD5 (NEWS) = 15df4ea633f255947222a924a2f431ad\nMD5 (NEWS.html) = a2f82dc771e596813aa3524871a48c00\nMD5 (ONEWS) = 0c3e10eef74439786e5fceddd06dac71\nMD5 (OONEWS) = b0d650eba25fc5664980528c147a20db\nMD5 (R-latest.tar.gz) = 36d51544b007fff26c7fbf36b02ea5ad\nMD5 (README) = e259ae5dd943b8547f0b7719664e815b\nMD5 (RESOURCES) = c7cb32499ebbf85deb064aab282f93a4\nMD5 (THANKS) = d4b45e302b7cad0fc4bb50d2cfe69649\nMD5 (R-3/R-3.0.1.tar.gz) = 36d51544b007fff26c7fbf36b02ea5ad\n\n\nThis is the relevant part of the NEWS file\n\nCHANGES IN R 3.0.1:\n\n  NEW FEATURES:\n\n    o chooseCRANmirror() and chooseBioCmirror() gain an ind argument\n      (like setRepositories()).\n\n    o mcparallel has a new argument mc.interactive which can modify the\n      interactive flag in the child process. The new default is FALSE\n      which makes child processes non-interactive by default (this\n      prevents lock-ups due to children waiting for interactive input).\n\n    o scan() now warns when end-of-file occurs within a quoted string.\n\n    o count.fields() is now consistent with scan() in its handling of\n      newlines in quoted strings.  Instead of triggering an error, this\n      results in the current line receiving NA as the field count, with\n      the next line getting the total count of the two lines.\n\n    o The default method of image() will plot axes of the class of xlim\n      and ylim (and hence of x and y if there is a suitable range()\n      method).  Based on a suggestion of Michael Sumner.\n\n    o load() now has a verbose argument for debugging support, to print\n      the names of objects just before loading them.\n\n    o When loading a serialized object encounters a reference to a\n      namespace which cannot be loaded, this is replaced by a reference\n      to the global environment, with a warning.\n\n    o pairs() gains a line.main option for title placement.\n\n    o The remaining instances in which serialization to a raw vector\n      was limited to 2GB have been unlimited on a 64-bit platform, and\n      in most cases serialization to a vector of more than 1GB will be\n      substantially faster.\n\n  UTILITIES:\n\n    o R CMD config now make use of personal Makevars files under ~/.R\n      and a site file Makevars.site, in the same way as R CMD SHLIB and\n      R CMD INSTALL.  This makes the utility more useful in package\n      configure scripts.\n\n      On Windows finding the personal files may require the environment\n      variable HOME set.\n\n      The old behaviour can be obtained with the new options\n      --no-user-files and --no-site-files.\n\n  PACKAGE INSTALLATION:\n\n    o Alternatives to the site and user customization files\n      Makevars.site and ~/.R/Makevars can be specified _via_ the\n      environment variables R_MAKEVARS_SITE and R_MAKEVARS_USER\n      respectively.  These can be used to suppress the use of the\n      default files by setting an empty value (where possible) or a\n      non-existent path.\n\n  BUG FIXES:\n\n    o sys.source() did not report error locations when keep.source =\n      TRUE.\n\n    o as.POSIXct.numeric was coercing origin using the tz argument and\n      not \"GMT\" as documented (PR#14973).\n\n    o The active binding to assign fields in reference classes has been\n      cleaned up to reduce dependence on the class' package\n      environment, also fixing bug in initializing read-only fields\n      (inspired by a report from Hadley Wickham).\n\n    o str(d) no longer gives an error when names(d) contain illegal\n      multibyte strings (PR#15247).\n\n    o Profiling of built-in functions with line.profiling= TRUE did not\n      record the line from which they were called.\n\n    o citation(pkg) dropped the header and footer specified in the\n      CITATION file (PR#15257).\n\n    o Quotes were handled differently when reading the first line and\n      reading the rest, so read.table() misread some files that\n      contained quote characters (PR#15245).\n\n    o cat() with sep a character vector of length greater than one and\n      more than one argument was using separators inconsistently\n      (PR#15261).\n\n    o On Windows in R 3.0.0, savePlot() failed because of an incorrect\n      check on the argument count.\n\n    o unzip(list = TRUE) returned Names as a factor and not a character\n      vector (as documented) for the internal method.  (Noticed by Sean\n      O'Riordain.)\n\n    o contourLines() now checks more comprehensively for conformance of\n      its x, y and z arguments (it was used incorrectly in package\n      R2G2).\n\n    o Saved graphics display lists are R version-specific.  Attempting\n      to load workspaces containing them (or some other\n      version-specific objects) aborted the load in R 3.0.0 and\n      earlier; now it does a partial load and generates a warning\n      instead.\n\n    o In R 3.0.0, identify() and locator() did not record information\n      correctly, so replaying a graph (e.g. by copying it to another\n      device) would fail. (PR#15271)\n\n    o Calling file.copy() or dirname() with the invalid input \"\" (which\n      was being used in packages, despite not being a file path) could\n      have caused a segfault.\n\n      dirname(\"\") is now \"\" rather than \".\" (unless it segfaulted).\n\n    o supsmu() could read/write outside its input vectors for very\n      short inputs (seen in package rms for n = 4).\n\n    o as.dendrogram()'s hclust method uses less memory and hence gets\n      considerably faster for large (n ~ 1000) clusterings, thanks to\n      Daniel M\"ullner. (PR#15174)\n\n    o The return value when all workers failed from\n      parallel::mclapply(mc.presechedule = TRUE) was a list of strings\n      and not of error objects.  (Spotted by Karl Forner and Bernd\n      Bischl.)\n\n    o In R 3.0.0, when help() found multiple pages with the same alias,\n      the HTML display of all the selections was not produced.\n      (PR#15282)\n\n    o splinefun(method=\"monoH.FC\") now produces a function with first\n      argument named x and allows deriv=3, as documented. (PR#15273)\n\n    o summaryRprof() would only read the first chunksize lines of an\n      Rprof file produced with line.profiling=TRUE. By default, this is\n      the first 100 seconds.  (PR#15288)\n\n    o lsfit() produced an incorrect error message when argument x had\n      more columns than rows or x had a different number of rows than\n      y. (Spotted by Renaud Gaujoux.)\n\n    o Binary operations on equal length vectors copied the class name\n      from the second operand when the first had no class name, but did\n      not set the object bit. (PR#15299)\n\n    o The trace() method for reference generator objects failed after\n      those objects became function definitions.\n\n    o write.table() did not check that factors were constructed\n      correctly, and so caused a segment fault when writing bad ones.\n      (PR#15300)\n\n    o The internal HTTP server no longer chokes on POST requests\n      without body. It will also pass-through other request types for\n      custom handlers (with the method stored in Request-Method header)\n      instead of failing.\n\n-- \nPeter Dalgaard, Professor\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "The build system rolled up R-3.0.1.tar.gz (codename \"Good Sport\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/ba",
+      "thread_id": "thread-f0dad3bac55c",
+      "thread_depth": 0,
+      "month": "2013-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-12fad8d433b6",
+      "subject": "Release plans: R-3.0.1 on May 16",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2013-05-06T13:58:17+02:00",
+      "last_reply": "2013-05-06T13:58:17+02:00",
+      "root_message_id": "msg-12fad8d433b6"
+    },
+    {
+      "id": "thread-f0dad3bac55c",
+      "subject": "R 3.0.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2013-05-16T09:51:42+02:00",
+      "last_reply": "2013-05-16T09:51:42+02:00",
+      "root_message_id": "msg-f0dad3bac55c"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2018-06",
+  "messages": [
+    {
+      "id": "msg-8f7fb71ea45a",
+      "message_id": "<A4AD2FAA-027E-487D-97B8-B1A46EE9002B@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "16b800f3161b270622c2e644760e595bbe5e68aa3370a3f648fb795f19b38ec7",
+      "date": "2018-06-06T14:32:44Z",
+      "subject": "R 3.5.1 scheduled for July 2",
+      "subject_clean": "R 3.5.1 scheduled for July 2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Full schedule available on developer.r-project.org\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nOffice: A 4.23\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Full schedule available on developer.r-project.org\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\n",
+      "thread_id": "thread-8f7fb71ea45a",
+      "thread_depth": 0,
+      "month": "2018-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-8f7fb71ea45a",
+      "subject": "R 3.5.1 scheduled for July 2",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2018-06-06T14:32:44+00:00",
+      "last_reply": "2018-06-06T14:32:44+00:00",
+      "root_message_id": "msg-8f7fb71ea45a"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1998-11",
+  "messages": [
+    {
+      "id": "msg-9ca3702b90ac",
+      "message_id": "<19981106092322.A31433@sirio.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
+      "date": "1998-11-06T09:23:22+01:00",
+      "subject": "R-0.62.4 for MSWindows ",
+      "subject_clean": "R-0.62.4 for MSWindows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Following the release of R-0.62.4, I have update my Win32's port.\n\nNew features:\n - The console can be configured (font, colours, dimensions). \n  No fancy dialog (yet), but look to the rw0624/etc/Rconsole file.\n - help.start() now is implemented. Of course, you need the html \n  documentation.\n    \nBugs fixed (I hope):\n - Alt+Gr problems on some European keyboards.\n - Focus is 'always' given back to the console.\n - Filters in the dialogs which ask a file-name.\n - round(..) now works as documented.\n - Some small modification to the graphic device (position of\n   text and clipping of lines was sometimes not exact). In addition,\n   I changed the font to helvetica (for better consistency\n   with the X11 device).\n\t  \nNew Files:\n - rw0624b.zip : binary distribution (unzip somewhere; the\n   executable is in rw624/bin); \n - rw0624s.zip : source;\n  - rw0624html.zip : documentation in html form; unzip inside rw0624;\n\t\t                   no name mangling -> don't use with Win3.1+Win32s.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Following the release of R-0.62.4, I have update my Win32's port.\n\nNew features:\n - The console can be configured (font, colours, dimensions). \n  No fancy dialog (yet), but look to the rw0624/etc/Rcon",
+      "thread_id": "thread-9ca3702b90ac",
+      "thread_depth": 0,
+      "month": "1998-11"
+    },
+    {
+      "id": "msg-2e263889a8c2",
+      "message_id": "<19981106093025.B31433@sirio.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
+      "date": "1998-11-06T09:30:25+01:00",
+      "subject": "R-0.62.4 for MsWindows (again)",
+      "subject_clean": "R-0.62.4 for MsWindows (again)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I apologize but I made an error and just sent the message with the \nsame 'subject' without saying that the files can be found\nin the R/bin/ms-windows/win-32-devel directory at CRAN\n(in this moment only at the Wien site, I suppose).\n\nIn addition, please, replay to this message not to the one before.\nguido\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I apologize but I made an error and just sent the message with the \nsame 'subject' without saying that the files can be found\nin the R/bin/ms-windows/win-32-devel directory at CRAN\n(in this moment onl",
+      "thread_id": "thread-2e263889a8c2",
+      "thread_depth": 0,
+      "month": "1998-11"
+    },
+    {
+      "id": "msg-2acfbaf648dc",
+      "message_id": "<6rpvavzd21.fsf@verdi.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "1998-11-10T11:13:10-06:00",
+      "subject": "Debian GNU/Linux package of R-0.62.4",
+      "subject_clean": "Debian GNU/Linux package of R-0.62.4",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have created a Debian Linux package from R-0.62.4 and uploaded it to\nthe master Debian archive.  It will be incorporated in the 2.1 (or\n\"slink\") release of Debian GNU/Linux.  This release is currently\nfrozen (i.e. bug-fixes only are allowed in uploads).  The scheduled\nrelease date is December 15, 1998.  We'll see if we can actually make\nthe scheduled release date on this release :-).\n\nThe package is called r-base_0.62.4-1.  It can be installed on a\nDebian GNU/Linux 2.0 system as it does not use any 2.1-specific\nfacilities.  It is currently available as\nhttp://cran.stat.wisc.edu/bin/linux/debian/2.0/r-base_0.62.4-1_i386.deb\nand should propagate to other CRAN sites within two days.\n\nThe source package is available at the usual Debian sites such as\n      ftp://ftp.debian.org/debian/dists/slink/main/source/math/\n\nP.S. If you wonder why the release is called \"slink\", the releases of\nDebian GNU/Linux are named after characters in the movie \"Toy Story\".\nThe 2.2 release is named \"potato\" :-(.  I tried to get them to change\nit to \"potatoe\" to inject some American political humor but they\nrefused.\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I have created a Debian Linux package from R-0.62.4 and uploaded it to\nthe master Debian archive.  It will be incorporated in the 2.1 (or\n\"slink\") release of Debian GNU/Linux.  This release is current",
+      "thread_id": "thread-2acfbaf648dc",
+      "thread_depth": 0,
+      "month": "1998-11"
+    },
+    {
+      "id": "msg-7152beb441f3",
+      "message_id": "<x2k90ztrus.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1998-11-13T18:39:07+01:00",
+      "subject": "R-0.63 is released",
+      "subject_clean": "R-0.63 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've put up R-0.63.0.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or two.\n\nFor those who *are* desperate, I've left a copy in\n\tftp://blueberry.kubism.ku.dk/pub/R-devel/R-0.63.tgz \n(Be gentle, that's my desktop PC!)\n\nHere is the relevant part of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 0.63\n\nNEW FEATURES\n\n    o\tlibrary(... , warn.conflicts = TRUE)\n\tnow prints all conflicts arising from attaching the given package.\n\n    o\tnew  .Platform\tvariable  for better modularizing\n\tplatform dependence. __This_is_\"beta\"_and_bound_to_be_changed___\n\n    o\tnew arguments to colnames(..) and \n\trownames(x, do.NULL = TRUE, prefix = \"row\").\n\t\t\t   _\n    o\tpar(bty = \"]\") for _| box(.) in plots.\n\n    o\tNew standard package `modreg' (smoothing and local MODern\n\tREGression methods) contributed by B. D. Ripley.\n\n    o\tpar() has a `no.readonly = FALSE' argument which allows more\n\tsensible  op <- par(no.readonly = TRUE);  on.exit(par(op)).\n\n    o\tReal Bessel functions of 1st to 3rd kind, of arbitrary order:\n\tbesselI(), besselK(), besselJ(), besselY() are the I(), K(),\n\tJ(), and Y() Bessel functions.\n\n    o\tNew conflicts() function from B.D.Ripley\n\n    o\tuniroot has a new `maxiter' argument and returns #{iter} and\n\tprecision.\n\n    o\tNew option `show.coef.Pvalue' (default: TRUE).\tIf FALSE,\n\tprint.summary.[g]lm does not print P values.\n\n    o\tNew `R --vanilla' is equivalent to\n\t  R --no-save --no-restore --no-site-file --no-init-file\n\n    o\tgc() has now a `verbose' argument and returns a matrix with free\n\tand total n- and v-cells(heap).\n\n    o\tNew example(<foo>) function runs the \\emph{Examples} R code of\n\t<foo>.\texample() calls source() which now has a `verbose'\n\tinstead of `debug' argument.\n\n    o\texperimental functions [as.|is.|]pairlist() for the few old-style\n\tdotted pair lists [undocumented].\n\n    o\toptions(check.bounds = TRUE) makes sub-assignments which\n\t\"stretch\" a vector give a warning [dropped undocumented\n\tcheck.bounds() function].\n\n    o\tMakefiles should now conform (mostly) with the GNU Coding\n\tStandards.  In particular, `make install', `make uninstall'\n\tand `make install-strip' now work.\n\tAlso, it is now possible to build R in a non-source directory.\n\n    o\twhich() preserves names and has a new `arr.ind' argument\n\tallowing for array indices.\n\n    o\tNew functions {d,p,q,r}signrank for the Wilcoxon signed rank\n\tdistribution, and {d,p,q,r}wilcox for the Wilcoxon (rank sum)\n\tdistribution.\n\n    o\tCommand line options GNUified a bit further.\n\tNew command line option `--verbose' for printing more\n\tinformation about progress.\n\tCommand line options `--vsize' and `--hsize' as replacements\n\tfor `-v' and `-n' which are now deprecated.\n\tAdded `--silent' as synonym for `--quiet'.\n\tShort-style option `-V' obsolete.\n\n    o\tAdded bug.report() to generate & send bug reports from\n\twithin R.\n\n    o\tThe PostScript device driver now uses the ISO Latin1 font\n\tencoding.  This should allow Western Europeans to render\n\ttheir languages correctly.  It is likely that additional\n\tencodings will be added (e.g. Latin2) when we figure out\n\thow to set the correct font encoding in printers.\n\n    o\tThe mathematical annotation code has been reworked.  Italic\n\tcorrection works better.  Additional functionality will be\n\tadded.\n\n    o\t\"sample\" now has an optional \"prob\" argument which gives the\n\tprobabilities of sampling each element in the vector being\n\tsampled.  The present implementation is based on some code\n\tfrom E. S. Venkatraman <venkat at biosta.mskcc.org>.\n\n    o\tThe internal data structure used to represent lists has\n\tchanged from being based on dotted pairs to generic vectors.\n\tUsers should see no changes as a result (with the exception\n\tof some efficiency gains in list operations).\n\n    o\tSubscripting matches that of S more closely.  It is now\n\tpossible to use subscripting beyond that the end of vectors\n\tand lists.\n\n    o\tElement labelling in \"c\" and \"unlist\" should match that of\n\tof S.\n\n    o\tAdded split.screen etc functions for manipulating multiple\n\tscreens on a single device\n\n    o\tAfter help.start() the HTML help system is used for all help()\n\trequests. The name of the browser is now controlled by\n\toptions(\"browser\").\n\n    o\tAdded kmeans to package mva (donated by B. Ripley)\n\n    o\tNew persp function added.  It is NOT compatible with S (yet)\n\tand is subject to internal and interface changes.\n\n    o\tgctorture() for torturing the garbage collector to reveal\n\tmemory protection bugs. (Call GC on every memory allocation). \n\n    o\tB. Ripley's aov code (and more) has been added. This includes: \n\n\t- aov() now handles models with Error terms, multiple\n\t  responses. \n\n\t- proj(), model.tables(), se.contrast(), replications(),\n\t  eff.aovlist() are implemented for aov fits, and where\n\t  appropriate for lm fits.\n\n\t- dummy.coef(), with methods for lm and aovlist fits.\n\n\t- add1(), drop1(), step() for stepwise fitting of statistical\n\t  models, with default, lm and glm methods.\n\n\t- summary() and deviance() -- mlm methods.\n\n\t- kappa()  for estimating condition numbers) \n\n\t- labels() to find a suitable set of labels from an object\n\n\t- C() for setting the contrasts of a factor\n\n\t- anova(), plot(), summary() and deviance() methods for mlm fits\n\n    o\teval() semantics changed when envir= is a list. A 3rd argument is \n\tnow allowed, specifying the enclosure (i.e. where R looks for\n\tvariables *not* found in envir=) it defaults to the calling \n\tenvironment (was .GlobalEnv). Note that when used inside a function,\n\tit is often desirable to set the enclosure to the parent \n\tenvironment instead. [ eval(e, data, sys.frame(sys.parent())) ] \n\n\nBUG FIXES\n\n    o\tmin(NULL); max(double())  now give warnings.  range() gives NA.\n\n    o\tsubstring(\"\", NULL) no longer segfaults.\n\n    o\tformatC(.) now takes default \"width = 1\" when both width and digits\n\tare unspecified.\n\n    o\tseveral fixes in internal axis and tickmarks setup for\n\t\"extreme\" ranges and values, especially for \"log\" scaling.\n\n    o\tseq(a,a, by=b) now works properly.\n\n    o\tprint.data.frame(.) now calls print.matrix instead of print(.)\n\twhich finally enables the 'right = TRUE' argument.\n\n    o\tR --help  gives more\n\n    o\tpostscript() now uses 'hyphen' instead of 'plusminus' for a minus.\n\n    o\tsource(..., echo=TRUE) now puts a `\"' if necessary after truncation.\n\n    o\tChanges to the PostScript device driver mean that the volume\n\tof output has been reduced to about a third of what it was.\n\n    o\tFixes and restructuring to name generation in connection with\n\tunlist() and c().\n\n    o\tMany bugs found and fixed in the memory allocation / garbage\n\tcollection area. In particular, the parser was sometimes\n\tUNPROTECT()ing the wrong pointers.\n\n    o\tlm(y[g==\"1\"]~x[g==\"1\"]) caused memory corruption\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've put up R-0.63.0.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or t",
+      "thread_id": "thread-7152beb441f3",
+      "thread_depth": 0,
+      "month": "1998-11"
+    },
+    {
+      "id": "msg-994c15eed63e",
+      "message_id": "<199811161807.SAA07147@toucan.stats.ox.ac.uk>",
+      "from_name": "Prof Brian Ripley",
+      "from_email_hash": "375ec446f7a1157a4f0268b6dc682d6c2a5b186f57aa61253477aa48159d2329",
+      "date": "1998-11-16T18:07:54Z",
+      "subject": "VR and tree libraries for 0.63",
+      "subject_clean": "VR and tree libraries for 0.63",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "These are now at CRAN (at least in Vienna).\n\nPlease note that VR_5.3pl030-1.tar.gz really does need 0.63: there\nare problems with 0.62.x and 0.63 reading .rda files written by the\nother. The earlier VR_5.3pl027-1.tar.gz for 0.62.3/4 remains on CRAN\nin directory Old/0.62.\n\ntree_0.3-1 adds tree.screens and tile.tree (needs 0.63), and support\nfor formulae like  use ~ . - estperf - names.\n\n-- \nBrian D. Ripley,                  ripley at stats.ox.ac.uk\nProfessor of Applied Statistics,  http://www.stats.ox.ac.uk/~ripley/\nUniversity of Oxford,             Tel:  +44 1865 272861 (self)\n1 South Parks Road,                     +44 1865 272860 (secr)\nOxford OX1 3TG, UK                Fax:  +44 1865 272595\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "These are now at CRAN (at least in Vienna).\n\nPlease note that VR_5.3pl030-1.tar.gz really does need 0.63: there\nare problems with 0.62.x and 0.63 reading .rda files written by the\nother. The earlier V",
+      "thread_id": "thread-994c15eed63e",
+      "thread_depth": 0,
+      "month": "1998-11"
+    },
+    {
+      "id": "msg-1cf8f5ac01ac",
+      "message_id": "<19981120133135.A16976@sirio.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
+      "date": "1998-11-20T13:31:35+01:00",
+      "subject": "R-0.63 for MsWindows",
+      "subject_clean": "R-0.63 for MsWindows",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "New files (at CRAN/binaries/ms-windows/win-32-devel ; available\nat least at Vienna; in a couple of days on every mirrors)\n\n- rw0630b.zip: binary distribution; it should run under Win3.1/Win32,\n               Win95, Win98 and WinNT; \n- rw0630h.zip: `stardard help' files (the ones you see after\n\t       help(topic) or ?topic); it also includes \n               the help examples (the one needed by the new\n               function example(topic)); \n- rw0630w.zip: documentation in html format (usable but far from \n               perfect; files taken from my Unix box; no name-mangling ->\n\t       don't use under Win3.1).\n- rw0630s.zip: source.\n\n\nChanges (with respect to rw0624)\n--------------------------------\n- Minor adjustment to reflect changes in R-0.63.0\n  (options, example,...)\n- Fixed a couple of minor bugs in the graphics device.  \n- More control keys (some Emacs like (crtl+a, crtl+e, crtl+k),\n  and, on popular demand, crtl+c and crtl-v for copy and paste);\n  take a look at the help/console menuitem.\n- Added support for Cygwin B20 (target remains Mingw32,i.e, \n  no Unix emulation layer)\n- Access of global variables in R.exe from a dll should work\n  (all the orrible name-mangling needed by `gnuwin32' -\n   `var' in R.exe becames `*__imp_var' in a dll - is done\n   automatically).    \n\nguido\nguido at sirio.stat.unipd.it\nhttp://sirio.stat.unipd.it\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "New files (at CRAN/binaries/ms-windows/win-32-devel ; available\nat least at Vienna; in a couple of days on every mirrors)\n\n- rw0630b.zip: binary distribution; it should run under Win3.1/Win32,\n       ",
+      "thread_id": "thread-1cf8f5ac01ac",
+      "thread_depth": 0,
+      "month": "1998-11"
+    },
+    {
+      "id": "msg-9bb1064198cc",
+      "message_id": "<Pine.LNX.3.96.981123171844.20286G-100000@loach.bio.indiana.edu>",
+      "from_name": "Alex Buerkle",
+      "from_email_hash": "fe250e8eac520410d15a9151c724917bcfbb26cf51b3431141625b9e425c2e2e",
+      "date": "1998-11-23T17:32:57-05:00",
+      "subject": "[R] R-0.63 rpms are now built for linuxppc",
+      "subject_clean": "R-0.63 rpms are now built for linuxppc",
+      "in_reply_to": "<19981120133135.A16976@sirio.stat.unipd.it>",
+      "references": [],
+      "body_plain": "Using Martin Plummer's source rpms, I have started putting together binary\nrpms for linuxppc.\n\nThe current rpms are:\n\tR-base-0.63-3.ppc.rpm\n\tR-VR-5.3pl030-1.ppc.rpm\n\tR-contrib-1998.11.20-1.ppc.rpm\n\nThese are (or will be) found at:\n\t1)  CRAN/bin/linux/linuxppc/\n\t2)  ftp://biocserver.cwru.edu/pub/linuxppc/\n\t\t(science apps for linuxppc ftp site)\n\t3)  ftp://ftp.linuxppc.org/pub/linuxppc/linuxppc-R4/contrib/RPMS/\n\t\t(and its mirrors)\n\nI hope these are useful to someone else.\n\n-- Alex\n\n~^^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^~^\nC. Alex Buerkle                 Ph:  812-855-9018\nJordan Hall 142                 Fax: 812-855-6705\nDepartment of Biology           \nIndiana University\nBloomington, IN 47405    cbuerkle at bio.indiana.edu\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Using Martin Plummer's source rpms, I have started putting together binary\nrpms for linuxppc.\n\nThe current rpms are:\n\tR-base-0.63-3.ppc.rpm\n\tR-VR-5.3pl030-1.ppc.rpm\n\tR-contrib-1998.11.20-1.ppc.rpm\n\nTh",
+      "thread_id": "thread-1cf8f5ac01ac",
+      "thread_depth": 1,
+      "month": "1998-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-9ca3702b90ac",
+      "subject": "R-0.62.4 for MSWindows",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1998-11-06T09:23:22+01:00",
+      "last_reply": "1998-11-06T09:23:22+01:00",
+      "root_message_id": "msg-9ca3702b90ac"
+    },
+    {
+      "id": "thread-2e263889a8c2",
+      "subject": "R-0.62.4 for MsWindows (again)",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1998-11-06T09:30:25+01:00",
+      "last_reply": "1998-11-06T09:30:25+01:00",
+      "root_message_id": "msg-2e263889a8c2"
+    },
+    {
+      "id": "thread-2acfbaf648dc",
+      "subject": "Debian GNU/Linux package of R-0.62.4",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "1998-11-10T11:13:10-06:00",
+      "last_reply": "1998-11-10T11:13:10-06:00",
+      "root_message_id": "msg-2acfbaf648dc"
+    },
+    {
+      "id": "thread-7152beb441f3",
+      "subject": "R-0.63 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1998-11-13T18:39:07+01:00",
+      "last_reply": "1998-11-13T18:39:07+01:00",
+      "root_message_id": "msg-7152beb441f3"
+    },
+    {
+      "id": "thread-994c15eed63e",
+      "subject": "VR and tree libraries for 0.63",
+      "message_count": 1,
+      "participants": [
+        "Prof Brian Ripley"
+      ],
+      "started": "1998-11-16T18:07:54+00:00",
+      "last_reply": "1998-11-16T18:07:54+00:00",
+      "root_message_id": "msg-994c15eed63e"
+    },
+    {
+      "id": "thread-1cf8f5ac01ac",
+      "subject": "R-0.63 for MsWindows",
+      "message_count": 2,
+      "participants": [
+        "Alex Buerkle",
+        "Guido Masarotto"
+      ],
+      "started": "1998-11-20T13:31:35+01:00",
+      "last_reply": "1998-11-23T17:32:57-05:00",
+      "root_message_id": "msg-1cf8f5ac01ac"
+    }
+  ]
+}

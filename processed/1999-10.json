@@ -1,0 +1,117 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1999-10",
+  "messages": [
+    {
+      "id": "msg-59e59e19844b",
+      "message_id": "<x2vh8ktyn2.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1999-10-06T15:19:29+02:00",
+      "subject": "R-0.65.1 is released",
+      "subject_clean": "R-0.65.1 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-0.65.1.tgz a moment ago.\n\nAs usual, you shouldn't get it from Auckland, but wait for it to be\nmirrored at a CRAN site near you within a day or two.\n\nFor those who are too curious to wait, I'll put a copy in\n\n\tftp://blueberry.kubism.ku.dk/pub/R-devel/R-0.65.1.tgz \n\nThere's also a version split in two for floppies and a patch file if\nyou prefer that. (If you use the patch file, you will miss a logo.bmp\nfile in the gnuwin32 directory, but that is probably immaterial to\nmost of you).\n\n\tFor the R Core Team,\n\n\tPeter D.\n\n\n\nHere is the relevant part of the NEWS file:\n\n\n\t\tCHANGES IN R VERSION 0.65.1\n\n\nNEW FEATURES\n\n    o\t.C, .Fortran. .Call and .External now have an argument PACKAGE\n\tto specify the shared library to be used for the symbol. See\n\t?Foreign. Package writers are encouraged to use this.\n\n    o\tOn startup (unless --no-environ), first .Renviron is looked for in\n\tthe current directory, and then in $HOME/ (= ~/ ).\n\n    o\tNew options(error.halt = FALSE) (default is TRUE) allows\n\tcontinuation after an error in batch processing.\n\n    o\tIn graphics, lty has now 6 instead of 4 predefined line types.\n\n    o\tas.hclust.twins() in package mva to convert (and plot)\n\tobjects from agnes() and daisy() of package cluster.\n\n    o\tR INSTALL now can directly install pkg_version.tar.gz files\n\tas obtained from CRAN. New function update.packages()\n\t& friends for automatically downloading packages from CRAN and\n\tinstall them on the fly (on Unix and Windows).\n\n    o\tNew function commandArgs() to record the command-line used.\n\n    o\tNew arguments `local' and `now' to dyn.load.\n\n    o\tdiag(x) now keeps names when appropriate and barfs when x is an array.\n\n    o\tfunctions source.url, url.show, read.table.url, scan.url to read\n\tfrom an http server instead of a file.\n\n    o\tgrid() gets useful defaults: grid lines drawn at tick marks.\n\n    o\tset operations union(), intersect(), setdiff() and is.element().\n\n    o\tNew function stars() for star plots and segment diagrams of\n\tmultivariate data.\n\n    o\tVersion info now in the top-level file `VERSION'.\n\n    o\tbarplot has a \"plot = TRUE\" argument and now returns locations of\n\tall bars even when \"beside = TRUE\".\n\n    o\thist has an \"nclass\" argument purely for S compatibility.\n\n    o\tCharacter strings can now, with most compilers, be passed\n\ton and from Fortran. See ?Foreign for details.\n\n    o\tFunctions as.single and single now have the effect with\n\t.C and .Fortran of passing a numeric argument as float/REAL\n\trather than as double/DOUBLE PRECISION, by setting the\n\tattribute \"Csingle\". See ?Foreign for details.\n\n    o\tComparison of strings uses the current locale on systems where\n\tthis is available, and so is always consistent with the ordering\n\tused by sort().\n\n    o\tsapply  has a new argument USE.NAMES=TRUE  and now returns a named\n        result when its input was a character.\n\n    o\tplot.stepfun  has new arguments  lty and lwd.\n\n    o   x labels in boxplot now handled differently, so that math\n    \texpressions are allowed.\n\n    o\tpostscript() argument `onefile' now does something, and there\n\tis a new paper type `special' and new argument `pagecentre'.\n\tSee ?postscript for details.\n\n    o\tExperimental function dev2bitmap() to copy to a bitmap graphics format.\n\n\nBUG FIXES\n\n    o\tcentering in text() will be more accurate, particularly on devices\n\twith full font metric information (postscript, x11, not windows).\n\n    o\targuments after --no-readline in the Unix version were ignored.\n\n    o\tcouldn't set attributes in hashed environments.\n\n    o\t[<-.data.frame mishandled dfr[1] <- 1 (forgotten drop=FALSE)\n\n    o\tsys.on.exit didn't work\n\n    o\tsys.parent didn't quite work either for n >= 2.\n\n    o\tpar(\"mfg\") was wrong, par(mfg=) switched to down columns. Now\n\tpar(mfrow/mfcol = c(nr, nc)) followed by par(mfg=c(i,j)) is\n\tthe preferred style.\n\n    o\tplot( <aov.object> ) failed after 2nd plot, PR#279\n\n    o\tSeveral patches for systems with long != int.\n\n    o\tapprox failed if inputs contained NAs.\n\n    o\tweighted lm fits with 1 diml x failed if any weight was zero.\n\n    o\tlm.influence failed when there were undetermined coefficients, PR#280.\n\n    o\tproblem with function()... inside saved functions because arg count\n\tincreased to accommodate stored source. (Incorrect number of\n\targuments to \"lambda\")\n\n    o\timprovements to generation of HTML help files: should work\n\tbetter on viewers other than Netscape.\n\n    o\tstl in package ts could conflict with package leaps: the Fortran\n\tsymbols have been changed.\n\n    o\thelp page for factor is improved and corrected.\n\n    o\tna.omit.ts and na.contiguous now preserve time-series attributes.\n\n    o\tmore automatic testing (\"make check\") using options(error.halt=FALSE)\n\tled to the elimination of dozens (!) of seg.fault possibilities.\n\n    o\tfamily quasi handles zero observations with var=mu^2 more correctly.\n\n    o\tdynamically-loaded libraries are searched last-loaded first, as\n\tdocumented (under Unix it used to be first-loaded first).\n\n    o\trowsum failed with a matrix and a single group (drop=FALSE needed).\n\n    o\tderiv(y ~ <expr>(x)) now works as well as  deriv(~ <expr>(x)).\n\n    o\tqr over-estimated ranks in some degenerate cases.\n\tqr did not work correctly if n < p and the first n cols were\n\trank-deficient.\n\n    o\tstr() wouldn't work quite right for named characters;  doesn't quote\n\tsymbols anymore.\n\n    o\tColour conversion (rgb, gray, hsv) truncated doubles and so\n\tgave machine-dependent results on the examples. It now rounds.\n\n    o\tcat() now admits again that it can't handle lists instead of\n\t\"random\" segfaulting.\n\n    o\tMore accurate rounding (including rounding to even) on platforms\n\twithout rint (e.g. Windows).\n\n    o\tqgeom() is now left-continuous with a tolerance, and so the\n\texample on the help page will be platform-independent.\n\n    o\tpretty() has been changed to use tolerance around integers and\n\tso will be more platform-independent. The exact output has\n\tprobably changed on all platforms for some input.\n\n    o\timage() & filled.contour() now work for 1x1 matrices\n\tand with constant z values.\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've rolled up R-0.65.1.tgz a moment ago.\n\nAs usual, you shouldn't get it from Auckland, but wait for it to be\nmirrored at a CRAN site near you within a day or two.\n\nFor those who are too curious to w",
+      "thread_id": "thread-59e59e19844b",
+      "thread_depth": 0,
+      "month": "1999-10"
+    },
+    {
+      "id": "msg-17bea56edcdb",
+      "message_id": "<19991008103453.39839@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "1999-10-08T10:34:53+01:00",
+      "subject": "R-0.65.1 for WinNT/9X",
+      "subject_clean": "R-0.65.1 for WinNT/9X",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A binary distribution of R-0.64.2 for Windows is available at\n<CRAN>/bin/windows/windows-NT (at least at Wien).\n\nEnjoy it.\n\nguido masarotto\n\n                      Windows News (since R0.64.2)\n\nrw0651\n======\n\nNew function savePlot() to save plots to wmf, gif or ps.\n\nThere is now support for help via compiled HTML files (as used by the\nlatest Microsoft products): set options(chmhelp=TRUE) to use this.\nYou will probably need Internet Explorer 4 or later installed to use\nthis, or you can install hhupd.exe from the windows/windows-NT/base/etc\ndirectory on CRAN.\n\nThere is support for building Windows help files (as in Windows 95).\nSet options(winhelp=TRUE) to make this your preferred help system.\n\nBoth compiled HTML files and Windows help are available for the\nstandard packages.\n\nThe new function update.packages() is supported if you have wget.exe\n(a copy is in the windows/windows-NT/base/etc/wget.zip on CRAN) or\nlynx.exe, from http://www.fdisk.com/doslynx/lynxport.htm.\n\nOn NT only, CPU times are returned by proc.time() (using a call to\nGetProcessTimes).\n\nRotated text on a windows / win.* device is placed more accurately,\nespecially for non-multiples of 90 degrees.\n\nA windows() device reports itself as `windows' not `X11'.\n\ngetenv() now returns all the environmental variables.\n\nunlink() can now remove (empty) directories (but not using wildcard\nspecifications).\n\nThe complex LINPACK routines which were not included in the Unix\nversions of R are now omitted here.\n\nThere is more support for (support of) ActiveX Automation via the\nRproxy.dll: see the file front-ends/readme.\n\nAs under Unix, .Renviron is first searched for in the working directory, \nthen in the home directory. (See README for how the home directory is\ndecided.)\n\nThe sockets code is definitely working in this version, enough to support\nsource.url and friends.\n\noptions(pager=\"console\") is set as the default if --ess is used (as it\nworks better with Emacs).\n\nThe rounding code has been re-written to be more accurate and to round\nto even as documented.\n\nThe rw-FAQ is linked into the HTML help system.\n\nWe believe the problems with re-sizing windows (especially on Windows 9x)\nhave been solved.\n\n\n\nrw0650\n======\n\n[ Because Guido Masarotto was ill for several weeks, rw0650 was only ever\npre-released. ]\n\nThere are many changes `under the skin' which are not reflected in\nuser-visible changes, but either improve performance or will allow\nfuture enhancements.\n\nThe environment variables have been changed: R_HOME is now R's home\ndirectory and R_USER is the HOME for the user which will be used by R\n(and defaults to HOME, if set, then to ${HOMEDRIVE}${HOMEPATH}, if that\nis set, then the working directory). (There are many other such\nchanges in R: for example RLIBS becomes R_LIBS, although for the time\nbeing RLIBS is also recognised.)\n\nSaving a plot as postscript from the device menu will produce a\nportrait plot irrespective of the setting of ps.options().\n\nSaving a plot as a metafile should be more reliable on machines which\nreport incorrect information on the size of the screen.\n\nThe new flag --no-environ suppresses reading .Renviron and is implied by\n--vanilla.\n\nWhen rterm is used non-interactively either --save or --no-save must be\nspecified: these is no longer a default of --no-save (for consistency \nwith Unix).\n\nMore support for building R into other applications: see the examples\nin the front-ends directory of the source distribution.\n\nInterrupting by Esc or Ctrl-Break is handled internally by signals, so\nthe `User Break' response will no longer appear, but in rterm ^C will\nbe echoed.\n\nThere is limited support for `tilde-expansion': file paths such as\n~/rest will be expanded to ${HOME}\\rest if HOME is set, or to\n${HOMEDRIVE}${HOMEPATH}\\rest if those variables are set.\n\nUsing rterm either interactively or with --ess will be more responsive and\nuse much less CPU time when waiting for input.  Interruptions by Ctrl-Break\nor (under --ess, for use by ESS) Ctrl-C should happen immediately and be \nhandled correctly. [On NT: problems with Win 98 were corrected for rw0651.]\n\nThe installer can now install correctly in a top-level directory (e.g.\nC:\\), fixing a bug in the unzip code used.\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A binary distribution of R-0.64.2 for Windows is available at\n<CRAN>/bin/windows/windows-NT (at least at Wien).\n\nEnjoy it.\n\nguido masarotto\n\n                      Windows News (since R0.64.2)\n\nrw0651\n",
+      "thread_id": "thread-17bea56edcdb",
+      "thread_depth": 0,
+      "month": "1999-10"
+    },
+    {
+      "id": "msg-82dbfdd4a00d",
+      "message_id": "<14346.58532.621290.226557@luthien.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1999-10-18T11:13:08+02:00",
+      "subject": "CRAN downtimes",
+      "subject_clean": "CRAN downtimes",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi,\n\nwe had a broken heating system (in the floor above us) resulting in a\nwater burst .... my office looks like if a bomb has exploded ...\n\nCurrently our server is up and running again (it was down over the\nweekend) ... but we will move out of the devastated rooms and hence\nthe CARN master might be down one or more times during the rest of the\nweek. We'll try to keep the down times as short as possible.\n\nBest,\nFritz\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\nwe had a broken heating system (in the floor above us) resulting in a\nwater burst .... my office looks like if a bomb has exploded ...\n\nCurrently our server is up and running again (it was down o",
+      "thread_id": "thread-82dbfdd4a00d",
+      "thread_depth": 0,
+      "month": "1999-10"
+    },
+    {
+      "id": "msg-1cade231f9e0",
+      "message_id": "<14361.36672.45015.682102@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich Leisch",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "1999-10-29T14:12:48+02:00",
+      "subject": "CRAN master almost unreachable over weekend",
+      "subject_clean": "CRAN master almost unreachable over weekend",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "After moving to new offices we have major troubles with our internet\nconnection (ping reports packet losses of 50% to any destination\noutside our domain) such that our server www.ci.tuwien.ac.at is de\nfacto unreachable from the rest of the world. Due to a holiday on\nMonday this is a ``long weekend'' and all people from the university\ncomputing center stopped working at noon. Their next try to fix the\nsituation will be on Tuesday.\n\nSorry for all inconveniences and having to bother you!\n\nRegards,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "After moving to new offices we have major troubles with our internet\nconnection (ping reports packet losses of 50% to any destination\noutside our domain) such that our server www.ci.tuwien.ac.at is de",
+      "thread_id": "thread-1cade231f9e0",
+      "thread_depth": 0,
+      "month": "1999-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-59e59e19844b",
+      "subject": "R-0.65.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1999-10-06T15:19:29+02:00",
+      "last_reply": "1999-10-06T15:19:29+02:00",
+      "root_message_id": "msg-59e59e19844b"
+    },
+    {
+      "id": "thread-17bea56edcdb",
+      "subject": "R-0.65.1 for WinNT/9X",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1999-10-08T10:34:53+01:00",
+      "last_reply": "1999-10-08T10:34:53+01:00",
+      "root_message_id": "msg-17bea56edcdb"
+    },
+    {
+      "id": "thread-82dbfdd4a00d",
+      "subject": "CRAN downtimes",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1999-10-18T11:13:08+02:00",
+      "last_reply": "1999-10-18T11:13:08+02:00",
+      "root_message_id": "msg-82dbfdd4a00d"
+    },
+    {
+      "id": "thread-1cade231f9e0",
+      "subject": "CRAN master almost unreachable over weekend",
+      "message_count": 1,
+      "participants": [
+        "Friedrich Leisch"
+      ],
+      "started": "1999-10-29T14:12:48+02:00",
+      "last_reply": "1999-10-29T14:12:48+02:00",
+      "root_message_id": "msg-1cade231f9e0"
+    }
+  ]
+}

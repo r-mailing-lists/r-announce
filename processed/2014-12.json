@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2014-12",
+  "messages": [
+    {
+      "id": "msg-47f4414ac990",
+      "message_id": "<21648.16662.859007.156817@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2014-12-16T15:26:30+01:00",
+      "subject": "The R Foundation - New board ",
+      "subject_clean": "The R Foundation - New board",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R lovers and other useRs,\nnotably benefactors, donors, supporting members and institutions\nof the R foundation \n       http://www.r-project.org/foundation/\n\nAbout 11.7 years ago, in April 2003, the R Foundation was\nannounced by Fritz Leisch, \n  https://stat.ethz.ch/pipermail/r-announce/2003/000385.html\nshortly after its foundation, and since then, its board has\nlead the foundation during years of phenomenal growth and success.\n\nOur thanks go to the *past* board members\n\n   Presidents:\t      \t Robert Gentleman, Ross Ihaka \n   Secretary General:    Friedrich Leisch \n   Treasurer:\t      \t Kurt Hornik \n   Member at Large:      John Chambers \n\nIn addition, Peter Dalgaard and Martin M?chler had acted as auditors.\n\nAfter Summer meetings of the R Core and the R Foundation,\nwe, i.e., Robert Gentleman, on Sep. 15 announced\nthe new (\"ordinary\") memberships and the fact that the\nmembership of the foundation has grown to 29 persons:\n    https://stat.ethz.ch/pipermail/r-announce/2014/000577.html\n\nSubsequently (after a careful nomination and voting process),\nthe election of a new *board* finalized on December 1, and the\nnew board has started acting since.\nIt consists of\n\nPresidents:        Duncan Murdoch, Martyn Plummer \nSecretary General: Martin M?chler \nTreasurer:         Kurt Hornik \nMembers at Large:  John Chambers \n                   Brian Ripley\n                   Dirk Eddelbuettel \n\nand the two auditors Peter Dalgaard and Roger Bivand.\nThis is very soon to be reflected on\n    http://www.r-project.org/foundation/board.html\n\n\nThe foundation and its board aim to become considerably more\nactive in the future.  Details about this will be announced here\nin due time. \n\nThank you all for supporting the R project, a Free Software\n(hence Open source) endeavor only made possible by the dedicated\nwork of many thousands of volunteers and their contributions in several ways, \nincluding to become supporting (or ++) members of the R foundation!\n\nMartin Maechler",
+      "body_snippet": "Dear R lovers and other useRs,\nnotably benefactors, donors, supporting members and institutions\nof the R foundation \n       http://www.r-project.org/foundation/\n\nAbout 11.7 years ago, in April 2003, t",
+      "thread_id": "thread-47f4414ac990",
+      "thread_depth": 0,
+      "month": "2014-12"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-47f4414ac990",
+      "subject": "The R Foundation - New board",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2014-12-16T15:26:30+01:00",
+      "last_reply": "2014-12-16T15:26:30+01:00",
+      "root_message_id": "msg-47f4414ac990"
+    }
+  ]
+}

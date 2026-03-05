@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "1999-03",
+  "messages": [
+    {
+      "id": "msg-d7bfd82b6b60",
+      "message_id": "<x2vhgfzzec.fsf@blueberry.kubism.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "1999-03-05T17:15:07+01:00",
+      "subject": "R-0.63.3 is released",
+      "subject_clean": "R-0.63.3 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've put up R-0.63.3.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or two.\n\nFor those who *are* desperate, I've left a copy in\n\tftp://blueberry.kubism.ku.dk/pub/R-devel/R-0.63.3.tgz \n(Be gentle, that's my desktop PC!)\n\nThere's also a version split in two for floppies and a patch file if\nyou prefer that.\n\nA special <mumble> with the patch file this time is that some binary\nJava .class files got changed and can NOT be patched in. They are\nprovided separately in R-0.63.3-javaclass.tgz (to be unpacked in\n../doc/html/search ).\n\nWe've been fairly active trying to eradicate a lot of minor bugs this\ntime, although a couple of nontrivial ones still remain. The next\nversion is likely to be 0.64.0, with Macintosh and Gnome support as\nthe major new features.\n\n\tFor the R Core Team,\n\n\tPeter D.\n\nHere is the relevant part of the NEWS file:\n\n\t\tCHANGES IN R VERSION 0.63.3\n\nNEW FEATURES\n\n    o\tget() and assign() allow position in search list to be a\n\tcharacter string. (e.g. get(\"delete.response\",\"package:base\") \n\n    o\tHTML search now works for all packages (after new installation).\n\n    o\tR INSTALL now also copies DESCRIPTION file to target dir.\n\n    o\toffsets should work with lm as well as with glm now\n\n    o\trange() is now in the Summary group, trunc() back in the Math\n\tgroup.\n\n    o\tUnder Unix, R-specific environment variables can now be kept/set\n\tin `~/.Renviron'.\n\n    o\tNew options `latexcmd' and `dvipscmd' for specifying the locations\n\tof LaTeX and dvips; corresponding environment variables renamed to\n\t`R_LATEXCMD' and `R_DVIPSCMD'.\n\n    o\t--vsize & --nsize now both give size in \"single units\" \n\t(bytes/cons cells) with possible \n\tsuffixes \"M\" (Mega), \"K\"ilo (1024) and \"k\"ilo(1000).\n\n    o\t[pdqr]negbin() now also work with non-integer 'size' [by Ben Bolker].\n\n    o\tNew standard package `lqs' for resistant regression and\n\tcovariance estimation, contributed by B. D. Ripley.\n\n    o\tnew functions match.fun() and kronecker() [by Jonathan Rougier]\n\n    o\tpar(las = 3) is a new option.\n\n    o\tnew function jitter()  [slightly more useful than S's].\n\nBUG FIXES\n\n    o   system(command, intern=FALSE, ignore.errors=FALSE) \n\tchanged 1st & 3rd argument names and is better documented.\n\n    o   \"/Font5 /Symbol findfont definefont\" confused some printers\n\n    o   Bounding box rotated 90 deg for landscape (shouldn't be)\n\n    o   Legend skipped symbol for pch=0\n\n    o   compilation on non-Intel Linux systems no longer looks for __setfpucw\n\n    o   a %% b -- is now periodic instead of symmetric; more S compatible.\n\n    o\tlocator(n=512) -- default: MANY points, not just one.\n\n    o\tqqnorm() uses ppoints() and returns list with x sorted along y.\n\n    o\tplot.formula now allows ylab to be set\n\n    o\tplotmath had trouble with paste()'ing expressions\n\n    o\tplotting math expressions now also works for objects of mode\n\t\"call\" (in particular on the result of substitute())\n\n    o\tlocator() on log axes: value antilogged twice\n\n    o\t(a real oldie - and trival too) is.recursive now TRUE for\n\texpressions \n\n    o\tsanitised delete.response\n\n    o\tx[[\"a\",]] could crash R\n\n    o\tstrwidth() crashed R if no device open\n\n    o\tpredict inconsistencies with offsets straightened out\n\n    o\ttapply goofed when FUN returned named scalar\n\n    o\t[.factor now retains contrasts attrib.\n\n    o\thist() had trouble with plotting math\n\n    o\tHTML indices get only built when installing a package to RHOME\n\n    o\tsubscripting with a length zero logical no longer bombs.\n\n    o\tas.ordered(NULL) now returns an \"ordered\" object.\n\n    o\t--debugger .. now gives a warning if other command line args are used\n\n    o\tpt(t, df, ncp) now also works for bigger ncp's\n    \n    o\tapply(a,d, fun) now passes vectors (rank 1 arrays) to fun.\n\n    o\tmodel.frame() with subset and only one column fixed\n\n    o\tboxplot(<data.frame>) now works again.\n\n    o\tdyn.load(..) failing gives more informative error message.\n\n    o\tOps.factor:  not error, but a warning + NAs\n\n    o\tbug.report() keeps report file if can't be e-mailed\n\n    o\tOps.data.frame :  things like  d.fr < a\t  now return a matrix\n\n    o\tdata.frame():  duplicated row.names now give a warning when dropped.\n\n    o\tboxplot(.., ylim=..) or (.., axes=..)  gave erronous warning\n\n    o\tglm had wrong init code for models with offsets. Also fixed\n\tso that linear predictor includes offset, also when predicting. \n\n    o\tpredict.glm didn't work with se=T\n\n    o\tbacksolve(), qr.solve... now return a vector when x (or y) is a vector.\n\n    o\tstring tags now converted to symbols and strange symbolic\n\ttags print as strings, cf. e<-quote(c(F=2, \"tail area\" = .5)), etc. \n\n    o\trow.names(.) <- val  doesn't allow duplicated values anymore.\n\n    o\tlibrary(mva)'s dist() now works with both \"euclidean\" & \"euclidian\"\n\n    o\trevised curve function to avoid using grep patterns that caused\n\tproblems under Solaris 2.6\n \n    o\tcoplot() now has 'number' and 'overlap' arguments, and should work\n\tin more situations. [by John Maindonald and MM].\n\n    o\tsave(..ascii=TRUE) now uses \"full precision\" for numerics.\n\n    o\tas.array() preserves names()\n\n    o\touter() works for general array args and preserves (dim)names.\n\n    o\tprint.factor and print.ordered now return their args invisibly.\n\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "I've put up R-0.63.3.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or t",
+      "thread_id": "thread-d7bfd82b6b60",
+      "thread_depth": 0,
+      "month": "1999-03"
+    },
+    {
+      "id": "msg-e861e5cf0c8c",
+      "message_id": "<19990318084914.54359@hal.stat.unipd.it>",
+      "from_name": "Guido Masarotto",
+      "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
+      "date": "1999-03-18T08:49:14+01:00",
+      "subject": "R0.63.3 for Win9X/NT available at CRAN",
+      "subject_clean": "R0.63.3 for Win9X/NT available at CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Windows binaries and source at CRAN (bin/windows/Windows-NT/base) have\nbeen updated to R-0.63.3 (now at Wien, in one/two days to the\nother mirrors). \n\nWINDOWS NEWS:\n============\n\nThe beginnings of a FAQ (RHOME/rw-faq).\n\nPrograms can be launched from all shells: the full path to the\nexecutable is not needed.\n\nConfigurable fonts in the graphics devices by the file Rdevga (?Rdevga).\n\nWorkspaces are saved in XDR format, and so can be shared with most\nUnix implementations of R.\n\nPrinter and metafile graphics devices (?win.print and ?win.metafile).\n\nConsistent handling of start directory for dialogs and the working\ndirectory across versions of R. Improved handling of R directories \nvia the new environmental variable R_HOME (look to the README).\n\nAn improved and enhanced system() function (?system and ?shell). \n\nWindows-specific help files where necessary.\n\nBetter support for ESS.\n\nBetter support for the installation of pre-compiled packages\n(?link.html.help)\n\n=================================================================\n\n\nPre-compiled packages for this version of R are provided by \nBrian D. Ripley and available CRAN/binaries/Windows-NT/contrib.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Windows binaries and source at CRAN (bin/windows/Windows-NT/base) have\nbeen updated to R-0.63.3 (now at Wien, in one/two days to the\nother mirrors). \n\nWINDOWS NEWS:\n============\n\nThe beginnings of a F",
+      "thread_id": "thread-e861e5cf0c8c",
+      "thread_depth": 0,
+      "month": "1999-03"
+    },
+    {
+      "id": "msg-a0a4c35d955d",
+      "message_id": "<Pine.LNX.3.96.990330185800.30962S-100000@gandalf.ci.tuwien.ac.at>",
+      "from_name": "Evgenia Dimitriadou",
+      "from_email_hash": "b4f2bc9e72b02679a766e7059050bc38f309fdd4ff443cb5c09f59be85bb1eed",
+      "date": "1999-03-30T19:20:05+02:00",
+      "subject": "\"cclust\" package",
+      "subject_clean": "\"cclust\" package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hallo all,\n The package \"cclust\" applying convex clustering methods contains now\na new function called \"clustindex\" calculating the values of several\nclustering indexes. The values of the indexes can be independently used in\norder to determine the number of clusters existing in a data set.\nFor anybody interested the new version of the \"cclust\" package can be\nfound at CRAN.\n\nbest,\n-v\n\n************************************************************************\n*                          Evgenia Dimitriadou                         *\n************************************************************************\n* Institut f?r Statistik      *               Tel: (+43 1) 58801 10773 *\n* Technische Universit?t Wien *               Fax: (+43 1) 58801 10798 *\n* Wiedner Hauptstr. 8-10/1071 *    Evgenia.Dimitriadou at ci.tuwien.ac.at *\n* A-1040 Wien, Austria        *http://www.ci.tuwien.ac.at/~dimitriadou *\n************************************************************************\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hallo all,\n The package \"cclust\" applying convex clustering methods contains now\na new function called \"clustindex\" calculating the values of several\nclustering indexes. The values of the indexes can ",
+      "thread_id": "thread-a0a4c35d955d",
+      "thread_depth": 0,
+      "month": "1999-03"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-d7bfd82b6b60",
+      "subject": "R-0.63.3 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "1999-03-05T17:15:07+01:00",
+      "last_reply": "1999-03-05T17:15:07+01:00",
+      "root_message_id": "msg-d7bfd82b6b60"
+    },
+    {
+      "id": "thread-e861e5cf0c8c",
+      "subject": "R0.63.3 for Win9X/NT available at CRAN",
+      "message_count": 1,
+      "participants": [
+        "Guido Masarotto"
+      ],
+      "started": "1999-03-18T08:49:14+01:00",
+      "last_reply": "1999-03-18T08:49:14+01:00",
+      "root_message_id": "msg-e861e5cf0c8c"
+    },
+    {
+      "id": "thread-a0a4c35d955d",
+      "subject": "\"cclust\" package",
+      "message_count": 1,
+      "participants": [
+        "Evgenia Dimitriadou"
+      ],
+      "started": "1999-03-30T19:20:05+02:00",
+      "last_reply": "1999-03-30T19:20:05+02:00",
+      "root_message_id": "msg-a0a4c35d955d"
+    }
+  ]
+}

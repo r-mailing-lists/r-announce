@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2001-11",
+  "messages": [
+    {
+      "id": "msg-f11f85a3da14",
+      "message_id": "<15337.10747.900828.615916@galadriel.ci.tuwien.ac.at>",
+      "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
+      "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
+      "date": "2001-11-07T13:32:59+01:00",
+      "subject": "R News Volume 1/3 published",
+      "subject_clean": "R News Volume 1/3 published",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We have just published the third issue of R News on \n\n        http://cran.R-project.org/doc/Rnews \n\nwhere you can download the newsletter as PDF or postscript file. It \nwill propagate to the CRAN mirrors within a day or two.. \n\nContents:\n\nPorting R to Darwin/X11 and Mac OS X\nRPVM: Cluster Statistical Computing in R\nstrucchange: Testing for Structural Change in Linear Regression Relationships\nProgrammer's Niche: Macros in R\nMore on Spatial Data Analysis\nObject-Oriented Programming in R\nIn Search of C/C++ \\& FORTRAN Routines\nA Primer on the R-Tcl/Tk Package\nwle: A Package for Robust Statistics using Weighted Likelihood\nChanges on CRAN\nChanges in R\n\nwhich makes a total of 40 pages.\n\n\nFor the editorial board, \nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We have just published the third issue of R News on \n\n        http://cran.R-project.org/doc/Rnews \n\nwhere you can download the newsletter as PDF or postscript file. It \nwill propagate to the CRAN mirr",
+      "thread_id": "thread-f11f85a3da14",
+      "thread_depth": 0,
+      "month": "2001-11"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f11f85a3da14",
+      "subject": "R News Volume 1/3 published",
+      "message_count": 1,
+      "participants": [
+        "Friedrich.Leisch at ci.tuwien.ac.at"
+      ],
+      "started": "2001-11-07T13:32:59+01:00",
+      "last_reply": "2001-11-07T13:32:59+01:00",
+      "root_message_id": "msg-f11f85a3da14"
+    }
+  ]
+}

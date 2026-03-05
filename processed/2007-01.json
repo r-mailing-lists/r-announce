@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2007-01",
+  "messages": [
+    {
+      "id": "msg-dbcabe90e702",
+      "message_id": "<45B66FF0.7090408@stat.auckland.ac.nz>",
+      "from_name": "Paul Murrell",
+      "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
+      "date": "2007-01-24T09:28:32+13:00",
+      "subject": "DSC 2007 Additional Funding",
+      "subject_clean": "DSC 2007 Additional Funding",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi\n\nDSC 2007, a conference on systems and environments for statistical\ncomputing, will take place in Auckland, New Zealand on February 15 & 16,\n2007.\n\n\t       *** Travel and Accommodation Support ***\n\nAdditional NSF funding to provide partial support for travel and\naccommodation for graduate students and junior faculty at\nU.S. post-secondary institutions to attend DSC 2007 may be available.\nIf you wish to apply for this support, please send an application to\ndsc2007 at stat.auckland.ac.nz.  Your application should include\n\n    a brief CV\n\n    a statement that demonstrates your eligibility, your need for\n    support, and an amount of support requested\n\n    students should include a brief letter of support from their\n    supervisor\n\n    faculty or post-doc applicants should include a brief statement\n    about other funding sources\n\nThe allocation will be based on merit and need; women and minority\ncandidates are encouraged to apply.\n\nApplications must be made by February 2 (2007-02-02) and successful\napplicants will be notified by email soon thereafter.\n\nPlease visit the conference web page at\nhttp://www.stat.auckland.ac.nz/dsc-2007/\n\nPaul\n(on behalf of the Organising Committee)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe University of Auckland\nPrivate Bag 92019\nAuckland\nNew Zealand\n64 9 3737599 x85392\npaul at stat.auckland.ac.nz\nhttp://www.stat.auckland.ac.nz/~paul/",
+      "body_snippet": "Hi\n\nDSC 2007, a conference on systems and environments for statistical\ncomputing, will take place in Auckland, New Zealand on February 15 & 16,\n2007.\n\n\t       *** Travel and Accommodation Support ***\n",
+      "thread_id": "thread-dbcabe90e702",
+      "thread_depth": 0,
+      "month": "2007-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-dbcabe90e702",
+      "subject": "DSC 2007 Additional Funding",
+      "message_count": 1,
+      "participants": [
+        "Paul Murrell"
+      ],
+      "started": "2007-01-24T09:28:32+13:00",
+      "last_reply": "2007-01-24T09:28:32+13:00",
+      "root_message_id": "msg-dbcabe90e702"
+    }
+  ]
+}

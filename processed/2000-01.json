@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2000-01",
+  "messages": [
+    {
+      "id": "msg-58e499ec4db7",
+      "message_id": "<200001060736.IAA24641@alpha.luc.ac.be>",
+      "from_name": "Jim Lindsey",
+      "from_email_hash": "7759bdd86e7565cb5bc22504926c6000c9b3b2ac7dc893d54622731d35116779",
+      "date": "2000-01-06T08:36:10+01:00",
+      "subject": "version 0.7 of my libraries",
+      "subject_clean": "version 0.7 of my libraries",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Version 0.7 of my libraries for Nonlinear Regression and Repeated\nMeasurements Libraries is now available at\n\nwww.luc.ac.be/~jlindsey/rcode.html\n\nAs a reminder the libraries are\n\nEvent history procedures and models (event)\nGeneralized nonlinear regression models (gnlm)\nMultivariate normal and elliptically-contoured repeated\nmeasurements models (growth)\nNon-normal repeated measurements models (repeated)\nProbability functions and generalized regression models for stable\ndistributions (stable)\nUtilities for nonlinear regression and repeated measurements (rmutil)\n(required by my other libraries)\n\nSome of the major new features since v0.6 include\n\n1. Generalized linear ordinal regression using IWLS (ordglm in gnlm -\nrecall that nordr does nonlinear ordinal regression).\n2. Nonlinear stable regression using my symbolic interpreter and data\nobjects (stableglm becomes stablereg in stable).\n3. The autoregression coefficient in gar can depend on covariates\n(gar in repeated).\n3. Continuous-time two-state Markov process with random effects\n(cmcre in repeated)\n4. Hidden Markov models for ordinal data thanks to Patrick Lindsey\n(hidden and chidden in repeated)\n5. lm and glm accept repeated my data objects using data=as.data.frame(object)\n\nAlpha versions of 0.8 will also soon start appearing in the same\nplace.\n  Jim\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Version 0.7 of my libraries for Nonlinear Regression and Repeated\nMeasurements Libraries is now available at\n\nwww.luc.ac.be/~jlindsey/rcode.html\n\nAs a reminder the libraries are\n\nEvent history procedu",
+      "thread_id": "thread-58e499ec4db7",
+      "thread_depth": 0,
+      "month": "2000-01"
+    },
+    {
+      "id": "msg-90e8e8747de5",
+      "message_id": "<3877AC34.84AAA18C@nceas.ucsb.edu>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
+      "date": "2000-01-08T13:29:24-08:00",
+      "subject": "RPgSQL 0.3",
+      "subject_clean": "RPgSQL 0.3",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new version of the RPgSQL package is available at\nhttp://www.nceas.ucsb.edu/~keitt/R/  (also uploaded to CRAN).  I added a\nconfigure script.  Hopefully this will solve any installation problems.\n\nT.\n\n--\nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n735 State Street, Suite 300, Santa Barbara, CA 93101\nPhone: 805-892-2519, FAX: 805-892-2510\nhttp://www.nceas.ucsb.edu/~keitt/\n\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "A new version of the RPgSQL package is available at\nhttp://www.nceas.ucsb.edu/~keitt/R/  (also uploaded to CRAN).  I added a\nconfigure script.  Hopefully this will solve any installation problems.\n\nT.",
+      "thread_id": "thread-90e8e8747de5",
+      "thread_depth": 0,
+      "month": "2000-01"
+    },
+    {
+      "id": "msg-60f2b860149f",
+      "message_id": "<388615B7.84490F20@nceas.ucsb.edu>",
+      "from_name": "Timothy H. Keitt",
+      "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
+      "date": "2000-01-19T11:51:19-08:00",
+      "subject": "RPgSQL 0.4",
+      "subject_clean": "RPgSQL 0.4",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "You can download the latest version from\n\n\thttp://www.nceas.ucsb.edu/~keitt/R\n\nThis version should fix any install problems related to autoconf/make.\n\nCheers,\nTim  \n\n-- \nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n735 State Street, Suite 300, Santa Barbara, CA 93101\nPhone: 805-892-2519, FAX: 805-892-2510\nhttp://www.nceas.ucsb.edu/~keitt/\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "You can download the latest version from\n\n\thttp://www.nceas.ucsb.edu/~keitt/R\n\nThis version should fix any install problems related to autoconf/make.\n\nCheers,\nTim  \n\n-- \nTimothy H. Keitt\nNational Cent",
+      "thread_id": "thread-60f2b860149f",
+      "thread_depth": 0,
+      "month": "2000-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-58e499ec4db7",
+      "subject": "version 0.7 of my libraries",
+      "message_count": 1,
+      "participants": [
+        "Jim Lindsey"
+      ],
+      "started": "2000-01-06T08:36:10+01:00",
+      "last_reply": "2000-01-06T08:36:10+01:00",
+      "root_message_id": "msg-58e499ec4db7"
+    },
+    {
+      "id": "thread-90e8e8747de5",
+      "subject": "RPgSQL 0.3",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "2000-01-08T13:29:24-08:00",
+      "last_reply": "2000-01-08T13:29:24-08:00",
+      "root_message_id": "msg-90e8e8747de5"
+    },
+    {
+      "id": "thread-60f2b860149f",
+      "subject": "RPgSQL 0.4",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "2000-01-19T11:51:19-08:00",
+      "last_reply": "2000-01-19T11:51:19-08:00",
+      "root_message_id": "msg-60f2b860149f"
+    }
+  ]
+}

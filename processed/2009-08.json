@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2009-08",
+  "messages": [
+    {
+      "id": "msg-90e963a4d72d",
+      "message_id": "<4A84FD63.5010607@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2009-08-14T08:00:03+02:00",
+      "subject": "R 2.9.2 Scheduled for August 24, 2009",
+      "subject_clean": "R 2.9.2 Scheduled for August 24, 2009",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "This is to announce that we plan to release R version 2.9.2 on Monday,\nAugust 24, 2009.\n\nRelease procedures start Friday, August 14.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.html\n\nThe source tarballs will be made available daily (barring build\ntroubles) and the tarballs can be picked up at\n\nhttp://cran.r-project.org/src/base-prerelease/\n\na little later.\n\nBinary builds are expected to appear starting Monday August 17 at the \nlatest.\n\n     For the Core Team\n     Peter Dalgaard\n\n\n-- \n    O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n   c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n  (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "This is to announce that we plan to release R version 2.9.2 on Monday,\nAugust 24, 2009.\n\nRelease procedures start Friday, August 14.\n\nThose directly involved should review the generic schedule at\nhttp",
+      "thread_id": "thread-90e963a4d72d",
+      "thread_depth": 0,
+      "month": "2009-08"
+    },
+    {
+      "id": "msg-a52137fd2d2f",
+      "message_id": "<4A924F12.3070101@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
+      "date": "2009-08-24T10:28:02+02:00",
+      "subject": "R 2.9.2 is released",
+      "subject_clean": "R 2.9.2 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-2.9.2.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor issues.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.9.2.tar.gz\n\nor wait for it to be mirrored at a CRAN site nearer to you. Binaries\nfor various platforms will appear in due course (Duncan Murdoch is out\nof town, so Windows binaries may take a few days longer than usual).\n\n        For the R Core Team\n\n        Peter Dalgaard\n\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n70447ae7f2c35233d3065b004aa4f331  INSTALL\n433182754c05c2cf7a04ad0da474a1d0  README\n4f004de59e24a52d0f500063b4603bcb  OONEWS\nff4bd9073ef440b1eb43b1428ce96872  ONEWS\n17cbe5399dc80f39bd8c8b3c244d6a50  NEWS\n7abcbbc7480df75a11a00bb09783db90  THANKS\n070cca21d9f8a6af15f992edb47a24d5  AUTHORS\na6f89e2100d9b6cdffcea4f398e37343  COPYING.LIB\neb723b61539feef013de476e68b5c50a  COPYING\n020479f381d5f9038dcb18708997f5da  RESOURCES\n4767b922bb20620946ee9a4275a6ee6c  FAQ\n112e2a1306cf71320e45d14e87e5b913  R-2.9.2.tar.gz\n112e2a1306cf71320e45d14e87e5b913  R-latest.tar.gz\n\n\nHere is the relevant part of the NEWS file:\n\n                CHANGES IN R VERSION 2.9.2\n\nNEW FEATURES\n\n    o   install.packages(NULL) now lists packages only once even if they\n        occur in more than one repository (as the latest compatible\n        version of those available will always be downloaded).\n\n    o   approxfun() and approx() now accept a 'rule' of length two, for\n        easy specification of different interpolation rules on left and\n        right.\n\n        They no longer segfault for invalid zero-length specification\n        of 'yleft, 'yright', or 'f'.\n\n    o   seq_along(x) is now equivalent to seq_len(length(x)) even where\n        length() has an S3/S4 method; previously it (intentionally)\n        always used the default method for length().\n\n    o   PCRE has been updated to version 7.9 (for bug fixes).\n\n    o   agrep() uses 64-bit ints where available on 32-bit platforms\n        and so may do a better job with complex matches.\n        (E.g. PR#13789, which failed only on 32-bit systems.)\n\nDEPRECATED & DEFUNCT\n\n    o   R CMD Rd2txt is deprecated, and will be removed in 2.10.0.\n        (It is just a wrapper for R CMD Rdconv -t txt.)\n\n    o   tools::Rd_parse() is deprecated and will be removed in 2.10.0\n        (which will use only Rd version 2).\n\nBUG FIXES\n\n    o   parse_Rd() still did not handle source reference encodings\n        properly.\n\n    o   The C utility function PrintValue no longer attempts to print\n        attributes for CHARSXPs as those attributes are used\n        internally for the CHARSXP cache.  This fixes a segfault when\n        calling it on a CHARSXP from C code.\n\n    o   PDF graphics output was producing two instances of anything\n        drawn with the symbol font face. (Report from Baptiste Auguie.)\n\n    o   length(x) <- newval and grep() could cause memory corruption.\n        (PR#13837)\n\n    o   If model.matrix() was given too large a model, it could crash\n        R. (PR#13838, fix found by Olaf Mersmann.)\n\n    o   gzcon() (used by load()) would re-open an open connection,\n        leaking a file descriptor each time. (PR#13841)\n\n    o   The checks for inconsistent inheritance reported by setClass()\n        now detect inconsistent superclasses and give better warning\n        messages.\n\n    o   print.anova() failed to recognize the column labelled\n        P(>|Chi|) from a Poisson/binomial GLM anova as a p-value\n        column in order to format it appropriately (and as a\n        consequence it gave no significance stars).\n\n    o   A missing PROTECT caused rare segfaults during calls to\n        load().  (PR#13880, fix found by Bill Dunlap.)\n\n    o   gsub() in a non-UTF-8 locale with a marked UTF-8 input\n        could in rare circumstances overrun a buffer and so segfault.\n\n    o   R CMD Rdconv --version was not working correctly.\n\n    o   Missing PROTECTs in nlm() caused \"random\" errors. (PR#13381 by\n        Adam D.I. Kramer, analysis and suggested fix by Bill Dunlap.)\n\n    o   Some extreme cases of pbeta(log.p = TRUE) are more accurate\n        (finite values < -700 rather than -Inf).  (PR#13786)\n\n        pbeta() now reports on more cases where the asymptotic\n        expansions lose accuracy (the underlying TOMS708 C code was\n        ignoring some of these, including the PR#13786 example).\n\n    o   new.env(hash = TRUE, size = NA) now works the way it has been\n        documented to for a long time.\n\n    o   tcltk::tk_choose.files(multi = TRUE) produces better-formatted\n        output with filenames containing spaces.  (PR#13875)\n\n    o   R CMD check --use-valgrind did not run valgrind on the package\ntests.\n\n    o   The tclvalue() and the print() and as.xxx methods for class\n        \"tclObj\" crashed R with an invalid object -- seen with an\n        object saved from an earlier session.\n\n    o   R CMD BATCH garbled options -d <debugger> (useful for\n        valgrind, although --debugger=valgrind always worked)\n\n    o   INSTALL with LazyData and Encoding declared in DESCRIPTION\n        might have left options(\"encoding\") set for the rest of the\n        package installation.\n\n\n-- \n   O__  ---- Peter Dalgaard             ?ster Farimagsgade 5, Entr.B\n  c/ /'_ --- Dept. of Biostatistics     PO Box 2099, 1014 Cph. K\n (*) \\(*) -- University of Copenhagen   Denmark      Ph:  (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)              FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-2.9.2.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor issues.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-proj",
+      "thread_id": "thread-a52137fd2d2f",
+      "thread_depth": 0,
+      "month": "2009-08"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-90e963a4d72d",
+      "subject": "R 2.9.2 Scheduled for August 24, 2009",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-08-14T08:00:03+02:00",
+      "last_reply": "2009-08-14T08:00:03+02:00",
+      "root_message_id": "msg-90e963a4d72d"
+    },
+    {
+      "id": "thread-a52137fd2d2f",
+      "subject": "R 2.9.2 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2009-08-24T10:28:02+02:00",
+      "last_reply": "2009-08-24T10:28:02+02:00",
+      "root_message_id": "msg-a52137fd2d2f"
+    }
+  ]
+}

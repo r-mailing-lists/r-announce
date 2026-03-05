@@ -1,0 +1,90 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2000-10",
+  "messages": [
+    {
+      "id": "msg-6591da097d71",
+      "message_id": "<MPEHJEGLNPNFGJFOJMKNAECNCAAA.Don.Wingate@IntelliChem.com>",
+      "from_name": "Don Wingate",
+      "from_email_hash": "83d6af0527d4ddc78b39598026fe414a5265cf916714d82a128a0e2840365a6a",
+      "date": "2000-10-03T09:34:56-07:00",
+      "subject": "Parse Errors",
+      "subject_clean": "Parse Errors",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R Development Team,\n\nUsing Thomas Baier's R Com Server -- or a dll I am building which supports\nan evaluate function that is based on Baier's function R_Proxy_evaluate\ncontained in proxy_impl.c -- when I issue an invalid command to R such as\n\"plo(x)\" the program crashes. There is code in R_Proxy_evaluate to test for\na parse error before actually generating code and issuing the command - He\ncalls R_Parse1Buffer(&lBuffer,0,&lStatus) and then tests the value of\nlStatus for parse error. The trouble is that lStatus == PARSE_OK even though\nthe command is invalid, so the evaluation continues until eval() is called,\nat which point R terminates and crashes the program.  (It does write an\nerror message to the console first, but crashes after that.)\n\nIs there a way to handle this? The same command can be issued inside\nRGui.exe or RTerm.exe with out a problem.\n\nThankyou, Don Wingate.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear R Development Team,\n\nUsing Thomas Baier's R Com Server -- or a dll I am building which supports\nan evaluate function that is based on Baier's function R_Proxy_evaluate\ncontained in proxy_impl.c -",
+      "thread_id": "thread-6591da097d71",
+      "thread_depth": 0,
+      "month": "2000-10"
+    },
+    {
+      "id": "msg-b8cfea14be0b",
+      "message_id": "<Pine.LNX.4.21.0010052218400.814-100000@localhost.localdomain>",
+      "from_name": "mikalzet at libero.it",
+      "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
+      "date": "2000-10-05T22:20:32+02:00",
+      "subject": "installing R-1.1.1 on Mandrake 7.1 ",
+      "subject_clean": "installing R-1.1.1 on Mandrake 7.1",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The R-base-1.1.1-1.i586.rpm packaged for Mandrake 7.1 is now available on\nCRAN. \nI've installed it on my system and it seems to work all right so far !\nPlease let me know if there are any problems.\n\n-- \nDr. Michele Alzetta\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "The R-base-1.1.1-1.i586.rpm packaged for Mandrake 7.1 is now available on\nCRAN. \nI've installed it on my system and it seems to work all right so far !\nPlease let me know if there are any problems.\n\n-",
+      "thread_id": "thread-b8cfea14be0b",
+      "thread_depth": 0,
+      "month": "2000-10"
+    },
+    {
+      "id": "msg-15718c3ae304",
+      "message_id": "<3.0.32.20001024143447.009152a0@162.38.183.200>",
+      "from_name": "Emmanuel Paradis",
+      "from_email_hash": "279a25fc4a41e9310e9fb424624945d36d0266c02d86a58d5e8e9c1d7d268282",
+      "date": "2000-10-24T14:34:48+02:00",
+      "subject": "\"R pour les débutants\"  is available in French and in English",
+      "subject_clean": "\"R pour les débutants\"  is available in French and in English",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Dear R-users,\n\nI have completely revised my tutorial \"R pour les d?butants\" and translated\nit in English under the title \"R for beginners\". The document is now 31\npages-long (the previous version was 15-pages long). It gives a starting\npoint for people with no experience with R (or S). I tried to explain the\nbasics in the simplest way, as well as giving useful details (mostly with\ntables). Any feed-back would be greatly appreciated. Both versions are on\nCRAN in the contributed documentation section:\n\nhttp://cran.r-project.org/doc/contrib/Rdebuts_fr.pdf [280 kB]\nhttp://cran.r-project.org/doc/contrib/Rdebuts_en.pdf [152 kB]\n\nChers utilisateurs de R,\n\nJ'ai compl?tement r?vis? mon document \"R pour les d?butants\" et l'ai\ntraduit en anglais sous le titre \"R for beginners\". Ce document comporte\nmaintenant 31 pages (la version pr?c?dente en comportait 15). Le but de \"R\npour les d?butants\" est de fournir un point de d?part pour les utilisateurs\nqui n'ont aucune exp?rience avec R (ou S). J'ai essay? de simplifier les\nexplications, tout en donnant des d?tails utiles (le plus souvent sous\nforme de tableaux). Tout commentaire ou suggestion serait grandement\nappr?ci?. Les deux versions sont sur le site du CRAN dans la section\n\"contributed documentation\" (cf. liens ci-dessus).\n\n\n\n\nEmmanuel Paradis\nLaboratoire de Pal?ontologie\nInstitut des Sciences de l'?volution\nUniversit? Montpellier II\nF-34095 Montpellier c?dex 05\nFrance\n   phone: +33  4 67 14 39 64\n     fax: +33  4 67 14 36 10\n  mailto:paradis at isem.univ-montp2.fr\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear R-users,\n\nI have completely revised my tutorial \"R pour les d?butants\" and translated\nit in English under the title \"R for beginners\". The document is now 31\npages-long (the previous version was ",
+      "thread_id": "thread-15718c3ae304",
+      "thread_depth": 0,
+      "month": "2000-10"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-6591da097d71",
+      "subject": "Parse Errors",
+      "message_count": 1,
+      "participants": [
+        "Don Wingate"
+      ],
+      "started": "2000-10-03T09:34:56-07:00",
+      "last_reply": "2000-10-03T09:34:56-07:00",
+      "root_message_id": "msg-6591da097d71"
+    },
+    {
+      "id": "thread-b8cfea14be0b",
+      "subject": "installing R-1.1.1 on Mandrake 7.1",
+      "message_count": 1,
+      "participants": [
+        "mikalzet at libero.it"
+      ],
+      "started": "2000-10-05T22:20:32+02:00",
+      "last_reply": "2000-10-05T22:20:32+02:00",
+      "root_message_id": "msg-b8cfea14be0b"
+    },
+    {
+      "id": "thread-15718c3ae304",
+      "subject": "\"R pour les débutants\"  is available in French and in English",
+      "message_count": 1,
+      "participants": [
+        "Emmanuel Paradis"
+      ],
+      "started": "2000-10-24T14:34:48+02:00",
+      "last_reply": "2000-10-24T14:34:48+02:00",
+      "root_message_id": "msg-15718c3ae304"
+    }
+  ]
+}

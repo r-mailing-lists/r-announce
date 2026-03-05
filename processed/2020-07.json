@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2020-07",
+  "messages": [
+    {
+      "id": "msg-846d29972a2f",
+      "message_id": "<469F2023-0901-461D-8DED-DBDC249FCB84@slu.edu>",
+      "from_name": "Chris Prener",
+      "from_email_hash": "b0622a254dca6128392e749e386cc36f7abc5de944d9b64a5cc6afc38c9e0201",
+      "date": "2020-07-08T00:15:32Z",
+      "subject": "useR! Live Events Underway!",
+      "subject_clean": "useR! Live Events Underway!",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\nOur first breakout session for useR! 2020 was today, and our welcome session begins tomorrow followed by Martin M?chler and Luke Tierney?s keynotes and our panel of R Core contributors. The Slido site for Q and A<https://app.sli.do/event/ccilmxcz/live/questions> is already open. If you have questions about R Core, where R is headed, or questions for Martin and Luke, please post them there! Then, head back there for the livestream tomorrow. A full list of our live events is available here<https://user2020.r-project.org/program/agenda/>. Our site also includes links to posters and videos, and will include tutorial information as soon as it is available.\n\nWe look forward to seeing you all at our events this week!\n\nBest,\nChris Prener, Heidi Seibold, and Jenine Harris\nuser! 2020 Co-Leads\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\nOur first breakout session for useR! 2020 was today, and our welcome session begins tomorrow followed by Martin M?chler and Luke Tierney?s keynotes and our panel of R Core contributors. The Sl",
+      "thread_id": "thread-846d29972a2f",
+      "thread_depth": 0,
+      "month": "2020-07"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-846d29972a2f",
+      "subject": "useR! Live Events Underway!",
+      "message_count": 1,
+      "participants": [
+        "Chris Prener"
+      ],
+      "started": "2020-07-08T00:15:32+00:00",
+      "last_reply": "2020-07-08T00:15:32+00:00",
+      "root_message_id": "msg-846d29972a2f"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2014-06",
+  "messages": [
+    {
+      "id": "msg-b4bccadc00ea",
+      "message_id": "<CABFfbXsw5X7=Zsw_awy3XWYYtQ1-rc2qC+H9Bws+A0NGcwoMJg@mail.gmail.com>",
+      "from_name": "Jeroen Ooms",
+      "from_email_hash": "8cec1f7bf29300b425ea1be687fbb6d3fccf3de57737bb017534932e9e18a5f3",
+      "date": "2014-06-01T21:31:07-07:00",
+      "subject": "Updates from the useR! 2014 organizing committee",
+      "subject_clean": "Updates from the useR! 2014 organizing committee",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Hi all,\n\nWe are exactly one month away from the useR! 2014 conference [1]. Time\nfor an update from the organizing committee.\n\nThis weekend, registrations passed the 500 mark, which is a new record\nfor useR! according to data collected by Gergely Dar?czi [2]. Yet,\nthere is plenty of additional capacity, both for the conference\nitself, as well as the beautiful on-campus housing at UCLA. We hope to\nsee many more registrations over the upcoming weeks and appreciate all\nhelp in spreading the word to friends and colleagues that (should) use\nR, but might not be actively following the blogs or mailing lists.\n\nTo those who are unsure whether to attend, we want to emphasize that\nuseR! is not just for seasoned professionals, but has lots to offer to\nany R user. Abstracts and (free) tutorials cover a great diversity of\ntopics in both research and industry applications, ranging from\nintroductory to very advanced. The conference provides a great\nopportunity to learn and mingle with the community, and is interesting\nfor beginner as well as experienced R users.\n\nTutorials this year are included with the conference ticket and no\nseparate registration is required. All registrants will receive an\nemail survey asking which tutorial they would like to attend, if any.\nThis information will be used for scheduling purposes and to\nfacilitate communication between presenters and participants (e.g.\ndistribution of preparation material).\n\nFinally, we urge international guests to verify that their visa or\nvisa-waiver documents are valid to enter the United States. Citizens\nfrom visa-waiver countries [3] that do not already have a US visa,\nmust apply online for an ESTA travel authorization at least 72 hours\nprior to departure. Once approved, the ESTA is generally valid for a\nperiod of 2 years, so now would be a good time to complete this\nprocess.\n\nWe look forward to seeing all of you in California! Please keep an eye\non the conference website, which is continuously updated with most\nrecent news and information as it becomes available.\n\nBest,\n\nJeroen, on behalf of the organizing committee\n\n\n[1] http://user2014.stat.ucla.edu/\n[2] http://rapporter.net/custom/R-activity/data/Rstats.csv\n[3] http://www.esta.us/visa_waiver_countries.html",
+      "body_snippet": "Hi all,\n\nWe are exactly one month away from the useR! 2014 conference [1]. Time\nfor an update from the organizing committee.\n\nThis weekend, registrations passed the 500 mark, which is a new record\nfor",
+      "thread_id": "thread-b4bccadc00ea",
+      "thread_depth": 0,
+      "month": "2014-06"
+    },
+    {
+      "id": "msg-02b8a59383fb",
+      "message_id": "<812FE86A-84B4-493E-9BDE-4A22F6339E93@cbs.dk>",
+      "from_name": "Peter Dalgaard",
+      "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
+      "date": "2014-06-13T16:18:23+02:00",
+      "subject": "Release of R 3.1.1 scheduled for July 10",
+      "subject_clean": "Release of R 3.1.1 scheduled for July 10",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "Just a quick notice that we intend to have a patch release on July 10. Nickname is still undecided.\n\nDue to calendar conflicts, the binaries for some platforms may be delayed by a week or so. \n\n-pd\n\n-- \nPeter Dalgaard, Professor\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153501\nEmail: pd.mes at cbs.dk  Priv: PDalgd at gmail.com",
+      "body_snippet": "Just a quick notice that we intend to have a patch release on July 10. Nickname is still undecided.\n\nDue to calendar conflicts, the binaries for some platforms may be delayed by a week or so. \n\n-pd\n\n-",
+      "thread_id": "thread-02b8a59383fb",
+      "thread_depth": 0,
+      "month": "2014-06"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-b4bccadc00ea",
+      "subject": "Updates from the useR! 2014 organizing committee",
+      "message_count": 1,
+      "participants": [
+        "Jeroen Ooms"
+      ],
+      "started": "2014-06-01T21:31:07-07:00",
+      "last_reply": "2014-06-01T21:31:07-07:00",
+      "root_message_id": "msg-b4bccadc00ea"
+    },
+    {
+      "id": "thread-02b8a59383fb",
+      "subject": "Release of R 3.1.1 scheduled for July 10",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2014-06-13T16:18:23+02:00",
+      "last_reply": "2014-06-13T16:18:23+02:00",
+      "root_message_id": "msg-02b8a59383fb"
+    }
+  ]
+}
