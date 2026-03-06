@@ -34,22 +34,6 @@
       "thread_id": "thread-d85aff76ec98",
       "thread_depth": 0,
       "month": "2017-04"
-    },
-    {
-      "id": "msg-d85aff76ec98",
-      "message_id": "<600f9f66e84243668f4141bdfee9f4a1@du.edu.om>",
-      "from_name": "Hisham Al Habshi",
-      "from_email_hash": "f2f960cc2625121c1ee6a299b839e572c0029b6aa89ff476434a77b543704fc0",
-      "date": "2017-04-23T16:53:32Z",
-      "subject": "There Is A Donation In Your Name And Which Is Very Urgent Contact As Soon As Possible ",
-      "subject_clean": "There Is A Donation In Your Name And Which Is Very Urgent Contact As Soon As Possible",
-      "in_reply_to": null,
-      "references": [],
-      "body_plain": "There is a donation in your name and it is very urgent so if you are interested you have to contact me for your donation directly with the email below donator Email:  trottermrneil at gmail.com\n\n\n\t[[alternative HTML version deleted]]",
-      "body_snippet": "There is a donation in your name and it is very urgent so if you are interested you have to contact me for your donation directly with the email below donator Email:  trottermrneil at gmail.com\n\n\n\t[[a",
-      "thread_id": "thread-d85aff76ec98",
-      "thread_depth": 0,
-      "month": "2017-04"
     }
   ],
   "threads": [
@@ -63,17 +47,6 @@
       "started": "2017-04-21T14:19:04+00:00",
       "last_reply": "2017-04-21T14:19:04+00:00",
       "root_message_id": "msg-f40d6ab9d741"
-    },
-    {
-      "id": "thread-d85aff76ec98",
-      "subject": "There Is A Donation In Your Name And Which Is Very Urgent Contact As Soon As Possible",
-      "message_count": 1,
-      "participants": [
-        "Hisham Al Habshi"
-      ],
-      "started": "2017-04-23T16:53:32+00:00",
-      "last_reply": "2017-04-23T16:53:32+00:00",
-      "root_message_id": "msg-d85aff76ec98"
     },
     {
       "id": "thread-d85aff76ec98",

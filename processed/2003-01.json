@@ -1,0 +1,257 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2003-01",
+  "messages": [
+    {
+      "id": "msg-fdfe83a952db",
+      "message_id": "<20021231231409.316635e3.fharrell@virginia.edu>",
+      "from_name": "Frank E Harrell Jr",
+      "from_email_hash": "bd19bd9f169b5f3d1a992f9f1800c6f882823514a102dfe1216f921e43131154",
+      "date": "2003-01-01T20:33:05Z",
+      "subject": "Updates to Hmisc and Design Libraries",
+      "subject_clean": "Updates to Hmisc and Design Libraries",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The Hmisc and Design libraries have been updated respectively to versions 1.4-2 and 1.1-1.  New versions for Linux/Unix/Windows may be obtained from http://hesweb1.med.virginia.edu/biostat/s/library/r .  Web sites for the libraries are http://hesweb1.med.virginia.edu/biostat/s/Hmisc.html and http://hesweb1.med.virginia.edu/biostat/s/Design.html .\n\nThanks to Xiao Gang Fan for porting the libraries to Windows once again.\n\nI still have not had time to fix details in the documentation that will allow R CMD check to be passed, which would allow me to submit the libraries to CRAN.\n\nChange logs may be obtained from http://hesweb1.med.virginia.edu/biostat/s/library/common\n\nSeveral bugs have been fixed, and new features added.  In Hmisc, better use as been made of \"units\" attributes of variables, and units are incorporated into tables and plots produced by summary.formula.  For plots, plotmath is used, especially for annotating plots with test statistics produced by summary(..., test=TRUE).  A \"matrix tapply\" function (mApply) has been added.  A new LaTeX table formatting option, ctable, has been added to latex.default.  A new function getHdata makes it easy to download and import datasets and their descriptions from our web site.  latex functions were changed to allow file=\"\" to be specified, for inline inclusion of LaTeX code in Sweave.  Problems with sas.get and [.factor have been fixed.  fit.mult.impute was enhanced to compute Rubin's degrees of freedom for t-statistics for scalar parameter tests, as well as to compute a missing information index.\n\nIn Design, glmD works much more reliably.  plotmath is now used by plot.Design. Bill Pikounis' <v_bill_pikounis at merck.com> improvements have been incorporated in bootcov to allow both cluster and group to be specified.   offsets now work in lrm when NAs are present, and predict.Design now works with offsets.  bootcov now works with glmD, and  summary and print work for glmD (thanks: Fredrik Lundgren <fredrik.lundgren at norrkoping.mail.telia.com>).  validate.tree had a bug fix.\n\nExtended documentation for the libraries, and an introduction to the S language have been updated also (http://hesweb1.med.virginia.edu/biostat/s/doc/splus.pdf) and now include more R-specific information.\n\nThanks to those who have reported bugs and fixes, and Happy New Year to all.\n---- \nFrank E Harrell Jr              Prof. of Biostatistics & Statistics\nDiv. of Biostatistics & Epidem. Dept. of Health Evaluation Sciences\nU. Virginia School of Medicine  http://hesweb1.med.virginia.edu/biostat",
+      "body_snippet": "The Hmisc and Design libraries have been updated respectively to versions 1.4-2 and 1.1-1.  New versions for Linux/Unix/Windows may be obtained from http://hesweb1.med.virginia.edu/biostat/s/library/r",
+      "thread_id": "thread-fdfe83a952db",
+      "thread_depth": 0,
+      "month": "2003-01"
+    },
+    {
+      "id": "msg-6d373ce19caf",
+      "message_id": "<Pine.GSO.4.10.10301061914380.11148-100000@fisher.stat.ucla.edu>",
+      "from_name": "Roger Peng",
+      "from_email_hash": "d8f605056634f86651dd48f76e5111113736ebdc34f063e70cc1913da6b4cec2",
+      "date": "2003-01-08T17:48:05Z",
+      "subject": "New package:  gpclib",
+      "subject_clean": "New package:  gpclib",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have just uploaded a package to CRAN called `gpclib' for clipping large\nand complex polygons.  This package provides an R interface to Alan\nMurta's very fast General Polygon Clipper library (written in C), which\nhas an optimized version of the Vatti algorithm. Not all features of\nMurta's library are implemented -- right now you can do intersections,\ndifferences, and unions.  There are also functions for reading/writing\nfrom/to files and coercing between various data types.\n\nFor some more details about the package see\nhttp://department.stat.ucla.edu/~rpeng/R/gpclib.\n\nPlease send any comments, complaints, and bug reports to\nrpeng at stat.ucla.edu.\n\nHere is the DESCRIPTION file for the package:\n\nPackage:  gpclib\nVersion:  1.0\nDate:  1/6/2003\nDepends:  R (>= 1.6.1)\nTitle:  General Polygon Clipping Library for R\nAuthor:  R interface by Roger D. Peng <rpeng at stat.ucla.edu>; GPC library\n\t by Alan Murta\nMaintainer:  Roger D. Peng <rpeng at stat.ucla.edu>\nDescription:  General polygon clipping routines for R based on Alan\n\t      Murta's C library\nLicense:  Code written by R. D. Peng is available under the LGPL; the C\n\t  code for the GPC library is free for non-commercial use (see the\n\t  files `gpc.c' and `gpc.h' for details)\nURL:  http://department.stat.ucla.edu/~rpeng/R/gpclib;\n      http://www.cs.man.ac.uk/aig/staff/alan/software\n\nHappy clipping!\n\n-roger\n_______________________________\nUCLA Department of Statistics\nrpeng at stat.ucla.edu\nhttp://www.stat.ucla.edu/~rpeng",
+      "body_snippet": "I have just uploaded a package to CRAN called `gpclib' for clipping large\nand complex polygons.  This package provides an R interface to Alan\nMurta's very fast General Polygon Clipper library (written",
+      "thread_id": "thread-6d373ce19caf",
+      "thread_depth": 0,
+      "month": "2003-01"
+    },
+    {
+      "id": "msg-a949de6d21a6",
+      "message_id": "<x2adi9rogm.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2003-01-10T16:53:02Z",
+      "subject": "R-1.6.2 is released",
+      "subject_clean": "R-1.6.2 is released",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've rolled up R-1.6.2.tgz a short while ago. This is a minor upgrade,\nfixing an assortment of bugs.\n\nYou can get it from the developer site at\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.6.2.tgz\n\nor wait for it to be mirrored at a CRAN site near you. Binaries for\nvarious platforms will appear in due course.\n \nThere is also a version split for floppies, but due to the inclusion\nof recommended packages as binary .tar.gz files, we are no longer\nproviding a patch file.\n\nThese are the md5sums for the freshly created files, in case you wish\nto check that they are uncorrupted:\n\n174e6280aa2f2102388ca9c7930b1843  R-1.6.2.tgz\n8d202e80aa52e3fc877994f1a76fc198  R-1.6.2.tgz-split.aa\n8153444a5c0bea85ede04e0ced76b7de  R-1.6.2.tgz-split.ab\nb1d88962c538ab9fccc81161c2a81a02  R-1.6.2.tgz-split.ac\n90fb143e6a3289d472817e5218d2423d  R-1.6.2.tgz-split.ad\n0e55aacd637415053f18651ecdc73c3a  R-1.6.2.tgz-split.ae\n1c910fa9fe45fd5a15d6b3893c99f7fc  R-1.6.2.tgz-split.af\n8706e736541bf60b717e0b56e8a405a0  R-1.6.2.tgz-split.ag\n\n        For the R Core Team,\n\n        Peter D.\n\n\nHere's the relevant part of the NEWS file:\n\n\n                CHANGES IN R VERSION 1.6.2\n\n\nBUG FIXES\n\n    o   plot.stepfun() now obeys a `ylim=.' specification.\n\n    o   removeClass() does a better job of removing inheritance\n        information.\n\n    o   setIs() will not allow mismatched representations between two\n        classes (without an explicit coerce method).\n\n    o   The code underlying polygon drawing contained a memory leak.\n        This showed up in persp, but did not affect other graphics\n        functions.  It is now possible to draw big DEMs.\n\n    o   logLik.nls() gave wrong df. (PR#2295)\n\n    o   rbind() with a mixture of data frames and matrices treated the\n        matrices as vectors. (PR#2266)\n\n    o   stripchart(method=\"stack\") was not handling missing values. (PR#2018)\n\n    o   Arithmetic functions such as log() lost the object bit from\n        classed objects if coercion was needed. (PR#2315)\n\n    o   exp_rand would go into an infinite loop if unif_rand returned 0.\n\n    o   formatC(x, format=\"fg\") could return exponential format if\n        rounding pushed x over a positive power of 10. (PR#2299)\n\n    o   attr(x, foo) used partial matching for `foo' (even though not\n        documented to do so), and failed to find `foo' if there were\n        two or more partial matches before the exact match in the list\n        of attributes.\n\n    o   Rdconv now creates direct HTML hyperlinks when linking to\n        documentation in the same package.  The code now ensures that\n        links which can be resolved within the package are so resolved,\n        even when there are possible resolutions in other packages.\n\n    o   If readBin(what=character()) is used incorrectly on a file which\n        does not contain C-style character strings, warnings (usually\n        many) are now given.\n\n    o   Building libR.so with the zlib in the R sources was not\n        finding the local zlib headers.\n\n    o   system(intern=TRUE) has an undocumented line length limit of\n        119 chars both on Unix and Windows.  The limit is now 8096 and\n        documented.  On Unix (only) every 120th character used to be\n        discarded.\n\n    o   plot.POSIX[cl]t were not passing graphics parameters on to\n        axis.POSIXct.\n\n    o   On some HP-UX systems, installed scripts were not executable\n        when using the BSD-compatible install system program found by\n        configure.  We now always use install-sh on HP-UX. (PR#2091)\n\n    o   c() was converting NA names to \"NA\": now proper NA strings are\n        used wherever possible. (PR#2358)\n\n    o   A typo was causing segfaults when using data.entry under SuSE.\n\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907",
+      "body_snippet": "I've rolled up R-1.6.2.tgz a short while ago. This is a minor upgrade,\nfixing an assortment of bugs.\n\nYou can get it from the developer site at\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.6.2.tgz\n",
+      "thread_id": "thread-a949de6d21a6",
+      "thread_depth": 0,
+      "month": "2003-01"
+    },
+    {
+      "id": "msg-41eea8a3f150",
+      "message_id": "<x2wuldq8rv.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2003-01-10T17:17:02Z",
+      "subject": "[R] R-1.6.2 is released",
+      "subject_clean": "R-1.6.2 is released",
+      "in_reply_to": "<x2adi9rogm.fsf@biostat.ku.dk>",
+      "references": [
+        "<x2adi9rogm.fsf@biostat.ku.dk>"
+      ],
+      "body_plain": "Peter Dalgaard BSA <p.dalgaard at biostat.ku.dk> writes:\n\n\n> Here's the relevant part of the NEWS file:\n> \n> \n>                 CHANGES IN R VERSION 1.6.2\n\nSorry, not quite... This is it:\n\n\n                CHANGES IN R VERSION 1.6.2\n\n\nBUG FIXES\n\n    o   plot.stepfun() now obeys a `ylim=.' specification.\n\n    o   removeClass() does a better job of removing inheritance\n        information.\n\n    o   setIs() will not allow mismatched representations between two\n        classes (without an explicit coerce method).\n\n    o   The code underlying polygon drawing contained a memory leak.\n        This showed up in persp, but did not affect other graphics\n        functions.  It is now possible to draw big DEMs.\n\n    o   logLik.nls() gave wrong df. (PR#2295)\n\n    o   rbind() with a mixture of data frames and matrices treated the\n        matrices as vectors. (PR#2266)\n\n    o   stripchart(method=\"stack\") was not handling missing values. (PR#2018)\n\n    o   Arithmetic functions such as log() lost the object bit from\n        classed objects if coercion was needed. (PR#2315)\n\n    o   exp_rand would go into an infinite loop if unif_rand returned 0.\n\n    o   formatC(x, format=\"fg\") could return exponential format if\n        rounding pushed x over a positive power of 10. (PR#2299)\n\n    o   attr(x, foo) used partial matching for `foo' (even though not\n        documented to do so), and failed to find `foo' if there were\n        two or more partial matches before the exact match in the list\n        of attributes.\n\n    o   Rdconv now creates direct HTML hyperlinks when linking to\n        documentation in the same package.  The code now ensures that\n        links which can be resolved within the package are so resolved,\n        even when there are possible resolutions in other packages.\n\n    o   If readBin(what=character()) is used incorrectly on a file which\n        does not contain C-style character strings, warnings (usually\n        many) are now given.\n\n    o   Building libR.so with the zlib in the R sources was not\n        finding the local zlib headers.\n\n    o   system(intern=TRUE) has an undocumented line length limit of\n        119 chars both on Unix and Windows.  The limit is now 8096 and\n        documented.  On Unix (only) every 120th character used to be\n        discarded.\n\n    o   plot.POSIX[cl]t were not passing graphics parameters on to\n        axis.POSIXct.\n\n    o   On some HP-UX systems, installed scripts were not executable\n        when using the BSD-compatible install system program found by\n        configure.  We now always use install-sh on HP-UX. (PR#2091)\n\n    o   c() was converting NA names to \"NA\": now proper NA strings are\n        used wherever possible. (PR#2358)\n\n    o   A typo was causing segfaults when using data.entry under SuSE.\n\n    o   mostattributes<-() was failing to copy across dimnames when\n        one component was NULL, affecting pmax() and pmin() when the\n        first argument was a matrix.  (root cause of PR#2357)\n\n    o   The pdf() device now initialises graphical parameters\n        properly.  (PR#2281)\n\n    o   Checks in the C code prevent possible memory faults when\n        standardGeneric is called invalidly.\n\n    o   Macros NEW_OBJECT (aka NEW) and MAKE_CLASS added; required by\n        the .Call interface to generate arbitrary objects.\n\n    o   Problem that prevented package tcltk from working with Tcl/Tk\n        8.4 (crash on initialization) resolved.  (Notice that binaries\n        may still require an older Tcl/Tk, for example on Windows).\n\n    o   type.convert() was not getting the levels right if passed a\n        character vector containing <NA>s, and `na.strings' did not\n        contain \"NA\".  This affected read.table().\n\n    o   Internal match function did not check for nor handle 0-length\n        vectors.  (The R function match() did.)  This could cause\n        type.convert() to segfault.\n\n    o   The line length limit in output text connections has been\n        raised to 8095 chars.\n\n    o   Sweave now uses anonymous file rather than text connections\n        to avoid the limits of the latter (see previous item).\n\n    o   parsing did not work on connections when pushback was used (as\n        it had never been implemented).  (PR#2396)\n\n    o   max.col() only found NAs in the first column (typo).\n\n    o   Added a workaround for recent versions of glibc (e.g. RedHat 8.0)\n        with inconsistent mktime/localtime functions which caused\n        conversion to/from POSIXct times prior to 1970-01-01 to be\n        inconsistent.  On such platforms this is a run-time test to\n        allow e.g. R compiled on RH7.2 to run on RH8.0.\n\n    o   Clipping was not being reset properly between plots on the gtk()\n        device (the default under the GNOME interface). (PR#2366)\n\n    o   axis(*, fg= cc) now works (again) the same as axis(*, col = cc).\n\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907",
+      "body_snippet": "Peter Dalgaard BSA <p.dalgaard at biostat.ku.dk> writes:\n\n\n> Here's the relevant part of the NEWS file:\n> \n> \n>                 CHANGES IN R VERSION 1.6.2\n\nSorry, not quite... This is it:\n\n\n          ",
+      "thread_id": "thread-a949de6d21a6",
+      "thread_depth": 1,
+      "month": "2003-01"
+    },
+    {
+      "id": "msg-4339b1c0b281",
+      "message_id": "<6rr8blhrro.fsf@bates4.stat.wisc.edu>",
+      "from_name": "Douglas Bates",
+      "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
+      "date": "2003-01-10T17:52:04Z",
+      "subject": "R-1.6.2 is available via rsync",
+      "subject_clean": "R-1.6.2 is available via rsync",
+      "in_reply_to": "<x2adi9rogm.fsf@biostat.ku.dk>",
+      "references": [
+        "<x2adi9rogm.fsf@biostat.ku.dk>"
+      ],
+      "body_plain": "Sources for R-1.6.2 are now available via rsync at rsync.r-project.org\n\n$ rsync rsync.r-project.org::\nr-release      \tR-1.6.2 sources (current released version - approx 30 MB)\nr-patched      \tR sources (patched released version - approx 30 MB)\nr-devel        \tR sources (development version)\nr-manuals      \tDevelopment sources for manuals for R\nr-recommended  \tSources for recommended R packages\nxlispstat      \txlispstat sources (development version) CVS tree (approx 12 MB)\nCRAN           \tComplete CRAN ftp area\nBioc-release   \tBioconductor sources (current release version)\nBioc-devel     \tBioconductor sources (development version)\nGGobi          \tGGobi sources (devel version)\nomega-cvs      \tOmega Project for Statistical Computing CVS tree\nr-project-web  \tWeb pages for www.r-project.org and mirrors\nOmegahat       \tComplete ftp archive for Omegahat",
+      "body_snippet": "Sources for R-1.6.2 are now available via rsync at rsync.r-project.org\n\n$ rsync rsync.r-project.org::\nr-release      \tR-1.6.2 sources (current released version - approx 30 MB)\nr-patched      \tR source",
+      "thread_id": "thread-a949de6d21a6",
+      "thread_depth": 1,
+      "month": "2003-01"
+    },
+    {
+      "id": "msg-9abbaa0fa77c",
+      "message_id": "<x2k7hdq670.fsf@biostat.ku.dk>",
+      "from_name": "Peter Dalgaard BSA",
+      "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
+      "date": "2003-01-10T18:13:02Z",
+      "subject": "[R] R-1.6.2 is released",
+      "subject_clean": "R-1.6.2 is released",
+      "in_reply_to": "<3E1EF8A0.F010C41F@bank-banque-canada.ca>",
+      "references": [
+        "<x2adi9rogm.fsf@biostat.ku.dk>",
+        "<3E1EF8A0.F010C41F@bank-banque-canada.ca>"
+      ],
+      "body_plain": "Paul Gilbert <pgilbert at bank-banque-canada.ca> writes:\n\n> Peter\n> \n> When I the URL in your message I am getting:\n> \n> <H1>Not Found</H1>\n> The requested URL /pub/CRAN/src/base/R-1.6.2.tgz was not found on this\n> server.<P>\n> <HR>\n> <ADDRESS>Apache/1.3.26 Server at franz.stat.wisc.edu Port 80</ADDRESS>\n> \n\nSomething got changed, it seems. Try\n\nhttp://cran.us.r-project.org/src/base/R-1.6.2.tgz\n\n        -p\n\n-- \n   O__  ---- Peter Dalgaard             Blegdamsvej 3  \n  c/ /'_ --- Dept. of Biostatistics     2200 Cph. N   \n (*) \\(*) -- University of Copenhagen   Denmark      Ph: (+45) 35327918\n~~~~~~~~~~ - (p.dalgaard at biostat.ku.dk)             FAX: (+45) 35327907",
+      "body_snippet": "Paul Gilbert <pgilbert at bank-banque-canada.ca> writes:\n\n> Peter\n> \n> When I the URL in your message I am getting:\n> \n> <H1>Not Found</H1>\n> The requested URL /pub/CRAN/src/base/R-1.6.2.tgz was not f",
+      "thread_id": "thread-9abbaa0fa77c",
+      "thread_depth": 0,
+      "month": "2003-01"
+    },
+    {
+      "id": "msg-c4c6a13e7aa6",
+      "message_id": "<20030111040248.GA13518@sonny.eddelbuettel.com>",
+      "from_name": "Dirk Eddelbuettel",
+      "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
+      "date": "2003-01-11T11:31:05Z",
+      "subject": "Debian packages for R-1.6.2 released",
+      "subject_clean": "Debian packages for R-1.6.2 released",
+      "in_reply_to": "<x2adi9rogm.fsf@biostat.ku.dk>",
+      "references": [
+        "<x2adi9rogm.fsf@biostat.ku.dk>"
+      ],
+      "body_plain": "Debian packages for the Intel i386 platform have been uploaded to Debian's\nmaster archive server. These packages have been built on Debian's 'testing'\nrelease and will install and run on any 'testing' or 'unstable' system.\n\nDebian 'unstable' packages for most of the other eleven hardware platforms\nshould be built during the night. \n\nIntel i386 packages for the more recent Debian 3.0 ('stable') release will\nbe built over the weekend.  \n\nRegards,  Dirk\n\nFiles:\n 096452016de9240288b2d21bed604012 1048 math optional r-base_1.6.2-1.dsc\n 174e6280aa2f2102388ca9c7930b1843 8659106 math optional r-base_1.6.2.orig.tar.gz \n 8055e3bdfa65d531828dcd5f14300af9 6798 math optional r-base_1.6.2-1.diff.gz\n 4f5c91a25dc2f17a78c6045921745ce0 4893338 math optional r-base-core_1.6.2-1_i386.deb\n dae9b95d99ab90c70226ea9ba600bbbd 43134 math optional r-gnome_1.6.2-1_i386.deb\n 9ea88b758856bf4a1d43e17cdc064031 119940 math optional r-mathlib_1.6.2-1_i386.deb\n be5cb07b6d462240303eb06cffdc119c 3935108 math optional r-recommended_1.6.2-1_i386.deb\n 3300604817c35b1fce7bf18e20584d58 14046 math optional r-base_1.6.2-1_all.deb\n 2a903d1d11835881bc76b79f38ef8904 1442 devel optional r-base-dev_1.6.2-1_all.deb \n e3fc89a5f49e5f1288d71edee6c7ad30 779396 math extra r-base-html_1.6.2-1_all.deb\n 48a031ba1725ef57c89670ee717316e6 722702 math extra r-base-latex_1.6.2-1_all.deb \n 234c77226c5906253fafd12badc5bedb 4980892 doc optional r-doc-pdf_1.6.2-1_all.deb \n d29587c5a22993172222f729bafb752f 299764  doc optional r-doc-html_1.6.2-1_all.deb \n ce0008a4426938064c7bbc471b182415 310398 doc optional r-doc-info_1.6.2-1_all.deb\n\n-- \nPrediction is very difficult, especially about the future. \n\t\t\t\t             -- Niels Bohr",
+      "body_snippet": "Debian packages for the Intel i386 platform have been uploaded to Debian's\nmaster archive server. These packages have been built on Debian's 'testing'\nrelease and will install and run on any 'testing'",
+      "thread_id": "thread-a949de6d21a6",
+      "thread_depth": 1,
+      "month": "2003-01"
+    },
+    {
+      "id": "msg-bf81839ac53d",
+      "message_id": "<u5p02vk98pd6ak9c74g9bnalfaksh2g9k3@4ax.com>",
+      "from_name": "Duncan Murdoch",
+      "from_email_hash": "0b169dc9578e443c97ef875feba9794619f6e667997aabcb13de6d581cba9312",
+      "date": "2003-01-11T19:55:03Z",
+      "subject": "Windows build of 1.6.2 uploaded to CRAN",
+      "subject_clean": "Windows build of 1.6.2 uploaded to CRAN",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I've just uploaded the build of the new R 1.6.2 release to CRAN.  It\nwill soon be visible there in \n\n http://www.cran.r-project.org/bin/windows/base\n\nand by Monday should be available on all the mirrors.\n\nSee the CHANGES file for windows-specific news about this release.  A\nnumber of minor bugs have been fixed.\n\nOne change should help in debugging external code:  dyn.load now\nchecks whether or not the DLL it just loaded has messed with the\nfloating point control word.  This may turn up bugs in old code that\nhave been hidden for a long time, since the effects of an FPU control\nword change are fairly subtle. \n\nIt is also likely to turn up cases where video drivers are messing\nwith the FPU control word.  \n\nIf you see messages like\n\n>Warning message: \n>DLL attempted to change FPU control word from 8001f to 9001f\n\nlook at the dyn.load help file, and if you still don't know how to fix\nit, feel free to write to me for help.\n\nDuncan Murdoch",
+      "body_snippet": "I've just uploaded the build of the new R 1.6.2 release to CRAN.  It\nwill soon be visible there in \n\n http://www.cran.r-project.org/bin/windows/base\n\nand by Monday should be available on all the mirro",
+      "thread_id": "thread-bf81839ac53d",
+      "thread_depth": 0,
+      "month": "2003-01"
+    },
+    {
+      "id": "msg-91f259df1d06",
+      "message_id": "<Pine.A41.4.44.0301251146060.188130-100000@homer04.u.washington.edu>",
+      "from_name": "Thomas Lumley",
+      "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
+      "date": "2003-01-25T20:56:03Z",
+      "subject": "survey package",
+      "subject_clean": "survey package",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new package `survey' for analysing complex survey samples is on CRAN.\nIt handles stratification, clustering, and unequal sampling probabilities\nin descriptive statistics, glms, and general maximum likelihood fitting.\nThe package is still under development:\n  - it doesn't do the finite population correction to variances\n  - it needs some real life worked examples\n\nMost importantly, though, I don't do this sort of analysis routinely, so\nit's possible that some part of the interface is completely insane from\nthe viewpoint of practising survey statisticians. Now would be an\nexcellent time to complain.\n\n\t-thomas\n\n\nThomas Lumley\t\t\tAsst. Professor, Biostatistics\ntlumley at u.washington.edu\tUniversity of Washington, Seattle",
+      "body_snippet": "A new package `survey' for analysing complex survey samples is on CRAN.\nIt handles stratification, clustering, and unequal sampling probabilities\nin descriptive statistics, glms, and general maximum l",
+      "thread_id": "thread-91f259df1d06",
+      "thread_depth": 0,
+      "month": "2003-01"
+    },
+    {
+      "id": "msg-9eb911a1a690",
+      "message_id": "<20030129151419.6e90b003.fharrell@virginia.edu>",
+      "from_name": "Frank E Harrell Jr",
+      "from_email_hash": "bd19bd9f169b5f3d1a992f9f1800c6f882823514a102dfe1216f921e43131154",
+      "date": "2003-01-30T13:29:05Z",
+      "subject": "Statistical Tables and Plots using S and LaTeX",
+      "subject_clean": "Statistical Tables and Plots using S and LaTeX",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I am pleased to announce a major revision of the document \"Statistical Tables and Plots using S and LaTeX\".  It is available at http://hesweb1.med.virginia.edu/biostat/s/doc/summary.pdf (76 pages, 500K).  It should be of interest to those who produce statistical reports or those who use or would be interested in using LaTeX, the greatest productivity tool for document processing in my opinion.\n\n-- \nFrank E Harrell Jr              Prof. of Biostatistics & Statistics\nDiv. of Biostatistics & Epidem. Dept. of Health Evaluation Sciences\nU. Virginia School of Medicine  http://hesweb1.med.virginia.edu/biostat",
+      "body_snippet": "I am pleased to announce a major revision of the document \"Statistical Tables and Plots using S and LaTeX\".  It is available at http://hesweb1.med.virginia.edu/biostat/s/doc/summary.pdf (76 pages, 500",
+      "thread_id": "thread-9eb911a1a690",
+      "thread_depth": 0,
+      "month": "2003-01"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-fdfe83a952db",
+      "subject": "Updates to Hmisc and Design Libraries",
+      "message_count": 1,
+      "participants": [
+        "Frank E Harrell Jr"
+      ],
+      "started": "2003-01-01T20:33:05+00:00",
+      "last_reply": "2003-01-01T20:33:05+00:00",
+      "root_message_id": "msg-fdfe83a952db"
+    },
+    {
+      "id": "thread-6d373ce19caf",
+      "subject": "New package:  gpclib",
+      "message_count": 1,
+      "participants": [
+        "Roger Peng"
+      ],
+      "started": "2003-01-08T17:48:05+00:00",
+      "last_reply": "2003-01-08T17:48:05+00:00",
+      "root_message_id": "msg-6d373ce19caf"
+    },
+    {
+      "id": "thread-a949de6d21a6",
+      "subject": "R-1.6.2 is released",
+      "message_count": 4,
+      "participants": [
+        "Dirk Eddelbuettel",
+        "Douglas Bates",
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2003-01-10T16:53:02+00:00",
+      "last_reply": "2003-01-11T11:31:05+00:00",
+      "root_message_id": "msg-a949de6d21a6"
+    },
+    {
+      "id": "thread-9abbaa0fa77c",
+      "subject": "R-1.6.2 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2003-01-10T18:13:02+00:00",
+      "last_reply": "2003-01-10T18:13:02+00:00",
+      "root_message_id": "msg-9abbaa0fa77c"
+    },
+    {
+      "id": "thread-bf81839ac53d",
+      "subject": "Windows build of 1.6.2 uploaded to CRAN",
+      "message_count": 1,
+      "participants": [
+        "Duncan Murdoch"
+      ],
+      "started": "2003-01-11T19:55:03+00:00",
+      "last_reply": "2003-01-11T19:55:03+00:00",
+      "root_message_id": "msg-bf81839ac53d"
+    },
+    {
+      "id": "thread-91f259df1d06",
+      "subject": "survey package",
+      "message_count": 1,
+      "participants": [
+        "Thomas Lumley"
+      ],
+      "started": "2003-01-25T20:56:03+00:00",
+      "last_reply": "2003-01-25T20:56:03+00:00",
+      "root_message_id": "msg-91f259df1d06"
+    },
+    {
+      "id": "thread-9eb911a1a690",
+      "subject": "Statistical Tables and Plots using S and LaTeX",
+      "message_count": 1,
+      "participants": [
+        "Frank E Harrell Jr"
+      ],
+      "started": "2003-01-30T13:29:05+00:00",
+      "last_reply": "2003-01-30T13:29:05+00:00",
+      "root_message_id": "msg-9eb911a1a690"
+    }
+  ]
+}
