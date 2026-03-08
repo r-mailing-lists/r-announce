@@ -68,6 +68,22 @@
       "month": "2003-03"
     },
     {
+      "id": "msg-f4afc6244a9f",
+      "message_id": "<3E6F0FF4.CCD7EDC9@geog.uu.nl>",
+      "from_name": "Edzer J. Pebesma",
+      "from_email_hash": "a7fb0ca623e251a5aff6aa466eb7f50e3c643594fe03e3232d546a007043eef0",
+      "date": "2003-03-12T11:46:12+01:00",
+      "subject": "[S] Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "subject_clean": "[S] Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "The majority of the functionality present in the gstat stand-alone\nprogram (http://www.gstat.org/) is now available as a package/library for\nthe S language (R, S-Plus), again called gstat. The package provides\nmultivariable geostatistical modelling, prediction and simulation, as\nwell as several visualisation functions.  Gstat was started 10 years\nago and was released under the GPL in 1996; the original stand-alone\nprogram is closely linked to several GIS systems. Gstat was not initially\nwritten for teaching purposes, but for research purposes, emphasizing\nflexibility, scalability and portability. It can deal with a large number\nof practical issues in geostatistics, including change of support (block\nkriging), simple/ordinary/universal (co)kriging, fast local neighbourhood\nselection, flexible trend modelling, variables with different sampling\nconfigurations, and efficient simulation of large spatially correlated\nrandom fields, indicator kriging and simulation, and (directional)\nvariogram and cross variogram modelling. The S formula/models interface\nis used to define multivariable geostatistical models.\n\nThe source and windows package for R are available from CRAN. The page on\nhttp://www.gstat.org/s.html has links to R and S-Plus (6.x) source code,\nas well as examples, graphs, and a longer list of features. (A binary\nWin32 S-Plus library is planned later this year.)\n\nOn http://www.ci.tuwien.ac.at/Conferences/DSC-2003/ you can find a\ndraft paper further describing the package.\n\nAny feedback is appreciated.\n--\nEdzer\n--------------------------------------------------------------------\nThis message was distributed by s-news at lists.biostat.wustl.edu.  To\n...(s-news.. clipped)...\n\n.",
+      "body_snippet": "The majority of the functionality present in the gstat stand-alone\nprogram (http://www.gstat.org/) is now available as a package/library for\nthe S language (R, S-Plus), again called gstat. The package",
+      "thread_id": "thread-f4afc6244a9f",
+      "thread_depth": 0,
+      "month": "2003-03"
+    },
+    {
       "id": "msg-0c5dae9ba693",
       "message_id": "<20030321100147.B14924@jimmy.harvard.edu>",
       "from_name": "Robert Gentleman",
@@ -117,6 +133,17 @@
       "started": "2003-03-06T17:21:37-05:00",
       "last_reply": "2003-03-06T17:21:37-05:00",
       "root_message_id": "msg-34252efec8c7"
+    },
+    {
+      "id": "thread-f4afc6244a9f",
+      "subject": "[S] Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "message_count": 1,
+      "participants": [
+        "Edzer J. Pebesma"
+      ],
+      "started": "2003-03-12T11:46:12+01:00",
+      "last_reply": "2003-03-12T11:46:12+01:00",
+      "root_message_id": "msg-f4afc6244a9f"
     },
     {
       "id": "thread-f4afc6244a9f",

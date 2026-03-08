@@ -185,6 +185,182 @@
       "month": "2002-11"
     },
     {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
+      "id": "msg-0fe6246ce8c9",
+      "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
+      "date": "2002-11-26T18:39:45+01:00",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can modify your subscription, look at the archives\n(everything from the beginning in 1997) and more.\n\nCHANGE:  Postings to R-announce are now moderated, ie.\n\t they have to be approved by a list maintainer\n\t unless they come from one of a small set of R developers.\n\nNote that *everyone* subscribed to R-help also gets R-announce\nmessages without a need to subscribe.\n\nNotice that the \"Sender:\" field of these e-mails has changed\nfrom owner-r-announce to r-announce-admin. Those who use\nmail-filtering rules may wish to adapt. \n\nWe expect faster mail delivery and an easier user (and\nmaintainer!) interface.  Feedback welcome, to me privately or R-help.\n\nThe R-help mailing list (and its \"digest\") version will move to\nmailman too.\n\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
+      "body_snippet": "I have moved the R-announce mailing list from the Majordomo\nsoftware to a combination of procmail & mailman an hour or so ago.\nYou find a link in the footer of this message giving an URL\nwhere you can",
+      "thread_id": "thread-0fe6246ce8c9",
+      "thread_depth": 0,
+      "month": "2002-11"
+    },
+    {
       "id": "msg-b1345ccf10bc",
       "message_id": "<15844.49400.618850.134051@gargle.gargle.HOWL>",
       "from_name": "Martin Maechler",
@@ -322,12 +498,133 @@
     {
       "id": "thread-0fe6246ce8c9",
       "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
       "message_count": 2,
       "participants": [
         "Martin Maechler"
       ],
       "started": "2002-11-26T18:39:45+01:00",
       "last_reply": "2002-11-27T13:57:02+00:00",
+      "root_message_id": "msg-0fe6246ce8c9"
+    },
+    {
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
       "root_message_id": "msg-0fe6246ce8c9"
     },
     {
