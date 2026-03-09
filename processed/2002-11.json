@@ -359,40 +359,6 @@
       "thread_id": "thread-0fe6246ce8c9",
       "thread_depth": 0,
       "month": "2002-11"
-    },
-    {
-      "id": "msg-b1345ccf10bc",
-      "message_id": "<15844.49400.618850.134051@gargle.gargle.HOWL>",
-      "from_name": "Martin Maechler",
-      "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "2002-11-27T13:57:02Z",
-      "subject": "Apology for mail loop with move of R-announce",
-      "subject_clean": "Apology for mail loop with move of R-announce",
-      "in_reply_to": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
-      "references": [
-        "<15843.45537.990567.20509@gargle.gargle.HOWL>"
-      ],
-      "body_plain": "Dear readers of R-announce and R-help.\nYesterday, I sent a message with\n   Subject: R-announce moved from majordomo to [procmail+mailman]\non Date: Tue, 26 Nov 2002 18:39:45 +0100\nto R-announce and hence R-help.\n\nMany of you will have received the message several times,\ntypically from half a dozen to about 25x.\nI do apologize for this.  \nThe reason was the automatic gateway (\"forwarding\") of all\nR-announce messages to R-help that accidentally produced a mail\nloop.  I only found out relatively late (~ 20 min after\nsending), and had to stop delivery entirely for which several of\nyou probably haven't received that message at all.\n\nThe new web interface to the list is now available at\n    https://www.stat.math.ethz.ch/mailman/listinfo/r-announce\nand particularly the __archive__ contains yesterday's message\nas https://www.stat.math.ethz.ch/pipermail/r-announce/2002/000362.html\n(and yes, you should accept the security certificate _once_).\n\nAgain with apologies and regards,\nMartin Maechler <maechler at stat.math.ethz.ch>\thttp://stat.ethz.ch/~maechler/\nSeminar fuer Statistik, ETH-Zentrum  LEO C16\tLeonhardstr. 27\nETH (Federal Inst. Technology)\t8092 Zurich\tSWITZERLAND\nphone: x-41-1-632-3408\t\tfax: ...-1228\t\t\t<><",
-      "body_snippet": "Dear readers of R-announce and R-help.\nYesterday, I sent a message with\n   Subject: R-announce moved from majordomo to [procmail+mailman]\non Date: Tue, 26 Nov 2002 18:39:45 +0100\nto R-announce and hen",
-      "thread_id": "thread-0fe6246ce8c9",
-      "thread_depth": 1,
-      "month": "2002-11"
-    },
-    {
-      "id": "msg-31265a77e921",
-      "message_id": "<D7A3CFD7825BD6119B880002A58F06C202F2C30D@groexmb02.pfizer.com>",
-      "from_name": "Warnes, Gregory R",
-      "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
-      "date": "2002-11-27T15:54:06Z",
-      "subject": "R genetics package now available",
-      "subject_clean": "R genetics package now available",
-      "in_reply_to": null,
-      "references": [],
-      "body_plain": "The \"genetics\" package for handling single-locus genetic data is now\navailable on CRAN in both source and Windows binary formats.  The purpose of\nthis package is to  make it easy to create and manipulate genetic\ninformation, and to facility use of this information in statistical models.\n\n\nThe library includes classes and methods for creating, representing, and\nmanipulating genotypes (unordered allele pairs) and haplotypes (ordered\nallele pairs).  Genotypes and\nhaplotypes can be annotated with chromosome, locus, gene, and marker\ninformation. Utility functions compute genotype and allele frequencies, flag\nhomozygotes or heterozygotes, flag allele carriers\nof certain alleles, count the number of a specific allele carried by an\nindividual, extract one or both alleles, estimate and generate confidence\nintervals for measures of single-marker disequlibrium, and test for\ndeparture from Hardy-Weinberg equilibrium.\n\nThe package description file and a simple example are appended below.\nComments and contributions are, of course, welcome.\n\n-Greg\n\n\nDESCRIPTION\n===========\n\nPackage: genetics\nTitle: Population Genetics\nVersion: 0.6.4\nDate: 2002-11-13\nAuthor: Gregory Warnes and Friedrich Leisch\nMaintainer: Gregory Warnes <gregory_r_warnes at groton.pfizer.com>\nDepends: combinat\nDescription: Classes and methods for handling genetic data. Includes\n        classes to represent genotypes and haplotypes at single\n        markers up to multiple markers on multiple chromosomes.\n        Function include allele frequencies, flagging\n        homo/heterozygotes, flagging carriers of certain alleles,\n        computing disequlibrium, testing Hardy-Weinberg equilibrium,\n        ...\nLicense: GPL\nBuilt: R 1.6.0; sparc-sun-solaris2.8; Tue Nov 12 15:43:20 EST 2002\n\nIndex:\n\nHWE.test                Estimate Disequlibrium and Test for\n                        Hardy-Weinberg Equilibrium\nci.balance              Experimental Function to Correct Confidence\n                        Intervals At or Near Boundaries of the\n                        Parameter Space by 'Sliding' the Interval on\n                        the Quantile Scale.\ndiseq                   Estimate or Compute Confidence Interval for the\n                        Disequlibrium Parameter\ngenotype                Genotype or Haplotype Objects.\nhomozygote              Extract Features of Genotype objects\nlocus                   Create and Manipulate Locus, Gene, and Marker\n                        Objects\nsummary.genotype        Allele and Genotype Frequency from a Genotype\n                        or Haplotype Object\nundocumented            Undocumented functions\n\n\nSIMPLE EXAMPLE\n==============\n\n\nAttaching package `genetics':\n\n\n        The following object(s) are masked from package:base :\n\n         as.factor \n\n> ## Create a sample dataset with 3 SNP markers\n> \n> g1 <- sample( x=c('C/C', 'C/T', 'T/T'), \n+               prob=c(.6,.2,.2), 20, replace=T)\n> g2 <- sample( x=c('A/A', 'A/G', 'G/G'), \n+               prob=c(.6,.1,.5), 20, replace=T)\n> g3 <- sample( x=c('C/C', 'C/T', 'T/T'), \n+               prob=c(.2,.4, 4), 20, replace=T)\n> \n> y <- rnorm(20) + (g1=='C/C') + \n+      0.25 * (g2=='A/A' | g2=='A/G')\n> \n> ## Form into a data frame\n> data <- data.frame( y, g1, g2, g3)\n> \n> # Create marker labels for the data \n\n[...]\n\n> a1691g  <- marker(name=\"A1691G\",\n+                  type=\"SNP\",\n+                  locus.name=\"MBP2\",\n+                  chromosome=9, \n+                  arm=\"q\", \n+                  index.start=35,\n+                  bp.start=1691,\n+                  relative.to=\"intron 1\")\n> \n> \n\n[...]\n\n> \n> data$g1 <- genotype(data$g1, locus=c104t)\n> data$g2 <- genotype(data$g2, locus=a1691g)\n> data$g3 <- genotype(data$g3, locus=c2249t)\n> \n> data\n              y  g1  g2  g3\n1  -0.084796634 T/T G/G T/C\n2   1.454537575 C/C G/G T/T\n3  -0.899625344 T/T G/G T/T\n4  -1.980679630 C/T A/A T/T\n5   0.231087028 C/T A/A T/T\n6   2.588083646 C/C A/A T/C\n7   0.209338731 C/C A/A T/T\n8   1.435823157 C/T G/G T/T\n9  -0.078796949 C/C G/G T/T\n10 -2.091110058 C/T A/A T/T\n11 -0.842655686 C/T G/G T/T\n12  1.316828279 C/C G/G T/T\n13  0.470126626 C/T A/A T/T\n14 -0.364828611 T/T G/A T/T\n15 -0.002438264 C/T A/A T/C\n16  0.949432430 C/C G/G T/T\n17 -0.096626850 C/T G/A T/T\n18  1.065637984 T/T A/A T/T\n19  0.817213289 C/C A/A T/T\n20  0.644714638 C/T G/G T/T\n>\n> data$g2\nMarker: MBP2:A1691G (9q35:1691) Type: SNP\n [1] \"G/G\" \"G/G\" \"G/G\" \"A/A\" \"A/A\" \"A/A\" \"A/A\" \"G/G\" \"G/G\" \"A/A\" \"G/G\" \"G/G\"\n[13] \"A/A\" \"G/A\" \"A/A\" \"G/G\" \"G/A\" \"A/A\" \"A/A\" \"G/G\"\nAlleles: G A \n> \n> summary(data$g2)\n\nMarker: MBP2:A1691G (9q35:1691) Type: SNP\n\nAllele Frequency:\n  Count Proportion\nA    20        0.5\nG    20        0.5\n\nGenotype Frequency:\n    Count Proportion\nA/A     9       0.45\nG/A     2       0.10\nG/G     9       0.45\n\n> HWE.test(data$g2)\n\n -----------------------------------\n Test for Hardy-Wienburg-Equilibrium\n -----------------------------------\n\nCall: \nHWE.test.genotype(x = data$g2)\n\nRaw Disequlibrium for each allele pair (D)\n\n   \n       G    A\n  G      -0.2\n  A -0.2     \n\nScaled Disequlibrium for each allele pair (D')\n\n   \n       G    A\n  G      -0.8\n  A -0.8     \n\nCorrelation coefficient for each allele pair (r)\n\n   \n      G   A\n  G 1.0 0.8\n  A 0.8 1.0\n\nOverall Values (mean absolute-value weighted by expected allele frequency)\n\n     Value\n  D   -0.2\n  D'  -0.8\n  r    0.8\n\nConfidence intervals computed via bootstrap using 1000 samples\n\n             Observed   95% CI                   NA's Contains Zero?\n  Overall D  -0.2000000 (-0.2475000, -0.1093750) 0    *NO*          \n  Overall D' -0.8000000 (-1.0000000, -0.4666667) 0    *NO*          \n  Overall r   0.8000000 ( 0.4666667,  1.0000000) 0    *NO*          \n\nSignificance Test:\n\n Pearson's Chi-squared test with simulated p-value (based on 10000\n replicates)\n\ndata:  data$g2 \nX-squared = 12.8, df = NA, p-value = 7e-04\n\n\n>\n> summary(lm( y ~ homozygote(g1,'C') +\n                allele.count(g2, 'G') +\n+                 g3, data=data))\n+ \nCall:\nlm(formula = y ~ homozygote(g1, \"C\") + allele.count(g2, \"G\") + \n    g3, data = data)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-1.6686 -0.6625 -0.0172  0.6973  1.6196 \n\nCoefficients:\n                        Estimate Std. Error t value Pr(>|t|)  \n(Intercept)               0.3499     0.6229   0.562   0.5821  \nhomozygote(g1, \"C\")TRUE   1.2124     0.4778   2.537   0.0220 *\nallele.count(g2, \"G\")     0.1193     0.2429   0.491   0.6298  \ng3T/T                    -0.7724     0.6414  -1.204   0.2460  \n---\nSignif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1 \n\nResidual standard error: 1.013 on 16 degrees of freedom\nMultiple R-Squared: 0.3405,     Adjusted R-squared: 0.2169 \nF-statistic: 2.754 on 3 and 16 DF,  p-value: 0.07661",
-      "body_snippet": "The \"genetics\" package for handling single-locus genetic data is now\navailable on CRAN in both source and Windows binary formats.  The purpose of\nthis package is to  make it easy to create and manipul",
-      "thread_id": "thread-31265a77e921",
-      "thread_depth": 0,
-      "month": "2002-11"
     }
   ],
   "threads": [
@@ -531,17 +497,6 @@
     {
       "id": "thread-0fe6246ce8c9",
       "subject": "R-announce moved from majordomo to [procmail+mailman]",
-      "message_count": 2,
-      "participants": [
-        "Martin Maechler"
-      ],
-      "started": "2002-11-26T18:39:45+01:00",
-      "last_reply": "2002-11-27T13:57:02+00:00",
-      "root_message_id": "msg-0fe6246ce8c9"
-    },
-    {
-      "id": "thread-0fe6246ce8c9",
-      "subject": "R-announce moved from majordomo to [procmail+mailman]",
       "message_count": 1,
       "participants": [
         "Martin Maechler"
@@ -628,15 +583,15 @@
       "root_message_id": "msg-0fe6246ce8c9"
     },
     {
-      "id": "thread-31265a77e921",
-      "subject": "R genetics package now available",
+      "id": "thread-0fe6246ce8c9",
+      "subject": "R-announce moved from majordomo to [procmail+mailman]",
       "message_count": 1,
       "participants": [
-        "Warnes, Gregory R"
+        "Martin Maechler"
       ],
-      "started": "2002-11-27T15:54:06+00:00",
-      "last_reply": "2002-11-27T15:54:06+00:00",
-      "root_message_id": "msg-31265a77e921"
+      "started": "2002-11-26T18:39:45+01:00",
+      "last_reply": "2002-11-26T18:39:45+01:00",
+      "root_message_id": "msg-0fe6246ce8c9"
     }
   ]
 }
