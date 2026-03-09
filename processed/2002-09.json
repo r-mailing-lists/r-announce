@@ -130,38 +130,6 @@
       "thread_id": "thread-012d33e1479c",
       "thread_depth": 0,
       "month": "2002-09"
-    },
-    {
-      "id": "msg-012d33e1479c",
-      "message_id": "<Pine.LNX.4.33.0209301635220.3488-100000@imbe78.imbe.med.uni-erlangen.de>",
-      "from_name": "Andrea Peters",
-      "from_email_hash": "b7e1caff2d9fb45c10c69bda554b0216cb7fc75e13fbf62dc880c5a7a1bf6357",
-      "date": "2002-09-30T16:38:56+02:00",
-      "subject": "New version of ipred package",
-      "subject_clean": "New version of ipred package",
-      "in_reply_to": null,
-      "references": [],
-      "body_plain": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de> and\n  Torsten Hothorn <Torsten.Hothorn at rzmail.uni-erlangen.de>\nMaintainer: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de>\nDescription: Improved predictive models by indirect classification and\n  bagging for classification, regression and survival problems\n  as well as resampling based estimators of prediction error.\nDepends: rpart (>= 3.1-8), MASS, mlbench, survival, nnet, class\nLicense: GPL\n\n\nMajor changes since 0.4-6:\n\n        o  parts of the code have been completely rewritten.\n\n        o  added bagging for censored data.\n\n        o  the Brier score for censored data (Graf et al., 1999) is\n           available in function `sbrier' and can be used\n           to measure the prediction error in survival problems.\n\n        o  bagging is roughly 50% faster now.\n\n        o  stabilised linear disciminant analysis (`slda') implemented.\n\n        o  some datasets were added, especially those used as\n           examples in R News (2002, 2(2), 33-36).\n\n        o  cross-validated predictions can be computed: useful for\n           estimating sensitivity and specifity, for example.\n\n        o  the package now has a small vignette with some examples.\n\nThe authors would like to thank Guenther Sawitzki and Antony Unwin for\nhelpful comments and suggestions.\n\nRegards,\nAndrea\n\n-------------------------------------------------------------------------\n\n        Dipl.-Stat. Andrea Peters\n        Institut fr Medizininformatik, Biometrie und Epidemiologie\n        Waldstrasse 6, D-91054 Erlangen, Deutschland\n        Tel: ++49-9131-85-22722\n        Fax: ++49-9131-85-25740\n\n-------------------------------------------------------------------------\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
-      "body_snippet": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Pe",
-      "thread_id": "thread-012d33e1479c",
-      "thread_depth": 0,
-      "month": "2002-09"
-    },
-    {
-      "id": "msg-012d33e1479c",
-      "message_id": "<Pine.LNX.4.33.0209301635220.3488-100000@imbe78.imbe.med.uni-erlangen.de>",
-      "from_name": "Andrea Peters",
-      "from_email_hash": "b7e1caff2d9fb45c10c69bda554b0216cb7fc75e13fbf62dc880c5a7a1bf6357",
-      "date": "2002-09-30T16:38:56+02:00",
-      "subject": "New version of ipred package",
-      "subject_clean": "New version of ipred package",
-      "in_reply_to": null,
-      "references": [],
-      "body_plain": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de> and\n  Torsten Hothorn <Torsten.Hothorn at rzmail.uni-erlangen.de>\nMaintainer: Andrea Peters <Andrea.Peters at imbe.imed.uni-erlangen.de>\nDescription: Improved predictive models by indirect classification and\n  bagging for classification, regression and survival problems\n  as well as resampling based estimators of prediction error.\nDepends: rpart (>= 3.1-8), MASS, mlbench, survival, nnet, class\nLicense: GPL\n\n\nMajor changes since 0.4-6:\n\n        o  parts of the code have been completely rewritten.\n\n        o  added bagging for censored data.\n\n        o  the Brier score for censored data (Graf et al., 1999) is\n           available in function `sbrier' and can be used\n           to measure the prediction error in survival problems.\n\n        o  bagging is roughly 50% faster now.\n\n        o  stabilised linear disciminant analysis (`slda') implemented.\n\n        o  some datasets were added, especially those used as\n           examples in R News (2002, 2(2), 33-36).\n\n        o  cross-validated predictions can be computed: useful for\n           estimating sensitivity and specifity, for example.\n\n        o  the package now has a small vignette with some examples.\n\nThe authors would like to thank Guenther Sawitzki and Antony Unwin for\nhelpful comments and suggestions.\n\nRegards,\nAndrea\n\n-------------------------------------------------------------------------\n\n        Dipl.-Stat. Andrea Peters\n        Institut fr Medizininformatik, Biometrie und Epidemiologie\n        Waldstrasse 6, D-91054 Erlangen, Deutschland\n        Tel: ++49-9131-85-22722\n        Fax: ++49-9131-85-25740\n\n-------------------------------------------------------------------------\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
-      "body_snippet": "Version 0.6-0 of the ipred package has just been released on CRAN.\n\nThe DESCRIPTION file:\n\nPackage: ipred\nTitle: Improved Predictors\nVersion: 0.6-0\nDate: $Date: 2002/09/27 08:07:29 $\nAuthor: Andrea Pe",
-      "thread_id": "thread-012d33e1479c",
-      "thread_depth": 0,
-      "month": "2002-09"
     }
   ],
   "threads": [
@@ -241,28 +209,6 @@
       "started": "2002-09-26T20:07:46-04:00",
       "last_reply": "2002-09-26T20:07:46-04:00",
       "root_message_id": "msg-0a97638a3c73"
-    },
-    {
-      "id": "thread-012d33e1479c",
-      "subject": "New version of ipred package",
-      "message_count": 1,
-      "participants": [
-        "Andrea Peters"
-      ],
-      "started": "2002-09-30T16:38:56+02:00",
-      "last_reply": "2002-09-30T16:38:56+02:00",
-      "root_message_id": "msg-012d33e1479c"
-    },
-    {
-      "id": "thread-012d33e1479c",
-      "subject": "New version of ipred package",
-      "message_count": 1,
-      "participants": [
-        "Andrea Peters"
-      ],
-      "started": "2002-09-30T16:38:56+02:00",
-      "last_reply": "2002-09-30T16:38:56+02:00",
-      "root_message_id": "msg-012d33e1479c"
     },
     {
       "id": "thread-012d33e1479c",
