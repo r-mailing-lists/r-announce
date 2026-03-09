@@ -4,6 +4,22 @@
   "month": "2003-03",
   "messages": [
     {
+      "id": "msg-385a301463c2",
+      "message_id": "<200303022239.h22MdUP1123098@odds.stat.purdue.edu>",
+      "from_name": "Chong Gu",
+      "from_email_hash": "d33adf3cbf719825a60530324abb0b76a44f89d6dbd571cefcdb32ea7c686d6a",
+      "date": "2003-03-03T09:52:03Z",
+      "subject": "gss_0.8-2",
+      "subject_clean": "gss_0.8-2",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "A new version of gss, version 0.8-2, is on CRAN now.  Numerous new\nfunctionalities have been added since my last r-announce post.\n\nAn ssanova1 suite has been added since version 0.7-4.  It implements\nlow-dimensional approximations of the smoothing spline ANOVA models\nof the ssanova suite.  ssanova1 scales much better than ssanova with\nlarge sample sizes.\n\nA gssanova1 suite is added for non Gaussian regression.  Similar to\nssanova1, it provides better scalability than gssanova.  Direct\ncross-validation is used in gssanova1 instead of the indirect CV of\ngssanova.  Currently, only three families are supported: binomial,\npoisson, and Gamma; other families of gssanova will be added to\ngssanova1 in the (near?) future.\n\nAn sshzd suite is added to fit hazard models using right-censored\nlifetime data with possible left-truncation and covariates.  It\nestimates log hazard as \"bivariate\" smooth functions of time and\ncovariates through penalized full likelihood.  It only takes static\ncovariates but accommodates interactions between time and covariates,\ngoing beyond the proportional hazard models.\n\nUtilities are provided for the calculation of a certain\nKullback-Leibler projection of cross-validated fits to \"reduced model\"\nspaces, for the \"testing\" of model terms.  Projection code is provide\nfor ssanova1, gssanova1, ssden, and sshzd fits.\n\nFurther details are to be found in the documentations and the examples\ntherein.  As always, feature suggestions and bug reports will be\nsincerely appreciated.\n\nChong Gu",
+      "body_snippet": "A new version of gss, version 0.8-2, is on CRAN now.  Numerous new\nfunctionalities have been added since my last r-announce post.\n\nAn ssanova1 suite has been added since version 0.7-4.  It implements\n",
+      "thread_id": "thread-385a301463c2",
+      "thread_depth": 0,
+      "month": "2003-03"
+    },
+    {
       "id": "msg-a7a29d87c45b",
       "message_id": "<3E64D640.8185C15A@lmttrading.com>",
       "from_name": "Adrian Trapletti",
@@ -86,6 +102,17 @@
   ],
   "threads": [
     {
+      "id": "thread-385a301463c2",
+      "subject": "gss_0.8-2",
+      "message_count": 1,
+      "participants": [
+        "Chong Gu"
+      ],
+      "started": "2003-03-03T09:52:03+00:00",
+      "last_reply": "2003-03-03T09:52:03+00:00",
+      "root_message_id": "msg-385a301463c2"
+    },
+    {
       "id": "thread-a7a29d87c45b",
       "subject": "tseries contains a class for irregularly spaced time series",
       "message_count": 1,
@@ -109,7 +136,7 @@
     },
     {
       "id": "thread-f4afc6244a9f",
-      "subject": "Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "subject": "[S] Gstat: multivariable geostatistics for S (R and S-Plus)",
       "message_count": 1,
       "participants": [
         "Edzer J. Pebesma"
@@ -120,7 +147,7 @@
     },
     {
       "id": "thread-f4afc6244a9f",
-      "subject": "[S] Gstat: multivariable geostatistics for S (R and S-Plus)",
+      "subject": "Gstat: multivariable geostatistics for S (R and S-Plus)",
       "message_count": 1,
       "participants": [
         "Edzer J. Pebesma"
