@@ -8,7 +8,7 @@
       "message_id": "<15371.42846.422155.287658@gargle.gargle.HOWL>",
       "from_name": "David Brahm",
       "from_email_hash": "86a6ec3ce56525d2890f653acf45ab31d9cb8da3b88f7fbdcc45cacabb829c54",
-      "date": "2001-12-03T11:25:02-05:00",
+      "date": "2001-12-03T16:25:02Z",
       "subject": "New package: g.data",
       "subject_clean": "New package: g.data",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.LNX.4.33L2.0112071127430.2076-100000@localhost.localdomain>",
       "from_name": "mikalzet at libero.it",
       "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
-      "date": "2001-12-07T11:44:35+01:00",
+      "date": "2001-12-07T10:44:35Z",
       "subject": "New RPM for Mandrake 8.1 available",
       "subject_clean": "New RPM for Mandrake 8.1 available",
       "in_reply_to": "<15337.10747.900828.615916@galadriel.ci.tuwien.ac.at>",
@@ -40,7 +40,7 @@
       "message_id": "<15385.60062.367880.492221@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-12-14T13:03:42+01:00",
+      "date": "2001-12-14T12:03:42Z",
       "subject": "CRAN Mirror in Germany",
       "subject_clean": "CRAN Mirror in Germany",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<011d01c18777$6e5c5f50$7632d882@stat.auckland.ac.nz>",
       "from_name": "Paul Murrell",
       "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
-      "date": "2001-12-18T16:52:36+13:00",
+      "date": "2001-12-18T03:52:36Z",
       "subject": "new versions of grid and lattice",
       "subject_clean": "new versions of grid and lattice",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<x23d27e8to.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2001-12-19T12:41:07+01:00",
+      "date": "2001-12-19T11:41:07Z",
       "subject": "R-1.4.0 is released",
       "subject_clean": "R-1.4.0 is released",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<Pine.LNX.4.21.0112191349240.19730-100000@artemis.imbe.med.uni-erlangen.de>",
       "from_name": "Torsten Hothorn",
       "from_email_hash": "41e657384fb07a3764a554d5304d033ebaccbd11a54485f1b6386a932843f125",
-      "date": "2001-12-19T13:50:27+01:00",
+      "date": "2001-12-19T12:50:27Z",
       "subject": "updates: exactRankTests, mvtnorm and maxstat",
       "subject_clean": "updates: exactRankTests, mvtnorm and maxstat",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<6rzo4fb7s3.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2001-12-19T08:31:56-06:00",
+      "date": "2001-12-19T14:31:56Z",
       "subject": "R-1.4.0 sources available via rsync",
       "subject_clean": "R-1.4.0 sources available via rsync",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<3C20FB63.D9933CF1@ci.tuwien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
-      "date": "2001-12-19T21:41:07+01:00",
+      "date": "2001-12-19T20:41:07Z",
       "subject": "new versions of: lmtest, strucchange, ineq",
       "subject_clean": "new versions of: lmtest, strucchange, ineq",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<15393.22142.927857.566940@sonny.eddelbuettel.com>",
       "from_name": "Dirk Eddelbuettel",
       "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
-      "date": "2001-12-19T21:09:50-06:00",
+      "date": "2001-12-20T03:09:50Z",
       "subject": "Debian packages for R-1.4.0 uploaded",
       "subject_clean": "Debian packages for R-1.4.0 uploaded",
       "in_reply_to": "<x23d27e8to.fsf@blueberry.kubism.ku.dk>",
@@ -170,7 +170,7 @@
       "message_id": "<Pine.LNX.4.33L2.0112210947020.2233-100000@localhost.localdomain>",
       "from_name": "mikalzet at libero.it",
       "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
-      "date": "2001-12-21T09:51:15+01:00",
+      "date": "2001-12-21T08:51:15Z",
       "subject": "R-1.4.0 RPM's and SRPMS for Mandrake available",
       "subject_clean": "R-1.4.0 RPM's and SRPMS for Mandrake available",
       "in_reply_to": "<x23d27e8to.fsf@blueberry.kubism.ku.dk>",
@@ -186,7 +186,7 @@
       "message_id": "<15395.7578.973349.335690@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-12-21T12:31:38+01:00",
+      "date": "2001-12-21T11:31:38Z",
       "subject": "CRAN has been cracked",
       "subject_clean": "CRAN has been cracked",
       "in_reply_to": null,
@@ -202,7 +202,7 @@
       "message_id": "<15395.38800.401330.849047@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-12-21T21:12:00+01:00",
+      "date": "2001-12-21T20:12:00Z",
       "subject": "CRAN up again",
       "subject_clean": "CRAN up again",
       "in_reply_to": null,
@@ -218,7 +218,7 @@
       "message_id": "<385A0FB0-F6A1-11D5-BA85-00039364CC92@stat.ucla.edu>",
       "from_name": "Jan de Leeuw",
       "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
-      "date": "2001-12-21T22:00:37-08:00",
+      "date": "2001-12-22T06:00:37Z",
       "subject": "R-1.4.0 for MacOS X ",
       "subject_clean": "R-1.4.0 for MacOS X",
       "in_reply_to": null,
@@ -234,7 +234,7 @@
       "message_id": "<FB3D1EC2-F6D1-11D5-888F-003065CC4CB8@unimi.it>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
-      "date": "2001-12-22T12:49:40+01:00",
+      "date": "2001-12-22T11:49:40Z",
       "subject": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
       "subject_clean": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
       "in_reply_to": null,
@@ -250,7 +250,7 @@
       "message_id": "<3F2A0C3C-F6D2-11D5-888F-003065CC4CB8@unimi.it>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
-      "date": "2001-12-22T12:51:34+01:00",
+      "date": "2001-12-22T11:51:34Z",
       "subject": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
       "subject_clean": "R 1.4.0 for Apple Machines (both Carbon and Darwin)",
       "in_reply_to": null,
@@ -266,7 +266,7 @@
       "message_id": "<XFMail.20011226111529.plummer@iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "2001-12-26T11:15:29+01:00",
+      "date": "2001-12-26T10:15:29Z",
       "subject": "RPM binaries of R 1.4.0 for RedHat/Mandrake/Linuxppc",
       "subject_clean": "RPM binaries of R 1.4.0 for RedHat/Mandrake/Linuxppc",
       "in_reply_to": null,
@@ -282,7 +282,7 @@
       "message_id": "<20011227115746.59141@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2001-12-27T11:57:46+01:00",
+      "date": "2001-12-27T10:57:46Z",
       "subject": "Binaries of R-1.4.0 for Windows",
       "subject_clean": "Binaries of R-1.4.0 for Windows",
       "in_reply_to": null,
@@ -298,7 +298,7 @@
       "message_id": "<3C30883B.282449A@echip.com>",
       "from_name": "Bob Wheeler",
       "from_email_hash": "b5c8494cbb1856adf05ae595cd671df6feb3cd84e1c8430d17cc17138282ed39",
-      "date": "2001-12-31T10:46:03-05:00",
+      "date": "2001-12-31T15:46:03Z",
       "subject": "Johnson system",
       "subject_clean": "Johnson system",
       "in_reply_to": null,
@@ -318,8 +318,8 @@
       "participants": [
         "David Brahm"
       ],
-      "started": "2001-12-03T11:25:02-05:00",
-      "last_reply": "2001-12-03T11:25:02-05:00",
+      "started": "2001-12-03T16:25:02Z",
+      "last_reply": "2001-12-03T16:25:02Z",
       "root_message_id": "msg-88bf1dee8be9"
     },
     {
@@ -329,8 +329,8 @@
       "participants": [
         "mikalzet at libero.it"
       ],
-      "started": "2001-12-07T11:44:35+01:00",
-      "last_reply": "2001-12-07T11:44:35+01:00",
+      "started": "2001-12-07T10:44:35Z",
+      "last_reply": "2001-12-07T10:44:35Z",
       "root_message_id": "msg-00fc4589540d"
     },
     {
@@ -340,8 +340,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2001-12-14T13:03:42+01:00",
-      "last_reply": "2001-12-14T13:03:42+01:00",
+      "started": "2001-12-14T12:03:42Z",
+      "last_reply": "2001-12-14T12:03:42Z",
       "root_message_id": "msg-3b6bc6d954fb"
     },
     {
@@ -351,20 +351,9 @@
       "participants": [
         "Paul Murrell"
       ],
-      "started": "2001-12-18T16:52:36+13:00",
-      "last_reply": "2001-12-18T16:52:36+13:00",
+      "started": "2001-12-18T03:52:36Z",
+      "last_reply": "2001-12-18T03:52:36Z",
       "root_message_id": "msg-b1e278a9fee4"
-    },
-    {
-      "id": "thread-60b35beb5506",
-      "subject": "R-1.4.0 sources available via rsync",
-      "message_count": 1,
-      "participants": [
-        "Douglas Bates"
-      ],
-      "started": "2001-12-19T08:31:56-06:00",
-      "last_reply": "2001-12-19T08:31:56-06:00",
-      "root_message_id": "msg-60b35beb5506"
     },
     {
       "id": "thread-e3483d61c0f9",
@@ -375,8 +364,8 @@
         "Peter Dalgaard BSA",
         "mikalzet at libero.it"
       ],
-      "started": "2001-12-19T12:41:07+01:00",
-      "last_reply": "2001-12-21T09:51:15+01:00",
+      "started": "2001-12-19T11:41:07Z",
+      "last_reply": "2001-12-21T08:51:15Z",
       "root_message_id": "msg-e3483d61c0f9"
     },
     {
@@ -386,9 +375,20 @@
       "participants": [
         "Torsten Hothorn"
       ],
-      "started": "2001-12-19T13:50:27+01:00",
-      "last_reply": "2001-12-19T13:50:27+01:00",
+      "started": "2001-12-19T12:50:27Z",
+      "last_reply": "2001-12-19T12:50:27Z",
       "root_message_id": "msg-bd6025162b41"
+    },
+    {
+      "id": "thread-60b35beb5506",
+      "subject": "R-1.4.0 sources available via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2001-12-19T14:31:56Z",
+      "last_reply": "2001-12-19T14:31:56Z",
+      "root_message_id": "msg-60b35beb5506"
     },
     {
       "id": "thread-49fad2b40b38",
@@ -397,8 +397,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2001-12-19T21:41:07+01:00",
-      "last_reply": "2001-12-19T21:41:07+01:00",
+      "started": "2001-12-19T20:41:07Z",
+      "last_reply": "2001-12-19T20:41:07Z",
       "root_message_id": "msg-49fad2b40b38"
     },
     {
@@ -408,8 +408,8 @@
       "participants": [
         "Prof Brian Ripley"
       ],
-      "started": "2001-12-21T06:13:10+00:00",
-      "last_reply": "2001-12-21T06:13:10+00:00",
+      "started": "2001-12-21T06:13:10Z",
+      "last_reply": "2001-12-21T06:13:10Z",
       "root_message_id": "msg-e3bdd7477511"
     },
     {
@@ -419,8 +419,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2001-12-21T12:31:38+01:00",
-      "last_reply": "2001-12-21T12:31:38+01:00",
+      "started": "2001-12-21T11:31:38Z",
+      "last_reply": "2001-12-21T11:31:38Z",
       "root_message_id": "msg-81773c45c737"
     },
     {
@@ -430,8 +430,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2001-12-21T21:12:00+01:00",
-      "last_reply": "2001-12-21T21:12:00+01:00",
+      "started": "2001-12-21T20:12:00Z",
+      "last_reply": "2001-12-21T20:12:00Z",
       "root_message_id": "msg-5dbe7c586ede"
     },
     {
@@ -441,8 +441,8 @@
       "participants": [
         "Jan de Leeuw"
       ],
-      "started": "2001-12-21T22:00:37-08:00",
-      "last_reply": "2001-12-21T22:00:37-08:00",
+      "started": "2001-12-22T06:00:37Z",
+      "last_reply": "2001-12-22T06:00:37Z",
       "root_message_id": "msg-0a79f4fc2304"
     },
     {
@@ -452,8 +452,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2001-12-22T12:49:40+01:00",
-      "last_reply": "2001-12-22T12:49:40+01:00",
+      "started": "2001-12-22T11:49:40Z",
+      "last_reply": "2001-12-22T11:49:40Z",
       "root_message_id": "msg-596c5d857536"
     },
     {
@@ -463,8 +463,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2001-12-22T12:51:34+01:00",
-      "last_reply": "2001-12-22T12:51:34+01:00",
+      "started": "2001-12-22T11:51:34Z",
+      "last_reply": "2001-12-22T11:51:34Z",
       "root_message_id": "msg-6d28f3893387"
     },
     {
@@ -474,8 +474,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2001-12-26T11:15:29+01:00",
-      "last_reply": "2001-12-26T11:15:29+01:00",
+      "started": "2001-12-26T10:15:29Z",
+      "last_reply": "2001-12-26T10:15:29Z",
       "root_message_id": "msg-c5fc36deced5"
     },
     {
@@ -485,8 +485,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "2001-12-27T11:57:46+01:00",
-      "last_reply": "2001-12-27T11:57:46+01:00",
+      "started": "2001-12-27T10:57:46Z",
+      "last_reply": "2001-12-27T10:57:46Z",
       "root_message_id": "msg-40ab7bb2efed"
     },
     {
@@ -496,8 +496,8 @@
       "participants": [
         "Bob Wheeler"
       ],
-      "started": "2001-12-31T10:46:03-05:00",
-      "last_reply": "2001-12-31T10:46:03-05:00",
+      "started": "2001-12-31T15:46:03Z",
+      "last_reply": "2001-12-31T15:46:03Z",
       "root_message_id": "msg-0c0831648e7b"
     }
   ]

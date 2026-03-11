@@ -24,7 +24,7 @@
       "message_id": "<242BFA0D-71C0-4C6D-97AE-62F571774E4C@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2023-03-15T11:06:11+01:00",
+      "date": "2023-03-15T10:06:11Z",
       "subject": "[Rd] R 4.2.3 is released",
       "subject_clean": "R 4.2.3 is released",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<FD365656-05E1-4962-8238-2A850FF7D972@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2023-03-21T10:46:41+01:00",
+      "date": "2023-03-21T09:46:41Z",
       "subject": "[Rd] R 4.3.0 scheduled for April 21",
       "subject_clean": "R 4.3.0 scheduled for April 21",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2023-03-01T12:04:56+00:00",
-      "last_reply": "2023-03-01T12:04:56+00:00",
+      "started": "2023-03-01T12:04:56Z",
+      "last_reply": "2023-03-01T12:04:56Z",
       "root_message_id": "msg-c00b6589020a"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2023-03-15T11:06:11+01:00",
-      "last_reply": "2023-03-15T11:06:11+01:00",
+      "started": "2023-03-15T10:06:11Z",
+      "last_reply": "2023-03-15T10:06:11Z",
       "root_message_id": "msg-35faaa0c5053"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2023-03-21T10:46:41+01:00",
-      "last_reply": "2023-03-21T10:46:41+01:00",
+      "started": "2023-03-21T09:46:41Z",
+      "last_reply": "2023-03-21T09:46:41Z",
       "root_message_id": "msg-f64d791c7e31"
     }
   ]

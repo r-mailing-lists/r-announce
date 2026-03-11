@@ -8,7 +8,7 @@
       "message_id": "<4C61341B.2000501@warwick.ac.uk>",
       "from_name": "Heather Turner",
       "from_email_hash": "0911b72acd4c4e74f954731d4353d1daed292f8cf3007384bd729892dd3a85ec",
-      "date": "2010-08-10T12:12:27+01:00",
+      "date": "2010-08-10T11:12:27Z",
       "subject": "useR! 2011: announcement and call for tutorials",
       "subject_clean": "useR! 2011: announcement and call for tutorials",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Heather Turner"
       ],
-      "started": "2010-08-10T12:12:27+01:00",
-      "last_reply": "2010-08-10T12:12:27+01:00",
+      "started": "2010-08-10T11:12:27Z",
+      "last_reply": "2010-08-10T11:12:27Z",
       "root_message_id": "msg-6cc24a7ca2a6"
     }
   ]

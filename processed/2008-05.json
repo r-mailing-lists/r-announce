@@ -8,7 +8,7 @@
       "message_id": "<64D6F100-FFE1-4557-8D0A-5BBA99909CD8@mcmaster.ca>",
       "from_name": "John Fox",
       "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
-      "date": "2008-05-27T23:02:14-04:00",
+      "date": "2008-05-28T03:02:14Z",
       "subject": "R News, volume 8, issue 1 is now available",
       "subject_clean": "R News, volume 8, issue 1 is now available",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "John Fox"
       ],
-      "started": "2008-05-27T23:02:14-04:00",
-      "last_reply": "2008-05-27T23:02:14-04:00",
+      "started": "2008-05-28T03:02:14Z",
+      "last_reply": "2008-05-28T03:02:14Z",
       "root_message_id": "msg-1dc729029377"
     }
   ]

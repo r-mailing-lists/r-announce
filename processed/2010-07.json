@@ -8,7 +8,7 @@
       "message_id": "<56B157DD-AB7C-4AC6-A53B-EB40146CA22E@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2010-07-30T17:10:37+02:00",
+      "date": "2010-07-30T15:10:37Z",
       "subject": "Next release of R planned to be 2.12.0",
       "subject_clean": "Next release of R planned to be 2.12.0",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2010-07-30T17:10:37+02:00",
-      "last_reply": "2010-07-30T17:10:37+02:00",
+      "started": "2010-07-30T15:10:37Z",
+      "last_reply": "2010-07-30T15:10:37Z",
       "root_message_id": "msg-45b0e97ff1f4"
     }
   ]

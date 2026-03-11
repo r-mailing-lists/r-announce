@@ -8,7 +8,7 @@
       "message_id": "<16012.5702.313924.464414@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2003-04-03T13:08:54+02:00",
+      "date": "2003-04-03T11:08:54Z",
       "subject": "R Foundation for Statistical Computing",
       "subject_clean": "R Foundation for Statistical Computing",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2n0iqa79v.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2003-04-16T15:42:04+02:00",
+      "date": "2003-04-16T13:42:04Z",
       "subject": "R-1.7.0 is released",
       "subject_clean": "R-1.7.0 is released",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<6rn0iqpitx.fsf@bates4.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2003-04-16T10:23:22-05:00",
+      "date": "2003-04-16T15:23:22Z",
       "subject": "R-1.7.0 sources now available through rsync",
       "subject_clean": "R-1.7.0 sources now available through rsync",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<20030417023616.GA30170@sonny.eddelbuettel.com>",
       "from_name": "Dirk Eddelbuettel",
       "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
-      "date": "2003-04-16T21:36:16-05:00",
+      "date": "2003-04-17T02:36:16Z",
       "subject": "Debian packages for R-1.7.0 available",
       "subject_clean": "Debian packages for R-1.7.0 available",
       "in_reply_to": "<x2n0iqa79v.fsf@biostat.ku.dk>",
@@ -74,7 +74,7 @@
       "message_id": "<hrku9vgk9eet6g3nub6t9h4bdp0kdbei3i@4ax.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "0b169dc9578e443c97ef875feba9794619f6e667997aabcb13de6d581cba9312",
-      "date": "2003-04-17T21:29:05-04:00",
+      "date": "2003-04-18T01:29:05Z",
       "subject": "R 1.7.0 Windows binary build released",
       "subject_clean": "R 1.7.0 Windows binary build released",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<3EA715EC.6020404@univie.ac.at>",
       "from_name": "Erich Neuwirth",
       "from_email_hash": "178c9665decd09e76ed713e123ba2a6b2ed2ac166995047eb6dc12c5ab93e7ac",
-      "date": "2003-04-24T00:38:36+02:00",
+      "date": "2003-04-23T22:38:36Z",
       "subject": "R (D)COM server 1.2 and RExcel 1.0 available",
       "subject_clean": "R (D)COM server 1.2 and RExcel 1.0 available",
       "in_reply_to": null,
@@ -106,7 +106,7 @@
       "message_id": "<5.1.0.14.2.20030426155142.01e2de28@mcmail.cis.mcmaster.ca>",
       "from_name": "John Fox",
       "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
-      "date": "2003-04-26T15:53:53-04:00",
+      "date": "2003-04-26T19:53:53Z",
       "subject": "new package: effects",
       "subject_clean": "new package: effects",
       "in_reply_to": null,
@@ -122,7 +122,7 @@
       "message_id": "<00d601c30f45$0b30bf50$1b6640ab@stanford.edu>",
       "from_name": "Trevor Hastie",
       "from_email_hash": "f7b7890060ce5c52b4e5e2ad3e429109262da6ce1e809ca3f2549a18fd94c00e",
-      "date": "2003-04-30T11:19:29-07:00",
+      "date": "2003-04-30T18:19:29Z",
       "subject": "Least Angle Regression  packages for R",
       "subject_clean": "Least Angle Regression  packages for R",
       "in_reply_to": null,
@@ -142,20 +142,9 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2003-04-03T13:08:54+02:00",
-      "last_reply": "2003-04-03T13:08:54+02:00",
+      "started": "2003-04-03T11:08:54Z",
+      "last_reply": "2003-04-03T11:08:54Z",
       "root_message_id": "msg-1203c9e10cb5"
-    },
-    {
-      "id": "thread-8f1cac82cef4",
-      "subject": "R-1.7.0 sources now available through rsync",
-      "message_count": 1,
-      "participants": [
-        "Douglas Bates"
-      ],
-      "started": "2003-04-16T10:23:22-05:00",
-      "last_reply": "2003-04-16T10:23:22-05:00",
-      "root_message_id": "msg-8f1cac82cef4"
     },
     {
       "id": "thread-2b9303988f51",
@@ -165,9 +154,20 @@
         "Dirk Eddelbuettel",
         "Peter Dalgaard BSA"
       ],
-      "started": "2003-04-16T15:42:04+02:00",
-      "last_reply": "2003-04-16T21:36:16-05:00",
+      "started": "2003-04-16T13:42:04Z",
+      "last_reply": "2003-04-17T02:36:16Z",
       "root_message_id": "msg-2b9303988f51"
+    },
+    {
+      "id": "thread-8f1cac82cef4",
+      "subject": "R-1.7.0 sources now available through rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2003-04-16T15:23:22Z",
+      "last_reply": "2003-04-16T15:23:22Z",
+      "root_message_id": "msg-8f1cac82cef4"
     },
     {
       "id": "thread-2a8ebcf5b696",
@@ -176,8 +176,8 @@
       "participants": [
         "Duncan Murdoch"
       ],
-      "started": "2003-04-17T21:29:05-04:00",
-      "last_reply": "2003-04-17T21:29:05-04:00",
+      "started": "2003-04-18T01:29:05Z",
+      "last_reply": "2003-04-18T01:29:05Z",
       "root_message_id": "msg-2a8ebcf5b696"
     },
     {
@@ -187,8 +187,8 @@
       "participants": [
         "Erich Neuwirth"
       ],
-      "started": "2003-04-24T00:38:36+02:00",
-      "last_reply": "2003-04-24T00:38:36+02:00",
+      "started": "2003-04-23T22:38:36Z",
+      "last_reply": "2003-04-23T22:38:36Z",
       "root_message_id": "msg-d7cdd9eb1209"
     },
     {
@@ -198,8 +198,8 @@
       "participants": [
         "John Fox"
       ],
-      "started": "2003-04-26T15:53:53-04:00",
-      "last_reply": "2003-04-26T15:53:53-04:00",
+      "started": "2003-04-26T19:53:53Z",
+      "last_reply": "2003-04-26T19:53:53Z",
       "root_message_id": "msg-c9e81bda57f9"
     },
     {
@@ -209,8 +209,8 @@
       "participants": [
         "Trevor Hastie"
       ],
-      "started": "2003-04-30T11:19:29-07:00",
-      "last_reply": "2003-04-30T11:19:29-07:00",
+      "started": "2003-04-30T18:19:29Z",
+      "last_reply": "2003-04-30T18:19:29Z",
       "root_message_id": "msg-6c5daec2eafe"
     }
   ]

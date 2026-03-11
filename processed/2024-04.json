@@ -24,7 +24,7 @@
       "message_id": "<CA+aisX0-ChM4bdmO8TpmZemhvoNeCzcm6JSgeAbrtSYoNYCkNQ@mail.gmail.com>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "b29bc5ad5637e2c683fd1e64ea425ac0e5fca29d46ff87110a56bf067f65a6c7",
-      "date": "2024-04-26T09:40:16+01:00",
+      "date": "2024-04-26T08:40:16Z",
       "subject": "Fritz Leisch 1968-2024",
       "subject_clean": "Fritz Leisch 1968-2024",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2024-04-24T05:18:02+00:00",
-      "last_reply": "2024-04-24T05:18:02+00:00",
+      "started": "2024-04-24T05:18:02Z",
+      "last_reply": "2024-04-24T05:18:02Z",
       "root_message_id": "msg-9f8b4a812494"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2024-04-26T09:40:16+01:00",
-      "last_reply": "2024-04-26T09:40:16+01:00",
+      "started": "2024-04-26T08:40:16Z",
+      "last_reply": "2024-04-26T08:40:16Z",
       "root_message_id": "msg-d2a3c8b23d38"
     }
   ]

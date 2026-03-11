@@ -8,7 +8,7 @@
       "message_id": "<CADx-4xCkTFEKFZxryVfSvwwQ7+kHt9O1Lup-Tkm840UxHiLaQw@mail.gmail.com>",
       "from_name": "John Verzani",
       "from_email_hash": "dedf076b804511a6f7c7095c493f97550dbfcdaa588ef93e4f5624008e5349f8",
-      "date": "2018-08-08T09:55:37-04:00",
+      "date": "2018-08-08T13:55:37Z",
       "subject": "[ANN] New issue of The R Journal",
       "subject_clean": "[ANN] New issue of The R Journal",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "John Verzani"
       ],
-      "started": "2018-08-08T09:55:37-04:00",
-      "last_reply": "2018-08-08T09:55:37-04:00",
+      "started": "2018-08-08T13:55:37Z",
+      "last_reply": "2018-08-08T13:55:37Z",
       "root_message_id": "msg-f788f043209b"
     }
   ]

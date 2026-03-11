@@ -8,7 +8,7 @@
       "message_id": "<39CCE837-825D-4BFA-8895-674005CDFAD0@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2011-07-08T12:16:40+02:00",
+      "date": "2011-07-08T10:16:40Z",
       "subject": "R 2.13.1 is released",
       "subject_clean": "R 2.13.1 is released",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2011-07-08T12:16:40+02:00",
-      "last_reply": "2011-07-08T12:16:40+02:00",
+      "started": "2011-07-08T10:16:40Z",
+      "last_reply": "2011-07-08T10:16:40Z",
       "root_message_id": "msg-95bf197cfa3f"
     }
   ]

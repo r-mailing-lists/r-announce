@@ -8,7 +8,7 @@
       "message_id": "<8A0CEFBD-74CF-4928-A587-1C58811F799B@gmail.com>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2021-08-10T10:18:08+02:00",
+      "date": "2021-08-10T08:18:08Z",
       "subject": "[Rd] R 4.1.1 is released",
       "subject_clean": "R 4.1.1 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<35571119-0C8A-43B1-A7BB-AB9E2630542B@gmail.com>",
       "from_name": "Dianne Cook",
       "from_email_hash": "e3b862f281e91b781b1173af5d92e496a848672950c27fe29cdd1c139e7a6c40",
-      "date": "2021-08-11T17:29:32+10:00",
+      "date": "2021-08-11T07:29:32Z",
       "subject": "Volume 13/1, June 2021 now available",
       "subject_clean": "Volume 13/1, June 2021 now available",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2021-08-10T10:18:08+02:00",
-      "last_reply": "2021-08-10T10:18:08+02:00",
+      "started": "2021-08-10T08:18:08Z",
+      "last_reply": "2021-08-10T08:18:08Z",
       "root_message_id": "msg-1ace67a73388"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Dianne Cook"
       ],
-      "started": "2021-08-11T17:29:32+10:00",
-      "last_reply": "2021-08-11T17:29:32+10:00",
+      "started": "2021-08-11T07:29:32Z",
+      "last_reply": "2021-08-11T07:29:32Z",
       "root_message_id": "msg-9de5a6800af0"
     }
   ]

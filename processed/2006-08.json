@@ -8,7 +8,7 @@
       "message_id": "<44E4FAD1.1070102@stat.auckland.ac.nz>",
       "from_name": "Paul Murrell",
       "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
-      "date": "2006-08-18T11:25:05+12:00",
+      "date": "2006-08-17T23:25:05Z",
       "subject": "DSC 2007",
       "subject_clean": "DSC 2007",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<44EE256C.8070506@stat.auckland.ac.nz>",
       "from_name": "Paul Murrell",
       "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
-      "date": "2006-08-25T10:17:16+12:00",
+      "date": "2006-08-24T22:17:16Z",
       "subject": "R News, volume 6, issue 3 is now available",
       "subject_clean": "R News, volume 6, issue 3 is now available",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Paul Murrell"
       ],
-      "started": "2006-08-18T11:25:05+12:00",
-      "last_reply": "2006-08-18T11:25:05+12:00",
+      "started": "2006-08-17T23:25:05Z",
+      "last_reply": "2006-08-17T23:25:05Z",
       "root_message_id": "msg-645653d6c70c"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Paul Murrell"
       ],
-      "started": "2006-08-25T10:17:16+12:00",
-      "last_reply": "2006-08-25T10:17:16+12:00",
+      "started": "2006-08-24T22:17:16Z",
+      "last_reply": "2006-08-24T22:17:16Z",
       "root_message_id": "msg-3d240919d35a"
     }
   ]

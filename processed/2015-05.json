@@ -8,7 +8,7 @@
       "message_id": "<127E408C-FBBE-41D1-B6D6-2D53B8D8B208@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2015-05-18T09:30:11+02:00",
+      "date": "2015-05-18T07:30:11Z",
       "subject": "Release of R 3.2.1 scheduled for June 18",
       "subject_clean": "Release of R 3.2.1 scheduled for June 18",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<21853.40698.326587.61371@stat.math.ethz.ch>",
       "from_name": "Martin Maechler",
       "from_email_hash": "766068ea1db2bd472d09777fa03b0f09b8fc459fa51150ed3e26f51ff8e6ca42",
-      "date": "2015-05-21T11:01:46+02:00",
+      "date": "2015-05-21T09:01:46Z",
       "subject": "The R Foundation announces new mailing list 'R-package-devel'",
       "subject_clean": "The R Foundation announces new mailing list 'R-package-devel'",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2015-05-18T09:30:11+02:00",
-      "last_reply": "2015-05-18T09:30:11+02:00",
+      "started": "2015-05-18T07:30:11Z",
+      "last_reply": "2015-05-18T07:30:11Z",
       "root_message_id": "msg-93814bbb895b"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "2015-05-21T11:01:46+02:00",
-      "last_reply": "2015-05-21T11:01:46+02:00",
+      "started": "2015-05-21T09:01:46Z",
+      "last_reply": "2015-05-21T09:01:46Z",
       "root_message_id": "msg-5297ffbc2ae3"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<1341993446.1963.42.camel@braque.iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bcc3467147417e7930b92295d6b6e1e40d825ba4817d5fd5066dc9d092f633fb",
-      "date": "2012-07-11T09:57:26+02:00",
+      "date": "2012-07-11T07:57:26Z",
       "subject": "The R Journal, Vol. 4 Issue 1",
       "subject_clean": "The R Journal, Vol. 4 Issue 1",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2012-07-11T09:57:26+02:00",
-      "last_reply": "2012-07-11T09:57:26+02:00",
+      "started": "2012-07-11T07:57:26Z",
+      "last_reply": "2012-07-11T07:57:26Z",
       "root_message_id": "msg-962ffd2b0dd9"
     }
   ]

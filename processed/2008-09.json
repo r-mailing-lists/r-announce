@@ -8,7 +8,7 @@
       "message_id": "<48D13EBC.3000700@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2008-09-17T19:30:36+02:00",
+      "date": "2008-09-17T17:30:36Z",
       "subject": "R 2.8.0 is scheduled for October 20",
       "subject_clean": "R 2.8.0 is scheduled for October 20",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<18651.64324.600568.842290@stat.math.ethz.ch>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "2008-09-25T22:57:40+02:00",
+      "date": "2008-09-25T20:57:40Z",
       "subject": "R Foundation adopts Certification/Validation document",
       "subject_clean": "R Foundation adopts Certification/Validation document",
       "in_reply_to": "<48DB90DD.70908@fhcrc.org>",
@@ -50,8 +50,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2008-09-17T19:30:36+02:00",
-      "last_reply": "2008-09-17T19:30:36+02:00",
+      "started": "2008-09-17T17:30:36Z",
+      "last_reply": "2008-09-17T17:30:36Z",
       "root_message_id": "msg-8c3a54669052"
     },
     {
@@ -61,8 +61,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "2008-09-25T22:57:40+02:00",
-      "last_reply": "2008-09-25T22:57:40+02:00",
+      "started": "2008-09-25T20:57:40Z",
+      "last_reply": "2008-09-25T20:57:40Z",
       "root_message_id": "msg-8d43ae6ff1d5"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<8CBAA121CEB4D5118CB200508BB2BBEF54043E@xmx8lonib.lonib.commerzbank.com>",
       "from_name": "Heywood, Giles",
       "from_email_hash": "3e32592bc1e64cb535baa0bc558bd689ed2f59c3cd32d06a6de1fa640afaa5b7",
-      "date": "2003-08-11T07:27:03+01:00",
+      "date": "2003-08-11T06:27:03Z",
       "subject": "New package: irregular time-series (its)",
       "subject_clean": "New package: irregular time-series (its)",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<3F4F982D.3030300@statistik.uni-dortmund.de>",
       "from_name": "Uwe Ligges",
       "from_email_hash": "2d61b878ddbd8cb498eaad13e213f45e20da358dea7c063799b1b3934f86a26c",
-      "date": "2003-08-29T20:15:09+02:00",
+      "date": "2003-08-29T18:15:09Z",
       "subject": "Notes on Windows binaries of contributed  packages",
       "subject_clean": "Notes on Windows binaries of contributed  packages",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Heywood, Giles"
       ],
-      "started": "2003-08-11T07:27:03+01:00",
-      "last_reply": "2003-08-11T07:27:03+01:00",
+      "started": "2003-08-11T06:27:03Z",
+      "last_reply": "2003-08-11T06:27:03Z",
       "root_message_id": "msg-195410d842db"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Uwe Ligges"
       ],
-      "started": "2003-08-29T20:15:09+02:00",
-      "last_reply": "2003-08-29T20:15:09+02:00",
+      "started": "2003-08-29T18:15:09Z",
+      "last_reply": "2003-08-29T18:15:09Z",
       "root_message_id": "msg-6cf48f68fd70"
     }
   ]

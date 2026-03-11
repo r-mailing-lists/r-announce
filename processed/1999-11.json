@@ -8,7 +8,7 @@
       "message_id": "<6rln83n07f.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "1999-11-12T10:28:36-06:00",
+      "date": "1999-11-12T16:28:36Z",
       "subject": "New domain - r-project.org",
       "subject_clean": "New domain - r-project.org",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<6rwvrngryh.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "1999-11-12T18:23:18-06:00",
+      "date": "1999-11-13T00:23:18Z",
       "subject": "Anonymous cvs access",
       "subject_clean": "Anonymous cvs access",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<382CCA91.83F068EF@nceas.ucsb.edu>",
       "from_name": "Timothy H. Keitt",
       "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
-      "date": "1999-11-12T18:18:57-08:00",
+      "date": "1999-11-13T02:18:57Z",
       "subject": "postgresql package for R",
       "subject_clean": "postgresql package for R",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<38386B26.65A24BD9@nceas.ucsb.edu>",
       "from_name": "Timothy H. Keitt",
       "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
-      "date": "1999-11-21T13:59:02-08:00",
+      "date": "1999-11-21T21:59:02Z",
       "subject": "PostgreSQL package",
       "subject_clean": "PostgreSQL package",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<x2g0xy1vvg.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1999-11-22T14:47:15+01:00",
+      "date": "1999-11-22T13:47:15Z",
       "subject": "R 0.90.0 is released",
       "subject_clean": "R 0.90.0 is released",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<6rpux2p9dm.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "1999-11-22T14:19:17-06:00",
+      "date": "1999-11-22T20:19:17Z",
       "subject": "Release 0.90.0 is also available via rsync",
       "subject_clean": "Release 0.90.0 is also available via rsync",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<6rzow6nng0.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "1999-11-22T16:58:23-06:00",
+      "date": "1999-11-22T22:58:23Z",
       "subject": "NLME-3.1 package available for R-0.90.0",
       "subject_clean": "NLME-3.1 package available for R-0.90.0",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<19991124103107.48010@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "1999-11-24T10:31:07+01:00",
+      "date": "1999-11-24T09:31:07Z",
       "subject": "R 0.90.0 for Windows",
       "subject_clean": "R 0.90.0 for Windows",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<383C083D.BFA4F405@bank-banque-canada.ca>",
       "from_name": "Paul Gilbert",
       "from_email_hash": "51f348dc0febec9b32e9d9dcb86f6de731958e1295e818209b4c127bffef5569",
-      "date": "1999-11-24T10:46:05-05:00",
+      "date": "1999-11-24T15:46:05Z",
       "subject": "DSE package for multi-variate time series",
       "subject_clean": "DSE package for multi-variate time series",
       "in_reply_to": null,
@@ -156,20 +156,9 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "1999-11-12T10:28:36-06:00",
-      "last_reply": "1999-11-12T10:28:36-06:00",
+      "started": "1999-11-12T16:28:36Z",
+      "last_reply": "1999-11-12T16:28:36Z",
       "root_message_id": "msg-56ef767b399f"
-    },
-    {
-      "id": "thread-01ebe1ea39ea",
-      "subject": "postgresql package for R",
-      "message_count": 1,
-      "participants": [
-        "Timothy H. Keitt"
-      ],
-      "started": "1999-11-12T18:18:57-08:00",
-      "last_reply": "1999-11-12T18:18:57-08:00",
-      "root_message_id": "msg-01ebe1ea39ea"
     },
     {
       "id": "thread-7f47d18c941f",
@@ -178,9 +167,20 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "1999-11-12T18:23:18-06:00",
-      "last_reply": "1999-11-12T18:23:18-06:00",
+      "started": "1999-11-13T00:23:18Z",
+      "last_reply": "1999-11-13T00:23:18Z",
       "root_message_id": "msg-7f47d18c941f"
+    },
+    {
+      "id": "thread-01ebe1ea39ea",
+      "subject": "postgresql package for R",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "1999-11-13T02:18:57Z",
+      "last_reply": "1999-11-13T02:18:57Z",
+      "root_message_id": "msg-01ebe1ea39ea"
     },
     {
       "id": "thread-cd547eae507f",
@@ -189,20 +189,9 @@
       "participants": [
         "Timothy H. Keitt"
       ],
-      "started": "1999-11-21T13:59:02-08:00",
-      "last_reply": "1999-11-21T13:59:02-08:00",
+      "started": "1999-11-21T21:59:02Z",
+      "last_reply": "1999-11-21T21:59:02Z",
       "root_message_id": "msg-cd547eae507f"
-    },
-    {
-      "id": "thread-fc5604d2ce5a",
-      "subject": "Release 0.90.0 is also available via rsync",
-      "message_count": 1,
-      "participants": [
-        "Douglas Bates"
-      ],
-      "started": "1999-11-22T14:19:17-06:00",
-      "last_reply": "1999-11-22T14:19:17-06:00",
-      "root_message_id": "msg-fc5604d2ce5a"
     },
     {
       "id": "thread-87cf4aecf758",
@@ -211,9 +200,20 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1999-11-22T14:47:15+01:00",
-      "last_reply": "1999-11-22T14:47:15+01:00",
+      "started": "1999-11-22T13:47:15Z",
+      "last_reply": "1999-11-22T13:47:15Z",
       "root_message_id": "msg-87cf4aecf758"
+    },
+    {
+      "id": "thread-fc5604d2ce5a",
+      "subject": "Release 0.90.0 is also available via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "1999-11-22T20:19:17Z",
+      "last_reply": "1999-11-22T20:19:17Z",
+      "root_message_id": "msg-fc5604d2ce5a"
     },
     {
       "id": "thread-40fd022663b8",
@@ -222,8 +222,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "1999-11-22T16:58:23-06:00",
-      "last_reply": "1999-11-22T16:58:23-06:00",
+      "started": "1999-11-22T22:58:23Z",
+      "last_reply": "1999-11-22T22:58:23Z",
       "root_message_id": "msg-40fd022663b8"
     },
     {
@@ -233,8 +233,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "1999-11-24T10:31:07+01:00",
-      "last_reply": "1999-11-24T10:31:07+01:00",
+      "started": "1999-11-24T09:31:07Z",
+      "last_reply": "1999-11-24T09:31:07Z",
       "root_message_id": "msg-b35f6592a861"
     },
     {
@@ -244,8 +244,8 @@
       "participants": [
         "Paul Gilbert"
       ],
-      "started": "1999-11-24T10:46:05-05:00",
-      "last_reply": "1999-11-24T10:46:05-05:00",
+      "started": "1999-11-24T15:46:05Z",
+      "last_reply": "1999-11-24T15:46:05Z",
       "root_message_id": "msg-2e74e63603da"
     }
   ]

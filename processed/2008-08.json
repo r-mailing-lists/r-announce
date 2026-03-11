@@ -8,7 +8,7 @@
       "message_id": "<489F462A.6050408@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2008-08-10T21:48:58+02:00",
+      "date": "2008-08-10T19:48:58Z",
       "subject": "R 2,7.2 is scheduled for August 25",
       "subject_clean": "R 2,7.2 is scheduled for August 25",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<18606.34734.358781.844169@lxh5.stat.uni-muenchen.de>",
       "from_name": "Friedrich.Leisch at R-project.org",
       "from_email_hash": "2272cd5a8d9728602b8c9c039d74bcebe6fc79965f3cb706baae64e9a862204b",
-      "date": "2008-08-22T11:32:30+02:00",
+      "date": "2008-08-22T09:32:30Z",
       "subject": "Forthcoming R Conferences",
       "subject_clean": "Forthcoming R Conferences",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<48B28209.6040106@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2008-08-25T11:57:29+02:00",
+      "date": "2008-08-25T09:57:29Z",
       "subject": "R 2.7.2 is released",
       "subject_clean": "R 2.7.2 is released",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2008-08-10T21:48:58+02:00",
-      "last_reply": "2008-08-10T21:48:58+02:00",
+      "started": "2008-08-10T19:48:58Z",
+      "last_reply": "2008-08-10T19:48:58Z",
       "root_message_id": "msg-f13af922e00c"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Friedrich.Leisch at R-project.org"
       ],
-      "started": "2008-08-22T11:32:30+02:00",
-      "last_reply": "2008-08-22T11:32:30+02:00",
+      "started": "2008-08-22T09:32:30Z",
+      "last_reply": "2008-08-22T09:32:30Z",
       "root_message_id": "msg-406c76111d8c"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2008-08-25T11:57:29+02:00",
-      "last_reply": "2008-08-25T11:57:29+02:00",
+      "started": "2008-08-25T09:57:29Z",
+      "last_reply": "2008-08-25T09:57:29Z",
       "root_message_id": "msg-fc1d4034c64a"
     }
   ]

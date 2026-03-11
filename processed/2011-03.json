@@ -8,7 +8,7 @@
       "message_id": "<20607753-46E1-40A6-AEA6-AAFD3C1AC01A@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2011-03-13T10:55:37+01:00",
+      "date": "2011-03-13T09:55:37Z",
       "subject": "R 2.13.0 scheduled for April 13",
       "subject_clean": "R 2.13.0 scheduled for April 13",
       "in_reply_to": null,
@@ -54,8 +54,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2011-03-13T10:55:37+01:00",
-      "last_reply": "2011-03-13T10:55:37+01:00",
+      "started": "2011-03-13T09:55:37Z",
+      "last_reply": "2011-03-13T09:55:37Z",
       "root_message_id": "msg-e08f1c8ed311"
     },
     {
@@ -65,8 +65,8 @@
       "participants": [
         "useR! 2011, Resource"
       ],
-      "started": "2011-03-21T10:41:00+00:00",
-      "last_reply": "2011-03-21T10:41:00+00:00",
+      "started": "2011-03-21T10:41:00Z",
+      "last_reply": "2011-03-21T10:41:00Z",
       "root_message_id": "msg-e7bbbae223a2"
     }
   ]

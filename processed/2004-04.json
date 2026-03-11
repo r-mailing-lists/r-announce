@@ -8,7 +8,7 @@
       "message_id": "<E1B93rT-0000kK-00@localhost>",
       "from_name": "Brian Gough",
       "from_email_hash": "8ea00ce71bf2615de75d7fec7aa4e93609666093eb7cfe50bb06660f34d4fa5a",
-      "date": "2004-04-01T16:12:07+01:00",
+      "date": "2004-04-01T15:12:07Z",
       "subject": "The R Reference Manual - available as a printed book",
       "subject_clean": "The R Reference Manual - available as a printed book",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2oepxl7ui.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2004-04-12T14:05:25+02:00",
+      "date": "2004-04-12T12:05:25Z",
       "subject": "R 1.9.0 is release",
       "subject_clean": "R 1.9.0 is release",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<ikrl705qgqg7eiqo7gvkt8vbp4l248mscr@4ax.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "0b169dc9578e443c97ef875feba9794619f6e667997aabcb13de6d581cba9312",
-      "date": "2004-04-12T15:37:40-04:00",
+      "date": "2004-04-12T19:37:40Z",
       "subject": "[R] R 1.9.0 is release",
       "subject_clean": "R 1.9.0 is release",
       "in_reply_to": "<x2oepxl7ui.fsf@biostat.ku.dk>",
@@ -58,7 +58,7 @@
       "message_id": "<6rekq5saii.fsf@bates4.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2004-04-30T11:20:21-05:00",
+      "date": "2004-04-30T16:20:21Z",
       "subject": "Deepayan Sarkar wins the 2004 Chambers Award",
       "subject_clean": "Deepayan Sarkar wins the 2004 Chambers Award",
       "in_reply_to": null,
@@ -78,8 +78,8 @@
       "participants": [
         "Brian Gough"
       ],
-      "started": "2004-04-01T16:12:07+01:00",
-      "last_reply": "2004-04-01T16:12:07+01:00",
+      "started": "2004-04-01T15:12:07Z",
+      "last_reply": "2004-04-01T15:12:07Z",
       "root_message_id": "msg-de94b01217f4"
     },
     {
@@ -90,8 +90,8 @@
         "Duncan Murdoch",
         "Peter Dalgaard"
       ],
-      "started": "2004-04-12T14:05:25+02:00",
-      "last_reply": "2004-04-12T15:37:40-04:00",
+      "started": "2004-04-12T12:05:25Z",
+      "last_reply": "2004-04-12T19:37:40Z",
       "root_message_id": "msg-1e1148db568c"
     },
     {
@@ -101,8 +101,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2004-04-30T11:20:21-05:00",
-      "last_reply": "2004-04-30T11:20:21-05:00",
+      "started": "2004-04-30T16:20:21Z",
+      "last_reply": "2004-04-30T16:20:21Z",
       "root_message_id": "msg-e3e6891ee236"
     }
   ]

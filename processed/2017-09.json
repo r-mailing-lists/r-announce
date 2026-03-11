@@ -8,7 +8,7 @@
       "message_id": "<589AFDAF-C1DA-4F84-8FF5-F4344385AF51@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "d2573f0c0a474184a9d96c815fc6bf37ff7c6392082069d810139c562d5a6f71",
-      "date": "2017-09-28T11:07:57+02:00",
+      "date": "2017-09-28T09:07:57Z",
       "subject": "R 3.4.2 is released",
       "subject_clean": "R 3.4.2 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<2364ab53-f06d-5e55-636c-bd402bf58568@gmail.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "17e1fcd7901e6a11dc6bc3ede542d46252611499631dfb4199936939fda2e399",
-      "date": "2017-09-28T06:27:03-04:00",
+      "date": "2017-09-28T10:27:03Z",
       "subject": "[R] R 3.4.2 is released",
       "subject_clean": "R 3.4.2 is released",
       "in_reply_to": "<589AFDAF-C1DA-4F84-8FF5-F4344385AF51@cbs.dk>",
@@ -47,8 +47,8 @@
         "Duncan Murdoch",
         "Peter Dalgaard"
       ],
-      "started": "2017-09-28T11:07:57+02:00",
-      "last_reply": "2017-09-28T06:27:03-04:00",
+      "started": "2017-09-28T09:07:57Z",
+      "last_reply": "2017-09-28T10:27:03Z",
       "root_message_id": "msg-b5335bb6b767"
     }
   ]

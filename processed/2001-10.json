@@ -8,7 +8,7 @@
       "message_id": "<15292.6089.760015.233382@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-10-04T10:03:21+02:00",
+      "date": "2001-10-04T08:03:21Z",
       "subject": "new version of e1071 on CRAN",
       "subject_clean": "new version of e1071 on CRAN",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<200110171049.MAA21217@luc.ac.be>",
       "from_name": "Jim Lindsey",
       "from_email_hash": "c972a47c9a68053d636829d49e0dfa9a99122349c7033c4a6738ed74c9218fbc",
-      "date": "2001-10-17T12:49:29+02:00",
+      "date": "2001-10-17T10:49:29Z",
       "subject": "stochastic course notes with R",
       "subject_clean": "stochastic course notes with R",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<15318.47880.81171.759753@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-10-24T14:58:48+02:00",
+      "date": "2001-10-24T12:58:48Z",
       "subject": "bugfix release of e1071",
       "subject_clean": "bugfix release of e1071",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "2001-10-04T10:03:21+02:00",
-      "last_reply": "2001-10-04T10:03:21+02:00",
+      "started": "2001-10-04T08:03:21Z",
+      "last_reply": "2001-10-04T08:03:21Z",
       "root_message_id": "msg-50658a8a7ab2"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Jim Lindsey"
       ],
-      "started": "2001-10-17T12:49:29+02:00",
-      "last_reply": "2001-10-17T12:49:29+02:00",
+      "started": "2001-10-17T10:49:29Z",
+      "last_reply": "2001-10-17T10:49:29Z",
       "root_message_id": "msg-d9b5ee69d782"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "2001-10-24T14:58:48+02:00",
-      "last_reply": "2001-10-24T14:58:48+02:00",
+      "started": "2001-10-24T12:58:48Z",
+      "last_reply": "2001-10-24T12:58:48Z",
       "root_message_id": "msg-54cd8b231346"
     }
   ]

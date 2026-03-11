@@ -8,7 +8,7 @@
       "message_id": "<p05010404b6c57f131b3a@[129.206.113.199]>",
       "from_name": "G. Sawitzki",
       "from_email_hash": "69602700324880f6249a318b54ec265a37871ceba10e26f1d166ce08a068d540",
-      "date": "2001-03-02T17:47:26+01:00",
+      "date": "2001-03-02T16:47:26Z",
       "subject": "Introduction to R (S) [in German]",
       "subject_clean": "Introduction to R (S) [in German]",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<3AA04249.37D71B10@tajo.ucsd.edu>",
       "from_name": "Charles C. Berry",
       "from_email_hash": "2e60b7324e5cc583defcedd7a675a324250ffb84da081638c31baf739e5c08e2",
-      "date": "2001-03-02T17:00:57-08:00",
+      "date": "2001-03-03T01:00:57Z",
       "subject": "bqtl available on CRAN",
       "subject_clean": "bqtl available on CRAN",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<20010305092235.11089@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2001-03-05T09:22:36+01:00",
+      "date": "2001-03-05T08:22:36Z",
       "subject": "Binaries of R 1.2.2 for Ms Windows at CRAN",
       "subject_clean": "Binaries of R 1.2.2 for Ms Windows at CRAN",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<200103220226.SAA57875@pine.frazmtn.com>",
       "from_name": "Jan de Leeuw",
       "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
-      "date": "2001-03-21T18:26:16-08:00",
+      "date": "2001-03-22T02:26:16Z",
       "subject": "MacOS X (Darwin) version of R-1.2.2",
       "subject_clean": "MacOS X (Darwin) version of R-1.2.2",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<200103250002.QAA79478@pine.frazmtn.com>",
       "from_name": "Jan de Leeuw",
       "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
-      "date": "2001-03-24T16:02:39-08:00",
+      "date": "2001-03-25T00:02:39Z",
       "subject": "R-1.2.2 for MacOS X (Darwin/X11)",
       "subject_clean": "R-1.2.2 for MacOS X (Darwin/X11)",
       "in_reply_to": null,
@@ -102,25 +102,14 @@
   ],
   "threads": [
     {
-      "id": "thread-56a4b419630c",
-      "subject": "bqtl available on CRAN",
-      "message_count": 1,
-      "participants": [
-        "Charles C. Berry"
-      ],
-      "started": "2001-03-02T17:00:57-08:00",
-      "last_reply": "2001-03-02T17:00:57-08:00",
-      "root_message_id": "msg-56a4b419630c"
-    },
-    {
       "id": "thread-58fcf90f72a5",
       "subject": "Introduction to R (S) [in German]",
       "message_count": 1,
       "participants": [
         "G. Sawitzki"
       ],
-      "started": "2001-03-02T17:47:26+01:00",
-      "last_reply": "2001-03-02T17:47:26+01:00",
+      "started": "2001-03-02T16:47:26Z",
+      "last_reply": "2001-03-02T16:47:26Z",
       "root_message_id": "msg-58fcf90f72a5"
     },
     {
@@ -130,9 +119,20 @@
       "participants": [
         "Prof Brian Ripley"
       ],
-      "started": "2001-03-02T18:25:49+00:00",
-      "last_reply": "2001-03-02T18:25:49+00:00",
+      "started": "2001-03-02T18:25:49Z",
+      "last_reply": "2001-03-02T18:25:49Z",
       "root_message_id": "msg-9acb252cc0df"
+    },
+    {
+      "id": "thread-56a4b419630c",
+      "subject": "bqtl available on CRAN",
+      "message_count": 1,
+      "participants": [
+        "Charles C. Berry"
+      ],
+      "started": "2001-03-03T01:00:57Z",
+      "last_reply": "2001-03-03T01:00:57Z",
+      "root_message_id": "msg-56a4b419630c"
     },
     {
       "id": "thread-abdbd0fd2760",
@@ -141,8 +141,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "2001-03-05T09:22:36+01:00",
-      "last_reply": "2001-03-05T09:22:36+01:00",
+      "started": "2001-03-05T08:22:36Z",
+      "last_reply": "2001-03-05T08:22:36Z",
       "root_message_id": "msg-abdbd0fd2760"
     },
     {
@@ -152,8 +152,8 @@
       "participants": [
         "Jan de Leeuw"
       ],
-      "started": "2001-03-21T18:26:16-08:00",
-      "last_reply": "2001-03-21T18:26:16-08:00",
+      "started": "2001-03-22T02:26:16Z",
+      "last_reply": "2001-03-22T02:26:16Z",
       "root_message_id": "msg-7e156aacc75d"
     },
     {
@@ -163,8 +163,8 @@
       "participants": [
         "Jan de Leeuw"
       ],
-      "started": "2001-03-24T16:02:39-08:00",
-      "last_reply": "2001-03-24T16:02:39-08:00",
+      "started": "2001-03-25T00:02:39Z",
+      "last_reply": "2001-03-25T00:02:39Z",
       "root_message_id": "msg-7b7d4452d05c"
     }
   ]

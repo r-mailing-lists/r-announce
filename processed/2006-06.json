@@ -8,7 +8,7 @@
       "message_id": "<447E548E.2090202@stat.auckland.ac.nz>",
       "from_name": "Paul Murrell",
       "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
-      "date": "2006-06-01T14:44:30+12:00",
+      "date": "2006-06-01T02:44:30Z",
       "subject": "R News, volume 6, issue 2 is now available",
       "subject_clean": "R News, volume 6, issue 2 is now available",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2ejy9i6wj.fsf@viggo.kubism.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2006-06-01T11:04:12+02:00",
+      "date": "2006-06-01T09:04:12Z",
       "subject": "R 2.3.1 is released",
       "subject_clean": "R 2.3.1 is released",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<447F65F5.4010300@stat.auckland.ac.nz>",
       "from_name": "Paul Murrell",
       "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
-      "date": "2006-06-02T10:11:01+12:00",
+      "date": "2006-06-01T22:11:01Z",
       "subject": "DSC 2007 info",
       "subject_clean": "DSC 2007 info",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<20060630221738.0331a63b.Achim.Zeileis@wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2006-06-30T22:17:38+02:00",
+      "date": "2006-06-30T20:17:38Z",
       "subject": "useR! 2006: presentation slides",
       "subject_clean": "useR! 2006: presentation slides",
       "in_reply_to": null,
@@ -70,26 +70,26 @@
   ],
   "threads": [
     {
-      "id": "thread-88c978048253",
-      "subject": "R 2.3.1 is released",
-      "message_count": 1,
-      "participants": [
-        "Peter Dalgaard"
-      ],
-      "started": "2006-06-01T11:04:12+02:00",
-      "last_reply": "2006-06-01T11:04:12+02:00",
-      "root_message_id": "msg-88c978048253"
-    },
-    {
       "id": "thread-b50970f47ec0",
       "subject": "R News, volume 6, issue 2 is now available",
       "message_count": 1,
       "participants": [
         "Paul Murrell"
       ],
-      "started": "2006-06-01T14:44:30+12:00",
-      "last_reply": "2006-06-01T14:44:30+12:00",
+      "started": "2006-06-01T02:44:30Z",
+      "last_reply": "2006-06-01T02:44:30Z",
       "root_message_id": "msg-b50970f47ec0"
+    },
+    {
+      "id": "thread-88c978048253",
+      "subject": "R 2.3.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard"
+      ],
+      "started": "2006-06-01T09:04:12Z",
+      "last_reply": "2006-06-01T09:04:12Z",
+      "root_message_id": "msg-88c978048253"
     },
     {
       "id": "thread-5badba3ee919",
@@ -98,8 +98,8 @@
       "participants": [
         "Paul Murrell"
       ],
-      "started": "2006-06-02T10:11:01+12:00",
-      "last_reply": "2006-06-02T10:11:01+12:00",
+      "started": "2006-06-01T22:11:01Z",
+      "last_reply": "2006-06-01T22:11:01Z",
       "root_message_id": "msg-5badba3ee919"
     },
     {
@@ -109,8 +109,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2006-06-30T22:17:38+02:00",
-      "last_reply": "2006-06-30T22:17:38+02:00",
+      "started": "2006-06-30T20:17:38Z",
+      "last_reply": "2006-06-30T20:17:38Z",
       "root_message_id": "msg-4d1693188018"
     }
   ]

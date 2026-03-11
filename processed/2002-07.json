@@ -8,7 +8,7 @@
       "message_id": "<E17PiWq-0000bf-00@DMjcadima>",
       "from_name": "Jorge Cadima",
       "from_email_hash": "a263d5a66379eed6efe61017b0d94c4dcb2bc08bbac49d7abd304fb5bd8e4523",
-      "date": "2002-07-03T12:42:35+01:00",
+      "date": "2002-07-03T11:42:35Z",
       "subject": "No subject",
       "subject_clean": "No subject",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<p05111b02b9630a3ef122@[217.88.224.76]>",
       "from_name": "G. Sawitzki",
       "from_email_hash": "b235128b50c97d6fb85da3d4af0ea4166f3e3bd45fbb4d25613db10a2d6ecff1",
-      "date": "2002-07-23T15:30:07+02:00",
+      "date": "2002-07-23T13:30:07Z",
       "subject": "Quartz ?",
       "subject_clean": "Quartz ?",
       "in_reply_to": "<C79F1393-83C2-11D6-9F70-003065A21C86@stat.ucla.edu>",
@@ -42,7 +42,7 @@
       "message_id": "<Pine.LNX.4.31.0207302019340.11520-100000@matheron.estadi.uv.es>",
       "from_name": "virgil at uv.es",
       "from_email_hash": "adba6f97a489d8d386a397d35611fe5655201163d1ab3cd4127f665a8a412a41",
-      "date": "2002-07-30T20:26:02+02:00",
+      "date": "2002-07-30T18:26:02Z",
       "subject": "RArcInfo 0.3",
       "subject_clean": "RArcInfo 0.3",
       "in_reply_to": null,
@@ -62,8 +62,8 @@
       "participants": [
         "Jorge Cadima"
       ],
-      "started": "2002-07-03T12:42:35+01:00",
-      "last_reply": "2002-07-03T12:42:35+01:00",
+      "started": "2002-07-03T11:42:35Z",
+      "last_reply": "2002-07-03T11:42:35Z",
       "root_message_id": "msg-8b04fb6d1cc8"
     },
     {
@@ -73,8 +73,8 @@
       "participants": [
         "G. Sawitzki"
       ],
-      "started": "2002-07-23T15:30:07+02:00",
-      "last_reply": "2002-07-23T15:30:07+02:00",
+      "started": "2002-07-23T13:30:07Z",
+      "last_reply": "2002-07-23T13:30:07Z",
       "root_message_id": "msg-c73bccef4595"
     },
     {
@@ -84,8 +84,8 @@
       "participants": [
         "virgil at uv.es"
       ],
-      "started": "2002-07-30T20:26:02+02:00",
-      "last_reply": "2002-07-30T20:26:02+02:00",
+      "started": "2002-07-30T18:26:02Z",
+      "last_reply": "2002-07-30T18:26:02Z",
       "root_message_id": "msg-e4e8efa25b4a"
     }
   ]

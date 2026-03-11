@@ -8,7 +8,7 @@
       "message_id": "<4B14F59C.1020201@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2009-12-01T11:53:16+01:00",
+      "date": "2009-12-01T10:53:16Z",
       "subject": "R 2.10.1 Scheduled for December 14, 2009",
       "subject_clean": "R 2.10.1 Scheduled for December 14, 2009",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<4B261164.6070008@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2009-12-14T11:20:20+01:00",
+      "date": "2009-12-14T10:20:20Z",
       "subject": "R 2.10.1 is released",
       "subject_clean": "R 2.10.1 is released",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2009-12-01T11:53:16+01:00",
-      "last_reply": "2009-12-01T11:53:16+01:00",
+      "started": "2009-12-01T10:53:16Z",
+      "last_reply": "2009-12-01T10:53:16Z",
       "root_message_id": "msg-7292275dcc68"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2009-12-14T11:20:20+01:00",
-      "last_reply": "2009-12-14T11:20:20+01:00",
+      "started": "2009-12-14T10:20:20Z",
+      "last_reply": "2009-12-14T10:20:20Z",
       "root_message_id": "msg-2a2065a8ca1a"
     }
   ]

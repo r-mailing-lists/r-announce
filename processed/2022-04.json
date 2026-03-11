@@ -8,7 +8,7 @@
       "message_id": "<1E52AAD3-D28F-4071-B1B7-E7345DAB50EE@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2022-04-22T10:19:36+02:00",
+      "date": "2022-04-22T08:19:36Z",
       "subject": "[Rd] R 4.2.0 is released",
       "subject_clean": "R 4.2.0 is released",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2022-04-22T10:19:36+02:00",
-      "last_reply": "2022-04-22T10:19:36+02:00",
+      "started": "2022-04-22T08:19:36Z",
+      "last_reply": "2022-04-22T08:19:36Z",
       "root_message_id": "msg-2423186908ed"
     }
   ]

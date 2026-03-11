@@ -56,7 +56,7 @@
       "message_id": "<md2covk1vhb9gqi2aqt8sapul1gb6e9u0u@4ax.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "0b169dc9578e443c97ef875feba9794619f6e667997aabcb13de6d581cba9312",
-      "date": "2003-10-09T21:23:12-04:00",
+      "date": "2003-10-10T01:23:12Z",
       "subject": "R 1.8.0 Windows binaries uploaded",
       "subject_clean": "R 1.8.0 Windows binaries uploaded",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<6r4qyhtfib.fsf@bates4.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2003-10-10T07:59:40-05:00",
+      "date": "2003-10-10T12:59:40Z",
       "subject": "R 1.8.0 Windows binaries available on U.S. mirror",
       "subject_clean": "R 1.8.0 Windows binaries available on U.S. mirror",
       "in_reply_to": "<md2covk1vhb9gqi2aqt8sapul1gb6e9u0u@4ax.com>",
@@ -90,7 +90,7 @@
       "message_id": "<6rd6d5rpo2.fsf@bates4.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2003-10-10T12:03:09-05:00",
+      "date": "2003-10-10T17:03:09Z",
       "subject": "Debian (testing) packages for R-1.8.0",
       "subject_clean": "Debian (testing) packages for R-1.8.0",
       "in_reply_to": null,
@@ -106,7 +106,7 @@
       "message_id": "<16281.6238.405333.480843@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2003-10-24T14:17:34+02:00",
+      "date": "2003-10-24T12:17:34Z",
       "subject": "CRAN down on Sunday, 26.10.2003",
       "subject_clean": "CRAN down on Sunday, 26.10.2003",
       "in_reply_to": null,
@@ -122,7 +122,7 @@
       "message_id": "<16288.52564.960646.249967@celeborn.leisch.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2003-10-30T09:35:32+01:00",
+      "date": "2003-10-30T08:35:32Z",
       "subject": "R News Volume 3/2",
       "subject_clean": "R News Volume 3/2",
       "in_reply_to": null,
@@ -142,8 +142,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2003-10-08T12:06:39+00:00",
-      "last_reply": "2003-10-08T12:06:39+00:00",
+      "started": "2003-10-08T12:06:39Z",
+      "last_reply": "2003-10-08T12:06:39Z",
       "root_message_id": "msg-06ca99f41b78"
     },
     {
@@ -153,8 +153,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2003-10-08T15:29:25+00:00",
-      "last_reply": "2003-10-08T15:29:25+00:00",
+      "started": "2003-10-08T15:29:25Z",
+      "last_reply": "2003-10-08T15:29:25Z",
       "root_message_id": "msg-fc2454a122a9"
     },
     {
@@ -164,8 +164,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2003-10-09T13:07:30+00:00",
-      "last_reply": "2003-10-09T13:07:30+00:00",
+      "started": "2003-10-09T13:07:30Z",
+      "last_reply": "2003-10-09T13:07:30Z",
       "root_message_id": "msg-928de9f49f04"
     },
     {
@@ -176,8 +176,8 @@
         "Douglas Bates",
         "Duncan Murdoch"
       ],
-      "started": "2003-10-09T21:23:12-04:00",
-      "last_reply": "2003-10-10T07:59:40-05:00",
+      "started": "2003-10-10T01:23:12Z",
+      "last_reply": "2003-10-10T12:59:40Z",
       "root_message_id": "msg-fff41d512df9"
     },
     {
@@ -187,8 +187,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2003-10-10T12:03:09-05:00",
-      "last_reply": "2003-10-10T12:03:09-05:00",
+      "started": "2003-10-10T17:03:09Z",
+      "last_reply": "2003-10-10T17:03:09Z",
       "root_message_id": "msg-9035912d7428"
     },
     {
@@ -198,8 +198,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2003-10-24T14:17:34+02:00",
-      "last_reply": "2003-10-24T14:17:34+02:00",
+      "started": "2003-10-24T12:17:34Z",
+      "last_reply": "2003-10-24T12:17:34Z",
       "root_message_id": "msg-f9b1b37a5420"
     },
     {
@@ -209,8 +209,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2003-10-30T09:35:32+01:00",
-      "last_reply": "2003-10-30T09:35:32+01:00",
+      "started": "2003-10-30T08:35:32Z",
+      "last_reply": "2003-10-30T08:35:32Z",
       "root_message_id": "msg-80c8391601b8"
     }
   ]

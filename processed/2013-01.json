@@ -8,7 +8,7 @@
       "message_id": "<B2F7DDF9-1994-443D-AAA7-942049ED142F@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2013-01-01T19:07:39+01:00",
+      "date": "2013-01-01T18:07:39Z",
       "subject": "R version 3.0.0",
       "subject_clean": "R version 3.0.0",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2013-01-01T19:07:39+01:00",
-      "last_reply": "2013-01-01T19:07:39+01:00",
+      "started": "2013-01-01T18:07:39Z",
+      "last_reply": "2013-01-01T18:07:39Z",
       "root_message_id": "msg-0cdb3fa83756"
     }
   ]

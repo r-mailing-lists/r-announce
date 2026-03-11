@@ -8,7 +8,7 @@
       "message_id": "<Pine.LNX.4.43.0407102038000.6216@hymn14.u.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
-      "date": "2004-07-10T20:38:00-07:00",
+      "date": "2004-07-11T03:38:00Z",
       "subject": "newsletter",
       "subject_clean": "newsletter",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Thomas Lumley"
       ],
-      "started": "2004-07-10T20:38:00-07:00",
-      "last_reply": "2004-07-10T20:38:00-07:00",
+      "started": "2004-07-11T03:38:00Z",
+      "last_reply": "2004-07-11T03:38:00Z",
       "root_message_id": "msg-a283d82d1779"
     }
   ]

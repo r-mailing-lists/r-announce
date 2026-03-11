@@ -8,7 +8,7 @@
       "message_id": "<20060529204635.4a8cf908.Achim.Zeileis@wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2006-05-29T20:46:35+02:00",
+      "date": "2006-05-29T18:46:35Z",
       "subject": "useR! 2006: final program",
       "subject_clean": "useR! 2006: final program",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2006-05-29T20:46:35+02:00",
-      "last_reply": "2006-05-29T20:46:35+02:00",
+      "started": "2006-05-29T18:46:35Z",
+      "last_reply": "2006-05-29T18:46:35Z",
       "root_message_id": "msg-4dec03307559"
     }
   ]

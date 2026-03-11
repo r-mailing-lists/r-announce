@@ -8,7 +8,7 @@
       "message_id": "<47A05A94.8010406@R-Project.org>",
       "from_name": "Uwe Ligges",
       "from_email_hash": "c17cae670f8f8c752d6cde87e94fcb58a5bfee16d5d4c88c9cb2b95d2275685b",
-      "date": "2008-01-30T12:08:04+01:00",
+      "date": "2008-01-30T11:08:04Z",
       "subject": "useR! 2008: submission & registration started!",
       "subject_clean": "useR! 2008: submission & registration started!",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Uwe Ligges"
       ],
-      "started": "2008-01-30T12:08:04+01:00",
-      "last_reply": "2008-01-30T12:08:04+01:00",
+      "started": "2008-01-30T11:08:04Z",
+      "last_reply": "2008-01-30T11:08:04Z",
       "root_message_id": "msg-1acca470f94b"
     }
   ]

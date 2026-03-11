@@ -8,7 +8,7 @@
       "message_id": "<C893C950-C99E-4931-9481-095FB0115737@gmail.com>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2021-11-01T09:35:49+01:00",
+      "date": "2021-11-01T08:35:49Z",
       "subject": "[Rd] R 4.1.2 is released",
       "subject_clean": "R 4.1.2 is released",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2021-11-01T09:35:49+01:00",
-      "last_reply": "2021-11-01T09:35:49+01:00",
+      "started": "2021-11-01T08:35:49Z",
+      "last_reply": "2021-11-01T08:35:49Z",
       "root_message_id": "msg-f41eb5234915"
     }
   ]

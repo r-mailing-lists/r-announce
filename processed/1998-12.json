@@ -8,7 +8,7 @@
       "message_id": "<x21zmgoulc.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-12-04T15:22:23+01:00",
+      "date": "1998-12-04T14:22:23Z",
       "subject": "R-0.63.1 is released",
       "subject_clean": "R-0.63.1 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<19981221131443.A8032@sirio.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
-      "date": "1998-12-21T13:14:43+01:00",
+      "date": "1998-12-21T12:14:43Z",
       "subject": "R 0.63.1 for Windows",
       "subject_clean": "R 0.63.1 for Windows",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1998-12-04T15:22:23+01:00",
-      "last_reply": "1998-12-04T15:22:23+01:00",
+      "started": "1998-12-04T14:22:23Z",
+      "last_reply": "1998-12-04T14:22:23Z",
       "root_message_id": "msg-f8cfd240e2ba"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "1998-12-21T13:14:43+01:00",
-      "last_reply": "1998-12-21T13:14:43+01:00",
+      "started": "1998-12-21T12:14:43Z",
+      "last_reply": "1998-12-21T12:14:43Z",
       "root_message_id": "msg-7ebe6ce9a64e"
     }
   ]

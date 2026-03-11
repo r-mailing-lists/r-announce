@@ -8,7 +8,7 @@
       "message_id": "<x2ogn5p48b.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1999-02-08T11:41:24+01:00",
+      "date": "1999-02-08T10:41:24Z",
       "subject": "R-bugs interfacing to R-devel mailing list",
       "subject_clean": "R-bugs interfacing to R-devel mailing list",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1999-02-08T11:41:24+01:00",
-      "last_reply": "1999-02-08T11:41:24+01:00",
+      "started": "1999-02-08T10:41:24Z",
+      "last_reply": "1999-02-08T10:41:24Z",
       "root_message_id": "msg-55a5a2c02937"
     }
   ]

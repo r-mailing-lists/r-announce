@@ -8,7 +8,7 @@
       "message_id": "<38972CE1.D433532A@nceas.ucsb.edu>",
       "from_name": "Timothy H. Keitt",
       "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
-      "date": "2000-02-01T10:58:41-08:00",
+      "date": "2000-02-01T18:58:41Z",
       "subject": "Install problems with RPgSQL",
       "subject_clean": "Install problems with RPgSQL",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2n1pdb287.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2000-02-07T13:56:24+01:00",
+      "date": "2000-02-07T12:56:24Z",
       "subject": "R-0.99.0 is released",
       "subject_clean": "R-0.99.0 is released",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<6rhfflar8k.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2000-02-07T10:53:47-06:00",
+      "date": "2000-02-07T16:53:47Z",
       "subject": "R-0.99.0 available from rsync.r-project.org",
       "subject_clean": "R-0.99.0 available from rsync.r-project.org",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<qxpya8vljlo.fsf@ludwig.stat.wisc.edu>",
       "from_name": "Saikat DebRoy",
       "from_email_hash": "42b40a35fb367e85a5d9260ff175d6e36b489ee9da97eb36711bc6f5ed9eee2b",
-      "date": "2000-02-08T10:55:31-06:00",
+      "date": "2000-02-08T16:55:31Z",
       "subject": "RMySQL-0.2 available for R-0.99.0",
       "subject_clean": "RMySQL-0.2 available for R-0.99.0",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<x2bt5qo8lz.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2000-02-09T13:36:56+01:00",
+      "date": "2000-02-09T12:36:56Z",
       "subject": "R-0.99.0 bugfixes available",
       "subject_clean": "R-0.99.0 bugfixes available",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<38A1BA1A.F75FAAAF@nceas.ucsb.edu>",
       "from_name": "Timothy H. Keitt",
       "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
-      "date": "2000-02-09T11:03:54-08:00",
+      "date": "2000-02-09T19:03:54Z",
       "subject": "RPgSQL and RPMS for 0.99",
       "subject_clean": "RPgSQL and RPMS for 0.99",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<20000211114734.20126@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2000-02-11T11:47:34+01:00",
+      "date": "2000-02-11T10:47:34Z",
       "subject": "R 0.99.0a for Ms Windows (9X/NT)  ",
       "subject_clean": "R 0.99.0a for Ms Windows (9X/NT)",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<38B674E4.70092CEE@univie.ac.at>",
       "from_name": "Erich Neuwirth",
       "from_email_hash": "178c9665decd09e76ed713e123ba2a6b2ed2ac166995047eb6dc12c5ab93e7ac",
-      "date": "2000-02-25T13:26:12+01:00",
+      "date": "2000-02-25T12:26:12Z",
       "subject": "r-excel interface code",
       "subject_clean": "r-excel interface code",
       "in_reply_to": null,
@@ -152,7 +152,7 @@
       "message_id": "<x23dqc5obk.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2000-02-29T10:51:27+01:00",
+      "date": "2000-02-29T09:51:27Z",
       "subject": "R-1.0.0 is released",
       "subject_clean": "R-1.0.0 is released",
       "in_reply_to": null,
@@ -168,7 +168,7 @@
       "message_id": "<6rk8jogpln.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2000-02-29T06:28:20-06:00",
+      "date": "2000-02-29T12:28:20Z",
       "subject": "R-1.0 is available via rsync",
       "subject_clean": "R-1.0 is available via rsync",
       "in_reply_to": null,
@@ -188,20 +188,9 @@
       "participants": [
         "Timothy H. Keitt"
       ],
-      "started": "2000-02-01T10:58:41-08:00",
-      "last_reply": "2000-02-01T10:58:41-08:00",
+      "started": "2000-02-01T18:58:41Z",
+      "last_reply": "2000-02-01T18:58:41Z",
       "root_message_id": "msg-a811a9bc5d01"
-    },
-    {
-      "id": "thread-faabb0fc12be",
-      "subject": "R-0.99.0 available from rsync.r-project.org",
-      "message_count": 1,
-      "participants": [
-        "Douglas Bates"
-      ],
-      "started": "2000-02-07T10:53:47-06:00",
-      "last_reply": "2000-02-07T10:53:47-06:00",
-      "root_message_id": "msg-faabb0fc12be"
     },
     {
       "id": "thread-925044c5d035",
@@ -210,9 +199,20 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2000-02-07T13:56:24+01:00",
-      "last_reply": "2000-02-07T13:56:24+01:00",
+      "started": "2000-02-07T12:56:24Z",
+      "last_reply": "2000-02-07T12:56:24Z",
       "root_message_id": "msg-925044c5d035"
+    },
+    {
+      "id": "thread-faabb0fc12be",
+      "subject": "R-0.99.0 available from rsync.r-project.org",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2000-02-07T16:53:47Z",
+      "last_reply": "2000-02-07T16:53:47Z",
+      "root_message_id": "msg-faabb0fc12be"
     },
     {
       "id": "thread-56d7f5e313d7",
@@ -221,20 +221,9 @@
       "participants": [
         "Saikat DebRoy"
       ],
-      "started": "2000-02-08T10:55:31-06:00",
-      "last_reply": "2000-02-08T10:55:31-06:00",
+      "started": "2000-02-08T16:55:31Z",
+      "last_reply": "2000-02-08T16:55:31Z",
       "root_message_id": "msg-56d7f5e313d7"
-    },
-    {
-      "id": "thread-3e9389f697be",
-      "subject": "RPgSQL and RPMS for 0.99",
-      "message_count": 1,
-      "participants": [
-        "Timothy H. Keitt"
-      ],
-      "started": "2000-02-09T11:03:54-08:00",
-      "last_reply": "2000-02-09T11:03:54-08:00",
-      "root_message_id": "msg-3e9389f697be"
     },
     {
       "id": "thread-a8e38ccae79e",
@@ -243,9 +232,20 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2000-02-09T13:36:56+01:00",
-      "last_reply": "2000-02-09T13:36:56+01:00",
+      "started": "2000-02-09T12:36:56Z",
+      "last_reply": "2000-02-09T12:36:56Z",
       "root_message_id": "msg-a8e38ccae79e"
+    },
+    {
+      "id": "thread-3e9389f697be",
+      "subject": "RPgSQL and RPMS for 0.99",
+      "message_count": 1,
+      "participants": [
+        "Timothy H. Keitt"
+      ],
+      "started": "2000-02-09T19:03:54Z",
+      "last_reply": "2000-02-09T19:03:54Z",
+      "root_message_id": "msg-3e9389f697be"
     },
     {
       "id": "thread-8ad98c483f29",
@@ -254,8 +254,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "2000-02-11T11:47:34+01:00",
-      "last_reply": "2000-02-11T11:47:34+01:00",
+      "started": "2000-02-11T10:47:34Z",
+      "last_reply": "2000-02-11T10:47:34Z",
       "root_message_id": "msg-8ad98c483f29"
     },
     {
@@ -265,8 +265,8 @@
       "participants": [
         "Prof Brian D Ripley"
       ],
-      "started": "2000-02-17T18:46:02+00:00",
-      "last_reply": "2000-02-17T18:46:02+00:00",
+      "started": "2000-02-17T18:46:02Z",
+      "last_reply": "2000-02-17T18:46:02Z",
       "root_message_id": "msg-dfe36b3b9b2c"
     },
     {
@@ -276,20 +276,9 @@
       "participants": [
         "Erich Neuwirth"
       ],
-      "started": "2000-02-25T13:26:12+01:00",
-      "last_reply": "2000-02-25T13:26:12+01:00",
+      "started": "2000-02-25T12:26:12Z",
+      "last_reply": "2000-02-25T12:26:12Z",
       "root_message_id": "msg-03374fbc986d"
-    },
-    {
-      "id": "thread-3aedab20fdde",
-      "subject": "R-1.0 is available via rsync",
-      "message_count": 1,
-      "participants": [
-        "Douglas Bates"
-      ],
-      "started": "2000-02-29T06:28:20-06:00",
-      "last_reply": "2000-02-29T06:28:20-06:00",
-      "root_message_id": "msg-3aedab20fdde"
     },
     {
       "id": "thread-fc76b5f5bf3e",
@@ -298,9 +287,20 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2000-02-29T10:51:27+01:00",
-      "last_reply": "2000-02-29T10:51:27+01:00",
+      "started": "2000-02-29T09:51:27Z",
+      "last_reply": "2000-02-29T09:51:27Z",
       "root_message_id": "msg-fc76b5f5bf3e"
+    },
+    {
+      "id": "thread-3aedab20fdde",
+      "subject": "R-1.0 is available via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2000-02-29T12:28:20Z",
+      "last_reply": "2000-02-29T12:28:20Z",
+      "root_message_id": "msg-3aedab20fdde"
     }
   ]
 }

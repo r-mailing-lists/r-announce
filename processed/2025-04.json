@@ -8,7 +8,7 @@
       "message_id": "<9C2862CE-A27F-48F6-99E1-3A226DCF9AA2@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2025-04-11T11:36:22+02:00",
+      "date": "2025-04-11T09:36:22Z",
       "subject": "[Rd] R 4.5.0 is released",
       "subject_clean": "R 4.5.0 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<eafa4fc9-1e03-47d5-92a3-0cbd84647f12@app.fastmail.com>",
       "from_name": "Heather Turner",
       "from_email_hash": "919acb51be6b80981b595f986a0eb9df93f4924930aadc802bf342e675876550",
-      "date": "2025-04-23T16:00:08+01:00",
+      "date": "2025-04-23T15:00:08Z",
       "subject": "useR! 2025, 8-10 Aug, Duke University - registration open (+ free virtual event 1 Aug)",
       "subject_clean": "useR! 2025, 8-10 Aug, Duke University - registration open (+ free virtual event 1 Aug)",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2025-04-11T11:36:22+02:00",
-      "last_reply": "2025-04-11T11:36:22+02:00",
+      "started": "2025-04-11T09:36:22Z",
+      "last_reply": "2025-04-11T09:36:22Z",
       "root_message_id": "msg-316b0780b8a7"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Heather Turner"
       ],
-      "started": "2025-04-23T16:00:08+01:00",
-      "last_reply": "2025-04-23T16:00:08+01:00",
+      "started": "2025-04-23T15:00:08Z",
+      "last_reply": "2025-04-23T15:00:08Z",
       "root_message_id": "msg-62c160db5719"
     }
   ]

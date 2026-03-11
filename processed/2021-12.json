@@ -8,7 +8,7 @@
       "message_id": "<25024.36491.616298.152473@stat.math.ethz.ch>",
       "from_name": "Martin Maechler",
       "from_email_hash": "a92f4a07d4e3cad5fba985e30db2b0fff598d5ddfbadbb2e91ffe91636400c62",
-      "date": "2021-12-20T15:09:15+01:00",
+      "date": "2021-12-20T14:09:15Z",
       "subject": "Call for proposals to organize useR! 2023 as a hybrid conference",
       "subject_clean": "Call for proposals to organize useR! 2023 as a hybrid conference",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "2021-12-20T15:09:15+01:00",
-      "last_reply": "2021-12-20T15:09:15+01:00",
+      "started": "2021-12-20T14:09:15Z",
+      "last_reply": "2021-12-20T14:09:15Z",
       "root_message_id": "msg-93fcaefb5558"
     }
   ]

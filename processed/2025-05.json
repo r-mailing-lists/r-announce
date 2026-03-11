@@ -8,7 +8,7 @@
       "message_id": "<75ADBEEB-31A3-4C6D-BD54-CC614E9C7078@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2025-05-28T15:17:04+02:00",
+      "date": "2025-05-28T13:17:04Z",
       "subject": "[Rd] R 4.5.1 scheduled for June 13",
       "subject_clean": "R 4.5.1 scheduled for June 13",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2025-05-28T15:17:04+02:00",
-      "last_reply": "2025-05-28T15:17:04+02:00",
+      "started": "2025-05-28T13:17:04Z",
+      "last_reply": "2025-05-28T13:17:04Z",
       "root_message_id": "msg-f8680d917384"
     }
   ]

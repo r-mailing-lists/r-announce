@@ -8,7 +8,7 @@
       "message_id": "<4FA132BF.5060604@vanderbilt.edu>",
       "from_name": "Frank Harrell",
       "from_email_hash": "416ca93053912cfc2e0362d90740df9d9f64f8e27fd2a2c6da59687e4401fc59",
-      "date": "2012-05-02T08:12:31-05:00",
+      "date": "2012-05-02T13:12:31Z",
       "subject": "DEADLINE FAST APPROACHING for useR! 2012",
       "subject_clean": "DEADLINE FAST APPROACHING for useR! 2012",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<D82E8B29-990A-4CA8-B50A-B2DE17938337@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2012-05-29T13:40:44+02:00",
+      "date": "2012-05-29T11:40:44Z",
       "subject": "Release plans: R-2.15.1 on June 22",
       "subject_clean": "Release plans: R-2.15.1 on June 22",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Frank Harrell"
       ],
-      "started": "2012-05-02T08:12:31-05:00",
-      "last_reply": "2012-05-02T08:12:31-05:00",
+      "started": "2012-05-02T13:12:31Z",
+      "last_reply": "2012-05-02T13:12:31Z",
       "root_message_id": "msg-15198b217a6a"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2012-05-29T13:40:44+02:00",
-      "last_reply": "2012-05-29T13:40:44+02:00",
+      "started": "2012-05-29T11:40:44Z",
+      "last_reply": "2012-05-29T11:40:44Z",
       "root_message_id": "msg-efeaed34d9b2"
     }
   ]

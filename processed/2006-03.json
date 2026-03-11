@@ -8,7 +8,7 @@
       "message_id": "<Pine.LNX.4.58.0603271616330.28062@thorin.ci.tuwien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2006-03-27T16:16:51+02:00",
+      "date": "2006-03-27T14:16:51Z",
       "subject": "useR! 2006 program online",
       "subject_clean": "useR! 2006 program online",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<44283F6E.2010607@stat.auckland.ac.nz>",
       "from_name": "Paul Murrell",
       "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
-      "date": "2006-03-28T07:39:26+12:00",
+      "date": "2006-03-27T19:39:26Z",
       "subject": "DSC 2007",
       "subject_clean": "DSC 2007",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2006-03-27T16:16:51+02:00",
-      "last_reply": "2006-03-27T16:16:51+02:00",
+      "started": "2006-03-27T14:16:51Z",
+      "last_reply": "2006-03-27T14:16:51Z",
       "root_message_id": "msg-51ae966d912d"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Paul Murrell"
       ],
-      "started": "2006-03-28T07:39:26+12:00",
-      "last_reply": "2006-03-28T07:39:26+12:00",
+      "started": "2006-03-27T19:39:26Z",
+      "last_reply": "2006-03-27T19:39:26Z",
       "root_message_id": "msg-1c0c73e64c26"
     }
   ]

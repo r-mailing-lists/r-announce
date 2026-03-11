@@ -8,7 +8,7 @@
       "message_id": "<Pine.LNX.4.21.0105031952520.7775-100000@matheron.estadi.uv.es>",
       "from_name": "Virgilio.Gomez at uv.es",
       "from_email_hash": "3b4123f5c3ff01b6d34830be0726ae099a8f42790bf2cac840611dbd735d6dd0",
-      "date": "2001-05-03T20:00:24+02:00",
+      "date": "2001-05-03T18:00:24Z",
       "subject": "New Package Released: RArcInfo 0.02",
       "subject_clean": "New Package Released: RArcInfo 0.02",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<007601c0e23a$9db66210$175dd882@stat.auckland.ac.nz>",
       "from_name": "Paul Murrell",
       "from_email_hash": "2cdf86d078d3a3beecbe66012bfab9ee2f91d8b693c4d9a6e58b5e7d2a07be1b",
-      "date": "2001-05-22T09:11:34+12:00",
+      "date": "2001-05-21T21:11:34Z",
       "subject": "new packages:  grid and lattice",
       "subject_clean": "new packages:  grid and lattice",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Virgilio.Gomez at uv.es"
       ],
-      "started": "2001-05-03T20:00:24+02:00",
-      "last_reply": "2001-05-03T20:00:24+02:00",
+      "started": "2001-05-03T18:00:24Z",
+      "last_reply": "2001-05-03T18:00:24Z",
       "root_message_id": "msg-1ba077a35efe"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Paul Murrell"
       ],
-      "started": "2001-05-22T09:11:34+12:00",
-      "last_reply": "2001-05-22T09:11:34+12:00",
+      "started": "2001-05-21T21:11:34Z",
+      "last_reply": "2001-05-21T21:11:34Z",
       "root_message_id": "msg-d5a1568f8f7a"
     }
   ]

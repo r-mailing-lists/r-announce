@@ -8,7 +8,7 @@
       "message_id": "<Pine.LNX.4.33L2.0107031252470.2993-100000@localhost.localdomain>",
       "from_name": "mikalzet at libero.it",
       "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
-      "date": "2001-07-03T12:54:45+02:00",
+      "date": "2001-07-03T10:54:45Z",
       "subject": "R-1.3.0 RPM for Mandrake 8.0 (correct version) ",
       "subject_clean": "R-1.3.0 RPM for Mandrake 8.0 (correct version)",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.LNX.4.33L2.0107032342210.2020-100000@localhost.localdomain>",
       "from_name": "mikalzet at libero.it",
       "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
-      "date": "2001-07-04T00:36:23+02:00",
+      "date": "2001-07-03T22:36:23Z",
       "subject": "R-recommended RPM for Mandrake 8.0",
       "subject_clean": "R-recommended RPM for Mandrake 8.0",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<200107061455.JAA86812@odds.stat.purdue.edu>",
       "from_name": "Chong Gu",
       "from_email_hash": "d33adf3cbf719825a60530324abb0b76a44f89d6dbd571cefcdb32ea7c686d6a",
-      "date": "2001-07-06T09:55:52-05:00",
+      "date": "2001-07-06T14:55:52Z",
       "subject": "gss 0.6-2",
       "subject_clean": "gss 0.6-2",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<6rith5pjio.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2001-07-06T21:20:31-05:00",
+      "date": "2001-07-07T02:20:31Z",
       "subject": "New Debian packages for R-1.3.0 available",
       "subject_clean": "New Debian packages for R-1.3.0 available",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<15177.32986.93029.526128@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-07-09T12:00:58+02:00",
+      "date": "2001-07-09T10:00:58Z",
       "subject": "R News Volume 1/2 published",
       "subject_clean": "R News Volume 1/2 published",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<01071114144200.01550@linux>",
       "from_name": "Maximino Ameneiro Gomez",
       "from_email_hash": "bb2ee3ff542e23d0e4ff68e642e733b7271756c6ce2eca3864236cfbce72ce98",
-      "date": "2001-07-11T14:14:42+02:00",
+      "date": "2001-07-11T12:14:42Z",
       "subject": "R-1.3.0 RPM for Mandrake 7.2",
       "subject_clean": "R-1.3.0 RPM for Mandrake 7.2",
       "in_reply_to": null,
@@ -108,8 +108,8 @@
       "participants": [
         "mikalzet at libero.it"
       ],
-      "started": "2001-07-03T12:54:45+02:00",
-      "last_reply": "2001-07-03T12:54:45+02:00",
+      "started": "2001-07-03T10:54:45Z",
+      "last_reply": "2001-07-03T10:54:45Z",
       "root_message_id": "msg-e97d44e1d368"
     },
     {
@@ -119,8 +119,8 @@
       "participants": [
         "mikalzet at libero.it"
       ],
-      "started": "2001-07-04T00:36:23+02:00",
-      "last_reply": "2001-07-04T00:36:23+02:00",
+      "started": "2001-07-03T22:36:23Z",
+      "last_reply": "2001-07-03T22:36:23Z",
       "root_message_id": "msg-1c27e8c3fb55"
     },
     {
@@ -130,8 +130,8 @@
       "participants": [
         "Chong Gu"
       ],
-      "started": "2001-07-06T09:55:52-05:00",
-      "last_reply": "2001-07-06T09:55:52-05:00",
+      "started": "2001-07-06T14:55:52Z",
+      "last_reply": "2001-07-06T14:55:52Z",
       "root_message_id": "msg-e1adb8459acf"
     },
     {
@@ -141,8 +141,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2001-07-06T21:20:31-05:00",
-      "last_reply": "2001-07-06T21:20:31-05:00",
+      "started": "2001-07-07T02:20:31Z",
+      "last_reply": "2001-07-07T02:20:31Z",
       "root_message_id": "msg-3136194e9bf5"
     },
     {
@@ -152,8 +152,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "2001-07-09T12:00:58+02:00",
-      "last_reply": "2001-07-09T12:00:58+02:00",
+      "started": "2001-07-09T10:00:58Z",
+      "last_reply": "2001-07-09T10:00:58Z",
       "root_message_id": "msg-be6f0c7d507f"
     },
     {
@@ -163,8 +163,8 @@
       "participants": [
         "Maximino Ameneiro Gomez"
       ],
-      "started": "2001-07-11T14:14:42+02:00",
-      "last_reply": "2001-07-11T14:14:42+02:00",
+      "started": "2001-07-11T12:14:42Z",
+      "last_reply": "2001-07-11T12:14:42Z",
       "root_message_id": "msg-a8e83b8323a4"
     }
   ]

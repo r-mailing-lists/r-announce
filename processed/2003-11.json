@@ -8,7 +8,7 @@
       "message_id": "<Pine.LNX.4.51.0311110847230.2239@artemis.imbe.med.uni-erlangen.de>",
       "from_name": "Torsten Hothorn",
       "from_email_hash": "41e657384fb07a3764a554d5304d033ebaccbd11a54485f1b6386a932843f125",
-      "date": "2003-11-11T08:49:05+01:00",
+      "date": "2003-11-11T07:49:05Z",
       "subject": "useR! 2004",
       "subject_clean": "useR! 2004",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2oev5x532.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2003-11-21T13:45:53+01:00",
+      "date": "2003-11-21T12:45:53Z",
       "subject": "R-1.8.1 is released ",
       "subject_clean": "R-1.8.1 is released",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<84rurv0ltq4kcl6hse170od1sgkhn7fpr6@4ax.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "0b169dc9578e443c97ef875feba9794619f6e667997aabcb13de6d581cba9312",
-      "date": "2003-11-22T09:07:12-05:00",
+      "date": "2003-11-22T14:07:12Z",
       "subject": "[R] R-1.8.1 is released ",
       "subject_clean": "R-1.8.1 is released",
       "in_reply_to": "<x2oev5x532.fsf@biostat.ku.dk>",
@@ -62,8 +62,8 @@
       "participants": [
         "Torsten Hothorn"
       ],
-      "started": "2003-11-11T08:49:05+01:00",
-      "last_reply": "2003-11-11T08:49:05+01:00",
+      "started": "2003-11-11T07:49:05Z",
+      "last_reply": "2003-11-11T07:49:05Z",
       "root_message_id": "msg-a0c7dec49024"
     },
     {
@@ -74,8 +74,8 @@
         "Duncan Murdoch",
         "Peter Dalgaard"
       ],
-      "started": "2003-11-21T13:45:53+01:00",
-      "last_reply": "2003-11-22T09:07:12-05:00",
+      "started": "2003-11-21T12:45:53Z",
+      "last_reply": "2003-11-22T14:07:12Z",
       "root_message_id": "msg-0fd652984e87"
     }
   ]

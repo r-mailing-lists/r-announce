@@ -8,7 +8,7 @@
       "message_id": "<x2n0pygygv.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2002-10-01T14:01:04+02:00",
+      "date": "2002-10-01T12:01:04Z",
       "subject": "R-1.6.0 is released",
       "subject_clean": "R-1.6.0 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<XFMail.20021002093728.steuer@unibw-hamburg.de>",
       "from_name": "Detlef Steuer",
       "from_email_hash": "42e2ced0cb8946767b5dd5289e390e9730773aa3c75c5ae563ce2815875a2401",
-      "date": "2002-10-02T09:37:28+02:00",
+      "date": "2002-10-02T07:37:28Z",
       "subject": "SuSE rpms for R-1.6.0  available",
       "subject_clean": "SuSE rpms for R-1.6.0  available",
       "in_reply_to": "<x2n0pygygv.fsf@biostat.ku.dk>",
@@ -40,7 +40,7 @@
       "message_id": "<15770.63670.972703.294768@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2002-10-02T15:46:30+02:00",
+      "date": "2002-10-02T13:46:30Z",
       "subject": "Workshop: DSC 2003",
       "subject_clean": "Workshop: DSC 2003",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<hqmppu02c9mc3bt7ekjjjvshv2iad7jjns@4ax.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "f10e1920504dfef879061667fbcfa0823bbc832410cad04707fb294db3bd8d83",
-      "date": "2002-10-03T20:14:12-04:00",
+      "date": "2002-10-04T00:14:12Z",
       "subject": "Windows binary for R 1.6.0 on CRAN",
       "subject_clean": "Windows binary for R 1.6.0 on CRAN",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<3.0.32.20021004135200.00909410@162.38.183.200>",
       "from_name": "Emmanuel Paradis",
       "from_email_hash": "279a25fc4a41e9310e9fb424624945d36d0266c02d86a58d5e8e9c1d7d268282",
-      "date": "2002-10-04T13:52:00+02:00",
+      "date": "2002-10-04T11:52:00Z",
       "subject": "ape 0.2 is on CRAN",
       "subject_clean": "ape 0.2 is on CRAN",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<Pine.LNX.4.44.0210050022440.2748-100000@localhost.localdomain>",
       "from_name": "mikalzet at libero.it",
       "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
-      "date": "2002-10-05T00:35:51+02:00",
+      "date": "2002-10-04T22:35:51Z",
       "subject": "R 1.6.0 rpms for Mandrake",
       "subject_clean": "R 1.6.0 rpms for Mandrake",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<Pine.LNX.4.21.0210062233250.6544-100000@istat01.stat.wisc.edu>",
       "from_name": "Jun Yan",
       "from_email_hash": "92751c93fa47838231fd90d0cc19f042be3c1d3c8199c5c195556c43f6438847",
-      "date": "2002-10-06T22:58:39-05:00",
+      "date": "2002-10-07T03:58:39Z",
       "subject": "new packages: geepack and KMsurv",
       "subject_clean": "new packages: geepack and KMsurv",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<5.1.1.5.2.20021015180429.00b9a4d0@stat4ux.stat.ucl.ac.be>",
       "from_name": "Eric Lecoutre",
       "from_email_hash": "8fa2348fb1c15ba0453cc647aa6644879770c76ceeb98d5db135f1b4dd3c7cf3",
-      "date": "2002-10-15T18:25:07+02:00",
+      "date": "2002-10-15T16:25:07Z",
       "subject": "R2HTML package for R 1.6",
       "subject_clean": "R2HTML package for R 1.6",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<15795.43938.659209.296000@musil.localdomain>",
       "from_name": "Jasjeet Singh Sekhon",
       "from_email_hash": "fb8bc0cb16830f8ea34021b5d9997f1823661f62edbc610e2d4de765bec91e4c",
-      "date": "2002-10-21T03:24:18-04:00",
+      "date": "2002-10-21T07:24:18Z",
       "subject": "New package: rgenoud",
       "subject_clean": "New package: rgenoud",
       "in_reply_to": null,
@@ -152,7 +152,7 @@
       "message_id": "<7847983431virgil@uv.es>",
       "from_name": "Virgilio.Gomez at uv.es",
       "from_email_hash": "3b4123f5c3ff01b6d34830be0726ae099a8f42790bf2cac840611dbd735d6dd0",
-      "date": "2002-10-24T18:29:56+02:00",
+      "date": "2002-10-24T16:29:56Z",
       "subject": "RArcInfo 0.4 released",
       "subject_clean": "RArcInfo 0.4 released",
       "in_reply_to": null,
@@ -168,7 +168,7 @@
       "message_id": "<1035805364.993.100.camel@xena>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "2002-10-28T12:41:28+01:00",
+      "date": "2002-10-28T11:41:28Z",
       "subject": "RPMS of R for Red Hat 8.0",
       "subject_clean": "RPMS of R for Red Hat 8.0",
       "in_reply_to": null,
@@ -184,7 +184,7 @@
       "message_id": "<3DBE5C32.A191C0AA@ci.tuwien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
-      "date": "2002-10-29T11:00:18+01:00",
+      "date": "2002-10-29T10:00:18Z",
       "subject": "updated package \"lmtest\" 0.9-2",
       "subject_clean": "updated package \"lmtest\" 0.9-2",
       "in_reply_to": null,
@@ -200,7 +200,7 @@
       "message_id": "<3DBE5CA2.B83B9FF5@ci.tuwien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
-      "date": "2002-10-29T11:02:10+01:00",
+      "date": "2002-10-29T10:02:10Z",
       "subject": "updated package \"strucchange\" 1.0-0",
       "subject_clean": "updated package \"strucchange\" 1.0-0",
       "in_reply_to": null,
@@ -248,7 +248,7 @@
       "message_id": "<D7A3CFD7825BD6119B880002A58F06C20149D161@groexmb02.pfizer.com>",
       "from_name": "Warnes, Gregory R",
       "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
-      "date": "2002-10-30T14:16:33-05:00",
+      "date": "2002-10-30T19:16:33Z",
       "subject": "gregmisc version 0.7.3 now available",
       "subject_clean": "gregmisc version 0.7.3 now available",
       "in_reply_to": null,
@@ -264,7 +264,7 @@
       "message_id": "<3DC1854C.9010601@univie.ac.at>",
       "from_name": "Erich Neuwirth",
       "from_email_hash": "178c9665decd09e76ed713e123ba2a6b2ed2ac166995047eb6dc12c5ab93e7ac",
-      "date": "2002-10-31T20:32:28+01:00",
+      "date": "2002-10-31T19:32:28Z",
       "subject": "new package RColorBrewer available",
       "subject_clean": "new package RColorBrewer available",
       "in_reply_to": null,
@@ -285,8 +285,8 @@
         "Detlef Steuer",
         "Peter Dalgaard BSA"
       ],
-      "started": "2002-10-01T14:01:04+02:00",
-      "last_reply": "2002-10-02T09:37:28+02:00",
+      "started": "2002-10-01T12:01:04Z",
+      "last_reply": "2002-10-02T07:37:28Z",
       "root_message_id": "msg-4f11a3275ea5"
     },
     {
@@ -296,8 +296,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2002-10-02T15:46:30+02:00",
-      "last_reply": "2002-10-02T15:46:30+02:00",
+      "started": "2002-10-02T13:46:30Z",
+      "last_reply": "2002-10-02T13:46:30Z",
       "root_message_id": "msg-8fe8b877810e"
     },
     {
@@ -307,8 +307,8 @@
       "participants": [
         "Duncan Murdoch"
       ],
-      "started": "2002-10-03T20:14:12-04:00",
-      "last_reply": "2002-10-03T20:14:12-04:00",
+      "started": "2002-10-04T00:14:12Z",
+      "last_reply": "2002-10-04T00:14:12Z",
       "root_message_id": "msg-a41a30f26f92"
     },
     {
@@ -318,8 +318,8 @@
       "participants": [
         "Emmanuel Paradis"
       ],
-      "started": "2002-10-04T13:52:00+02:00",
-      "last_reply": "2002-10-04T13:52:00+02:00",
+      "started": "2002-10-04T11:52:00Z",
+      "last_reply": "2002-10-04T11:52:00Z",
       "root_message_id": "msg-3af3ef85afdd"
     },
     {
@@ -329,8 +329,8 @@
       "participants": [
         "mikalzet at libero.it"
       ],
-      "started": "2002-10-05T00:35:51+02:00",
-      "last_reply": "2002-10-05T00:35:51+02:00",
+      "started": "2002-10-04T22:35:51Z",
+      "last_reply": "2002-10-04T22:35:51Z",
       "root_message_id": "msg-57e80a02aee6"
     },
     {
@@ -340,8 +340,8 @@
       "participants": [
         "Jun Yan"
       ],
-      "started": "2002-10-06T22:58:39-05:00",
-      "last_reply": "2002-10-06T22:58:39-05:00",
+      "started": "2002-10-07T03:58:39Z",
+      "last_reply": "2002-10-07T03:58:39Z",
       "root_message_id": "msg-71599854d194"
     },
     {
@@ -351,8 +351,8 @@
       "participants": [
         "Eric Lecoutre"
       ],
-      "started": "2002-10-15T18:25:07+02:00",
-      "last_reply": "2002-10-15T18:25:07+02:00",
+      "started": "2002-10-15T16:25:07Z",
+      "last_reply": "2002-10-15T16:25:07Z",
       "root_message_id": "msg-e438bd7af131"
     },
     {
@@ -362,8 +362,8 @@
       "participants": [
         "Jasjeet Singh Sekhon"
       ],
-      "started": "2002-10-21T03:24:18-04:00",
-      "last_reply": "2002-10-21T03:24:18-04:00",
+      "started": "2002-10-21T07:24:18Z",
+      "last_reply": "2002-10-21T07:24:18Z",
       "root_message_id": "msg-202f7cd8df58"
     },
     {
@@ -373,8 +373,8 @@
       "participants": [
         "Virgilio.Gomez at uv.es"
       ],
-      "started": "2002-10-24T18:29:56+02:00",
-      "last_reply": "2002-10-24T18:29:56+02:00",
+      "started": "2002-10-24T16:29:56Z",
+      "last_reply": "2002-10-24T16:29:56Z",
       "root_message_id": "msg-b5d3c9f6aa18"
     },
     {
@@ -384,8 +384,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2002-10-28T12:41:28+01:00",
-      "last_reply": "2002-10-28T12:41:28+01:00",
+      "started": "2002-10-28T11:41:28Z",
+      "last_reply": "2002-10-28T11:41:28Z",
       "root_message_id": "msg-99fbc42bfdc2"
     },
     {
@@ -395,8 +395,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2002-10-29T11:00:18+01:00",
-      "last_reply": "2002-10-29T11:00:18+01:00",
+      "started": "2002-10-29T10:00:18Z",
+      "last_reply": "2002-10-29T10:00:18Z",
       "root_message_id": "msg-cd5e1be8d9e8"
     },
     {
@@ -406,8 +406,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2002-10-29T11:02:10+01:00",
-      "last_reply": "2002-10-29T11:02:10+01:00",
+      "started": "2002-10-29T10:02:10Z",
+      "last_reply": "2002-10-29T10:02:10Z",
       "root_message_id": "msg-bde4a64da7a0"
     },
     {
@@ -417,20 +417,9 @@
       "participants": [
         "David Firth"
       ],
-      "started": "2002-10-29T11:19:48+00:00",
-      "last_reply": "2002-10-29T11:19:48+00:00",
+      "started": "2002-10-29T11:19:48Z",
+      "last_reply": "2002-10-29T11:19:48Z",
       "root_message_id": "msg-d41aece38373"
-    },
-    {
-      "id": "thread-d21c021a455f",
-      "subject": "gregmisc version 0.7.3 now available",
-      "message_count": 1,
-      "participants": [
-        "Warnes, Gregory R"
-      ],
-      "started": "2002-10-30T14:16:33-05:00",
-      "last_reply": "2002-10-30T14:16:33-05:00",
-      "root_message_id": "msg-d21c021a455f"
     },
     {
       "id": "thread-7e8a59beebc1",
@@ -439,9 +428,20 @@
       "participants": [
         "ripley at stats.ox.ac.uk"
       ],
-      "started": "2002-10-30T14:21:12+00:00",
-      "last_reply": "2002-10-30T14:21:12+00:00",
+      "started": "2002-10-30T14:21:12Z",
+      "last_reply": "2002-10-30T14:21:12Z",
       "root_message_id": "msg-7e8a59beebc1"
+    },
+    {
+      "id": "thread-d21c021a455f",
+      "subject": "gregmisc version 0.7.3 now available",
+      "message_count": 1,
+      "participants": [
+        "Warnes, Gregory R"
+      ],
+      "started": "2002-10-30T19:16:33Z",
+      "last_reply": "2002-10-30T19:16:33Z",
+      "root_message_id": "msg-d21c021a455f"
     },
     {
       "id": "thread-715d8c590dbf",
@@ -450,8 +450,8 @@
       "participants": [
         "Erich Neuwirth"
       ],
-      "started": "2002-10-31T20:32:28+01:00",
-      "last_reply": "2002-10-31T20:32:28+01:00",
+      "started": "2002-10-31T19:32:28Z",
+      "last_reply": "2002-10-31T19:32:28Z",
       "root_message_id": "msg-715d8c590dbf"
     }
   ]

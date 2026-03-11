@@ -8,7 +8,7 @@
       "message_id": "<20040322204942.14bdae25.Achim.Zeileis@wu-wien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "d766623ae20ff5eea9df5809187df08da7b9ac247d6072a1908ecce0219ab3e0",
-      "date": "2004-03-22T20:49:42+01:00",
+      "date": "2004-03-22T19:49:42Z",
       "subject": "useR! 2004 program online",
       "subject_clean": "useR! 2004 program online",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2004-03-22T20:49:42+01:00",
-      "last_reply": "2004-03-22T20:49:42+01:00",
+      "started": "2004-03-22T19:49:42Z",
+      "last_reply": "2004-03-22T19:49:42Z",
       "root_message_id": "msg-00fe0c5154b2"
     }
   ]

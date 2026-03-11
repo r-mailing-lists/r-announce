@@ -8,7 +8,7 @@
       "message_id": "<MPEHJEGLNPNFGJFOJMKNAECNCAAA.Don.Wingate@IntelliChem.com>",
       "from_name": "Don Wingate",
       "from_email_hash": "83d6af0527d4ddc78b39598026fe414a5265cf916714d82a128a0e2840365a6a",
-      "date": "2000-10-03T09:34:56-07:00",
+      "date": "2000-10-03T16:34:56Z",
       "subject": "Parse Errors",
       "subject_clean": "Parse Errors",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.LNX.4.21.0010052218400.814-100000@localhost.localdomain>",
       "from_name": "mikalzet at libero.it",
       "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
-      "date": "2000-10-05T22:20:32+02:00",
+      "date": "2000-10-05T20:20:32Z",
       "subject": "installing R-1.1.1 on Mandrake 7.1 ",
       "subject_clean": "installing R-1.1.1 on Mandrake 7.1",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<3.0.32.20001024143447.009152a0@162.38.183.200>",
       "from_name": "Emmanuel Paradis",
       "from_email_hash": "279a25fc4a41e9310e9fb424624945d36d0266c02d86a58d5e8e9c1d7d268282",
-      "date": "2000-10-24T14:34:48+02:00",
+      "date": "2000-10-24T12:34:48Z",
       "subject": "\"R pour les débutants\"  is available in French and in English",
       "subject_clean": "\"R pour les débutants\"  is available in French and in English",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Don Wingate"
       ],
-      "started": "2000-10-03T09:34:56-07:00",
-      "last_reply": "2000-10-03T09:34:56-07:00",
+      "started": "2000-10-03T16:34:56Z",
+      "last_reply": "2000-10-03T16:34:56Z",
       "root_message_id": "msg-6591da097d71"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "mikalzet at libero.it"
       ],
-      "started": "2000-10-05T22:20:32+02:00",
-      "last_reply": "2000-10-05T22:20:32+02:00",
+      "started": "2000-10-05T20:20:32Z",
+      "last_reply": "2000-10-05T20:20:32Z",
       "root_message_id": "msg-b8cfea14be0b"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Emmanuel Paradis"
       ],
-      "started": "2000-10-24T14:34:48+02:00",
-      "last_reply": "2000-10-24T14:34:48+02:00",
+      "started": "2000-10-24T12:34:48Z",
+      "last_reply": "2000-10-24T12:34:48Z",
       "root_message_id": "msg-15718c3ae304"
     }
   ]

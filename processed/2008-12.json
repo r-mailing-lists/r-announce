@@ -24,7 +24,7 @@
       "message_id": "<493D59D6.10203@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2008-12-08T18:31:02+01:00",
+      "date": "2008-12-08T17:31:02Z",
       "subject": "[R] R 2.8.1 is scheduled for December 22",
       "subject_clean": "R 2.8.1 is scheduled for December 22",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<49427E18.8030003@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2008-12-12T16:07:04+01:00",
+      "date": "2008-12-12T15:07:04Z",
       "subject": "DSC 2009: Now open for registration and abstract submission ",
       "subject_clean": "DSC 2009: Now open for registration and abstract submission",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<18763.64380.278257.890026@ron.nulle.part>",
       "from_name": "Dirk Eddelbuettel",
       "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
-      "date": "2008-12-19T13:52:28-06:00",
+      "date": "2008-12-19T19:52:28Z",
       "subject": "R/Finance 2009: Applied Finance with R -- Call for Papers",
       "subject_clean": "R/Finance 2009: Applied Finance with R -- Call for Papers",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<494F5CCB.90203@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2008-12-22T10:24:27+01:00",
+      "date": "2008-12-22T09:24:27Z",
       "subject": "R 2.8.1 is released",
       "subject_clean": "R 2.8.1 is released",
       "in_reply_to": null,
@@ -92,8 +92,8 @@
       "participants": [
         "Francois Husson"
       ],
-      "started": "2008-12-03T17:12:48+00:00",
-      "last_reply": "2008-12-03T17:12:48+00:00",
+      "started": "2008-12-03T17:12:48Z",
+      "last_reply": "2008-12-03T17:12:48Z",
       "root_message_id": "msg-477ea72d8a75"
     },
     {
@@ -103,8 +103,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2008-12-08T18:31:02+01:00",
-      "last_reply": "2008-12-08T18:31:02+01:00",
+      "started": "2008-12-08T17:31:02Z",
+      "last_reply": "2008-12-08T17:31:02Z",
       "root_message_id": "msg-9ee8bab3b5d6"
     },
     {
@@ -114,8 +114,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2008-12-12T16:07:04+01:00",
-      "last_reply": "2008-12-12T16:07:04+01:00",
+      "started": "2008-12-12T15:07:04Z",
+      "last_reply": "2008-12-12T15:07:04Z",
       "root_message_id": "msg-3b628df0b34a"
     },
     {
@@ -125,8 +125,8 @@
       "participants": [
         "Dirk Eddelbuettel"
       ],
-      "started": "2008-12-19T13:52:28-06:00",
-      "last_reply": "2008-12-19T13:52:28-06:00",
+      "started": "2008-12-19T19:52:28Z",
+      "last_reply": "2008-12-19T19:52:28Z",
       "root_message_id": "msg-ff1973caa433"
     },
     {
@@ -136,8 +136,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2008-12-22T10:24:27+01:00",
-      "last_reply": "2008-12-22T10:24:27+01:00",
+      "started": "2008-12-22T09:24:27Z",
+      "last_reply": "2008-12-22T09:24:27Z",
       "root_message_id": "msg-596ea7f10e90"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<1445519194.6634.174.camel@r-project.org>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "a172213f54d02d8c46cd36ac95c2aaea4439b79c8fce553fb5a7295ac50db5d7",
-      "date": "2015-10-22T15:06:34+02:00",
+      "date": "2015-10-22T13:06:34Z",
       "subject": "Codes of Conduct at R Conferences",
       "subject_clean": "Codes of Conduct at R Conferences",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2015-10-22T15:06:34+02:00",
-      "last_reply": "2015-10-22T15:06:34+02:00",
+      "started": "2015-10-22T13:06:34Z",
+      "last_reply": "2015-10-22T13:06:34Z",
       "root_message_id": "msg-b4e790d29f99"
     }
   ]

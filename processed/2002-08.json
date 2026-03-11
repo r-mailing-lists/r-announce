@@ -8,7 +8,7 @@
       "message_id": "<15697.33533.801840.70359@debian>",
       "from_name": "Brian Gough",
       "from_email_hash": "8ea00ce71bf2615de75d7fec7aa4e93609666093eb7cfe50bb06660f34d4fa5a",
-      "date": "2002-08-07T21:28:45+01:00",
+      "date": "2002-08-07T20:28:45Z",
       "subject": "printed copies of \"An Introduction to R\" ",
       "subject_clean": "printed copies of \"An Introduction to R\"",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<3.0.32.20020822151935.0090f210@162.38.183.200>",
       "from_name": "Emmanuel Paradis",
       "from_email_hash": "279a25fc4a41e9310e9fb424624945d36d0266c02d86a58d5e8e9c1d7d268282",
-      "date": "2002-08-22T15:19:35+02:00",
+      "date": "2002-08-22T13:19:35Z",
       "subject": "revised versions of \"R for Beginners\" on CRAN",
       "subject_clean": "revised versions of \"R for Beginners\" on CRAN",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<6rit2298w1.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2002-08-22T11:05:18-05:00",
+      "date": "2002-08-22T16:05:18Z",
       "subject": "CD's of R from CheapBytes",
       "subject_clean": "CD's of R from CheapBytes",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<51F9C42DA15CD311BD220008C707D81906FFC60A@usrymx10.merck.com>",
       "from_name": "Liaw, Andy",
       "from_email_hash": "898c214b2bc6c21da39a883e12ded19760ce149cfa1067d738a1a4f3200f2bc0",
-      "date": "2002-08-28T11:15:34-04:00",
+      "date": "2002-08-28T15:15:34Z",
       "subject": "new version of the randomForest package",
       "subject_clean": "new version of the randomForest package",
       "in_reply_to": null,
@@ -76,20 +76,9 @@
       "participants": [
         "Brian Gough"
       ],
-      "started": "2002-08-07T21:28:45+01:00",
-      "last_reply": "2002-08-07T21:28:45+01:00",
+      "started": "2002-08-07T20:28:45Z",
+      "last_reply": "2002-08-07T20:28:45Z",
       "root_message_id": "msg-b9eeb9fa0e3f"
-    },
-    {
-      "id": "thread-c955a5838e8b",
-      "subject": "CD's of R from CheapBytes",
-      "message_count": 1,
-      "participants": [
-        "Douglas Bates"
-      ],
-      "started": "2002-08-22T11:05:18-05:00",
-      "last_reply": "2002-08-22T11:05:18-05:00",
-      "root_message_id": "msg-c955a5838e8b"
     },
     {
       "id": "thread-e08d8254b837",
@@ -98,9 +87,20 @@
       "participants": [
         "Emmanuel Paradis"
       ],
-      "started": "2002-08-22T15:19:35+02:00",
-      "last_reply": "2002-08-22T15:19:35+02:00",
+      "started": "2002-08-22T13:19:35Z",
+      "last_reply": "2002-08-22T13:19:35Z",
       "root_message_id": "msg-e08d8254b837"
+    },
+    {
+      "id": "thread-c955a5838e8b",
+      "subject": "CD's of R from CheapBytes",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2002-08-22T16:05:18Z",
+      "last_reply": "2002-08-22T16:05:18Z",
+      "root_message_id": "msg-c955a5838e8b"
     },
     {
       "id": "thread-95c508ef9d1e",
@@ -109,8 +109,8 @@
       "participants": [
         "Liaw, Andy"
       ],
-      "started": "2002-08-28T11:15:34-04:00",
-      "last_reply": "2002-08-28T11:15:34-04:00",
+      "started": "2002-08-28T15:15:34Z",
+      "last_reply": "2002-08-28T15:15:34Z",
       "root_message_id": "msg-95c508ef9d1e"
     }
   ]

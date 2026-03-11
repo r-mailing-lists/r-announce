@@ -8,7 +8,7 @@
       "message_id": "<7BC92570-396C-47AD-A035-6558E1FEEAC0@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2021-10-03T18:40:48+02:00",
+      "date": "2021-10-03T16:40:48Z",
       "subject": "[Rd] R 4.1.2 scheduled for November 1",
       "subject_clean": "R 4.1.2 scheduled for November 1",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<EE1D7D21-430D-4FF8-BEF8-3B46DBD29B7A@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2021-10-03T18:58:08+02:00",
+      "date": "2021-10-03T16:58:08Z",
       "subject": "[Rd] R 4.1.2 scheduled for November 1",
       "subject_clean": "R 4.1.2 scheduled for November 1",
       "in_reply_to": "<7BC92570-396C-47AD-A035-6558E1FEEAC0@gmail.com>",
@@ -42,7 +42,7 @@
       "message_id": "<24936.25288.415151.966468@stat.math.ethz.ch>",
       "from_name": "Martin Maechler",
       "from_email_hash": "a92f4a07d4e3cad5fba985e30db2b0fff598d5ddfbadbb2e91ffe91636400c62",
-      "date": "2021-10-14T19:03:04+02:00",
+      "date": "2021-10-14T17:03:04Z",
       "subject": "Sebastian Meyer joins the R core team",
       "subject_clean": "Sebastian Meyer joins the R core team",
       "in_reply_to": null,
@@ -62,8 +62,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2021-10-03T18:40:48+02:00",
-      "last_reply": "2021-10-03T18:58:08+02:00",
+      "started": "2021-10-03T16:40:48Z",
+      "last_reply": "2021-10-03T16:58:08Z",
       "root_message_id": "msg-9e312603e1f6"
     },
     {
@@ -73,8 +73,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "2021-10-14T19:03:04+02:00",
-      "last_reply": "2021-10-14T19:03:04+02:00",
+      "started": "2021-10-14T17:03:04Z",
+      "last_reply": "2021-10-14T17:03:04Z",
       "root_message_id": "msg-3cc88c9c27fb"
     }
   ]

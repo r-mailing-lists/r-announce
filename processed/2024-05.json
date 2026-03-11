@@ -8,7 +8,7 @@
       "message_id": "<53FC7302-AB4F-4DA5-A88F-5A26061ACD33@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2024-05-31T16:31:25+02:00",
+      "date": "2024-05-31T14:31:25Z",
       "subject": "[Rd] R 4.4.1 scheduled for June 14",
       "subject_clean": "R 4.4.1 scheduled for June 14",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2024-05-31T16:31:25+02:00",
-      "last_reply": "2024-05-31T16:31:25+02:00",
+      "started": "2024-05-31T14:31:25Z",
+      "last_reply": "2024-05-31T14:31:25Z",
       "root_message_id": "msg-213c918b1526"
     }
   ]

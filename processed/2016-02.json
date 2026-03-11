@@ -8,7 +8,7 @@
       "message_id": "<1455186330.4644.99.camel@r-project.org>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "a172213f54d02d8c46cd36ac95c2aaea4439b79c8fce553fb5a7295ac50db5d7",
-      "date": "2016-02-11T11:25:30+01:00",
+      "date": "2016-02-11T10:25:30Z",
       "subject": "New R logo",
       "subject_clean": "New R logo",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2016-02-11T11:25:30+01:00",
-      "last_reply": "2016-02-11T11:25:30+01:00",
+      "started": "2016-02-11T10:25:30Z",
+      "last_reply": "2016-02-11T10:25:30Z",
       "root_message_id": "msg-a06726719cf2"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2016-02-17T14:31:23+00:00",
-      "last_reply": "2016-02-17T14:31:23+00:00",
+      "started": "2016-02-17T14:31:23Z",
+      "last_reply": "2016-02-17T14:31:23Z",
       "root_message_id": "msg-5e69099b8ce8"
     }
   ]

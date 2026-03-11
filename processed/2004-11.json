@@ -8,7 +8,7 @@
       "message_id": "<x2r7mvxiau.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2004-11-15T16:07:05+01:00",
+      "date": "2004-11-15T15:07:05Z",
       "subject": "R-2.0.1 is released",
       "subject_clean": "R-2.0.1 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2oehzxgq7.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2004-11-15T16:41:04+01:00",
+      "date": "2004-11-15T15:41:04Z",
       "subject": "R-2.0.1 is released",
       "subject_clean": "R-2.0.1 is released",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2004-11-15T16:07:05+01:00",
-      "last_reply": "2004-11-15T16:07:05+01:00",
+      "started": "2004-11-15T15:07:05Z",
+      "last_reply": "2004-11-15T15:07:05Z",
       "root_message_id": "msg-72561ce0150a"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2004-11-15T16:41:04+01:00",
-      "last_reply": "2004-11-15T16:41:04+01:00",
+      "started": "2004-11-15T15:41:04Z",
+      "last_reply": "2004-11-15T15:41:04Z",
       "root_message_id": "msg-2be59526dc5f"
     }
   ]

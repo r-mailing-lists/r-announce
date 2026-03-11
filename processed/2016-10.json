@@ -24,7 +24,7 @@
       "message_id": "<97739CEE-FC57-4B03-8DDD-C3CE0EE036FA@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "d2573f0c0a474184a9d96c815fc6bf37ff7c6392082069d810139c562d5a6f71",
-      "date": "2016-10-05T19:48:47+02:00",
+      "date": "2016-10-05T17:48:47Z",
       "subject": "R-3.3.2 on October 31",
       "subject_clean": "R-3.3.2 on October 31",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2016-10-05T17:43:42+00:00",
-      "last_reply": "2016-10-05T17:43:42+00:00",
+      "started": "2016-10-05T17:43:42Z",
+      "last_reply": "2016-10-05T17:43:42Z",
       "root_message_id": "msg-5baae6488012"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2016-10-05T19:48:47+02:00",
-      "last_reply": "2016-10-05T19:48:47+02:00",
+      "started": "2016-10-05T17:48:47Z",
+      "last_reply": "2016-10-05T17:48:47Z",
       "root_message_id": "msg-71dd11e2261a"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2016-10-31T10:22:44+00:00",
-      "last_reply": "2016-10-31T10:22:44+00:00",
+      "started": "2016-10-31T10:22:44Z",
+      "last_reply": "2016-10-31T10:22:44Z",
       "root_message_id": "msg-755fb8f91bfd"
     }
   ]

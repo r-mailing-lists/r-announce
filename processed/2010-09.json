@@ -8,7 +8,7 @@
       "message_id": "<D8B9688F-F491-4919-81F2-6B4D9BC83EE2@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "d2573f0c0a474184a9d96c815fc6bf37ff7c6392082069d810139c562d5a6f71",
-      "date": "2010-09-13T19:12:15+02:00",
+      "date": "2010-09-13T17:12:15Z",
       "subject": "R 2.12.0 scheduled for October 15",
       "subject_clean": "R 2.12.0 scheduled for October 15",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<67CD7196-645E-484B-A476-199D3A2F0839@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2010-09-13T19:15:47+02:00",
+      "date": "2010-09-13T17:15:47Z",
       "subject": "R 2.12.0 scheduled for October 15",
       "subject_clean": "R 2.12.0 scheduled for October 15",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2010-09-13T19:12:15+02:00",
-      "last_reply": "2010-09-13T19:12:15+02:00",
+      "started": "2010-09-13T17:12:15Z",
+      "last_reply": "2010-09-13T17:12:15Z",
       "root_message_id": "msg-f9846781237a"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2010-09-13T19:15:47+02:00",
-      "last_reply": "2010-09-13T19:15:47+02:00",
+      "started": "2010-09-13T17:15:47Z",
+      "last_reply": "2010-09-13T17:15:47Z",
       "root_message_id": "msg-47a697e29371"
     }
   ]

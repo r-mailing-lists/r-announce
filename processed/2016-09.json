@@ -8,7 +8,7 @@
       "message_id": "<CAOQ5NydXL7bbvFGMFOPR5wyVm5whZ7S8RNfYXO0MyxP5rBVYiA@mail.gmail.com>",
       "from_name": "Michael Lawrence",
       "from_email_hash": "bfe89466f88aa4e170d0a66a4e53638a9e527ae59f6b2639e8267ad3421950bf",
-      "date": "2016-09-07T07:06:20-07:00",
+      "date": "2016-09-07T14:06:20Z",
       "subject": "The R Journal, Volume 8, Issue 1",
       "subject_clean": "The R Journal, Volume 8, Issue 1",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Michael Lawrence"
       ],
-      "started": "2016-09-07T07:06:20-07:00",
-      "last_reply": "2016-09-07T07:06:20-07:00",
+      "started": "2016-09-07T14:06:20Z",
+      "last_reply": "2016-09-07T14:06:20Z",
       "root_message_id": "msg-cdafe4983f83"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<x2btn3o21t.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-10-23T15:11:58+02:00",
+      "date": "1998-10-23T13:11:58Z",
       "subject": "R-0.62.4 is out",
       "subject_clean": "R-0.62.4 is out",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1998-10-23T15:11:58+02:00",
-      "last_reply": "1998-10-23T15:11:58+02:00",
+      "started": "1998-10-23T13:11:58Z",
+      "last_reply": "1998-10-23T13:11:58Z",
       "root_message_id": "msg-f51f620fa6ab"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "1998-10-29T08:02:48+00:00",
-      "last_reply": "1998-10-29T08:02:48+00:00",
+      "started": "1998-10-29T08:02:48Z",
+      "last_reply": "1998-10-29T08:02:48Z",
       "root_message_id": "msg-9eafc93c5da3"
     }
   ]

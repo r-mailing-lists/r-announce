@@ -8,7 +8,7 @@
       "message_id": "<19980916130152.A227@sirio.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
-      "date": "1998-09-16T13:01:52+01:00",
+      "date": "1998-09-16T12:01:52Z",
       "subject": "A new version of R-0.62.3 for Win3.1/Win32s, Win95 and WinNT ",
       "subject_clean": "A new version of R-0.62.3 for Win3.1/Win32s, Win95 and WinNT",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.OSF.4.03.9809170935450.18831-100000@schubert.math.ku.dk>",
       "from_name": "Niels Kokholm",
       "from_email_hash": "074e21905712827b9942fa4c5ed3750fbf1c18d616c1ffe6211e0be8cdd21e58",
-      "date": "1998-09-17T09:41:39+02:00",
+      "date": "1998-09-17T07:41:39Z",
       "subject": "[Problem on NT 3.51] Re: R-beta: A new version of R-0.62.3 for Win... ",
       "subject_clean": "[Problem on NT 3.51] Re: R-beta: A new version of R-0.62.3 for Win...",
       "in_reply_to": "<19980916130152.A227@sirio.stat.unipd.it>",
@@ -45,8 +45,8 @@
         "Guido Masarotto",
         "Niels Kokholm"
       ],
-      "started": "1998-09-16T13:01:52+01:00",
-      "last_reply": "1998-09-17T09:41:39+02:00",
+      "started": "1998-09-16T12:01:52Z",
+      "last_reply": "1998-09-17T07:41:39Z",
       "root_message_id": "msg-38bca1778bfa"
     }
   ]

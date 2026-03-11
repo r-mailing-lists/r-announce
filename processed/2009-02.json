@@ -24,7 +24,7 @@
       "message_id": "<18850.9169.960535.118830@ron.nulle.part>",
       "from_name": "Dirk Eddelbuettel",
       "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
-      "date": "2009-02-22T22:19:29-06:00",
+      "date": "2009-02-23T04:19:29Z",
       "subject": "R/Finance 2009: Applied Finance with R -- Registration now open",
       "subject_clean": "R/Finance 2009: Applied Finance with R -- Registration now open",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Francois Husson"
       ],
-      "started": "2009-02-03T15:02:29+00:00",
-      "last_reply": "2009-02-03T15:02:29+00:00",
+      "started": "2009-02-03T15:02:29Z",
+      "last_reply": "2009-02-03T15:02:29Z",
       "root_message_id": "msg-8765fcf7498d"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Dirk Eddelbuettel"
       ],
-      "started": "2009-02-22T22:19:29-06:00",
-      "last_reply": "2009-02-22T22:19:29-06:00",
+      "started": "2009-02-23T04:19:29Z",
+      "last_reply": "2009-02-23T04:19:29Z",
       "root_message_id": "msg-cfe2bd11cee3"
     }
   ]

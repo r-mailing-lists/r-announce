@@ -8,7 +8,7 @@
       "message_id": "<x2slve3m3c.fsf@viggo.kubism.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2005-10-06T13:45:43+02:00",
+      "date": "2005-10-06T11:45:43Z",
       "subject": "R-2.2.0 is released",
       "subject_clean": "R-2.2.0 is released",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2005-10-06T13:45:43+02:00",
-      "last_reply": "2005-10-06T13:45:43+02:00",
+      "started": "2005-10-06T11:45:43Z",
+      "last_reply": "2005-10-06T11:45:43Z",
       "root_message_id": "msg-545b31a51ee7"
     }
   ]

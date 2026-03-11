@@ -8,7 +8,7 @@
       "message_id": "<49AD3ED1.20504@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2009-03-03T15:29:37+01:00",
+      "date": "2009-03-03T14:29:37Z",
       "subject": "REMINDER: DSC 2009 abstract submission before March 15",
       "subject_clean": "REMINDER: DSC 2009 abstract submission before March 15",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<49AFF65E.2040407@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2009-03-05T16:57:18+01:00",
+      "date": "2009-03-05T15:57:18Z",
       "subject": "R 2.9.0 is scheduled for April 17",
       "subject_clean": "R 2.9.0 is scheduled for April 17",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<alpine.LFD.2.00.0903060736290.5957@nokomis.stat.uiowa.edu>",
       "from_name": "luke at stat.uiowa.edu",
       "from_email_hash": "a5794212f0450ee86843a234fdc23fdecc67cbd9935fd99e22e36e11b265bf20",
-      "date": "2009-03-06T07:38:27-06:00",
+      "date": "2009-03-06T13:38:27Z",
       "subject": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
       "subject_clean": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<alpine.LFD.2.00.0903260916530.2933@nokomis.stat.uiowa.edu>",
       "from_name": "luke at stat.uiowa.edu",
       "from_email_hash": "a5794212f0450ee86843a234fdc23fdecc67cbd9935fd99e22e36e11b265bf20",
-      "date": "2009-03-26T09:17:29-05:00",
+      "date": "2009-03-26T14:17:29Z",
       "subject": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
       "subject_clean": "Travel funding for DSC/useR 2009 for young researchers at U.S. institutions",
       "in_reply_to": null,
@@ -76,8 +76,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2009-03-03T15:29:37+01:00",
-      "last_reply": "2009-03-03T15:29:37+01:00",
+      "started": "2009-03-03T14:29:37Z",
+      "last_reply": "2009-03-03T14:29:37Z",
       "root_message_id": "msg-db280db16bb2"
     },
     {
@@ -87,8 +87,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2009-03-05T16:57:18+01:00",
-      "last_reply": "2009-03-05T16:57:18+01:00",
+      "started": "2009-03-05T15:57:18Z",
+      "last_reply": "2009-03-05T15:57:18Z",
       "root_message_id": "msg-dc5e897eff2a"
     },
     {
@@ -98,8 +98,8 @@
       "participants": [
         "luke at stat.uiowa.edu"
       ],
-      "started": "2009-03-06T07:38:27-06:00",
-      "last_reply": "2009-03-06T07:38:27-06:00",
+      "started": "2009-03-06T13:38:27Z",
+      "last_reply": "2009-03-06T13:38:27Z",
       "root_message_id": "msg-d1fc49be1465"
     },
     {
@@ -109,8 +109,8 @@
       "participants": [
         "luke at stat.uiowa.edu"
       ],
-      "started": "2009-03-26T09:17:29-05:00",
-      "last_reply": "2009-03-26T09:17:29-05:00",
+      "started": "2009-03-26T14:17:29Z",
+      "last_reply": "2009-03-26T14:17:29Z",
       "root_message_id": "msg-1182c32d0f3e"
     }
   ]

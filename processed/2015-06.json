@@ -8,7 +8,7 @@
       "message_id": "<7442C2E6-39F7-4EF5-9670-245B096EEC05@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2015-06-18T11:04:58+02:00",
+      "date": "2015-06-18T09:04:58Z",
       "subject": "R 3.2.1 liftoff",
       "subject_clean": "R 3.2.1 liftoff",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2015-06-18T11:04:58+02:00",
-      "last_reply": "2015-06-18T11:04:58+02:00",
+      "started": "2015-06-18T09:04:58Z",
+      "last_reply": "2015-06-18T09:04:58Z",
       "root_message_id": "msg-f5db861fa2e5"
     }
   ]

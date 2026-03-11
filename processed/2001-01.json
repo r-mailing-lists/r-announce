@@ -8,7 +8,7 @@
       "message_id": "<14931.27242.478863.484300@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-01-03T19:07:38+01:00",
+      "date": "2001-01-03T18:07:38Z",
       "subject": "Mailing List Archives",
       "subject_clean": "Mailing List Archives",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<14933.55168.354361.737100@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-01-05T15:17:36+01:00",
+      "date": "2001-01-05T14:17:36Z",
       "subject": "package e1071 upgrade",
       "subject_clean": "package e1071 upgrade",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<14933.64762.538133.929972@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-01-05T17:57:30+01:00",
+      "date": "2001-01-05T16:57:30Z",
       "subject": "package multiv upgrade",
       "subject_clean": "package multiv upgrade",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<3A57FC6D.7E444C3A@warnes.net>",
       "from_name": "Gregory R. Warnes",
       "from_email_hash": "dfeee40bf383e378e8e21e0530c1024de0ef6e5b6d0801b286ba54ff888a75a9",
-      "date": "2001-01-06T21:19:41-08:00",
+      "date": "2001-01-07T05:19:41Z",
       "subject": "HYDRA Java library for Markov Chain Monte Carlo.",
       "subject_clean": "HYDRA Java library for Markov Chain Monte Carlo.",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<x2puhp2i1l.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2001-01-15T12:04:06+01:00",
+      "date": "2001-01-15T11:04:06Z",
       "subject": "R 1.2.1 is released",
       "subject_clean": "R 1.2.1 is released",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<6rofx97yew.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2001-01-15T07:11:35-06:00",
+      "date": "2001-01-15T13:11:35Z",
       "subject": "R-1.2.1 available from rsync.r-project.org",
       "subject_clean": "R-1.2.1 available from rsync.r-project.org",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<Pine.GSO.4.21.0101151050480.18938-100000@atlas.biostat.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "61bcce0fdf9d5f23a30b727658d7a47ac11811000a72b388d394906e16dc4416",
-      "date": "2001-01-15T11:03:35-08:00",
+      "date": "2001-01-15T19:03:35Z",
       "subject": "announce: survival5 bug fix",
       "subject_clean": "announce: survival5 bug fix",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<20010119085923.07174@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2001-01-19T08:59:23+01:00",
+      "date": "2001-01-19T07:59:23Z",
       "subject": "R 1.2.1 for Windows",
       "subject_clean": "R 1.2.1 for Windows",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<a05001900b68e2542a990@[159.149.74.61]>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
-      "date": "2001-01-19T18:17:02+01:00",
+      "date": "2001-01-19T17:17:02Z",
       "subject": "R 1.2.1 (beta) for Macintosh",
       "subject_clean": "R 1.2.1 (beta) for Macintosh",
       "in_reply_to": "<20010119085923.07174@hal.stat.unipd.it>",
@@ -154,7 +154,7 @@
       "message_id": "<14958.46484.299690.315352@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-01-24T11:59:32+01:00",
+      "date": "2001-01-24T10:59:32Z",
       "subject": "R News Volume 1/1",
       "subject_clean": "R News Volume 1/1",
       "in_reply_to": null,
@@ -170,7 +170,7 @@
       "message_id": "<01012500203405.00669@ligarto>",
       "from_name": "Ramon Diaz-Uriarte",
       "from_email_hash": "33d6c4d06bd87bc361d06ebf469b627fcb2e587ed8a8db948787a784679e7793",
-      "date": "2001-01-24T20:09:23+01:00",
+      "date": "2001-01-24T19:09:23Z",
       "subject": "R News Volume 1/1",
       "subject_clean": "R News Volume 1/1",
       "in_reply_to": "<14958.46484.299690.315352@galadriel.ci.tuwien.ac.at>",
@@ -192,8 +192,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "2001-01-03T19:07:38+01:00",
-      "last_reply": "2001-01-03T19:07:38+01:00",
+      "started": "2001-01-03T18:07:38Z",
+      "last_reply": "2001-01-03T18:07:38Z",
       "root_message_id": "msg-0fb93ea977df"
     },
     {
@@ -203,8 +203,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "2001-01-05T15:17:36+01:00",
-      "last_reply": "2001-01-05T15:17:36+01:00",
+      "started": "2001-01-05T14:17:36Z",
+      "last_reply": "2001-01-05T14:17:36Z",
       "root_message_id": "msg-55dab5357130"
     },
     {
@@ -214,8 +214,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "2001-01-05T17:57:30+01:00",
-      "last_reply": "2001-01-05T17:57:30+01:00",
+      "started": "2001-01-05T16:57:30Z",
+      "last_reply": "2001-01-05T16:57:30Z",
       "root_message_id": "msg-e7f0bb698fb2"
     },
     {
@@ -225,9 +225,20 @@
       "participants": [
         "Gregory R. Warnes"
       ],
-      "started": "2001-01-06T21:19:41-08:00",
-      "last_reply": "2001-01-06T21:19:41-08:00",
+      "started": "2001-01-07T05:19:41Z",
+      "last_reply": "2001-01-07T05:19:41Z",
       "root_message_id": "msg-74cff42550a0"
+    },
+    {
+      "id": "thread-b2c4ac1f4f2a",
+      "subject": "R 1.2.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2001-01-15T11:04:06Z",
+      "last_reply": "2001-01-15T11:04:06Z",
+      "root_message_id": "msg-b2c4ac1f4f2a"
     },
     {
       "id": "thread-b814c20c7d47",
@@ -236,8 +247,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2001-01-15T07:11:35-06:00",
-      "last_reply": "2001-01-15T07:11:35-06:00",
+      "started": "2001-01-15T13:11:35Z",
+      "last_reply": "2001-01-15T13:11:35Z",
       "root_message_id": "msg-b814c20c7d47"
     },
     {
@@ -247,20 +258,9 @@
       "participants": [
         "Thomas Lumley"
       ],
-      "started": "2001-01-15T11:03:35-08:00",
-      "last_reply": "2001-01-15T11:03:35-08:00",
+      "started": "2001-01-15T19:03:35Z",
+      "last_reply": "2001-01-15T19:03:35Z",
       "root_message_id": "msg-20c27aa6c747"
-    },
-    {
-      "id": "thread-b2c4ac1f4f2a",
-      "subject": "R 1.2.1 is released",
-      "message_count": 1,
-      "participants": [
-        "Peter Dalgaard BSA"
-      ],
-      "started": "2001-01-15T12:04:06+01:00",
-      "last_reply": "2001-01-15T12:04:06+01:00",
-      "root_message_id": "msg-b2c4ac1f4f2a"
     },
     {
       "id": "thread-03a15681c903",
@@ -270,8 +270,8 @@
         "Guido Masarotto",
         "Stefano Iacus"
       ],
-      "started": "2001-01-19T08:59:23+01:00",
-      "last_reply": "2001-01-19T18:17:02+01:00",
+      "started": "2001-01-19T07:59:23Z",
+      "last_reply": "2001-01-19T17:17:02Z",
       "root_message_id": "msg-03a15681c903"
     },
     {
@@ -282,8 +282,8 @@
         "Friedrich Leisch",
         "Ramon Diaz-Uriarte"
       ],
-      "started": "2001-01-24T11:59:32+01:00",
-      "last_reply": "2001-01-24T20:09:23+01:00",
+      "started": "2001-01-24T10:59:32Z",
+      "last_reply": "2001-01-24T19:09:23Z",
       "root_message_id": "msg-2eb48f9e989a"
     }
   ]

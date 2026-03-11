@@ -8,7 +8,7 @@
       "message_id": "<3ADD62CF.D9905314@stat.auckland.ac.nz>",
       "from_name": "Ross Ihaka",
       "from_email_hash": "04ecc52df29664f6d7d78462a431210f1fc44efa859cdf5ba96c05176d368866",
-      "date": "2001-04-18T21:47:59+12:00",
+      "date": "2001-04-18T09:47:59Z",
       "subject": "New R Core Member",
       "subject_clean": "New R Core Member",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<200104221555.IAA98495@pine.frazmtn.com>",
       "from_name": "Jan de Leeuw",
       "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
-      "date": "2001-04-22T08:54:51-07:00",
+      "date": "2001-04-22T15:54:51Z",
       "subject": "new Darwin/X11 builds",
       "subject_clean": "new Darwin/X11 builds",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<3AE5573D.FE48A63@fmrib.ox.ac.uk>",
       "from_name": "Didier Leibovici",
       "from_email_hash": "1244ff647a497583dfb38cdce343da3ee5bc1406a857a46609570ab1b07c04b7",
-      "date": "2001-04-24T11:36:45+01:00",
+      "date": "2001-04-24T10:36:45Z",
       "subject": "New Package Released: PTAk ",
       "subject_clean": "New Package Released: PTAk",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<3AE5A0C8.F3859BBB@ci.tuwien.ac.at>",
       "from_name": "Achim Zeileis",
       "from_email_hash": "6e49297fad7765f22cd60c47d1bcff4db34d823c694d0bd3180ec417368c4a57",
-      "date": "2001-04-24T17:50:32+02:00",
+      "date": "2001-04-24T15:50:32Z",
       "subject": "DSC 2001 Proceedings Announcement",
       "subject_clean": "DSC 2001 Proceedings Announcement",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<x2ae53rg56.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2001-04-26T14:37:25+02:00",
+      "date": "2001-04-26T12:37:25Z",
       "subject": "R-1.2.3 is released",
       "subject_clean": "R-1.2.3 is released",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<20010426170621.28351@smtp.frazmtn.com>",
       "from_name": "Jan de Leeuw",
       "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
-      "date": "2001-04-26T10:06:21-07:00",
+      "date": "2001-04-26T17:06:21Z",
       "subject": "R-1.2.3 for MacOS X",
       "subject_clean": "R-1.2.3 for MacOS X",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<6rzod24gmc.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2001-04-27T08:27:55-05:00",
+      "date": "2001-04-27T13:27:55Z",
       "subject": "R-1.2.3 available via rsync",
       "subject_clean": "R-1.2.3 available via rsync",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<5.0.2.1.2.20010427224918.0193d588@mcmail.cis.mcmaster.ca>",
       "from_name": "John Fox",
       "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
-      "date": "2001-04-27T22:51:37-04:00",
+      "date": "2001-04-28T02:51:37Z",
       "subject": "two new packages",
       "subject_clean": "two new packages",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<200104281505.f3SF54q08771@mail.mclink.it>",
       "from_name": "Stefano",
       "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
-      "date": "2001-04-28T17:05:09+02:00",
+      "date": "2001-04-28T15:05:09Z",
       "subject": "R 1.2.3 for MacOS/X available",
       "subject_clean": "R 1.2.3 for MacOS/X available",
       "in_reply_to": null,
@@ -152,7 +152,7 @@
       "message_id": "<200104281505.f3SF59q08828@mail.mclink.it>",
       "from_name": "Stefano",
       "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
-      "date": "2001-04-28T17:05:24+02:00",
+      "date": "2001-04-28T15:05:24Z",
       "subject": "R for Mac Special Interest Group",
       "subject_clean": "R for Mac Special Interest Group",
       "in_reply_to": null,
@@ -168,7 +168,7 @@
       "message_id": "<200104281524.f3SFOYY14401@mail.mclink.it>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
-      "date": "2001-04-28T17:24:55+02:00",
+      "date": "2001-04-28T15:24:55Z",
       "subject": "R 1.2.3 for MacOS/X available",
       "subject_clean": "R 1.2.3 for MacOS/X available",
       "in_reply_to": null,
@@ -184,7 +184,7 @@
       "message_id": "<200104281525.f3SFP1Y14654@mail.mclink.it>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
-      "date": "2001-04-28T17:25:22+02:00",
+      "date": "2001-04-28T15:25:22Z",
       "subject": "R for Mac Special Interest Group",
       "subject_clean": "R for Mac Special Interest Group",
       "in_reply_to": null,
@@ -200,7 +200,7 @@
       "message_id": "<20010429135224.13386@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2001-04-29T13:52:24+02:00",
+      "date": "2001-04-29T11:52:24Z",
       "subject": "R 1.2.3 for Windows available ",
       "subject_clean": "R 1.2.3 for Windows available",
       "in_reply_to": null,
@@ -216,7 +216,7 @@
       "message_id": "<3AED1B0C.75D0A038@univie.ac.at>",
       "from_name": "Erich Neuwirth",
       "from_email_hash": "178c9665decd09e76ed713e123ba2a6b2ed2ac166995047eb6dc12c5ab93e7ac",
-      "date": "2001-04-30T09:58:04+02:00",
+      "date": "2001-04-30T07:58:04Z",
       "subject": "RExcel, new version",
       "subject_clean": "RExcel, new version",
       "in_reply_to": null,
@@ -236,8 +236,8 @@
       "participants": [
         "Ross Ihaka"
       ],
-      "started": "2001-04-18T21:47:59+12:00",
-      "last_reply": "2001-04-18T21:47:59+12:00",
+      "started": "2001-04-18T09:47:59Z",
+      "last_reply": "2001-04-18T09:47:59Z",
       "root_message_id": "msg-7c620ad8fa04"
     },
     {
@@ -247,8 +247,8 @@
       "participants": [
         "Jan de Leeuw"
       ],
-      "started": "2001-04-22T08:54:51-07:00",
-      "last_reply": "2001-04-22T08:54:51-07:00",
+      "started": "2001-04-22T15:54:51Z",
+      "last_reply": "2001-04-22T15:54:51Z",
       "root_message_id": "msg-1945614c781f"
     },
     {
@@ -258,8 +258,8 @@
       "participants": [
         "Didier Leibovici"
       ],
-      "started": "2001-04-24T11:36:45+01:00",
-      "last_reply": "2001-04-24T11:36:45+01:00",
+      "started": "2001-04-24T10:36:45Z",
+      "last_reply": "2001-04-24T10:36:45Z",
       "root_message_id": "msg-e030449721a2"
     },
     {
@@ -269,20 +269,9 @@
       "participants": [
         "Achim Zeileis"
       ],
-      "started": "2001-04-24T17:50:32+02:00",
-      "last_reply": "2001-04-24T17:50:32+02:00",
+      "started": "2001-04-24T15:50:32Z",
+      "last_reply": "2001-04-24T15:50:32Z",
       "root_message_id": "msg-8e99ff3774a9"
-    },
-    {
-      "id": "thread-f6504c51e0aa",
-      "subject": "R-1.2.3 for MacOS X",
-      "message_count": 1,
-      "participants": [
-        "Jan de Leeuw"
-      ],
-      "started": "2001-04-26T10:06:21-07:00",
-      "last_reply": "2001-04-26T10:06:21-07:00",
-      "root_message_id": "msg-f6504c51e0aa"
     },
     {
       "id": "thread-08c314bcc5c8",
@@ -291,9 +280,20 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2001-04-26T14:37:25+02:00",
-      "last_reply": "2001-04-26T14:37:25+02:00",
+      "started": "2001-04-26T12:37:25Z",
+      "last_reply": "2001-04-26T12:37:25Z",
       "root_message_id": "msg-08c314bcc5c8"
+    },
+    {
+      "id": "thread-f6504c51e0aa",
+      "subject": "R-1.2.3 for MacOS X",
+      "message_count": 1,
+      "participants": [
+        "Jan de Leeuw"
+      ],
+      "started": "2001-04-26T17:06:21Z",
+      "last_reply": "2001-04-26T17:06:21Z",
+      "root_message_id": "msg-f6504c51e0aa"
     },
     {
       "id": "thread-e93069ee00c6",
@@ -302,8 +302,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2001-04-27T08:27:55-05:00",
-      "last_reply": "2001-04-27T08:27:55-05:00",
+      "started": "2001-04-27T13:27:55Z",
+      "last_reply": "2001-04-27T13:27:55Z",
       "root_message_id": "msg-e93069ee00c6"
     },
     {
@@ -313,8 +313,8 @@
       "participants": [
         "John Fox"
       ],
-      "started": "2001-04-27T22:51:37-04:00",
-      "last_reply": "2001-04-27T22:51:37-04:00",
+      "started": "2001-04-28T02:51:37Z",
+      "last_reply": "2001-04-28T02:51:37Z",
       "root_message_id": "msg-ecda6bba9fc4"
     },
     {
@@ -324,8 +324,8 @@
       "participants": [
         "Stefano"
       ],
-      "started": "2001-04-28T17:05:09+02:00",
-      "last_reply": "2001-04-28T17:05:09+02:00",
+      "started": "2001-04-28T15:05:09Z",
+      "last_reply": "2001-04-28T15:05:09Z",
       "root_message_id": "msg-89c38f16d257"
     },
     {
@@ -335,8 +335,8 @@
       "participants": [
         "Stefano"
       ],
-      "started": "2001-04-28T17:05:24+02:00",
-      "last_reply": "2001-04-28T17:05:24+02:00",
+      "started": "2001-04-28T15:05:24Z",
+      "last_reply": "2001-04-28T15:05:24Z",
       "root_message_id": "msg-2e5ba7eabf75"
     },
     {
@@ -346,8 +346,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2001-04-28T17:24:55+02:00",
-      "last_reply": "2001-04-28T17:24:55+02:00",
+      "started": "2001-04-28T15:24:55Z",
+      "last_reply": "2001-04-28T15:24:55Z",
       "root_message_id": "msg-7c67972e73c3"
     },
     {
@@ -357,8 +357,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2001-04-28T17:25:22+02:00",
-      "last_reply": "2001-04-28T17:25:22+02:00",
+      "started": "2001-04-28T15:25:22Z",
+      "last_reply": "2001-04-28T15:25:22Z",
       "root_message_id": "msg-342ff63e18b9"
     },
     {
@@ -368,8 +368,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "2001-04-29T13:52:24+02:00",
-      "last_reply": "2001-04-29T13:52:24+02:00",
+      "started": "2001-04-29T11:52:24Z",
+      "last_reply": "2001-04-29T11:52:24Z",
       "root_message_id": "msg-9fa8875c22f8"
     },
     {
@@ -379,8 +379,8 @@
       "participants": [
         "Erich Neuwirth"
       ],
-      "started": "2001-04-30T09:58:04+02:00",
-      "last_reply": "2001-04-30T09:58:04+02:00",
+      "started": "2001-04-30T07:58:04Z",
+      "last_reply": "2001-04-30T07:58:04Z",
       "root_message_id": "msg-5a9a51f66e66"
     }
   ]

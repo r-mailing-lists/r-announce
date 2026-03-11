@@ -8,7 +8,7 @@
       "message_id": "<x2oejipkm4.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2004-10-04T17:29:39+02:00",
+      "date": "2004-10-04T15:29:39Z",
       "subject": "R 2.0.0 is released",
       "subject_clean": "R 2.0.0 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<jeu5m0536ni4a2b4p31kn451j8j4tvm4d7@4ax.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "f10e1920504dfef879061667fbcfa0823bbc832410cad04707fb294db3bd8d83",
-      "date": "2004-10-05T15:52:22-04:00",
+      "date": "2004-10-05T19:52:22Z",
       "subject": "[R] R 2.0.0 is released",
       "subject_clean": "R 2.0.0 is released",
       "in_reply_to": "<x2oejipkm4.fsf@biostat.ku.dk>",
@@ -42,7 +42,7 @@
       "message_id": "<Pine.A41.4.61.0410061057090.346816@homer06.u.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
-      "date": "2004-10-06T11:00:08-07:00",
+      "date": "2004-10-06T18:00:08Z",
       "subject": "R Newsletter",
       "subject_clean": "R Newsletter",
       "in_reply_to": null,
@@ -63,8 +63,8 @@
         "Duncan Murdoch",
         "Peter Dalgaard"
       ],
-      "started": "2004-10-04T17:29:39+02:00",
-      "last_reply": "2004-10-05T15:52:22-04:00",
+      "started": "2004-10-04T15:29:39Z",
+      "last_reply": "2004-10-05T19:52:22Z",
       "root_message_id": "msg-86c82d189ce6"
     },
     {
@@ -74,8 +74,8 @@
       "participants": [
         "Thomas Lumley"
       ],
-      "started": "2004-10-06T11:00:08-07:00",
-      "last_reply": "2004-10-06T11:00:08-07:00",
+      "started": "2004-10-06T18:00:08Z",
+      "last_reply": "2004-10-06T18:00:08Z",
       "root_message_id": "msg-cda7caffa6a7"
     }
   ]

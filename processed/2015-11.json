@@ -8,7 +8,7 @@
       "message_id": "<46A477A2-1E2A-46ED-9BEE-CAF66B3F0345@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2015-11-13T11:18:58+01:00",
+      "date": "2015-11-13T10:18:58Z",
       "subject": "[R] Release of R 3.2.3 scheduled for December 10",
       "subject_clean": "Release of R 3.2.3 scheduled for December 10",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2015-11-13T11:18:58+01:00",
-      "last_reply": "2015-11-13T11:18:58+01:00",
+      "started": "2015-11-13T10:18:58Z",
+      "last_reply": "2015-11-13T10:18:58Z",
       "root_message_id": "msg-698e6e2f7826"
     }
   ]

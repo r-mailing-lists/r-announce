@@ -8,7 +8,7 @@
       "message_id": "<67151BB7-6F13-42BC-92C2-2AE4F3BFF136@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2011-12-08T15:30:26+01:00",
+      "date": "2011-12-08T14:30:26Z",
       "subject": "R 2.14.1 scheduled for December 22",
       "subject_clean": "R 2.14.1 scheduled for December 22",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<69376E88-2DA0-405B-BFE0-48D5678E8BF6@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2011-12-22T12:02:34+01:00",
+      "date": "2011-12-22T11:02:34Z",
       "subject": "R 2.14.1 is released",
       "subject_clean": "R 2.14.1 is released",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2011-12-08T15:30:26+01:00",
-      "last_reply": "2011-12-08T15:30:26+01:00",
+      "started": "2011-12-08T14:30:26Z",
+      "last_reply": "2011-12-08T14:30:26Z",
       "root_message_id": "msg-472de0811adf"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Heather Turner"
       ],
-      "started": "2011-12-18T22:15:48+00:00",
-      "last_reply": "2011-12-18T22:15:48+00:00",
+      "started": "2011-12-18T22:15:48Z",
+      "last_reply": "2011-12-18T22:15:48Z",
       "root_message_id": "msg-24914f936b43"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2011-12-22T12:02:34+01:00",
-      "last_reply": "2011-12-22T12:02:34+01:00",
+      "started": "2011-12-22T11:02:34Z",
+      "last_reply": "2011-12-22T11:02:34Z",
       "root_message_id": "msg-586568a1d67c"
     }
   ]

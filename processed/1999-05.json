@@ -8,7 +8,7 @@
       "message_id": "<6rzp3mvslm.fsf_-_@verdi.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "1999-05-03T14:52:21-05:00",
+      "date": "1999-05-03T19:52:21Z",
       "subject": "\"Advanced Programming in S\" short course ",
       "subject_clean": "\"Advanced Programming in S\" short course",
       "in_reply_to": "Bill Venables's message of \"Sat, 17 Apr 1999 12:18:40 +0930 (CST)\"",
@@ -24,7 +24,7 @@
       "message_id": "<x23e18udby.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1999-05-07T17:08:49+02:00",
+      "date": "1999-05-07T15:08:49Z",
       "subject": "R-0.64.1 is released ",
       "subject_clean": "R-0.64.1 is released",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<Pine.GSO.4.10.9905101134080.16882-100000@wompom.biostat.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "61bcce0fdf9d5f23a30b727658d7a47ac11811000a72b388d394906e16dc4416",
-      "date": "1999-05-10T14:14:10-07:00",
+      "date": "1999-05-10T21:14:10Z",
       "subject": "survival5 is released",
       "subject_clean": "survival5 is released",
       "in_reply_to": "<x23e18udby.fsf@blueberry.kubism.ku.dk>",
@@ -56,7 +56,7 @@
       "message_id": "<19990514135329.07489@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "1999-05-14T13:53:29+01:00",
+      "date": "1999-05-14T12:53:29Z",
       "subject": "R0.64.1 for Windows",
       "subject_clean": "R0.64.1 for Windows",
       "in_reply_to": null,
@@ -76,8 +76,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "1999-05-03T14:52:21-05:00",
-      "last_reply": "1999-05-03T14:52:21-05:00",
+      "started": "1999-05-03T19:52:21Z",
+      "last_reply": "1999-05-03T19:52:21Z",
       "root_message_id": "msg-d1eff187379e"
     },
     {
@@ -88,8 +88,8 @@
         "Peter Dalgaard BSA",
         "Thomas Lumley"
       ],
-      "started": "1999-05-07T17:08:49+02:00",
-      "last_reply": "1999-05-10T14:14:10-07:00",
+      "started": "1999-05-07T15:08:49Z",
+      "last_reply": "1999-05-10T21:14:10Z",
       "root_message_id": "msg-9403d2b33e05"
     },
     {
@@ -99,8 +99,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "1999-05-14T13:53:29+01:00",
-      "last_reply": "1999-05-14T13:53:29+01:00",
+      "started": "1999-05-14T12:53:29Z",
+      "last_reply": "1999-05-14T12:53:29Z",
       "root_message_id": "msg-3b761d2dd121"
     }
   ]

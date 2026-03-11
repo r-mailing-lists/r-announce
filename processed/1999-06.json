@@ -8,7 +8,7 @@
       "message_id": "<199906010847.KAA12958@alpha.luc.ac.be>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "1999-06-01T10:47:27+02:00",
+      "date": "1999-06-01T08:47:27Z",
       "subject": "libraries and repeated measurements code",
       "subject_clean": "libraries and repeated measurements code",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<199906011354.PAA21865@sophie.ethz.ch>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "1999-06-01T15:54:54+02:00",
+      "date": "1999-06-01T13:54:54Z",
       "subject": "libraries and repeated measurements code",
       "subject_clean": "libraries and repeated measurements code",
       "in_reply_to": "<199906010847.KAA12958@alpha.luc.ac.be> (message from Martin Maechler on Tue, 1 Jun 1999 10:47:27 +0200 (MET DST))",
@@ -42,7 +42,7 @@
       "message_id": "<XFMail.990604094113.plummer@iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "1999-06-04T09:41:13+02:00",
+      "date": "1999-06-04T07:41:13Z",
       "subject": "Red Hat Linux/Intel 6.0 RPMS for R",
       "subject_clean": "Red Hat Linux/Intel 6.0 RPMS for R",
       "in_reply_to": null,
@@ -58,7 +58,7 @@
       "message_id": "<XFMail.990611124121.plummer@iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "1999-06-11T12:41:21+02:00",
+      "date": "1999-06-11T10:41:21Z",
       "subject": "Basic time series library",
       "subject_clean": "Basic time series library",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<14177.40137.381644.928820@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1999-06-12T01:33:29+02:00",
+      "date": "1999-06-11T23:33:29Z",
       "subject": "``R Links'' Collection on CRAN",
       "subject_clean": "``R Links'' Collection on CRAN",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<19990630102526.A13430@sirio.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "91db8bb8e0307f690ac3d9811bcd5c0478ff15c34584622661873327ec2f9f49",
-      "date": "1999-06-30T10:25:26+02:00",
+      "date": "1999-06-30T08:25:26Z",
       "subject": "New packages (tcl/tk <-> R glue + Visual Tcl)",
       "subject_clean": "New packages (tcl/tk <-> R glue + Visual Tcl)",
       "in_reply_to": null,
@@ -110,8 +110,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "1999-06-01T10:47:27+02:00",
-      "last_reply": "1999-06-01T15:54:54+02:00",
+      "started": "1999-06-01T08:47:27Z",
+      "last_reply": "1999-06-01T13:54:54Z",
       "root_message_id": "msg-ef4ad30b7ebb"
     },
     {
@@ -121,8 +121,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "1999-06-04T09:41:13+02:00",
-      "last_reply": "1999-06-04T09:41:13+02:00",
+      "started": "1999-06-04T07:41:13Z",
+      "last_reply": "1999-06-04T07:41:13Z",
       "root_message_id": "msg-e880172d2d76"
     },
     {
@@ -132,8 +132,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "1999-06-11T12:41:21+02:00",
-      "last_reply": "1999-06-11T12:41:21+02:00",
+      "started": "1999-06-11T10:41:21Z",
+      "last_reply": "1999-06-11T10:41:21Z",
       "root_message_id": "msg-b77fc01dbf1f"
     },
     {
@@ -143,8 +143,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1999-06-12T01:33:29+02:00",
-      "last_reply": "1999-06-12T01:33:29+02:00",
+      "started": "1999-06-11T23:33:29Z",
+      "last_reply": "1999-06-11T23:33:29Z",
       "root_message_id": "msg-8ab49006b4ba"
     },
     {
@@ -154,8 +154,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "1999-06-30T10:25:26+02:00",
-      "last_reply": "1999-06-30T10:25:26+02:00",
+      "started": "1999-06-30T08:25:26Z",
+      "last_reply": "1999-06-30T08:25:26Z",
       "root_message_id": "msg-70375a45932d"
     }
   ]

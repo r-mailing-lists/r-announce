@@ -8,7 +8,7 @@
       "message_id": "<CABFfbXsw5X7=Zsw_awy3XWYYtQ1-rc2qC+H9Bws+A0NGcwoMJg@mail.gmail.com>",
       "from_name": "Jeroen Ooms",
       "from_email_hash": "8cec1f7bf29300b425ea1be687fbb6d3fccf3de57737bb017534932e9e18a5f3",
-      "date": "2014-06-01T21:31:07-07:00",
+      "date": "2014-06-02T04:31:07Z",
       "subject": "Updates from the useR! 2014 organizing committee",
       "subject_clean": "Updates from the useR! 2014 organizing committee",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<812FE86A-84B4-493E-9BDE-4A22F6339E93@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2014-06-13T16:18:23+02:00",
+      "date": "2014-06-13T14:18:23Z",
       "subject": "Release of R 3.1.1 scheduled for July 10",
       "subject_clean": "Release of R 3.1.1 scheduled for July 10",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Jeroen Ooms"
       ],
-      "started": "2014-06-01T21:31:07-07:00",
-      "last_reply": "2014-06-01T21:31:07-07:00",
+      "started": "2014-06-02T04:31:07Z",
+      "last_reply": "2014-06-02T04:31:07Z",
       "root_message_id": "msg-b4bccadc00ea"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2014-06-13T16:18:23+02:00",
-      "last_reply": "2014-06-13T16:18:23+02:00",
+      "started": "2014-06-13T14:18:23Z",
+      "last_reply": "2014-06-13T14:18:23Z",
       "root_message_id": "msg-02b8a59383fb"
     }
   ]

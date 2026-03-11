@@ -8,7 +8,7 @@
       "message_id": "<5.1.0.14.2.20030526102510.01ea68e0@mcmail.cis.mcmaster.ca>",
       "from_name": "John Fox",
       "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
-      "date": "2003-05-26T10:27:53-04:00",
+      "date": "2003-05-26T14:27:53Z",
       "subject": "new cross-platform basic-statistics GUI",
       "subject_clean": "new cross-platform basic-statistics GUI",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "John Fox"
       ],
-      "started": "2003-05-26T10:27:53-04:00",
-      "last_reply": "2003-05-26T10:27:53-04:00",
+      "started": "2003-05-26T14:27:53Z",
+      "last_reply": "2003-05-26T14:27:53Z",
       "root_message_id": "msg-2303f144e4fb"
     }
   ]

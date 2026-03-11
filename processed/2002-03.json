@@ -8,7 +8,7 @@
       "message_id": "<Pine.LNX.4.31.0203081511270.4486-100000@matheron.estadi.uv.es>",
       "from_name": "virgil at uv.es",
       "from_email_hash": "adba6f97a489d8d386a397d35611fe5655201163d1ab3cd4127f665a8a412a41",
-      "date": "2002-03-08T15:24:15+01:00",
+      "date": "2002-03-08T14:24:15Z",
       "subject": "RArcInfo 0.2 Released (Source and Windows binary)",
       "subject_clean": "RArcInfo 0.2 Released (Source and Windows binary)",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<15496.57143.14805.650186@celeborn.leisch.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2002-03-08T16:56:39+01:00",
+      "date": "2002-03-08T15:56:39Z",
       "subject": "R News Volume 2/1",
       "subject_clean": "R News Volume 2/1",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "virgil at uv.es"
       ],
-      "started": "2002-03-08T15:24:15+01:00",
-      "last_reply": "2002-03-08T15:24:15+01:00",
+      "started": "2002-03-08T14:24:15Z",
+      "last_reply": "2002-03-08T14:24:15Z",
       "root_message_id": "msg-2becd4867983"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2002-03-08T16:56:39+01:00",
-      "last_reply": "2002-03-08T16:56:39+01:00",
+      "started": "2002-03-08T15:56:39Z",
+      "last_reply": "2002-03-08T15:56:39Z",
       "root_message_id": "msg-760d625a442a"
     }
   ]

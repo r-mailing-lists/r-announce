@@ -24,7 +24,7 @@
       "message_id": "<3E64D640.8185C15A@lmttrading.com>",
       "from_name": "Adrian Trapletti",
       "from_email_hash": "981e0c8f386db4a8202536a4b9abe467327de0671de9d73968704e34795dec79",
-      "date": "2003-03-04T17:37:20+01:00",
+      "date": "2003-03-04T16:37:20Z",
       "subject": "tseries contains a class for irregularly spaced time series",
       "subject_clean": "tseries contains a class for irregularly spaced time series",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<D7A3CFD7825BD6119B880002A58F06C202F2C696@groexmb02.pfizer.com>",
       "from_name": "Warnes, Gregory R",
       "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
-      "date": "2003-03-06T17:21:37-05:00",
+      "date": "2003-03-06T22:21:37Z",
       "subject": "Initial release of RSessionDA",
       "subject_clean": "Initial release of RSessionDA",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<3E6F0FF4.CCD7EDC9@geog.uu.nl>",
       "from_name": "Edzer J. Pebesma",
       "from_email_hash": "a7fb0ca623e251a5aff6aa466eb7f50e3c643594fe03e3232d546a007043eef0",
-      "date": "2003-03-12T11:46:12+01:00",
+      "date": "2003-03-12T10:46:12Z",
       "subject": "Gstat: multivariable geostatistics for S (R and S-Plus)",
       "subject_clean": "Gstat: multivariable geostatistics for S (R and S-Plus)",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<20030321100147.B14924@jimmy.harvard.edu>",
       "from_name": "Robert Gentleman",
       "from_email_hash": "123d8a37b4c33764383aec6209d5a3d3e15f649311f260d043f9839e1d8aeacc",
-      "date": "2003-03-21T10:01:47-05:00",
+      "date": "2003-03-21T15:01:47Z",
       "subject": "ArrayAnalyzer and Bioconductor",
       "subject_clean": "ArrayAnalyzer and Bioconductor",
       "in_reply_to": null,
@@ -92,8 +92,8 @@
       "participants": [
         "Chong Gu"
       ],
-      "started": "2003-03-03T09:52:03+00:00",
-      "last_reply": "2003-03-03T09:52:03+00:00",
+      "started": "2003-03-03T09:52:03Z",
+      "last_reply": "2003-03-03T09:52:03Z",
       "root_message_id": "msg-385a301463c2"
     },
     {
@@ -103,8 +103,8 @@
       "participants": [
         "Adrian Trapletti"
       ],
-      "started": "2003-03-04T17:37:20+01:00",
-      "last_reply": "2003-03-04T17:37:20+01:00",
+      "started": "2003-03-04T16:37:20Z",
+      "last_reply": "2003-03-04T16:37:20Z",
       "root_message_id": "msg-a7a29d87c45b"
     },
     {
@@ -114,8 +114,8 @@
       "participants": [
         "Warnes, Gregory R"
       ],
-      "started": "2003-03-06T17:21:37-05:00",
-      "last_reply": "2003-03-06T17:21:37-05:00",
+      "started": "2003-03-06T22:21:37Z",
+      "last_reply": "2003-03-06T22:21:37Z",
       "root_message_id": "msg-34252efec8c7"
     },
     {
@@ -125,8 +125,8 @@
       "participants": [
         "Edzer J. Pebesma"
       ],
-      "started": "2003-03-12T11:46:12+01:00",
-      "last_reply": "2003-03-12T11:46:12+01:00",
+      "started": "2003-03-12T10:46:12Z",
+      "last_reply": "2003-03-12T10:46:12Z",
       "root_message_id": "msg-f4afc6244a9f"
     },
     {
@@ -136,8 +136,8 @@
       "participants": [
         "Robert Gentleman"
       ],
-      "started": "2003-03-21T10:01:47-05:00",
-      "last_reply": "2003-03-21T10:01:47-05:00",
+      "started": "2003-03-21T15:01:47Z",
+      "last_reply": "2003-03-21T15:01:47Z",
       "root_message_id": "msg-0c5dae9ba693"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<492506A5-D562-4E87-BA6C-A25CB185AD57@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2022-06-10T14:01:41+02:00",
+      "date": "2022-06-10T12:01:41Z",
       "subject": "[Rd] R 4.2.1 scheduled for June 23",
       "subject_clean": "R 4.2.1 scheduled for June 23",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2022-06-10T14:01:41+02:00",
-      "last_reply": "2022-06-10T14:01:41+02:00",
+      "started": "2022-06-10T12:01:41Z",
+      "last_reply": "2022-06-10T12:01:41Z",
       "root_message_id": "msg-ba7bd9f3e106"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2022-06-23T07:55:57+00:00",
-      "last_reply": "2022-06-23T07:55:57+00:00",
+      "started": "2022-06-23T07:55:57Z",
+      "last_reply": "2022-06-23T07:55:57Z",
       "root_message_id": "msg-ee2f08c9a75b"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<x2irj1lmi0.fsf@viggo.kubism.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2006-10-03T12:30:47+02:00",
+      "date": "2006-10-03T10:30:47Z",
       "subject": "R-2.4.0 is released",
       "subject_clean": "R-2.4.0 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<4525BA52.10503@stat.auckland.ac.nz>",
       "from_name": "Paul Murrell",
       "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
-      "date": "2006-10-06T15:07:14+13:00",
+      "date": "2006-10-06T02:07:14Z",
       "subject": "DSC final call",
       "subject_clean": "DSC final call",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2006-10-03T12:30:47+02:00",
-      "last_reply": "2006-10-03T12:30:47+02:00",
+      "started": "2006-10-03T10:30:47Z",
+      "last_reply": "2006-10-03T10:30:47Z",
       "root_message_id": "msg-f1f2635ef40c"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Paul Murrell"
       ],
-      "started": "2006-10-06T15:07:14+13:00",
-      "last_reply": "2006-10-06T15:07:14+13:00",
+      "started": "2006-10-06T02:07:14Z",
+      "last_reply": "2006-10-06T02:07:14Z",
       "root_message_id": "msg-e4c01cbc509f"
     }
   ]

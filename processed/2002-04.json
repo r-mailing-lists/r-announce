@@ -8,7 +8,7 @@
       "message_id": "<51F9C42DA15CD311BD220008C707D81906FFC18C@usrymx10.merck.com>",
       "from_name": "Liaw, Andy",
       "from_email_hash": "898c214b2bc6c21da39a883e12ded19760ce149cfa1067d738a1a4f3200f2bc0",
-      "date": "2002-04-02T10:22:41-05:00",
+      "date": "2002-04-02T15:22:41Z",
       "subject": "random forests for R",
       "subject_clean": "random forests for R",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<20020407164124.561224bb.fharrell@virginia.edu>",
       "from_name": "Frank E Harrell Jr",
       "from_email_hash": "bd19bd9f169b5f3d1a992f9f1800c6f882823514a102dfe1216f921e43131154",
-      "date": "2002-04-07T16:41:24-04:00",
+      "date": "2002-04-07T20:41:24Z",
       "subject": "Hmisc 1.0 Available",
       "subject_clean": "Hmisc 1.0 Available",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<Pine.LNX.4.33.0204091937400.28610-100000@imbe78.imbe.med.uni-erlangen.de>",
       "from_name": "Andrea Peters",
       "from_email_hash": "efe22461d49cb82c172589b04aa08fe5611dea64adb77f8c872f3f13acd085b6",
-      "date": "2002-04-10T10:18:30+02:00",
+      "date": "2002-04-10T08:18:30Z",
       "subject": "New Package: ipred - Improved predictors",
       "subject_clean": "New Package: ipred - Improved predictors",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<JPEBKBMBPPHHPEIOHMGHOEBBHMAA.mariabeth.silkey@predict.ch>",
       "from_name": "Mariabeth Silkey",
       "from_email_hash": "06c87ca7a6486f37f7b15a98a4eda6555b2bdbf4800acec4a3adef6f5ae6e81c",
-      "date": "2002-04-10T18:27:06+02:00",
+      "date": "2002-04-10T16:27:06Z",
       "subject": "No subject",
       "subject_clean": "No subject",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<Pine.LNX.4.33.0204111049500.30461-100000@chim252.unife.it>",
       "from_name": "nicola marchetti",
       "from_email_hash": "971f173ee4b287e59f474fac5634153cc7defcba67ee47bd9d9804b86252c32b",
-      "date": "2002-04-11T11:09:12+02:00",
+      "date": "2002-04-11T09:09:12Z",
       "subject": "new acf package",
       "subject_clean": "new acf package",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<x2vgaaycfa.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2002-04-29T13:25:13+02:00",
+      "date": "2002-04-29T11:25:13Z",
       "subject": "R-1.5.0 is released ",
       "subject_clean": "R-1.5.0 is released",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<20020429111221.01cbe942.fharrell@virginia.edu>",
       "from_name": "Frank E Harrell Jr",
       "from_email_hash": "bd19bd9f169b5f3d1a992f9f1800c6f882823514a102dfe1216f921e43131154",
-      "date": "2002-04-29T11:12:21-04:00",
+      "date": "2002-04-29T15:12:21Z",
       "subject": "Release of Design library; update of Hmisc library",
       "subject_clean": "Release of Design library; update of Hmisc library",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<15565.63137.139947.193182@sonny.eddelbuettel.com>",
       "from_name": "Dirk Eddelbuettel",
       "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
-      "date": "2002-04-29T20:42:57-05:00",
+      "date": "2002-04-30T01:42:57Z",
       "subject": "Debian packages of R 1.5.0 available",
       "subject_clean": "Debian packages of R 1.5.0 available",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<m172YKn-000IYIC@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2002-04-30T09:10:25-05:00",
+      "date": "2002-04-30T14:10:25Z",
       "subject": "R-1.5.0 sources available via rsync",
       "subject_clean": "R-1.5.0 sources available via rsync",
       "in_reply_to": null,
@@ -152,7 +152,7 @@
       "message_id": "<12D955C7-5C75-11D6-AE75-003065CC4CB8@mclink.it>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
-      "date": "2002-04-30T22:01:35+02:00",
+      "date": "2002-04-30T20:01:35Z",
       "subject": "R 150 for MacOS (Carbon R) released",
       "subject_clean": "R 150 for MacOS (Carbon R) released",
       "in_reply_to": null,
@@ -172,8 +172,8 @@
       "participants": [
         "Liaw, Andy"
       ],
-      "started": "2002-04-02T10:22:41-05:00",
-      "last_reply": "2002-04-02T10:22:41-05:00",
+      "started": "2002-04-02T15:22:41Z",
+      "last_reply": "2002-04-02T15:22:41Z",
       "root_message_id": "msg-027cb67c88ee"
     },
     {
@@ -183,8 +183,8 @@
       "participants": [
         "Frank E Harrell Jr"
       ],
-      "started": "2002-04-07T16:41:24-04:00",
-      "last_reply": "2002-04-07T16:41:24-04:00",
+      "started": "2002-04-07T20:41:24Z",
+      "last_reply": "2002-04-07T20:41:24Z",
       "root_message_id": "msg-7c21c9dea610"
     },
     {
@@ -194,8 +194,8 @@
       "participants": [
         "Andrea Peters"
       ],
-      "started": "2002-04-10T10:18:30+02:00",
-      "last_reply": "2002-04-10T10:18:30+02:00",
+      "started": "2002-04-10T08:18:30Z",
+      "last_reply": "2002-04-10T08:18:30Z",
       "root_message_id": "msg-1fef88aa1f31"
     },
     {
@@ -205,8 +205,8 @@
       "participants": [
         "Mariabeth Silkey"
       ],
-      "started": "2002-04-10T18:27:06+02:00",
-      "last_reply": "2002-04-10T18:27:06+02:00",
+      "started": "2002-04-10T16:27:06Z",
+      "last_reply": "2002-04-10T16:27:06Z",
       "root_message_id": "msg-558b0f3d2213"
     },
     {
@@ -216,20 +216,9 @@
       "participants": [
         "nicola marchetti"
       ],
-      "started": "2002-04-11T11:09:12+02:00",
-      "last_reply": "2002-04-11T11:09:12+02:00",
+      "started": "2002-04-11T09:09:12Z",
+      "last_reply": "2002-04-11T09:09:12Z",
       "root_message_id": "msg-302a192f020b"
-    },
-    {
-      "id": "thread-42ba90ac39d1",
-      "subject": "Release of Design library; update of Hmisc library",
-      "message_count": 1,
-      "participants": [
-        "Frank E Harrell Jr"
-      ],
-      "started": "2002-04-29T11:12:21-04:00",
-      "last_reply": "2002-04-29T11:12:21-04:00",
-      "root_message_id": "msg-42ba90ac39d1"
     },
     {
       "id": "thread-52699fdc89b1",
@@ -238,9 +227,20 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2002-04-29T13:25:13+02:00",
-      "last_reply": "2002-04-29T13:25:13+02:00",
+      "started": "2002-04-29T11:25:13Z",
+      "last_reply": "2002-04-29T11:25:13Z",
       "root_message_id": "msg-52699fdc89b1"
+    },
+    {
+      "id": "thread-42ba90ac39d1",
+      "subject": "Release of Design library; update of Hmisc library",
+      "message_count": 1,
+      "participants": [
+        "Frank E Harrell Jr"
+      ],
+      "started": "2002-04-29T15:12:21Z",
+      "last_reply": "2002-04-29T15:12:21Z",
+      "root_message_id": "msg-42ba90ac39d1"
     },
     {
       "id": "thread-c376aa6d4be7",
@@ -249,8 +249,8 @@
       "participants": [
         "Dirk Eddelbuettel"
       ],
-      "started": "2002-04-29T20:42:57-05:00",
-      "last_reply": "2002-04-29T20:42:57-05:00",
+      "started": "2002-04-30T01:42:57Z",
+      "last_reply": "2002-04-30T01:42:57Z",
       "root_message_id": "msg-c376aa6d4be7"
     },
     {
@@ -260,8 +260,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2002-04-30T09:10:25-05:00",
-      "last_reply": "2002-04-30T09:10:25-05:00",
+      "started": "2002-04-30T14:10:25Z",
+      "last_reply": "2002-04-30T14:10:25Z",
       "root_message_id": "msg-2a20b7a4fbb4"
     },
     {
@@ -271,8 +271,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2002-04-30T22:01:35+02:00",
-      "last_reply": "2002-04-30T22:01:35+02:00",
+      "started": "2002-04-30T20:01:35Z",
+      "last_reply": "2002-04-30T20:01:35Z",
       "root_message_id": "msg-f218a41e9fed"
     }
   ]

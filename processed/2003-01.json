@@ -181,8 +181,8 @@
       "participants": [
         "Frank E Harrell Jr"
       ],
-      "started": "2003-01-01T20:33:05+00:00",
-      "last_reply": "2003-01-01T20:33:05+00:00",
+      "started": "2003-01-01T20:33:05Z",
+      "last_reply": "2003-01-01T20:33:05Z",
       "root_message_id": "msg-fdfe83a952db"
     },
     {
@@ -192,8 +192,8 @@
       "participants": [
         "Roger Peng"
       ],
-      "started": "2003-01-08T17:48:05+00:00",
-      "last_reply": "2003-01-08T17:48:05+00:00",
+      "started": "2003-01-08T17:48:05Z",
+      "last_reply": "2003-01-08T17:48:05Z",
       "root_message_id": "msg-6d373ce19caf"
     },
     {
@@ -205,8 +205,8 @@
         "Douglas Bates",
         "Peter Dalgaard BSA"
       ],
-      "started": "2003-01-10T16:53:02+00:00",
-      "last_reply": "2003-01-11T11:31:05+00:00",
+      "started": "2003-01-10T16:53:02Z",
+      "last_reply": "2003-01-11T11:31:05Z",
       "root_message_id": "msg-a949de6d21a6"
     },
     {
@@ -216,8 +216,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2003-01-10T18:13:02+00:00",
-      "last_reply": "2003-01-10T18:13:02+00:00",
+      "started": "2003-01-10T18:13:02Z",
+      "last_reply": "2003-01-10T18:13:02Z",
       "root_message_id": "msg-9abbaa0fa77c"
     },
     {
@@ -227,8 +227,8 @@
       "participants": [
         "Duncan Murdoch"
       ],
-      "started": "2003-01-11T19:55:03+00:00",
-      "last_reply": "2003-01-11T19:55:03+00:00",
+      "started": "2003-01-11T19:55:03Z",
+      "last_reply": "2003-01-11T19:55:03Z",
       "root_message_id": "msg-bf81839ac53d"
     },
     {
@@ -238,8 +238,8 @@
       "participants": [
         "Thomas Lumley"
       ],
-      "started": "2003-01-25T20:56:03+00:00",
-      "last_reply": "2003-01-25T20:56:03+00:00",
+      "started": "2003-01-25T20:56:03Z",
+      "last_reply": "2003-01-25T20:56:03Z",
       "root_message_id": "msg-91f259df1d06"
     },
     {
@@ -249,8 +249,8 @@
       "participants": [
         "Frank E Harrell Jr"
       ],
-      "started": "2003-01-30T13:29:05+00:00",
-      "last_reply": "2003-01-30T13:29:05+00:00",
+      "started": "2003-01-30T13:29:05Z",
+      "last_reply": "2003-01-30T13:29:05Z",
       "root_message_id": "msg-9eb911a1a690"
     }
   ]

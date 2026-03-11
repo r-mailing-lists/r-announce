@@ -8,7 +8,7 @@
       "message_id": "<785F3934-10B5-45F5-9829-010206E6FB00@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2010-03-22T11:38:23+01:00",
+      "date": "2010-03-22T10:38:23Z",
       "subject": "R 2.11.0 Scheduled for April 22, 2010",
       "subject_clean": "R 2.11.0 Scheduled for April 22, 2010",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<19368.55659.435905.884614@ron.nulle.part>",
       "from_name": "Dirk Eddelbuettel",
       "from_email_hash": "8b79bd175967d91ecdd7979d4279ce0b4d94d50f3ec4f327ced43f7d41be7110",
-      "date": "2010-03-23T10:08:27-05:00",
+      "date": "2010-03-23T15:08:27Z",
       "subject": "R Participation in the Google Summer of Code 2010",
       "subject_clean": "R Participation in the Google Summer of Code 2010",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2010-03-22T11:38:23+01:00",
-      "last_reply": "2010-03-22T11:38:23+01:00",
+      "started": "2010-03-22T10:38:23Z",
+      "last_reply": "2010-03-22T10:38:23Z",
       "root_message_id": "msg-454e2c1dce27"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Dirk Eddelbuettel"
       ],
-      "started": "2010-03-23T10:08:27-05:00",
-      "last_reply": "2010-03-23T10:08:27-05:00",
+      "started": "2010-03-23T15:08:27Z",
+      "last_reply": "2010-03-23T15:08:27Z",
       "root_message_id": "msg-d3cd9aff38be"
     }
   ]

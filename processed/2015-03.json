@@ -8,7 +8,7 @@
       "message_id": "<CAPRP4-e0OjY9EFJdmSp99amsSy8NYewwimo5QUeseYNY+Aq_Eg@mail.gmail.com>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "2015-03-04T23:13:14+01:00",
+      "date": "2015-03-04T22:13:14Z",
       "subject": "format( \"www.R-project.org\" , year = 2015)",
       "subject_clean": "format( \"www.R-project.org\" , year = 2015)",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<4EE2768D-1C4B-487F-A72C-2AA8EEE50D05@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2015-03-09T10:04:28+01:00",
+      "date": "2015-03-09T09:04:28Z",
       "subject": "R 3.1.3 is released",
       "subject_clean": "R 3.1.3 is released",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "2015-03-04T23:13:14+01:00",
-      "last_reply": "2015-03-04T23:13:14+01:00",
+      "started": "2015-03-04T22:13:14Z",
+      "last_reply": "2015-03-04T22:13:14Z",
       "root_message_id": "msg-4fcf1fcf44bc"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2015-03-09T10:04:28+01:00",
-      "last_reply": "2015-03-09T10:04:28+01:00",
+      "started": "2015-03-09T09:04:28Z",
+      "last_reply": "2015-03-09T09:04:28Z",
       "root_message_id": "msg-380913231b47"
     }
   ]

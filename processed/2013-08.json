@@ -8,7 +8,7 @@
       "message_id": "<9354C77B-01F6-45CA-A585-EEA97B34C72A@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "d2573f0c0a474184a9d96c815fc6bf37ff7c6392082069d810139c562d5a6f71",
-      "date": "2013-08-22T08:29:53+02:00",
+      "date": "2013-08-22T06:29:53Z",
       "subject": "R-3.0.2 on September 25",
       "subject_clean": "R-3.0.2 on September 25",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<002501ce9f89$15a4a250$40ede6f0$@mcmaster.ca>",
       "from_name": "John Fox",
       "from_email_hash": "9fc2f6144953b53eb53d3480f700aed858778cd0863b6b018aa7146c110d813a",
-      "date": "2013-08-22T18:43:55-04:00",
+      "date": "2013-08-22T22:43:55Z",
       "subject": "Rcmdr version 2.0-0 now on CRAN",
       "subject_clean": "Rcmdr version 2.0-0 now on CRAN",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2013-08-22T08:29:53+02:00",
-      "last_reply": "2013-08-22T08:29:53+02:00",
+      "started": "2013-08-22T06:29:53Z",
+      "last_reply": "2013-08-22T06:29:53Z",
       "root_message_id": "msg-41726ea3127b"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "John Fox"
       ],
-      "started": "2013-08-22T18:43:55-04:00",
-      "last_reply": "2013-08-22T18:43:55-04:00",
+      "started": "2013-08-22T22:43:55Z",
+      "last_reply": "2013-08-22T22:43:55Z",
       "root_message_id": "msg-d0fadbcd8747"
     }
   ]

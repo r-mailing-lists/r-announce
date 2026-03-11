@@ -8,7 +8,7 @@
       "message_id": "<199712050830.VAA18123@stat1.stat.auckland.ac.nz>",
       "from_name": "Ross Ihaka",
       "from_email_hash": "04ecc52df29664f6d7d78462a431210f1fc44efa859cdf5ba96c05176d368866",
-      "date": "1997-12-05T21:30:56+13:00",
+      "date": "1997-12-05T08:30:56Z",
       "subject": "New R Version for Unix",
       "subject_clean": "New R Version for Unix",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<199712071913.IAA27288@stat1.stat.auckland.ac.nz>",
       "from_name": "Ross Ihaka",
       "from_email_hash": "04ecc52df29664f6d7d78462a431210f1fc44efa859cdf5ba96c05176d368866",
-      "date": "1997-12-08T08:13:41+13:00",
+      "date": "1997-12-07T19:13:41Z",
       "subject": "First Patch to R-0.60 for Unix",
       "subject_clean": "First Patch to R-0.60 for Unix",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<199712091748.SAA29807@aragorn.ci.tuwien.ac.at>",
       "from_name": "Kurt Hornik",
       "from_email_hash": "6e49e5789d24862255bc60d8e4c5d8665b01105c5c098a9e7289a025e4708eb8",
-      "date": "1997-12-09T18:48:20+01:00",
+      "date": "1997-12-09T17:48:20Z",
       "subject": "R FAQ v0.60",
       "subject_clean": "R FAQ v0.60",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<199712091821.TAA08749@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1997-12-09T19:21:16+01:00",
+      "date": "1997-12-09T18:21:16Z",
       "subject": "R-beta: R FAQ v0.60",
       "subject_clean": "R-beta: R FAQ v0.60",
       "in_reply_to": "<x24t4i9yjz.fsf@blueberry.kubism.ku.dk>",
@@ -75,7 +75,7 @@
       "message_id": "<Pine.SOL.3.96.971211005155.12804C-100000@ultra1>",
       "from_name": "Anthony Chavez",
       "from_email_hash": "5445d999136838a2562d6aef8302ab5b7971e75b996a6a8d79169c03dafd7549",
-      "date": "1997-12-11T00:53:27-07:00",
+      "date": "1997-12-11T07:53:27Z",
       "subject": "R-beta: time series structures",
       "subject_clean": "R-beta: time series structures",
       "in_reply_to": "<348F139A.8032984A@stat.unipg.it>",
@@ -91,7 +91,7 @@
       "message_id": "<x2sormtqk7.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1997-12-21T21:00:08+01:00",
+      "date": "1997-12-21T20:00:08Z",
       "subject": "New version available",
       "subject_clean": "New version available",
       "in_reply_to": null,
@@ -111,8 +111,8 @@
       "participants": [
         "Ross Ihaka"
       ],
-      "started": "1997-12-05T21:30:56+13:00",
-      "last_reply": "1997-12-05T21:30:56+13:00",
+      "started": "1997-12-05T08:30:56Z",
+      "last_reply": "1997-12-05T08:30:56Z",
       "root_message_id": "msg-ce96aa4248fe"
     },
     {
@@ -122,8 +122,8 @@
       "participants": [
         "Ross Ihaka"
       ],
-      "started": "1997-12-08T08:13:41+13:00",
-      "last_reply": "1997-12-08T08:13:41+13:00",
+      "started": "1997-12-07T19:13:41Z",
+      "last_reply": "1997-12-07T19:13:41Z",
       "root_message_id": "msg-878764bf4a28"
     },
     {
@@ -133,8 +133,8 @@
       "participants": [
         "Kurt Hornik"
       ],
-      "started": "1997-12-09T18:48:20+01:00",
-      "last_reply": "1997-12-09T18:48:20+01:00",
+      "started": "1997-12-09T17:48:20Z",
+      "last_reply": "1997-12-09T17:48:20Z",
       "root_message_id": "msg-330bdc1ddf41"
     },
     {
@@ -144,8 +144,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1997-12-09T19:21:16+01:00",
-      "last_reply": "1997-12-09T19:21:16+01:00",
+      "started": "1997-12-09T18:21:16Z",
+      "last_reply": "1997-12-09T18:21:16Z",
       "root_message_id": "msg-8f75b9fff382"
     },
     {
@@ -155,8 +155,8 @@
       "participants": [
         "Anthony Chavez"
       ],
-      "started": "1997-12-11T00:53:27-07:00",
-      "last_reply": "1997-12-11T00:53:27-07:00",
+      "started": "1997-12-11T07:53:27Z",
+      "last_reply": "1997-12-11T07:53:27Z",
       "root_message_id": "msg-218722833a0b"
     },
     {
@@ -166,8 +166,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1997-12-21T21:00:08+01:00",
-      "last_reply": "1997-12-21T21:00:08+01:00",
+      "started": "1997-12-21T20:00:08Z",
+      "last_reply": "1997-12-21T20:00:08Z",
       "root_message_id": "msg-a392c311bf1c"
     }
   ]

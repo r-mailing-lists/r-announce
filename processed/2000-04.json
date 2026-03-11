@@ -8,7 +8,7 @@
       "message_id": "<x2ya6hrp42.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2000-04-14T11:47:09+02:00",
+      "date": "2000-04-14T09:47:09Z",
       "subject": "R-1.0.1 is released",
       "subject_clean": "R-1.0.1 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<20000420101925.47833@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2000-04-20T10:19:25+01:00",
+      "date": "2000-04-20T09:19:25Z",
       "subject": "New Windows binaries available",
       "subject_clean": "New Windows binaries available",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<39098EBF.433374B5@bank-banque-canada.ca>",
       "from_name": "Paul Gilbert",
       "from_email_hash": "51f348dc0febec9b32e9d9dcb86f6de731958e1295e818209b4c127bffef5569",
-      "date": "2000-04-28T09:14:39-04:00",
+      "date": "2000-04-28T13:14:39Z",
       "subject": "multivariate time series package",
       "subject_clean": "multivariate time series package",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2000-04-14T11:47:09+02:00",
-      "last_reply": "2000-04-14T11:47:09+02:00",
+      "started": "2000-04-14T09:47:09Z",
+      "last_reply": "2000-04-14T09:47:09Z",
       "root_message_id": "msg-f2a1f328e13d"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "2000-04-20T10:19:25+01:00",
-      "last_reply": "2000-04-20T10:19:25+01:00",
+      "started": "2000-04-20T09:19:25Z",
+      "last_reply": "2000-04-20T09:19:25Z",
       "root_message_id": "msg-bfbe2d2ff133"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Paul Gilbert"
       ],
-      "started": "2000-04-28T09:14:39-04:00",
-      "last_reply": "2000-04-28T09:14:39-04:00",
+      "started": "2000-04-28T13:14:39Z",
+      "last_reply": "2000-04-28T13:14:39Z",
       "root_message_id": "msg-dcefc9420fcc"
     }
   ]

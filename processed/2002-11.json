@@ -8,7 +8,7 @@
       "message_id": "<x23cql1pq5.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2002-11-01T12:41:54+01:00",
+      "date": "2002-11-01T11:41:54Z",
       "subject": "R-1.6.1 is released",
       "subject_clean": "R-1.6.1 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2y98dz6ib.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2002-11-01T15:53:00+01:00",
+      "date": "2002-11-01T14:53:00Z",
       "subject": "R-1.6.1 is released",
       "subject_clean": "R-1.6.1 is released",
       "in_reply_to": "<x23cql1pq5.fsf@biostat.ku.dk>",
@@ -42,7 +42,7 @@
       "message_id": "<6r1y65dngj.fsf_-_@bates4.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2002-11-01T14:50:04-06:00",
+      "date": "2002-11-01T20:50:04Z",
       "subject": "R-1.6.1 available via rsync",
       "subject_clean": "R-1.6.1 available via rsync",
       "in_reply_to": "<6r65vhdsat.fsf@bates4.stat.wisc.edu>",
@@ -61,7 +61,7 @@
       "message_id": "<Pine.LNX.4.44.0211041555110.2251-100000@macchinetta.miadimora>",
       "from_name": "mikalzet at libero.it",
       "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
-      "date": "2002-11-04T15:57:20+01:00",
+      "date": "2002-11-04T14:57:20Z",
       "subject": "Mandrake RPMS for R 1.6.1",
       "subject_clean": "Mandrake RPMS for R 1.6.1",
       "in_reply_to": null,
@@ -77,7 +77,7 @@
       "message_id": "<gmifsusbvh1jufjlpjfnajvteioo7kqdih@4ax.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "f10e1920504dfef879061667fbcfa0823bbc832410cad04707fb294db3bd8d83",
-      "date": "2002-11-05T08:46:53-05:00",
+      "date": "2002-11-05T13:46:53Z",
       "subject": "Windows binary for R 1.6.1 on CRAN",
       "subject_clean": "Windows binary for R 1.6.1 on CRAN",
       "in_reply_to": null,
@@ -93,7 +93,7 @@
       "message_id": "<8m6osu0kg1ic63fheksu8pvtmmpe4it77g@4ax.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "f10e1920504dfef879061667fbcfa0823bbc832410cad04707fb294db3bd8d83",
-      "date": "2002-11-08T15:18:49-05:00",
+      "date": "2002-11-08T20:18:49Z",
       "subject": "Windows binary for R 1.6.1 FIXED",
       "subject_clean": "Windows binary for R 1.6.1 FIXED",
       "in_reply_to": null,
@@ -125,7 +125,7 @@
       "message_id": "<15824.23762.26065.934271@musil.localdomain>",
       "from_name": "Jasjeet Singh Sekhon",
       "from_email_hash": "fb8bc0cb16830f8ea34021b5d9997f1823661f62edbc610e2d4de765bec91e4c",
-      "date": "2002-11-11T20:43:46-05:00",
+      "date": "2002-11-12T01:43:46Z",
       "subject": "New version of rgenoud",
       "subject_clean": "New version of rgenoud",
       "in_reply_to": null,
@@ -141,7 +141,7 @@
       "message_id": "<5.1.0.14.2.20021124091444.01dc6318@mcmail.cis.mcmaster.ca>",
       "from_name": "John Fox",
       "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
-      "date": "2002-11-24T09:18:55-05:00",
+      "date": "2002-11-24T14:18:55Z",
       "subject": "Using XEmacs and ESS with R for MS/Windows",
       "subject_clean": "Using XEmacs and ESS with R for MS/Windows",
       "in_reply_to": null,
@@ -157,7 +157,7 @@
       "message_id": "<15842.27605.877712.518702@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2002-11-25T19:28:37+01:00",
+      "date": "2002-11-25T18:28:37Z",
       "subject": "Final CFP: DSC 2003",
       "subject_clean": "Final CFP: DSC 2003",
       "in_reply_to": null,
@@ -173,7 +173,7 @@
       "message_id": "<15843.45537.990567.20509@gargle.gargle.HOWL>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "2002-11-26T18:39:45+01:00",
+      "date": "2002-11-26T17:39:45Z",
       "subject": "R-announce moved from majordomo to [procmail+mailman]",
       "subject_clean": "R-announce moved from majordomo to [procmail+mailman]",
       "in_reply_to": null,
@@ -227,8 +227,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2002-11-01T12:41:54+01:00",
-      "last_reply": "2002-11-01T15:53:00+01:00",
+      "started": "2002-11-01T11:41:54Z",
+      "last_reply": "2002-11-01T14:53:00Z",
       "root_message_id": "msg-9e133c084414"
     },
     {
@@ -238,8 +238,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2002-11-01T14:50:04-06:00",
-      "last_reply": "2002-11-01T14:50:04-06:00",
+      "started": "2002-11-01T20:50:04Z",
+      "last_reply": "2002-11-01T20:50:04Z",
       "root_message_id": "msg-7449cc63902a"
     },
     {
@@ -249,8 +249,8 @@
       "participants": [
         "mikalzet at libero.it"
       ],
-      "started": "2002-11-04T15:57:20+01:00",
-      "last_reply": "2002-11-04T15:57:20+01:00",
+      "started": "2002-11-04T14:57:20Z",
+      "last_reply": "2002-11-04T14:57:20Z",
       "root_message_id": "msg-41a97e7a21b9"
     },
     {
@@ -260,8 +260,8 @@
       "participants": [
         "Duncan Murdoch"
       ],
-      "started": "2002-11-05T08:46:53-05:00",
-      "last_reply": "2002-11-05T08:46:53-05:00",
+      "started": "2002-11-05T13:46:53Z",
+      "last_reply": "2002-11-05T13:46:53Z",
       "root_message_id": "msg-28c64442f1a6"
     },
     {
@@ -271,8 +271,8 @@
       "participants": [
         "Duncan Murdoch"
       ],
-      "started": "2002-11-08T15:18:49-05:00",
-      "last_reply": "2002-11-08T15:18:49-05:00",
+      "started": "2002-11-08T20:18:49Z",
+      "last_reply": "2002-11-08T20:18:49Z",
       "root_message_id": "msg-862589523a6e"
     },
     {
@@ -282,8 +282,8 @@
       "participants": [
         "Chris Jackson"
       ],
-      "started": "2002-11-11T12:07:38+00:00",
-      "last_reply": "2002-11-11T12:07:38+00:00",
+      "started": "2002-11-11T12:07:38Z",
+      "last_reply": "2002-11-11T12:07:38Z",
       "root_message_id": "msg-35b091cf364f"
     },
     {
@@ -293,8 +293,8 @@
       "participants": [
         "Jasjeet Singh Sekhon"
       ],
-      "started": "2002-11-11T20:43:46-05:00",
-      "last_reply": "2002-11-11T20:43:46-05:00",
+      "started": "2002-11-12T01:43:46Z",
+      "last_reply": "2002-11-12T01:43:46Z",
       "root_message_id": "msg-84646dfed1b7"
     },
     {
@@ -304,8 +304,8 @@
       "participants": [
         "John Fox"
       ],
-      "started": "2002-11-24T09:18:55-05:00",
-      "last_reply": "2002-11-24T09:18:55-05:00",
+      "started": "2002-11-24T14:18:55Z",
+      "last_reply": "2002-11-24T14:18:55Z",
       "root_message_id": "msg-521cc9fe7320"
     },
     {
@@ -315,8 +315,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2002-11-25T19:28:37+01:00",
-      "last_reply": "2002-11-25T19:28:37+01:00",
+      "started": "2002-11-25T18:28:37Z",
+      "last_reply": "2002-11-25T18:28:37Z",
       "root_message_id": "msg-e3985b33e217"
     },
     {
@@ -326,8 +326,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "2002-11-26T18:39:45+01:00",
-      "last_reply": "2002-11-27T13:57:02+00:00",
+      "started": "2002-11-26T17:39:45Z",
+      "last_reply": "2002-11-27T13:57:02Z",
       "root_message_id": "msg-0fe6246ce8c9"
     },
     {
@@ -337,8 +337,8 @@
       "participants": [
         "Warnes, Gregory R"
       ],
-      "started": "2002-11-27T15:54:06+00:00",
-      "last_reply": "2002-11-27T15:54:06+00:00",
+      "started": "2002-11-27T15:54:06Z",
+      "last_reply": "2002-11-27T15:54:06Z",
       "root_message_id": "msg-31265a77e921"
     }
   ]

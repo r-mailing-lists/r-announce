@@ -8,7 +8,7 @@
       "message_id": "<OF5A4E86CA.80978113-ON852569EB.004F49B5@rtp.epa.gov>",
       "from_name": "Setzer.Woodrow at epamail.epa.gov",
       "from_email_hash": "1106788dd9d815d1da9015b5ba13d0f8bef965cf298924e0693292211724f3f7",
-      "date": "2001-02-06T09:34:27-05:00",
+      "date": "2001-02-06T14:34:27Z",
       "subject": "No subject",
       "subject_clean": "No subject",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<OFB5635B31.3FAE4376-ON852569EB.0058EBF4@rtp.epa.gov>",
       "from_name": "Setzer.Woodrow at epamail.epa.gov",
       "from_email_hash": "1106788dd9d815d1da9015b5ba13d0f8bef965cf298924e0693292211724f3f7",
-      "date": "2001-02-06T11:12:11-05:00",
+      "date": "2001-02-06T16:12:11Z",
       "subject": "ODE solver submitted to CRAN",
       "subject_clean": "ODE solver submitted to CRAN",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<x2lmqttvqj.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "df4a7a8ab4f8d0bef528c62db85abb1da002e92b7cf8c64fd891eca0ea281ee4",
-      "date": "2001-02-26T14:33:08+01:00",
+      "date": "2001-02-26T13:33:08Z",
       "subject": "R-1.2.2 is released",
       "subject_clean": "R-1.2.2 is released",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<6rhf1h33sq.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2001-02-26T08:41:09-06:00",
+      "date": "2001-02-26T14:41:09Z",
       "subject": "R-1.2.2 via rsync",
       "subject_clean": "R-1.2.2 via rsync",
       "in_reply_to": null,
@@ -76,8 +76,8 @@
       "participants": [
         "Setzer.Woodrow at epamail.epa.gov"
       ],
-      "started": "2001-02-06T09:34:27-05:00",
-      "last_reply": "2001-02-06T09:34:27-05:00",
+      "started": "2001-02-06T14:34:27Z",
+      "last_reply": "2001-02-06T14:34:27Z",
       "root_message_id": "msg-b58c1266a323"
     },
     {
@@ -87,20 +87,9 @@
       "participants": [
         "Setzer.Woodrow at epamail.epa.gov"
       ],
-      "started": "2001-02-06T11:12:11-05:00",
-      "last_reply": "2001-02-06T11:12:11-05:00",
+      "started": "2001-02-06T16:12:11Z",
+      "last_reply": "2001-02-06T16:12:11Z",
       "root_message_id": "msg-63c40a986667"
-    },
-    {
-      "id": "thread-47981855bc1f",
-      "subject": "R-1.2.2 via rsync",
-      "message_count": 1,
-      "participants": [
-        "Douglas Bates"
-      ],
-      "started": "2001-02-26T08:41:09-06:00",
-      "last_reply": "2001-02-26T08:41:09-06:00",
-      "root_message_id": "msg-47981855bc1f"
     },
     {
       "id": "thread-539076379226",
@@ -109,9 +98,20 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2001-02-26T14:33:08+01:00",
-      "last_reply": "2001-02-26T14:33:08+01:00",
+      "started": "2001-02-26T13:33:08Z",
+      "last_reply": "2001-02-26T13:33:08Z",
       "root_message_id": "msg-539076379226"
+    },
+    {
+      "id": "thread-47981855bc1f",
+      "subject": "R-1.2.2 via rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2001-02-26T14:41:09Z",
+      "last_reply": "2001-02-26T14:41:09Z",
+      "root_message_id": "msg-47981855bc1f"
     }
   ]
 }

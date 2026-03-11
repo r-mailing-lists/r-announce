@@ -8,7 +8,7 @@
       "message_id": "<55937A45.8060600@jku.at>",
       "from_name": "Bettina Gruen",
       "from_email_hash": "899bcb77a93ae61771d26bee482d1c25ddf3264aa9ed7aaac824cf93f84bb6db",
-      "date": "2015-07-01T07:27:33+02:00",
+      "date": "2015-07-01T05:27:33Z",
       "subject": "The R Journal, Volume 7, Issue 1",
       "subject_clean": "The R Journal, Volume 7, Issue 1",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<1D0E985F-12DC-41DD-8BDF-F00DC3AA4C06@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2015-07-17T18:23:56+02:00",
+      "date": "2015-07-17T16:23:56Z",
       "subject": "Release of R 3.2.2 scheduled for August 14",
       "subject_clean": "Release of R 3.2.2 scheduled for August 14",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Bettina Gruen"
       ],
-      "started": "2015-07-01T07:27:33+02:00",
-      "last_reply": "2015-07-01T07:27:33+02:00",
+      "started": "2015-07-01T05:27:33Z",
+      "last_reply": "2015-07-01T05:27:33Z",
       "root_message_id": "msg-22837717f890"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2015-07-17T18:23:56+02:00",
-      "last_reply": "2015-07-17T18:23:56+02:00",
+      "started": "2015-07-17T16:23:56Z",
+      "last_reply": "2015-07-17T16:23:56Z",
       "root_message_id": "msg-21e491acda5c"
     }
   ]

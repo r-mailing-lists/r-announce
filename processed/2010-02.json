@@ -8,7 +8,7 @@
       "message_id": "<alpine.DEB.1.10.1002011428150.17588@h180239.nist.gov>",
       "from_name": "Katharine Mullen",
       "from_email_hash": "e66758f72249d606022873f1d14e90d33cdef4e090cd376986ff85496beafd8d",
-      "date": "2010-02-01T14:31:12-05:00",
+      "date": "2010-02-01T19:31:12Z",
       "subject": "Abstract submission deadline, useR! 2010",
       "subject_clean": "Abstract submission deadline, useR! 2010",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Katharine Mullen"
       ],
-      "started": "2010-02-01T14:31:12-05:00",
-      "last_reply": "2010-02-01T14:31:12-05:00",
+      "started": "2010-02-01T19:31:12Z",
+      "last_reply": "2010-02-01T19:31:12Z",
       "root_message_id": "msg-dcbcd6bbc611"
     }
   ]

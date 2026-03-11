@@ -8,7 +8,7 @@
       "message_id": "<CAGYbZUDSY-uh7svf4QO4=F8xgvsCHLshCEUuD7adfgdbNnRYDg@mail.gmail.com>",
       "from_name": "Robert Gentleman",
       "from_email_hash": "12c7439ade453dc62b9fec8ce5bd0f33b8a75f01b0092f6b408307065ed51b3c",
-      "date": "2014-09-15T09:36:17-07:00",
+      "date": "2014-09-15T16:36:17Z",
       "subject": "Updates to R Core and R Foundation Membership",
       "subject_clean": "Updates to R Core and R Foundation Membership",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Robert Gentleman"
       ],
-      "started": "2014-09-15T09:36:17-07:00",
-      "last_reply": "2014-09-15T09:36:17-07:00",
+      "started": "2014-09-15T16:36:17Z",
+      "last_reply": "2014-09-15T16:36:17Z",
       "root_message_id": "msg-a90c81a19980"
     }
   ]

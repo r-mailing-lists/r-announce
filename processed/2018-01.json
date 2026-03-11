@@ -8,7 +8,7 @@
       "message_id": "<alpine.LFD.2.21.1801291245030.4114@reclus.nhh.no>",
       "from_name": "Roger Bivand",
       "from_email_hash": "a0c87926e9477aa221755cc93bdef47227c3563fd707e66ae49044467663d168",
-      "date": "2018-01-29T13:24:58+01:00",
+      "date": "2018-01-29T12:24:58Z",
       "subject": "The R Journal, Volume 9, Issue 2",
       "subject_clean": "The R Journal, Volume 9, Issue 2",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Roger Bivand"
       ],
-      "started": "2018-01-29T13:24:58+01:00",
-      "last_reply": "2018-01-29T13:24:58+01:00",
+      "started": "2018-01-29T12:24:58Z",
+      "last_reply": "2018-01-29T12:24:58Z",
       "root_message_id": "msg-2a4c6a1ddcd2"
     }
   ]

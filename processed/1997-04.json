@@ -8,7 +8,7 @@
       "message_id": "<9704010948.AA00412@>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "1997-04-01T11:48:02+02:00",
+      "date": "1997-04-01T09:48:02Z",
       "subject": "\"R-announce\", \"R-help\", \"R-devel\" : 3 mailing lists for R",
       "subject_clean": "\"R-announce\", \"R-help\", \"R-devel\" : 3 mailing lists for R",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<199704230640.IAA03837@aragorn.ci.tuwien.ac.at>",
       "from_name": "Kurt Hornik",
       "from_email_hash": "6e49e5789d24862255bc60d8e4c5d8665b01105c5c098a9e7289a025e4708eb8",
-      "date": "1997-04-23T08:40:28+02:00",
+      "date": "1997-04-23T06:40:28Z",
       "subject": "ANNOUNCE:  CRAN",
       "subject_clean": "ANNOUNCE:  CRAN",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<199704230925.VAA24453@stat1.stat.auckland.ac.nz>",
       "from_name": "Ross Ihaka",
       "from_email_hash": "04ecc52df29664f6d7d78462a431210f1fc44efa859cdf5ba96c05176d368866",
-      "date": "1997-04-23T21:25:23+12:00",
+      "date": "1997-04-23T09:25:23Z",
       "subject": "Version 0.49 Released",
       "subject_clean": "Version 0.49 Released",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<199704230936.VAA24493@stat1.stat.auckland.ac.nz>",
       "from_name": "Ross Ihaka",
       "from_email_hash": "04ecc52df29664f6d7d78462a431210f1fc44efa859cdf5ba96c05176d368866",
-      "date": "1997-04-23T21:36:33+12:00",
+      "date": "1997-04-23T09:36:33Z",
       "subject": "Version 0.49 Addendum",
       "subject_clean": "Version 0.49 Addendum",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<199704231513.RAA14629@aragorn.ci.tuwien.ac.at>",
       "from_name": "Kurt Hornik",
       "from_email_hash": "6e49e5789d24862255bc60d8e4c5d8665b01105c5c098a9e7289a025e4708eb8",
-      "date": "1997-04-23T17:13:22+02:00",
+      "date": "1997-04-23T15:13:22Z",
       "subject": "R-FAQ v0.1-0",
       "subject_clean": "R-FAQ v0.1-0",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<199704270321.PAA22468@stat13.stat.auckland.ac.nz>",
       "from_name": "Robert Gentleman",
       "from_email_hash": "291c1691bb3652d7a0dabfa65946a606d56f63031b9f3260c41a2249304c478b",
-      "date": "1997-04-27T15:21:15+12:00",
+      "date": "1997-04-27T03:21:15Z",
       "subject": "R for Windows95",
       "subject_clean": "R for Windows95",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<Pine.GSO.3.95.970429144610.21981B-100000@hannan>",
       "from_name": "Arne Kovac",
       "from_email_hash": "201d3df180f1be2ad9fb95a039d17d621418e2c336d8f5717a6e8f3a5abd5007",
-      "date": "1997-04-29T15:06:19+01:00",
+      "date": "1997-04-29T14:06:19Z",
       "subject": "WaveThresh",
       "subject_clean": "WaveThresh",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<33666FAD.181869A4@ulrik.uio.no>",
       "from_name": "Harald Fekjaer",
       "from_email_hash": "ea2052ffcbb6bd9458de8b736ce0d352a7b85f48a966a9e112e00d7ee41e1d38",
-      "date": "1997-04-30T00:01:17+02:00",
+      "date": "1997-04-29T22:01:17Z",
       "subject": "New R package for survival analysis",
       "subject_clean": "New R package for survival analysis",
       "in_reply_to": null,
@@ -140,8 +140,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "1997-04-01T11:48:02+02:00",
-      "last_reply": "1997-04-01T11:48:02+02:00",
+      "started": "1997-04-01T09:48:02Z",
+      "last_reply": "1997-04-01T09:48:02Z",
       "root_message_id": "msg-64afaa3c9191"
     },
     {
@@ -151,20 +151,9 @@
       "participants": [
         "Kurt Hornik"
       ],
-      "started": "1997-04-23T08:40:28+02:00",
-      "last_reply": "1997-04-23T08:40:28+02:00",
+      "started": "1997-04-23T06:40:28Z",
+      "last_reply": "1997-04-23T06:40:28Z",
       "root_message_id": "msg-b89a7db15514"
-    },
-    {
-      "id": "thread-3c275d0ea02c",
-      "subject": "R-FAQ v0.1-0",
-      "message_count": 1,
-      "participants": [
-        "Kurt Hornik"
-      ],
-      "started": "1997-04-23T17:13:22+02:00",
-      "last_reply": "1997-04-23T17:13:22+02:00",
-      "root_message_id": "msg-3c275d0ea02c"
     },
     {
       "id": "thread-1fc3bd597b63",
@@ -173,8 +162,8 @@
       "participants": [
         "Ross Ihaka"
       ],
-      "started": "1997-04-23T21:25:23+12:00",
-      "last_reply": "1997-04-23T21:25:23+12:00",
+      "started": "1997-04-23T09:25:23Z",
+      "last_reply": "1997-04-23T09:25:23Z",
       "root_message_id": "msg-1fc3bd597b63"
     },
     {
@@ -184,9 +173,20 @@
       "participants": [
         "Ross Ihaka"
       ],
-      "started": "1997-04-23T21:36:33+12:00",
-      "last_reply": "1997-04-23T21:36:33+12:00",
+      "started": "1997-04-23T09:36:33Z",
+      "last_reply": "1997-04-23T09:36:33Z",
       "root_message_id": "msg-c1778c76fb0c"
+    },
+    {
+      "id": "thread-3c275d0ea02c",
+      "subject": "R-FAQ v0.1-0",
+      "message_count": 1,
+      "participants": [
+        "Kurt Hornik"
+      ],
+      "started": "1997-04-23T15:13:22Z",
+      "last_reply": "1997-04-23T15:13:22Z",
+      "root_message_id": "msg-3c275d0ea02c"
     },
     {
       "id": "thread-494fb2e9df49",
@@ -195,8 +195,8 @@
       "participants": [
         "Robert Gentleman"
       ],
-      "started": "1997-04-27T15:21:15+12:00",
-      "last_reply": "1997-04-27T15:21:15+12:00",
+      "started": "1997-04-27T03:21:15Z",
+      "last_reply": "1997-04-27T03:21:15Z",
       "root_message_id": "msg-494fb2e9df49"
     },
     {
@@ -206,8 +206,8 @@
       "participants": [
         "Arne Kovac"
       ],
-      "started": "1997-04-29T15:06:19+01:00",
-      "last_reply": "1997-04-29T15:06:19+01:00",
+      "started": "1997-04-29T14:06:19Z",
+      "last_reply": "1997-04-29T14:06:19Z",
       "root_message_id": "msg-cf7b889c9411"
     },
     {
@@ -217,8 +217,8 @@
       "participants": [
         "Harald Fekjaer"
       ],
-      "started": "1997-04-30T00:01:17+02:00",
-      "last_reply": "1997-04-30T00:01:17+02:00",
+      "started": "1997-04-29T22:01:17Z",
+      "last_reply": "1997-04-29T22:01:17Z",
       "root_message_id": "msg-74845296c53f"
     }
   ]

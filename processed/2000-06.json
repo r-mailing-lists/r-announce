@@ -8,7 +8,7 @@
       "message_id": "<x2d7lj5lt0.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2000-06-15T11:35:23+02:00",
+      "date": "2000-06-15T09:35:23Z",
       "subject": "R-1.1.0 is released",
       "subject_clean": "R-1.1.0 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<6r7lbrcc1j.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2000-06-15T08:24:24-05:00",
+      "date": "2000-06-15T13:24:24Z",
       "subject": "R-1.1.0 now available by rsync",
       "subject_clean": "R-1.1.0 now available by rsync",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<20000617193907.62739@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2000-06-17T19:39:07+01:00",
+      "date": "2000-06-17T18:39:07Z",
       "subject": "R 1.1.0 for Windows",
       "subject_clean": "R 1.1.0 for Windows",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<200006282113.XAA23403@aragorn.ci.tuwien.ac.at>",
       "from_name": "Kurt Hornik",
       "from_email_hash": "c259ef400cb20a19b00d24612508e4d9cef4c260cf545ea89764819aaa0fcbd4",
-      "date": "2000-06-28T23:13:32+02:00",
+      "date": "2000-06-28T21:13:32Z",
       "subject": "New version of chron",
       "subject_clean": "New version of chron",
       "in_reply_to": null,
@@ -70,26 +70,26 @@
   ],
   "threads": [
     {
-      "id": "thread-8b161374b36f",
-      "subject": "R-1.1.0 now available by rsync",
-      "message_count": 1,
-      "participants": [
-        "Douglas Bates"
-      ],
-      "started": "2000-06-15T08:24:24-05:00",
-      "last_reply": "2000-06-15T08:24:24-05:00",
-      "root_message_id": "msg-8b161374b36f"
-    },
-    {
       "id": "thread-8ba6dbf5dbc8",
       "subject": "R-1.1.0 is released",
       "message_count": 1,
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "2000-06-15T11:35:23+02:00",
-      "last_reply": "2000-06-15T11:35:23+02:00",
+      "started": "2000-06-15T09:35:23Z",
+      "last_reply": "2000-06-15T09:35:23Z",
       "root_message_id": "msg-8ba6dbf5dbc8"
+    },
+    {
+      "id": "thread-8b161374b36f",
+      "subject": "R-1.1.0 now available by rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2000-06-15T13:24:24Z",
+      "last_reply": "2000-06-15T13:24:24Z",
+      "root_message_id": "msg-8b161374b36f"
     },
     {
       "id": "thread-2035f457efd6",
@@ -98,8 +98,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "2000-06-17T19:39:07+01:00",
-      "last_reply": "2000-06-17T19:39:07+01:00",
+      "started": "2000-06-17T18:39:07Z",
+      "last_reply": "2000-06-17T18:39:07Z",
       "root_message_id": "msg-2035f457efd6"
     },
     {
@@ -109,8 +109,8 @@
       "participants": [
         "Kurt Hornik"
       ],
-      "started": "2000-06-28T23:13:32+02:00",
-      "last_reply": "2000-06-28T23:13:32+02:00",
+      "started": "2000-06-28T21:13:32Z",
+      "last_reply": "2000-06-28T21:13:32Z",
       "root_message_id": "msg-ebcff3a5a924"
     }
   ]

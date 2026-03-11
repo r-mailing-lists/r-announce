@@ -8,7 +8,7 @@
       "message_id": "<x2vhgfzzec.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1999-03-05T17:15:07+01:00",
+      "date": "1999-03-05T16:15:07Z",
       "subject": "R-0.63.3 is released",
       "subject_clean": "R-0.63.3 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<19990318084914.54359@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "1999-03-18T08:49:14+01:00",
+      "date": "1999-03-18T07:49:14Z",
       "subject": "R0.63.3 for Win9X/NT available at CRAN",
       "subject_clean": "R0.63.3 for Win9X/NT available at CRAN",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<Pine.LNX.3.96.990330185800.30962S-100000@gandalf.ci.tuwien.ac.at>",
       "from_name": "Evgenia Dimitriadou",
       "from_email_hash": "b4f2bc9e72b02679a766e7059050bc38f309fdd4ff443cb5c09f59be85bb1eed",
-      "date": "1999-03-30T19:20:05+02:00",
+      "date": "1999-03-30T17:20:05Z",
       "subject": "\"cclust\" package",
       "subject_clean": "\"cclust\" package",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1999-03-05T17:15:07+01:00",
-      "last_reply": "1999-03-05T17:15:07+01:00",
+      "started": "1999-03-05T16:15:07Z",
+      "last_reply": "1999-03-05T16:15:07Z",
       "root_message_id": "msg-d7bfd82b6b60"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "1999-03-18T08:49:14+01:00",
-      "last_reply": "1999-03-18T08:49:14+01:00",
+      "started": "1999-03-18T07:49:14Z",
+      "last_reply": "1999-03-18T07:49:14Z",
       "root_message_id": "msg-e861e5cf0c8c"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Evgenia Dimitriadou"
       ],
-      "started": "1999-03-30T19:20:05+02:00",
-      "last_reply": "1999-03-30T19:20:05+02:00",
+      "started": "1999-03-30T17:20:05Z",
+      "last_reply": "1999-03-30T17:20:05Z",
       "root_message_id": "msg-a0a4c35d955d"
     }
   ]

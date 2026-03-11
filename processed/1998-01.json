@@ -8,7 +8,7 @@
       "message_id": "<x2oh1jc60k.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-01-11T17:47:07+01:00",
+      "date": "1998-01-11T16:47:07Z",
       "subject": "New version 0.61.1",
       "subject_clean": "New version 0.61.1",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<199801161119.MAA27623@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1998-01-16T12:19:38+01:00",
+      "date": "1998-01-16T11:19:38Z",
       "subject": "Mail list archives now on CRAN",
       "subject_clean": "Mail list archives now on CRAN",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<199801161431.PAA28466@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1998-01-16T15:31:43+01:00",
+      "date": "1998-01-16T14:31:43Z",
       "subject": "New version of e1071 package at CRAN",
       "subject_clean": "New version of e1071 package at CRAN",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<98Jan16.115834est.13454@mailgate.bank-banque-canada.ca>",
       "from_name": "Paul Gilbert",
       "from_email_hash": "51f348dc0febec9b32e9d9dcb86f6de731958e1295e818209b4c127bffef5569",
-      "date": "1998-01-16T11:50:36-05:00",
+      "date": "1998-01-16T16:50:36Z",
       "subject": "DSE time series package",
       "subject_clean": "DSE time series package",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<199801290843.JAA25772@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1998-01-29T09:43:36+01:00",
+      "date": "1998-01-29T08:43:36Z",
       "subject": "New RedHat 5.0 packages on CRAN",
       "subject_clean": "New RedHat 5.0 packages on CRAN",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<199801301322.OAA06285@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1998-01-30T14:22:02+01:00",
+      "date": "1998-01-30T13:22:02Z",
       "subject": "Submissions to CRAN",
       "subject_clean": "Submissions to CRAN",
       "in_reply_to": null,
@@ -108,20 +108,9 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1998-01-11T17:47:07+01:00",
-      "last_reply": "1998-01-11T17:47:07+01:00",
+      "started": "1998-01-11T16:47:07Z",
+      "last_reply": "1998-01-11T16:47:07Z",
       "root_message_id": "msg-66a4dd0a962c"
-    },
-    {
-      "id": "thread-f7f2cb3d86f6",
-      "subject": "DSE time series package",
-      "message_count": 1,
-      "participants": [
-        "Paul Gilbert"
-      ],
-      "started": "1998-01-16T11:50:36-05:00",
-      "last_reply": "1998-01-16T11:50:36-05:00",
-      "root_message_id": "msg-f7f2cb3d86f6"
     },
     {
       "id": "thread-77ad7d0d8b84",
@@ -130,8 +119,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1998-01-16T12:19:38+01:00",
-      "last_reply": "1998-01-16T12:19:38+01:00",
+      "started": "1998-01-16T11:19:38Z",
+      "last_reply": "1998-01-16T11:19:38Z",
       "root_message_id": "msg-77ad7d0d8b84"
     },
     {
@@ -141,9 +130,20 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1998-01-16T15:31:43+01:00",
-      "last_reply": "1998-01-16T15:31:43+01:00",
+      "started": "1998-01-16T14:31:43Z",
+      "last_reply": "1998-01-16T14:31:43Z",
       "root_message_id": "msg-d72edf94bd15"
+    },
+    {
+      "id": "thread-f7f2cb3d86f6",
+      "subject": "DSE time series package",
+      "message_count": 1,
+      "participants": [
+        "Paul Gilbert"
+      ],
+      "started": "1998-01-16T16:50:36Z",
+      "last_reply": "1998-01-16T16:50:36Z",
+      "root_message_id": "msg-f7f2cb3d86f6"
     },
     {
       "id": "thread-e29a88ebf131",
@@ -152,8 +152,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1998-01-29T09:43:36+01:00",
-      "last_reply": "1998-01-29T09:43:36+01:00",
+      "started": "1998-01-29T08:43:36Z",
+      "last_reply": "1998-01-29T08:43:36Z",
       "root_message_id": "msg-e29a88ebf131"
     },
     {
@@ -163,8 +163,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1998-01-30T14:22:02+01:00",
-      "last_reply": "1998-01-30T14:22:02+01:00",
+      "started": "1998-01-30T13:22:02Z",
+      "last_reply": "1998-01-30T13:22:02Z",
       "root_message_id": "msg-4824850a875e"
     }
   ]

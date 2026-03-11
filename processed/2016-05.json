@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2016-05-03T08:37:56+00:00",
-      "last_reply": "2016-05-03T08:37:56+00:00",
+      "started": "2016-05-03T08:37:56Z",
+      "last_reply": "2016-05-03T08:37:56Z",
       "root_message_id": "msg-c230dc11f05d"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2016-05-29T10:02:01+00:00",
-      "last_reply": "2016-05-29T10:02:01+00:00",
+      "started": "2016-05-29T10:02:01Z",
+      "last_reply": "2016-05-29T10:02:01Z",
       "root_message_id": "msg-d0e88a9127b8"
     }
   ]

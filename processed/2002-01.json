@@ -8,7 +8,7 @@
       "message_id": "<15417.55256.783769.400491@gargle.gargle.HOWL>",
       "from_name": "David Brahm",
       "from_email_hash": "86a6ec3ce56525d2890f653acf45ab31d9cb8da3b88f7fbdcc45cacabb829c54",
-      "date": "2002-01-07T12:16:08-05:00",
+      "date": "2002-01-07T17:16:08Z",
       "subject": "New package: colSums",
       "subject_clean": "New package: colSums",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<5.1.0.14.2.20020109130247.01d9a928@mcmail.cis.mcmaster.ca>",
       "from_name": "John Fox",
       "from_email_hash": "26b3c2bfbc5587a1119fc93e98ed6834f6847804a317ae5707e7442251474735",
-      "date": "2002-01-09T13:07:06-05:00",
+      "date": "2002-01-09T18:07:06Z",
       "subject": "new version of sem package",
       "subject_clean": "new version of sem package",
       "in_reply_to": "<a0501040bb7da2378d939@[163.1.41.88]>",
@@ -56,7 +56,7 @@
       "message_id": "<94BB964A-06EF-11D6-B37F-003065A21C86@stat.ucla.edu>",
       "from_name": "Jan de Leeuw",
       "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
-      "date": "2002-01-11T16:01:51-08:00",
+      "date": "2002-01-12T00:01:51Z",
       "subject": "cran.stat.ucla.edu",
       "subject_clean": "cran.stat.ucla.edu",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<Pine.LNX.4.21.0201142100470.22392-100000@gstat205.stat.wisc.edu>",
       "from_name": "Deepayan Sarkar",
       "from_email_hash": "da20c1efdfdd448a71b20da6e2500e3a2016b67041d1d9ab7648cdcce3bad7e5",
-      "date": "2002-01-14T21:12:42-06:00",
+      "date": "2002-01-15T03:12:42Z",
       "subject": "new version of lattice",
       "subject_clean": "new version of lattice",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<200201151948.g0FJml600736@r.hankin.sems.auckland.ac.nz>",
       "from_name": "Robin Hankin",
       "from_email_hash": "40244f3adeae09422f22d1426967a81dae94a45a7490021661efc08040cea3fd",
-      "date": "2002-01-16T08:48:47+13:00",
+      "date": "2002-01-15T19:48:47Z",
       "subject": "new R documentation on CRAN",
       "subject_clean": "new R documentation on CRAN",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<E086336E-134E-11D6-8307-00039319314A@stat.ucla.edu>",
       "from_name": "Jan de Leeuw",
       "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
-      "date": "2002-01-27T09:54:14-08:00",
+      "date": "2002-01-27T17:54:14Z",
       "subject": "Journal of Statistical Software",
       "subject_clean": "Journal of Statistical Software",
       "in_reply_to": null,
@@ -136,7 +136,7 @@
       "message_id": "<x2wuy0q963.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2002-01-30T14:07:32+01:00",
+      "date": "2002-01-30T13:07:32Z",
       "subject": "R version 1.4.1 is released",
       "subject_clean": "R version 1.4.1 is released",
       "in_reply_to": null,
@@ -152,7 +152,7 @@
       "message_id": "<6rr8o76hjp.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2002-01-30T08:26:50-06:00",
+      "date": "2002-01-30T14:26:50Z",
       "subject": "R-1.4.1 available through rsync",
       "subject_clean": "R-1.4.1 available through rsync",
       "in_reply_to": null,
@@ -184,7 +184,7 @@
       "message_id": "<Pine.A41.4.44.0201300901460.74956-100000@homer40.u.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
-      "date": "2002-01-30T09:14:40-08:00",
+      "date": "2002-01-30T17:14:40Z",
       "subject": "foreign 0.4-9 in R1.4.1-recommended",
       "subject_clean": "foreign 0.4-9 in R1.4.1-recommended",
       "in_reply_to": null,
@@ -200,7 +200,7 @@
       "message_id": "<15448.44350.845128.731863@sonny.eddelbuettel.com>",
       "from_name": "Dirk Eddelbuettel",
       "from_email_hash": "447d8de83a7b9c5d61116890bacb6dc0c76aee31b3011a41fb7d3c62dac9042f",
-      "date": "2002-01-30T20:34:38-06:00",
+      "date": "2002-01-31T02:34:38Z",
       "subject": "R and R-recommended 1.4.1 Debian packages available",
       "subject_clean": "R and R-recommended 1.4.1 Debian packages available",
       "in_reply_to": "<x2wuy0q963.fsf@blueberry.kubism.ku.dk>",
@@ -218,7 +218,7 @@
       "message_id": "<6rbsfaa1lm.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2002-01-31T11:09:57-06:00",
+      "date": "2002-01-31T17:09:57Z",
       "subject": "bin/windows updated on cran.r-project.org and cran.us.r-project.org",
       "subject_clean": "bin/windows updated on cran.r-project.org and cran.us.r-project.org",
       "in_reply_to": null,
@@ -234,7 +234,7 @@
       "message_id": "<6r8zae5nn9.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2002-01-31T13:24:58-06:00",
+      "date": "2002-01-31T19:24:58Z",
       "subject": "R and R-recommended 1.4.1 Debian packages available",
       "subject_clean": "R and R-recommended 1.4.1 Debian packages available",
       "in_reply_to": "<15448.44350.845128.731863@sonny.eddelbuettel.com>",
@@ -253,7 +253,7 @@
       "message_id": "<33B68E90-1699-11D6-9C06-003065CC4CB8@mclink.it>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
-      "date": "2002-01-31T23:23:50+01:00",
+      "date": "2002-01-31T22:23:50Z",
       "subject": "R-141 for Mac",
       "subject_clean": "R-141 for Mac",
       "in_reply_to": null,
@@ -273,8 +273,8 @@
       "participants": [
         "David Brahm"
       ],
-      "started": "2002-01-07T12:16:08-05:00",
-      "last_reply": "2002-01-07T12:16:08-05:00",
+      "started": "2002-01-07T17:16:08Z",
+      "last_reply": "2002-01-07T17:16:08Z",
       "root_message_id": "msg-2cdf97eee476"
     },
     {
@@ -284,8 +284,8 @@
       "participants": [
         "John Fox"
       ],
-      "started": "2002-01-09T13:07:06-05:00",
-      "last_reply": "2002-01-09T13:07:06-05:00",
+      "started": "2002-01-09T18:07:06Z",
+      "last_reply": "2002-01-09T18:07:06Z",
       "root_message_id": "msg-0048bb5172af"
     },
     {
@@ -295,8 +295,8 @@
       "participants": [
         "Prof Brian Ripley"
       ],
-      "started": "2002-01-10T08:31:35+00:00",
-      "last_reply": "2002-01-10T08:31:35+00:00",
+      "started": "2002-01-10T08:31:35Z",
+      "last_reply": "2002-01-10T08:31:35Z",
       "root_message_id": "msg-a6e8325dcc52"
     },
     {
@@ -306,8 +306,8 @@
       "participants": [
         "Jan de Leeuw"
       ],
-      "started": "2002-01-11T16:01:51-08:00",
-      "last_reply": "2002-01-11T16:01:51-08:00",
+      "started": "2002-01-12T00:01:51Z",
+      "last_reply": "2002-01-12T00:01:51Z",
       "root_message_id": "msg-6f8b1c24794a"
     },
     {
@@ -317,8 +317,8 @@
       "participants": [
         "Deepayan Sarkar"
       ],
-      "started": "2002-01-14T21:12:42-06:00",
-      "last_reply": "2002-01-14T21:12:42-06:00",
+      "started": "2002-01-15T03:12:42Z",
+      "last_reply": "2002-01-15T03:12:42Z",
       "root_message_id": "msg-cda6ec097d3f"
     },
     {
@@ -328,8 +328,8 @@
       "participants": [
         "Robin Hankin"
       ],
-      "started": "2002-01-16T08:48:47+13:00",
-      "last_reply": "2002-01-16T08:48:47+13:00",
+      "started": "2002-01-15T19:48:47Z",
+      "last_reply": "2002-01-15T19:48:47Z",
       "root_message_id": "msg-f952e41f84d9"
     },
     {
@@ -339,8 +339,8 @@
       "participants": [
         "Simon Wood"
       ],
-      "started": "2002-01-16T13:10:43+00:00",
-      "last_reply": "2002-01-16T13:10:43+00:00",
+      "started": "2002-01-16T13:10:43Z",
+      "last_reply": "2002-01-16T13:10:43Z",
       "root_message_id": "msg-0df2ba8ccffe"
     },
     {
@@ -350,31 +350,9 @@
       "participants": [
         "Jan de Leeuw"
       ],
-      "started": "2002-01-27T09:54:14-08:00",
-      "last_reply": "2002-01-27T09:54:14-08:00",
+      "started": "2002-01-27T17:54:14Z",
+      "last_reply": "2002-01-27T17:54:14Z",
       "root_message_id": "msg-131b6c60f3b2"
-    },
-    {
-      "id": "thread-5bbaf1a9359d",
-      "subject": "R-1.4.1 available through rsync",
-      "message_count": 1,
-      "participants": [
-        "Douglas Bates"
-      ],
-      "started": "2002-01-30T08:26:50-06:00",
-      "last_reply": "2002-01-30T08:26:50-06:00",
-      "root_message_id": "msg-5bbaf1a9359d"
-    },
-    {
-      "id": "thread-cff58b8a4c6d",
-      "subject": "foreign 0.4-9 in R1.4.1-recommended",
-      "message_count": 1,
-      "participants": [
-        "Thomas Lumley"
-      ],
-      "started": "2002-01-30T09:14:40-08:00",
-      "last_reply": "2002-01-30T09:14:40-08:00",
-      "root_message_id": "msg-cff58b8a4c6d"
     },
     {
       "id": "thread-aba1b5c4bafc",
@@ -385,9 +363,20 @@
         "Douglas Bates",
         "Peter Dalgaard BSA"
       ],
-      "started": "2002-01-30T14:07:32+01:00",
-      "last_reply": "2002-01-31T13:24:58-06:00",
+      "started": "2002-01-30T13:07:32Z",
+      "last_reply": "2002-01-31T19:24:58Z",
       "root_message_id": "msg-aba1b5c4bafc"
+    },
+    {
+      "id": "thread-5bbaf1a9359d",
+      "subject": "R-1.4.1 available through rsync",
+      "message_count": 1,
+      "participants": [
+        "Douglas Bates"
+      ],
+      "started": "2002-01-30T14:26:50Z",
+      "last_reply": "2002-01-30T14:26:50Z",
+      "root_message_id": "msg-5bbaf1a9359d"
     },
     {
       "id": "thread-61237cc74c43",
@@ -396,9 +385,20 @@
       "participants": [
         "Prof Brian Ripley"
       ],
-      "started": "2002-01-30T16:34:50+00:00",
-      "last_reply": "2002-01-30T16:34:50+00:00",
+      "started": "2002-01-30T16:34:50Z",
+      "last_reply": "2002-01-30T16:34:50Z",
       "root_message_id": "msg-61237cc74c43"
+    },
+    {
+      "id": "thread-cff58b8a4c6d",
+      "subject": "foreign 0.4-9 in R1.4.1-recommended",
+      "message_count": 1,
+      "participants": [
+        "Thomas Lumley"
+      ],
+      "started": "2002-01-30T17:14:40Z",
+      "last_reply": "2002-01-30T17:14:40Z",
+      "root_message_id": "msg-cff58b8a4c6d"
     },
     {
       "id": "thread-2f2b3f311b16",
@@ -407,8 +407,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2002-01-31T11:09:57-06:00",
-      "last_reply": "2002-01-31T11:09:57-06:00",
+      "started": "2002-01-31T17:09:57Z",
+      "last_reply": "2002-01-31T17:09:57Z",
       "root_message_id": "msg-2f2b3f311b16"
     },
     {
@@ -418,8 +418,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2002-01-31T23:23:50+01:00",
-      "last_reply": "2002-01-31T23:23:50+01:00",
+      "started": "2002-01-31T22:23:50Z",
+      "last_reply": "2002-01-31T22:23:50Z",
       "root_message_id": "msg-3a40bf6180ad"
     }
   ]

@@ -24,7 +24,7 @@
       "message_id": "<Pine.LNX.4.21.0011141746580.1608-100000@artemis.imbe.med.uni-erlangen.de>",
       "from_name": "Torsten Hothorn",
       "from_email_hash": "41e657384fb07a3764a554d5304d033ebaccbd11a54485f1b6386a932843f125",
-      "date": "2000-11-14T17:48:47+01:00",
+      "date": "2000-11-14T16:48:47Z",
       "subject": "mvtnorm",
       "subject_clean": "mvtnorm",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<XFMail.001117105958.plummer@iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "2000-11-17T10:59:58+01:00",
+      "date": "2000-11-17T09:59:58Z",
       "subject": "RPM for Red Hat Linux 7.0 (Intel) available",
       "subject_clean": "RPM for Red Hat Linux 7.0 (Intel) available",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "MJ Ray"
       ],
-      "started": "2000-11-13T15:33:46+00:00",
-      "last_reply": "2000-11-13T15:33:46+00:00",
+      "started": "2000-11-13T15:33:46Z",
+      "last_reply": "2000-11-13T15:33:46Z",
       "root_message_id": "msg-30afe2a3f7d8"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Torsten Hothorn"
       ],
-      "started": "2000-11-14T17:48:47+01:00",
-      "last_reply": "2000-11-14T17:48:47+01:00",
+      "started": "2000-11-14T16:48:47Z",
+      "last_reply": "2000-11-14T16:48:47Z",
       "root_message_id": "msg-1c13bc06aaae"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2000-11-17T10:59:58+01:00",
-      "last_reply": "2000-11-17T10:59:58+01:00",
+      "started": "2000-11-17T09:59:58Z",
+      "last_reply": "2000-11-17T09:59:58Z",
       "root_message_id": "msg-bb30d115f629"
     }
   ]

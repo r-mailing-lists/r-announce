@@ -8,7 +8,7 @@
       "message_id": "<427BD667.7000906@stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2005-05-06T15:41:11-05:00",
+      "date": "2005-05-06T20:41:11Z",
       "subject": "R News, 2005, issue 1",
       "subject_clean": "R News, 2005, issue 1",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Douglas Bates"
       ],
-      "started": "2005-05-06T15:41:11-05:00",
-      "last_reply": "2005-05-06T15:41:11-05:00",
+      "started": "2005-05-06T20:41:11Z",
+      "last_reply": "2005-05-06T20:41:11Z",
       "root_message_id": "msg-4da4385f1308"
     }
   ]

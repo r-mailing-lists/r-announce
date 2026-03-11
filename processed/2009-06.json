@@ -8,7 +8,7 @@
       "message_id": "<4A2D3105.9000103@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2009-06-08T17:40:53+02:00",
+      "date": "2009-06-08T15:40:53Z",
       "subject": "DSC 2009, scientific programme",
       "subject_clean": "DSC 2009, scientific programme",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<4A365CD6.7050303@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2009-06-15T16:38:14+02:00",
+      "date": "2009-06-15T14:38:14Z",
       "subject": "R 2.9.1 Scheduled for June 26, 2009",
       "subject_clean": "R 2.9.1 Scheduled for June 26, 2009",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<4A44D917.7070202@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2009-06-26T16:20:07+02:00",
+      "date": "2009-06-26T14:20:07Z",
       "subject": "R 2.9.1 is released",
       "subject_clean": "R 2.9.1 is released",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2009-06-08T17:40:53+02:00",
-      "last_reply": "2009-06-08T17:40:53+02:00",
+      "started": "2009-06-08T15:40:53Z",
+      "last_reply": "2009-06-08T15:40:53Z",
       "root_message_id": "msg-11d866f6e051"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2009-06-15T16:38:14+02:00",
-      "last_reply": "2009-06-15T16:38:14+02:00",
+      "started": "2009-06-15T14:38:14Z",
+      "last_reply": "2009-06-15T14:38:14Z",
       "root_message_id": "msg-61ac7d4f2b4e"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2009-06-26T16:20:07+02:00",
-      "last_reply": "2009-06-26T16:20:07+02:00",
+      "started": "2009-06-26T14:20:07Z",
+      "last_reply": "2009-06-26T14:20:07Z",
       "root_message_id": "msg-fa394f370187"
     }
   ]

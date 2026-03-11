@@ -8,7 +8,7 @@
       "message_id": "<85FB2210-5B38-413C-9412-A30B007C19DE@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2012-02-13T10:12:38+01:00",
+      "date": "2012-02-13T09:12:38Z",
       "subject": "Release plans for 2.14.2 and 2.15.0",
       "subject_clean": "Release plans for 2.14.2 and 2.15.0",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<D5B3AA59-D3D4-44DD-A20D-016D78445545@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2012-02-29T15:40:36+01:00",
+      "date": "2012-02-29T14:40:36Z",
       "subject": "R 2.14.2 is released + R anniversary",
       "subject_clean": "R 2.14.2 is released + R anniversary",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2012-02-13T10:12:38+01:00",
-      "last_reply": "2012-02-13T10:12:38+01:00",
+      "started": "2012-02-13T09:12:38Z",
+      "last_reply": "2012-02-13T09:12:38Z",
       "root_message_id": "msg-1be00c1bc561"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2012-02-29T15:40:36+01:00",
-      "last_reply": "2012-02-29T15:40:36+01:00",
+      "started": "2012-02-29T14:40:36Z",
+      "last_reply": "2012-02-29T14:40:36Z",
       "root_message_id": "msg-6df96c8be3a2"
     }
   ]

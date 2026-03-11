@@ -8,7 +8,7 @@
       "message_id": "<056e01c34a5c$cbe699c0$3f039a82@rand.org>",
       "from_name": "Greg Ridgeway",
       "from_email_hash": "b12cfb043a5966f8848f8e40f9b9253a016be699e0d7afb394a507a7ca35736b",
-      "date": "2003-07-14T16:08:11-07:00",
+      "date": "2003-07-14T23:08:11Z",
       "subject": "package announcement: Generalized Boosted Models (gbm)",
       "subject_clean": "package announcement: Generalized Boosted Models (gbm)",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<16149.5962.212995.750145@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2003-07-16T11:13:46+02:00",
+      "date": "2003-07-16T09:13:46Z",
       "subject": "CRAN package orphanizing process",
       "subject_clean": "CRAN package orphanizing process",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<Pine.A41.4.44.0307271703170.159126-100000@homer06.u.washington.edu>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "fd3f6e9367b335430f74a8f6feb36e5e9d187865079d5ca2018b64dfb89dd278",
-      "date": "2003-07-27T17:16:50-07:00",
+      "date": "2003-07-28T00:16:50Z",
       "subject": "survey package",
       "subject_clean": "survey package",
       "in_reply_to": null,
@@ -76,8 +76,8 @@
       "participants": [
         "Greg Ridgeway"
       ],
-      "started": "2003-07-14T16:08:11-07:00",
-      "last_reply": "2003-07-14T16:08:11-07:00",
+      "started": "2003-07-14T23:08:11Z",
+      "last_reply": "2003-07-14T23:08:11Z",
       "root_message_id": "msg-085f23eff507"
     },
     {
@@ -87,8 +87,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2003-07-16T11:13:46+02:00",
-      "last_reply": "2003-07-16T11:13:46+02:00",
+      "started": "2003-07-16T09:13:46Z",
+      "last_reply": "2003-07-16T09:13:46Z",
       "root_message_id": "msg-8c08bb46be13"
     },
     {
@@ -98,8 +98,8 @@
       "participants": [
         "Frank E Harrell Jr"
       ],
-      "started": "2003-07-18T16:39:59+00:00",
-      "last_reply": "2003-07-18T16:39:59+00:00",
+      "started": "2003-07-18T16:39:59Z",
+      "last_reply": "2003-07-18T16:39:59Z",
       "root_message_id": "msg-4e772593c1e1"
     },
     {
@@ -109,8 +109,8 @@
       "participants": [
         "Thomas Lumley"
       ],
-      "started": "2003-07-27T17:16:50-07:00",
-      "last_reply": "2003-07-27T17:16:50-07:00",
+      "started": "2003-07-28T00:16:50Z",
+      "last_reply": "2003-07-28T00:16:50Z",
       "root_message_id": "msg-c9bea599d17f"
     }
   ]

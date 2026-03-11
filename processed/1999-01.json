@@ -8,7 +8,7 @@
       "message_id": "<x2emp19al0.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1999-01-11T14:56:59+01:00",
+      "date": "1999-01-11T13:56:59Z",
       "subject": "R-0.63.2 is released",
       "subject_clean": "R-0.63.2 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<19990120083700.18164@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "1999-01-20T08:37:00+01:00",
+      "date": "1999-01-20T07:37:00Z",
       "subject": "R-0.63.2 for Windows",
       "subject_clean": "R-0.63.2 for Windows",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1999-01-11T14:56:59+01:00",
-      "last_reply": "1999-01-11T14:56:59+01:00",
+      "started": "1999-01-11T13:56:59Z",
+      "last_reply": "1999-01-11T13:56:59Z",
       "root_message_id": "msg-b2a2498abca4"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "1999-01-20T08:37:00+01:00",
-      "last_reply": "1999-01-20T08:37:00+01:00",
+      "started": "1999-01-20T07:37:00Z",
+      "last_reply": "1999-01-20T07:37:00Z",
       "root_message_id": "msg-efb48a1fe73a"
     }
   ]

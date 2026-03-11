@@ -8,7 +8,7 @@
       "message_id": "<A66F6B8E-DDFD-4220-B281-571B8FE0B705@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2022-02-18T11:33:11+01:00",
+      "date": "2022-02-18T10:33:11Z",
       "subject": "[Rd] R 4.1.3 scheduled for March 10",
       "subject_clean": "R 4.1.3 scheduled for March 10",
       "in_reply_to": "<7BC92570-396C-47AD-A035-6558E1FEEAC0@gmail.com>",
@@ -30,8 +30,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2022-02-18T11:33:11+01:00",
-      "last_reply": "2022-02-18T11:33:11+01:00",
+      "started": "2022-02-18T10:33:11Z",
+      "last_reply": "2022-02-18T10:33:11Z",
       "root_message_id": "msg-9d329febf7b9"
     }
   ]

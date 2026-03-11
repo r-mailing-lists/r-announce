@@ -8,7 +8,7 @@
       "message_id": "<20000302111302.32118@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2000-03-02T11:13:02+01:00",
+      "date": "2000-03-02T10:13:02Z",
       "subject": "R 1.0.0 for Windows",
       "subject_clean": "R 1.0.0 for Windows",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.OSF.4.21.0003021142411.4778-100000@zidsrv.sci.uni-klu.ac.at>",
       "from_name": "Albrecht Gebhardt",
       "from_email_hash": "93d9ddebd2208e9000f83f779e2ec76983533fd90865a7e32c9a5915c69007f4",
-      "date": "2000-03-02T14:00:29+01:00",
+      "date": "2000-03-02T13:00:29Z",
       "subject": "R 1.0.0 for SuSE Linux",
       "subject_clean": "R 1.0.0 for SuSE Linux",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<200003231744.SAA11616@alpha.luc.ac.be>",
       "from_name": "Jim Lindsey",
       "from_email_hash": "7759bdd86e7565cb5bc22504926c6000c9b3b2ac7dc893d54622731d35116779",
-      "date": "2000-03-23T18:44:18+01:00",
+      "date": "2000-03-23T17:44:18Z",
       "subject": "dna library",
       "subject_clean": "dna library",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "2000-03-02T11:13:02+01:00",
-      "last_reply": "2000-03-02T11:13:02+01:00",
+      "started": "2000-03-02T10:13:02Z",
+      "last_reply": "2000-03-02T10:13:02Z",
       "root_message_id": "msg-45fe63bcbf78"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Albrecht Gebhardt"
       ],
-      "started": "2000-03-02T14:00:29+01:00",
-      "last_reply": "2000-03-02T14:00:29+01:00",
+      "started": "2000-03-02T13:00:29Z",
+      "last_reply": "2000-03-02T13:00:29Z",
       "root_message_id": "msg-fff6cd576349"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Jim Lindsey"
       ],
-      "started": "2000-03-23T18:44:18+01:00",
-      "last_reply": "2000-03-23T18:44:18+01:00",
+      "started": "2000-03-23T17:44:18Z",
+      "last_reply": "2000-03-23T17:44:18Z",
       "root_message_id": "msg-3949dfe77577"
     }
   ]

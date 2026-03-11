@@ -8,7 +8,7 @@
       "message_id": "<22619.42704.738227.771907@stat.math.ethz.ch>",
       "from_name": "Martin Maechler",
       "from_email_hash": "c2c86f22f78a4ecfe6d0e6b4e2be505a3f5beb0470ea88c903688ac536018a98",
-      "date": "2016-12-22T11:11:28+01:00",
+      "date": "2016-12-22T10:11:28Z",
       "subject": "Tomas Kalibera joins the R core team",
       "subject_clean": "Tomas Kalibera joins the R core team",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Martin Maechler"
       ],
-      "started": "2016-12-22T11:11:28+01:00",
-      "last_reply": "2016-12-22T11:11:28+01:00",
+      "started": "2016-12-22T10:11:28Z",
+      "last_reply": "2016-12-22T10:11:28Z",
       "root_message_id": "msg-58dabb3a0452"
     }
   ]

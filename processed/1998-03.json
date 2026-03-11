@@ -8,7 +8,7 @@
       "message_id": "<350E7038.7AB36382@bell-labs.com>",
       "from_name": "Clive Loader",
       "from_email_hash": "61df0e87ff677ba465ece3919e017f777e1e6ccec313a2c1e7f847f49f21fbb5",
-      "date": "1998-03-17T07:44:40-05:00",
+      "date": "1998-03-17T12:44:40Z",
       "subject": "locfit -> CRAN",
       "subject_clean": "locfit -> CRAN",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2g1khh1ar.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-03-17T14:52:44+01:00",
+      "date": "1998-03-17T13:52:44Z",
       "subject": "R-0.61.2 released",
       "subject_clean": "R-0.61.2 released",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<199803261359.OAA14588@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1998-03-26T14:59:46+01:00",
+      "date": "1998-03-26T13:59:46Z",
       "subject": "A new port of R to MS Windows on CRAN",
       "subject_clean": "A new port of R to MS Windows on CRAN",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Clive Loader"
       ],
-      "started": "1998-03-17T07:44:40-05:00",
-      "last_reply": "1998-03-17T07:44:40-05:00",
+      "started": "1998-03-17T12:44:40Z",
+      "last_reply": "1998-03-17T12:44:40Z",
       "root_message_id": "msg-314d22514601"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1998-03-17T14:52:44+01:00",
-      "last_reply": "1998-03-17T14:52:44+01:00",
+      "started": "1998-03-17T13:52:44Z",
+      "last_reply": "1998-03-17T13:52:44Z",
       "root_message_id": "msg-9f4ab002fee4"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1998-03-26T14:59:46+01:00",
-      "last_reply": "1998-03-26T14:59:46+01:00",
+      "started": "1998-03-26T13:59:46Z",
+      "last_reply": "1998-03-26T13:59:46Z",
       "root_message_id": "msg-efbeef5017d4"
     }
   ]

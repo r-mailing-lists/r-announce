@@ -40,7 +40,7 @@
       "message_id": "<82716ca9-cb2d-d9fc-78e0-0c005d94ff07@inra.fr>",
       "from_name": "Nathalie Vialaneix",
       "from_email_hash": "0ec8da2ce2eb396290ffedd38b8a6c6b884f9d0dc060702729d563c64732234c",
-      "date": "2019-03-31T12:55:48+02:00",
+      "date": "2019-03-31T10:55:48Z",
       "subject": "[useR! 2019] end of early bird registration is approaching",
       "subject_clean": "[useR! 2019] end of early bird registration is approaching",
       "in_reply_to": null,
@@ -60,8 +60,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2019-03-11T08:35:49+00:00",
-      "last_reply": "2019-03-11T08:35:49+00:00",
+      "started": "2019-03-11T08:35:49Z",
+      "last_reply": "2019-03-11T08:35:49Z",
       "root_message_id": "msg-d6fc04944b25"
     },
     {
@@ -71,8 +71,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2019-03-22T10:10:18+00:00",
-      "last_reply": "2019-03-22T10:10:18+00:00",
+      "started": "2019-03-22T10:10:18Z",
+      "last_reply": "2019-03-22T10:10:18Z",
       "root_message_id": "msg-ce058bcf8013"
     },
     {
@@ -82,8 +82,8 @@
       "participants": [
         "Nathalie Vialaneix"
       ],
-      "started": "2019-03-31T12:55:48+02:00",
-      "last_reply": "2019-03-31T12:55:48+02:00",
+      "started": "2019-03-31T10:55:48Z",
+      "last_reply": "2019-03-31T10:55:48Z",
       "root_message_id": "msg-f4dfbd62bdb6"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<CAAsRM+CLSMKrgRQ5ddxbdE8X_Lxzw6X2K5FtQ_CZDwFH5ndjAg@mail.gmail.com>",
       "from_name": "Black, James",
       "from_email_hash": "a5c71bd65a469f8ab03ceee4d943379f7d35ddc2c3b80d07b1ebaad4d4ec79f7",
-      "date": "2023-05-18T14:16:01+02:00",
+      "date": "2023-05-18T12:16:01Z",
       "subject": "useR 2023 regional events",
       "subject_clean": "useR 2023 regional events",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Black, James"
       ],
-      "started": "2023-05-18T14:16:01+02:00",
-      "last_reply": "2023-05-18T14:16:01+02:00",
+      "started": "2023-05-18T12:16:01Z",
+      "last_reply": "2023-05-18T12:16:01Z",
       "root_message_id": "msg-aab392c5d47b"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2023-05-25T13:44:18+00:00",
-      "last_reply": "2023-05-25T13:44:18+00:00",
+      "started": "2023-05-25T13:44:18Z",
+      "last_reply": "2023-05-25T13:44:18Z",
       "root_message_id": "msg-2d0e61f805fb"
     }
   ]

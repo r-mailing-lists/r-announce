@@ -8,7 +8,7 @@
       "message_id": "<568BC89D.6090909@jku.at>",
       "from_name": "Bettina Gruen",
       "from_email_hash": "899bcb77a93ae61771d26bee482d1c25ddf3264aa9ed7aaac824cf93f84bb6db",
-      "date": "2016-01-05T14:43:57+01:00",
+      "date": "2016-01-05T13:43:57Z",
       "subject": "The R Journal, Volume 7, Issue 2",
       "subject_clean": "The R Journal, Volume 7, Issue 2",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Bettina Gruen"
       ],
-      "started": "2016-01-05T14:43:57+01:00",
-      "last_reply": "2016-01-05T14:43:57+01:00",
+      "started": "2016-01-05T13:43:57Z",
+      "last_reply": "2016-01-05T13:43:57Z",
       "root_message_id": "msg-d617845c96db"
     }
   ]

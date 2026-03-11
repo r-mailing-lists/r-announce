@@ -24,7 +24,7 @@
       "message_id": "<5702ACD1.5060102@gmail.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "17e1fcd7901e6a11dc6bc3ede542d46252611499631dfb4199936939fda2e399",
-      "date": "2016-04-04T14:05:05-04:00",
+      "date": "2016-04-04T18:05:05Z",
       "subject": "[R] Extending the beta period for R 3.3.0 till April 25, Final release on May 3",
       "subject_clean": "Extending the beta period for R 3.3.0 till April 25, Final release on May 3",
       "in_reply_to": "<BE005488-BD9F-4CE5-87E3-9D061DEC585D@cbs.dk>",
@@ -63,8 +63,8 @@
         "Duncan Murdoch",
         "Peter Dalgaard"
       ],
-      "started": "2016-04-02T15:58:20+00:00",
-      "last_reply": "2016-04-04T14:05:05-04:00",
+      "started": "2016-04-02T15:58:20Z",
+      "last_reply": "2016-04-04T18:05:05Z",
       "root_message_id": "msg-34a1e7e3e9b2"
     },
     {
@@ -74,8 +74,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2016-04-14T16:39:06+00:00",
-      "last_reply": "2016-04-14T16:39:06+00:00",
+      "started": "2016-04-14T16:39:06Z",
+      "last_reply": "2016-04-14T16:39:06Z",
       "root_message_id": "msg-5d3453bec8a2"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<x2vh8ktyn2.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1999-10-06T15:19:29+02:00",
+      "date": "1999-10-06T13:19:29Z",
       "subject": "R-0.65.1 is released",
       "subject_clean": "R-0.65.1 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<19991008103453.39839@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "1999-10-08T10:34:53+01:00",
+      "date": "1999-10-08T09:34:53Z",
       "subject": "R-0.65.1 for WinNT/9X",
       "subject_clean": "R-0.65.1 for WinNT/9X",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<14346.58532.621290.226557@luthien.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1999-10-18T11:13:08+02:00",
+      "date": "1999-10-18T09:13:08Z",
       "subject": "CRAN downtimes",
       "subject_clean": "CRAN downtimes",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<14361.36672.45015.682102@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1999-10-29T14:12:48+02:00",
+      "date": "1999-10-29T12:12:48Z",
       "subject": "CRAN master almost unreachable over weekend",
       "subject_clean": "CRAN master almost unreachable over weekend",
       "in_reply_to": null,
@@ -76,8 +76,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1999-10-06T15:19:29+02:00",
-      "last_reply": "1999-10-06T15:19:29+02:00",
+      "started": "1999-10-06T13:19:29Z",
+      "last_reply": "1999-10-06T13:19:29Z",
       "root_message_id": "msg-59e59e19844b"
     },
     {
@@ -87,8 +87,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "1999-10-08T10:34:53+01:00",
-      "last_reply": "1999-10-08T10:34:53+01:00",
+      "started": "1999-10-08T09:34:53Z",
+      "last_reply": "1999-10-08T09:34:53Z",
       "root_message_id": "msg-17bea56edcdb"
     },
     {
@@ -98,8 +98,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1999-10-18T11:13:08+02:00",
-      "last_reply": "1999-10-18T11:13:08+02:00",
+      "started": "1999-10-18T09:13:08Z",
+      "last_reply": "1999-10-18T09:13:08Z",
       "root_message_id": "msg-82dbfdd4a00d"
     },
     {
@@ -109,8 +109,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1999-10-29T14:12:48+02:00",
-      "last_reply": "1999-10-29T14:12:48+02:00",
+      "started": "1999-10-29T12:12:48Z",
+      "last_reply": "1999-10-29T12:12:48Z",
       "root_message_id": "msg-1cade231f9e0"
     }
   ]

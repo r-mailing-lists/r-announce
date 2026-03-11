@@ -8,7 +8,7 @@
       "message_id": "<CAMZ-NW7Us12SjtahBxZxz2pFvC_4sn=zA-D5LVH_JP30cYdWMg@mail.gmail.com>",
       "from_name": "useR! 2021 global",
       "from_email_hash": "550dda564b208a7b9ffe9eafd73433924843540560eaccf844596524eaa0257d",
-      "date": "2021-01-14T18:14:23-03:00",
+      "date": "2021-01-14T21:14:23Z",
       "subject": "The useR! 2021 Call for Tutorials is open now!",
       "subject_clean": "The useR! 2021 Call for Tutorials is open now!",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "useR! 2021 global"
       ],
-      "started": "2021-01-14T18:14:23-03:00",
-      "last_reply": "2021-01-14T18:14:23-03:00",
+      "started": "2021-01-14T21:14:23Z",
+      "last_reply": "2021-01-14T21:14:23Z",
       "root_message_id": "msg-37a42b7395fe"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2021-01-21T10:59:07+00:00",
-      "last_reply": "2021-01-21T10:59:07+00:00",
+      "started": "2021-01-21T10:59:07Z",
+      "last_reply": "2021-01-21T10:59:07Z",
       "root_message_id": "msg-f3fd62cff890"
     }
   ]

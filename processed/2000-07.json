@@ -8,7 +8,7 @@
       "message_id": "<Pine.LNX.4.10.10007030943090.7217-100000@xenia.sote.hu>",
       "from_name": "Tornoci Laszlo",
       "from_email_hash": "b2b24da313e33ebde60af26e93d366f4d0a99c8eb53aaee5bf373e3c636a61ca",
-      "date": "2000-07-03T09:51:22+02:00",
+      "date": "2000-07-03T07:51:22Z",
       "subject": "A new mirror site in Hungary",
       "subject_clean": "A new mirror site in Hungary",
       "in_reply_to": "<14681.50931.593674.41223@galadriel.ci.tuwien.ac.at>",
@@ -24,7 +24,7 @@
       "message_id": "<396CE292.AA2D74F8@nceas.ucsb.edu>",
       "from_name": "Timothy H. Keitt",
       "from_email_hash": "0042cb9f110773b83d9c979cead2263cb2e28429e358bd4a999e51500a62ef01",
-      "date": "2000-07-12T14:26:42-07:00",
+      "date": "2000-07-12T21:26:42Z",
       "subject": "New release of RPgSQL",
       "subject_clean": "New release of RPgSQL",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Tornoci Laszlo"
       ],
-      "started": "2000-07-03T09:51:22+02:00",
-      "last_reply": "2000-07-03T09:51:22+02:00",
+      "started": "2000-07-03T07:51:22Z",
+      "last_reply": "2000-07-03T07:51:22Z",
       "root_message_id": "msg-02f70fa61687"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Timothy H. Keitt"
       ],
-      "started": "2000-07-12T14:26:42-07:00",
-      "last_reply": "2000-07-12T14:26:42-07:00",
+      "started": "2000-07-12T21:26:42Z",
+      "last_reply": "2000-07-12T21:26:42Z",
       "root_message_id": "msg-0376b0dc80b1"
     }
   ]

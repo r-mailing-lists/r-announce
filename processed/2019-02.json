@@ -8,7 +8,7 @@
       "message_id": "<5e4e0be3-9428-e736-24ee-211026c5bf93@inra.fr>",
       "from_name": "Nathalie Vialaneix",
       "from_email_hash": "0ec8da2ce2eb396290ffedd38b8a6c6b884f9d0dc060702729d563c64732234c",
-      "date": "2019-02-21T19:33:29+01:00",
+      "date": "2019-02-21T18:33:29Z",
       "subject": "[useR! 2019] last chance to submit your abstracts",
       "subject_clean": "[useR! 2019] last chance to submit your abstracts",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<5E0AD3BC-059D-4528-991D-B7CF3F2B5716@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2019-02-25T14:06:06+01:00",
+      "date": "2019-02-25T13:06:06Z",
       "subject": "[Rd] R 3.5.3 scheduled for March 11",
       "subject_clean": "R 3.5.3 scheduled for March 11",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<CADx-4xAMoR2mi3DC2Ae=-bE0E05sqA+WVWZHxwMZWOXf15D_JA@mail.gmail.com>",
       "from_name": "John Verzani",
       "from_email_hash": "cca1f7c01b0a74cd61425099f8427f59b614ad00b066825f3a152a26bd6569e7",
-      "date": "2019-02-25T12:11:44-05:00",
+      "date": "2019-02-25T17:11:44Z",
       "subject": "New issue of The R Journal",
       "subject_clean": "New issue of The R Journal",
       "in_reply_to": null,
@@ -60,20 +60,9 @@
       "participants": [
         "Nathalie Vialaneix"
       ],
-      "started": "2019-02-21T19:33:29+01:00",
-      "last_reply": "2019-02-21T19:33:29+01:00",
+      "started": "2019-02-21T18:33:29Z",
+      "last_reply": "2019-02-21T18:33:29Z",
       "root_message_id": "msg-d280b7a49538"
-    },
-    {
-      "id": "thread-0b3ea80995e8",
-      "subject": "New issue of The R Journal",
-      "message_count": 1,
-      "participants": [
-        "John Verzani"
-      ],
-      "started": "2019-02-25T12:11:44-05:00",
-      "last_reply": "2019-02-25T12:11:44-05:00",
-      "root_message_id": "msg-0b3ea80995e8"
     },
     {
       "id": "thread-542c825fd735",
@@ -82,9 +71,20 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2019-02-25T14:06:06+01:00",
-      "last_reply": "2019-02-25T14:06:06+01:00",
+      "started": "2019-02-25T13:06:06Z",
+      "last_reply": "2019-02-25T13:06:06Z",
       "root_message_id": "msg-542c825fd735"
+    },
+    {
+      "id": "thread-0b3ea80995e8",
+      "subject": "New issue of The R Journal",
+      "message_count": 1,
+      "participants": [
+        "John Verzani"
+      ],
+      "started": "2019-02-25T17:11:44Z",
+      "last_reply": "2019-02-25T17:11:44Z",
+      "root_message_id": "msg-0b3ea80995e8"
     }
   ]
 }

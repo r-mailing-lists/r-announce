@@ -8,7 +8,7 @@
       "message_id": "<Pine.LNX.4.21.0205011138220.28022-100000@reclus.nhh.no>",
       "from_name": "Roger Bivand",
       "from_email_hash": "a0c87926e9477aa221755cc93bdef47227c3563fd707e66ae49044467663d168",
-      "date": "2002-05-01T11:42:03+02:00",
+      "date": "2002-05-01T09:42:03Z",
       "subject": "Spatial statistics - new version of spdep",
       "subject_clean": "Spatial statistics - new version of spdep",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.LNX.4.33L2.0205021623170.2165-100000@localhost.localdomain>",
       "from_name": "mikalzet at libero.it",
       "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
-      "date": "2002-05-02T16:38:19+02:00",
+      "date": "2002-05-02T14:38:19Z",
       "subject": "R 1.5.0 RPM's for Mandrake",
       "subject_clean": "R 1.5.0 RPM's for Mandrake",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<87k7qma86m.fsf@jeeves.blindglobe.net>",
       "from_name": "A.J. Rossini",
       "from_email_hash": "0c039ab537611416fe37b12e9ca69767bfd2c5030d7e2f2a7420f19217e05d1b",
-      "date": "2002-05-02T08:19:45-07:00",
+      "date": "2002-05-02T15:19:45Z",
       "subject": "BioConductor 1.0",
       "subject_clean": "BioConductor 1.0",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<XFMail.20020503104136.plummer@iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "2002-05-03T10:41:36+02:00",
+      "date": "2002-05-03T08:41:36Z",
       "subject": "R 1.5.0 RPMs for Red Hat Linux 7.2/Intel",
       "subject_clean": "R 1.5.0 RPMs for Red Hat Linux 7.2/Intel",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<Pine.GSO.4.21.0205051856200.21846-100000@dolphin>",
       "from_name": "Simon Wood",
       "from_email_hash": "b5fa7b5e8008beb83d2b0cc9621a07c8805f876a9e1a19f304adfd6b73f991f2",
-      "date": "2002-05-05T19:05:12+01:00",
+      "date": "2002-05-05T18:05:12Z",
       "subject": "mgcv 0.8 released",
       "subject_clean": "mgcv 0.8 released",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<D46FE5FC-639E-11D6-B27D-000393860F3C@stat.ucla.edu>",
       "from_name": "Jan de Leeuw",
       "from_email_hash": "a167f5fca204abb64fa78a00e65068c9d14455edaf0726f65c9ebfbf7de7fcc8",
-      "date": "2002-05-09T15:48:07-07:00",
+      "date": "2002-05-09T22:48:07Z",
       "subject": "R-1.5.0 for Darwin",
       "subject_clean": "R-1.5.0 for Darwin",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<20020520110718.73bb4d8f.fharrell@virginia.edu>",
       "from_name": "Frank E Harrell Jr",
       "from_email_hash": "bd19bd9f169b5f3d1a992f9f1800c6f882823514a102dfe1216f921e43131154",
-      "date": "2002-05-20T11:07:18-04:00",
+      "date": "2002-05-20T15:07:18Z",
       "subject": "Hmisc and Design Packages",
       "subject_clean": "Hmisc and Design Packages",
       "in_reply_to": null,
@@ -124,20 +124,9 @@
       "participants": [
         "Roger Bivand"
       ],
-      "started": "2002-05-01T11:42:03+02:00",
-      "last_reply": "2002-05-01T11:42:03+02:00",
+      "started": "2002-05-01T09:42:03Z",
+      "last_reply": "2002-05-01T09:42:03Z",
       "root_message_id": "msg-6714551013cf"
-    },
-    {
-      "id": "thread-2faa8e03f960",
-      "subject": "BioConductor 1.0",
-      "message_count": 1,
-      "participants": [
-        "A.J. Rossini"
-      ],
-      "started": "2002-05-02T08:19:45-07:00",
-      "last_reply": "2002-05-02T08:19:45-07:00",
-      "root_message_id": "msg-2faa8e03f960"
     },
     {
       "id": "thread-10fe20868fa7",
@@ -146,9 +135,20 @@
       "participants": [
         "mikalzet at libero.it"
       ],
-      "started": "2002-05-02T16:38:19+02:00",
-      "last_reply": "2002-05-02T16:38:19+02:00",
+      "started": "2002-05-02T14:38:19Z",
+      "last_reply": "2002-05-02T14:38:19Z",
       "root_message_id": "msg-10fe20868fa7"
+    },
+    {
+      "id": "thread-2faa8e03f960",
+      "subject": "BioConductor 1.0",
+      "message_count": 1,
+      "participants": [
+        "A.J. Rossini"
+      ],
+      "started": "2002-05-02T15:19:45Z",
+      "last_reply": "2002-05-02T15:19:45Z",
+      "root_message_id": "msg-2faa8e03f960"
     },
     {
       "id": "thread-0e198df2e534",
@@ -157,8 +157,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2002-05-03T10:41:36+02:00",
-      "last_reply": "2002-05-03T10:41:36+02:00",
+      "started": "2002-05-03T08:41:36Z",
+      "last_reply": "2002-05-03T08:41:36Z",
       "root_message_id": "msg-0e198df2e534"
     },
     {
@@ -168,8 +168,8 @@
       "participants": [
         "Simon Wood"
       ],
-      "started": "2002-05-05T19:05:12+01:00",
-      "last_reply": "2002-05-05T19:05:12+01:00",
+      "started": "2002-05-05T18:05:12Z",
+      "last_reply": "2002-05-05T18:05:12Z",
       "root_message_id": "msg-6858fcaccad3"
     },
     {
@@ -179,8 +179,8 @@
       "participants": [
         "Jan de Leeuw"
       ],
-      "started": "2002-05-09T15:48:07-07:00",
-      "last_reply": "2002-05-09T15:48:07-07:00",
+      "started": "2002-05-09T22:48:07Z",
+      "last_reply": "2002-05-09T22:48:07Z",
       "root_message_id": "msg-f6c5ec451bbd"
     },
     {
@@ -190,8 +190,8 @@
       "participants": [
         "Frank E Harrell Jr"
       ],
-      "started": "2002-05-20T11:07:18-04:00",
-      "last_reply": "2002-05-20T11:07:18-04:00",
+      "started": "2002-05-20T15:07:18Z",
+      "last_reply": "2002-05-20T15:07:18Z",
       "root_message_id": "msg-6d8909295fb4"
     }
   ]

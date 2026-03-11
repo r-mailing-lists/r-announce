@@ -8,7 +8,7 @@
       "message_id": "<199706091621.SAA16397@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1997-06-09T18:21:45+02:00",
+      "date": "1997-06-09T16:21:45Z",
       "subject": "mlbench-0.1 --- machine learning benchmark problems ",
       "subject_clean": "mlbench-0.1 --- machine learning benchmark problems",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1997-06-09T18:21:45+02:00",
-      "last_reply": "1997-06-09T18:21:45+02:00",
+      "started": "1997-06-09T16:21:45Z",
+      "last_reply": "1997-06-09T16:21:45Z",
       "root_message_id": "msg-8b008f969f0f"
     }
   ]

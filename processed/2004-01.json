@@ -8,7 +8,7 @@
       "message_id": "<16398.24909.685006.795255@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2004-01-21T12:23:57+01:00",
+      "date": "2004-01-21T11:23:57Z",
       "subject": "R News Volume 3/3",
       "subject_clean": "R News Volume 3/3",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2004-01-21T12:23:57+01:00",
-      "last_reply": "2004-01-21T12:23:57+01:00",
+      "started": "2004-01-21T11:23:57Z",
+      "last_reply": "2004-01-21T11:23:57Z",
       "root_message_id": "msg-945f3b52e6ae"
     }
   ]

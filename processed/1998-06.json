@@ -8,7 +8,7 @@
       "message_id": "<199806041216.NAA01566@toucan.stats.ox.ac.uk>",
       "from_name": "Prof Brian Ripley",
       "from_email_hash": "375ec446f7a1157a4f0268b6dc682d6c2a5b186f57aa61253477aa48159d2329",
-      "date": "1998-06-04T13:16:01+01:00",
+      "date": "1998-06-04T12:16:01Z",
       "subject": "MASS libraries for R",
       "subject_clean": "MASS libraries for R",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2ra0sujs9.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-06-14T16:42:30+02:00",
+      "date": "1998-06-14T14:42:30Z",
       "subject": "R-0.62 is released",
       "subject_clean": "R-0.62 is released",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<XFMail.980614195518.Ted.Harding@nessie.mcc.ac.uk>",
       "from_name": "(Ted Harding)",
       "from_email_hash": "3d4318ff6a959f5c775739481bc6cf1ab6840374b5d56f1960afc84e49e8e02f",
-      "date": "1998-06-14T19:55:18+01:00",
+      "date": "1998-06-14T18:55:18Z",
       "subject": "R-beta: R-0.62 is released",
       "subject_clean": "R-beta: R-0.62 is released",
       "in_reply_to": "<x2ra0sujs9.fsf@blueberry.kubism.ku.dk>",
@@ -56,7 +56,7 @@
       "message_id": "<x2sol7wxcm.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-06-14T22:18:49+02:00",
+      "date": "1998-06-14T20:18:49Z",
       "subject": "R-beta: R-0.62 is released *WATCH THE RETURN ADDRESS*",
       "subject_clean": "R-beta: R-0.62 is released *WATCH THE RETURN ADDRESS*",
       "in_reply_to": "Egon Schmid's message of Sun, 14 Jun 1998 21:37:35 +0200 (MET DST)",
@@ -74,7 +74,7 @@
       "message_id": "<x2sol7r4nl.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-06-15T00:37:34+02:00",
+      "date": "1998-06-14T22:37:34Z",
       "subject": "R-0.62.1",
       "subject_clean": "R-0.62.1",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<XFMail.980615011606.Ted.Harding@nessie.mcc.ac.uk>",
       "from_name": "(Ted Harding)",
       "from_email_hash": "3d4318ff6a959f5c775739481bc6cf1ab6840374b5d56f1960afc84e49e8e02f",
-      "date": "1998-06-15T01:16:06+01:00",
+      "date": "1998-06-15T00:16:06Z",
       "subject": "Literal \"&\" in help index",
       "subject_clean": "Literal \"&\" in help index",
       "in_reply_to": "<x2ra0sujs9.fsf@blueberry.kubism.ku.dk>",
@@ -106,7 +106,7 @@
       "message_id": "<13702.11255.28465.291926@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1998-06-16T10:25:27+02:00",
+      "date": "1998-06-16T08:25:27Z",
       "subject": "New Package bindata at CRAN",
       "subject_clean": "New Package bindata at CRAN",
       "in_reply_to": null,
@@ -122,7 +122,7 @@
       "message_id": "<Pine.LNX.3.96.980616164701.11851F-100000@isildur.ci.tuwien.ac.at>",
       "from_name": "Evgenia Dimitriadou",
       "from_email_hash": "b4f2bc9e72b02679a766e7059050bc38f309fdd4ff443cb5c09f59be85bb1eed",
-      "date": "1998-06-16T16:54:58+02:00",
+      "date": "1998-06-16T14:54:58Z",
       "subject": "New Package",
       "subject_clean": "New Package",
       "in_reply_to": null,
@@ -138,7 +138,7 @@
       "message_id": "<Pine.LNX.3.96.980622151027.31323D-100000@isildur.ci.tuwien.ac.at>",
       "from_name": "Evgenia Dimitriadou",
       "from_email_hash": "b4f2bc9e72b02679a766e7059050bc38f309fdd4ff443cb5c09f59be85bb1eed",
-      "date": "1998-06-22T15:15:33+02:00",
+      "date": "1998-06-22T13:15:33Z",
       "subject": "\"cclust\" Package",
       "subject_clean": "\"cclust\" Package",
       "in_reply_to": null,
@@ -154,7 +154,7 @@
       "message_id": "<199806240807.JAA21896@toucan.stats.ox.ac.uk>",
       "from_name": "Prof Brian Ripley",
       "from_email_hash": "375ec446f7a1157a4f0268b6dc682d6c2a5b186f57aa61253477aa48159d2329",
-      "date": "1998-06-24T09:07:56+01:00",
+      "date": "1998-06-24T08:07:56Z",
       "subject": "Packages: KernSmooth logspline ppr rpart tree",
       "subject_clean": "Packages: KernSmooth logspline ppr rpart tree",
       "in_reply_to": null,
@@ -170,7 +170,7 @@
       "message_id": "<98Jun25.152447edt.13441@mailgate.bank-banque-canada.ca>",
       "from_name": "Paul Gilbert",
       "from_email_hash": "51f348dc0febec9b32e9d9dcb86f6de731958e1295e818209b4c127bffef5569",
-      "date": "1998-06-25T15:00:17-04:00",
+      "date": "1998-06-25T19:00:17Z",
       "subject": "DSE package",
       "subject_clean": "DSE package",
       "in_reply_to": null,
@@ -190,8 +190,8 @@
       "participants": [
         "Prof Brian Ripley"
       ],
-      "started": "1998-06-04T13:16:01+01:00",
-      "last_reply": "1998-06-04T13:16:01+01:00",
+      "started": "1998-06-04T12:16:01Z",
+      "last_reply": "1998-06-04T12:16:01Z",
       "root_message_id": "msg-1a309164af53"
     },
     {
@@ -202,8 +202,8 @@
         "(Ted Harding)",
         "Peter Dalgaard BSA"
       ],
-      "started": "1998-06-14T16:42:30+02:00",
-      "last_reply": "1998-06-15T01:16:06+01:00",
+      "started": "1998-06-14T14:42:30Z",
+      "last_reply": "1998-06-15T00:16:06Z",
       "root_message_id": "msg-22fbd4fa103b"
     },
     {
@@ -213,8 +213,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1998-06-14T22:18:49+02:00",
-      "last_reply": "1998-06-14T22:18:49+02:00",
+      "started": "1998-06-14T20:18:49Z",
+      "last_reply": "1998-06-14T20:18:49Z",
       "root_message_id": "msg-9789d799e744"
     },
     {
@@ -224,8 +224,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1998-06-15T00:37:34+02:00",
-      "last_reply": "1998-06-15T00:37:34+02:00",
+      "started": "1998-06-14T22:37:34Z",
+      "last_reply": "1998-06-14T22:37:34Z",
       "root_message_id": "msg-a58a4ca1df73"
     },
     {
@@ -235,8 +235,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1998-06-16T10:25:27+02:00",
-      "last_reply": "1998-06-16T10:25:27+02:00",
+      "started": "1998-06-16T08:25:27Z",
+      "last_reply": "1998-06-16T08:25:27Z",
       "root_message_id": "msg-7a2a4601b747"
     },
     {
@@ -246,8 +246,8 @@
       "participants": [
         "Evgenia Dimitriadou"
       ],
-      "started": "1998-06-16T16:54:58+02:00",
-      "last_reply": "1998-06-16T16:54:58+02:00",
+      "started": "1998-06-16T14:54:58Z",
+      "last_reply": "1998-06-16T14:54:58Z",
       "root_message_id": "msg-279cdc29c813"
     },
     {
@@ -257,8 +257,8 @@
       "participants": [
         "Evgenia Dimitriadou"
       ],
-      "started": "1998-06-22T15:15:33+02:00",
-      "last_reply": "1998-06-22T15:15:33+02:00",
+      "started": "1998-06-22T13:15:33Z",
+      "last_reply": "1998-06-22T13:15:33Z",
       "root_message_id": "msg-3e1cc3510e18"
     },
     {
@@ -268,8 +268,8 @@
       "participants": [
         "Prof Brian Ripley"
       ],
-      "started": "1998-06-24T09:07:56+01:00",
-      "last_reply": "1998-06-24T09:07:56+01:00",
+      "started": "1998-06-24T08:07:56Z",
+      "last_reply": "1998-06-24T08:07:56Z",
       "root_message_id": "msg-9a7337ae62ae"
     },
     {
@@ -279,8 +279,8 @@
       "participants": [
         "Paul Gilbert"
       ],
-      "started": "1998-06-25T15:00:17-04:00",
-      "last_reply": "1998-06-25T15:00:17-04:00",
+      "started": "1998-06-25T19:00:17Z",
+      "last_reply": "1998-06-25T19:00:17Z",
       "root_message_id": "msg-44538f7a2c9a"
     }
   ]

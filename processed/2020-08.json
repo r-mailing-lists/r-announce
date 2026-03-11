@@ -8,7 +8,7 @@
       "message_id": "<5af3e0c2-19ff-4840-8542-482d56487664@www.fastmail.com>",
       "from_name": "Heather Turner",
       "from_email_hash": "919acb51be6b80981b595f986a0eb9df93f4924930aadc802bf342e675876550",
-      "date": "2020-08-03T09:24:34+01:00",
+      "date": "2020-08-03T08:24:34Z",
       "subject": "useR! 2020 survey",
       "subject_clean": "useR! 2020 survey",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Heather Turner"
       ],
-      "started": "2020-08-03T09:24:34+01:00",
-      "last_reply": "2020-08-03T09:24:34+01:00",
+      "started": "2020-08-03T08:24:34Z",
+      "last_reply": "2020-08-03T08:24:34Z",
       "root_message_id": "msg-550cbc3c1964"
     }
   ]

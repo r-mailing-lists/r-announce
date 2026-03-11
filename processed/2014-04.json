@@ -8,7 +8,7 @@
       "message_id": "<532362AE-0B84-4B24-AFA0-9F5CAD222EC4@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2014-04-10T12:05:40+02:00",
+      "date": "2014-04-10T10:05:40Z",
       "subject": "[R] R 3.0.3 is released",
       "subject_clean": "R 3.0.3 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<4415F313-1667-4A20-9005-CB3518BCA43E@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2014-04-10T12:07:38+02:00",
+      "date": "2014-04-10T10:07:38Z",
       "subject": "[R] R 3.1.0 is released",
       "subject_clean": "R 3.1.0 is released",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2014-04-10T12:05:40+02:00",
-      "last_reply": "2014-04-10T12:05:40+02:00",
+      "started": "2014-04-10T10:05:40Z",
+      "last_reply": "2014-04-10T10:05:40Z",
       "root_message_id": "msg-c4f834e9eb4b"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2014-04-10T12:07:38+02:00",
-      "last_reply": "2014-04-10T12:07:38+02:00",
+      "started": "2014-04-10T10:07:38Z",
+      "last_reply": "2014-04-10T10:07:38Z",
       "root_message_id": "msg-3ba6fb56f62a"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<0C27FF17-6635-4898-A480-BFCCAA4AB177@gmail.com>",
       "from_name": "peter dalgaard",
       "from_email_hash": "5d0f61ffffc9a67fd86f4b9a1ea3fac7d731c19e1d8679b6ae315232b22874e8",
-      "date": "2024-06-14T09:58:58+02:00",
+      "date": "2024-06-14T07:58:58Z",
       "subject": "[Rd] R 4.4.1 is released",
       "subject_clean": "R 4.4.1 is released",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "peter dalgaard"
       ],
-      "started": "2024-06-14T09:58:58+02:00",
-      "last_reply": "2024-06-14T09:58:58+02:00",
+      "started": "2024-06-14T07:58:58Z",
+      "last_reply": "2024-06-14T07:58:58Z",
       "root_message_id": "msg-4da27bfa27f9"
     }
   ]

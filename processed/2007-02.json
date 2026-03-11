@@ -8,7 +8,7 @@
       "message_id": "<BBAC5956-FC69-4795-94F5-0477A02BB3E1@iastate.edu>",
       "from_name": "Dianne Cook",
       "from_email_hash": "6c4c2b1e0814a4370219e89f51b2083d2460b41068e542ee969c30257ae6647e",
-      "date": "2007-02-11T07:00:48-06:00",
+      "date": "2007-02-11T13:00:48Z",
       "subject": "useR! 2007",
       "subject_clean": "useR! 2007",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Dianne Cook"
       ],
-      "started": "2007-02-11T07:00:48-06:00",
-      "last_reply": "2007-02-11T07:00:48-06:00",
+      "started": "2007-02-11T13:00:48Z",
+      "last_reply": "2007-02-11T13:00:48Z",
       "root_message_id": "msg-b6d64f1f4371"
     }
   ]

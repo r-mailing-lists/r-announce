@@ -8,7 +8,7 @@
       "message_id": "<144C148F-C18F-40DD-9DF5-D292CEE88EC7@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2013-05-06T13:58:17+02:00",
+      "date": "2013-05-06T11:58:17Z",
       "subject": "[R] Release plans: R-3.0.1 on May 16",
       "subject_clean": "Release plans: R-3.0.1 on May 16",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<C203CE34-3463-4422-B18F-626658D8B899@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2013-05-16T09:51:42+02:00",
+      "date": "2013-05-16T07:51:42Z",
       "subject": "R 3.0.1 is released",
       "subject_clean": "R 3.0.1 is released",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2013-05-06T13:58:17+02:00",
-      "last_reply": "2013-05-06T13:58:17+02:00",
+      "started": "2013-05-06T11:58:17Z",
+      "last_reply": "2013-05-06T11:58:17Z",
       "root_message_id": "msg-12fad8d433b6"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2013-05-16T09:51:42+02:00",
-      "last_reply": "2013-05-16T09:51:42+02:00",
+      "started": "2013-05-16T07:51:42Z",
+      "last_reply": "2013-05-16T07:51:42Z",
       "root_message_id": "msg-f0dad3bac55c"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<Pine.SUN.3.95.970708093641.4305B-100000@zen>",
       "from_name": "Thomas Lumley",
       "from_email_hash": "61bcce0fdf9d5f23a30b727658d7a47ac11811000a72b388d394906e16dc4416",
-      "date": "1997-07-08T09:41:22-07:00",
+      "date": "1997-07-08T16:41:22Z",
       "subject": "R-beta: integration, subset selection",
       "subject_clean": "R-beta: integration, subset selection",
       "in_reply_to": "<199707030527.HAA05571@aragorn.ci.tuwien.ac.at>",
@@ -24,7 +24,7 @@
       "message_id": "<199707101310.PAA03881@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1997-07-10T15:10:35+02:00",
+      "date": "1997-07-10T13:10:35Z",
       "subject": "New Packages in CRAN",
       "subject_clean": "New Packages in CRAN",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<199707101430.XAA04737@tansei.u-aizu.ac.jp>",
       "from_name": "Takafumi Hayashi",
       "from_email_hash": "04803134b10e626a01c369da8d2150d5a18a590f29efc2abf97215e7b82d2a5a",
-      "date": "1997-07-10T23:30:15+09:00",
+      "date": "1997-07-10T14:30:15Z",
       "subject": "R-beta: New Packages in CRAN ",
       "subject_clean": "R-beta: New Packages in CRAN",
       "in_reply_to": "Your message of \"Thu, 10 Jul 1997 15:10:35 +0200.\" <199707101310.PAA03881@galadriel.ci.tuwien.ac.at> ",
@@ -56,7 +56,7 @@
       "message_id": "<199707170843.KAA09296@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1997-07-17T10:43:22+02:00",
+      "date": "1997-07-17T08:43:22Z",
       "subject": "new version 0.1 of e1071 in CRAN",
       "subject_clean": "new version 0.1 of e1071 in CRAN",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<3.0.1.16.19970729173011.31175978@droopy.iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "1997-07-29T17:30:11+02:00",
+      "date": "1997-07-29T15:30:11Z",
       "subject": "RPM package for R",
       "subject_clean": "RPM package for R",
       "in_reply_to": null,
@@ -92,8 +92,8 @@
       "participants": [
         "Thomas Lumley"
       ],
-      "started": "1997-07-08T09:41:22-07:00",
-      "last_reply": "1997-07-08T09:41:22-07:00",
+      "started": "1997-07-08T16:41:22Z",
+      "last_reply": "1997-07-08T16:41:22Z",
       "root_message_id": "msg-7b9482f960da"
     },
     {
@@ -103,8 +103,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1997-07-10T15:10:35+02:00",
-      "last_reply": "1997-07-10T15:10:35+02:00",
+      "started": "1997-07-10T13:10:35Z",
+      "last_reply": "1997-07-10T13:10:35Z",
       "root_message_id": "msg-5433fe16f2db"
     },
     {
@@ -114,8 +114,8 @@
       "participants": [
         "Takafumi Hayashi"
       ],
-      "started": "1997-07-10T23:30:15+09:00",
-      "last_reply": "1997-07-10T23:30:15+09:00",
+      "started": "1997-07-10T14:30:15Z",
+      "last_reply": "1997-07-10T14:30:15Z",
       "root_message_id": "msg-cb50c60574cc"
     },
     {
@@ -125,8 +125,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1997-07-17T10:43:22+02:00",
-      "last_reply": "1997-07-17T10:43:22+02:00",
+      "started": "1997-07-17T08:43:22Z",
+      "last_reply": "1997-07-17T08:43:22Z",
       "root_message_id": "msg-a9be142fd997"
     },
     {
@@ -136,8 +136,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "1997-07-29T17:30:11+02:00",
-      "last_reply": "1997-07-29T17:30:11+02:00",
+      "started": "1997-07-29T15:30:11Z",
+      "last_reply": "1997-07-29T15:30:11Z",
       "root_message_id": "msg-cbe240a8b7b3"
     }
   ]

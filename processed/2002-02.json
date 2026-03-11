@@ -8,7 +8,7 @@
       "message_id": "<XFMail.20020201171609.plummer@iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "2002-02-01T17:16:09+01:00",
+      "date": "2002-02-01T16:16:09Z",
       "subject": "RPM binaries of R 1.4.1 for RedHat/Mandrake/Linuxppc",
       "subject_clean": "RPM binaries of R 1.4.1 for RedHat/Mandrake/Linuxppc",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<MABBLJDICACNFOLGIHJOGEFHCJAA.phgrosje@ulb.ac.be>",
       "from_name": "Philippe Grosjean",
       "from_email_hash": "770209afedd1d3da5c82d42e01056a2854596f44a6bf854f1ec924dd4a3242e7",
-      "date": "2002-02-14T15:31:21+01:00",
+      "date": "2002-02-14T14:31:21Z",
       "subject": "New package pastecs",
       "subject_clean": "New package pastecs",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2002-02-01T17:16:09+01:00",
-      "last_reply": "2002-02-01T17:16:09+01:00",
+      "started": "2002-02-01T16:16:09Z",
+      "last_reply": "2002-02-01T16:16:09Z",
       "root_message_id": "msg-7e7a717422d9"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Philippe Grosjean"
       ],
-      "started": "2002-02-14T15:31:21+01:00",
-      "last_reply": "2002-02-14T15:31:21+01:00",
+      "started": "2002-02-14T14:31:21Z",
+      "last_reply": "2002-02-14T14:31:21Z",
       "root_message_id": "msg-ec67d2dfc3bd"
     }
   ]

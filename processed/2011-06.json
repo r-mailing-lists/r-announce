@@ -8,7 +8,7 @@
       "message_id": "<1308824021.12206.1466358913@webmail.messagingengine.com>",
       "from_name": "Heather Turner",
       "from_email_hash": "49583fb1b51260f190c0422a6ca38b323f8d4d61c030599d75fabebdfeaf5bd4",
-      "date": "2011-06-23T11:13:41+01:00",
+      "date": "2011-06-23T10:13:41Z",
       "subject": "The R Journal Vol. 3/1 now published",
       "subject_clean": "The R Journal Vol. 3/1 now published",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<C7920F2D-2678-4EAB-9964-AF985CA924A8@cbs.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "94c22474a7a04ff4ebb63579e218e559559f36476cb3c5059536218e5ef0e3eb",
-      "date": "2011-06-30T14:13:18+02:00",
+      "date": "2011-06-30T12:13:18Z",
       "subject": "R 2.13.1 scheduled for July 8",
       "subject_clean": "R 2.13.1 scheduled for July 8",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Heather Turner"
       ],
-      "started": "2011-06-23T11:13:41+01:00",
-      "last_reply": "2011-06-23T11:13:41+01:00",
+      "started": "2011-06-23T10:13:41Z",
+      "last_reply": "2011-06-23T10:13:41Z",
       "root_message_id": "msg-299e5b2fac7b"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2011-06-30T14:13:18+02:00",
-      "last_reply": "2011-06-30T14:13:18+02:00",
+      "started": "2011-06-30T12:13:18Z",
+      "last_reply": "2011-06-30T12:13:18Z",
       "root_message_id": "msg-064058e851e2"
     }
   ]

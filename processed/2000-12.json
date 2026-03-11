@@ -8,7 +8,7 @@
       "message_id": "<x28zphzz9a.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2000-12-15T12:42:57+01:00",
+      "date": "2000-12-15T11:42:57Z",
       "subject": "R 1.2.0 is released",
       "subject_clean": "R 1.2.0 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<6r7l51j0np.fsf@franz.stat.wisc.edu>",
       "from_name": "Douglas Bates",
       "from_email_hash": "c908588836123be177df15f4b3132be3a2b4b95c4eaeddcc72b433a3981bb1b3",
-      "date": "2000-12-15T07:04:42-06:00",
+      "date": "2000-12-15T13:04:42Z",
       "subject": "R 1.2.0 is now available via rsync",
       "subject_clean": "R 1.2.0 is now available via rsync",
       "in_reply_to": "Peter Dalgaard BSA's message of \"15 Dec 2000 12:42:57 +0100\"",
@@ -42,7 +42,7 @@
       "message_id": "<20001218120957.25753@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2000-12-18T12:09:57+01:00",
+      "date": "2000-12-18T11:09:57Z",
       "subject": "R 1.2.0 for Windows",
       "subject_clean": "R 1.2.0 for Windows",
       "in_reply_to": null,
@@ -74,7 +74,7 @@
       "message_id": "<a05001905b663fcabe859@[159.149.74.61]>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
-      "date": "2000-12-18T18:53:53+01:00",
+      "date": "2000-12-18T17:53:53Z",
       "subject": "Latest/last beta of R 1.1.1 for MacOS (rel Dec 10 2000)",
       "subject_clean": "Latest/last beta of R 1.1.1 for MacOS (rel Dec 10 2000)",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<Pine.LNX.4.30.0012201436290.1763-100000@localhost.localdomain>",
       "from_name": "mikalzet at libero.it",
       "from_email_hash": "ca65145329f1d40cd8610c80cc5b2ac7f4e5363b76e5fcf726ba1ccfb2a64173",
-      "date": "2000-12-20T14:39:40+01:00",
+      "date": "2000-12-20T13:39:40Z",
       "subject": "R 1.2.0 for Mandrake 7.1 and 7.2",
       "subject_clean": "R 1.2.0 for Mandrake 7.1 and 7.2",
       "in_reply_to": null,
@@ -106,7 +106,7 @@
       "message_id": "<200012212046.PAA100864@odds.stat.purdue.edu>",
       "from_name": "Chong Gu",
       "from_email_hash": "d33adf3cbf719825a60530324abb0b76a44f89d6dbd571cefcdb32ea7c686d6a",
-      "date": "2000-12-21T15:46:02-05:00",
+      "date": "2000-12-21T20:46:02Z",
       "subject": "factor support added in gss",
       "subject_clean": "factor support added in gss",
       "in_reply_to": null,
@@ -127,8 +127,8 @@
         "Douglas Bates",
         "Peter Dalgaard BSA"
       ],
-      "started": "2000-12-15T12:42:57+01:00",
-      "last_reply": "2000-12-15T07:04:42-06:00",
+      "started": "2000-12-15T11:42:57Z",
+      "last_reply": "2000-12-15T13:04:42Z",
       "root_message_id": "msg-d98dea9f8bb3"
     },
     {
@@ -138,8 +138,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "2000-12-18T12:09:57+01:00",
-      "last_reply": "2000-12-18T12:09:57+01:00",
+      "started": "2000-12-18T11:09:57Z",
+      "last_reply": "2000-12-18T11:09:57Z",
       "root_message_id": "msg-6923ebdfa694"
     },
     {
@@ -149,8 +149,8 @@
       "participants": [
         "Prof Brian Ripley"
       ],
-      "started": "2000-12-18T15:39:02+00:00",
-      "last_reply": "2000-12-18T15:39:02+00:00",
+      "started": "2000-12-18T15:39:02Z",
+      "last_reply": "2000-12-18T15:39:02Z",
       "root_message_id": "msg-dc4579e22060"
     },
     {
@@ -160,8 +160,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2000-12-18T18:53:53+01:00",
-      "last_reply": "2000-12-18T18:53:53+01:00",
+      "started": "2000-12-18T17:53:53Z",
+      "last_reply": "2000-12-18T17:53:53Z",
       "root_message_id": "msg-db2b363745ef"
     },
     {
@@ -171,8 +171,8 @@
       "participants": [
         "mikalzet at libero.it"
       ],
-      "started": "2000-12-20T14:39:40+01:00",
-      "last_reply": "2000-12-20T14:39:40+01:00",
+      "started": "2000-12-20T13:39:40Z",
+      "last_reply": "2000-12-20T13:39:40Z",
       "root_message_id": "msg-5348ebedc76e"
     },
     {
@@ -182,8 +182,8 @@
       "participants": [
         "Chong Gu"
       ],
-      "started": "2000-12-21T15:46:02-05:00",
-      "last_reply": "2000-12-21T15:46:02-05:00",
+      "started": "2000-12-21T20:46:02Z",
+      "last_reply": "2000-12-21T20:46:02Z",
       "root_message_id": "msg-3047bedb25a4"
     }
   ]

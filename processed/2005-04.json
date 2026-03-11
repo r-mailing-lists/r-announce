@@ -8,7 +8,7 @@
       "message_id": "<x2pswstg78.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2005-04-18T14:36:11+02:00",
+      "date": "2005-04-18T12:36:11Z",
       "subject": "R-2.1.0 is released ",
       "subject_clean": "R-2.1.0 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<x2y8bfbrpj.fsf@turmalin.kubism.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "2005-04-19T01:17:12+02:00",
+      "date": "2005-04-18T23:17:12Z",
       "subject": "Re-release of R 2.1.0",
       "subject_clean": "Re-release of R 2.1.0",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2005-04-18T14:36:11+02:00",
-      "last_reply": "2005-04-18T14:36:11+02:00",
+      "started": "2005-04-18T12:36:11Z",
+      "last_reply": "2005-04-18T12:36:11Z",
       "root_message_id": "msg-505851c0fc90"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2005-04-19T01:17:12+02:00",
-      "last_reply": "2005-04-19T01:17:12+02:00",
+      "started": "2005-04-18T23:17:12Z",
+      "last_reply": "2005-04-18T23:17:12Z",
       "root_message_id": "msg-e6c3873fa440"
     }
   ]

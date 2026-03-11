@@ -8,7 +8,7 @@
       "message_id": "<46B3242F.4060909@R-Project.org>",
       "from_name": "Uwe Ligges",
       "from_email_hash": "c17cae670f8f8c752d6cde87e94fcb58a5bfee16d5d4c88c9cb2b95d2275685b",
-      "date": "2007-08-03T14:48:47+02:00",
+      "date": "2007-08-03T12:48:47Z",
       "subject": "useR! 2008",
       "subject_clean": "useR! 2008",
       "in_reply_to": null,
@@ -28,8 +28,8 @@
       "participants": [
         "Uwe Ligges"
       ],
-      "started": "2007-08-03T14:48:47+02:00",
-      "last_reply": "2007-08-03T14:48:47+02:00",
+      "started": "2007-08-03T12:48:47Z",
+      "last_reply": "2007-08-03T12:48:47Z",
       "root_message_id": "msg-f4b12520c348"
     }
   ]

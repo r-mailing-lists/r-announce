@@ -8,7 +8,7 @@
       "message_id": "<4A018466.3090109@biostat.ku.dk>",
       "from_name": "Peter Dalgaard",
       "from_email_hash": "6970d38b63c93ff8b781d9787948d92fe2e7b4240149faca590409068c44b75c",
-      "date": "2009-05-06T14:36:54+02:00",
+      "date": "2009-05-06T12:36:54Z",
       "subject": "DSC 2009 update, early registration ends May 15",
       "subject_clean": "DSC 2009 update, early registration ends May 15",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<2c3c9e80905281314o1af452cp62b6b9da59ab6e3a@mail.gmail.com>",
       "from_name": "Vincent Carey",
       "from_email_hash": "a2452f5b8291c3819d7bf5f8363b8501a99d965cccb34679af430953cca3c633",
-      "date": "2009-05-28T16:14:51-04:00",
+      "date": "2009-05-28T20:14:51Z",
       "subject": "The R Journal volume 1, number 1, now available",
       "subject_clean": "The R Journal volume 1, number 1, now available",
       "in_reply_to": null,
@@ -44,8 +44,8 @@
       "participants": [
         "Peter Dalgaard"
       ],
-      "started": "2009-05-06T14:36:54+02:00",
-      "last_reply": "2009-05-06T14:36:54+02:00",
+      "started": "2009-05-06T12:36:54Z",
+      "last_reply": "2009-05-06T12:36:54Z",
       "root_message_id": "msg-314c7779f174"
     },
     {
@@ -55,8 +55,8 @@
       "participants": [
         "Vincent Carey"
       ],
-      "started": "2009-05-28T16:14:51-04:00",
-      "last_reply": "2009-05-28T16:14:51-04:00",
+      "started": "2009-05-28T20:14:51Z",
+      "last_reply": "2009-05-28T20:14:51Z",
       "root_message_id": "msg-b60b3fc8fb90"
     }
   ]

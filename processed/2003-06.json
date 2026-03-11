@@ -8,7 +8,7 @@
       "message_id": "<16095.14452.682830.688153@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich.Leisch at ci.tuwien.ac.at",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2003-06-05T14:32:52+02:00",
+      "date": "2003-06-05T12:32:52Z",
       "subject": "R News Volume 3/1",
       "subject_clean": "R News Volume 3/1",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.LNX.4.44.0306161115420.8790-100000@tal.stat.umu.se>",
       "from_name": "Göran Broström",
       "from_email_hash": "a5c32d25a912fd2e7d07bfdf35a470dbdd4bb162dffcf7d688b64aeeb247d678",
-      "date": "2003-06-16T11:20:07+02:00",
+      "date": "2003-06-16T09:20:07Z",
       "subject": "new package: eha",
       "subject_clean": "new package: eha",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<36jsevkatmrbr6lrrgv6opv8t1jl98tpqg@4ax.com>",
       "from_name": "Duncan Murdoch",
       "from_email_hash": "0b169dc9578e443c97ef875feba9794619f6e667997aabcb13de6d581cba9312",
-      "date": "2003-06-16T19:04:45-04:00",
+      "date": "2003-06-16T23:04:45Z",
       "subject": "Windows binary for 1.7.1 uploaded to CRAN",
       "subject_clean": "Windows binary for 1.7.1 uploaded to CRAN",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<3BA35499-A051-11D7-B5A3-003065CC4CB8@unimi.it>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "01be6412e8f757040268a7a1e0493160e362e221b339410d4861d3d4189ad837",
-      "date": "2003-06-17T01:21:18+02:00",
+      "date": "2003-06-16T23:21:18Z",
       "subject": "Carbon R 1.7.1 on CRAN",
       "subject_clean": "Carbon R 1.7.1 on CRAN",
       "in_reply_to": null,
@@ -92,20 +92,9 @@
       "participants": [
         "Friedrich.Leisch at ci.tuwien.ac.at"
       ],
-      "started": "2003-06-05T14:32:52+02:00",
-      "last_reply": "2003-06-05T14:32:52+02:00",
+      "started": "2003-06-05T12:32:52Z",
+      "last_reply": "2003-06-05T12:32:52Z",
       "root_message_id": "msg-bc44e53cda37"
-    },
-    {
-      "id": "thread-8916436dc8d6",
-      "subject": "R 1.7.1 is released",
-      "message_count": 1,
-      "participants": [
-        "Peter Dalgaard BSA"
-      ],
-      "started": "2003-06-16T10:48:33+00:00",
-      "last_reply": "2003-06-16T10:48:33+00:00",
-      "root_message_id": "msg-8916436dc8d6"
     },
     {
       "id": "thread-415515f98a07",
@@ -114,9 +103,20 @@
       "participants": [
         "Göran Broström"
       ],
-      "started": "2003-06-16T11:20:07+02:00",
-      "last_reply": "2003-06-16T11:20:07+02:00",
+      "started": "2003-06-16T09:20:07Z",
+      "last_reply": "2003-06-16T09:20:07Z",
       "root_message_id": "msg-415515f98a07"
+    },
+    {
+      "id": "thread-8916436dc8d6",
+      "subject": "R 1.7.1 is released",
+      "message_count": 1,
+      "participants": [
+        "Peter Dalgaard BSA"
+      ],
+      "started": "2003-06-16T10:48:33Z",
+      "last_reply": "2003-06-16T10:48:33Z",
+      "root_message_id": "msg-8916436dc8d6"
     },
     {
       "id": "thread-578431b93fa4",
@@ -125,8 +125,8 @@
       "participants": [
         "Duncan Murdoch"
       ],
-      "started": "2003-06-16T19:04:45-04:00",
-      "last_reply": "2003-06-16T19:04:45-04:00",
+      "started": "2003-06-16T23:04:45Z",
+      "last_reply": "2003-06-16T23:04:45Z",
       "root_message_id": "msg-578431b93fa4"
     },
     {
@@ -136,8 +136,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2003-06-17T01:21:18+02:00",
-      "last_reply": "2003-06-17T01:21:18+02:00",
+      "started": "2003-06-16T23:21:18Z",
+      "last_reply": "2003-06-16T23:21:18Z",
       "root_message_id": "msg-3d63ce68fcc1"
     }
   ]

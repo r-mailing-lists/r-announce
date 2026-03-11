@@ -8,7 +8,7 @@
       "message_id": "<3.0.32.20020905103036.00906db0@162.38.183.200>",
       "from_name": "Emmanuel Paradis",
       "from_email_hash": "279a25fc4a41e9310e9fb424624945d36d0266c02d86a58d5e8e9c1d7d268282",
-      "date": "2002-09-05T10:30:36+02:00",
+      "date": "2002-09-05T08:30:36Z",
       "subject": "ape 0.1 is released",
       "subject_clean": "ape 0.1 is released",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.LNX.4.33L2.0209171155390.12526-100000@linaria.dst.unive.it>",
       "from_name": "Claudio Agostinelli",
       "from_email_hash": "8bab9e7af796ed09645aa0a01dae91664e073647b6ea5da7e5cc7276c6fde982",
-      "date": "2002-09-17T12:03:55+02:00",
+      "date": "2002-09-17T10:03:55Z",
       "subject": "ga: genetic algorithms package ",
       "subject_clean": "ga: genetic algorithms package",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<20020921202920.356c965f.fharrell@virginia.edu>",
       "from_name": "Frank E Harrell Jr",
       "from_email_hash": "bd19bd9f169b5f3d1a992f9f1800c6f882823514a102dfe1216f921e43131154",
-      "date": "2002-09-21T20:29:20-04:00",
+      "date": "2002-09-22T00:29:20Z",
       "subject": "Updates to Hmisc and Design Libraries",
       "subject_clean": "Updates to Hmisc and Design Libraries",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<D7A3CFD7825BD6119B880002A58F06C20149CFA7@groexmb02.pfizer.com>",
       "from_name": "Warnes, Gregory R",
       "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
-      "date": "2002-09-23T14:35:28-04:00",
+      "date": "2002-09-23T18:35:28Z",
       "subject": "New version of gregmisc package",
       "subject_clean": "New version of gregmisc package",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<D7A3CFD7825BD6119B880002A58F06C20149CFAA@groexmb02.pfizer.com>",
       "from_name": "Warnes, Gregory R",
       "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
-      "date": "2002-09-23T16:00:33-04:00",
+      "date": "2002-09-23T20:00:33Z",
       "subject": "New version of gregmisc package",
       "subject_clean": "New version of gregmisc package",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<D7A3CFD7825BD6119B880002A58F06C20149CFC6@groexmb02.pfizer.com>",
       "from_name": "Warnes, Gregory R",
       "from_email_hash": "78176247357e33f9d8243f5809b8b9cf481d6519c967f5dec5cf7faa26b25aaa",
-      "date": "2002-09-25T16:47:46-04:00",
+      "date": "2002-09-25T20:47:46Z",
       "subject": "New version of gregmisc package",
       "subject_clean": "New version of gregmisc package",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<51F9C42DA15CD311BD220008C707D81906FFC703@usrymx10.merck.com>",
       "from_name": "Liaw, Andy",
       "from_email_hash": "898c214b2bc6c21da39a883e12ded19760ce149cfa1067d738a1a4f3200f2bc0",
-      "date": "2002-09-26T20:07:46-04:00",
+      "date": "2002-09-27T00:07:46Z",
       "subject": "new patched version of randomForest",
       "subject_clean": "new patched version of randomForest",
       "in_reply_to": null,
@@ -120,7 +120,7 @@
       "message_id": "<Pine.LNX.4.33.0209301635220.3488-100000@imbe78.imbe.med.uni-erlangen.de>",
       "from_name": "Andrea Peters",
       "from_email_hash": "b7e1caff2d9fb45c10c69bda554b0216cb7fc75e13fbf62dc880c5a7a1bf6357",
-      "date": "2002-09-30T16:38:56+02:00",
+      "date": "2002-09-30T14:38:56Z",
       "subject": "New version of ipred package",
       "subject_clean": "New version of ipred package",
       "in_reply_to": null,
@@ -140,8 +140,8 @@
       "participants": [
         "Emmanuel Paradis"
       ],
-      "started": "2002-09-05T10:30:36+02:00",
-      "last_reply": "2002-09-05T10:30:36+02:00",
+      "started": "2002-09-05T08:30:36Z",
+      "last_reply": "2002-09-05T08:30:36Z",
       "root_message_id": "msg-5c354ee13b19"
     },
     {
@@ -151,8 +151,8 @@
       "participants": [
         "Claudio Agostinelli"
       ],
-      "started": "2002-09-17T12:03:55+02:00",
-      "last_reply": "2002-09-17T12:03:55+02:00",
+      "started": "2002-09-17T10:03:55Z",
+      "last_reply": "2002-09-17T10:03:55Z",
       "root_message_id": "msg-dffeaadc97a0"
     },
     {
@@ -162,8 +162,8 @@
       "participants": [
         "Frank E Harrell Jr"
       ],
-      "started": "2002-09-21T20:29:20-04:00",
-      "last_reply": "2002-09-21T20:29:20-04:00",
+      "started": "2002-09-22T00:29:20Z",
+      "last_reply": "2002-09-22T00:29:20Z",
       "root_message_id": "msg-46bf2e14d55d"
     },
     {
@@ -173,8 +173,8 @@
       "participants": [
         "Warnes, Gregory R"
       ],
-      "started": "2002-09-23T14:35:28-04:00",
-      "last_reply": "2002-09-23T14:35:28-04:00",
+      "started": "2002-09-23T18:35:28Z",
+      "last_reply": "2002-09-23T18:35:28Z",
       "root_message_id": "msg-1e7682ade9e7"
     },
     {
@@ -184,8 +184,8 @@
       "participants": [
         "Warnes, Gregory R"
       ],
-      "started": "2002-09-23T16:00:33-04:00",
-      "last_reply": "2002-09-23T16:00:33-04:00",
+      "started": "2002-09-23T20:00:33Z",
+      "last_reply": "2002-09-23T20:00:33Z",
       "root_message_id": "msg-91523775dea0"
     },
     {
@@ -195,8 +195,8 @@
       "participants": [
         "Warnes, Gregory R"
       ],
-      "started": "2002-09-25T16:47:46-04:00",
-      "last_reply": "2002-09-25T16:47:46-04:00",
+      "started": "2002-09-25T20:47:46Z",
+      "last_reply": "2002-09-25T20:47:46Z",
       "root_message_id": "msg-f0fd4af4f5db"
     },
     {
@@ -206,8 +206,8 @@
       "participants": [
         "Liaw, Andy"
       ],
-      "started": "2002-09-26T20:07:46-04:00",
-      "last_reply": "2002-09-26T20:07:46-04:00",
+      "started": "2002-09-27T00:07:46Z",
+      "last_reply": "2002-09-27T00:07:46Z",
       "root_message_id": "msg-0a97638a3c73"
     },
     {
@@ -217,8 +217,8 @@
       "participants": [
         "Andrea Peters"
       ],
-      "started": "2002-09-30T16:38:56+02:00",
-      "last_reply": "2002-09-30T16:38:56+02:00",
+      "started": "2002-09-30T14:38:56Z",
+      "last_reply": "2002-09-30T14:38:56Z",
       "root_message_id": "msg-012d33e1479c"
     }
   ]

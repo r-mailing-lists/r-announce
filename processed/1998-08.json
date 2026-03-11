@@ -8,7 +8,7 @@
       "message_id": "<x2yasoajuj.fsf@biostat.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-08-16T19:59:32+02:00",
+      "date": "1998-08-16T17:59:32Z",
       "subject": "Bug tracking system",
       "subject_clean": "Bug tracking system",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<Pine.SUN.3.91.980817023536.21259A-100000@bhairav.ee.iitb.ernet.in>",
       "from_name": "R. MANIVASAKAN",
       "from_email_hash": "47f6cf7200c8e900060836c4573e25697f7e5795359481c94abe2460248f9c30",
-      "date": "1998-08-17T02:37:07+05:30",
+      "date": "1998-08-16T21:07:07Z",
       "subject": "Bug tracking system",
       "subject_clean": "Bug tracking system",
       "in_reply_to": "<x2yasoajuj.fsf@biostat.ku.dk>",
@@ -40,7 +40,7 @@
       "message_id": "<Pine.LNX.3.93.980819085630.947A-100000@solzhenitsyn.ens.gu.edu.au>",
       "from_name": "Robert King",
       "from_email_hash": "3e47985edd702296210dd56bc0e83b1a036860e99e6ddf20317bc352bb3db1b0",
-      "date": "1998-08-19T09:00:40+10:00",
+      "date": "1998-08-18T23:00:40Z",
       "subject": "HTML version of R mailing list archives",
       "subject_clean": "HTML version of R mailing list archives",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<13786.48818.964893.60214@elendil.ci.tuwien.ac.at>",
       "from_name": "Andreas Weingessel",
       "from_email_hash": "887106bd89e9e1fc47c21927f0fcf51aeeb866ad2ff9d8e6adf4cac2c060ac3c",
-      "date": "1998-08-19T14:01:54+02:00",
+      "date": "1998-08-19T12:01:54Z",
       "subject": "CRAN incoming",
       "subject_clean": "CRAN incoming",
       "in_reply_to": "<Pine.SUN.3.95.980811152337.509H-100000@beast>",
@@ -74,7 +74,7 @@
       "message_id": "<x2btp55oan.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-08-28T13:38:40+02:00",
+      "date": "1998-08-28T11:38:40Z",
       "subject": "R-0.62.3 is released",
       "subject_clean": "R-0.62.3 is released",
       "in_reply_to": null,
@@ -90,7 +90,7 @@
       "message_id": "<x2af4p5o49.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1998-08-28T13:42:30+02:00",
+      "date": "1998-08-28T11:42:30Z",
       "subject": "R-0.62.3 is released",
       "subject_clean": "R-0.62.3 is released",
       "in_reply_to": null,
@@ -111,8 +111,8 @@
         "Peter Dalgaard BSA",
         "R. MANIVASAKAN"
       ],
-      "started": "1998-08-16T19:59:32+02:00",
-      "last_reply": "1998-08-17T02:37:07+05:30",
+      "started": "1998-08-16T17:59:32Z",
+      "last_reply": "1998-08-16T21:07:07Z",
       "root_message_id": "msg-9ff1422c8df9"
     },
     {
@@ -122,8 +122,8 @@
       "participants": [
         "Robert King"
       ],
-      "started": "1998-08-19T09:00:40+10:00",
-      "last_reply": "1998-08-19T09:00:40+10:00",
+      "started": "1998-08-18T23:00:40Z",
+      "last_reply": "1998-08-18T23:00:40Z",
       "root_message_id": "msg-055b43b10c21"
     },
     {
@@ -133,8 +133,8 @@
       "participants": [
         "Andreas Weingessel"
       ],
-      "started": "1998-08-19T14:01:54+02:00",
-      "last_reply": "1998-08-19T14:01:54+02:00",
+      "started": "1998-08-19T12:01:54Z",
+      "last_reply": "1998-08-19T12:01:54Z",
       "root_message_id": "msg-dc4052d5f617"
     },
     {
@@ -144,8 +144,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1998-08-28T13:38:40+02:00",
-      "last_reply": "1998-08-28T13:38:40+02:00",
+      "started": "1998-08-28T11:38:40Z",
+      "last_reply": "1998-08-28T11:38:40Z",
       "root_message_id": "msg-7cf9fe202b99"
     },
     {
@@ -155,8 +155,8 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1998-08-28T13:42:30+02:00",
-      "last_reply": "1998-08-28T13:42:30+02:00",
+      "started": "1998-08-28T11:42:30Z",
+      "last_reply": "1998-08-28T11:42:30Z",
       "root_message_id": "msg-a20184b29b81"
     }
   ]

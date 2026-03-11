@@ -8,7 +8,7 @@
       "message_id": "<s8rpu9av9y6.fsf@apollo2.stat.washington.edu>",
       "from_name": "Michael Na Li",
       "from_email_hash": "2d594823a582d8356ca81b08417631750024d900e41403522b31edf84c75dacd",
-      "date": "2001-09-01T15:10:41-07:00",
+      "date": "2001-09-01T22:10:41Z",
       "subject": "Ann: New package rpvm 0.2",
       "subject_clean": "Ann: New package rpvm 0.2",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<200109022308.f82N8Er02447@mail.mclink.it>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
-      "date": "2001-09-03T01:08:15+02:00",
+      "date": "2001-09-02T23:08:15Z",
       "subject": "R-1.3.1 for both MacOS version released",
       "subject_clean": "R-1.3.1 for both MacOS version released",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<200109031241.f83CfUr29871@mail.mclink.it>",
       "from_name": "Stefano Iacus",
       "from_email_hash": "b62cf6b26ac633982f6b25a672c2c21252ac5dc7dc91265bc03ef9f59cf6ad50",
-      "date": "2001-09-03T14:41:31+02:00",
+      "date": "2001-09-03T12:41:31Z",
       "subject": "R-1.3.1 for both MacOS version released (correct URLs)",
       "subject_clean": "R-1.3.1 for both MacOS version released (correct URLs)",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<20010904170011.47357@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "2001-09-04T17:00:11+02:00",
+      "date": "2001-09-04T15:00:11Z",
       "subject": "R-1.3.1 for Windows",
       "subject_clean": "R-1.3.1 for Windows",
       "in_reply_to": null,
@@ -72,7 +72,7 @@
       "message_id": "<XFMail.20010907103718.plummer@iarc.fr>",
       "from_name": "Martyn Plummer",
       "from_email_hash": "bad7df6428e60802a46077187eab20a1a370b32627a90006d8a8b1573c1a099d",
-      "date": "2001-09-07T10:37:18+02:00",
+      "date": "2001-09-07T08:37:18Z",
       "subject": "RPM binaries of R 1.3.1 on Red Hat/Mandrake/Linuxppc",
       "subject_clean": "RPM binaries of R 1.3.1 on Red Hat/Mandrake/Linuxppc",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<15262.16730.432546.63278@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "2001-09-11T18:52:42+02:00",
+      "date": "2001-09-11T16:52:42Z",
       "subject": "New package pixmap",
       "subject_clean": "New package pixmap",
       "in_reply_to": null,
@@ -104,7 +104,7 @@
       "message_id": "<011701c1424a$3c3c1c30$175dd882@stat.auckland.ac.nz>",
       "from_name": "Paul Murrell",
       "from_email_hash": "71bf5cc945d7d1be4a537186b0b66a69b1cc63d99d978b8a16f5750506707116",
-      "date": "2001-09-21T15:05:14+12:00",
+      "date": "2001-09-21T03:05:14Z",
       "subject": "new versions of grid and lattice",
       "subject_clean": "new versions of grid and lattice",
       "in_reply_to": null,
@@ -124,8 +124,8 @@
       "participants": [
         "Michael Na Li"
       ],
-      "started": "2001-09-01T15:10:41-07:00",
-      "last_reply": "2001-09-01T15:10:41-07:00",
+      "started": "2001-09-01T22:10:41Z",
+      "last_reply": "2001-09-01T22:10:41Z",
       "root_message_id": "msg-68593dd9a1e0"
     },
     {
@@ -135,8 +135,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2001-09-03T01:08:15+02:00",
-      "last_reply": "2001-09-03T01:08:15+02:00",
+      "started": "2001-09-02T23:08:15Z",
+      "last_reply": "2001-09-02T23:08:15Z",
       "root_message_id": "msg-2c4bc0307915"
     },
     {
@@ -146,8 +146,8 @@
       "participants": [
         "Stefano Iacus"
       ],
-      "started": "2001-09-03T14:41:31+02:00",
-      "last_reply": "2001-09-03T14:41:31+02:00",
+      "started": "2001-09-03T12:41:31Z",
+      "last_reply": "2001-09-03T12:41:31Z",
       "root_message_id": "msg-1976da9e70ca"
     },
     {
@@ -157,8 +157,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "2001-09-04T17:00:11+02:00",
-      "last_reply": "2001-09-04T17:00:11+02:00",
+      "started": "2001-09-04T15:00:11Z",
+      "last_reply": "2001-09-04T15:00:11Z",
       "root_message_id": "msg-b0846e44c831"
     },
     {
@@ -168,8 +168,8 @@
       "participants": [
         "Martyn Plummer"
       ],
-      "started": "2001-09-07T10:37:18+02:00",
-      "last_reply": "2001-09-07T10:37:18+02:00",
+      "started": "2001-09-07T08:37:18Z",
+      "last_reply": "2001-09-07T08:37:18Z",
       "root_message_id": "msg-b5b7295c9e83"
     },
     {
@@ -179,8 +179,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "2001-09-11T18:52:42+02:00",
-      "last_reply": "2001-09-11T18:52:42+02:00",
+      "started": "2001-09-11T16:52:42Z",
+      "last_reply": "2001-09-11T16:52:42Z",
       "root_message_id": "msg-28782e402552"
     },
     {
@@ -190,8 +190,8 @@
       "participants": [
         "Paul Murrell"
       ],
-      "started": "2001-09-21T15:05:14+12:00",
-      "last_reply": "2001-09-21T15:05:14+12:00",
+      "started": "2001-09-21T03:05:14Z",
+      "last_reply": "2001-09-21T03:05:14Z",
       "root_message_id": "msg-73d2dff992bb"
     }
   ]

@@ -8,7 +8,7 @@
       "message_id": "<x2wvwjb03f.fsf@blueberry.kubism.ku.dk>",
       "from_name": "Peter Dalgaard BSA",
       "from_email_hash": "409845b1de856be3139032f02f06e223e8f42c55644c877caf44ca15af9ebff1",
-      "date": "1999-07-02T16:25:08+02:00",
+      "date": "1999-07-02T14:25:08Z",
       "subject": "R-0.64.2 is released (well, mostly)",
       "subject_clean": "R-0.64.2 is released (well, mostly)",
       "in_reply_to": null,
@@ -24,7 +24,7 @@
       "message_id": "<14209.59548.671786.553380@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1999-07-06T13:29:32+02:00",
+      "date": "1999-07-06T11:29:32Z",
       "subject": "R 0.64.2 at CRAN",
       "subject_clean": "R 0.64.2 at CRAN",
       "in_reply_to": null,
@@ -40,7 +40,7 @@
       "message_id": "<199907061640.LAA54480@mean.stat.purdue.edu>",
       "from_name": "Chong Gu",
       "from_email_hash": "d33adf3cbf719825a60530324abb0b76a44f89d6dbd571cefcdb32ea7c686d6a",
-      "date": "1999-07-06T11:40:14-05:00",
+      "date": "1999-07-06T16:40:14Z",
       "subject": "New smoothing spline package gss",
       "subject_clean": "New smoothing spline package gss",
       "in_reply_to": null,
@@ -56,7 +56,7 @@
       "message_id": "<19990707112029.33708@hal.stat.unipd.it>",
       "from_name": "Guido Masarotto",
       "from_email_hash": "0e7b46dc2aa427f4dc4e034ecc64bf1485634554b1f28392c90b04ebce1a22f7",
-      "date": "1999-07-07T11:20:29+01:00",
+      "date": "1999-07-07T10:20:29Z",
       "subject": "Win9X/NT binaries updated",
       "subject_clean": "Win9X/NT binaries updated",
       "in_reply_to": null,
@@ -88,7 +88,7 @@
       "message_id": "<14220.15753.113683.711700@galadriel.ci.tuwien.ac.at>",
       "from_name": "Friedrich Leisch",
       "from_email_hash": "5a5fdfa4351343af049914cd2641c9feb963f07285041256e0164002823b1114",
-      "date": "1999-07-14T09:34:33+02:00",
+      "date": "1999-07-14T07:34:33Z",
       "subject": "CRAN Vienna shutdowns",
       "subject_clean": "CRAN Vienna shutdowns",
       "in_reply_to": null,
@@ -108,20 +108,9 @@
       "participants": [
         "Peter Dalgaard BSA"
       ],
-      "started": "1999-07-02T16:25:08+02:00",
-      "last_reply": "1999-07-02T16:25:08+02:00",
+      "started": "1999-07-02T14:25:08Z",
+      "last_reply": "1999-07-02T14:25:08Z",
       "root_message_id": "msg-be2b96c03687"
-    },
-    {
-      "id": "thread-61efe91bba99",
-      "subject": "New smoothing spline package gss",
-      "message_count": 1,
-      "participants": [
-        "Chong Gu"
-      ],
-      "started": "1999-07-06T11:40:14-05:00",
-      "last_reply": "1999-07-06T11:40:14-05:00",
-      "root_message_id": "msg-61efe91bba99"
     },
     {
       "id": "thread-c9d5a1e27ae0",
@@ -130,9 +119,20 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1999-07-06T13:29:32+02:00",
-      "last_reply": "1999-07-06T13:29:32+02:00",
+      "started": "1999-07-06T11:29:32Z",
+      "last_reply": "1999-07-06T11:29:32Z",
       "root_message_id": "msg-c9d5a1e27ae0"
+    },
+    {
+      "id": "thread-61efe91bba99",
+      "subject": "New smoothing spline package gss",
+      "message_count": 1,
+      "participants": [
+        "Chong Gu"
+      ],
+      "started": "1999-07-06T16:40:14Z",
+      "last_reply": "1999-07-06T16:40:14Z",
+      "root_message_id": "msg-61efe91bba99"
     },
     {
       "id": "thread-38b0793a6b72",
@@ -141,8 +141,8 @@
       "participants": [
         "Guido Masarotto"
       ],
-      "started": "1999-07-07T11:20:29+01:00",
-      "last_reply": "1999-07-07T11:20:29+01:00",
+      "started": "1999-07-07T10:20:29Z",
+      "last_reply": "1999-07-07T10:20:29Z",
       "root_message_id": "msg-38b0793a6b72"
     },
     {
@@ -152,8 +152,8 @@
       "participants": [
         "Adrian Trapletti"
       ],
-      "started": "1999-07-08T16:20:44+00:00",
-      "last_reply": "1999-07-08T16:20:44+00:00",
+      "started": "1999-07-08T16:20:44Z",
+      "last_reply": "1999-07-08T16:20:44Z",
       "root_message_id": "msg-17a5140da7d3"
     },
     {
@@ -163,8 +163,8 @@
       "participants": [
         "Friedrich Leisch"
       ],
-      "started": "1999-07-14T09:34:33+02:00",
-      "last_reply": "1999-07-14T09:34:33+02:00",
+      "started": "1999-07-14T07:34:33Z",
+      "last_reply": "1999-07-14T07:34:33Z",
       "root_message_id": "msg-76f344657e74"
     }
   ]
