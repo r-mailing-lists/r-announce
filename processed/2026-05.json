@@ -1,0 +1,36 @@
+{
+  "list": "r-announce",
+  "description": "",
+  "month": "2026-05",
+  "messages": [
+    {
+      "id": "msg-f053ed72df7c",
+      "message_id": "<27132.24370.120112.27717@stat.math.ethz.ch>",
+      "from_name": "Martin Maechler",
+      "from_email_hash": "a92f4a07d4e3cad5fba985e30db2b0fff598d5ddfbadbb2e91ffe91636400c62",
+      "date": "2026-05-07T09:45:22Z",
+      "subject": "Mikael Jagan - New member of the R Core team",
+      "subject_clean": "Mikael Jagan - New member of the R Core team",
+      "in_reply_to": null,
+      "references": [],
+      "body_plain": "We are happy to announce that Mikael Jagan has accepted to join the R core team.\n\nHe has been an active contributor to the R project for several\nyears, reporting bugs and proposing bug fixes and enhancements\n  ==> https://bugs.r-project.org/buglist.cgi?email3=jaganmn2%2540gmail.com\n\nFurther, he has been co-authoring/maintaining the important\nMatrix package (becoming an expert in S4 ..) and more recently the lme4 and glmmTMB packages;\nsome of which is visible at  https://github.com/jaganmn\n\nPreviously working in Ben Bolker's group at McMaster (Hamilton, Ontario (CA)),\nhe is going to start a new job as Research Software Engineer\nwith the Dana-Farber Cancer Institute in the Boston area.\n\nWe are happy to welcome him on board of the R Core team !\n\nFor the R Core team,\nMartin Maechler",
+      "body_snippet": "We are happy to announce that Mikael Jagan has accepted to join the R core team.\n\nHe has been an active contributor to the R project for several\nyears, reporting bugs and proposing bug fixes and enhan",
+      "thread_id": "thread-f053ed72df7c",
+      "thread_depth": 0,
+      "month": "2026-05"
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-f053ed72df7c",
+      "subject": "Mikael Jagan - New member of the R Core team",
+      "message_count": 1,
+      "participants": [
+        "Martin Maechler"
+      ],
+      "started": "2026-05-07T09:45:22Z",
+      "last_reply": "2026-05-07T09:45:22Z",
+      "root_message_id": "msg-f053ed72df7c"
+    }
+  ]
+}

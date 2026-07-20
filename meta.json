@@ -2,10 +2,10 @@
   "list": "r-announce",
   "description": "",
   "source_url": "",
-  "total_messages": 703,
+  "total_messages": 713,
   "first_message": "1997-04-01T09:48:02Z",
-  "last_message": "2026-02-23T14:04:01Z",
-  "total_threads": 670,
+  "last_message": "2026-06-24T08:04:34Z",
+  "total_threads": 680,
   "months_available": [
     "1997-04",
     "1997-06",
@@ -261,6 +261,10 @@
     "2025-05",
     "2025-06",
     "2025-10",
-    "2026-02"
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06"
   ]
 }
