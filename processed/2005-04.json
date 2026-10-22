@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.1.0.tar.gz a short while ago. This version contains\nseveral substantial changes and additions, perhaps most notably the\nUTF8 and Internationalization changes. See the full list of c",
       "thread_id": "thread-505851c0fc90",
       "thread_depth": 0,
-      "month": "2005-04"
+      "month": "2005-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2005/000432.html"
     },
     {
       "id": "msg-e6c3873fa440",
@@ -33,7 +34,8 @@
       "body_snippet": "Due to a mishap in the build procedure, the originally released\nsources erroneously had \"2.2.0\" in several places within the\n\"configure\" file. A re-released version has been put up in\n\n   http://biost",
       "thread_id": "thread-e6c3873fa440",
       "thread_depth": 0,
-      "month": "2005-04"
+      "month": "2005-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2005/000433.html"
     }
   ],
   "threads": [

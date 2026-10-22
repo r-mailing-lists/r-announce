@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.0.1.tar.gz (codename \"See Things Now\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/sr",
       "thread_id": "thread-df378b6385c2",
       "thread_depth": 0,
-      "month": "2020-06"
+      "month": "2020-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000655.html"
     },
     {
       "id": "msg-46353a94fd16",
@@ -33,7 +34,8 @@
       "body_snippet": "Unfortunatly, a memory allocation bug prevented the R Commander package from working on Windows. This is fixed in R-patched, but we cannot have this not working in the official release when IT departm",
       "thread_id": "thread-46353a94fd16",
       "thread_depth": 0,
-      "month": "2020-06"
+      "month": "2020-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000656.html"
     },
     {
       "id": "msg-b8784e4a5728",
@@ -51,7 +53,8 @@
       "body_snippet": "Dear Peter,\n\nThank you very much for this.\n\nTo clarify slightly, the bug affects not just the Rcmdr package but use of the tcltk package on Windows more generally.\n\nBest,\n John\n\n  --------------------",
       "thread_id": "thread-b8784e4a5728",
       "thread_depth": 0,
-      "month": "2020-06"
+      "month": "2020-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000657.html"
     },
     {
       "id": "msg-e5ba89892f2f",
@@ -67,7 +70,8 @@
       "body_snippet": "The build system rolled up R-4.0.2.tar.gz (codename \"Taking Off Again\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/",
       "thread_id": "thread-e5ba89892f2f",
       "thread_depth": 0,
-      "month": "2020-06"
+      "month": "2020-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000658.html"
     }
   ],
   "threads": [

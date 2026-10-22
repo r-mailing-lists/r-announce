@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.10.1 on Monday,\nDecember 14, 2009.\n\nRelease procedures start Friday, December 4.\n\nThose directly involved should review the generic schedule at\n",
       "thread_id": "thread-7292275dcc68",
       "thread_depth": 0,
-      "month": "2009-12"
+      "month": "2009-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000513.html"
     },
     {
       "id": "msg-2a2065a8ca1a",
@@ -33,7 +34,8 @@
       "body_snippet": "R-2.10.1.tar.gz was built a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor issues.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-project.",
       "thread_id": "thread-2a2065a8ca1a",
       "thread_depth": 0,
-      "month": "2009-12"
+      "month": "2009-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000514.html"
     }
   ],
   "threads": [

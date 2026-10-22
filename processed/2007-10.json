@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.6.0.tar.gz a short while ago. This is a development \nrelease which contains a number of new features. In particular, the handling \nof data with a large number of identical strings s",
       "thread_id": "thread-d5d845086985",
       "thread_depth": 0,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000467.html"
     },
     {
       "id": "msg-9c4cd4ba1012",
@@ -35,7 +36,8 @@
       "body_snippet": "Peter Dalgaard wrote:\n> I've rolled up R-2.6.0.tar.gz a short while ago. This is a development \n> release which contains a number of new features. In particular, the handling \n> of data with a large n",
       "thread_id": "thread-d5d845086985",
       "thread_depth": 1,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000468.html"
     },
     {
       "id": "msg-21bcb21038ae",
@@ -51,7 +53,8 @@
       "body_snippet": "Dear useRs,\n\nthe new special volume of JSS about \"R in Ecology and Ecological\nModelling\" is now online. The scope of the papers ranges from\ntheoretical ecology and ecological modelling to statistical ",
       "thread_id": "thread-21bcb21038ae",
       "thread_depth": 0,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000469.html"
     },
     {
       "id": "msg-126241311b5f",
@@ -67,7 +70,8 @@
       "body_snippet": "Dear useRs,\n\nThe October 2007 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nTorsten\n(on behalf of the R News Editorial Board)",
       "thread_id": "thread-126241311b5f",
       "thread_depth": 0,
-      "month": "2007-10"
+      "month": "2007-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000470.html"
     }
   ],
   "threads": [

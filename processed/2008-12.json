@@ -13,11 +13,12 @@
       "subject_clean": "useR!2009 conference announcement",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "We are happy to inform you that the online abstract submission and \nregistration for `useR! 2009' is now available online from\n\nhttp://www.R-project.org/useR-2009/\n\nThis meeting of the R user community will take place at Agrocampus, \nRennes, France, July 8 to 10, 2000. The conference schedule comprises \ninvited lectures and user-contributed sessions as well as half-day \ntutorials presented by R experts on July 7, 2009, prior to the conference.\n\nInvited speakers will include\n\nAdele Cutler, Peter Dalgaard, Jerome H. Friedman,  Michael Greenacre,  \nTrevor Hastie, John Storey, Martin Theus.\n\nThe spectrum of user-contributed sessions will depend on your \nsubmissions. Hence, we invite you to submit abstracts for a talk or a \nposter on topics presenting innovations or exciting applications of R. \nThe call for papers along with the link to the online abstract \nsubmission is available at\n\nhttp://www.R-project.org/useR-2009/#Call\n\nBefore the start of the official program, half-day tutorials will be \noffered on Tuesday, July 7. A list of topics and speakers can be found at\n\nhttp://www.R-project.org/useR-2009/tutorials/\n\nThe deadline for early registration and to submit an abstract is \nFebruary 27th 2009, so now is the perfect time to write and submit an \nabstract, register as a participant and plan your trip to Rennes (Rennes \nwill be busy at the conference time because the cultural event `Festival \nLes tomb?es de la nuit' will take place at the same time, so we \nrecommend to book as soon as possible). The conference web page\n\nhttp://www.agrocampus-ouest.fr/math/useR-2009/accomodation.html\ngives a list of hotels and some student rooms (200) are also available \non the campus.\n\nWe hope to meet you in Rennes!\n\nThe conference committee,\n\nJulie Josse, Fran?ois Husson, David Causeur, Maela Kloareg, S?bastien \nL?, Aline Legrand, Eric Matzner-Lober & J?r?me Pag?s",
+      "body_plain": "We are happy to inform you that the online abstract submission and \nregistration for `useR! 2009' is now available online from\n\nhttp://www.R-project.org/useR-2009/\n\nThis meeting of the R user community will take place at Agrocampus, \nRennes, France, July 8 to 10, 2000. The conference schedule comprises \ninvited lectures and user-contributed sessions as well as half-day \ntutorials presented by R experts on July 7, 2009, prior to the conference.\n\nInvited speakers will include\n\nAdele Cutler, Peter Dalgaard, Jerome H. Friedman,  Michael Greenacre,  \nTrevor Hastie, John Storey, Martin Theus.\n\nThe spectrum of user-contributed sessions will depend on your \nsubmissions. Hence, we invite you to submit abstracts for a talk or a \nposter on topics presenting innovations or exciting applications of R. \nThe call for papers along with the link to the online abstract \nsubmission is available at\n\nhttp://www.R-project.org/useR-2009/#Call\n\nBefore the start of the official program, half-day tutorials will be \noffered on Tuesday, July 7. A list of topics and speakers can be found at\n\nhttp://www.R-project.org/useR-2009/tutorials/\n\nThe deadline for early registration and to submit an abstract is \nFebruary 27th 2009, so now is the perfect time to write and submit an \nabstract, register as a participant and plan your trip to Rennes (Rennes \nwill be busy at the conference time because the cultural event `Festival \nLes tombées de la nuit' will take place at the same time, so we \nrecommend to book as soon as possible). The conference web page\n\nhttp://www.agrocampus-ouest.fr/math/useR-2009/accomodation.html\ngives a list of hotels and some student rooms (200) are also available \non the campus.\n\nWe hope to meet you in Rennes!\n\nThe conference committee,\n\nJulie Josse, François Husson, David Causeur, Maela Kloareg, Sébastien \nLê, Aline Legrand, Eric Matzner-Lober & Jérôme Pagès",
       "body_snippet": "We are happy to inform you that the online abstract submission and \nregistration for `useR! 2009' is now available online from\n\nhttp://www.R-project.org/useR-2009/\n\nThis meeting of the R user communit",
       "thread_id": "thread-477ea72d8a75",
       "thread_depth": 0,
-      "month": "2008-12"
+      "month": "2008-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000488.html"
     },
     {
       "id": "msg-9ee8bab3b5d6",
@@ -33,7 +34,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.8.1 on Monday,\nDecember 22, 2008.\n\nRelease procedures start Friday, December 12.\n\nThose directly involved should review the generic schedule at ",
       "thread_id": "thread-9ee8bab3b5d6",
       "thread_depth": 0,
-      "month": "2008-12"
+      "month": "2008-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000489.html"
     },
     {
       "id": "msg-3b628df0b34a",
@@ -49,7 +51,8 @@
       "body_snippet": "Re. Workshop on Directions in Statistical Computing, Copenhagen 13-14\nJuly 2009.\n\nhttp://www.r-project.org/dsc-2009\n\nThe web interface for registration and submission of abstracts is now open.\n\n(The s",
       "thread_id": "thread-3b628df0b34a",
       "thread_depth": 0,
-      "month": "2008-12"
+      "month": "2008-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000490.html"
     },
     {
       "id": "msg-ff1973caa433",
@@ -61,11 +64,12 @@
       "subject_clean": "R/Finance 2009: Applied Finance with R -- Call for Papers",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Call for Papers\n \n    The Finance Department of the University of Illinois at Chicago (UIC),\n    the International Center for Futures and Derivatives at UIC, and\n    members of the R finance community are pleased to announce\n \n    R/Finance 2009: Applied Finance with R\n \n    on April 24 and 25, 2009, in Chicago, IL, USA\n \n    Confirmed keynote speakers include:\n \n       Patrick Burns (Burns Statistics)\n       David Kane (Kane Capital)\n       Roger Koenker (U of Illinois at Urbana/Champaign)\n       David Ruppert (Cornell)\n       Diethelm Wuertz (ETH Z?rich)\n       Eric Zivot (U of Washington)\n \n    We invite all users of R in Finance to submit one-page abstracts or\n    complete papers (in txt/pdf/doc format). We encourage papers both on\n    academic research topics and related to use of R by Finance practitioners.\n\n    Presenters are strongly encouraged to provide working R code to accompany\n    the presentation/paper.  Datasets need not be made public.\n \n    Please send submissions to committee at RinFinance.com.\n    The submission deadline is January 31st, 2009.\n    Submissions will be evaluated and submitters notified via email\n    on a rolling basis.\n \n    Additional details about the conference will be announced as available.\n \n    For the program committee:\n       Gib Bassett, Peter Carl, Dirk Eddelbuettel, John Miller,\n       Brian Peterson, Dale Rosenthal, Jeffrey Ryan",
+      "body_plain": "Call for Papers\n \n    The Finance Department of the University of Illinois at Chicago (UIC),\n    the International Center for Futures and Derivatives at UIC, and\n    members of the R finance community are pleased to announce\n \n    R/Finance 2009: Applied Finance with R\n \n    on April 24 and 25, 2009, in Chicago, IL, USA\n \n    Confirmed keynote speakers include:\n \n       Patrick Burns (Burns Statistics)\n       David Kane (Kane Capital)\n       Roger Koenker (U of Illinois at Urbana/Champaign)\n       David Ruppert (Cornell)\n       Diethelm Wuertz (ETH Zürich)\n       Eric Zivot (U of Washington)\n \n    We invite all users of R in Finance to submit one-page abstracts or\n    complete papers (in txt/pdf/doc format). We encourage papers both on\n    academic research topics and related to use of R by Finance practitioners.\n\n    Presenters are strongly encouraged to provide working R code to accompany\n    the presentation/paper.  Datasets need not be made public.\n \n    Please send submissions to committee at RinFinance.com.\n    The submission deadline is January 31st, 2009.\n    Submissions will be evaluated and submitters notified via email\n    on a rolling basis.\n \n    Additional details about the conference will be announced as available.\n \n    For the program committee:\n       Gib Bassett, Peter Carl, Dirk Eddelbuettel, John Miller,\n       Brian Peterson, Dale Rosenthal, Jeffrey Ryan",
       "body_snippet": "Call for Papers\n \n    The Finance Department of the University of Illinois at Chicago (UIC),\n    the International Center for Futures and Derivatives at UIC, and\n    members of the R finance community",
       "thread_id": "thread-ff1973caa433",
       "thread_depth": 0,
-      "month": "2008-12"
+      "month": "2008-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000491.html"
     },
     {
       "id": "msg-596ea7f10e90",
@@ -81,7 +85,8 @@
       "body_snippet": "I've rolled up R-2.8.1.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor bugs\nand platform issues.\n\nSee the full list of changes below.\n\nYou can get it (in a ",
       "thread_id": "thread-596ea7f10e90",
       "thread_depth": 0,
-      "month": "2008-12"
+      "month": "2008-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000492.html"
     }
   ],
   "threads": [

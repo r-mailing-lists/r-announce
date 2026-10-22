@@ -17,7 +17,8 @@
       "body_snippet": "This is no secret to those who read the NEWS file of the development version regularly, as the following has been in place since December 12th:\n\n\\section{\\Rlogo CHANGES IN R-devel}{\n  \\subsection{SIGN",
       "thread_id": "thread-0cdb3fa83756",
       "thread_depth": 0,
-      "month": "2013-01"
+      "month": "2013-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2013/000559.html"
     }
   ],
   "threads": [

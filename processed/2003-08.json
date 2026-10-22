@@ -17,7 +17,8 @@
       "body_snippet": "I have uploaded to CRAN a new package named 'its' (Irregular Time-Series).\nIt\nimplements irregular time-series as an S4 class, extending the matrix class,\nand records the time-stamp of each row in the",
       "thread_id": "thread-195410d842db",
       "thread_depth": 0,
-      "month": "2003-08"
+      "month": "2003-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000403.html"
     },
     {
       "id": "msg-6cf48f68fd70",
@@ -33,7 +34,8 @@
       "body_snippet": "Announcement for Windows users of R < 1.7.0\n  and maintainers of contributed packages\n\n\n[Please do not reply to r-announce!]\n\n\nWindows users of R < 1.7.0\n==========================\n[Users of R-1.7.x a",
       "thread_id": "thread-6cf48f68fd70",
       "thread_depth": 0,
-      "month": "2003-08"
+      "month": "2003-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000404.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Hi\n\nThe March 2006 issue of R News is now available on CRAN under the \nDocumentation/Newsletter link.\n\nPaul\n(on behalf of the editorial board)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe Universi",
       "thread_id": "thread-e119ae41cfc3",
       "thread_depth": 0,
-      "month": "2006-04"
+      "month": "2006-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000442.html"
     },
     {
       "id": "msg-262665f454b4",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear useRs,\n\nwe would like to inform you that we are approaching the regular\nregistration deadline (2006-04-15) of useR! 2006, the second R\nuser conference taking place in Vienna on June 15-17. So if ",
       "thread_id": "thread-262665f454b4",
       "thread_depth": 0,
-      "month": "2006-04"
+      "month": "2006-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000443.html"
     },
     {
       "id": "msg-b1e9b5149226",
@@ -49,7 +51,8 @@
       "body_snippet": "I've rolled up R-2.3.0.tar.gz a short while ago. This version contains\nseveral changes and additions, mostly incremental. See the full list\nof changes below.\n\nYou can get it (in a short while) from\n\nh",
       "thread_id": "thread-b1e9b5149226",
       "thread_depth": 0,
-      "month": "2006-04"
+      "month": "2006-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000444.html"
     }
   ],
   "threads": [

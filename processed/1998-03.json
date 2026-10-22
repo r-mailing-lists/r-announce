@@ -17,7 +17,8 @@
       "body_snippet": "The locfit library is now available through CRAN, in the\nContributed R Code directory. Locfit fits local regression,\nlikelihood and density estimation models, in the spirit\nof loess but with many addi",
       "thread_id": "thread-314d22514601",
       "thread_depth": 0,
-      "month": "1998-03"
+      "month": "1998-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000026.html"
     },
     {
       "id": "msg-9f4ab002fee4",
@@ -33,7 +34,8 @@
       "body_snippet": "R-0.61.2.tgz is now available from the Auckland FTP site, from where\nit should spread to the CRAN sites during the next day or two. Unless\nyou're in a big hurry or actually living in New Zealand, plea",
       "thread_id": "thread-9f4ab002fee4",
       "thread_depth": 0,
-      "month": "1998-03"
+      "month": "1998-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000027.html"
     },
     {
       "id": "msg-efbeef5017d4",
@@ -49,7 +51,8 @@
       "body_snippet": "Hi,\n\nI've included Guido Masarotto's port of R 0.61.1 to MS Windows 95/NT\nin $CRAN/bin/ms-windows-32 ... you can find both the sources and\nbinaries there.\n\nI include Guido's README below.\n\nThanks agai",
       "thread_id": "thread-efbeef5017d4",
       "thread_depth": 0,
-      "month": "1998-03"
+      "month": "1998-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000028.html"
     }
   ],
   "threads": [

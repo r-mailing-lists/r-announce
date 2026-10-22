@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.6.2.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor bugs.\nSee the full list of changes below.\n\nYou can get it (in a short while) from\n\nht",
       "thread_id": "thread-4467c0f61498",
       "thread_depth": 0,
-      "month": "2008-02"
+      "month": "2008-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000475.html"
     }
   ],
   "threads": [

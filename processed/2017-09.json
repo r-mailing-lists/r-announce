@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.4.2.tar.gz (codename \"Short Summer\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/",
       "thread_id": "thread-b5335bb6b767",
       "thread_depth": 0,
-      "month": "2017-09"
+      "month": "2017-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2017/000619.html"
     },
     {
       "id": "msg-0ea4cb8469d6",
@@ -35,7 +36,8 @@
       "body_snippet": "I've just finished the Windows build of R 3.4.2.  It will make it to \nCRAN and its mirrors over the next few hours.\n\nThis is the last binary release that I will be producing.  I've been \nbuilding them",
       "thread_id": "thread-b5335bb6b767",
       "thread_depth": 1,
-      "month": "2017-09"
+      "month": "2017-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2017/000620.html"
     }
   ],
   "threads": [

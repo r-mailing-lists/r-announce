@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.12.0 on Friday,\nOctober, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.h",
       "thread_id": "thread-f9846781237a",
       "thread_depth": 0,
-      "month": "2010-09"
+      "month": "2010-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2010/000527.html"
     },
     {
       "id": "msg-47a697e29371",
@@ -33,7 +34,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.12.0 on Friday,\nOctober 15, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklis",
       "thread_id": "thread-47a697e29371",
       "thread_depth": 0,
-      "month": "2010-09"
+      "month": "2010-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2010/000528.html"
     }
   ],
   "threads": [

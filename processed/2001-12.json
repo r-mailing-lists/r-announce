@@ -17,7 +17,8 @@
       "body_snippet": "A new package \"g.data\" is available on CRAN, to create and maintain databases\nthat work more like the S-Plus model.\n\nHere's the official Description for g.data (v1.2):\n  Create and maintain delayed-da",
       "thread_id": "thread-88bf1dee8be9",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000234.html"
     },
     {
       "id": "msg-00fc4589540d",
@@ -33,7 +34,8 @@
       "body_snippet": "A new binary RPM of R (1.3.1-4mdk), compiled for Mandrake 8.1, is\navailable for download.\n\nAdded functionality is that R is now automatically added to desktop menus.\n\nSRPM's, with instructions on how ",
       "thread_id": "thread-00fc4589540d",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000235.html"
     },
     {
       "id": "msg-3b6bc6d954fb",
@@ -45,11 +47,12 @@
       "subject_clean": "CRAN Mirror in Germany",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "A new site has been added to the list of CRAN mirrors:\n\n\thttp://cran.de.R-project.org\n\nThanks go to Alexander Mieland for providing the Server!\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "A new site has been added to the list of CRAN mirrors:\n\n\thttp://cran.de.R-project.org\n\nThanks go to Alexander Mieland for providing the Server!\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "A new site has been added to the list of CRAN mirrors:\n\n\thttp://cran.de.R-project.org\n\nThanks go to Alexander Mieland for providing the Server!\n\nBest,\n\n-- \n--------------------------------------------",
       "thread_id": "thread-3b6bc6d954fb",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000236.html"
     },
     {
       "id": "msg-b1e278a9fee4",
@@ -65,7 +68,8 @@
       "body_snippet": "Hi\n\nNew versions of the grid and lattice packages will be available with the\nrelease of R 1.4 (in a couple of days):\n\n    grid_0.5\n    lattice_0.3-1\n\nThese packages will no longer be in the \"developme",
       "thread_id": "thread-b1e278a9fee4",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000237.html"
     },
     {
       "id": "msg-e3483d61c0f9",
@@ -81,7 +85,8 @@
       "body_snippet": "I've rolled up R-1.4.0.tgz a short while ago. This is a major upgrade,\nwith several new features.\n\nA set of recommended packages which have been tested with R-1.4.0 has\nbeen bundled up. Binary distrib",
       "thread_id": "thread-e3483d61c0f9",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000238.html"
     },
     {
       "id": "msg-bd6025162b41",
@@ -97,7 +102,8 @@
       "body_snippet": "Hi, \n\nfollowing the release of R-1.4.0, new versions of the packages\n\n\t* exactRankTests (0.6-0)\n\n\t* mvtnorm (0.5-0)\nand \n\t* maxstat (0.5-2)\n\nare available on CRAN. Several changes to the user-interfac",
       "thread_id": "thread-bd6025162b41",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000239.html"
     },
     {
       "id": "msg-60b35beb5506",
@@ -113,7 +119,8 @@
       "body_snippet": "The r-release directory on rsync.r-project.org has been updated to\n1.4.0.\n\nIf you have the rsync client available you can create a directory\nR-1.4.0 with a copy of the current released source tree by\n",
       "thread_id": "thread-60b35beb5506",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000240.html"
     },
     {
       "id": "msg-49fad2b40b38",
@@ -129,7 +136,8 @@
       "body_snippet": "Dear R users,\n\nthere are new versions of the following packages on CRAN:\n  o lmtest 0.9-0\n  o strucchange 0.9-4\n  o ineq 0.2-1\n\nChanges/fixes in \"lmtest\":\nThere have been several bug fixes and the int",
       "thread_id": "thread-49fad2b40b38",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000241.html"
     },
     {
       "id": "msg-7cb2324d265a",
@@ -147,7 +155,8 @@
       "body_snippet": "Debian packages of R-1.4.0 and R-1.4.0-recommended [1] have been uploaded and\nare currently available at http://incoming.debian.org.  These will run on any\ncurrent \"testing\" (aka \"woody\") or \"unstable",
       "thread_id": "thread-e3483d61c0f9",
       "thread_depth": 1,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000242.html"
     },
     {
       "id": "msg-e3bdd7477511",
@@ -163,7 +172,8 @@
       "body_snippet": "(1) We've been unable to contact the maintainer to find out when the\nofficial release of R 1.4.0 on Windows might be available.  As the\nholidays shutdown is looming, last night I built a binary distri",
       "thread_id": "thread-e3bdd7477511",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000243.html"
     },
     {
       "id": "msg-441f065fbccb",
@@ -179,7 +189,8 @@
       "body_snippet": "R 1.4.0 RPM's built for Mandrake 8.1 as well as Mandrake SRPM's are now\navailable on CRAN.\n\nAnyone with an earlier version of Mandrake can download the SRPM's and\nrebuild them for his own system (a de",
       "thread_id": "thread-e3483d61c0f9",
       "thread_depth": 1,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000244.html"
     },
     {
       "id": "msg-81773c45c737",
@@ -191,11 +202,12 @@
       "subject_clean": "CRAN has been cracked",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "The CRAN master server has been cracked this night, so I'll take the\nmachine off the network until we have found out more. Please use one\nof the mirror sites in the meantime:\n\t\n    http://cran.au.r-project.org/                     (Australia)\n    http://cran.mirror.aarnet.edu.au/                 (Australia)\n    http://cran.dk.r-project.org/                     (Denmark)\n    http://cran.de.r-project.org/                     (Germany)\n    http://cran.hu.r-project.org/                     (Hungary)\n    http://cran.it.r-project.org/                     (Italy)\n    ftp://ftp.u-aizu.ac.jp/pub/lang/R/CRAN/           (Japan)\n    http://cran.ch.r-project.org/                     (Switzerland)\n    http://cran.uk.r-project.org/                     (UK)\n    http://lib.stat.cmu.edu/R/CRAN/                   (USA/Pennsylvania)\n    http://cran.us.r-project.org/                     (USA/Wisconsin)\n\nWe will try to fix the problem ASAP.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "The CRAN master server has been cracked this night, so I'll take the\nmachine off the network until we have found out more. Please use one\nof the mirror sites in the meantime:\n\t\n    http://cran.au.r-project.org/                     (Australia)\n    http://cran.mirror.aarnet.edu.au/                 (Australia)\n    http://cran.dk.r-project.org/                     (Denmark)\n    http://cran.de.r-project.org/                     (Germany)\n    http://cran.hu.r-project.org/                     (Hungary)\n    http://cran.it.r-project.org/                     (Italy)\n    ftp://ftp.u-aizu.ac.jp/pub/lang/R/CRAN/           (Japan)\n    http://cran.ch.r-project.org/                     (Switzerland)\n    http://cran.uk.r-project.org/                     (UK)\n    http://lib.stat.cmu.edu/R/CRAN/                   (USA/Pennsylvania)\n    http://cran.us.r-project.org/                     (USA/Wisconsin)\n\nWe will try to fix the problem ASAP.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "The CRAN master server has been cracked this night, so I'll take the\nmachine off the network until we have found out more. Please use one\nof the mirror sites in the meantime:\n\t\n    http://cran.au.r-pr",
       "thread_id": "thread-81773c45c737",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000245.html"
     },
     {
       "id": "msg-5dbe7c586ede",
@@ -207,11 +219,12 @@
       "subject_clean": "CRAN up again",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "The CRAN master server at cran.r-project.org is up again (running a\nfresh Debian Linux installation with hopefully better security).\n\nPlease let me know if you experience any problems.\n\n\nFrohe Weihnachten und einen guten Rutsch ins neue Jahr,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "The CRAN master server at cran.r-project.org is up again (running a\nfresh Debian Linux installation with hopefully better security).\n\nPlease let me know if you experience any problems.\n\n\nFrohe Weihnachten und einen guten Rutsch ins neue Jahr,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "The CRAN master server at cran.r-project.org is up again (running a\nfresh Debian Linux installation with hopefully better security).\n\nPlease let me know if you experience any problems.\n\n\nFrohe Weihnac",
       "thread_id": "thread-5dbe7c586ede",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000246.html"
     },
     {
       "id": "msg-0a79f4fc2304",
@@ -227,7 +240,8 @@
       "body_snippet": "Get it from ftp://gifi.stat.ucla.edu in pub.\n\nThis contains the base files plus the recommended packages (except rpart,\nwhich does not compile yet).\n\nIt is compiled under MacOS X 10.1.2 with the Decem",
       "thread_id": "thread-0a79f4fc2304",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000247.html"
     },
     {
       "id": "msg-596c5d857536",
@@ -243,7 +257,8 @@
       "body_snippet": "I have just uplodaed on CRAN both versions of R 1.4.0.\n\nSo starting from Dec 23rd, you'll find the builds for Carbon and Darwin \ndirectly on CRAN respectively at\n\nhttp://cran.r-project.org/bin/macos\t:",
       "thread_id": "thread-596c5d857536",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000249.html"
     },
     {
       "id": "msg-6d28f3893387",
@@ -259,7 +274,8 @@
       "body_snippet": "I have just uplodaed on CRAN both versions of R 1.4.0.\n\nSo starting from Dec 23rd, you'll find the builds for Carbon and Darwin \ndirectly on CRAN respectively at\n\nhttp://cran.r-project.org/bin/macos\t:",
       "thread_id": "thread-6d28f3893387",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000248.html"
     },
     {
       "id": "msg-c5fc36deced5",
@@ -275,7 +291,8 @@
       "body_snippet": "RPM based binary distributions of R 1.4.0 are avaiable on CRAN for the\nfollowing flavours of Linux:\n\nDistribution Version Platform Packager\nRed Hat       7.x    intel    Martyn Plummer <plummer at iar",
       "thread_id": "thread-c5fc36deced5",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000250.html"
     },
     {
       "id": "msg-40ab7bb2efed",
@@ -291,7 +308,8 @@
       "body_snippet": "A binary distribution of R-1.4.0 to run on Windows 95, 98, NT4.0, 2000\nand XP on Intel/clone chips is available at\n       http://sirio.stat.unipd.it/RWin\n\nIt will be mirrored at a CRAN site near you i",
       "thread_id": "thread-40ab7bb2efed",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000251.html"
     },
     {
       "id": "msg-0c0831648e7b",
@@ -307,7 +325,8 @@
       "body_snippet": "With R 1.4.0 the JohnsonFit() function in\nSuppDists has been modified to accept a vector of\nthe first four central moments. Previously the\nonly obvious option was to input a set of\nobservations. The m",
       "thread_id": "thread-0c0831648e7b",
       "thread_depth": 0,
-      "month": "2001-12"
+      "month": "2001-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000252.html"
     }
   ],
   "threads": [

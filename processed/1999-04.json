@@ -17,7 +17,8 @@
       "body_snippet": "I've put up R-0.64.0.tgz up for FTP from Auckland a little while ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or",
       "thread_id": "thread-382e194d91a9",
       "thread_depth": 0,
-      "month": "1999-04"
+      "month": "1999-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000072.html"
     },
     {
       "id": "msg-48737c5f305a",
@@ -33,7 +34,8 @@
       "body_snippet": "> For those who *are* desperate, I've left a copy in\n> \tftp://blueberry.kubism.ku.dk/pub/R-devel/R-0.64.0.tgz \n> (Be gentle, that's my desktop PC!)\n\nWell, *now* it's there anyway...\n\n-- \n   O__  ---- ",
       "thread_id": "thread-48737c5f305a",
       "thread_depth": 0,
-      "month": "1999-04"
+      "month": "1999-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000073.html"
     },
     {
       "id": "msg-80acfb5c563d",
@@ -49,7 +51,8 @@
       "body_snippet": "I put updates of the following packages on CRAN for use with R 0.64:\n\n\tchron\n\tctest\n\tdate\n\tlocfit\n\txgobi\n\nPlease pick them up from your nearest CRAN site.\n\nAt least on my system, the packages pass the",
       "thread_id": "thread-80acfb5c563d",
       "thread_depth": 0,
-      "month": "1999-04"
+      "month": "1999-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000074.html"
     },
     {
       "id": "msg-e2162e83a735",
@@ -65,7 +68,8 @@
       "body_snippet": "Versions of\n\n\tKernSmooth\n\tVR5.3pl037\n\tboot\n\tgee\n\trpart\n\tsm   (delete src/Makefile: I'll get the version on CRAN changed)\n\ttree\n\nfor R-0.64 are now on CRAN. Please note that spatial (in the VR bundle)\n",
       "thread_id": "thread-e2162e83a735",
       "thread_depth": 0,
-      "month": "1999-04"
+      "month": "1999-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000075.html"
     },
     {
       "id": "msg-2d76f2fab614",
@@ -81,7 +85,8 @@
       "body_snippet": "I just uploaded updated versions of the packages\n\n\tcluster\n\tpolynom\n\nto CRAN.  Both pass `R CMD check' now.\n\n-k\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announ",
       "thread_id": "thread-2d76f2fab614",
       "thread_depth": 0,
-      "month": "1999-04"
+      "month": "1999-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000076.html"
     },
     {
       "id": "msg-b11fac0e9a13",
@@ -97,7 +102,8 @@
       "body_snippet": "Windows binaries and source at CRAN (binaries/windows/Windows-NT/base) \nhave been updated to R-0.64.0.\nPre-compiled packages for this version of R are provided by \nBrian D. Ripley and available CRAN/b",
       "thread_id": "thread-b11fac0e9a13",
       "thread_depth": 0,
-      "month": "1999-04"
+      "month": "1999-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000077.html"
     },
     {
       "id": "msg-020f7af6b0a9",
@@ -113,7 +119,8 @@
       "body_snippet": "For anyone who might be interested, I now have a home page (finally)\non which can be found the R code, data, and output for all the\nexamples and some of the exercises in the second edition of my Model",
       "thread_id": "thread-020f7af6b0a9",
       "thread_depth": 0,
-      "month": "1999-04"
+      "month": "1999-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000078.html"
     },
     {
       "id": "msg-c2e86a285351",
@@ -129,7 +136,8 @@
       "body_snippet": "Now rw0640 is released, we have achieved our main goal of being able to\nbuild easily new versions from the Unix sources, and the R functionality is\nas complete a copy as we can achieve easily.  We are",
       "thread_id": "thread-c2e86a285351",
       "thread_depth": 0,
-      "month": "1999-04"
+      "month": "1999-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000079.html"
     }
   ],
   "threads": [

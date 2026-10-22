@@ -17,7 +17,8 @@
       "body_snippet": "I have placed an alpha version 0.5 of the source code for my libraries\non my home page at\nwww.luc.ac.be/~jlindsey/rcode.html\n  The data and R code for the second edition of my Models for Repeated\nMeas",
       "thread_id": "thread-ef4ad30b7ebb",
       "thread_depth": 0,
-      "month": "1999-06"
+      "month": "1999-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000084.html"
     },
     {
       "id": "msg-c0be1955d221",
@@ -35,7 +36,8 @@
       "body_snippet": "This was Jim Lindsey <jlindsey at luc.ac.be>, not me.   \nSorry for the wrong \"From:\".\n\n{(as list manager I've forwarded his posting to R-announce which bounced\n because it came from jlindsey at alpha.",
       "thread_id": "thread-ef4ad30b7ebb",
       "thread_depth": 1,
-      "month": "1999-06"
+      "month": "1999-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000085.html"
     },
     {
       "id": "msg-e880172d2d76",
@@ -51,7 +53,8 @@
       "body_snippet": "RPMs of R-0.64.1 are now available for Red Hat Linux/Intel 6.0.\nThey should be mirrored to a CRAN site near you over the weekend.\nIf you are desperate you can get them now from:\n\nftp://ftp-fis.iarc.fr",
       "thread_id": "thread-e880172d2d76",
       "thread_depth": 0,
-      "month": "1999-06"
+      "month": "1999-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000086.html"
     },
     {
       "id": "msg-b77fc01dbf1f",
@@ -67,7 +70,8 @@
       "body_snippet": "A small package called \"bats\" is now available in the \"Devel\" directory\nof CRAN.  This contains time series functions  which are not wholly\nunlike the ones found in S-PLUS\n\nIt currently does \n- Autoco",
       "thread_id": "thread-b77fc01dbf1f",
       "thread_depth": 0,
-      "month": "1999-06"
+      "month": "1999-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000087.html"
     },
     {
       "id": "msg-8ab49006b4ba",
@@ -79,11 +83,12 @@
       "subject_clean": "``R Links'' Collection on CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi,\n\non suggestion by Robert Gentleman we want to add a\n\n\t``Other R-related sites''\n\ncollection of links to CRAN, where we give pointers to non-CRAN sites\nthat might be of interest to R users. E.g., this could be pages in\nsome language other than English supporting the respective user\ncommunity or ...\n\nIf you think your site could appear in such a collection, please\nsend email to me and I will be happy to include it.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "Hi,\n\non suggestion by Robert Gentleman we want to add a\n\n\t``Other R-related sites''\n\ncollection of links to CRAN, where we give pointers to non-CRAN sites\nthat might be of interest to R users. E.g., this could be pages in\nsome language other than English supporting the respective user\ncommunity or ...\n\nIf you think your site could appear in such a collection, please\nsend email to me and I will be happy to include it.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "Hi,\n\non suggestion by Robert Gentleman we want to add a\n\n\t``Other R-related sites''\n\ncollection of links to CRAN, where we give pointers to non-CRAN sites\nthat might be of interest to R users. E.g., t",
       "thread_id": "thread-8ab49006b4ba",
       "thread_depth": 0,
-      "month": "1999-06"
+      "month": "1999-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000088.html"
     },
     {
       "id": "msg-70375a45932d",
@@ -99,7 +104,8 @@
       "body_snippet": "[Reposted by R-announce-owner because of  R-announce protection.\n\t\tGuido is subscribed under a different E-mail..]\n\nI have made available in the 'Contributed R code | Devel' section of CRAN \n(in this ",
       "thread_id": "thread-70375a45932d",
       "thread_depth": 0,
-      "month": "1999-06"
+      "month": "1999-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000089.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "rsync.r-project.org now offers three flavors of the R sources.\n $ rsync rsync.r-project.org::\n r-release      \tR sources (feature-frozen version) CVS tree (approx 10 MB)\n r-release-patched\tpatched R s",
       "thread_id": "thread-eb6610b9d6b4",
       "thread_depth": 0,
-      "month": "1999-12"
+      "month": "1999-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000112.html"
     },
     {
       "id": "msg-544b96547764",
@@ -33,7 +34,8 @@
       "body_snippet": "Version 0.2 is now available at\n\n    http://www.nceas.ucsb.edu/~keitt/R/\n\nThis version includes a user extensible type conversion system.  By\ndefining three functions, you can now store and retrieve a",
       "thread_id": "thread-544b96547764",
       "thread_depth": 0,
-      "month": "1999-12"
+      "month": "1999-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000113.html"
     },
     {
       "id": "msg-09494ac61bd9",
@@ -49,7 +51,8 @@
       "body_snippet": "Fritz just put tseries_0.4-0 on CRAN. New is mainly the non-parametric\nbootstrap for time series which should be quite efficient since\nresampling is completely done within C.\n\nComments and suggestions",
       "thread_id": "thread-09494ac61bd9",
       "thread_depth": 0,
-      "month": "1999-12"
+      "month": "1999-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000114.html"
     },
     {
       "id": "msg-0fd00b4a9373",
@@ -65,7 +68,8 @@
       "body_snippet": "I've rolled up R-0.90.1.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-0.90.1.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-0.90.1.tgz\n\nor wait for it to",
       "thread_id": "thread-0fd00b4a9373",
       "thread_depth": 0,
-      "month": "1999-12"
+      "month": "1999-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000115.html"
     },
     {
       "id": "msg-dc4da2e28b5f",
@@ -81,7 +85,8 @@
       "body_snippet": "A binary distribution  of R 0.90.1 is available at\n\n      http://www.r-project.org/bin/windows/windows-NT/base/\n\nInstallation instruction are given in the README file at the same\nlocation.\n\nguido masa",
       "thread_id": "thread-dc4da2e28b5f",
       "thread_depth": 0,
-      "month": "1999-12"
+      "month": "1999-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000116.html"
     },
     {
       "id": "msg-55ef6a0d0c13",
@@ -97,7 +102,8 @@
       "body_snippet": "A slightly revised version of my DSE package for multi-variate time series\nanalysis is  now available at <www.bank-banque-canada.ca/pgilbert>.  This\nversion works with R 0.90.1 (and not with R 90.0 or",
       "thread_id": "thread-55ef6a0d0c13",
       "thread_depth": 0,
-      "month": "1999-12"
+      "month": "1999-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000117.html"
     }
   ],
   "threads": [

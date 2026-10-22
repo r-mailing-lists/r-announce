@@ -17,7 +17,8 @@
       "body_snippet": "We intend to have a patch release on June 18, nickname will be \"World-Famous Astronaut\". The detailed schedule will be made available via developer.r-project.org as usual.\n\n-- \nPeter Dalgaard, Profess",
       "thread_id": "thread-93814bbb895b",
       "thread_depth": 0,
-      "month": "2015-05"
+      "month": "2015-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2015/000584.html"
     },
     {
       "id": "msg-5297ffbc2ae3",
@@ -33,7 +34,8 @@
       "body_snippet": "New Mailing list:  R-package-devel -- User R Packages Development\n\nAt last week's monthly meeting, the R foundation has decided to\ncreate a new mailing list in order to help R package authors in\ntheir",
       "thread_id": "thread-5297ffbc2ae3",
       "thread_depth": 0,
-      "month": "2015-05"
+      "month": "2015-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2015/000585.html"
     }
   ],
   "threads": [

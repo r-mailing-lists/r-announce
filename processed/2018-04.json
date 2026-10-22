@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.5.0.tar.gz (codename \"Joy in Playing\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/sr",
       "thread_id": "thread-f67ec74916ad",
       "thread_depth": 0,
-      "month": "2018-04"
+      "month": "2018-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2018/000628.html"
     }
   ],
   "threads": [

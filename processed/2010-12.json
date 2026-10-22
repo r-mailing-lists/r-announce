@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.12.1 on Thursday,\nDecember 16, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-check",
       "thread_id": "thread-f96bad57b23d",
       "thread_depth": 0,
-      "month": "2010-12"
+      "month": "2010-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2010/000530.html"
     },
     {
       "id": "msg-7425fefa6726",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-2.12.1.tar.gz a short while ago. This is an update release, which fixes a number of mostly minor issues, and some consolidation within the area of reference classes. The most serious ",
       "thread_id": "thread-7425fefa6726",
       "thread_depth": 0,
-      "month": "2010-12"
+      "month": "2010-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2010/000531.html"
     },
     {
       "id": "msg-2b7a3c32a55a",
@@ -49,7 +51,8 @@
       "body_snippet": "The second issue of the second volume of The R Journal is now available at http://journal.r-project.org/current.html. Thanks to everyone involved.\n\nNext year, Heather Turner will be Editor-in-chief, a",
       "thread_id": "thread-2b7a3c32a55a",
       "thread_depth": 0,
-      "month": "2010-12"
+      "month": "2010-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2010/000532.html"
     }
   ],
   "threads": [

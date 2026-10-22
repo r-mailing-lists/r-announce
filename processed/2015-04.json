@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.2.0.tar.gz (codename \"Full of Ingredients\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.o",
       "thread_id": "thread-5b4fb12491d1",
       "thread_depth": 0,
-      "month": "2015-04"
+      "month": "2015-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2015/000583.html"
     }
   ],
   "threads": [

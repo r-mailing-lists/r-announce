@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.3.0.tar.gz (codename \"Already Tomorrow\") this morning.\n\nThis is a major update, containing many new features and bug fixes.\n\nThe list below details the changes in this r",
       "thread_id": "thread-fdca0b7b7acd",
       "thread_depth": 0,
-      "month": "2023-04"
+      "month": "2023-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2023/000691.html"
     }
   ],
   "threads": [

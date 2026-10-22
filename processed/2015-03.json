@@ -17,7 +17,8 @@
       "body_snippet": "The R Foundation is pleased to announce that our website\n http://www.r-project.org/ has under gone a nice retouch (and\n thus arrived in the 21st century :-)\n\n Thanks to a working group of Dirk Eddelbu",
       "thread_id": "thread-4fcf1fcf44bc",
       "thread_depth": 0,
-      "month": "2015-03"
+      "month": "2015-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2015/000581.html"
     },
     {
       "id": "msg-380913231b47",
@@ -33,7 +34,8 @@
       "body_snippet": "The build system rolled up R-3.1.3.tar.gz (codename \"Smooth Sidewalk\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/s",
       "thread_id": "thread-380913231b47",
       "thread_depth": 0,
-      "month": "2015-03"
+      "month": "2015-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2015/000582.html"
     }
   ],
   "threads": [

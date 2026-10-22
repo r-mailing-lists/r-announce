@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-1.5.1.tgz a short while ago. This is a patch upgrade,\nfixing the most important bugs that cropped up after the 1.5.0 release.\n\nA set of recommended packages which have been tested wit",
       "thread_id": "thread-0f3893c3cfe4",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000290.html"
     },
     {
       "id": "msg-c77ddb9dd63f",
@@ -35,7 +36,8 @@
       "body_snippet": "Peter Dalgaard BSA <p.dalgaard at biostat.ku.dk> writes:\n\n>  NOTE: I discovered late in the release process that there is still a\n>  small problem with the 8.0.x tcl/tk compatibility. A fix is\n>  fort",
       "thread_id": "thread-0f3893c3cfe4",
       "thread_depth": 1,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000291.html"
     },
     {
       "id": "msg-2ffd41db2ab0",
@@ -51,7 +53,8 @@
       "body_snippet": "Peter, anyone,\n\nI would like to see SUSE 8.0 RPMs. Will these be forthcoming at asome\nstage?\n\nel\n\nIn message <x2n0tu6rev.fsf at blueberry.kubism.ku.dk>, Peter Dalgaard BSA writes:\n> \n> \n> I've rolled ",
       "thread_id": "thread-2ffd41db2ab0",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000292.html"
     },
     {
       "id": "msg-8c9fa4a1b581",
@@ -67,7 +70,8 @@
       "body_snippet": "Debian packages for r-base_1.5.1 and r-recommended_1.5.1 have been uploaded\nto the main Debian archive and should hit the mirrors tomorrow. These\npackages were built on i386, packages for the other ar",
       "thread_id": "thread-8c9fa4a1b581",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000293.html"
     },
     {
       "id": "msg-87e9714310d0",
@@ -83,7 +87,8 @@
       "body_snippet": "Binary packages R-base-1.5.1 and R-recommended-1.5.1\nfor Red Hat linux on the x86 architecture are now\navailable on the CRAN master site.  They should soon\nbe available on mirror sites.\n\nMartyn\n-.-.-.",
       "thread_id": "thread-87e9714310d0",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000294.html"
     },
     {
       "id": "msg-61d8766fc955",
@@ -99,7 +104,8 @@
       "body_snippet": "R 1.5.1 binary packages for Mandrake 8.2 and source packages for \nMandrake have been uploaded to CRAN.\n\nPeople wishing to contribute RPM's for Mandrake 8.1 or 8.0 are welcome to \ndo so and will find c",
       "thread_id": "thread-61d8766fc955",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000295.html"
     },
     {
       "id": "msg-b2b04e1968d9",
@@ -111,11 +117,12 @@
       "subject_clean": "SuSE rpms 7.3 and 8.0",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hello!\n\nGood news for the SuSE fans out there.\nI?ve just completed the upload of rpms for SuSE 7.3 and 8.0\nto the master site. You?ll probably find them on CRAN tomorrow morning. \n\nThe archiv has rpms for R-1.5.1 and roughly 130 contrib packages.\n\nIf you are missing a package, consult the build logs before asking, please.\nSome of the missings failed \"make check\", others were missing some libraries on\nmy system.\nWhen time permitts I?ll try to complete the collection. \n\nThanks again to Albrecht Gebhardt, who formerly maintained the packages!\n\n\nHappy downloading!\ndetlef\n\n\nDetlef Steuer --- http://fawn.unibw-hamburg.de/steuer.html\n***** Encrypted mail preferred *****\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
-      "body_snippet": "Hello!\n\nGood news for the SuSE fans out there.\nI?ve just completed the upload of rpms for SuSE 7.3 and 8.0\nto the master site. You?ll probably find them on CRAN tomorrow morning. \n\nThe archiv has rpms",
+      "body_plain": "Hello!\n\nGood news for the SuSE fans out there.\nIŽve just completed the upload of rpms for SuSE 7.3 and 8.0\nto the master site. YouŽll probably find them on CRAN tomorrow morning. \n\nThe archiv has rpms for R-1.5.1 and roughly 130 contrib packages.\n\nIf you are missing a package, consult the build logs before asking, please.\nSome of the missings failed \"make check\", others were missing some libraries on\nmy system.\nWhen time permitts IŽll try to complete the collection. \n\nThanks again to Albrecht Gebhardt, who formerly maintained the packages!\n\n\nHappy downloading!\ndetlef\n\n\nDetlef Steuer --- http://fawn.unibw-hamburg.de/steuer.html\n***** Encrypted mail preferred *****\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hello!\n\nGood news for the SuSE fans out there.\nIŽve just completed the upload of rpms for SuSE 7.3 and 8.0\nto the master site. YouŽll probably find them on CRAN tomorrow morning. \n\nThe archiv has rpms",
       "thread_id": "thread-b2b04e1968d9",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000296.html"
     },
     {
       "id": "msg-4951a5d06a2c",
@@ -131,7 +138,8 @@
       "body_snippet": "I have built and uploaded to CRAN the Carbon version of R for \nMacOS/MacOSX.\n\nYou'll find the base set (rm151.sit) and the recommended packages \n(recommended.sit) separately or all in one single file ",
       "thread_id": "thread-4951a5d06a2c",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000297.html"
     },
     {
       "id": "msg-6d1af0f97482",
@@ -147,7 +155,8 @@
       "body_snippet": "Sources for release 1.5.1 of R are now available via rsync at\nrsync.r-project.org\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http:/",
       "thread_id": "thread-6d1af0f97482",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000298.html"
     },
     {
       "id": "msg-af846a3120b6",
@@ -163,7 +172,8 @@
       "body_snippet": "I put the Windows build of R 1.5.1 online yesterday, but due to an\nerror in one of my scripts, it included obsolete versions of VR and\nsurvival.  I'm in the process of uploading a corrected version.  ",
       "thread_id": "thread-af846a3120b6",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000299.html"
     },
     {
       "id": "msg-556168fb4b53",
@@ -179,7 +189,8 @@
       "body_snippet": "The file\n\nftp://gifi.stat.ucla.edu/pub/R-1.5.1.dmg\n\nhas grown to 60 MB. It consists of a meta-package and its packages and\nit will allow you to install binaries for R-1.5.1 and about 300 \npackages, ju",
       "thread_id": "thread-556168fb4b53",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000300.html"
     },
     {
       "id": "msg-d9e8ab6e3602",
@@ -195,7 +206,8 @@
       "body_snippet": "New package `multcomp' for general multiple comparisons\n\n\twritten by Frank Bretz, Torsten Hothorn and Peter Westfall\n\nWe've uploaded the package `multcomp' to CRAN.\nThe R package allows for multiple c",
       "thread_id": "thread-d9e8ab6e3602",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000301.html"
     },
     {
       "id": "msg-e4331c462beb",
@@ -211,7 +223,8 @@
       "body_snippet": "I have an experimental R package that wraps Frank Warmerdam's Geographic\nData Abstraction Library. GDAL lets you read and write a variety of\nraster image formats. Details are at\n\n\thttp://keittlab.bio.",
       "thread_id": "thread-e4331c462beb",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000303.html"
     },
     {
       "id": "msg-345f8b351ffc",
@@ -227,7 +240,8 @@
       "body_snippet": "I have an experimental R package that wraps Frank Warmerdam's Geospatial\nData Abstraction Library. GDAL lets you read and write a variety of\nraster image formats. Details are at\n\n        http://keittl",
       "thread_id": "thread-345f8b351ffc",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000302.html"
     },
     {
       "id": "msg-edc8e009f246",
@@ -243,7 +257,8 @@
       "body_snippet": "We have just published the 2002/2 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file.  It\nwill propagate to the CRAN mirrors with",
       "thread_id": "thread-edc8e009f246",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000304.html"
     },
     {
       "id": "msg-47f41072af75",
@@ -259,7 +274,8 @@
       "body_snippet": "A new version of the gss package (gss_0.7-2.tar.gz) is on CRAN now.  A\nnew ssden suite is added for density estimation with up to 4 numeric\nr.v.'s; computation in higher dimension can be very slow as ",
       "thread_id": "thread-47f41072af75",
       "thread_depth": 0,
-      "month": "2002-06"
+      "month": "2002-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000305.html"
     }
   ],
   "threads": [

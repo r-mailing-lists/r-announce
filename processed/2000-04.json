@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-1.0.1.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.1.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.1.tgz\n\nor wait for it to be",
       "thread_id": "thread-f2a1f328e13d",
       "thread_depth": 0,
-      "month": "2000-04"
+      "month": "2000-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000132.html"
     },
     {
       "id": "msg-bfbe2d2ff133",
@@ -33,7 +34,8 @@
       "body_snippet": "Windows binaries at CRAN (in bin/windows/Windows-NT/base) have been updated \nto R-1.0.1. See below for a list of Windows-specific changes.\n\nHappy Easter,\nguido masarotto\n\n\n\t\tWindows-specific changes t",
       "thread_id": "thread-bfbe2d2ff133",
       "thread_depth": 0,
-      "month": "2000-04"
+      "month": "2000-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000133.html"
     },
     {
       "id": "msg-dcefc9420fcc",
@@ -49,7 +51,8 @@
       "body_snippet": "ANNOUNCEMENT            April 28, 2000\n\nAn R version of my multivariate time series package (DSE) is now available in\nthe devel area of CRAN. A short description follows below. The DSE bundle\nrequires",
       "thread_id": "thread-dcefc9420fcc",
       "thread_depth": 0,
-      "month": "2000-04"
+      "month": "2000-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000134.html"
     }
   ],
   "threads": [

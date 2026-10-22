@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.0.0.tar.gz a short while ago. This is a new version\nwith a number of new features. See below for the details.\n\nAs was the case with R 1.0.0, this new version represents a coming of\n",
       "thread_id": "thread-86c82d189ce6",
       "thread_depth": 0,
-      "month": "2004-10"
+      "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000427.html"
     },
     {
       "id": "msg-e88fed8e89d1",
@@ -35,7 +36,8 @@
       "body_snippet": "On 04 Oct 2004 17:29:39 +0200, Peter Dalgaard\n<p.dalgaard at biostat.ku.dk> wrote :\n\n>\n>I've rolled up R-2.0.0.tar.gz a short while ago. This is a new version\n>with a number of new features. See below",
       "thread_id": "thread-86c82d189ce6",
       "thread_depth": 1,
-      "month": "2004-10"
+      "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000428.html"
     },
     {
       "id": "msg-cda7caffa6a7",
@@ -51,7 +53,8 @@
       "body_snippet": "Issue 4/2 of the R Newsletter is up on www.r-project.org.\n\nThis issue is especially commended to your attention since it has an \narticle by Brian Ripley describing the largest change in R 2.0.0, lazy ",
       "thread_id": "thread-cda7caffa6a7",
       "thread_depth": 0,
-      "month": "2004-10"
+      "month": "2004-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000429.html"
     }
   ],
   "threads": [

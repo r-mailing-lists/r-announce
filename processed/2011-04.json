@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.13.0.tar.gz a short while ago. This is a development\nrelease which contains a number of new features.\n\nAlso, a number of mostly minor bugs have been fixed (but notice that serious b",
       "thread_id": "thread-8f1027ad90f3",
       "thread_depth": 0,
-      "month": "2011-04"
+      "month": "2011-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000538.html"
     }
   ],
   "threads": [

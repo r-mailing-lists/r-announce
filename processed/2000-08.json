@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-1.1.1.tgz a moment ago. \n\nThis is expected to be the last release in the 1.1 series unless some\ntruly dreadful error pops up. The 1.2.0 release is scheduled for early\nDecember.\n\nYou c",
       "thread_id": "thread-62c94b583897",
       "thread_depth": 0,
-      "month": "2000-08"
+      "month": "2000-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000147.html"
     },
     {
       "id": "msg-7a1f27a37440",
@@ -33,7 +34,8 @@
       "body_snippet": "Windows binaries at CRAN (bin/windows/Windows-NT/base) have been updated \nto R-1.1.1.  See below for a list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\tWindows-specific cha",
       "thread_id": "thread-7a1f27a37440",
       "thread_depth": 0,
-      "month": "2000-08"
+      "month": "2000-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000148.html"
     }
   ],
   "threads": [

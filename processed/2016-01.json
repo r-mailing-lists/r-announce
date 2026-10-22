@@ -13,11 +13,12 @@
       "subject_clean": "The R Journal, Volume 7, Issue 2",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2015-2/\n\nMany thanks to all contributors.\n\nRegards,\nBettina\n\n-- \n-------------------------------------------------------------------\nBettina Gr?n\nDepartment of Applied Statistics\n\nJOHANNES KEPLER\nUNIVERSITY LINZ\nAltenbergerstra?e 69\nScience Park 3, 627\n4040 Linz, Austria\nP +43 732 2468 6829\nF +43 732 2468 6800\nBettina.Gruen at jku.at\nwww.jku.at",
+      "body_plain": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2015-2/\n\nMany thanks to all contributors.\n\nRegards,\nBettina\n\n-- \n-------------------------------------------------------------------\nBettina Grün\nDepartment of Applied Statistics\n\nJOHANNES KEPLER\nUNIVERSITY LINZ\nAltenbergerstraße 69\nScience Park 3, 627\n4040 Linz, Austria\nP +43 732 2468 6829\nF +43 732 2468 6800\nBettina.Gruen at jku.at\nwww.jku.at",
       "body_snippet": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2015-2/\n\nMany thanks to all contributors.\n\nRegards,\nBettina\n\n-- \n---------------------------------",
       "thread_id": "thread-d617845c96db",
       "thread_depth": 0,
-      "month": "2016-01"
+      "month": "2016-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000594.html"
     }
   ],
   "threads": [

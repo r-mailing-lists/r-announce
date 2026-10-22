@@ -17,7 +17,8 @@
       "body_snippet": "I've put up R-0.63.3.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or t",
       "thread_id": "thread-d7bfd82b6b60",
       "thread_depth": 0,
-      "month": "1999-03"
+      "month": "1999-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000069.html"
     },
     {
       "id": "msg-e861e5cf0c8c",
@@ -33,7 +34,8 @@
       "body_snippet": "Windows binaries and source at CRAN (bin/windows/Windows-NT/base) have\nbeen updated to R-0.63.3 (now at Wien, in one/two days to the\nother mirrors). \n\nWINDOWS NEWS:\n============\n\nThe beginnings of a F",
       "thread_id": "thread-e861e5cf0c8c",
       "thread_depth": 0,
-      "month": "1999-03"
+      "month": "1999-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000070.html"
     },
     {
       "id": "msg-a0a4c35d955d",
@@ -49,7 +51,8 @@
       "body_snippet": "Hallo all,\n The package \"cclust\" applying convex clustering methods contains now\na new function called \"clustindex\" calculating the values of several\nclustering indexes. The values of the indexes can ",
       "thread_id": "thread-a0a4c35d955d",
       "thread_depth": 0,
-      "month": "1999-03"
+      "month": "1999-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000071.html"
     }
   ],
   "threads": [

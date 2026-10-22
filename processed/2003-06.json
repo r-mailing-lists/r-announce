@@ -17,7 +17,8 @@
       "body_snippet": "We have published the 2003/1 issue of R News on\n\n        http://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors wit",
       "thread_id": "thread-bc44e53cda37",
       "thread_depth": 0,
-      "month": "2003-06"
+      "month": "2003-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000394.html"
     },
     {
       "id": "msg-415515f98a07",
@@ -29,11 +30,12 @@
       "subject_clean": "new package: eha",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "A few days ago I uploaded to CRAN a new package called 'eha', which \nstands for 'Event History Analysis'. Its main focus is on proportional \nhazards modeling in survival analysis, and in that respect  eha  can\nbe regarded as a complement and an extension to the 'survival'\npackage. In fact  eha  requires  survival. Eha contains three functions\nfor proportional hazards analysis:\n\n1. 'coxreg': Performs Cox regression, almost as 'coxph' in survival. \nThere are two methods, 'efron' (default) and 'breslow', exactly as in\ncoxph. There are two extensions, compared to  coxph: (i) Sampling of \nsurvivors in risk sets (at event times), which can be useful with \nhuge data sets and few events. (ii) The so-called 'weird bootstrap':\nFor the fitted model, new events are drawn in each risk set with \nprobabilities given by the fitted model, independently between \nrisk sets (that's the 'weird' part). This is repeated  R  times\nand the output is two Rxp matrices, one with the bootstrap estimates \nof the regression coefficients, and one with the corresponding \nstandard errors. The analysis is up to the user for now.\nThe 'boot' package?\n\n2. 'mlreg': A discrete time proportional hazards model is fitted along \nthe lines of Kalbfleisch & Prentice (1980, pp. 98--103). See also \nBrostr?m (2002): \"Cox regression; Ties withot tears\", Communications \nin Statistics, Theory & Methods 31, 285--297. This function has two methods;\n\"ML\", the purely discrete model with one parameter per observed distinct \nevent time, and \"MPPL\", which is a hybrid between Cox regression and \nthe discrete model: Only tied event times are associated to a unique\nparameter; the untied event times contributes a \"Cox regression term\".\nFor completely untied data this results in ordinary Cox regression.\n\"MPPL\" can be regarded as an attempt to handle tied data in Cox regression, \ncomparable to the 'efron' method. This method does not break down because \nof too heavily tied data, which the  efron  method might do.    \n \n3. 'weibreg': Weibull regression for left truncated and right censored \ndata. Allows for stratification with different shape and scale parameters \nin the strata. \n\nMoreover, there are functions for extracting subsamples as 'rectangles'\nin the Lexis diagram, including external ('communal') covariates in a\n'survival data frame', extracting information from risk sets, summary \nstatistics from the Lexis diagram, etc, etc.\n\nG?ran\n---\n G?ran Brostr?m                    tel: +46 90 786 5223\n Department of Statistics          fax: +46 90 786 6614\n Ume? University                   http://www.stat.umu.se/egna/gb/\n SE-90187 Ume?, Sweden             e-mail: gb at stat.umu.se",
+      "body_plain": "A few days ago I uploaded to CRAN a new package called 'eha', which \nstands for 'Event History Analysis'. Its main focus is on proportional \nhazards modeling in survival analysis, and in that respect  eha  can\nbe regarded as a complement and an extension to the 'survival'\npackage. In fact  eha  requires  survival. Eha contains three functions\nfor proportional hazards analysis:\n\n1. 'coxreg': Performs Cox regression, almost as 'coxph' in survival. \nThere are two methods, 'efron' (default) and 'breslow', exactly as in\ncoxph. There are two extensions, compared to  coxph: (i) Sampling of \nsurvivors in risk sets (at event times), which can be useful with \nhuge data sets and few events. (ii) The so-called 'weird bootstrap':\nFor the fitted model, new events are drawn in each risk set with \nprobabilities given by the fitted model, independently between \nrisk sets (that's the 'weird' part). This is repeated  R  times\nand the output is two Rxp matrices, one with the bootstrap estimates \nof the regression coefficients, and one with the corresponding \nstandard errors. The analysis is up to the user for now.\nThe 'boot' package?\n\n2. 'mlreg': A discrete time proportional hazards model is fitted along \nthe lines of Kalbfleisch & Prentice (1980, pp. 98--103). See also \nBroström (2002): \"Cox regression; Ties withot tears\", Communications \nin Statistics, Theory & Methods 31, 285--297. This function has two methods;\n\"ML\", the purely discrete model with one parameter per observed distinct \nevent time, and \"MPPL\", which is a hybrid between Cox regression and \nthe discrete model: Only tied event times are associated to a unique\nparameter; the untied event times contributes a \"Cox regression term\".\nFor completely untied data this results in ordinary Cox regression.\n\"MPPL\" can be regarded as an attempt to handle tied data in Cox regression, \ncomparable to the 'efron' method. This method does not break down because \nof too heavily tied data, which the  efron  method might do.    \n \n3. 'weibreg': Weibull regression for left truncated and right censored \ndata. Allows for stratification with different shape and scale parameters \nin the strata. \n\nMoreover, there are functions for extracting subsamples as 'rectangles'\nin the Lexis diagram, including external ('communal') covariates in a\n'survival data frame', extracting information from risk sets, summary \nstatistics from the Lexis diagram, etc, etc.\n\nGöran\n---\n Göran Broström                    tel: +46 90 786 5223\n Department of Statistics          fax: +46 90 786 6614\n Umeå University                   http://www.stat.umu.se/egna/gb/\n SE-90187 Umeå, Sweden             e-mail: gb at stat.umu.se",
       "body_snippet": "A few days ago I uploaded to CRAN a new package called 'eha', which \nstands for 'Event History Analysis'. Its main focus is on proportional \nhazards modeling in survival analysis, and in that respect ",
       "thread_id": "thread-415515f98a07",
       "thread_depth": 0,
-      "month": "2003-06"
+      "month": "2003-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000395.html"
     },
     {
       "id": "msg-8916436dc8d6",
@@ -49,7 +51,8 @@
       "body_snippet": "I've rolled up R-1.7.1.tgz a short while ago. This is a patch version\nmainly fixing up an assortment of issues (see below). Note also that\nit comes with an updated set of recommended packages, fixing ",
       "thread_id": "thread-8916436dc8d6",
       "thread_depth": 0,
-      "month": "2003-06"
+      "month": "2003-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000396.html"
     },
     {
       "id": "msg-578431b93fa4",
@@ -65,7 +68,8 @@
       "body_snippet": "I've built the Windows binary for 1.7.1, and sent it to CRAN.  It\nshould be visible within a few hours, and will soon propagate to the\nmirrors.\n\nDuncan Murdoch",
       "thread_id": "thread-578431b93fa4",
       "thread_depth": 0,
-      "month": "2003-06"
+      "month": "2003-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000397.html"
     },
     {
       "id": "msg-3d63ce68fcc1",
@@ -81,7 +85,8 @@
       "body_snippet": "I have just uploaded Carbon R 1.7.1 on CRAN.\nIt will be available to you with the usual timing of mirroring.\n\nContributed packages and the BioConductore bunble will follow shortly.\n\nstefano iacus\n\n\n--",
       "thread_id": "thread-3d63ce68fcc1",
       "thread_depth": 0,
-      "month": "2003-06"
+      "month": "2003-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000398.html"
     }
   ],
   "threads": [

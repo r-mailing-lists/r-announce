@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-1.9.1.tgz a short while ago. This is a maintenance\nversion mainly to fix a number of minor bugs and issues (the most\nannoying one seems to have been the change to barplots of tables) ",
       "thread_id": "thread-06c5d922e4c8",
       "thread_depth": 0,
-      "month": "2004-06"
+      "month": "2004-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000425.html"
     }
   ],
   "threads": [

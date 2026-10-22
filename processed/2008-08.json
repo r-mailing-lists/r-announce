@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.7.2 on Monday,\nAugust 25, 2008.\n\nRelease procedures start Friday August 15 (when we get back from useR).\n\nThe source tarballs will be made avail",
       "thread_id": "thread-f13af922e00c",
       "thread_depth": 0,
-      "month": "2008-08"
+      "month": "2008-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000480.html"
     },
     {
       "id": "msg-406c76111d8c",
@@ -29,11 +30,12 @@
       "subject_clean": "Forthcoming R Conferences",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear useRs and developeRs,\n\nI hope all attending useR! in Dortmund last week had as much a good\ntime as I had and a safe trip home. This email is to announce our\nplans for forthcoming conferences. In 2009 there will be a useR! in\nRennes, France (July 8-10), directly followed by a DSC in Copenhagen,\nDenmark (July 13-14).\n\nWe would like to have a useR! 2010 in North America, and 2011 in\nEurope. Locations for 2010 and 2011 have not been fixed yet, but there\nare already some plans.  Proposals to host a conference are of course\nmore than welcome.\n\nThere have also been questions why 2009 is again in Europe. The main\nreasons were:\n\na) we had a very good offer from Rennes, and (and at least almost one\n   year ago, when planning started) none from outside Europe\n\nb) Having European useR!s in odd years will make it easier to set a\n   date: in even years there are the biannual Compstat conferences,\n   which together with all their satellite meetings block mid-August\n   to the beginning of September. In odd years on the other hand,\n   there is no regular big conference on computational statistics in\n   Europe.\n\nSo the basic plan is to be in Europe in odd years, and North America\nin even years from now on. Either continent could of course be\nreplaced by one of the other 5 continents if we get a good\noffer. Antarctica may be hard to get to, though ;-)\n\nOn behalf of the R Foundation,\nFritz Leisch\n\n-- \n-----------------------------------------------------------------------\nProf. Dr. Friedrich Leisch \n\nInstitut f?r Statistik                          Tel: (+49 89) 2180 3165\nLudwig-Maximilians-Universit?t                  Fax: (+49 89) 2180 5308\nLudwigstra?e 33\nD-80539 M?nchen                     http://www.statistik.lmu.de/~leisch\n-----------------------------------------------------------------------\n   Journal Computational Statistics --- http://www.springer.com/180 \n          M?nchner R Kurse --- http://www.statistik.lmu.de/R",
+      "body_plain": "Dear useRs and developeRs,\n\nI hope all attending useR! in Dortmund last week had as much a good\ntime as I had and a safe trip home. This email is to announce our\nplans for forthcoming conferences. In 2009 there will be a useR! in\nRennes, France (July 8-10), directly followed by a DSC in Copenhagen,\nDenmark (July 13-14).\n\nWe would like to have a useR! 2010 in North America, and 2011 in\nEurope. Locations for 2010 and 2011 have not been fixed yet, but there\nare already some plans.  Proposals to host a conference are of course\nmore than welcome.\n\nThere have also been questions why 2009 is again in Europe. The main\nreasons were:\n\na) we had a very good offer from Rennes, and (and at least almost one\n   year ago, when planning started) none from outside Europe\n\nb) Having European useR!s in odd years will make it easier to set a\n   date: in even years there are the biannual Compstat conferences,\n   which together with all their satellite meetings block mid-August\n   to the beginning of September. In odd years on the other hand,\n   there is no regular big conference on computational statistics in\n   Europe.\n\nSo the basic plan is to be in Europe in odd years, and North America\nin even years from now on. Either continent could of course be\nreplaced by one of the other 5 continents if we get a good\noffer. Antarctica may be hard to get to, though ;-)\n\nOn behalf of the R Foundation,\nFritz Leisch\n\n-- \n-----------------------------------------------------------------------\nProf. Dr. Friedrich Leisch \n\nInstitut für Statistik                          Tel: (+49 89) 2180 3165\nLudwig-Maximilians-Universität                  Fax: (+49 89) 2180 5308\nLudwigstraße 33\nD-80539 München                     http://www.statistik.lmu.de/~leisch\n-----------------------------------------------------------------------\n   Journal Computational Statistics --- http://www.springer.com/180 \n          Münchner R Kurse --- http://www.statistik.lmu.de/R",
       "body_snippet": "Dear useRs and developeRs,\n\nI hope all attending useR! in Dortmund last week had as much a good\ntime as I had and a safe trip home. This email is to announce our\nplans for forthcoming conferences. In ",
       "thread_id": "thread-406c76111d8c",
       "thread_depth": 0,
-      "month": "2008-08"
+      "month": "2008-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000481.html"
     },
     {
       "id": "msg-fc1d4034c64a",
@@ -49,7 +51,8 @@
       "body_snippet": "I've rolled up R-2.7.2.tar.gz a short while ago.\n\nThis is intended as a wrap-up release containing all known fixes to issues with the 2.7.x series. \n\nSee the full list of changes below.\n\nYou can get i",
       "thread_id": "thread-fc1d4034c64a",
       "thread_depth": 0,
-      "month": "2008-08"
+      "month": "2008-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000482.html"
     }
   ],
   "threads": [

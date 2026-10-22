@@ -17,7 +17,8 @@
       "body_snippet": "I have just made available on ftp://sirio.stat.unipd.it/pub/R a\nnew version of R for MsWindows compiled with gcc-mingw32.\nEnclosed you can find the README. Since there are many news\n(with respect to m",
       "thread_id": "thread-38bca1778bfa",
       "thread_depth": 0,
-      "month": "1998-09"
+      "month": "1998-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000053.html"
     },
     {
       "id": "msg-1199e37958cf",
@@ -33,7 +34,8 @@
       "body_snippet": "When I try to run rw0632/bin/R.exe from the binary distribution on our\nWinNT3.51 systems the following happens:\n\nA \"R Console\" window appears with a menu bar. After a few seconds, the\nwindow disappear",
       "thread_id": "thread-38bca1778bfa",
       "thread_depth": 1,
-      "month": "1998-09"
+      "month": "1998-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000054.html"
     }
   ],
   "threads": [

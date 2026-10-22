@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.7.1.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor bugs\nand platform issues.\nNotably, the numeric interpretation of \"-\", \"+\", and \".\" ha",
       "thread_id": "thread-be1a4fedbd8a",
       "thread_depth": 0,
-      "month": "2008-06"
+      "month": "2008-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000478.html"
     },
     {
       "id": "msg-5a8c3e656e8f",
@@ -33,7 +34,8 @@
       "body_snippet": "There was a minor problem with the date in the previously released\nversion. It has been replaced with a new file.\nThe updated md5sums are\n\n565b06a1f3f11020399934cc7b47a59d  R-2.7.1.tar.gz\n565b06a1f3f1",
       "thread_id": "thread-5a8c3e656e8f",
       "thread_depth": 0,
-      "month": "2008-06"
+      "month": "2008-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000479.html"
     }
   ],
   "threads": [

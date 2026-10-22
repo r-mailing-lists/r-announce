@@ -13,11 +13,12 @@
       "subject_clean": "package mlbench updated",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi,\n\nEvgenia and I have copied an updated version of the mlbench package to\nCRAN which contains several new data sets. We have also changed some\nof the variable names to avoid name conflicts.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "Hi,\n\nEvgenia and I have copied an updated version of the mlbench package to\nCRAN which contains several new data sets. We have also changed some\nof the variable names to avoid name conflicts.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "Hi,\n\nEvgenia and I have copied an updated version of the mlbench package to\nCRAN which contains several new data sets. We have also changed some\nof the variable names to avoid name conflicts.\n\nBest,\n\n",
       "thread_id": "thread-0368697b7588",
       "thread_depth": 0,
-      "month": "1999-08"
+      "month": "1999-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000096.html"
     },
     {
       "id": "msg-0c9eede325da",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-0.65.0.tgz a moment ago.\n\nYou shouldn't get it from Auckland, but wait for it to be mirrored at\na CRAN site near you within a day or two. With the current transfer\nspeed from Auckland",
       "thread_id": "thread-0c9eede325da",
       "thread_depth": 0,
-      "month": "1999-08"
+      "month": "1999-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000097.html"
     },
     {
       "id": "msg-0d9da856947d",
@@ -49,7 +51,8 @@
       "body_snippet": "Guido Masarotto is currently in hospital and so will be unable to make an\nofficial release in the near future. I am putting a preliminary release in\nthe windows/window-NT/contrib/rw0650 area of CRAN (",
       "thread_id": "thread-0d9da856947d",
       "thread_depth": 0,
-      "month": "1999-08"
+      "month": "1999-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000098.html"
     }
   ],
   "threads": [

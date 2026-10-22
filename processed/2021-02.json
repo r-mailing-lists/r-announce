@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.0.4.tar.gz (codename \"Lost Library Book\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttps://cran.r-project.or",
       "thread_id": "thread-01e356f2cd5b",
       "thread_depth": 0,
-      "month": "2021-02"
+      "month": "2021-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2021/000665.html"
     }
   ],
   "threads": [

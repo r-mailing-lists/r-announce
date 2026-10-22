@@ -17,7 +17,8 @@
       "body_snippet": "The Hmisc and Design libraries have been updated respectively to versions 1.4-2 and 1.1-1.  New versions for Linux/Unix/Windows may be obtained from http://hesweb1.med.virginia.edu/biostat/s/library/r",
       "thread_id": "thread-fdfe83a952db",
       "thread_depth": 0,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000369.html"
     },
     {
       "id": "msg-6d373ce19caf",
@@ -33,7 +34,8 @@
       "body_snippet": "I have just uploaded a package to CRAN called `gpclib' for clipping large\nand complex polygons.  This package provides an R interface to Alan\nMurta's very fast General Polygon Clipper library (written",
       "thread_id": "thread-6d373ce19caf",
       "thread_depth": 0,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000370.html"
     },
     {
       "id": "msg-a949de6d21a6",
@@ -49,7 +51,8 @@
       "body_snippet": "I've rolled up R-1.6.2.tgz a short while ago. This is a minor upgrade,\nfixing an assortment of bugs.\n\nYou can get it from the developer site at\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.6.2.tgz\n",
       "thread_id": "thread-a949de6d21a6",
       "thread_depth": 0,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000371.html"
     },
     {
       "id": "msg-41eea8a3f150",
@@ -67,7 +70,8 @@
       "body_snippet": "Peter Dalgaard BSA <p.dalgaard at biostat.ku.dk> writes:\n\n\n> Here's the relevant part of the NEWS file:\n> \n> \n>                 CHANGES IN R VERSION 1.6.2\n\nSorry, not quite... This is it:\n\n\n          ",
       "thread_id": "thread-a949de6d21a6",
       "thread_depth": 1,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000372.html"
     },
     {
       "id": "msg-4339b1c0b281",
@@ -85,7 +89,8 @@
       "body_snippet": "Sources for R-1.6.2 are now available via rsync at rsync.r-project.org\n\n$ rsync rsync.r-project.org::\nr-release      \tR-1.6.2 sources (current released version - approx 30 MB)\nr-patched      \tR source",
       "thread_id": "thread-a949de6d21a6",
       "thread_depth": 1,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000373.html"
     },
     {
       "id": "msg-9abbaa0fa77c",
@@ -104,7 +109,8 @@
       "body_snippet": "Paul Gilbert <pgilbert at bank-banque-canada.ca> writes:\n\n> Peter\n> \n> When I the URL in your message I am getting:\n> \n> <H1>Not Found</H1>\n> The requested URL /pub/CRAN/src/base/R-1.6.2.tgz was not f",
       "thread_id": "thread-9abbaa0fa77c",
       "thread_depth": 0,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000374.html"
     },
     {
       "id": "msg-c4c6a13e7aa6",
@@ -122,7 +128,8 @@
       "body_snippet": "Debian packages for the Intel i386 platform have been uploaded to Debian's\nmaster archive server. These packages have been built on Debian's 'testing'\nrelease and will install and run on any 'testing'",
       "thread_id": "thread-a949de6d21a6",
       "thread_depth": 1,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000375.html"
     },
     {
       "id": "msg-bf81839ac53d",
@@ -138,7 +145,8 @@
       "body_snippet": "I've just uploaded the build of the new R 1.6.2 release to CRAN.  It\nwill soon be visible there in \n\n http://www.cran.r-project.org/bin/windows/base\n\nand by Monday should be available on all the mirro",
       "thread_id": "thread-bf81839ac53d",
       "thread_depth": 0,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000376.html"
     },
     {
       "id": "msg-91f259df1d06",
@@ -154,7 +162,8 @@
       "body_snippet": "A new package `survey' for analysing complex survey samples is on CRAN.\nIt handles stratification, clustering, and unequal sampling probabilities\nin descriptive statistics, glms, and general maximum l",
       "thread_id": "thread-91f259df1d06",
       "thread_depth": 0,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000377.html"
     },
     {
       "id": "msg-9eb911a1a690",
@@ -170,7 +179,8 @@
       "body_snippet": "I am pleased to announce a major revision of the document \"Statistical Tables and Plots using S and LaTeX\".  It is available at http://hesweb1.med.virginia.edu/biostat/s/doc/summary.pdf (76 pages, 500",
       "thread_id": "thread-9eb911a1a690",
       "thread_depth": 0,
-      "month": "2003-01"
+      "month": "2003-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000378.html"
     }
   ],
   "threads": [

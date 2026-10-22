@@ -13,11 +13,12 @@
       "subject_clean": "The R Journal, Volume 7, Issue 1",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2015-1/\n\nMany thanks to all contributors.\n\nRegards,\nBettina\n\n-- \n-------------------------------------------------------------------\nBettina Gr?n\nInstitut f?r Angewandte Statistik / IFAS\nJohannes Kepler Universit?t Linz\nAltenbergerstra?e 69\n4040 Linz, Austria\n\nTel: +43 732 2468-6829\nFax: +43 732 2468-6800\nE-Mail: Bettina.Gruen at jku.at\nwww.ifas.jku.at",
+      "body_plain": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2015-1/\n\nMany thanks to all contributors.\n\nRegards,\nBettina\n\n-- \n-------------------------------------------------------------------\nBettina Grün\nInstitut für Angewandte Statistik / IFAS\nJohannes Kepler Universität Linz\nAltenbergerstraße 69\n4040 Linz, Austria\n\nTel: +43 732 2468-6829\nFax: +43 732 2468-6800\nE-Mail: Bettina.Gruen at jku.at\nwww.ifas.jku.at",
       "body_snippet": "Dear all,\n\nThe latest issue of The R Journal is now available at\nhttp://journal.r-project.org/archive/2015-1/\n\nMany thanks to all contributors.\n\nRegards,\nBettina\n\n-- \n---------------------------------",
       "thread_id": "thread-22837717f890",
       "thread_depth": 0,
-      "month": "2015-07"
+      "month": "2015-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2015/000587.html"
     },
     {
       "id": "msg-21e491acda5c",
@@ -33,7 +34,8 @@
       "body_snippet": "We intend to have a patch release on August 14, nickname will be \"Fire Safety\". The detailed schedule will be made available via developer.r-project.org as usual.\n\n-- \nPeter Dalgaard, Professor,\nCente",
       "thread_id": "thread-21e491acda5c",
       "thread_depth": 0,
-      "month": "2015-07"
+      "month": "2015-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2015/000588.html"
     }
   ],
   "threads": [

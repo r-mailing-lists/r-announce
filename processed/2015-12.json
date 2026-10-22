@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up  R-3.2.3.tar.gz (codename \"Wooden Christmas-Tree\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-projec",
       "thread_id": "thread-61bc429ac2cd",
       "thread_depth": 0,
-      "month": "2015-12"
+      "month": "2015-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2015/000593.html"
     }
   ],
   "threads": [

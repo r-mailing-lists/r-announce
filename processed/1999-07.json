@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-0.64.2.tgz a moment ago.\n\nHowever, due to a configuration error with the new machine at\nAuckland, it is not up for FTP from there just yet. In any case, you\nshouldn't get it from Auck",
       "thread_id": "thread-be2b96c03687",
       "thread_depth": 0,
-      "month": "1999-07"
+      "month": "1999-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000090.html"
     },
     {
       "id": "msg-c9d5a1e27ae0",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi,\n\ndue to some FTP problems in Auckland and me not being in office\nyesterday R 0.64.2 took some time to travel from Denmark to New\nZealand and then back to Europe ... but now it is finally available",
       "thread_id": "thread-c9d5a1e27ae0",
       "thread_depth": 0,
-      "month": "1999-07"
+      "month": "1999-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000091.html"
     },
     {
       "id": "msg-61efe91bba99",
@@ -49,7 +51,8 @@
       "body_snippet": "Dear fellow R users,\n\nI just uploaded a new package gss to ftp.ci.tuwien.ac.at.  The package\nname gss stands for General Smoothing Spline.\n\nIn the current version (0.4-1), it handles nonparametric mul",
       "thread_id": "thread-61efe91bba99",
       "thread_depth": 0,
-      "month": "1999-07"
+      "month": "1999-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000092.html"
     },
     {
       "id": "msg-38b0793a6b72",
@@ -65,7 +68,8 @@
       "body_snippet": "A binary distribution of R-0.64.2 for Windows is available at \nCRAN/bin/windows/windows-NT.\nThere are few Windows-specific enhancements: rw0642 (and R-0.64.2) is\na bug-fixing release.\n\nCHANGES\n=======",
       "thread_id": "thread-38b0793a6b72",
       "thread_depth": 0,
-      "month": "1999-07"
+      "month": "1999-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000093.html"
     },
     {
       "id": "msg-17a5140da7d3",
@@ -81,7 +85,8 @@
       "body_snippet": "Fritz just put the first version of a new time series package to the\ncontrib section at CRAN.\nThe package is called \"tseries.tgz\" and provides a library for time\nseries analysis. It contains\n\nacf     ",
       "thread_id": "thread-17a5140da7d3",
       "thread_depth": 0,
-      "month": "1999-07"
+      "month": "1999-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000094.html"
     },
     {
       "id": "msg-76f344657e74",
@@ -93,11 +98,12 @@
       "subject_clean": "CRAN Vienna shutdowns",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi,\n\ndu to construction work in our rooms and some hardware/software\nupgrades the CRAN master site in Vienna will be down several times\nwithin the next fortnight.\n\nFirst shutdown will be this afternoon, when we relocate the server to\nanother room. Another shutdown will be during most of Sunday, when the\ncomplete building will have no electricity at all.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "Hi,\n\ndu to construction work in our rooms and some hardware/software\nupgrades the CRAN master site in Vienna will be down several times\nwithin the next fortnight.\n\nFirst shutdown will be this afternoon, when we relocate the server to\nanother room. Another shutdown will be during most of Sunday, when the\ncomplete building will have no electricity at all.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "Hi,\n\ndu to construction work in our rooms and some hardware/software\nupgrades the CRAN master site in Vienna will be down several times\nwithin the next fortnight.\n\nFirst shutdown will be this afternoo",
       "thread_id": "thread-76f344657e74",
       "thread_depth": 0,
-      "month": "1999-07"
+      "month": "1999-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000095.html"
     }
   ],
   "threads": [

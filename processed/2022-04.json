@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.2.0.tar.gz (codename \"Vigorous Calisthenics\") this morning.\n\nThis is a major update, notably containing extensive rework on the Windows port and its toolchain, including",
       "thread_id": "thread-2423186908ed",
       "thread_depth": 0,
-      "month": "2022-04"
+      "month": "2022-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2022/000683.html"
     }
   ],
   "threads": [

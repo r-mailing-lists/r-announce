@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-0.65.1.tgz a moment ago.\n\nAs usual, you shouldn't get it from Auckland, but wait for it to be\nmirrored at a CRAN site near you within a day or two.\n\nFor those who are too curious to w",
       "thread_id": "thread-59e59e19844b",
       "thread_depth": 0,
-      "month": "1999-10"
+      "month": "1999-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000099.html"
     },
     {
       "id": "msg-17bea56edcdb",
@@ -33,7 +34,8 @@
       "body_snippet": "A binary distribution of R-0.64.2 for Windows is available at\n<CRAN>/bin/windows/windows-NT (at least at Wien).\n\nEnjoy it.\n\nguido masarotto\n\n                      Windows News (since R0.64.2)\n\nrw0651\n",
       "thread_id": "thread-17bea56edcdb",
       "thread_depth": 0,
-      "month": "1999-10"
+      "month": "1999-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000100.html"
     },
     {
       "id": "msg-82dbfdd4a00d",
@@ -49,7 +51,8 @@
       "body_snippet": "Hi,\n\nwe had a broken heating system (in the floor above us) resulting in a\nwater burst .... my office looks like if a bomb has exploded ...\n\nCurrently our server is up and running again (it was down o",
       "thread_id": "thread-82dbfdd4a00d",
       "thread_depth": 0,
-      "month": "1999-10"
+      "month": "1999-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000101.html"
     },
     {
       "id": "msg-1cade231f9e0",
@@ -61,11 +64,12 @@
       "subject_clean": "CRAN master almost unreachable over weekend",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "After moving to new offices we have major troubles with our internet\nconnection (ping reports packet losses of 50% to any destination\noutside our domain) such that our server www.ci.tuwien.ac.at is de\nfacto unreachable from the rest of the world. Due to a holiday on\nMonday this is a ``long weekend'' and all people from the university\ncomputing center stopped working at noon. Their next try to fix the\nsituation will be on Tuesday.\n\nSorry for all inconveniences and having to bother you!\n\nRegards,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "After moving to new offices we have major troubles with our internet\nconnection (ping reports packet losses of 50% to any destination\noutside our domain) such that our server www.ci.tuwien.ac.at is de\nfacto unreachable from the rest of the world. Due to a holiday on\nMonday this is a ``long weekend'' and all people from the university\ncomputing center stopped working at noon. Their next try to fix the\nsituation will be on Tuesday.\n\nSorry for all inconveniences and having to bother you!\n\nRegards,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "After moving to new offices we have major troubles with our internet\nconnection (ping reports packet losses of 50% to any destination\noutside our domain) such that our server www.ci.tuwien.ac.at is de",
       "thread_id": "thread-1cade231f9e0",
       "thread_depth": 0,
-      "month": "1999-10"
+      "month": "1999-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000102.html"
     }
   ],
   "threads": [

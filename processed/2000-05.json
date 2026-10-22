@@ -13,11 +13,12 @@
       "subject_clean": "contributed documentation",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi,\n\nas promised I have started a ``user contributed documentation''\nsection on CRAN. It currently contains a Spanish version of the\n``Notes on R'' by Andr?s Gonz?lez and Silvia Gonz?lez and ``Data\nAnalysis and Graphics Using R'' by John Maindonald.\n\nAll contributions are welcome!\n\nPlease note that I had a little accident last week (shoulder\ndislocation) such that CRAN maintainance will be a bit slower for the\nnext 2-3 weeks ...\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
-      "body_snippet": "Hi,\n\nas promised I have started a ``user contributed documentation''\nsection on CRAN. It currently contains a Spanish version of the\n``Notes on R'' by Andr?s Gonz?lez and Silvia Gonz?lez and ``Data\nAn",
+      "body_plain": "Hi,\n\nas promised I have started a ``user contributed documentation''\nsection on CRAN. It currently contains a Spanish version of the\n``Notes on R'' by Andrés González and Silvia González and ``Data\nAnalysis and Graphics Using R'' by John Maindonald.\n\nAll contributions are welcome!\n\nPlease note that I had a little accident last week (shoulder\ndislocation) such that CRAN maintainance will be a bit slower for the\nnext 2-3 weeks ...\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Hi,\n\nas promised I have started a ``user contributed documentation''\nsection on CRAN. It currently contains a Spanish version of the\n``Notes on R'' by Andrés González and Silvia González and ``Data\nAn",
       "thread_id": "thread-b665956911d2",
       "thread_depth": 0,
-      "month": "2000-05"
+      "month": "2000-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000135.html"
     },
     {
       "id": "msg-9188ca65666b",
@@ -33,7 +34,8 @@
       "body_snippet": "Following the recent discussion on the R-help list about introductory\nstatistics, I have spent some time updating the R code for my\nIntroductory Statistics book (OUP, 1995). The previous version was\no",
       "thread_id": "thread-9188ca65666b",
       "thread_depth": 0,
-      "month": "2000-05"
+      "month": "2000-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000136.html"
     },
     {
       "id": "msg-2fb75b68cfb7",
@@ -45,11 +47,12 @@
       "subject_clean": "tutorial \"R pour les débutants\"  is  available on CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear R-users,\n\nThanks to Friedrich Leisch, my document \"R pour les d?butants\" is available\non CRAN in the contributed documentation section:\nhttp://cran.r-project.org/doc/contrib/Rdebuts.pdf.\nIt is written in French. \"R pour les d?butants\" (\"R for beginners\") gives a\nstarting point for people with no experience with R (or S). I tried to\nexplain the basics in the simplest way, as well as giving useful details\n(mostly with tables). Any feed-back would be greatly appreciated. If some\npeople think that an English translation would be useful, I would be ready\nto consider it.\n\nChers utilisateurs de R,\n\nGr?ce ? Friedrich Leisch, mon document \"R pour les d?butants\" est\ndisponible sur CRAN dans la section \"contributed documentation\":\nhttp://cran.r-project.org/doc/contrib/Rdebuts.pdf.\nLe but de \"R pour les d?butants\" est de fournir un point de d?part pour les\nutilisateurs qui n'ont aucune exp?rience avec R (ou S). J'ai essay? de\nsimplifier les explications, tout en donnant des d?tails utiles (le plus\nsouvent sous forme de tableaux). Tout commentaire ou suggestion serait\ngrandement appr?ci?. Si certaines personnes pensent qu'une tranduction en\nanglais serait utile, je serais pr?t ? examiner cette possibilit?.\n\n\n\nEmmanuel Paradis\nLaboratoire de Pal?ontologie\nInstitut des Sciences de l'Evolution\nUniversit? Montpellier II\nF-34095 Montpellier c?dex 05\nFrance\n\tphone: +33  4 67 14 39 64\n\tfax: +33  4 67 14 36 10\n\tmailto:paradis at isem.univ-montp2.fr\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
-      "body_snippet": "Dear R-users,\n\nThanks to Friedrich Leisch, my document \"R pour les d?butants\" is available\non CRAN in the contributed documentation section:\nhttp://cran.r-project.org/doc/contrib/Rdebuts.pdf.\nIt is wr",
+      "body_plain": "Dear R-users,\n\nThanks to Friedrich Leisch, my document \"R pour les débutants\" is available\non CRAN in the contributed documentation section:\nhttp://cran.r-project.org/doc/contrib/Rdebuts.pdf.\nIt is written in French. \"R pour les débutants\" (\"R for beginners\") gives a\nstarting point for people with no experience with R (or S). I tried to\nexplain the basics in the simplest way, as well as giving useful details\n(mostly with tables). Any feed-back would be greatly appreciated. If some\npeople think that an English translation would be useful, I would be ready\nto consider it.\n\nChers utilisateurs de R,\n\nGrâce à Friedrich Leisch, mon document \"R pour les débutants\" est\ndisponible sur CRAN dans la section \"contributed documentation\":\nhttp://cran.r-project.org/doc/contrib/Rdebuts.pdf.\nLe but de \"R pour les débutants\" est de fournir un point de départ pour les\nutilisateurs qui n'ont aucune expérience avec R (ou S). J'ai essayé de\nsimplifier les explications, tout en donnant des détails utiles (le plus\nsouvent sous forme de tableaux). Tout commentaire ou suggestion serait\ngrandement apprécié. Si certaines personnes pensent qu'une tranduction en\nanglais serait utile, je serais prêt à examiner cette possibilité.\n\n\n\nEmmanuel Paradis\nLaboratoire de Paléontologie\nInstitut des Sciences de l'Evolution\nUniversité Montpellier II\nF-34095 Montpellier cédex 05\nFrance\n\tphone: +33  4 67 14 39 64\n\tfax: +33  4 67 14 36 10\n\tmailto:paradis at isem.univ-montp2.fr\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear R-users,\n\nThanks to Friedrich Leisch, my document \"R pour les débutants\" is available\non CRAN in the contributed documentation section:\nhttp://cran.r-project.org/doc/contrib/Rdebuts.pdf.\nIt is wr",
       "thread_id": "thread-2fb75b68cfb7",
       "thread_depth": 0,
-      "month": "2000-05"
+      "month": "2000-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000137.html"
     },
     {
       "id": "msg-75ed9e23c82b",
@@ -65,7 +68,8 @@
       "body_snippet": "We are pleased to announce that John Chambers has joined the R core\nteam. It is hard to believe that anyone on this list wouldn't know who\nJohn is, but just in case: He is the principal designer of th",
       "thread_id": "thread-75ed9e23c82b",
       "thread_depth": 0,
-      "month": "2000-05"
+      "month": "2000-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000138.html"
     },
     {
       "id": "msg-d46e65cb6e28",
@@ -81,7 +85,8 @@
       "body_snippet": "Dear R-fans,\n\nMy database access package RODBC is now available on CRAN.\nFor those who have never used it, odbc is a database and\nplatform independant API which provides an SQL interface\nto a large nu",
       "thread_id": "thread-d46e65cb6e28",
       "thread_depth": 0,
-      "month": "2000-05"
+      "month": "2000-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000139.html"
     },
     {
       "id": "msg-337967ff472e",
@@ -97,7 +102,8 @@
       "body_snippet": "Hi Folks,\n\nI recently moved my RPgSQL package over to\n\n\thttp://rpgsql.sourceforge.net/\n\nThe package does everything that I need it to do, but I am hoping that\nothers will be interested in maintaining ",
       "thread_id": "thread-337967ff472e",
       "thread_depth": 0,
-      "month": "2000-05"
+      "month": "2000-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000140.html"
     }
   ],
   "threads": [

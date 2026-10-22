@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.1.1.tar.gz (codename \"Sock it to Me\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src",
       "thread_id": "thread-ad730687f792",
       "thread_depth": 0,
-      "month": "2014-07"
+      "month": "2014-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2014/000575.html"
     }
   ],
   "threads": [

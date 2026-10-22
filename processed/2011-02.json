@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.12.2 on Friday,\nFebruary 25, 2011. (Mainly to sort out complex arithmetic issues with some compiler platforms.)\n\nThose directly involved should ",
       "thread_id": "thread-e467de1c9789",
       "thread_depth": 0,
-      "month": "2011-02"
+      "month": "2011-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000534.html"
     },
     {
       "id": "msg-38686828f323",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-2.12.2.tar.gz a short while ago. This is an update release, which fixes a number of mostly minor issues, and one major issue in which complex arithmetic was being messed up on some co",
       "thread_id": "thread-38686828f323",
       "thread_depth": 0,
-      "month": "2011-02"
+      "month": "2011-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000535.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.13.1.tar.gz a short while ago. This is a maintenance release to consolidate various minor fixes to 2.13.0. \n\nThe Licencing change to GPL-2 | GPL-3 may be of interest to some.\n\nYou c",
       "thread_id": "thread-95bf197cfa3f",
       "thread_depth": 0,
-      "month": "2011-07"
+      "month": "2011-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000541.html"
     }
   ],
   "threads": [

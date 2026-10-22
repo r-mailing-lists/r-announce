@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.6.2.tar.gz (codename \"Dark and Stormy Night\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project",
       "thread_id": "thread-4d16833d201f",
       "thread_depth": 0,
-      "month": "2019-12"
+      "month": "2019-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2019/000647.html"
     }
   ],
   "threads": [

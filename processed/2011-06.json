@@ -17,7 +17,8 @@
       "body_snippet": "Dear All,\n\nThe first issue of the third volume of The R Journal is now available at\nhttp://journal.r-project.org/current.html. \n\nThanks to everyone involved.\n\nHeather\n\n--\nEditor in chief\nHeather.Turne",
       "thread_id": "thread-299e5b2fac7b",
       "thread_depth": 0,
-      "month": "2011-06"
+      "month": "2011-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000539.html"
     },
     {
       "id": "msg-064058e851e2",
@@ -33,7 +34,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.13.1 on Friday,\nJuly 8, 2011. \n\nThe 2.13.0 release has been quite solid, but some people expect an x.y.1 to roll out on larger installations for",
       "thread_id": "thread-064058e851e2",
       "thread_depth": 0,
-      "month": "2011-06"
+      "month": "2011-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000540.html"
     }
   ],
   "threads": [

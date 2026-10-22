@@ -17,7 +17,8 @@
       "body_snippet": "We are happy to announce that the first R user conference\n\n  useR! 2004\n\nis scheduled for May 20-22 2004 and will take place at the Vienna\nUniversity of Technology.\n\nThe conference will focus on\n  - g",
       "thread_id": "thread-a0c7dec49024",
       "thread_depth": 0,
-      "month": "2003-11"
+      "month": "2003-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000415.html"
     },
     {
       "id": "msg-0fd652984e87",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-1.8.1.tgz a short while ago. This is a patch version\nmostly fixing a number of issues in 1.8.0, some of which were quite\nserious. As usual, a few new features have crept in as well. (",
       "thread_id": "thread-0fd652984e87",
       "thread_depth": 0,
-      "month": "2003-11"
+      "month": "2003-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000416.html"
     },
     {
       "id": "msg-6dd36e00be7e",
@@ -51,7 +53,8 @@
       "body_snippet": "On 21 Nov 2003 13:45:53 +0100, you wrote:\n\n>I've rolled up R-1.8.1.tgz a short while ago. This is a patch version\n>mostly fixing a number of issues in 1.8.0, some of which were quite\n>serious. As usua",
       "thread_id": "thread-0fd652984e87",
       "thread_depth": 1,
-      "month": "2003-11"
+      "month": "2003-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000417.html"
     }
   ],
   "threads": [

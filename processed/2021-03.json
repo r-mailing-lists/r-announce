@@ -17,7 +17,8 @@
       "body_snippet": "Hello all,\n\nsubmissions for useR! 2021 are open until March 15th.\n\nYou can submit an abstract for a regular talk, an elevator pitch (that\nwould be the equivalent of a poster at an in-person conference",
       "thread_id": "thread-d68053bf5769",
       "thread_depth": 0,
-      "month": "2021-03"
+      "month": "2021-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2021/000666.html"
     },
     {
       "id": "msg-46830bbdfff7",
@@ -33,7 +34,8 @@
       "body_snippet": "Full schedule is available on https://developer.r-project.org (or https://svn.r-project.org/R-dev-web/trunk/index.html for the impatient).\n\n(This is a fast-track release, to resolve an issue with Asia",
       "thread_id": "thread-46830bbdfff7",
       "thread_depth": 0,
-      "month": "2021-03"
+      "month": "2021-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2021/000667.html"
     },
     {
       "id": "msg-7e702ef3e481",
@@ -49,7 +51,8 @@
       "body_snippet": "The build system rolled up R-4.0.5.tar.gz (codename \"Shake and Throw\") this morning.\n\nThis is a very minor update, mostly to fix the annoyance with East Asian character sets.\n\nThe list below details t",
       "thread_id": "thread-7e702ef3e481",
       "thread_depth": 0,
-      "month": "2021-03"
+      "month": "2021-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2021/000668.html"
     }
   ],
   "threads": [

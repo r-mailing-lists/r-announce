@@ -17,7 +17,8 @@
       "body_snippet": "The following RPM based binary distributions of R 1.4.1 are avaiable\non ftp://ftp-fis.iarc.fr/pub/R, and will soon be on a CRAN near mirror\nnear you.\n\nDistribution Version Platform Packager\nRed Hat   ",
       "thread_id": "thread-7e7a717422d9",
       "thread_depth": 0,
-      "month": "2002-02"
+      "month": "2002-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000269.html"
     },
     {
       "id": "msg-ec67d2dfc3bd",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi all,\n\nThere is a new package in CRAN:\n\nPASTECS (package for analysis of space-time ecological series).\n\nAlthough primarily intended for ecologists, it should be useful to analyze\nany kind of time-s",
       "thread_id": "thread-ec67d2dfc3bd",
       "thread_depth": 0,
-      "month": "2002-02"
+      "month": "2002-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000270.html"
     }
   ],
   "threads": [

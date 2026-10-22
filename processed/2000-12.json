@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-1.2.0.tgz a moment ago. This release has major\nimprovements in efficiency and memory handling. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.2.0.tgz \n\nor\n\nhttp:",
       "thread_id": "thread-d98dea9f8bb3",
       "thread_depth": 0,
-      "month": "2000-12"
+      "month": "2000-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000155.html"
     },
     {
       "id": "msg-079afa00b21b",
@@ -35,7 +36,8 @@
       "body_snippet": "R 1.2.0 is now available via rsync at rsync.r-project.org::r-release\n-- \nDouglas Bates                            bates at stat.wisc.edu\nStatistics Department                    608/262-2598\nUniversit",
       "thread_id": "thread-d98dea9f8bb3",
       "thread_depth": 1,
-      "month": "2000-12"
+      "month": "2000-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000156.html"
     },
     {
       "id": "msg-6923ebdfa694",
@@ -51,7 +53,8 @@
       "body_snippet": "A binary distribution  of R 1.2.0 to run on\nWindows 95, 98, NT4.0 and 2000 on Intel/clone chips is available.\n(now at ftp://ftp.stat.unipd.it/users/guido/RWin, from tomorrow,\n at CRAN)\n\nguido masarott",
       "thread_id": "thread-6923ebdfa694",
       "thread_depth": 0,
-      "month": "2000-12"
+      "month": "2000-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000157.html"
     },
     {
       "id": "msg-dc4579e22060",
@@ -67,7 +70,8 @@
       "body_snippet": "I have re-built all the compiled packages for R 1.2.0 for Windows, and the\nset available in CRAN/bin/windows/contrib are now for rw1020.\nIf you are upgrading to rw1020, please replace all the compiled",
       "thread_id": "thread-dc4579e22060",
       "thread_depth": 0,
-      "month": "2000-12"
+      "month": "2000-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000158.html"
     },
     {
       "id": "msg-db2b363745ef",
@@ -83,7 +87,8 @@
       "body_snippet": "Dear R&Mac developers(users),\n\nat\n\nhttp://www.eco-dip.unimi.it/R\n\nyou can find the latest (and last) beat version of R for MacOs \ncorresponding to R vers 1.1.1.\nRelease date is Dec 10 2000. It is no l",
       "thread_id": "thread-db2b363745ef",
       "thread_depth": 0,
-      "month": "2000-12"
+      "month": "2000-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000159.html"
     },
     {
       "id": "msg-5348ebedc76e",
@@ -99,7 +104,8 @@
       "body_snippet": "The RPM package compiled for Mandrake 7.1 is available on CRAN, the\npackage for Mandrake 7.2 should be available very soon.\n\n-- \nMichele Alzetta\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.",
       "thread_id": "thread-5348ebedc76e",
       "thread_depth": 0,
-      "month": "2000-12"
+      "month": "2000-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000160.html"
     },
     {
       "id": "msg-3047bedb25a4",
@@ -115,7 +121,8 @@
       "body_snippet": "I just uploaded version 0.5-1 of the gss package to CRAN.  Factors are\nnow accepted for smoothing.\n\nChong\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mai",
       "thread_id": "thread-3047bedb25a4",
       "thread_depth": 0,
-      "month": "2000-12"
+      "month": "2000-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000161.html"
     }
   ],
   "threads": [

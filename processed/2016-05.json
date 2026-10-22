@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.3.0.tar.gz (codename \"Supposedly Educational\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-projec",
       "thread_id": "thread-c230dc11f05d",
       "thread_depth": 0,
-      "month": "2016-05"
+      "month": "2016-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000602.html"
     },
     {
       "id": "msg-d0e88a9127b8",
@@ -33,7 +34,8 @@
       "body_snippet": "We intend to have a patch release on June 21, nickname will be \"Bug in Your Hair\". The detailed schedule will be made available via developer.r-project.org as usual.\n\n-- \nPeter Dalgaard, Professor,\nCe",
       "thread_id": "thread-d0e88a9127b8",
       "thread_depth": 0,
-      "month": "2016-05"
+      "month": "2016-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000603.html"
     }
   ],
   "threads": [

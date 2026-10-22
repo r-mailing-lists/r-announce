@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.0.3.tar.gz (codename \"Warm Puppy\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/ba",
       "thread_id": "thread-ba11bc91ca80",
       "thread_depth": 0,
-      "month": "2014-03"
+      "month": "2014-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2014/000569.html"
     },
     {
       "id": "msg-c13c066389c5",
@@ -33,7 +34,8 @@
       "body_snippet": "We intend to release R 3.1.0 on April 10. Prerelease versions will appear starting March 13 (for the source version, binaries may come a little later). See developer.r-project.org for details.\n\n-- \nPe",
       "thread_id": "thread-c13c066389c5",
       "thread_depth": 0,
-      "month": "2014-03"
+      "month": "2014-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2014/000570.html"
     }
   ],
   "threads": [

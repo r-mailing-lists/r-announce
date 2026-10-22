@@ -17,7 +17,8 @@
       "body_snippet": "The R logo has been revised in to be more compatible with the principles\nof flat design followed by some recent user interfaces such as Microsoft\nWindows >= 8 and Mac OS X >= 10.10 (Yosemite). The new",
       "thread_id": "thread-a06726719cf2",
       "thread_depth": 0,
-      "month": "2016-02"
+      "month": "2016-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000595.html"
     },
     {
       "id": "msg-5e69099b8ce8",
@@ -33,7 +34,8 @@
       "body_snippet": "R 3.2.4 \"Very Secure Dishes\", the wrap-up release of R-3.2.x is now scheduled for March 10 \nR 3.3.0 \"Supposedly Educational\", is scheduled for April 14.\n\nDetailed schedules are published on developer.",
       "thread_id": "thread-5e69099b8ce8",
       "thread_depth": 0,
-      "month": "2016-02"
+      "month": "2016-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000596.html"
     }
   ],
   "threads": [

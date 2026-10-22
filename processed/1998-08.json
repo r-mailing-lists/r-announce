@@ -17,7 +17,8 @@
       "body_snippet": "I'm happy to announce that there is now a real bug tracking system for\nR.\n\nHopefully, this will make it easier for us to keep track of unresolved\nbugs, which has been difficult because of the massive ",
       "thread_id": "thread-9ff1422c8df9",
       "thread_depth": 0,
-      "month": "1998-08"
+      "month": "1998-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000047.html"
     },
     {
       "id": "msg-254bb2ccf800",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi all,\n\tis there any code in R implimenting the Whittle's MLE estimator \nfor Hurst parameter H of the given dataset?.\n\n\tthanks,\n\tmani.\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-",
       "thread_id": "thread-9ff1422c8df9",
       "thread_depth": 1,
-      "month": "1998-08"
+      "month": "1998-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000048.html"
     },
     {
       "id": "msg-055b43b10c21",
@@ -49,7 +51,8 @@
       "body_snippet": "The HTML version of the R-help mailing list archives has been moved\nslightly.  The new address is \n\nhttp://www.ens.gu.edu.au/robertk/R/help/98b/index.htm \n\nfor the present section and\n\nhttp://www.ens.",
       "thread_id": "thread-055b43b10c21",
       "thread_depth": 0,
-      "month": "1998-08"
+      "month": "1998-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000049.html"
     },
     {
       "id": "msg-dc4052d5f617",
@@ -67,7 +70,8 @@
       "body_snippet": ">>>>> On Tue, 11 Aug 1998 15:24:43 -0700 (PDT),\n>>>>> Thomas Lumley wrote:\n\n> updated version of integrate package\n> \tintegrate_1.1-1.tar.gz\n> now in /incoming.\n\n> \t-thomas\n\nI moved the new version to",
       "thread_id": "thread-dc4052d5f617",
       "thread_depth": 0,
-      "month": "1998-08"
+      "month": "1998-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000050.html"
     },
     {
       "id": "msg-7cf9fe202b99",
@@ -83,7 +87,8 @@
       "body_snippet": "I have just put R-0.62.3.tgz and R-0.62.2-0.62.3.diff.gz into the FTP\narea at Auckland. As usual, do not fetch it from there unless\nabsolutely urgent, because of the NZ Internet billing system. The\nfi",
       "thread_id": "thread-7cf9fe202b99",
       "thread_depth": 0,
-      "month": "1998-08"
+      "month": "1998-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000051.html"
     },
     {
       "id": "msg-a20184b29b81",
@@ -99,7 +104,8 @@
       "body_snippet": "Here's the top of the CHANGES file:\n\n[again, forgot to sync the last changes into my local version....]\n\n\t\tCHANGES IN R VERSION 0.62.3\n\nNEW FEATURES\n\n    o   preserve factor levels and contrast settin",
       "thread_id": "thread-a20184b29b81",
       "thread_depth": 0,
-      "month": "1998-08"
+      "month": "1998-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000052.html"
     }
   ],
   "threads": [

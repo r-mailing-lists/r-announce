@@ -17,7 +17,8 @@
       "body_snippet": "Due to delays in implementing an updated Windows toolchain for CRAN, R Core has found it unsafe to go with our usual 1-week beta testing period. Combined with other scheduling issues, we have decided ",
       "thread_id": "thread-34a1e7e3e9b2",
       "thread_depth": 0,
-      "month": "2016-04"
+      "month": "2016-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000599.html"
     },
     {
       "id": "msg-e5194483c754",
@@ -35,7 +36,8 @@
       "body_snippet": "On 02/04/2016 11:58 AM, Peter Dalgaard wrote:\n> Due to delays in implementing an updated Windows toolchain for CRAN, R Core has found it unsafe to go with our usual 1-week beta testing period. Combine",
       "thread_id": "thread-34a1e7e3e9b2",
       "thread_depth": 1,
-      "month": "2016-04"
+      "month": "2016-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000600.html"
     },
     {
       "id": "msg-5d3453bec8a2",
@@ -51,7 +53,8 @@
       "body_snippet": "The 3.2.4-revised version turned out to give trouble for some of CRAN's subsystems.\n\nAccordingly, a rebadged version 3.2.5 is now released; it only differs in the version number and a few clean-up ite",
       "thread_id": "thread-5d3453bec8a2",
       "thread_depth": 0,
-      "month": "2016-04"
+      "month": "2016-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000601.html"
     }
   ],
   "threads": [

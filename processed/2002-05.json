@@ -17,7 +17,8 @@
       "body_snippet": "Spatial statistics: A new version of the spdep package (0.1-4) is now\navailable from CRAN. This package contains all of the functions in the\nformer packages spweights, sptests, and spsarlm. They are n",
       "thread_id": "thread-6714551013cf",
       "thread_depth": 0,
-      "month": "2002-05"
+      "month": "2002-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000283.html"
     },
     {
       "id": "msg-10fe20868fa7",
@@ -33,7 +34,8 @@
       "body_snippet": "RPM's and SRPM's for Mandrake versions 8.1 and 8.2 have been uploaded and\nwill be mirrored on CRAN shortly.\n\nPlease note that the binary -1mdk rpm's are for mandrake 8.1 while the\n-2mdk rpm's are for ",
       "thread_id": "thread-10fe20868fa7",
       "thread_depth": 0,
-      "month": "2002-05"
+      "month": "2002-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000284.html"
     },
     {
       "id": "msg-2faa8e03f960",
@@ -49,7 +51,8 @@
       "body_snippet": "The Bioconductor development team would like to announce the first release of\nBioconductor packages for the analysis of genomic data. Bioconductor is an \nopen source bioinformatics software project ba",
       "thread_id": "thread-2faa8e03f960",
       "thread_depth": 0,
-      "month": "2002-05"
+      "month": "2002-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000285.html"
     },
     {
       "id": "msg-0e198df2e534",
@@ -65,7 +68,8 @@
       "body_snippet": "RPMS of R-1.5.0 and the recommended packages for Red Hat Linux/Intel 7.2\nare now available on the CRAN master site and should be on a mirror near\nyou soon.\n\nRPMS for Red Hat 7.1 and 7.0 will be made a",
       "thread_id": "thread-0e198df2e534",
       "thread_depth": 0,
-      "month": "2002-05"
+      "month": "2002-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000286.html"
     },
     {
       "id": "msg-6858fcaccad3",
@@ -81,7 +85,8 @@
       "body_snippet": "mgcv version 0.8-0 is now on CRAN. mgcv provides generalized additive\nmodels with automatic smoothing parameter selection. Models may include\nsmooths of more than one variable. This release fixes one ",
       "thread_id": "thread-6858fcaccad3",
       "thread_depth": 0,
-      "month": "2002-05"
+      "month": "2002-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000287.html"
     },
     {
       "id": "msg-f6c5ec451bbd",
@@ -97,7 +102,8 @@
       "body_snippet": "ftp://gifi.stat.ucla.edu/pub/R\n\nCurrently it only has the base distribution. Unpack in /usr/local. In\naddition you may need many dylibs from fink. This version has\nsupport for gnome, but not for atlas",
       "thread_id": "thread-f6c5ec451bbd",
       "thread_depth": 0,
-      "month": "2002-05"
+      "month": "2002-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000288.html"
     },
     {
       "id": "msg-6d8909295fb4",
@@ -113,7 +119,8 @@
       "body_snippet": "Thanks to Xiao Gang Fan new versions of the Hmisc and Design libraries are now available for Windows users at http://hesweb1.med.virginia.edu/biostat/s/library/r\n\nThe libraries have also been updated ",
       "thread_id": "thread-6d8909295fb4",
       "thread_depth": 0,
-      "month": "2002-05"
+      "month": "2002-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000289.html"
     }
   ],
   "threads": [

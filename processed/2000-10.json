@@ -17,7 +17,8 @@
       "body_snippet": "Dear R Development Team,\n\nUsing Thomas Baier's R Com Server -- or a dll I am building which supports\nan evaluate function that is based on Baier's function R_Proxy_evaluate\ncontained in proxy_impl.c -",
       "thread_id": "thread-6591da097d71",
       "thread_depth": 0,
-      "month": "2000-10"
+      "month": "2000-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000149.html"
     },
     {
       "id": "msg-b8cfea14be0b",
@@ -33,7 +34,8 @@
       "body_snippet": "The R-base-1.1.1-1.i586.rpm packaged for Mandrake 7.1 is now available on\nCRAN. \nI've installed it on my system and it seems to work all right so far !\nPlease let me know if there are any problems.\n\n-",
       "thread_id": "thread-b8cfea14be0b",
       "thread_depth": 0,
-      "month": "2000-10"
+      "month": "2000-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000150.html"
     },
     {
       "id": "msg-15718c3ae304",
@@ -45,11 +47,12 @@
       "subject_clean": "\"R pour les débutants\"  is available in French and in English",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear R-users,\n\nI have completely revised my tutorial \"R pour les d?butants\" and translated\nit in English under the title \"R for beginners\". The document is now 31\npages-long (the previous version was 15-pages long). It gives a starting\npoint for people with no experience with R (or S). I tried to explain the\nbasics in the simplest way, as well as giving useful details (mostly with\ntables). Any feed-back would be greatly appreciated. Both versions are on\nCRAN in the contributed documentation section:\n\nhttp://cran.r-project.org/doc/contrib/Rdebuts_fr.pdf [280 kB]\nhttp://cran.r-project.org/doc/contrib/Rdebuts_en.pdf [152 kB]\n\nChers utilisateurs de R,\n\nJ'ai compl?tement r?vis? mon document \"R pour les d?butants\" et l'ai\ntraduit en anglais sous le titre \"R for beginners\". Ce document comporte\nmaintenant 31 pages (la version pr?c?dente en comportait 15). Le but de \"R\npour les d?butants\" est de fournir un point de d?part pour les utilisateurs\nqui n'ont aucune exp?rience avec R (ou S). J'ai essay? de simplifier les\nexplications, tout en donnant des d?tails utiles (le plus souvent sous\nforme de tableaux). Tout commentaire ou suggestion serait grandement\nappr?ci?. Les deux versions sont sur le site du CRAN dans la section\n\"contributed documentation\" (cf. liens ci-dessus).\n\n\n\n\nEmmanuel Paradis\nLaboratoire de Pal?ontologie\nInstitut des Sciences de l'?volution\nUniversit? Montpellier II\nF-34095 Montpellier c?dex 05\nFrance\n   phone: +33  4 67 14 39 64\n     fax: +33  4 67 14 36 10\n  mailto:paradis at isem.univ-montp2.fr\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
-      "body_snippet": "Dear R-users,\n\nI have completely revised my tutorial \"R pour les d?butants\" and translated\nit in English under the title \"R for beginners\". The document is now 31\npages-long (the previous version was ",
+      "body_plain": "Dear R-users,\n\nI have completely revised my tutorial \"R pour les débutants\" and translated\nit in English under the title \"R for beginners\". The document is now 31\npages-long (the previous version was 15-pages long). It gives a starting\npoint for people with no experience with R (or S). I tried to explain the\nbasics in the simplest way, as well as giving useful details (mostly with\ntables). Any feed-back would be greatly appreciated. Both versions are on\nCRAN in the contributed documentation section:\n\nhttp://cran.r-project.org/doc/contrib/Rdebuts_fr.pdf [280 kB]\nhttp://cran.r-project.org/doc/contrib/Rdebuts_en.pdf [152 kB]\n\nChers utilisateurs de R,\n\nJ'ai complètement révisé mon document \"R pour les débutants\" et l'ai\ntraduit en anglais sous le titre \"R for beginners\". Ce document comporte\nmaintenant 31 pages (la version précédente en comportait 15). Le but de \"R\npour les débutants\" est de fournir un point de départ pour les utilisateurs\nqui n'ont aucune expérience avec R (ou S). J'ai essayé de simplifier les\nexplications, tout en donnant des détails utiles (le plus souvent sous\nforme de tableaux). Tout commentaire ou suggestion serait grandement\napprécié. Les deux versions sont sur le site du CRAN dans la section\n\"contributed documentation\" (cf. liens ci-dessus).\n\n\n\n\nEmmanuel Paradis\nLaboratoire de Paléontologie\nInstitut des Sciences de l'Évolution\nUniversité Montpellier II\nF-34095 Montpellier cédex 05\nFrance\n   phone: +33  4 67 14 39 64\n     fax: +33  4 67 14 36 10\n  mailto:paradis at isem.univ-montp2.fr\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "Dear R-users,\n\nI have completely revised my tutorial \"R pour les débutants\" and translated\nit in English under the title \"R for beginners\". The document is now 31\npages-long (the previous version was ",
       "thread_id": "thread-15718c3ae304",
       "thread_depth": 0,
-      "month": "2000-10"
+      "month": "2000-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000151.html"
     }
   ],
   "threads": [

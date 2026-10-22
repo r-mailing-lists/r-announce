@@ -17,7 +17,8 @@
       "body_snippet": "Dear R-announce list members,\n\nI've submitted a new package to CRAN, Rcmdr, which provides a \ncross-platform basic-statistics GUI for R. Rcmdr is based on the tcltk \npackage and uses only standard Tk ",
       "thread_id": "thread-2303f144e4fb",
       "thread_depth": 0,
-      "month": "2003-05"
+      "month": "2003-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000393.html"
     }
   ],
   "threads": [

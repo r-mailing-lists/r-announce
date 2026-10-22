@@ -13,11 +13,12 @@
       "subject_clean": "useR! Live Events Underway!",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Hi all,\nOur first breakout session for useR! 2020 was today, and our welcome session begins tomorrow followed by Martin M?chler and Luke Tierney?s keynotes and our panel of R Core contributors. The Slido site for Q and A<https://app.sli.do/event/ccilmxcz/live/questions> is already open. If you have questions about R Core, where R is headed, or questions for Martin and Luke, please post them there! Then, head back there for the livestream tomorrow. A full list of our live events is available here<https://user2020.r-project.org/program/agenda/>. Our site also includes links to posters and videos, and will include tutorial information as soon as it is available.\n\nWe look forward to seeing you all at our events this week!\n\nBest,\nChris Prener, Heidi Seibold, and Jenine Harris\nuser! 2020 Co-Leads\n\n\n\t[[alternative HTML version deleted]]",
-      "body_snippet": "Hi all,\nOur first breakout session for useR! 2020 was today, and our welcome session begins tomorrow followed by Martin M?chler and Luke Tierney?s keynotes and our panel of R Core contributors. The Sl",
+      "body_plain": "Hi all,\nOur first breakout session for useR! 2020 was today, and our welcome session begins tomorrow followed by Martin Mächler and Luke Tierney’s keynotes and our panel of R Core contributors. The Slido site for Q and A<https://app.sli.do/event/ccilmxcz/live/questions> is already open. If you have questions about R Core, where R is headed, or questions for Martin and Luke, please post them there! Then, head back there for the livestream tomorrow. A full list of our live events is available here<https://user2020.r-project.org/program/agenda/>. Our site also includes links to posters and videos, and will include tutorial information as soon as it is available.\n\nWe look forward to seeing you all at our events this week!\n\nBest,\nChris Prener, Heidi Seibold, and Jenine Harris\nuser! 2020 Co-Leads\n\n\n\t[[alternative HTML version deleted]]",
+      "body_snippet": "Hi all,\nOur first breakout session for useR! 2020 was today, and our welcome session begins tomorrow followed by Martin Mächler and Luke Tierney’s keynotes and our panel of R Core contributors. The Sl",
       "thread_id": "thread-846d29972a2f",
       "thread_depth": 0,
-      "month": "2020-07"
+      "month": "2020-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000659.html"
     }
   ],
   "threads": [

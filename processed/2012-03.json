@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-2.15.0.tar.gz (codename \"Easter Beagle\") at 9:00 this morning. This is the first release of the 2.15 series and contains several new features and changes; see the list bel",
       "thread_id": "thread-1a5c15f17273",
       "thread_depth": 0,
-      "month": "2012-03"
+      "month": "2012-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2012/000551.html"
     }
   ],
   "threads": [

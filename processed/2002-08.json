@@ -17,7 +17,8 @@
       "body_snippet": "\"An Introduction to R\"\n -- by W.N. Venables, D.M. Smith and the R Development Core Team\n\nThis tutorial manual is now available as a paperback book.  \nIt can be ordered from most online bookshops.  The",
       "thread_id": "thread-b9eeb9fa0e3f",
       "thread_depth": 0,
-      "month": "2002-08"
+      "month": "2002-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000309.html"
     },
     {
       "id": "msg-e08d8254b837",
@@ -29,11 +30,12 @@
       "subject_clean": "revised versions of \"R for Beginners\" on CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Dear colleagues,\n\nNew versions of \"R for Beginners\" in French and in English are available on\nCRAN in the Contributed Documentation section. The document is now nearly\n60 pages long, and has been completely revised. The description of\n\"objects\" and of data manipulation has been completely re-written. The\nsection on graphics has been particularly extended, and includes now an\nintroduction on the packages grid and lattice. Comments are welcome.\n\n\n\nChers coll?gues,\n\nUne nouvelle version de \"R pour les d?butants\" en fran?ais et en anglais\nest disponible sur le CRAN dans la partie \"Contributed Documentation\". Le\ndocument fait maintenant presque 60 pages et a ?t? enti?rement r?vis?. La\ndescription des \"objets\" et de la manipulation des donn?es a ?t?\ncompl?tement r?-?crite. La partie sur les graphiques a ?t? notamment\n?tendue et inclue maintenant une introduction aux packages grid et lattice.\nTout commentaire sera le bienvenu.\n\n\n\nBest wishes,\n\nEmmanuel Paradis\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "Dear colleagues,\n\nNew versions of \"R for Beginners\" in French and in English are available on\nCRAN in the Contributed Documentation section. The document is now nearly\n60 pages long, and has been completely revised. The description of\n\"objects\" and of data manipulation has been completely re-written. The\nsection on graphics has been particularly extended, and includes now an\nintroduction on the packages grid and lattice. Comments are welcome.\n\n\n\nChers collègues,\n\nUne nouvelle version de \"R pour les débutants\" en français et en anglais\nest disponible sur le CRAN dans la partie \"Contributed Documentation\". Le\ndocument fait maintenant presque 60 pages et a été entièrement révisé. La\ndescription des \"objets\" et de la manipulation des données a été\ncomplètement ré-écrite. La partie sur les graphiques a été notamment\nétendue et inclue maintenant une introduction aux packages grid et lattice.\nTout commentaire sera le bienvenu.\n\n\n\nBest wishes,\n\nEmmanuel Paradis\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "Dear colleagues,\n\nNew versions of \"R for Beginners\" in French and in English are available on\nCRAN in the Contributed Documentation section. The document is now nearly\n60 pages long, and has been comp",
       "thread_id": "thread-e08d8254b837",
       "thread_depth": 0,
-      "month": "2002-08"
+      "month": "2002-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000310.html"
     },
     {
       "id": "msg-c955a5838e8b",
@@ -49,7 +51,8 @@
       "body_snippet": "CheapBytes, a vendor of Linux CDs, now offers a CD of R.  See\n   www.cheapbytes.com \n      -> \"Enter the store\" \n         -> CheapBytes CDs\n            -> CheapBytes \"R\" Project CD-R\n\nor use the direc",
       "thread_id": "thread-c955a5838e8b",
       "thread_depth": 0,
-      "month": "2002-08"
+      "month": "2002-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000311.html"
     },
     {
       "id": "msg-95c508ef9d1e",
@@ -65,7 +68,8 @@
       "body_snippet": "I have just uploaded to CRAN the new version of the randomForest package.\nThose who had used the previous version will absolutely want to upgrade, as\nthe new version fixes a few serious bugs (some giv",
       "thread_id": "thread-95c508ef9d1e",
       "thread_depth": 0,
-      "month": "2002-08"
+      "month": "2002-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000312.html"
     }
   ],
   "threads": [

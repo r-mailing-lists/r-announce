@@ -17,7 +17,8 @@
       "body_snippet": "The byte pixies have rolled up R-2.14.0.tar.gz (codename \"Great Pumpkin\") at 9:00 this morning. This is a development release with several new features; see the list below for details.\n\nYou can get it",
       "thread_id": "thread-cebb64b15604",
       "thread_depth": 0,
-      "month": "2011-10"
+      "month": "2011-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000544.html"
     }
   ],
   "threads": [

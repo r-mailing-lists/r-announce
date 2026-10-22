@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.0.0.tar.gz (codename \"Masked Marvel\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\n http://cran.r-project.org/sr",
       "thread_id": "thread-c7bd93002025",
       "thread_depth": 0,
-      "month": "2013-04"
+      "month": "2013-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2013/000561.html"
     }
   ],
   "threads": [

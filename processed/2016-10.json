@@ -17,7 +17,8 @@
       "body_snippet": "Just a quick heads-up, mostly for those who want to keep their packages up to date with respect to updates of R: We intend to have a patch release on October 31. Nickname and detailed schedule will be",
       "thread_id": "thread-5baae6488012",
       "thread_depth": 0,
-      "month": "2016-10"
+      "month": "2016-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000606.html"
     },
     {
       "id": "msg-71dd11e2261a",
@@ -33,7 +34,8 @@
       "body_snippet": "Just a quick heads-up, mostly for those who want to keep their packages up to date with respect to updates of R: We intend to have a patch release on October 31. Nickname and detailed schedule will be",
       "thread_id": "thread-71dd11e2261a",
       "thread_depth": 0,
-      "month": "2016-10"
+      "month": "2016-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000607.html"
     },
     {
       "id": "msg-755fb8f91bfd",
@@ -49,7 +51,8 @@
       "body_snippet": "The build system rolled up R-3.3.2.tar.gz (codename \"Sincere Pumpkin Patch\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project",
       "thread_id": "thread-755fb8f91bfd",
       "thread_depth": 0,
-      "month": "2016-10"
+      "month": "2016-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000608.html"
     }
   ],
   "threads": [

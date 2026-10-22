@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.1.1.tar.gz a short while ago. This is a maintenance\nrelease containing mainly bugfixes.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base",
       "thread_id": "thread-6a37dc465b8a",
       "thread_depth": 0,
-      "month": "2005-06"
+      "month": "2005-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2005/000435.html"
     }
   ],
   "threads": [

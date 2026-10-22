@@ -17,7 +17,8 @@
       "body_snippet": "Full schedule is available on developer.r-project.org.\n\n(This comes somewhat late this year, partly because we needed to squeeze in 4.0.5 before 4.1.0 could be released.)\n\n-- \nPeter Dalgaard, Professo",
       "thread_id": "thread-eb7ff90a9842",
       "thread_depth": 0,
-      "month": "2021-07"
+      "month": "2021-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2021/000671.html"
     }
   ],
   "threads": [

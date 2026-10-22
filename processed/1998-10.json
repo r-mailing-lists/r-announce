@@ -17,7 +17,8 @@
       "body_snippet": "As usual, it is available from the Auckland repository as of a few\nminutes ago, but it is preferred if you wait until it trickles out\ninto your nearby CRAN site in a couple of days.\n\nYes, I know I sai",
       "thread_id": "thread-f51f620fa6ab",
       "thread_depth": 0,
-      "month": "1998-10"
+      "month": "1998-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000055.html"
     },
     {
       "id": "msg-9eafc93c5da3",
@@ -33,7 +34,8 @@
       "body_snippet": "Thanks to Vin Everett and David Clayton <david.clayton at mrc-bsu.cam.ac.uk>,\nan RPM package of R-0.62.4 for Red Hat Linux/SPARC 5.1 is now available\non CRAN. This means that RPMs are available for al",
       "thread_id": "thread-9eafc93c5da3",
       "thread_depth": 0,
-      "month": "1998-10"
+      "month": "1998-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000056.html"
     }
   ],
   "threads": [

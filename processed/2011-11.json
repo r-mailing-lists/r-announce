@@ -17,7 +17,8 @@
       "body_snippet": "To all Windows users:\n\nThe binary build of 2.14.0 that was uploaded yesterday was missing Cairo \nsupport.  I have rebuilt it, and uploaded a new copy.\n\nYou can tell which one you have by running \"svg(",
       "thread_id": "thread-2842b13d1cfc",
       "thread_depth": 0,
-      "month": "2011-11"
+      "month": "2011-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000545.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Full schedule available on developer.r-project.org (pending auto-update from SVN)\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg",
       "thread_id": "thread-0c800508f21c",
       "thread_depth": 0,
-      "month": "2017-11"
+      "month": "2017-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2017/000622.html"
     },
     {
       "id": "msg-7d409943847b",
@@ -33,7 +34,8 @@
       "body_snippet": "The build system rolled up R-3.4.3.tar.gz (codename \"Kite-Eating Tree\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/",
       "thread_id": "thread-7d409943847b",
       "thread_depth": 0,
-      "month": "2017-11"
+      "month": "2017-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2017/000623.html"
     }
   ],
   "threads": [

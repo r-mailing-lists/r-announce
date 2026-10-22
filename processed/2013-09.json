@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.0.2.tar.gz (codename \"Frisbee Sailing\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/s",
       "thread_id": "thread-2dd5a432fdcb",
       "thread_depth": 0,
-      "month": "2013-09"
+      "month": "2013-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2013/000567.html"
     }
   ],
   "threads": [

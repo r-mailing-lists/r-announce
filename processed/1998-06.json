@@ -17,7 +17,8 @@
       "body_snippet": "We have made a nearly complete set of the V&R2 libraries for R.\nThese are in the devel section of contributions to CRAN as\n\n\tVR5.3pl021-1.tar.gz\n\nand at\n\n\thttp://www.stats.ox.ac.uk/pub/R/VR5.3pl021-1.",
       "thread_id": "thread-1a309164af53",
       "thread_depth": 0,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000034.html"
     },
     {
       "id": "msg-22fbd4fa103b",
@@ -33,7 +34,8 @@
       "body_snippet": "I've put up R-0.62.0.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or t",
       "thread_id": "thread-22fbd4fa103b",
       "thread_depth": 0,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000035.html"
     },
     {
       "id": "msg-53488070593f",
@@ -49,7 +51,8 @@
       "body_snippet": "On 14-Jun-98 Peter Dalgaard BSA wrote:\n> I've put up R-0.62.0.tgz up for FTP from Auckland some minutes ago.\n> As usual, don't get it from there unless you are desperate, but wait\n> for it to be mirro",
       "thread_id": "thread-22fbd4fa103b",
       "thread_depth": 1,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000036.html"
     },
     {
       "id": "msg-9789d799e744",
@@ -67,7 +70,8 @@
       "body_snippet": "Before this gets out of hand: \n\nPlease make sure that responses to the announcement goes somewhere\nelse than to R-announce, which is reserved for people who\nwant to minimise their email traffic by avo",
       "thread_id": "thread-9789d799e744",
       "thread_depth": 0,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000037.html"
     },
     {
       "id": "msg-a58a4ca1df73",
@@ -83,7 +87,8 @@
       "body_snippet": "Due to a glitch with the CVS version management software (quite likely\nmy own fault), R-0.62.0 got shipped without the \"tests\" directory.\nApart from preventing \"make tests\" from working, it also has u",
       "thread_id": "thread-a58a4ca1df73",
       "thread_depth": 0,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000038.html"
     },
     {
       "id": "msg-326b66af1199",
@@ -99,7 +104,8 @@
       "body_snippet": "Hi Folks,\n\nThe file .../lib/R/library/base/html/00Index.html (the contents list of the R\nbase package help) contains the lines:\n\n<TR><TD width=25%><A HREF=\"Logic.html\">&</A></TD>\n<TD>Logical Operators",
       "thread_id": "thread-22fbd4fa103b",
       "thread_depth": 1,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000039.html"
     },
     {
       "id": "msg-7a2a4601b747",
@@ -111,11 +117,12 @@
       "subject_clean": "New Package bindata at CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "I have put the new package bindata to CRAN, which provides a method\nfor creating binary (i.e., 0-1-valued) random variables with\ncorrelation structures by converting multivariate random variables to\nbinary variables.\n\nThe package includes a postscript file of a technical report\ndescribing the method, here's the abstract:\n\n**********************************************************\nThe generation of random variates from multivariate binary\ndistributions has not gained as much interest in the literature as,\ne.g., multivariate normal or Poisson distributions. Binary variables\nare important in many types of applications. Our main interest is in\nthe segmentation of marketing data, where data come from customer\nquestionnaires with ``yes/no'' questions. Artificial data provide a\nvaluable tool for the analysis of segmentation tools, because data\nwith known structure can be constructed to mimic situations from the\nreal world (Dolnicar et al. 1998). Questionnaire data can be highly\ncorrelated, when several questions covering the same field are likely\nto be answered similarly by a subject. In this paper we present a\ncomputationally fast method to simulate multivariate binary\ndistributions with a given correlation structure. The implementation\nof the algorithm in R, an implementation of the S statistical\nlanguage, is described in the appendix.\n**********************************************************\n\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4546\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "I have put the new package bindata to CRAN, which provides a method\nfor creating binary (i.e., 0-1-valued) random variables with\ncorrelation structures by converting multivariate random variables to\nbinary variables.\n\nThe package includes a postscript file of a technical report\ndescribing the method, here's the abstract:\n\n**********************************************************\nThe generation of random variates from multivariate binary\ndistributions has not gained as much interest in the literature as,\ne.g., multivariate normal or Poisson distributions. Binary variables\nare important in many types of applications. Our main interest is in\nthe segmentation of marketing data, where data come from customer\nquestionnaires with ``yes/no'' questions. Artificial data provide a\nvaluable tool for the analysis of segmentation tools, because data\nwith known structure can be constructed to mimic situations from the\nreal world (Dolnicar et al. 1998). Questionnaire data can be highly\ncorrelated, when several questions covering the same field are likely\nto be answered similarly by a subject. In this paper we present a\ncomputationally fast method to simulate multivariate binary\ndistributions with a given correlation structure. The implementation\nof the algorithm in R, an implementation of the S statistical\nlanguage, is described in the appendix.\n**********************************************************\n\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut für Statistik                      Tel: (+43 1) 58801 4546\nTechnische Universität Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "I have put the new package bindata to CRAN, which provides a method\nfor creating binary (i.e., 0-1-valued) random variables with\ncorrelation structures by converting multivariate random variables to\nb",
       "thread_id": "thread-7a2a4601b747",
       "thread_depth": 0,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000040.html"
     },
     {
       "id": "msg-279cdc29c813",
@@ -131,7 +138,8 @@
       "body_snippet": "I have put a new package called \"cclust\", that is dealing with Convex\nClustering Methods. More anallyticaly, it is performing the normal Kmeans \nclustering, the On-line Update clustering(Hard Competit",
       "thread_id": "thread-279cdc29c813",
       "thread_depth": 0,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000041.html"
     },
     {
       "id": "msg-3e1cc3510e18",
@@ -147,7 +155,8 @@
       "body_snippet": "There is a  new version of the 'CCLUST' package ,where i removed the extra\ncommand for the kmeans algorithm in the .R programm and also the comments\nabout it in the .Rd help page. Now in the cclust li",
       "thread_id": "thread-3e1cc3510e18",
       "thread_depth": 0,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000042.html"
     },
     {
       "id": "msg-9a7337ae62ae",
@@ -163,7 +172,8 @@
       "body_snippet": "The following are now on CRAN:\n\nKernSmooth:  version 2.2 of the code for Wand & Jones book on kernel smoothing.\nlogspline:   spline fits to log denisites, with automatic choice of smoothing.\nppr:     ",
       "thread_id": "thread-9a7337ae62ae",
       "thread_depth": 0,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000043.html"
     },
     {
       "id": "msg-44538f7a2c9a",
@@ -179,7 +189,8 @@
       "body_snippet": "There is now an \"alpha\" version of my DSE time series library available at\n<http://www.bank-banque-canada.ca/pgilbert>. The main changes between this and\nthe version in the development area of CRAN  a",
       "thread_id": "thread-44538f7a2c9a",
       "thread_depth": 0,
-      "month": "1998-06"
+      "month": "1998-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000044.html"
     }
   ],
   "threads": [

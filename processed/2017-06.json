@@ -17,7 +17,8 @@
       "body_snippet": "Just a quick note to say that we intend to have a patch release, probably on June 30, mainly to pick up a few balls that were dropped on the 3.4.0 release. Full schedule to appear later (just need a l",
       "thread_id": "thread-2e8ed1d2bb7c",
       "thread_depth": 0,
-      "month": "2017-06"
+      "month": "2017-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2017/000615.html"
     },
     {
       "id": "msg-a5c24f824312",
@@ -33,7 +34,8 @@
       "body_snippet": "The build system rolled up R-3.4.1.tar.gz (codename \"Single Candle\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src",
       "thread_id": "thread-a5c24f824312",
       "thread_depth": 0,
-      "month": "2017-06"
+      "month": "2017-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2017/000616.html"
     },
     {
       "id": "msg-12fead0b2b3e",
@@ -49,7 +51,8 @@
       "body_snippet": "Dear all,\n\nThe latest issue of The R Journal is now available at:\n\nhttps://journal.r-project.org/archive/2017-1/.\n\nMany thanks to all contributors - especially reviewers and authors.\n\nRegards,\nBettina",
       "thread_id": "thread-12fead0b2b3e",
       "thread_depth": 0,
-      "month": "2017-06"
+      "month": "2017-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2017/000617.html"
     }
   ],
   "threads": [

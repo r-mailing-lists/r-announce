@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up  R-3.2.4.tar.gz (codename \"Very Secure Dishes\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.o",
       "thread_id": "thread-ebd5495246e3",
       "thread_depth": 0,
-      "month": "2016-03"
+      "month": "2016-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000597.html"
     },
     {
       "id": "msg-86d4e2699d78",
@@ -33,7 +34,8 @@
       "body_snippet": "The 3.2.4 release had two annoyances which we would rather not have in an \"ultra-stable\" release, designed to hang around for the duration of the 3.3 series. One was a relatively minor Makefile issue ",
       "thread_id": "thread-86d4e2699d78",
       "thread_depth": 0,
-      "month": "2016-03"
+      "month": "2016-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2016/000598.html"
     }
   ],
   "threads": [

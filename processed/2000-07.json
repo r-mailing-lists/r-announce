@@ -17,7 +17,8 @@
       "body_snippet": "Hi,\n\nI have set up a mirror of CRAN at xenia.sote.hu (193.6.210.44).\n\nIt is accessible by:\nftp://cran.hu.r-project.org/pub/mirrors/CRAN\nrsync://cran.hu.r-project.org/CRAN\nhttp://cran.hu.r-project.org\n",
       "thread_id": "thread-02f70fa61687",
       "thread_depth": 0,
-      "month": "2000-07"
+      "month": "2000-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000145.html"
     },
     {
       "id": "msg-0376b0dc80b1",
@@ -33,7 +34,8 @@
       "body_snippet": "I've done some major house cleaning on RPgSQL.  The latest release is\navailable at http://rpgsql.sourceforge.net/ and should soon appear on\nCRAN.\n\nCheers,\nTim\n\n-- \nTimothy H. Keitt\nNational Center for",
       "thread_id": "thread-0376b0dc80b1",
       "thread_depth": 0,
-      "month": "2000-07"
+      "month": "2000-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000146.html"
     }
   ],
   "threads": [

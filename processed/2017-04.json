@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.4.0.tar.gz (codename \"You Stupid Darkness\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.o",
       "thread_id": "thread-f40d6ab9d741",
       "thread_depth": 0,
-      "month": "2017-04"
+      "month": "2017-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2017/000612.html"
     },
     {
       "id": "msg-d85aff76ec98",

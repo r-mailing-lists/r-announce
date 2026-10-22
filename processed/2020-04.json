@@ -15,11 +15,12 @@
       "references": [
         "<f6c2c5c4-e314-416b-9960-411b2fc5bbef@Spark>"
       ],
-      "body_plain": "Hello all:\nWe have made the disappointing decision to cancel useR! 2020 in St. Louis. This has been in process for several weeks, but we have not been able to share details publicly until today. We've appreciated the R community's patience as we've worked on this.\n\nWe have not made any final decisions about what comes next for useR! 2020. We?ll be working with the R Foundation, useR! 2020 Munich, and our local team next week to determine the best course of action for us to collectively take. We?ll be in touch soon about possible next steps.\n\nIf you have already registered for the conference, you can expect to hear from us early next week about refunds associated with your registration. Our sponsors, keynotes, tutorial leaders, presenters, and diversity scholars will be receiving updates from our team as well. If you have registered for a room with our venue, the Marriott St. Louis Grand, the hotel will be cancelling those reservations.\n\nIn the meantime, we hope you all remain healthy and well. We also want to thank the nearly 60 folks who have contributed to our organizing team and spent countless hours working towards a successful conference. Your hard work means the world to us.\n\nBest,\nChris Prener, Ph.D. and Jenine Harris, Ph.D.\nuseR! 2020 St. Louis Co-lead Organizers\n\n\t[[alternative HTML version deleted]]",
+      "body_plain": "Hello all:\nWe have made the disappointing decision to cancel useR! 2020 in St. Louis. This has been in process for several weeks, but we have not been able to share details publicly until today. We've appreciated the R community's patience as we've worked on this.\n\nWe have not made any final decisions about what comes next for useR! 2020. We’ll be working with the R Foundation, useR! 2020 Munich, and our local team next week to determine the best course of action for us to collectively take. We’ll be in touch soon about possible next steps.\n\nIf you have already registered for the conference, you can expect to hear from us early next week about refunds associated with your registration. Our sponsors, keynotes, tutorial leaders, presenters, and diversity scholars will be receiving updates from our team as well. If you have registered for a room with our venue, the Marriott St. Louis Grand, the hotel will be cancelling those reservations.\n\nIn the meantime, we hope you all remain healthy and well. We also want to thank the nearly 60 folks who have contributed to our organizing team and spent countless hours working towards a successful conference. Your hard work means the world to us.\n\nBest,\nChris Prener, Ph.D. and Jenine Harris, Ph.D.\nuseR! 2020 St. Louis Co-lead Organizers\n\n\t[[alternative HTML version deleted]]",
       "body_snippet": "Hello all:\nWe have made the disappointing decision to cancel useR! 2020 in St. Louis. This has been in process for several weeks, but we have not been able to share details publicly until today. We've",
       "thread_id": "thread-d00e935db73a",
       "thread_depth": 0,
-      "month": "2020-04"
+      "month": "2020-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000652.html"
     },
     {
       "id": "msg-2ec6c64d0145",
@@ -35,7 +36,8 @@
       "body_snippet": "The build system rolled up R-4.0.0.tar.gz (codename \"Arbor Day\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/bas",
       "thread_id": "thread-2ec6c64d0145",
       "thread_depth": 0,
-      "month": "2020-04"
+      "month": "2020-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000653.html"
     }
   ],
   "threads": [

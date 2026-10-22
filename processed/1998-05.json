@@ -17,7 +17,8 @@
       "body_snippet": "I've just put up R-0.61.3.tgz and R-0.61.2-0.61.3.diff.gz for\nanonymous FTP on ftp.stat.auckland.ac.nz. \n\nAs usual: Don't get it from there unless you are in a desperate hurry.\nIt will migrate to the ",
       "thread_id": "thread-9a35c43d0d70",
       "thread_depth": 0,
-      "month": "1998-05"
+      "month": "1998-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000029.html"
     },
     {
       "id": "msg-d12646b93ba1",
@@ -33,7 +34,8 @@
       "body_snippet": "I have just uploaded the R port of the CODA (Convergence Diagnostics\nand Output Analysis) package to CRAN.  This is a suite of functions\nfor analyzing the output of Markov Chain Monte Carlo simulation",
       "thread_id": "thread-d12646b93ba1",
       "thread_depth": 0,
-      "month": "1998-05"
+      "month": "1998-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000030.html"
     },
     {
       "id": "msg-b36861f8cd30",
@@ -49,7 +51,8 @@
       "body_snippet": "I have just put on ftp://sirio.stat.unipd.it/pub/R a new version \nof R for Win95/NT.\nThe main difference concerns dynamic linking (see below).\nIn addition, the binary distribution contains many of the",
       "thread_id": "thread-b36861f8cd30",
       "thread_depth": 0,
-      "month": "1998-05"
+      "month": "1998-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000031.html"
     },
     {
       "id": "msg-7a144e8df51e",
@@ -65,7 +68,8 @@
       "body_snippet": "I have just uploaded to CRAN a binary distribution of R for \nWindows3.1 + Win32s. \nYou can also find it at ftp://sirio.stat.unipd.it/pub/R\nguido m.\n\n---------------------------readme.31---------------",
       "thread_id": "thread-7a144e8df51e",
       "thread_depth": 0,
-      "month": "1998-05"
+      "month": "1998-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000032.html"
     },
     {
       "id": "msg-2851795f8987",
@@ -77,11 +81,12 @@
       "subject_clean": "multiv package on CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "I've ported F. Murtagh's statlib package \"multiv\" to R, it can be\nfound in the usual place on CRAN.\n\nContents:\n\nbea                      Bond Energy Algorithm\nca                       Correspondence Analysis\nsupplc                   Supplementary Columns in Correspondence Analysis\nsupplr                   Supplementary Rows in Correspondence Analysis\nflou                     Fuzzy Coding (3-Way)\nhierclust                Hierarchical Clustering\nlogique                  Logical Coding\nmembers                  Cluster Memberships\npartition                Partitioning by Iterative Optimization\npca                      Principal Components Analysis\nsammon                   Sammon's Non-Linear Mapping\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4546\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "I've ported F. Murtagh's statlib package \"multiv\" to R, it can be\nfound in the usual place on CRAN.\n\nContents:\n\nbea                      Bond Energy Algorithm\nca                       Correspondence Analysis\nsupplc                   Supplementary Columns in Correspondence Analysis\nsupplr                   Supplementary Rows in Correspondence Analysis\nflou                     Fuzzy Coding (3-Way)\nhierclust                Hierarchical Clustering\nlogique                  Logical Coding\nmembers                  Cluster Memberships\npartition                Partitioning by Iterative Optimization\npca                      Principal Components Analysis\nsammon                   Sammon's Non-Linear Mapping\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut für Statistik                      Tel: (+43 1) 58801 4546\nTechnische Universität Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "I've ported F. Murtagh's statlib package \"multiv\" to R, it can be\nfound in the usual place on CRAN.\n\nContents:\n\nbea                      Bond Energy Algorithm\nca                       Correspondence A",
       "thread_id": "thread-2851795f8987",
       "thread_depth": 0,
-      "month": "1998-05"
+      "month": "1998-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000033.html"
     }
   ],
   "threads": [

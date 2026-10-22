@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.11.0 on Thursday,\nApril 22, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklis",
       "thread_id": "thread-454e2c1dce27",
       "thread_depth": 0,
-      "month": "2010-03"
+      "month": "2010-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2010/000517.html"
     },
     {
       "id": "msg-d3cd9aff38be",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear R Users,\n\nWe would like to highlight that R has once again been selected to participate\nin the Google Summer of Code.  Suggested projects can be found in the R-Wiki:\nhttp://rwiki.sciviews.org/dok",
       "thread_id": "thread-d3cd9aff38be",
       "thread_depth": 0,
-      "month": "2010-03"
+      "month": "2010-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2010/000518.html"
     }
   ],
   "threads": [

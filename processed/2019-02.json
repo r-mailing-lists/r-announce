@@ -17,7 +17,8 @@
       "body_snippet": "Dear R-users,\n\nThe list of selected tutorials for useR! 2019 is out\nhttps://user2019.r-project.org/tutorials/. If you want to join them, you\ncan still submit a proposal for a talk, a lightning talk or",
       "thread_id": "thread-d280b7a49538",
       "thread_depth": 0,
-      "month": "2019-02"
+      "month": "2019-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2019/000635.html"
     },
     {
       "id": "msg-542c825fd735",
@@ -33,7 +34,8 @@
       "body_snippet": "Full schedule available on developer.r-project.org (pending auto-update from SVN)\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg",
       "thread_id": "thread-542c825fd735",
       "thread_depth": 0,
-      "month": "2019-02"
+      "month": "2019-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2019/000636.html"
     },
     {
       "id": "msg-0b3ea80995e8",
@@ -49,7 +51,8 @@
       "body_snippet": "Dear All,\n\nThe latest issue of The R Journal is now available at:\n\nhttps://journal.r-project.org/archive/2018-2/\n\nMany thanks to all contributors - especially reviewers and authors.\n\nRegards,\n\nJohn Ve",
       "thread_id": "thread-0b3ea80995e8",
       "thread_depth": 0,
-      "month": "2019-02"
+      "month": "2019-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2019/000637.html"
     }
   ],
   "threads": [

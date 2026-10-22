@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.1.2.tar.gz (codename \"Bird Hippie\") this morning.\n\nThe list below details the changes in this release. \n\nYou can get the source code from\n\nhttps://cran.r-project.org/src",
       "thread_id": "thread-f41eb5234915",
       "thread_depth": 0,
-      "month": "2021-11"
+      "month": "2021-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2021/000677.html"
     }
   ],
   "threads": [

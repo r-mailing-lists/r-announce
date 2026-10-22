@@ -17,7 +17,8 @@
       "body_snippet": "I would like (somewhat belatedly) to announce that Steffano Iacus\nhas joined the R-core group, and will oversee the Macintosh port(s)\nfor R.  Steffano has done a stirling job of bringing the of Mac\npo",
       "thread_id": "thread-7c620ad8fa04",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000186.html"
     },
     {
       "id": "msg-1945614c781f",
@@ -33,7 +34,8 @@
       "body_snippet": "New MacOS X (Darwin with X11R6) builds are at\n\nhttp://www.stat.ucla.edu/~deleeuw/R\n\nThese include some dylibs that were missing from previous\nbuilds. One is of R-1.2.2 (patched), the other of R-devel\n",
       "thread_id": "thread-1945614c781f",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000187.html"
     },
     {
       "id": "msg-e030449721a2",
@@ -49,7 +51,8 @@
       "body_snippet": "PTAk_1.1-1 ( Principal Tensor Analysis on k modes) has been released on\nCRAN\n            A multiway method to decompose a tensor (array) of any\norder,\n             as a generalisation of SVD also supp",
       "thread_id": "thread-e030449721a2",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000188.html"
     },
     {
       "id": "msg-8e99ff3774a9",
@@ -61,11 +64,12 @@
       "subject_clean": "DSC 2001 Proceedings Announcement",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "We are pleased to announce that the proceedings of the\n\n  2nd International Workshop on Distributed Statistical Computing\n  March 15-17, 2001, Technische Universit?t Wien, Vienna, Austria\n\nare now available online at\n\n  http://www.ci.tuwien.ac.at/Conferences/DSC.html\n\n\nCiting Thomas Lumley's conference summary:\n\n``DSC 2001: Cooperation between programs (and programmers)\n\n  There were about 30 presentations over the three days of the\n  conference, with speakers from universities, industrial research\n  groups, and software companies in twelve countries. Despite the\n  programmed sessions' running about 30% over time there was lively\n  discussion over coffee and lunch and in during the conference's social\n  program.\n\n  DSC 2001 emphasized the value of high quality open source software as\n  a statistical research platform but also for the ultimate goal of\n  delivering modern statistical methods to those with little knowledge\n  of (or interest in) statistical computing.''\n\n\nTable of Contents:\n-------------------\n\n                         Summary\n\n Thomas Lumley           DSC 2001: Cooperation between\n                         programs (and programmers)\n\n\n                         Contributions\n\n Anna Bartkowiak         A Set of XLispStat Subroutines\n                         for Detecting Outliers\n Douglas Bates, Saikat   C++ Classes for R Objects\n DebRoy\n Roger Bivand            R and geographical information\n                         systems, especially GRASS\n Vince Carey             GEE solvers: case studies in\n                         DSC design and implementation\n Peter Dalgaard          The R-Tcl/Tk interface\n John W. Eaton           Octave: Past, Present and\n                         Future\n Robert Gentleman        Modeling with Objects\n Richard M. Heiberger    Emacs Speaks Statistics: One\n                         Interface - Many Programs\n Torsten Hothorn, David  R/S Interfaces to Databases\n A. James,\n Brian D. Ripley\n Stefano Iacus           R porting for the Macintosh\n Ross Ihaka              R Graphics - The Good, the Bad,\n                         and the Ugly\n Thomas Lumley           Orca [ R [ RJava]]\n Duncan Murdoch          RGL: An R Interface to OpenGL\n Paul Murrell            R Lattice Graphics\n Balasubramanian         JDiehard: An implementation of\n Narasimhan              Diehard in Java\n Erich Neuwirth, Thomas  Embedding R in Standard\n Baier                   Software, and the other way\n                         round\n Erich Neuwirth          R sings - or using R to sonify\n                         data\n B. D. Ripley, R. M.     Applications of R Clients and\n Ripley                  Servers\n Anthony Rossini         Literate Statistical Analysis\n Duncan Temple Lang,     GGobi meets R: an extensible\n Deborah F. Swayne       environment for interactive\n                         dynamic data visualization\n Duncan Temple Lang      Embedding S in Other Languages\n                         and Environments\n Martin Theus            What dataminers want\n Luke Tierney            Compiling R: A Preliminary\n                         Report\n Antony Unwin            R objects, two interfaces! (R\n                         objects to interfaces?)\n Mikko Virtanen          Distributing data to different\n                         platforms using XML\n Gregory R. Warnes       Hydra: A Java library for\n                         Markov Chain Monte Carlo\n Hengyi Xue, E. James    JavaStat: A Distributed\n Harner                  Statistical Computing\n                         Environment\n Gilles Zumbach, Adrian  Orla: A data flow programming\n Trapletti               system for processing very\n                         large time series\n\n\nFor the organizing committee\nAchim Zeileis\n\n---------------------------\nInstitut f?r Statistik\nTechnische Universti?t Wien\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
-      "body_snippet": "We are pleased to announce that the proceedings of the\n\n  2nd International Workshop on Distributed Statistical Computing\n  March 15-17, 2001, Technische Universit?t Wien, Vienna, Austria\n\nare now ava",
+      "body_plain": "We are pleased to announce that the proceedings of the\n\n  2nd International Workshop on Distributed Statistical Computing\n  March 15-17, 2001, Technische Universität Wien, Vienna, Austria\n\nare now available online at\n\n  http://www.ci.tuwien.ac.at/Conferences/DSC.html\n\n\nCiting Thomas Lumley's conference summary:\n\n``DSC 2001: Cooperation between programs (and programmers)\n\n  There were about 30 presentations over the three days of the\n  conference, with speakers from universities, industrial research\n  groups, and software companies in twelve countries. Despite the\n  programmed sessions' running about 30% over time there was lively\n  discussion over coffee and lunch and in during the conference's social\n  program.\n\n  DSC 2001 emphasized the value of high quality open source software as\n  a statistical research platform but also for the ultimate goal of\n  delivering modern statistical methods to those with little knowledge\n  of (or interest in) statistical computing.''\n\n\nTable of Contents:\n-------------------\n\n                         Summary\n\n Thomas Lumley           DSC 2001: Cooperation between\n                         programs (and programmers)\n\n\n                         Contributions\n\n Anna Bartkowiak         A Set of XLispStat Subroutines\n                         for Detecting Outliers\n Douglas Bates, Saikat   C++ Classes for R Objects\n DebRoy\n Roger Bivand            R and geographical information\n                         systems, especially GRASS\n Vince Carey             GEE solvers: case studies in\n                         DSC design and implementation\n Peter Dalgaard          The R-Tcl/Tk interface\n John W. Eaton           Octave: Past, Present and\n                         Future\n Robert Gentleman        Modeling with Objects\n Richard M. Heiberger    Emacs Speaks Statistics: One\n                         Interface - Many Programs\n Torsten Hothorn, David  R/S Interfaces to Databases\n A. James,\n Brian D. Ripley\n Stefano Iacus           R porting for the Macintosh\n Ross Ihaka              R Graphics - The Good, the Bad,\n                         and the Ugly\n Thomas Lumley           Orca [ R [ RJava]]\n Duncan Murdoch          RGL: An R Interface to OpenGL\n Paul Murrell            R Lattice Graphics\n Balasubramanian         JDiehard: An implementation of\n Narasimhan              Diehard in Java\n Erich Neuwirth, Thomas  Embedding R in Standard\n Baier                   Software, and the other way\n                         round\n Erich Neuwirth          R sings - or using R to sonify\n                         data\n B. D. Ripley, R. M.     Applications of R Clients and\n Ripley                  Servers\n Anthony Rossini         Literate Statistical Analysis\n Duncan Temple Lang,     GGobi meets R: an extensible\n Deborah F. Swayne       environment for interactive\n                         dynamic data visualization\n Duncan Temple Lang      Embedding S in Other Languages\n                         and Environments\n Martin Theus            What dataminers want\n Luke Tierney            Compiling R: A Preliminary\n                         Report\n Antony Unwin            R objects, two interfaces! (R\n                         objects to interfaces?)\n Mikko Virtanen          Distributing data to different\n                         platforms using XML\n Gregory R. Warnes       Hydra: A Java library for\n                         Markov Chain Monte Carlo\n Hengyi Xue, E. James    JavaStat: A Distributed\n Harner                  Statistical Computing\n                         Environment\n Gilles Zumbach, Adrian  Orla: A data flow programming\n Trapletti               system for processing very\n                         large time series\n\n\nFor the organizing committee\nAchim Zeileis\n\n---------------------------\nInstitut für Statistik\nTechnische Universtiät Wien\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_snippet": "We are pleased to announce that the proceedings of the\n\n  2nd International Workshop on Distributed Statistical Computing\n  March 15-17, 2001, Technische Universität Wien, Vienna, Austria\n\nare now ava",
       "thread_id": "thread-8e99ff3774a9",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000189.html"
     },
     {
       "id": "msg-08c314bcc5c8",
@@ -81,7 +85,8 @@
       "body_snippet": "I've rolled up R-1.2.3.tgz a moment ago. This is mainly adds fixes to\nthe Macintosh port, but it also has a number of bugfixes for all\nversions.\n\nYou can get it from the developer site\n\nftp://cvs.r-pr",
       "thread_id": "thread-08c314bcc5c8",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000190.html"
     },
     {
       "id": "msg-f6504c51e0aa",
@@ -97,7 +102,8 @@
       "body_snippet": "A tar ball (14MB compressed) with R-1.2.3 for OS X/X11 is at\n\nhttp://www.stat.ucla.edu/~deleeuw/R\n\nIt includes some of the dylibs that you need, but not the X11R6\ndistribution.\n\nIt also has compiled/i",
       "thread_id": "thread-f6504c51e0aa",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000191.html"
     },
     {
       "id": "msg-e93069ee00c6",
@@ -113,7 +119,8 @@
       "body_snippet": "R-1.2.3 sources are now available via rsync as r-release at rsync.r-project.org\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://w",
       "thread_id": "thread-e93069ee00c6",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000192.html"
     },
     {
       "id": "msg-ecda6bba9fc4",
@@ -129,7 +136,8 @@
       "body_snippet": "I've prepared preliminary versions of two packages that I plan eventually \nto contribute to CRAN:\n\ncar (for \"Companion to Applied Regression\") is a package that provides a \nvariety of functions in sup",
       "thread_id": "thread-ecda6bba9fc4",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000193.html"
     },
     {
       "id": "msg-89c38f16d257",
@@ -145,7 +153,8 @@
       "body_snippet": "From release 1.2.3, R can run different Macintosh platforms.\n\nTwo versions are currently available that are non concurrent.\n\nOne version runs on MacOS Systems from 8.6 to 9.1 and MacOSX using the \nsta",
       "thread_id": "thread-89c38f16d257",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000197.html"
     },
     {
       "id": "msg-2e5ba7eabf75",
@@ -161,7 +170,8 @@
       "body_snippet": "R for Mac Special Interest Group\nAlog with the forthcoming version 1.2.3 of R a new mailing list has been \nactivated. The list is intended to exchange ideas, impressions, give \nsuggestions etc on the ",
       "thread_id": "thread-2e5ba7eabf75",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000198.html"
     },
     {
       "id": "msg-7c67972e73c3",
@@ -177,7 +187,8 @@
       "body_snippet": "From release 1.2.3, R can run different Macintosh platforms.\n\nTwo versions are currently available that are non concurrent.\n\nOne version runs on MacOS Systems from 8.6 to 9.1 and MacOSX using the \nsta",
       "thread_id": "thread-7c67972e73c3",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000194.html"
     },
     {
       "id": "msg-342ff63e18b9",
@@ -193,7 +204,8 @@
       "body_snippet": "R for Mac Special Interest Group\nAlong with latest version 1.2.3 of R a new mailing list has been \nactivated. The list is intended to exchange ideas, impressions, give \nsuggestions etc on the portings",
       "thread_id": "thread-342ff63e18b9",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000195.html"
     },
     {
       "id": "msg-9fa8875c22f8",
@@ -209,7 +221,8 @@
       "body_snippet": "A Windows binary distribution of R 1.2.3 is available at\n         http://sirio.stat.unipd.it/RWin\nIt will be mirrored at a CRAN site near you in a couple of days.\nSee below for a list of Windows-speci",
       "thread_id": "thread-9fa8875c22f8",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000196.html"
     },
     {
       "id": "msg-5a9a51f66e66",
@@ -225,7 +238,8 @@
       "body_snippet": "I just uploaded the new version of RExcel to the incoming directory.\n\nHere is part of the ReadMe:\n\n===============================================================================\nR-Excel Interface, Ve",
       "thread_id": "thread-5a9a51f66e66",
       "thread_depth": 0,
-      "month": "2001-04"
+      "month": "2001-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000199.html"
     }
   ],
   "threads": [

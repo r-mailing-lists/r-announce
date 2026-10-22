@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.1.3.tar.gz (codename \"One Push-Up\") this morning.\n\nThe list below details the changes in this release. \n\nYou can get the source code from\n\nhttps://cran.r-project.org/src",
       "thread_id": "thread-edf201835839",
       "thread_depth": 0,
-      "month": "2022-03"
+      "month": "2022-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2022/000680.html"
     },
     {
       "id": "msg-bde27f437efd",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear All,\n\nThe R Foundation Conference Committee invites proposals to organize useR! 2023 as a global online conference:\n\nhttps://www.r-project.org/conferences/useR_2023_call.html\n\nThe call is open to",
       "thread_id": "thread-bde27f437efd",
       "thread_depth": 0,
-      "month": "2022-03"
+      "month": "2022-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2022/000681.html"
     },
     {
       "id": "msg-b7b79f5f07cb",
@@ -49,7 +51,8 @@
       "body_snippet": "Full schedule is available on developer.r-project.org.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg, Denmark\nPhone: (+45)38153",
       "thread_id": "thread-b7b79f5f07cb",
       "thread_depth": 0,
-      "month": "2022-03"
+      "month": "2022-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2022/000682.html"
     }
   ],
   "threads": [

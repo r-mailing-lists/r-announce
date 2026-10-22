@@ -17,7 +17,8 @@
       "body_snippet": "Full schedule is available on developer.r-project.org.\n\n(The date is chosen to celebrate the 5th anniversary of R 1.0.0. Some irregularity may occur on the release day, since this happens to be a Satu",
       "thread_id": "thread-f63413489e85",
       "thread_depth": 0,
-      "month": "2020-02"
+      "month": "2020-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000648.html"
     },
     {
       "id": "msg-de6b68ea0057",
@@ -35,7 +36,8 @@
       "body_snippet": "Registration for the useR! 2020 conference in St. Louis, Missouri, U.S.A is now open. The conference will run from July 7th through July 10th, with a pre-conference day with some events on July 6th, t",
       "thread_id": "thread-de6b68ea0057",
       "thread_depth": 0,
-      "month": "2020-02"
+      "month": "2020-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000649.html"
     },
     {
       "id": "msg-1b27dc0bc1cc",
@@ -51,7 +53,8 @@
       "body_snippet": "The build system rolled up R-3.6.3.tar.gz (codename \"Holding the Windsock\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.",
       "thread_id": "thread-1b27dc0bc1cc",
       "thread_depth": 0,
-      "month": "2020-02"
+      "month": "2020-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000650.html"
     }
   ],
   "threads": [

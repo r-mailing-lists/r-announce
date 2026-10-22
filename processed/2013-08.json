@@ -17,7 +17,8 @@
       "body_snippet": "Just a quick note, mainly to warn off maintainers of the recommended packages, that we intend to release R-3.0.2 on Wednesday, September 25.\n\nWe'll be following the usual schedule from\nhttp://develope",
       "thread_id": "thread-41726ea3127b",
       "thread_depth": 0,
-      "month": "2013-08"
+      "month": "2013-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2013/000565.html"
     },
     {
       "id": "msg-d0fadbcd8747",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear R-help list members,\n\nVersion 2.0-0 of the Rcmdr package is now on CRAN and should appear\npresently on the various CRAN mirrors. As its number implies, this version\nrepresents a milestone in the ",
       "thread_id": "thread-d0fadbcd8747",
       "thread_depth": 0,
-      "month": "2013-08"
+      "month": "2013-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2013/000566.html"
     }
   ],
   "threads": [

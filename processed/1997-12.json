@@ -17,7 +17,8 @@
       "body_snippet": "Version 0.60 of R for Unix is now available.  Release of this version\nhas been delayed for a variety of reasons, but we hope that it will\nprovide a good deal more stability and functionality than prev",
       "thread_id": "thread-ce96aa4248fe",
       "thread_depth": 0,
-      "month": "1997-12"
+      "month": "1997-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000014.html"
     },
     {
       "id": "msg-878764bf4a28",
@@ -33,7 +34,8 @@
       "body_snippet": "You can find a first patch to R-0.60 at the same archive sites as you\nobtained your R sources.  The patch is called\n\n\tR-0.60-patch1.gz.\n\nAlternatively, you can pick a patched distribution which is in ",
       "thread_id": "thread-878764bf4a28",
       "thread_depth": 0,
-      "month": "1997-12"
+      "month": "1997-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000015.html"
     },
     {
       "id": "msg-330bdc1ddf41",
@@ -49,7 +51,8 @@
       "body_snippet": "An updated version of the R FAQ to accompany the new 0.60 release is now\navailable at the usual site,\n\n\thttp://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\n\nA plain text version of the FAQ is appended bel",
       "thread_id": "thread-330bdc1ddf41",
       "thread_depth": 0,
-      "month": "1997-12"
+      "month": "1997-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000016.html"
     },
     {
       "id": "msg-8f75b9fff382",
@@ -68,7 +71,8 @@
       "body_snippet": ">>>>> On 09 Dec 1997 19:11:28 +0100,\n>>>>> Peter Dalgaard BSA (PDB) wrote:\n\nPDB> Kurt Hornik <Kurt.Hornik at ci.tuwien.ac.at> writes:\n>> code CVS archive.  The group currently consists of Peter Dalgaa",
       "thread_id": "thread-8f75b9fff382",
       "thread_depth": 0,
-      "month": "1997-12"
+      "month": "1997-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000017.html"
     },
     {
       "id": "msg-218722833a0b",
@@ -84,7 +88,8 @@
       "body_snippet": "Please edit headers and keep non-announce topic off the R-announce list.  Some\nof us are subscribed to R-announce for a *reason*.\n\n--\n------------------------------------------------------------------",
       "thread_id": "thread-218722833a0b",
       "thread_depth": 0,
-      "month": "1997-12"
+      "month": "1997-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000018.html"
     },
     {
       "id": "msg-a392c311bf1c",
@@ -100,7 +105,8 @@
       "body_snippet": "A new version is available from\nftp.stat.auckland.ac.nz:/pub/R/R-0.61.tgz\nand soon from CRAN mirrors everywhere.\n\nAs usual, there is at least one unfixed bug in the release, but this\ntime, we hope tha",
       "thread_id": "thread-a392c311bf1c",
       "thread_depth": 0,
-      "month": "1997-12"
+      "month": "1997-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000019.html"
     }
   ],
   "threads": [

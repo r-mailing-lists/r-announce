@@ -17,7 +17,8 @@
       "body_snippet": "I've been hacking at the JitterBug sources a little, so that it should\nwork better with mailing lists. It has been running with the core team\nlist for a while and seems to be OK.\n\nI will now move the ",
       "thread_id": "thread-55a5a2c02937",
       "thread_depth": 0,
-      "month": "1999-02"
+      "month": "1999-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000068.html"
     }
   ],
   "threads": [

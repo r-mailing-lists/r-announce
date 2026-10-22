@@ -17,7 +17,8 @@
       "body_snippet": "R Users and Developers,\n\nThe first North American useR! to be held at Iowa State University,\nAmes, Iowa, August 8-10, 2007, will include a programming\ncompetition. The challenge:\n\n     Develop a packa",
       "thread_id": "thread-fe1cea199e2e",
       "thread_depth": 0,
-      "month": "2007-04"
+      "month": "2007-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000461.html"
     },
     {
       "id": "msg-b4ffdd316320",
@@ -33,7 +34,8 @@
       "body_snippet": "R Users and Developers,\n\nOnline registration for useR! 2007 is now available on the conference\nweb site. The deadline for the early registration discount has been\nextended to May 15.\n\nWe haven't had m",
       "thread_id": "thread-b4ffdd316320",
       "thread_depth": 0,
-      "month": "2007-04"
+      "month": "2007-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000462.html"
     },
     {
       "id": "msg-7a65b98ac6c7",
@@ -49,7 +51,8 @@
       "body_snippet": "I've rolled up R-2.5.0.tar.gz a short while ago. This is a development \nrelease which contains a number of new features. In particular:\n\n  - Object name completion by integration of package 'rcompleti",
       "thread_id": "thread-7a65b98ac6c7",
       "thread_depth": 0,
-      "month": "2007-04"
+      "month": "2007-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000463.html"
     },
     {
       "id": "msg-6c1caf5e9609",
@@ -65,7 +68,8 @@
       "body_snippet": "Hi\n\nThe October 2006 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nTorsten\n(on behalf of the R News Editorial Board)",
       "thread_id": "thread-6c1caf5e9609",
       "thread_depth": 0,
-      "month": "2007-04"
+      "month": "2007-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000464.html"
     }
   ],
   "threads": [

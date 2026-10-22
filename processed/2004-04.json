@@ -17,7 +17,8 @@
       "body_snippet": "Hello,\n\nThis message is to announce that the \"R Reference Manual\" is now\navailable in book form.\n\nThere are two volumes, which cover all the commands in the base\npackage.  They are available for order",
       "thread_id": "thread-de94b01217f4",
       "thread_depth": 0,
-      "month": "2004-04"
+      "month": "2004-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000421.html"
     },
     {
       "id": "msg-1e1148db568c",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-1.9.0.tgz a short while ago. This is a new version\nwith a number of new features, most notably a substantial\nreorganization of the standard packages, a major update of the grid\npackag",
       "thread_id": "thread-1e1148db568c",
       "thread_depth": 0,
-      "month": "2004-04"
+      "month": "2004-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000422.html"
     },
     {
       "id": "msg-065b33208f97",
@@ -51,7 +53,8 @@
       "body_snippet": "On 12 Apr 2004 14:05:25 +0200, Peter Dalgaard\n<p.dalgaard at biostat.ku.dk> wrote :\n\n>I've rolled up R-1.9.0.tgz a short while ago. This is a new version\n>with a number of new features, most notably a",
       "thread_id": "thread-1e1148db568c",
       "thread_depth": 1,
-      "month": "2004-04"
+      "month": "2004-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000423.html"
     },
     {
       "id": "msg-e3e6891ee236",
@@ -67,7 +70,8 @@
       "body_snippet": "It was announced today that Deepayan Sarkar has won the 2004 Chambers\nAward sponsored by the Statistical Computing section of the American\nStatistical Association.  This award, made possible by a gene",
       "thread_id": "thread-e3e6891ee236",
       "thread_depth": 0,
-      "month": "2004-04"
+      "month": "2004-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000424.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "As Brian Ripley said this morning on 'r-help', a binary distribution\nof R 1.0.0 to run on Windows 95, 98, NT4.0 and 2000 on Intel/clone chips\nis available at CRAN (at least in Wien). The URL is\n     h",
       "thread_id": "thread-45fe63bcbf78",
       "thread_depth": 0,
-      "month": "2000-03"
+      "month": "2000-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000129.html"
     },
     {
       "id": "msg-fff6cd576349",
@@ -33,7 +34,8 @@
       "body_snippet": "New RPM packages for SuSE Linux are available now at \n\n  ftp://ftp-stat.uni-klu.ac.at/pub/R/bin/linux/suse/6.3/RPMS/i386/\n\nand should soon arrive at \n\n  ftp://cvs.r-project.org/pub/R/bin/linux/suse/6.",
       "thread_id": "thread-fff6cd576349",
       "thread_depth": 0,
-      "month": "2000-03"
+      "month": "2000-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000130.html"
     },
     {
       "id": "msg-3949dfe77577",
@@ -49,7 +51,8 @@
       "body_snippet": "I have just placed version 0.2 alpha of my library, dna, on my web\npage at\nwww.luc.ac.be/~jlindsey/rcode.html\nThe R functions in this library cover most of the basic methods of\ndna and protein sequenc",
       "thread_id": "thread-3949dfe77577",
       "thread_depth": 0,
-      "month": "2000-03"
+      "month": "2000-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000131.html"
     }
   ],
   "threads": [

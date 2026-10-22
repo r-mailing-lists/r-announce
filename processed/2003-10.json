@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-1.8.0.tgz a short while ago. This is a new version\nwith major changes (see below). Notably, the Macintosh version for OS\nX has been substantially improved; the old Carbon interface is",
       "thread_id": "thread-06ca99f41b78",
       "thread_depth": 0,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000407.html"
     },
     {
       "id": "msg-fc2454a122a9",
@@ -33,7 +34,8 @@
       "body_snippet": "The sources for R-1.8.0 are now available via rsync to the host\nrsync.r-project.org\n\nUse\n\n rsync rsync.r-project.org::\n\nto get the listing of possible versions.",
       "thread_id": "thread-fc2454a122a9",
       "thread_depth": 0,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000408.html"
     },
     {
       "id": "msg-928de9f49f04",
@@ -49,7 +51,8 @@
       "body_snippet": "Thanks to John Eaton of the Octave project we now have anonymous CVS\naccess to (a copy of) the R archive.  See http://anoncvs.r-project.org/",
       "thread_id": "thread-928de9f49f04",
       "thread_depth": 0,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000409.html"
     },
     {
       "id": "msg-fff41d512df9",
@@ -65,7 +68,8 @@
       "body_snippet": "I've just uploaded the 1.8.0 binary build for Windows.  It should be\navailable on CRAN and the mirrors tomorrow.\n\nDuncan Murdoch",
       "thread_id": "thread-fff41d512df9",
       "thread_depth": 0,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000410.html"
     },
     {
       "id": "msg-83ce67a0cc11",
@@ -83,7 +87,8 @@
       "body_snippet": "The Windows binaries are now available on the cran.us.r-project.org\nmirror, the recommended download site for those in the U.S.A.\n\nDuncan Murdoch <dmurdoch at pair.com> writes:\n\n> I've just uploaded t",
       "thread_id": "thread-fff41d512df9",
       "thread_depth": 1,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000411.html"
     },
     {
       "id": "msg-9035912d7428",
@@ -99,7 +104,8 @@
       "body_snippet": "Packages of R-1.8.0 for the Debian testing (or sarge) distribution are\nnow available on http://cran.us.r-project.org/bin/linux/debian and\nshould appear on other mirrors in a day or two.",
       "thread_id": "thread-9035912d7428",
       "thread_depth": 0,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000412.html"
     },
     {
       "id": "msg-f9b1b37a5420",
@@ -111,11 +117,12 @@
       "subject_clean": "CRAN down on Sunday, 26.10.2003",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Due to construction work in a neighboring building there will be a\npower outage in our offices for the complete day of\n\n\tSunday, 26.10.2003\n\nwhich means we will shut down all our computers some time tomorrow and\nreboot them Monday morning (central European time).\n\nThis includes the server for\n\n\twww.R-project.org\n\tcran.R-project.org\n\tcran.at.R-project.org\n\nPlease a mirror site on this day (and do not flood us with \"bug\"\nreports stating that CRAN is down :-).\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch",
+      "body_plain": "Due to construction work in a neighboring building there will be a\npower outage in our offices for the complete day of\n\n\tSunday, 26.10.2003\n\nwhich means we will shut down all our computers some time tomorrow and\nreboot them Monday morning (central European time).\n\nThis includes the server for\n\n\twww.R-project.org\n\tcran.R-project.org\n\tcran.at.R-project.org\n\nPlease a mirror site on this day (and do not flood us with \"bug\"\nreports stating that CRAN is down :-).\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch",
       "body_snippet": "Due to construction work in a neighboring building there will be a\npower outage in our offices for the complete day of\n\n\tSunday, 26.10.2003\n\nwhich means we will shut down all our computers some time t",
       "thread_id": "thread-f9b1b37a5420",
       "thread_depth": 0,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000413.html"
     },
     {
       "id": "msg-80c8391601b8",
@@ -127,11 +134,12 @@
       "subject_clean": "R News Volume 3/2",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "We have published the 2003/2 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a day or two.\n\nContents of this issue:\n                                                                      \nR Help Desk\nIntegrating grid Graphics Output with Base Graphics Output\nA New Package for the General Error Distribution\nWeb-based Microarray Analysis using Bioconductor\nSweave, Part II: Package Vignettes\nR Foundation News\nRecent Events\nBook Reviews\nChanges in R 1.8.0\nChanges on CRAN\nCrossword Solution\nCorrection to ``Building Microsoft Windows Versions of R and R\n\tpackages under Intel Linux''\n\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch",
+      "body_plain": "We have published the 2003/2 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a day or two.\n\nContents of this issue:\n                                                                      \nR Help Desk\nIntegrating grid Graphics Output with Base Graphics Output\nA New Package for the General Error Distribution\nWeb-based Microarray Analysis using Bioconductor\nSweave, Part II: Package Vignettes\nR Foundation News\nRecent Events\nBook Reviews\nChanges in R 1.8.0\nChanges on CRAN\nCrossword Solution\nCorrection to ``Building Microsoft Windows Versions of R and R\n\tpackages under Intel Linux''\n\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch",
       "body_snippet": "We have published the 2003/2 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a d",
       "thread_id": "thread-80c8391601b8",
       "thread_depth": 0,
-      "month": "2003-10"
+      "month": "2003-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000414.html"
     }
   ],
   "threads": [

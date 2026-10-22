@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-2.15.3.tar.gz (codename \"Security Blanket\") at 9:00 this morning. This is intended to be the final round-up release of the 2.15 series, and in fact of the entire 2.x.y ser",
       "thread_id": "thread-12d1f230926d",
       "thread_depth": 0,
-      "month": "2013-03"
+      "month": "2013-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2013/000560.html"
     }
   ],
   "threads": [

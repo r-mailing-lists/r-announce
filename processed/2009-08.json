@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.9.2 on Monday,\nAugust 24, 2009.\n\nRelease procedures start Friday, August 14.\n\nThose directly involved should review the generic schedule at\nhttp",
       "thread_id": "thread-90e963a4d72d",
       "thread_depth": 0,
-      "month": "2009-08"
+      "month": "2009-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000507.html"
     },
     {
       "id": "msg-a52137fd2d2f",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-2.9.2.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor issues.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-proj",
       "thread_id": "thread-a52137fd2d2f",
       "thread_depth": 0,
-      "month": "2009-08"
+      "month": "2009-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000508.html"
     }
   ],
   "threads": [

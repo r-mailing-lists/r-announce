@@ -17,7 +17,8 @@
       "body_snippet": "I've uploaded a package colSums_1.0.tar.gz to CRAN /src/contrib/Devel.  It\ncontains functions colSums, colMeans, colVars, colStdevs, rowSums, rowMeans,\nrowVars, and rowStdevs.  These do simple, fast a",
       "thread_id": "thread-2cdf97eee476",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000253.html"
     },
     {
       "id": "msg-0048bb5172af",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear R-announce list members,\n\nI've just uploaded to CRAN a substantially revised version (0.6-0) of the \nsem (structural-equations model) package. The new version uses a formula \nfor the gradient to ",
       "thread_id": "thread-0048bb5172af",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000254.html"
     },
     {
       "id": "msg-a6e8325dcc52",
@@ -49,7 +51,8 @@
       "body_snippet": "A new version, 6.3-1, of the VR bundle is now on CRAN and\nupdate.packages() should get it for you on Unix and Windows.  The change\nin minor version number reflects a number of additions which are to\ns",
       "thread_id": "thread-a6e8325dcc52",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000255.html"
     },
     {
       "id": "msg-6f8b1c24794a",
@@ -65,7 +68,8 @@
       "body_snippet": "After taking the holidays off, the CRAN server at \nhttp://cran.stat.ucla.edu is back.\nYou can get additional (non-CRAN) materials for Darwin/X11 at\nftp://cran.stat.ucla.edu/pub/R.\n===\nJan de Leeuw; Pr",
       "thread_id": "thread-6f8b1c24794a",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000256.html"
     },
     {
       "id": "msg-cda6ec097d3f",
@@ -81,7 +85,8 @@
       "body_snippet": "A new version of the Lattice package is now available on CRAN. A list of\nthe (mostly minor) changes are given below. The documentation is probably\nstill a bit shaky at places, and suggestions for impr",
       "thread_id": "thread-cda6ec097d3f",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000257.html"
     },
     {
       "id": "msg-f952e41f84d9",
@@ -97,7 +102,8 @@
       "body_snippet": "[apologies if this message has appeared previously]\n\n\nDear R community\n\nA few weeks ago, I uploaded a small text file called R-and-octave.txt\nto the contributed docs section of CRAN.  This file detail",
       "thread_id": "thread-f952e41f84d9",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000258.html"
     },
     {
       "id": "msg-0df2ba8ccffe",
@@ -113,7 +119,8 @@
       "body_snippet": "There is a new version of mgcv (0.7.0) on CRAN. In addition to the\nmultidimensional smooths introduced from version 0.6, this version has\nconsiderably strengthened underlying multiple smoothing parame",
       "thread_id": "thread-0df2ba8ccffe",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000259.html"
     },
     {
       "id": "msg-131b6c60f3b2",
@@ -129,7 +136,8 @@
       "body_snippet": "JSS, which is at http://www.jstatsoft.org, publishes statistical software\nwith manuals, as well as papers describing, comparing, and evaluating \nstatistical\nsoftware. Abstracts of all contributions ac",
       "thread_id": "thread-131b6c60f3b2",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000260.html"
     },
     {
       "id": "msg-aba1b5c4bafc",
@@ -145,7 +153,8 @@
       "body_snippet": "I've rolled up R-1.4.1.tgz a short while ago. This is a patch upgrade,\nfixing the most important bugs that cropped up after the 1.4.0 release.\n\nA set of recommended packages which have been tested wit",
       "thread_id": "thread-aba1b5c4bafc",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000261.html"
     },
     {
       "id": "msg-5bbaf1a9359d",
@@ -161,7 +170,8 @@
       "body_snippet": "Sources for R-1.4.1 are now available through rsync from\nrsync.r-project.org.  One could use, for example,\n\n rsync -aC rsync.r-project.org::r-release ./R-1.4.1\n\nto create a local copy of the source tr",
       "thread_id": "thread-5bbaf1a9359d",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000262.html"
     },
     {
       "id": "msg-61237cc74c43",
@@ -177,7 +187,8 @@
       "body_snippet": "Windows binaries for 1.4.1 are available at\n\nhttp://www.stats.ox.ac.uk/pub/RWin\n\nand will mirror across CRAN over the next couple of days.\n\nSetupR.exe in this release contains the grid and lattice pac",
       "thread_id": "thread-61237cc74c43",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000263.html"
     },
     {
       "id": "msg-cff58b8a4c6d",
@@ -193,7 +204,8 @@
       "body_snippet": "One further note about R1.4.1 changes\n\nThere have been a number of requests for support for SPSS value labels in\nread.spss. The version in the `foreign' package in R 1.4.1-recommended now\nturns variab",
       "thread_id": "thread-cff58b8a4c6d",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000264.html"
     },
     {
       "id": "msg-b370c283ee9f",
@@ -211,7 +223,8 @@
       "body_snippet": "Debian packages of R-1.4.1 and R-1.4.1-recommended [1] have been uploaded for\ni386 and are currently available at http://incoming.debian.org.  These will\nrun on any current \"testing\" (aka \"woody\") or ",
       "thread_id": "thread-aba1b5c4bafc",
       "thread_depth": 1,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000265.html"
     },
     {
       "id": "msg-2f2b3f311b16",
@@ -227,7 +240,8 @@
       "body_snippet": "The bin/windows directory on the master CRAN site, cran.r-project.org,\nand on the U.S. mirror, cran.us.r-project.org, has been updated with the \nR-1.4.1 binary files that Brian Ripley announced recent",
       "thread_id": "thread-2f2b3f311b16",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000266.html"
     },
     {
       "id": "msg-615c3983d99e",
@@ -246,7 +260,8 @@
       "body_snippet": "Dirk Eddelbuettel <edd at debian.org> writes:\n\n> Debian packages of R-1.4.1 and R-1.4.1-recommended [1] have been uploaded for\n> i386 and are currently available at http://incoming.debian.org.  These ",
       "thread_id": "thread-aba1b5c4bafc",
       "thread_depth": 2,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000267.html"
     },
     {
       "id": "msg-3a40bf6180ad",
@@ -262,7 +277,8 @@
       "body_snippet": "R for Macintosh have been just released and mirrored in few hours on \nCRAN.\n\nThe Carbon version is distributes in one file only with all the base \ndistribution and the recommended packages.\n\nThe Darwi",
       "thread_id": "thread-3a40bf6180ad",
       "thread_depth": 0,
-      "month": "2002-01"
+      "month": "2002-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000268.html"
     }
   ],
   "threads": [

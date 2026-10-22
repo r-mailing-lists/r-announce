@@ -17,7 +17,8 @@
       "body_snippet": "CRAN now contains a new package for numerically solving ordinary\ndifferential equations.  The package (odesolve_0.5-3) currently provides an\ninterface to the solver \"LSODA\" written by Linda Petzold an",
       "thread_id": "thread-b58c1266a323",
       "thread_depth": 0,
-      "month": "2001-02"
+      "month": "2001-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000176.html"
     },
     {
       "id": "msg-63c40a986667",
@@ -33,7 +34,8 @@
       "body_snippet": "[I inadvertantly submitted this just now without a subject line.  My\napologies for the double posting!]\n\nCRAN now contains a new package for numerically solving ordinary\ndifferential equations.  The p",
       "thread_id": "thread-63c40a986667",
       "thread_depth": 0,
-      "month": "2001-02"
+      "month": "2001-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000177.html"
     },
     {
       "id": "msg-539076379226",
@@ -49,7 +51,8 @@
       "body_snippet": "I've rolled up R-1.2.2.tgz a moment ago. This is mainly a release to\nadd Stefano's Macintosh sources, but there are also a couple of\nbugfixes and minor tweaks.\n\nYou can get it from\n\nftp://cvs.r-projec",
       "thread_id": "thread-539076379226",
       "thread_depth": 0,
-      "month": "2001-02"
+      "month": "2001-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000178.html"
     },
     {
       "id": "msg-47981855bc1f",
@@ -65,7 +68,8 @@
       "body_snippet": "R-1.2.2 is now available via rsync as rsync.r-project.org::r-release\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwie",
       "thread_id": "thread-47981855bc1f",
       "thread_depth": 0,
-      "month": "2001-02"
+      "month": "2001-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000179.html"
     }
   ],
   "threads": [

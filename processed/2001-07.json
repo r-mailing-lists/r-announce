@@ -17,7 +17,8 @@
       "body_snippet": "The RPM of R-1.3.0 for Mandrake 8.0 is now available on CRAN\nin the complete and correct version.\n\nSorry to all those who had problems with the previous version\nbecause of absent linking against the r",
       "thread_id": "thread-e97d44e1d368",
       "thread_depth": 0,
-      "month": "2001-07"
+      "month": "2001-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000213.html"
     },
     {
       "id": "msg-1c27e8c3fb55",
@@ -33,7 +34,8 @@
       "body_snippet": "The RPM of R-recommended packages for Mandrake 8.0\nwill be propagating to CRAN shortly.\n\nI keep on receiving requests for Mandrake 7.1 and\n7.2 RPM's; I am no longer able to support these.\n\nBuilding th",
       "thread_id": "thread-1c27e8c3fb55",
       "thread_depth": 0,
-      "month": "2001-07"
+      "month": "2001-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000214.html"
     },
     {
       "id": "msg-e1adb8459acf",
@@ -49,7 +51,8 @@
       "body_snippet": "A new release of gss (0.6-2) is available at CRAN.  Support is added\nin gssanova for accelerated life models with right-censored,\nleft-truncated data.  The added families are weibull, log normal, and\n",
       "thread_id": "thread-e1adb8459acf",
       "thread_depth": 0,
-      "month": "2001-07"
+      "month": "2001-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000215.html"
     },
     {
       "id": "msg-3136194e9bf5",
@@ -65,7 +68,8 @@
       "body_snippet": "I have installed new Debian packages r-base_1.3.0-2 and\nr-recommended_1.3.0-2 for the testing distribution (woody) and\nr-base_1.3.0-1 for the stable distribution (potato) on\nhttp://cran.us.r-project.o",
       "thread_id": "thread-3136194e9bf5",
       "thread_depth": 0,
-      "month": "2001-07"
+      "month": "2001-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000216.html"
     },
     {
       "id": "msg-be6f0c7d507f",
@@ -77,11 +81,12 @@
       "subject_clean": "R News Volume 1/2 published",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "We have just published the second volume of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or postscript file. It\nwill propagate to the CRAN mirrors within a day or two..\n\nContents:\n\nChanges in R\nChanges on CRAN\nDate-Time Classes\nInstalling R under Windows\nSpatial Statistics in R\ngeoR: A Package for Geostatistical Analysis\nSimulation and Analysis of RAndom Fields\nmgcv: GAMs and Generalized Ridge Regression for R\nWhat's the Point of `tensor'?\nOn Multivariate t and Gau? Probabilities in R\nProgrammer's Niche\nRecent Events\n\n\nwhich makes a total of 32 pages of features, applications and riddles\nabout our favourite data analysis environment.\n\nEnjoy reading!\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "We have just published the second volume of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or postscript file. It\nwill propagate to the CRAN mirrors within a day or two..\n\nContents:\n\nChanges in R\nChanges on CRAN\nDate-Time Classes\nInstalling R under Windows\nSpatial Statistics in R\ngeoR: A Package for Geostatistical Analysis\nSimulation and Analysis of RAndom Fields\nmgcv: GAMs and Generalized Ridge Regression for R\nWhat's the Point of `tensor'?\nOn Multivariate t and Gauß Probabilities in R\nProgrammer's Niche\nRecent Events\n\n\nwhich makes a total of 32 pages of features, applications and riddles\nabout our favourite data analysis environment.\n\nEnjoy reading!\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "We have just published the second volume of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or postscript file. It\nwill propagate to the CRAN mirrors with",
       "thread_id": "thread-be6f0c7d507f",
       "thread_depth": 0,
-      "month": "2001-07"
+      "month": "2001-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000217.html"
     },
     {
       "id": "msg-a8e83b8323a4",
@@ -97,7 +102,8 @@
       "body_snippet": "The RPMs of R-1.3.0 and R-recommended for Mandrake 7.2 are now available on \nCRAN and its mirrors.\n\nThanks to Michele Alzetta for his support.\n\nMaximino Ameneiro Gomez\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.",
       "thread_id": "thread-a8e83b8323a4",
       "thread_depth": 0,
-      "month": "2001-07"
+      "month": "2001-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000218.html"
     }
   ],
   "threads": [

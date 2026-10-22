@@ -17,7 +17,8 @@
       "body_snippet": "The R core team proudly presents:\n\n       \\||||||||/\n       -R 0.61.1-\n       /||||||||\\\n\n\nI've just rolled together a new patch release.\n\nIt's available from the Auckland repository now, but please d",
       "thread_id": "thread-66a4dd0a962c",
       "thread_depth": 0,
-      "month": "1998-01"
+      "month": "1998-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000020.html"
     },
     {
       "id": "msg-77ad7d0d8b84",
@@ -33,7 +34,8 @@
       "body_snippet": "I have started to mirror the R mailing list archives on CRAN, they are\nfrom now on available in the directory $CRAN/docs/mail-archives.\n\nBest,\nFritz\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-",
       "thread_id": "thread-77ad7d0d8b84",
       "thread_depth": 0,
-      "month": "1998-01"
+      "month": "1998-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000021.html"
     },
     {
       "id": "msg-d72edf94bd15",
@@ -45,11 +47,12 @@
       "subject_clean": "New version of e1071 package at CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "I have put a new version of our e1071 package onto CRAN. New features\nare support for reading/writing pgm images.\n\nContents:\n\nhamming.distance        Hamming Distance of Vectors \nhamming.window          Coefficients of a Hamming window\nhanning.window          Coefficients of a Hanning window\nkmeans                  k-Means Clustering\nkurtosis                Kurtosis\nmoment                  Statistical Moment\nplot.cluster            Plot Clustered Data\nplot.pgm                Plot a PGM image\nplot.stft               Plots Results of a STFT\npredict.cluster         Assign Clusters to New Data\nrbridge                 Simulation of Brownian Bridge\nread.octave             Read Octave Data File\nread.pgm                Read a PGM image file\nrectangle.window        Coefficients of a Rectangle window\nrwiener                 Simulation of Wiener Process\nskewness                Skewness\nstft                    Short Time Fourier Transform\nwrite.pgm               Write a PGM image file\nwrite.table             Data Output\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "I have put a new version of our e1071 package onto CRAN. New features\nare support for reading/writing pgm images.\n\nContents:\n\nhamming.distance        Hamming Distance of Vectors \nhamming.window          Coefficients of a Hamming window\nhanning.window          Coefficients of a Hanning window\nkmeans                  k-Means Clustering\nkurtosis                Kurtosis\nmoment                  Statistical Moment\nplot.cluster            Plot Clustered Data\nplot.pgm                Plot a PGM image\nplot.stft               Plots Results of a STFT\npredict.cluster         Assign Clusters to New Data\nrbridge                 Simulation of Brownian Bridge\nread.octave             Read Octave Data File\nread.pgm                Read a PGM image file\nrectangle.window        Coefficients of a Rectangle window\nrwiener                 Simulation of Wiener Process\nskewness                Skewness\nstft                    Short Time Fourier Transform\nwrite.pgm               Write a PGM image file\nwrite.table             Data Output\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut für Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universität Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "I have put a new version of our e1071 package onto CRAN. New features\nare support for reading/writing pgm images.\n\nContents:\n\nhamming.distance        Hamming Distance of Vectors \nhamming.window       ",
       "thread_id": "thread-d72edf94bd15",
       "thread_depth": 0,
-      "month": "1998-01"
+      "month": "1998-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000022.html"
     },
     {
       "id": "msg-f7f2cb3d86f6",
@@ -65,7 +68,8 @@
       "body_snippet": "===============================================================\n\n                     ANNOUNCEMENT\n\n===============================================================\n\nAn R version of my multivariate tim",
       "thread_id": "thread-f7f2cb3d86f6",
       "thread_depth": 0,
-      "month": "1998-01"
+      "month": "1998-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000023.html"
     },
     {
       "id": "msg-e29a88ebf131",
@@ -77,11 +81,12 @@
       "subject_clean": "New RedHat 5.0 packages on CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Thanks to Martyn Plummer there are new Linux RedHat 5.0 packages of R\non CRAN which have been built on a RedHat System, so all dependencies\nshould be ok.\n\nI have uploaded them yesterday, so they should have made it to most\nmirrors by now.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "Thanks to Martyn Plummer there are new Linux RedHat 5.0 packages of R\non CRAN which have been built on a RedHat System, so all dependencies\nshould be ok.\n\nI have uploaded them yesterday, so they should have made it to most\nmirrors by now.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut für Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universität Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "Thanks to Martyn Plummer there are new Linux RedHat 5.0 packages of R\non CRAN which have been built on a RedHat System, so all dependencies\nshould be ok.\n\nI have uploaded them yesterday, so they shoul",
       "thread_id": "thread-e29a88ebf131",
       "thread_depth": 0,
-      "month": "1998-01"
+      "month": "1998-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000024.html"
     },
     {
       "id": "msg-4824850a875e",
@@ -93,11 +98,12 @@
       "subject_clean": "Submissions to CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "As mentioned earlier I want to decentralize the package descriptions\nof all contributed packages:\n\nPlease make sure to include a file called DESCRIPTION in every package\nwhich looks like:\n\n**********************************************************\n\nPackage: e1071\nVersion: 0.7-3\nAuthor: Compiled by Fritz Leisch <Friedrich.Leisch at ci.tuwien.ac.at>.\nDescription: Miscellaneous functions used at the Department of\n        Statistics at TU Wien (E1071). \nCopyright: GPL\n\n**********************************************************\n\nFurther you can use a field called `Depends:' to include a\ncomma-seperated list of pre-requisited packages.\n\nPLEASE MAKE SURE TO INCLUDE A COPYRIGHT LINE IN THE DESCRIPTION!!!\n\nContinuation lines begin with a whitespace character (as in\nDescription above).\n\nYou can take the file $CRAN/src/contrib/PACKAGES as templates (but\ndon't forget to add the Copyright line :-). This file will be built\nautomatically by concatenating all DESCRIPTION files.\n\nTo all maintainers of current packages: Could you please update the\npackages by including the DESCRIPTION file?\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "As mentioned earlier I want to decentralize the package descriptions\nof all contributed packages:\n\nPlease make sure to include a file called DESCRIPTION in every package\nwhich looks like:\n\n**********************************************************\n\nPackage: e1071\nVersion: 0.7-3\nAuthor: Compiled by Fritz Leisch <Friedrich.Leisch at ci.tuwien.ac.at>.\nDescription: Miscellaneous functions used at the Department of\n        Statistics at TU Wien (E1071). \nCopyright: GPL\n\n**********************************************************\n\nFurther you can use a field called `Depends:' to include a\ncomma-seperated list of pre-requisited packages.\n\nPLEASE MAKE SURE TO INCLUDE A COPYRIGHT LINE IN THE DESCRIPTION!!!\n\nContinuation lines begin with a whitespace character (as in\nDescription above).\n\nYou can take the file $CRAN/src/contrib/PACKAGES as templates (but\ndon't forget to add the Copyright line :-). This file will be built\nautomatically by concatenating all DESCRIPTION files.\n\nTo all maintainers of current packages: Could you please update the\npackages by including the DESCRIPTION file?\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut für Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universität Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "As mentioned earlier I want to decentralize the package descriptions\nof all contributed packages:\n\nPlease make sure to include a file called DESCRIPTION in every package\nwhich looks like:\n\n***********",
       "thread_id": "thread-4824850a875e",
       "thread_depth": 0,
-      "month": "1998-01"
+      "month": "1998-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000025.html"
     }
   ],
   "threads": [

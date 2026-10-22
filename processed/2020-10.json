@@ -17,7 +17,8 @@
       "body_snippet": "[Oops, this apparently got omitted during release scheduling]\n\nFull schedule is available on developer.r-project.org.\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\n",
       "thread_id": "thread-7046ced06def",
       "thread_depth": 0,
-      "month": "2020-10"
+      "month": "2020-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000661.html"
     },
     {
       "id": "msg-bd13c5c6e380",
@@ -33,7 +34,8 @@
       "body_snippet": "The build system rolled up R-4.0.3.tar.gz (codename \"Bunny-Wunnies Freak Out\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttps://cran.r-proj",
       "thread_id": "thread-bd13c5c6e380",
       "thread_depth": 0,
-      "month": "2020-10"
+      "month": "2020-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2020/000662.html"
     }
   ],
   "threads": [

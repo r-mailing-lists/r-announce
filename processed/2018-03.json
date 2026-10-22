@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.4.4.tar.gz (codename \"Someone to Lean On\") this morning.\n\nThis is intended to be the last of the 3.4.x release series. The list below details the changes.\n\nYou can get t",
       "thread_id": "thread-d9b427cbe4c2",
       "thread_depth": 0,
-      "month": "2018-03"
+      "month": "2018-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2018/000626.html"
     },
     {
       "id": "msg-aa5b794dba33",
@@ -33,7 +34,8 @@
       "body_snippet": "Full schedule available on developer.r-project.org (pending auto-update from SVN)\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg",
       "thread_id": "thread-aa5b794dba33",
       "thread_depth": 0,
-      "month": "2018-03"
+      "month": "2018-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2018/000627.html"
     }
   ],
   "threads": [

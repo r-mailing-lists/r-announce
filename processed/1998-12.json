@@ -17,7 +17,8 @@
       "body_snippet": "I've put up R-0.63.1.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or t",
       "thread_id": "thread-f8cfd240e2ba",
       "thread_depth": 0,
-      "month": "1998-12"
+      "month": "1998-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000064.html"
     },
     {
       "id": "msg-7ebe6ce9a64e",
@@ -33,7 +34,8 @@
       "body_snippet": "A new version of R for Windows is available from CRAN in directory\nbin/windows/windows-NT. This supersedes rw0630, rw63-io, bdr0631 and earlier\nversions.  It runs on Windows 95, 98, NT4 (on i386), at ",
       "thread_id": "thread-7ebe6ce9a64e",
       "thread_depth": 0,
-      "month": "1998-12"
+      "month": "1998-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000065.html"
     }
   ],
   "threads": [

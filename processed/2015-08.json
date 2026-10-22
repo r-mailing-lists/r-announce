@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up  R-3.2.2.tar.gz (codename \"Fire Safety\") this morning.\n\nThe list below details the changes in this release. The main point of this release is to enable package installation ",
       "thread_id": "thread-0f9855acfae3",
       "thread_depth": 0,
-      "month": "2015-08"
+      "month": "2015-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2015/000589.html"
     }
   ],
   "threads": [

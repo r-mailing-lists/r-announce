@@ -17,7 +17,8 @@
       "body_snippet": "Following the release of R-0.62.4, I have update my Win32's port.\n\nNew features:\n - The console can be configured (font, colours, dimensions). \n  No fancy dialog (yet), but look to the rw0624/etc/Rcon",
       "thread_id": "thread-9ca3702b90ac",
       "thread_depth": 0,
-      "month": "1998-11"
+      "month": "1998-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000057.html"
     },
     {
       "id": "msg-2e263889a8c2",
@@ -33,7 +34,8 @@
       "body_snippet": "I apologize but I made an error and just sent the message with the \nsame 'subject' without saying that the files can be found\nin the R/bin/ms-windows/win-32-devel directory at CRAN\n(in this moment onl",
       "thread_id": "thread-2e263889a8c2",
       "thread_depth": 0,
-      "month": "1998-11"
+      "month": "1998-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000058.html"
     },
     {
       "id": "msg-2acfbaf648dc",
@@ -49,7 +51,8 @@
       "body_snippet": "I have created a Debian Linux package from R-0.62.4 and uploaded it to\nthe master Debian archive.  It will be incorporated in the 2.1 (or\n\"slink\") release of Debian GNU/Linux.  This release is current",
       "thread_id": "thread-2acfbaf648dc",
       "thread_depth": 0,
-      "month": "1998-11"
+      "month": "1998-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000059.html"
     },
     {
       "id": "msg-7152beb441f3",
@@ -65,7 +68,8 @@
       "body_snippet": "I've put up R-0.63.0.tgz up for FTP from Auckland some minutes ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or t",
       "thread_id": "thread-7152beb441f3",
       "thread_depth": 0,
-      "month": "1998-11"
+      "month": "1998-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000060.html"
     },
     {
       "id": "msg-994c15eed63e",
@@ -81,7 +85,8 @@
       "body_snippet": "These are now at CRAN (at least in Vienna).\n\nPlease note that VR_5.3pl030-1.tar.gz really does need 0.63: there\nare problems with 0.62.x and 0.63 reading .rda files written by the\nother. The earlier V",
       "thread_id": "thread-994c15eed63e",
       "thread_depth": 0,
-      "month": "1998-11"
+      "month": "1998-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000061.html"
     },
     {
       "id": "msg-1cf8f5ac01ac",
@@ -97,7 +102,8 @@
       "body_snippet": "New files (at CRAN/binaries/ms-windows/win-32-devel ; available\nat least at Vienna; in a couple of days on every mirrors)\n\n- rw0630b.zip: binary distribution; it should run under Win3.1/Win32,\n       ",
       "thread_id": "thread-1cf8f5ac01ac",
       "thread_depth": 0,
-      "month": "1998-11"
+      "month": "1998-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000062.html"
     },
     {
       "id": "msg-9bb1064198cc",
@@ -113,7 +119,8 @@
       "body_snippet": "Using Martin Plummer's source rpms, I have started putting together binary\nrpms for linuxppc.\n\nThe current rpms are:\n\tR-base-0.63-3.ppc.rpm\n\tR-VR-5.3pl030-1.ppc.rpm\n\tR-contrib-1998.11.20-1.ppc.rpm\n\nTh",
       "thread_id": "thread-1cf8f5ac01ac",
       "thread_depth": 1,
-      "month": "1998-11"
+      "month": "1998-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000063.html"
     }
   ],
   "threads": [

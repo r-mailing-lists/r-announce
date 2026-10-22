@@ -17,7 +17,8 @@
       "body_snippet": "Just a friendly reminder that the closing date for abstract submissions\nfor the DSC conference in Copenhagen is next Sunday.\n\nSee\n\nhttp://www.r-project.org/dsc-2009\n\nNotice that the website has been r",
       "thread_id": "thread-db280db16bb2",
       "thread_depth": 0,
-      "month": "2009-03"
+      "month": "2009-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000495.html"
     },
     {
       "id": "msg-dc5e897eff2a",
@@ -33,7 +34,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.8.0 on Friday,\nApril 17, 2009.\n\nRelease procedures start Tuesday March 17. The detailed schedule can\nbe found on http://developer.r-project.org\n",
       "thread_id": "thread-dc5e897eff2a",
       "thread_depth": 0,
-      "month": "2009-03"
+      "month": "2009-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000496.html"
     },
     {
       "id": "msg-d1fc49be1465",
@@ -49,7 +51,8 @@
       "body_snippet": "*** Travel and Accommodation Support ***\n\nFunds from the U.S. National Science Foundation may be available to\nprovide partial support for travel and accommodation for some graduate\nstudents and junior",
       "thread_id": "thread-d1fc49be1465",
       "thread_depth": 0,
-      "month": "2009-03"
+      "month": "2009-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000497.html"
     },
     {
       "id": "msg-1182c32d0f3e",
@@ -65,7 +68,8 @@
       "body_snippet": "*** Travel and Accommodation Support ***\n                  [Deadline extended to April 15, 2009]\n\nFunds from the U.S. National Science Foundation may be available to\nprovide partial support for travel",
       "thread_id": "thread-1182c32d0f3e",
       "thread_depth": 0,
-      "month": "2009-03"
+      "month": "2009-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000498.html"
     }
   ],
   "threads": [

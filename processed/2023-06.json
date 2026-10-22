@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.3.1.tar.gz (codename \"Beagle Scouts\") this morning.\n\nThis is a minor update, with a few bug fixes.\n\nThe list below details the changes in this release. \n\nYou can get the",
       "thread_id": "thread-e48470d47bd8",
       "thread_depth": 0,
-      "month": "2023-06"
+      "month": "2023-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2023/000694.html"
     }
   ],
   "threads": [

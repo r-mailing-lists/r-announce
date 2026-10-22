@@ -17,7 +17,8 @@
       "body_snippet": "It is the intention of the R Core Team to release the finalized version of the 2.14.x series at the end of February, and soon thereafter to start the run-in for 2.15.0. I.e.,\n\n2.14.2 \"Gift-Getting Sea",
       "thread_id": "thread-1be00c1bc561",
       "thread_depth": 0,
-      "month": "2012-02"
+      "month": "2012-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2012/000549.html"
     },
     {
       "id": "msg-6df96c8be3a2",
@@ -33,7 +34,8 @@
       "body_snippet": "The build system rolled up R-2.14.2.tar.gz (codename \"Gift-Getting Season\") at 9:00 this morning. This is intended to be the final round-up release of the 2.14 series; see the list below for details.\n",
       "thread_id": "thread-6df96c8be3a2",
       "thread_depth": 0,
-      "month": "2012-02"
+      "month": "2012-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2012/000550.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Rcgi is a CGI WWW interface to R. Recent versions have the ability\n   to use \"embedded code\": you can mix user input and code, allowing\n   the HTML author to do anything from load in data sets to ente",
       "thread_id": "thread-30afe2a3f7d8",
       "thread_depth": 0,
-      "month": "2000-11"
+      "month": "2000-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000152.html"
     },
     {
       "id": "msg-1c13bc06aaae",
@@ -33,7 +34,8 @@
       "body_snippet": "Announcement: mvtnorm\n\n\tMultivariate Normal and T Distribution\n\nmvtnorm implements two R functions for the computation of the multivariate t\nand normal distribution: \n\npmvt: \tComputes the the distribu",
       "thread_id": "thread-1c13bc06aaae",
       "thread_depth": 0,
-      "month": "2000-11"
+      "month": "2000-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000153.html"
     },
     {
       "id": "msg-bb30d115f629",
@@ -49,7 +51,8 @@
       "body_snippet": "A binary RPM package of R 1.1.1 for Red Hat Linux 7.0 (Intel) is now\navailable on CRAN. Or directly from\nftp://ftp-fis.iarc.fr/pub/R/RedHat/7.x/\nThis package was built with gcc 2.95.2 and passes all t",
       "thread_id": "thread-bb30d115f629",
       "thread_depth": 0,
-      "month": "2000-11"
+      "month": "2000-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000154.html"
     }
   ],
   "threads": [

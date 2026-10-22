@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.0.1.tgz a short while ago. This is a maintenance\nversion mainly to fix a number of minor bugs and issues. (Some rather\nnasty ones were Windows-specific - please check the CHANGES fi",
       "thread_id": "thread-72561ce0150a",
       "thread_depth": 0,
-      "month": "2004-11"
+      "month": "2004-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000430.html"
     },
     {
       "id": "msg-2be59526dc5f",
@@ -33,7 +34,8 @@
       "body_snippet": "Whoops!\n\nYou can get it from\n\nhttp://cran.r-project.org/src/base/R-2/R-2.0.1.tar.gz\n\n(Notice the R-2 subdir)\n\nI also forgot to sign it on behalf of The R Core Team.\n\n-- \n   O__  ---- Peter Dalgaard   ",
       "thread_id": "thread-2be59526dc5f",
       "thread_depth": 0,
-      "month": "2004-11"
+      "month": "2004-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000431.html"
     }
   ],
   "threads": [

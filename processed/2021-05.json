@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.1.0.tar.gz (codename \"Camp Pontanezen\") this morning.\n\nThis is a major update, notably containing the new native pipe operator \"|>\" and \nshorthand inline functions \"\\(x)",
       "thread_id": "thread-22b16f7c9575",
       "thread_depth": 0,
-      "month": "2021-05"
+      "month": "2021-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2021/000670.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "Couse notes for a short introduction to the S language have been posted as\n  <http://www.ci.tuwien.ac.at/R/doc/contrib/s.pdf;I>\n\nThis is material for a 4-5 days course, assuming some background in \nst",
       "thread_id": "thread-58fcf90f72a5",
       "thread_depth": 0,
-      "month": "2001-03"
+      "month": "2001-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000180.html"
     },
     {
       "id": "msg-9acb252cc0df",
@@ -33,7 +34,8 @@
       "body_snippet": "An update of the VR bundle was released on Monday and should have\npropagated around CRAN now.  It is a collection of bug fixes (many to\ndocumentation, thanks to Kurt Hornik's great tools undoc and cod",
       "thread_id": "thread-9acb252cc0df",
       "thread_depth": 0,
-      "month": "2001-03"
+      "month": "2001-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000181.html"
     },
     {
       "id": "msg-56a4b419630c",
@@ -49,7 +51,8 @@
       "body_snippet": "Package bqtl version 1.0 is now available on CRAN.\n\nDescription: QTL mapping toolkit for inbred crosses and\n recombinant inbred lines. Includes maximum likelihood and Bayesian\ntools.\n\nI am keen to hav",
       "thread_id": "thread-56a4b419630c",
       "thread_depth": 0,
-      "month": "2001-03"
+      "month": "2001-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000182.html"
     },
     {
       "id": "msg-abdbd0fd2760",
@@ -65,7 +68,8 @@
       "body_snippet": "Windows binaries at CRAN (bin/windows/Windows-NT/base) have been updated \nto R-1.2.2.  See below for a list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\t====================",
       "thread_id": "thread-abdbd0fd2760",
       "thread_depth": 0,
-      "month": "2001-03"
+      "month": "2001-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000183.html"
     },
     {
       "id": "msg-7e156aacc75d",
@@ -81,7 +85,8 @@
       "body_snippet": "a version of R-1.2.2 for MacOS X (more precisely, for Darwin 1.3 with\nX11R6) is at\n\nhttp://www.stat.ucla.edu/~deleeuw/R-1.2.2-MacOSX.tar.gz\n\nthe file should be 5161540 bytes\n\n-- su root\n-- unpack in /",
       "thread_id": "thread-7e156aacc75d",
       "thread_depth": 0,
-      "month": "2001-03"
+      "month": "2001-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000184.html"
     },
     {
       "id": "msg-7b7d4452d05c",
@@ -97,7 +102,8 @@
       "body_snippet": "A tarball with the 03/23/01 patch version of R-1.2.2 (with X11 and \ntcl/tk support)\nis at\n\nhttp://www.stat.ucla.edu/~deleeuw/R/R-1.2.2.MacOSX.tar.gz\n\nThis is not a Classic or Carbon or Cocoa applicati",
       "thread_id": "thread-7b7d4452d05c",
       "thread_depth": 0,
-      "month": "2001-03"
+      "month": "2001-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000185.html"
     }
   ],
   "threads": [

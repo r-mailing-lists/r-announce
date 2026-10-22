@@ -17,7 +17,8 @@
       "body_snippet": "You may want to wait for R-1.3.1, but there is a new version \nR-1.3.0-MacOSX.tar.gz\nin http//www.stat.ucla.edu/~deleeuw/R. It's in the folder \"overfull\", \nand it\n\n-- will be updated to 1.3.1 as soon a",
       "thread_id": "thread-c80b6ded2ec6",
       "thread_depth": 0,
-      "month": "2001-08"
+      "month": "2001-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000219.html"
     },
     {
       "id": "msg-bc80c2d0556a",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-1.3.1.tgz a short while ago. This is a minor upgrade,\nfixing a number of bugs and only containing a few small new features.\nThe most immediately visible new feature is that \"less\" is ",
       "thread_id": "thread-bc80c2d0556a",
       "thread_depth": 0,
-      "month": "2001-08"
+      "month": "2001-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000220.html"
     },
     {
       "id": "msg-505ff08247e5",
@@ -49,7 +51,8 @@
       "body_snippet": "The rsync repository at rsync.r-project.org has been updated to\nR-1.3.1\n\nFor example you can create a local directory R-1.3.1 and populate it\nwith the source tree by\n\n rsync -avC rsycn.r-project.org::",
       "thread_id": "thread-505ff08247e5",
       "thread_depth": 0,
-      "month": "2001-08"
+      "month": "2001-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000221.html"
     },
     {
       "id": "msg-74660ed86ac1",
@@ -65,7 +68,8 @@
       "body_snippet": "The full version with 154 packages is on\n\nhttp://gifi.stat.ucla.edu/R\n\nI dropped the gnome support, and ATLAS is now standard.\n\nUnpack in /usr/local\n\nOnce again, if your R complains about missing dyna",
       "thread_id": "thread-74660ed86ac1",
       "thread_depth": 0,
-      "month": "2001-08"
+      "month": "2001-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000222.html"
     }
   ],
   "threads": [

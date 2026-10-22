@@ -17,7 +17,8 @@
       "body_snippet": "Hi all,\n\nThere is now a package available on CRAN that provides an R interface to Leo\nBreiman's random forest classifier.\n\nBasically, random forest does the following:\n\n1.  Select ntree, the number of",
       "thread_id": "thread-027cb67c88ee",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000273.html"
     },
     {
       "id": "msg-7c21c9dea610",
@@ -33,7 +34,8 @@
       "body_snippet": "After taking much longer than I had hoped, the Hmisc library version 1.0 is now available for Linux/Unix/Windows.  The web page for Hmisc is\nhttp://hesweb1.med.virginia.edu/biostat/s/Hmisc.html from w",
       "thread_id": "thread-7c21c9dea610",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000274.html"
     },
     {
       "id": "msg-1fef88aa1f31",
@@ -49,7 +51,8 @@
       "body_snippet": "The package ipred is uploaded to CRAN.\n\nThe main focus of the package is the calculation of improved predictors\nin classification tasks. Misclassification error can be improved by\nbootstrap aggregated",
       "thread_id": "thread-1fef88aa1f31",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000275.html"
     },
     {
       "id": "msg-558b0f3d2213",
@@ -65,7 +68,8 @@
       "body_snippet": "Seats are still available for the S-PLUS Essentials course May 13/16 in\nLondon.\n\nR-users may choose to register for just the command line portion of the\ncourse, as that\nmaterial is most relevant to th",
       "thread_id": "thread-558b0f3d2213",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000276.html"
     },
     {
       "id": "msg-302a192f020b",
@@ -81,7 +85,8 @@
       "body_snippet": "I'm a PhD student and I'm working with covariance function. I'm interested\nto know if exist some packages in R to calculate and plot the\nbidimensional Autocovariance Function. the input matrix is a ma",
       "thread_id": "thread-302a192f020b",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000277.html"
     },
     {
       "id": "msg-52699fdc89b1",
@@ -97,7 +102,8 @@
       "body_snippet": "I've rolled up R-1.5.0.tgz a short while ago. This is a major upgrade,\nwith several new features. \n\nA few of the changes generate compatibility issues. You may wish to\nconsult http://developer.r-proje",
       "thread_id": "thread-52699fdc89b1",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000278.html"
     },
     {
       "id": "msg-42ba90ac39d1",
@@ -113,7 +119,8 @@
       "body_snippet": "The Design library has been fully ported to R except for Cox proportional hazards regression modeling (using Therneau's survival package) which will be available in about two weeks.  It will take much",
       "thread_id": "thread-42ba90ac39d1",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000279.html"
     },
     {
       "id": "msg-c376aa6d4be7",
@@ -129,7 +136,8 @@
       "body_snippet": "Debian packages for r-base_1.5.0 and r-recommended_1.5.0 have been uploaded\nto main Debian archive and should hit the mirrors tomorrow. These packages\nwere built on i386, packages for the other archit",
       "thread_id": "thread-c376aa6d4be7",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000280.html"
     },
     {
       "id": "msg-2a20b7a4fbb4",
@@ -145,7 +153,8 @@
       "body_snippet": "Sources for R-1.5.0 are now available via rsync from rsync.r-project.org\n\n$ rsync rsync.r-project.org::\nr-release      \tR-1.5.0 sources (current released version - approx 25 MB)\nr-patched      \tR sour",
       "thread_id": "thread-2a20b7a4fbb4",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000281.html"
     },
     {
       "id": "msg-f218a41e9fed",
@@ -161,7 +170,8 @@
       "body_snippet": "I have just updated the CRAN with the latest build of R 150.\nThe archive also contains all the base and recommended packages.\n\nIt will be mirrored in a couple of days or so.\n\nContributed packages will",
       "thread_id": "thread-f218a41e9fed",
       "thread_depth": 0,
-      "month": "2002-04"
+      "month": "2002-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000282.html"
     }
   ],
   "threads": [

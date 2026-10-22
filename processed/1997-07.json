@@ -17,7 +17,8 @@
       "body_snippet": "Two new libraries:\nleaps:  replaces and improves on S leaps() function for regression subset\nselection.\n\nintegrate:  Integration by adaptive quadrature in 1-20 dimensions.\n\nBoth available from http://",
       "thread_id": "thread-7b9482f960da",
       "thread_depth": 0,
-      "month": "1997-07"
+      "month": "1997-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000009.html"
     },
     {
       "id": "msg-5433fe16f2db",
@@ -29,11 +30,12 @@
       "subject_clean": "New Packages in CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "The following packages have been contributed to CRAN by Thomas Lumley:\n\nintegrate-1.0.tar.gz:\n\tS function and supporting C and Fortran code for adaptive\n\tquadrature.  The underlyling fortran code is purported to\n\twork in from 2 to 20 dimensions.\n\n\tS original by Michael Meyer (mikem at andrew.cmu.edu).\n\tR port by Thomas Lumley <thomas at biostat.washington.edu>.\n\t[1997/07/10]\n\nleaps-1.0.tar.gz:\n\tThis library performs an exhaustive search for the best\n\tsubsets of a given set of potential regressors, using a\n\tbranch-and-bound algorithm, and also performs searches using\n\ta number of less time-consuming techniques. It is designed to\n\treplace the \"leaps()\" command in S. \n\n\tPackaged for R by Thomas Lumley <thomas at biostat.washington.edu>\n\tand based on FORTRAN77 code by Alan Miller\n\t<Alan.Miller at vic.cmis.csiro.au>.\n\t[1997/07/10]\n\t\n\nThe tar files are available from the CRAN main site at\n\n\tftp://ftp.ci.tuwien.ac.at/pub/R/\n\nin the directory\n\n\tsrc/contrib\n\nand from the mirror sites (tomorrow):\n\n    http://lib.stat.cmu.edu/R/CRAN/                     (U.S./Pennsylvania)\n    ftp://franz.stat.wisc.edu/pub/R/                    (U.S./Wisconsin)\n    ftp://ftp.stat.math.ethz.ch/R-CRAN/                 (Switzerland)\n    http://www.stat.unipg.it/pub/stat/statlib/R/CRAN/   (Italy)\n\nIf you want your server being added to the list of mirrors, please let\nus know.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-r-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-",
+      "body_plain": "The following packages have been contributed to CRAN by Thomas Lumley:\n\nintegrate-1.0.tar.gz:\n\tS function and supporting C and Fortran code for adaptive\n\tquadrature.  The underlyling fortran code is purported to\n\twork in from 2 to 20 dimensions.\n\n\tS original by Michael Meyer (mikem at andrew.cmu.edu).\n\tR port by Thomas Lumley <thomas at biostat.washington.edu>.\n\t[1997/07/10]\n\nleaps-1.0.tar.gz:\n\tThis library performs an exhaustive search for the best\n\tsubsets of a given set of potential regressors, using a\n\tbranch-and-bound algorithm, and also performs searches using\n\ta number of less time-consuming techniques. It is designed to\n\treplace the \"leaps()\" command in S. \n\n\tPackaged for R by Thomas Lumley <thomas at biostat.washington.edu>\n\tand based on FORTRAN77 code by Alan Miller\n\t<Alan.Miller at vic.cmis.csiro.au>.\n\t[1997/07/10]\n\t\n\nThe tar files are available from the CRAN main site at\n\n\tftp://ftp.ci.tuwien.ac.at/pub/R/\n\nin the directory\n\n\tsrc/contrib\n\nand from the mirror sites (tomorrow):\n\n    http://lib.stat.cmu.edu/R/CRAN/                     (U.S./Pennsylvania)\n    ftp://franz.stat.wisc.edu/pub/R/                    (U.S./Wisconsin)\n    ftp://ftp.stat.math.ethz.ch/R-CRAN/                 (Switzerland)\n    http://www.stat.unipg.it/pub/stat/statlib/R/CRAN/   (Italy)\n\nIf you want your server being added to the list of mirrors, please let\nus know.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut für Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universität Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-r-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-",
       "body_snippet": "The following packages have been contributed to CRAN by Thomas Lumley:\n\nintegrate-1.0.tar.gz:\n\tS function and supporting C and Fortran code for adaptive\n\tquadrature.  The underlyling fortran code is p",
       "thread_id": "thread-5433fe16f2db",
       "thread_depth": 0,
-      "month": "1997-07"
+      "month": "1997-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000010.html"
     },
     {
       "id": "msg-cb50c60574cc",
@@ -49,7 +51,8 @@
       "body_snippet": "Dear Sirs,\n\n> and from the mirror sites (tomorrow):\n> \n>     http://lib.stat.cmu.edu/R/CRAN/                     (U.S./Pennsylvani=\n> a)\n>     ftp://franz.stat.wisc.edu/pub/R/                    (U.S.",
       "thread_id": "thread-cb50c60574cc",
       "thread_depth": 0,
-      "month": "1997-07"
+      "month": "1997-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000011.html"
     },
     {
       "id": "msg-a9be142fd997",
@@ -61,11 +64,12 @@
       "subject_clean": "new version 0.1 of e1071 in CRAN",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "The following functions have been added to the e1071 package\n\n\tskewness\n\tkurtosis\n\thamming.distance\n\n\nThe tar files are available from the CRAN main site at\n\n\tftp://ftp.ci.tuwien.ac.at/pub/R/\n\nin the directory\n\n\tsrc/contrib\n\nand from the mirror sites (tomorrow):\n\n    http://lib.stat.cmu.edu/R/CRAN/                     (U.S./Pennsylvania)\n    ftp://franz.stat.wisc.edu/pub/R/                    (U.S./Wisconsin)\n    ftp://ftp.stat.math.ethz.ch/R-CRAN/                 (Switzerland)\n    http://www.stat.unipg.it/pub/stat/statlib/R/CRAN/   (Italy)\n    ftp://ftp.u-aizu.ac.jp/pub/lang/R/CRAN/             (Japan)\n\nIf you want your server being added to the list of mirrors, please let\nus know.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut f?r Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universit?t Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-r-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-",
+      "body_plain": "The following functions have been added to the e1071 package\n\n\tskewness\n\tkurtosis\n\thamming.distance\n\n\nThe tar files are available from the CRAN main site at\n\n\tftp://ftp.ci.tuwien.ac.at/pub/R/\n\nin the directory\n\n\tsrc/contrib\n\nand from the mirror sites (tomorrow):\n\n    http://lib.stat.cmu.edu/R/CRAN/                     (U.S./Pennsylvania)\n    ftp://franz.stat.wisc.edu/pub/R/                    (U.S./Wisconsin)\n    ftp://ftp.stat.math.ethz.ch/R-CRAN/                 (Switzerland)\n    http://www.stat.unipg.it/pub/stat/statlib/R/CRAN/   (Italy)\n    ftp://ftp.u-aizu.ac.jp/pub/lang/R/CRAN/             (Japan)\n\nIf you want your server being added to the list of mirrors, please let\nus know.\n\nBest,\nFritz\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch                             \nInstitut für Statistik                      Tel: (+43 1) 58801 4541\nTechnische Universität Wien                 Fax: (+43 1)  504 14 98\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-r-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-",
       "body_snippet": "The following functions have been added to the e1071 package\n\n\tskewness\n\tkurtosis\n\thamming.distance\n\n\nThe tar files are available from the CRAN main site at\n\n\tftp://ftp.ci.tuwien.ac.at/pub/R/\n\nin the ",
       "thread_id": "thread-a9be142fd997",
       "thread_depth": 0,
-      "month": "1997-07"
+      "month": "1997-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000012.html"
     },
     {
       "id": "msg-cbe240a8b7b3",
@@ -81,7 +85,8 @@
       "body_snippet": "A precompiled \"RPM\" binary of R-0.50.a1 is now available on CRAN for\ninstallation on Linux systems which use the RedHat Package\nManager. The package also includes all contributed libraries\ncurrently i",
       "thread_id": "thread-cbe240a8b7b3",
       "thread_depth": 0,
-      "month": "1997-07"
+      "month": "1997-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1997/000013.html"
     }
   ],
   "threads": [

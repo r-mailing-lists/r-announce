@@ -13,11 +13,12 @@
       "subject_clean": "Mailing List Archives",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "The HTML Mailing List Archives at\n\n\twww.R-project.org\n\nshould now get online updates, i.e., each mail is integrated into the\narchives directly after it has been sent to the list. Hence, searching\nin the subjects of mails can easily be done using your web browser's\nsearch function.\n\nA more powerful search engine (which also searches the bodies of the\nemails) will hopefully be added soon.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "The HTML Mailing List Archives at\n\n\twww.R-project.org\n\nshould now get online updates, i.e., each mail is integrated into the\narchives directly after it has been sent to the list. Hence, searching\nin the subjects of mails can easily be done using your web browser's\nsearch function.\n\nA more powerful search engine (which also searches the bodies of the\nemails) will hopefully be added soon.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n     PGP public key http://www.ci.tuwien.ac.at/~leisch/pgp.key\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "The HTML Mailing List Archives at\n\n\twww.R-project.org\n\nshould now get online updates, i.e., each mail is integrated into the\narchives directly after it has been sent to the list. Hence, searching\nin t",
       "thread_id": "thread-0fb93ea977df",
       "thread_depth": 0,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000165.html"
     },
     {
       "id": "msg-55dab5357130",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi,\n\nthe new version 1.1-0 of package e1071 is now on CRAN.\n\nChanges:\n*) use libsvm 2.1 for support vector machines. We are now also a kind\nof ``official'' R frontend to libsvm and linked from their h",
       "thread_id": "thread-55dab5357130",
       "thread_depth": 0,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000166.html"
     },
     {
       "id": "msg-e7f0bb698fb2",
@@ -45,11 +47,12 @@
       "subject_clean": "package multiv upgrade",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Thanks to Peter Dalgaard, Kurt Hornik and Achim Zeileis there is now a\nnew version (1.1-2) of package multiv on CRAN which passes R CMD\ncheck. All examples have been modified to use data sets available in R\nand a bug in a call to Fortran has been fixed. The remaining changes\nare mostly cosmetics.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "Thanks to Peter Dalgaard, Kurt Hornik and Achim Zeileis there is now a\nnew version (1.1-2) of package multiv on CRAN which passes R CMD\ncheck. All examples have been modified to use data sets available in R\nand a bug in a call to Fortran has been fixed. The remaining changes\nare mostly cosmetics.\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "Thanks to Peter Dalgaard, Kurt Hornik and Achim Zeileis there is now a\nnew version (1.1-2) of package multiv on CRAN which passes R CMD\ncheck. All examples have been modified to use data sets availabl",
       "thread_id": "thread-e7f0bb698fb2",
       "thread_depth": 0,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000167.html"
     },
     {
       "id": "msg-74cff42550a0",
@@ -65,7 +68,8 @@
       "body_snippet": "Announcing the first release of the HYDRA Java library for Markov\nChain Monte Carlo.\n\nHYDRA is an open-source, platform-neutral library for performing\nMarkov Chain Monte Carlo. It implements the logic",
       "thread_id": "thread-74cff42550a0",
       "thread_depth": 0,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000168.html"
     },
     {
       "id": "msg-b2c4ac1f4f2a",
@@ -81,7 +85,8 @@
       "body_snippet": "I've rolled up R-1.2.1.tgz a moment ago. This is mainly a bugfix\nand minor tweaks release, although some new features (notably factor\nanalysis) has sneaked in.  \n\nYou can get it from\n\nftp://cvs.r-proj",
       "thread_id": "thread-b2c4ac1f4f2a",
       "thread_depth": 0,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000169.html"
     },
     {
       "id": "msg-b814c20c7d47",
@@ -97,7 +102,8 @@
       "body_snippet": "The R-1.2.1 sources are now available via rsync as rsync.r-project.org::r-release \n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http:",
       "thread_id": "thread-b814c20c7d47",
       "thread_depth": 0,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000170.html"
     },
     {
       "id": "msg-20c27aa6c747",
@@ -113,7 +119,8 @@
       "body_snippet": "Anyone using the penalised partial likelihood routines in survival5 should\nupdate their version. \n\nA bug has been fixed in the S package: in coxph() models with penalised\nlikelihood and strata it was ",
       "thread_id": "thread-20c27aa6c747",
       "thread_depth": 0,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000171.html"
     },
     {
       "id": "msg-03a15681c903",
@@ -129,7 +136,8 @@
       "body_snippet": "Windows binaries at CRAN (http://cran.r-project.org)  have been updated \nto R-1.2.1.  See below for the list of Windows-specific changes.\n\nguido masarotto\n(for the R-core team)\n\n\n\t\tWindows-specific ch",
       "thread_id": "thread-03a15681c903",
       "thread_depth": 0,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000172.html"
     },
     {
       "id": "msg-38d543543c99",
@@ -147,7 +155,8 @@
       "body_snippet": "Macintosh binaries and sources have been updated to R-1.2.1\n\nYou can find them at\n\n\t\t\thttp://www.eco-dip.unimi.it/R\n\nPlease remember that this is still at a developer stage. Feedback and \ninteractions",
       "thread_id": "thread-03a15681c903",
       "thread_depth": 1,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000173.html"
     },
     {
       "id": "msg-2eb48f9e989a",
@@ -159,11 +168,12 @@
       "subject_clean": "R News Volume 1/1",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "We are pleased to announce the first volume of R News, the\nnewsletter of the R project for statistical computing. The newsletter\nis available online as PDF file at\n\n\thttp://cran.R-project.org/doc/Rnews\n\nand will propagate to the CRAN mirrors within the next days.\n\nR News will feature short to medium length articles covering topics\nthat might be of interest to users or developers of R, including\n\n* Changes in R: new features of the latest release \n* Changes on CRAN: new add-on packages, manuals, binary distributions,\n  mirrors, ... \n* Add-on packages: short introductions to or reviews of R extension packages \n* Programmer's Niche: nifty hints for programming in R (or S) \n* Applications: Examples of analyzing data with R \n\nThe newsletter as a medium for communication intends to fill the gap\nbetween the R mailing lists and scientific journals: Compared with\nemails it is more persistent, one can cite articles in the newsletter\nand because the newsletter is edited it has better quality control. On\nthe other hand, when compared to scientific journals, it is faster,\nless formal, and last but not least focused on R.\n\nAs all of R, R News is a volunteer project. The editorial board\ncurrently consists of the R core development team plus Bill\nVenables.\n\nWe really hope you will enjoy reading R News!\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "We are pleased to announce the first volume of R News, the\nnewsletter of the R project for statistical computing. The newsletter\nis available online as PDF file at\n\n\thttp://cran.R-project.org/doc/Rnews\n\nand will propagate to the CRAN mirrors within the next days.\n\nR News will feature short to medium length articles covering topics\nthat might be of interest to users or developers of R, including\n\n* Changes in R: new features of the latest release \n* Changes on CRAN: new add-on packages, manuals, binary distributions,\n  mirrors, ... \n* Add-on packages: short introductions to or reviews of R extension packages \n* Programmer's Niche: nifty hints for programming in R (or S) \n* Applications: Examples of analyzing data with R \n\nThe newsletter as a medium for communication intends to fill the gap\nbetween the R mailing lists and scientific journals: Compared with\nemails it is more persistent, one can cite articles in the newsletter\nand because the newsletter is edited it has better quality control. On\nthe other hand, when compared to scientific journals, it is faster,\nless formal, and last but not least focused on R.\n\nAs all of R, R News is a volunteer project. The editorial board\ncurrently consists of the R core development team plus Bill\nVenables.\n\nWe really hope you will enjoy reading R News!\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "We are pleased to announce the first volume of R News, the\nnewsletter of the R project for statistical computing. The newsletter\nis available online as PDF file at\n\n\thttp://cran.R-project.org/doc/Rnew",
       "thread_id": "thread-2eb48f9e989a",
       "thread_depth": 0,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000174.html"
     },
     {
       "id": "msg-b301e27854c0",
@@ -181,7 +191,8 @@
       "body_snippet": "Thanks a lot and congratulations to the editors and contributors!!! It is really\nawesome.\n\nRam?n\n\nOn Wed, 24 Jan 2001, Friedrich Leisch wrote:\n> We are pleased to announce the first volume of R News, ",
       "thread_id": "thread-2eb48f9e989a",
       "thread_depth": 1,
-      "month": "2001-01"
+      "month": "2001-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000175.html"
     }
   ],
   "threads": [

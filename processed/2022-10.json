@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.2.2.tar.gz (codename \"Innocent and Trusting\") this morning.\n\nThe list below details the changes in this release. \n\nYou can get the source code from\n\nhttps://cran.r-proje",
       "thread_id": "thread-87f25bbdc2c2",
       "thread_depth": 0,
-      "month": "2022-10"
+      "month": "2022-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2022/000686.html"
     },
     {
       "id": "msg-fbc49df3a2c6",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear All,\n\nThe R Foundation Conference Committee invites proposals to organize a hybrid useR! in 2023 or 2024:\n\nhttps://www.r-project.org/conferences/useR_2023_call.html\n\nThe call is open to teams wor",
       "thread_id": "thread-fbc49df3a2c6",
       "thread_depth": 0,
-      "month": "2022-10"
+      "month": "2022-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2022/000687.html"
     }
   ],
   "threads": [

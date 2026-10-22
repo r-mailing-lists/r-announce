@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-1.6.1.tgz a short while ago. This is a minor upgrade,\nfixing an assortment of minor bugs, and one major one: 1.6.0\nintroduced a memory leak in deparsing, causing much trouble for peop",
       "thread_id": "thread-9e133c084414",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000340.html"
     },
     {
       "id": "msg-249addd7e085",
@@ -35,7 +36,8 @@
       "body_snippet": "Peter Dalgaard BSA <p.dalgaard at biostat.ku.dk> writes:\n\n> I've rolled up R-1.6.1.tgz a short while ago. This is a minor upgrade,\n> fixing an assortment of minor bugs, and one major one: 1.6.0\n> intr",
       "thread_id": "thread-9e133c084414",
       "thread_depth": 1,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000341.html"
     },
     {
       "id": "msg-7449cc63902a",
@@ -54,7 +56,8 @@
       "body_snippet": "Jeff Gentry <jgentry at jimmy.harvard.edu> writes:\n\n> Is there a rsync target for 1.6.1?\n\nThanks for the reminder, Jeff.  Sources for R-1.6.1 are now available\nvia rsync at rsync.r-project.org\n-.-.-.-",
       "thread_id": "thread-7449cc63902a",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000342.html"
     },
     {
       "id": "msg-41a97e7a21b9",
@@ -70,7 +73,8 @@
       "body_snippet": "-----BEGIN PGP SIGNED MESSAGE-----\nHash: SHA1\n\n\nBinary RPM's compiled for Mandrake 8.0, 8.1, 8.2 and 9.0 have been\nuploaded and will duly appear on CRAN, together with the SRPM for people\nwishing to r",
       "thread_id": "thread-41a97e7a21b9",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000343.html"
     },
     {
       "id": "msg-28c64442f1a6",
@@ -86,7 +90,8 @@
       "body_snippet": "I've just uploaded a Windows binary of R 1.6.1 to CRAN.  It should be\nvisible at <http://cran.r-project.org/bin/windows/base/> by tomorrow,\nand will hopefully show up on the mirrors around the same ti",
       "thread_id": "thread-28c64442f1a6",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000344.html"
     },
     {
       "id": "msg-862589523a6e",
@@ -102,7 +107,8 @@
       "body_snippet": "To Windows R users:\n\nThe binary build of R that I uploaded on Tuesday contained errors in\nthe compiled HTML help files and some of the PDF versions of the\nmanuals.  In particular, the index was missin",
       "thread_id": "thread-862589523a6e",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000345.html"
     },
     {
       "id": "msg-35b091cf364f",
@@ -118,7 +124,8 @@
       "body_snippet": "Dear R users,\n\nA new package \"msm\", for multi-state modelling, is now available on CRAN.  \nIt can be used to fit continuous-time Markov models to irregularly-observed\ncategorical processes.  These mod",
       "thread_id": "thread-35b091cf364f",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000346.html"
     },
     {
       "id": "msg-84646dfed1b7",
@@ -134,7 +141,8 @@
       "body_snippet": "We would like to announce the availability of a new version of our\nR-GENetic Optimization Using Derivatives (RGENOUD) package.  The new\nversion is 1.20.\n\nSource code along with LINUX, Windows, and Mac",
       "thread_id": "thread-84646dfed1b7",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000347.html"
     },
     {
       "id": "msg-521cc9fe7320",
@@ -150,7 +158,8 @@
       "body_snippet": "I've been working on a document describing the use of XEmacs and ESS with R \nfor Windows users, along with configuration files that are meant to make \nthings simple for Windows users. This was initial",
       "thread_id": "thread-521cc9fe7320",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000348.html"
     },
     {
       "id": "msg-e3985b33e217",
@@ -162,11 +171,12 @@
       "subject_clean": "Final CFP: DSC 2003",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "This is a short reminder that the submission deadline for the workshop\nDistributed Statistical Computing DSC 2003 is approaching rapidly. If\nyou want to give a talk to the conference please submit a paper or\nextended abstract (1-2 pages) by the end of this week. Details on the\nworkshop can be found at\n\n\thttp://www.ci.tuwien.ac.at/Conferences/DSC-2003/\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "This is a short reminder that the submission deadline for the workshop\nDistributed Statistical Computing DSC 2003 is approaching rapidly. If\nyou want to give a talk to the conference please submit a paper or\nextended abstract (1-2 pages) by the end of this week. Details on the\nworkshop can be found at\n\n\thttp://www.ci.tuwien.ac.at/Conferences/DSC-2003/\n\nBest,\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "This is a short reminder that the submission deadline for the workshop\nDistributed Statistical Computing DSC 2003 is approaching rapidly. If\nyou want to give a talk to the conference please submit a p",
       "thread_id": "thread-e3985b33e217",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000349.html"
     },
     {
       "id": "msg-0fe6246ce8c9",
@@ -200,7 +210,8 @@
       "body_snippet": "Dear readers of R-announce and R-help.\nYesterday, I sent a message with\n   Subject: R-announce moved from majordomo to [procmail+mailman]\non Date: Tue, 26 Nov 2002 18:39:45 +0100\nto R-announce and hen",
       "thread_id": "thread-0fe6246ce8c9",
       "thread_depth": 1,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000362.html"
     },
     {
       "id": "msg-31265a77e921",
@@ -216,7 +227,8 @@
       "body_snippet": "The \"genetics\" package for handling single-locus genetic data is now\navailable on CRAN in both source and Windows binary formats.  The purpose of\nthis package is to  make it easy to create and manipul",
       "thread_id": "thread-31265a77e921",
       "thread_depth": 0,
-      "month": "2002-11"
+      "month": "2002-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000363.html"
     }
   ],
   "threads": [

@@ -13,11 +13,12 @@
       "subject_clean": "R News: Call for Papers",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "R News (see http://CRAN.R-project.org/doc/Rnews/) is running low on\nsubmissions lately. If you are the author of a package on CRAN or\nBioconductor and want to attract a larger audience to your software,\nyou should consider writing a short article introducing the\npackage. Another \"typical\" kind of R News article is to describe a\ndata analysis application using R (not necessarily using software you\nhave written).\n\nWe are looking forward to all contributions!\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch",
+      "body_plain": "R News (see http://CRAN.R-project.org/doc/Rnews/) is running low on\nsubmissions lately. If you are the author of a package on CRAN or\nBioconductor and want to attract a larger audience to your software,\nyou should consider writing a short article introducing the\npackage. Another \"typical\" kind of R News article is to describe a\ndata analysis application using R (not necessarily using software you\nhave written).\n\nWe are looking forward to all contributions!\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch",
       "body_snippet": "R News (see http://CRAN.R-project.org/doc/Rnews/) is running low on\nsubmissions lately. If you are the author of a package on CRAN or\nBioconductor and want to attract a larger audience to your softwar",
       "thread_id": "thread-bfc878867ebc",
       "thread_depth": 0,
-      "month": "2003-09"
+      "month": "2003-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000405.html"
     },
     {
       "id": "msg-fafd06fcb44e",
@@ -33,7 +34,8 @@
       "body_snippet": "We (mainly the R core team) have been discussing the creation of another\nR mailing list, with the goal to fill the gap between\n\n   R-help\t very high volume, with its great merits, but....\n\nand \n\n   R-",
       "thread_id": "thread-fafd06fcb44e",
       "thread_depth": 0,
-      "month": "2003-09"
+      "month": "2003-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000406.html"
     }
   ],
   "threads": [

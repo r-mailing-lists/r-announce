@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.13.0 on Wednesday,\nApril 13, 2011.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checkli",
       "thread_id": "thread-e08f1c8ed311",
       "thread_depth": 0,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000536.html"
     },
     {
       "id": "msg-e7bbbae223a2",
@@ -43,7 +44,8 @@
       "body_snippet": "This is a reminder that the deadline for abstract submission and early bird registration for the R User Conference 2011 is April 1st.\n \nuseR! 2011\nhttp://www.R-project.org/useR-2011\n \nA conference cen",
       "thread_id": "thread-e7bbbae223a2",
       "thread_depth": 0,
-      "month": "2011-03"
+      "month": "2011-03",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000537.html"
     }
   ],
   "threads": [

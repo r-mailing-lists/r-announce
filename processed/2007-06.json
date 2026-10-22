@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.5.1.tar.gz a short while ago. This is a maintenance\nrelease and fixes a number of mostly minor bugs and platform issues. See \nthe full list of changes below.\n\nYou can get it (in a s",
       "thread_id": "thread-a880dd926aa3",
       "thread_depth": 0,
-      "month": "2007-06"
+      "month": "2007-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000465.html"
     }
   ],
   "threads": [

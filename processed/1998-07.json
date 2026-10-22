@@ -17,7 +17,8 @@
       "body_snippet": "I have just put R-0.62.2.tgz and R-0.62.1-0.62.2.diff.gz into the FTP\narea at Auckland. As usual, do not fetch it from there unless\nabsolutely urgent, because of the NZ Internet billing system. The\nfi",
       "thread_id": "thread-b0d647d0e5a7",
       "thread_depth": 0,
-      "month": "1998-07"
+      "month": "1998-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000045.html"
     },
     {
       "id": "msg-e0acb2ad58dd",
@@ -33,7 +34,8 @@
       "body_snippet": "Versions of the V&R libraries, VR_5.3pl025-1.tar.gz, and of\ntree_0.2-2.tar.gz (giving most of the functionality of S's tree system\nincluding all that I have ever used) are now available on CRAN's Vien",
       "thread_id": "thread-e0acb2ad58dd",
       "thread_depth": 0,
-      "month": "1998-07"
+      "month": "1998-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1998/000046.html"
     }
   ],
   "threads": [

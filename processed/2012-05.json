@@ -17,7 +17,8 @@
       "body_snippet": "DEADLINE FAST APPROACHING ? 8th Annual International R User Conference\nuseR! 2012, Nashville, Tennessee USA\n\nRegistration Deadlines:\nEarly Registration: Passed\nRegular Registration: Mar 1- May 12\nLate",
       "thread_id": "thread-15198b217a6a",
       "thread_depth": 0,
-      "month": "2012-05"
+      "month": "2012-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2012/000552.html"
     },
     {
       "id": "msg-efeaed34d9b2",
@@ -33,7 +34,8 @@
       "body_snippet": "Just a note, mainly to people who maintain larger R installations, that we intend to have a patch release version on June 22. The nickname will be \"Roasted Marshmallows\".\n\nThis is somewhat later than ",
       "thread_id": "thread-efeaed34d9b2",
       "thread_depth": 0,
-      "month": "2012-05"
+      "month": "2012-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2012/000553.html"
     }
   ],
   "threads": [

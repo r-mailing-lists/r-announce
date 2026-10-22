@@ -17,7 +17,8 @@
       "body_snippet": "The as-good-as final scientific programme has been posted on the\nconference website http://www.r-project.org/dsc-2009\n\nThe absolutely final date for regular registration is July 5, but\nearlier registr",
       "thread_id": "thread-11d866f6e051",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000503.html"
     },
     {
       "id": "msg-61ac7d4f2b4e",
@@ -33,7 +34,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.9.1 on Friday,\nJune 26, 2009.\n\nRelease procedures start Tuesday, June 16.\n\nThose directly involved should review the generic schedule at\nhttp://",
       "thread_id": "thread-61ac7d4f2b4e",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000504.html"
     },
     {
       "id": "msg-fa394f370187",
@@ -49,7 +51,8 @@
       "body_snippet": "I've rolled up R-2.9.1.tar.gz a few hours ago.\n\nThis is a maintenance release and fixes a number of mostly minor issues.\n\nSee the full list of changes below.\n\nYou can get it from\n\nhttp://cran.r-projec",
       "thread_id": "thread-fa394f370187",
       "thread_depth": 0,
-      "month": "2009-06"
+      "month": "2009-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000505.html"
     }
   ],
   "threads": [

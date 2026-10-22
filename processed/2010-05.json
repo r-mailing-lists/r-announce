@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.11.1 on Monday,\nMay 31, 2010.\n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checklist.ht",
       "thread_id": "thread-66a5ca28c895",
       "thread_depth": 0,
-      "month": "2010-05"
+      "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2010/000520.html"
     },
     {
       "id": "msg-186ae0f683fb",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-2.11.1.tar.gz a short while ago. This is an update release, which fixes a number of mostly minor issues. The most annoying one was probably the problem with format.POSIXlt causing C s",
       "thread_id": "thread-186ae0f683fb",
       "thread_depth": 0,
-      "month": "2010-05"
+      "month": "2010-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2010/000521.html"
     }
   ],
   "threads": [

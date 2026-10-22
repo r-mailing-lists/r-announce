@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.7.0.tar.gz a short while ago. This is a development \nrelease which contains a number of new features.\n\nAlso, a number of mostly minor bugs have been fixed. See the full list\nof chan",
       "thread_id": "thread-6d59bbb769ae",
       "thread_depth": 0,
-      "month": "2008-04"
+      "month": "2008-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2008/000476.html"
     }
   ],
   "threads": [

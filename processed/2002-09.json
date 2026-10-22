@@ -13,11 +13,12 @@
       "subject_clean": "ape 0.1 is released",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Ape is an R package for \"analyses of phylogenetics and evolution\". The\nfirst version (0.1) has been released on 27 August 2002 and is available on\nCRAN. \n\n>From the 'Description' file of version 0.1:\n\n       Ape provides functions for reading, and plotting\n       phylogenetic trees in parenthetic format (standard Newick\n       format), analyses of comparative data in a phylogenetic\n       framework, analyses of diversification and macroevolution,\n       computing distances from allelic and nucleotide data,\n       reading nucleotide sequences from GenBank via internet, and\n       several tools such as Mantel's test, computation of minimum\n       spanning tree, or the population parameter theta based on\n       various approaches.\n\nBug reports, comments and suggestions on Ape are welcome.\n\n\n\nEmmanuel Paradis\nLaboratoire de Pal?ontologie\nInstitut des Sciences de l'?volution\nUniversit? Montpellier II\nF-34095 Montpellier c?dex 05\nFrance\n   phone: +33  4 67 14 39 64\n     fax: +33  4 67 14 36 10\n  mailto:paradis at isem.univ-montp2.fr\nhttp://www.isem.univ-montp2.fr/ISEMFre/Equipes/PPP/PPerso/Paradis.php\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "Ape is an R package for \"analyses of phylogenetics and evolution\". The\nfirst version (0.1) has been released on 27 August 2002 and is available on\nCRAN. \n\n>From the 'Description' file of version 0.1:\n\n       Ape provides functions for reading, and plotting\n       phylogenetic trees in parenthetic format (standard Newick\n       format), analyses of comparative data in a phylogenetic\n       framework, analyses of diversification and macroevolution,\n       computing distances from allelic and nucleotide data,\n       reading nucleotide sequences from GenBank via internet, and\n       several tools such as Mantel's test, computation of minimum\n       spanning tree, or the population parameter theta based on\n       various approaches.\n\nBug reports, comments and suggestions on Ape are welcome.\n\n\n\nEmmanuel Paradis\nLaboratoire de Paléontologie\nInstitut des Sciences de l'Évolution\nUniversité Montpellier II\nF-34095 Montpellier cédex 05\nFrance\n   phone: +33  4 67 14 39 64\n     fax: +33  4 67 14 36 10\n  mailto:paradis at isem.univ-montp2.fr\nhttp://www.isem.univ-montp2.fr/ISEMFre/Equipes/PPP/PPerso/Paradis.php\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "Ape is an R package for \"analyses of phylogenetics and evolution\". The\nfirst version (0.1) has been released on 27 August 2002 and is available on\nCRAN. \n\n>From the 'Description' file of version 0.1:\n",
       "thread_id": "thread-5c354ee13b19",
       "thread_depth": 0,
-      "month": "2002-09"
+      "month": "2002-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000313.html"
     },
     {
       "id": "msg-dffeaadc97a0",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear all,\nat the following address\n\nhttp://linaria.dst.unive.it/~claudio/R/Rmaterial.html#ga\n\nyou can download a package to build simple genetic algorithms. I wrote\nthis package to introduce genetic a",
       "thread_id": "thread-dffeaadc97a0",
       "thread_depth": 0,
-      "month": "2002-09"
+      "month": "2002-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000314.html"
     },
     {
       "id": "msg-46bf2e14d55d",
@@ -49,7 +51,8 @@
       "body_snippet": "The Hmisc and Design libraries have had major improvements.  New versions for Linux/Unix/Windows may be obtained from http://hesweb1.med.virginia.edu/biostat/s/library/r\n\nThanks to Xiao Gang Fan for p",
       "thread_id": "thread-46bf2e14d55d",
       "thread_depth": 0,
-      "month": "2002-09"
+      "month": "2002-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000315.html"
     },
     {
       "id": "msg-1e7682ade9e7",
@@ -65,7 +68,8 @@
       "body_snippet": "Version 0.6.0 of the gregmisc package has just been released on CRAN.   \n\n\nDescription:\n===========\n\nPackage: gregmisc\nDescription: Misc Functions written/maintained by Gregory R. Warnes\nTitle: Greg's",
       "thread_id": "thread-1e7682ade9e7",
       "thread_depth": 0,
-      "month": "2002-09"
+      "month": "2002-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000316.html"
     },
     {
       "id": "msg-91523775dea0",
@@ -81,7 +85,8 @@
       "body_snippet": "I forgot to note that Marc Schwartz contributed barplot2() and CrossTable().\n\n-Greg\n\n> -----Original Message-----\n> From: Warnes, Gregory R \n> Sent: Monday, September 23, 2002 2:35 PM\n> To: 'r-announc",
       "thread_id": "thread-91523775dea0",
       "thread_depth": 0,
-      "month": "2002-09"
+      "month": "2002-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000317.html"
     },
     {
       "id": "msg-f0fd4af4f5db",
@@ -97,7 +102,8 @@
       "body_snippet": "Shortly after the release of version 0.6.0 of the gregmisc package, several\nbugs were located by users.  A new release, 0.7.0, is now available on CRAN.\n\n\nThis version corrects these bugs, and adds re",
       "thread_id": "thread-f0fd4af4f5db",
       "thread_depth": 0,
-      "month": "2002-09"
+      "month": "2002-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000318.html"
     },
     {
       "id": "msg-0a97638a3c73",
@@ -113,7 +119,8 @@
       "body_snippet": "There's now a new version of randomForest (3.3-4) on CRAN.  Changes from the\nlast version include:\n\no  \"Unsupervised learning\" now works again.\n\no  Fixed a bug in the original Fortran: the mtry variab",
       "thread_id": "thread-0a97638a3c73",
       "thread_depth": 0,
-      "month": "2002-09"
+      "month": "2002-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000319.html"
     },
     {
       "id": "msg-012d33e1479c",

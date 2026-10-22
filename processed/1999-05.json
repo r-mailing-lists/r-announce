@@ -17,7 +17,8 @@
       "body_snippet": "The Department of Statistics at the University of Wisconsin - Madison\nwill be presenting a two-day short course on \"Advanced Programming in\nS\" by Dr. William Venables, June 14-15, 1999 in Madison, Wis",
       "thread_id": "thread-d1eff187379e",
       "thread_depth": 0,
-      "month": "1999-05"
+      "month": "1999-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000080.html"
     },
     {
       "id": "msg-9403d2b33e05",
@@ -33,7 +34,8 @@
       "body_snippet": "I've put up R-0.64.1.tgz up for FTP from Auckland some a moment ago.\nAs usual, don't get it from there unless you are desperate, but wait\nfor it to be mirrored at a CRAN site near you within a day or ",
       "thread_id": "thread-9403d2b33e05",
       "thread_depth": 0,
-      "month": "1999-05"
+      "month": "1999-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000081.html"
     },
     {
       "id": "msg-5801431c84e7",
@@ -49,7 +51,8 @@
       "body_snippet": "Version 1.0 of survival5 will soon be percolating through CRAN.\n\nSurvival5 is the R port of the newest version of Terry Therneau's survival\nanalysis code for S(-PLUS).  It contains a number of bug fix",
       "thread_id": "thread-9403d2b33e05",
       "thread_depth": 1,
-      "month": "1999-05"
+      "month": "1999-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000082.html"
     },
     {
       "id": "msg-3b761d2dd121",
@@ -65,7 +68,8 @@
       "body_snippet": "A binary distribution of R 0.64.1 for Win9X/WinNT is available\nat CRAN/bin/windows/windows-NT/base.\nThere area lot of new Windows features. Check files \nCHANGES and README.\n\nguido masarotto \n-.-.-.-.-",
       "thread_id": "thread-3b761d2dd121",
       "thread_depth": 0,
-      "month": "1999-05"
+      "month": "1999-05",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000083.html"
     }
   ],
   "threads": [

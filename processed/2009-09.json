@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.10.0 on Monday,\nOctober 26, 2009.\n\nRelease procedures start today. The detailed schedule can\nbe found on http://developer.r-project.org\n\nThe sou",
       "thread_id": "thread-47d2b387e6c2",
       "thread_depth": 0,
-      "month": "2009-09"
+      "month": "2009-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2009/000509.html"
     }
   ],
   "threads": [

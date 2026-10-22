@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.2.0.tar.gz a short while ago. This version contains\nseveral changes and additions, mostly incremental. See the full list\nof changes below.\n\nYou can get it from\n\nhttp://cran.r-projec",
       "thread_id": "thread-545b31a51ee7",
       "thread_depth": 0,
-      "month": "2005-10"
+      "month": "2005-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2005/000437.html"
     }
   ],
   "threads": [

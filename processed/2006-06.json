@@ -17,7 +17,8 @@
       "body_snippet": "Hi\n\nThe May 2006 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nPaul\n(on behalf of the R News EditorialBoard)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe Unive",
       "thread_id": "thread-b50970f47ec0",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000446.html"
     },
     {
       "id": "msg-88c978048253",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-2.3.1.tar.gz a short while ago. This version contains\nseveral minor fixups and removes a couple of bad bugs. See the full list\nof changes below.\n\nYou can get it (in a short while) fro",
       "thread_id": "thread-88c978048253",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000447.html"
     },
     {
       "id": "msg-5badba3ee919",
@@ -49,7 +51,8 @@
       "body_snippet": "Hi\n\nThis is a second announcement and call for abstracts.\nPlease forward and circulate to other interested parties.\n\nDSC 2007, a conference on systems and environments for statistical\ncomputing, will ",
       "thread_id": "thread-5badba3ee919",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000448.html"
     },
     {
       "id": "msg-4d1693188018",
@@ -65,7 +68,8 @@
       "body_snippet": "Dear useRs,\n\nthe useR! 2006 conference took place in Vienna two weeks ago: it was an\nexciting and interesting meeting with about 400 useRs from all over the\nworld and more than 150 presentations.\n\nEsp",
       "thread_id": "thread-4d1693188018",
       "thread_depth": 0,
-      "month": "2006-06"
+      "month": "2006-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000449.html"
     }
   ],
   "threads": [

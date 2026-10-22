@@ -17,7 +17,8 @@
       "body_snippet": "Generalized Boosted Models (gbm)\n\nThis package implements extensions to Y. Freund and R. Schapire's AdaBoost\nalgorithm and J. Friedman's gradient boosting machine (aka multivariate\nadaptive regression",
       "thread_id": "thread-085f23eff507",
       "thread_depth": 0,
-      "month": "2003-07"
+      "month": "2003-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000399.html"
     },
     {
       "id": "msg-8c08bb46be13",
@@ -33,7 +34,8 @@
       "body_snippet": "As the list of packages on CRAN becomes longer almost on a weekly\nbasis, we need a formal mechanism to handle the case when somebody\nwants to resign from maintaining a package.\n\n\nPossible reasons for ",
       "thread_id": "thread-8c08bb46be13",
       "thread_depth": 0,
-      "month": "2003-07"
+      "month": "2003-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000400.html"
     },
     {
       "id": "msg-4e772593c1e1",
@@ -49,7 +51,8 @@
       "body_snippet": "I am pleased to announce that a new version of the Hmisc package, 2.0-0, is on CRAN.  Thanks to Kurt Hornik and Uwe Ligges and others for making this possible.  Thanks also to Xiao Gang Fan who has ge",
       "thread_id": "thread-4e772593c1e1",
       "thread_depth": 0,
-      "month": "2003-07"
+      "month": "2003-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000402.html"
     },
     {
       "id": "msg-c9bea599d17f",
@@ -65,7 +68,8 @@
       "body_snippet": "Version 1.9 of the survey package, now percolating through CRAN, adds a\nbeta implementation of replication weights.  These can either be created\nfrom a survey design (using BRR, JK1, or JKn schemes) o",
       "thread_id": "thread-c9bea599d17f",
       "thread_depth": 0,
-      "month": "2003-07"
+      "month": "2003-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2003/000401.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.5.1.tar.gz (codename \"Feather Spray\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src",
       "thread_id": "thread-63f1b4547bc4",
       "thread_depth": 0,
-      "month": "2018-07"
+      "month": "2018-07",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2018/000630.html"
     }
   ],
   "threads": [

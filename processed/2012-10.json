@@ -17,7 +17,8 @@
       "body_snippet": "Just a note that we intend to have a second patch release version on October 26. The nickname will be \"Trick or Treat\".\n\nDetails of current changes can be found at \nhttp://stat.ethz.ch/R-manual/R-deve",
       "thread_id": "thread-7cca271dabde",
       "thread_depth": 0,
-      "month": "2012-10"
+      "month": "2012-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2012/000556.html"
     },
     {
       "id": "msg-cd45f9f20c8f",
@@ -33,7 +34,8 @@
       "body_snippet": "The build system has rolled up R-2.15.2.tar.gz (codename \"Trick or Treat\") at 9:00 this morning. This is a maintenance release; see the list below for details.\n\nYou can get it from\n\nhttp://cran.r-proj",
       "thread_id": "thread-cd45f9f20c8f",
       "thread_depth": 0,
-      "month": "2012-10"
+      "month": "2012-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2012/000557.html"
     }
   ],
   "threads": [

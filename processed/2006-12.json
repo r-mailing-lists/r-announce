@@ -17,7 +17,8 @@
       "body_snippet": "Hi\n\nThe December 2006 issue of R News is now available on CRAN under the\nDocumentation/Newsletter link.\n\nPaul\n(on behalf of the R News Editorial Board)\n-- \nDr Paul Murrell\nDepartment of Statistics\nThe",
       "thread_id": "thread-0efa7cb83ba0",
       "thread_depth": 0,
-      "month": "2006-12"
+      "month": "2006-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000456.html"
     },
     {
       "id": "msg-f4046b24e7e0",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-2.4.1.tar.gz a short while ago. This is a maintenance\nrelease and fixes a number of mostly minor bugs. See the full list\nof changes below.\n\nYou can get it (in a short while) from\n\nhtt",
       "thread_id": "thread-f4046b24e7e0",
       "thread_depth": 0,
-      "month": "2006-12"
+      "month": "2006-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000457.html"
     }
   ],
   "threads": [

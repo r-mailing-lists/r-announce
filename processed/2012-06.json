@@ -17,7 +17,8 @@
       "body_snippet": "The build system has rolled up R-2.15.1.tar.gz (codename \"Roasted Marshmallows\") at 9:00 this morning. This is a maintenance release; see the list below for details.\n\nYou can get it from\n\nhttp://cran.",
       "thread_id": "thread-d53509028cc4",
       "thread_depth": 0,
-      "month": "2012-06"
+      "month": "2012-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2012/000554.html"
     }
   ],
   "threads": [

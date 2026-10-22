@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.14.1 on Friday,\nDecember 22, 2011. \n\nThose directly involved should review the generic schedule at\nhttp://developer.r-project.org/release-checkl",
       "thread_id": "thread-472de0811adf",
       "thread_depth": 0,
-      "month": "2011-12"
+      "month": "2011-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000546.html"
     },
     {
       "id": "msg-24914f936b43",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear All,\n\nThe second issue of the third volume of The R Journal is now available:\nhttp://journal.r-project.org/current.html.\n\nThanks to everyone involved.\n\nHeather\n\n--\nEditor in chief\nHeather.Turner ",
       "thread_id": "thread-24914f936b43",
       "thread_depth": 0,
-      "month": "2011-12"
+      "month": "2011-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000547.html"
     },
     {
       "id": "msg-586568a1d67c",
@@ -49,7 +51,8 @@
       "body_snippet": "The byte pixies have rolled up R-2.14.1.tar.gz (codename \"December Snowflakes\") at 9:00 this morning. This is a maintenance release; see the list below for details.\n\nYou can get it from\n\nhttp://cran.r",
       "thread_id": "thread-586568a1d67c",
       "thread_depth": 0,
-      "month": "2011-12"
+      "month": "2011-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000548.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.5.2.tar.gz (codename \"Eggshell Igloo\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/sr",
       "thread_id": "thread-147a13526712",
       "thread_depth": 0,
-      "month": "2018-12"
+      "month": "2018-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2018/000634.html"
     }
   ],
   "threads": [

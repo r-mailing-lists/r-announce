@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.1.1.tar.gz (codename \"Kick Things\") this morning.\n\nThe list below details the changes in this release. \n\nYou can get the source code from\n\nhttps://cran.r-project.org/src",
       "thread_id": "thread-1ace67a73388",
       "thread_depth": 0,
-      "month": "2021-08"
+      "month": "2021-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2021/000672.html"
     },
     {
       "id": "msg-9de5a6800af0",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear R Community,\n\nThe first issue of the R Journal for 2021 is now available at https://journal.r-project.org/. \n\nThere is also a dev version of rending articles in html at https://journal.r-project.",
       "thread_id": "thread-9de5a6800af0",
       "thread_depth": 0,
-      "month": "2021-08"
+      "month": "2021-08",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2021/000673.html"
     }
   ],
   "threads": [

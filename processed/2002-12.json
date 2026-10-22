@@ -17,7 +17,8 @@
       "body_snippet": "We would like to announce the existence of a Special Interest Group in GUI\ndevelopment for R (R-SIG-GUI). This mailing list discusses issues concerning\nthe development of graphical user interfaces for",
       "thread_id": "thread-dd80326d0c2b",
       "thread_depth": 0,
-      "month": "2002-12"
+      "month": "2002-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000364.html"
     },
     {
       "id": "msg-17df7331e865",
@@ -33,7 +34,8 @@
       "body_snippet": "Announcing the initial public release of RSOAP at\nhttp://software.biostat.washington.edu/statsoft/snake/RSOAP.\n\nDescription:\t\n\nRSOAP provides a SOAP interface for the open-source statistical \npackage ",
       "thread_id": "thread-17df7331e865",
       "thread_depth": 0,
-      "month": "2002-12"
+      "month": "2002-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000365.html"
     },
     {
       "id": "msg-05694a0bcbdf",
@@ -49,7 +51,8 @@
       "body_snippet": "Hello,\n\nThe ade4 package is now available on CRAN.\n\nade4 is a multivariate data analysis package oriented towards statistical\necology. The main functions include one-table (PCA, COA, MCA, PCO, etc.),\n",
       "thread_id": "thread-05694a0bcbdf",
       "thread_depth": 0,
-      "month": "2002-12"
+      "month": "2002-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000366.html"
     },
     {
       "id": "msg-28283b23e020",
@@ -65,7 +68,8 @@
       "body_snippet": "Dear R users,\n\nthere is a new package on CRAN called `vcd' for visualizing categorical\ndata. It basically implements a set of visualization techniques together\nwith a large collection of data sets and",
       "thread_id": "thread-28283b23e020",
       "thread_depth": 0,
-      "month": "2002-12"
+      "month": "2002-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000367.html"
     },
     {
       "id": "msg-d6a8f3000d3f",
@@ -77,11 +81,12 @@
       "subject_clean": "R News Volume 2/3",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "Just in time to provide you with reading material for the holidays we\nhave published the 2002/3 issue of R News on\n\n        http://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a day or two.\n\nThis issue starts a new regular column, the \"R Help Desk\" edited by\nUwe Ligges. umn, with an article on \"Automation of Mathematical\nAnnotation in Plots\". Angelo Canty continues the series on primers for\nrecommended packages with \"Resampling Methods in R: The boot\nPackage\". project on \"gRaphical Modeling in R\". And of course, there\nis much more ...\n\nContents of this issue:\n\nResampling Methods in R: The boot Package\nDiagnostic Checking in Regression Relationships\nDelayed Data Packages\ngeepack: Yet Another Package for Generalized Estimating Equations\nOn Multiple Comparisons in R\nClassification and Regression by randomForest\nSome Strategies for Dealing with Genomic Data\nChanges to the R-Tcl/Tk package\nSweave, Part I: Mixing R and LATEX\nR Help Desk\nChanges in R\nChanges on CRAN\nNew Publications\ngRaphical Models in R\nRecent and Upcoming Events\n\n\nFor the editorial board,\nFritz Leisch\n\nPS: All the best for 2003!\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut f?r Statistik                      Tel: (+43 1) 4277 38613\nUniversit?t Wien  \t\t            Fax: (+43 1) 4277 38639\nUniversit?tsstra?e 5                  Friedrich.Leisch at univie.ac.at\nA-1010 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------",
+      "body_plain": "Just in time to provide you with reading material for the holidays we\nhave published the 2002/3 issue of R News on\n\n        http://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a day or two.\n\nThis issue starts a new regular column, the \"R Help Desk\" edited by\nUwe Ligges. umn, with an article on \"Automation of Mathematical\nAnnotation in Plots\". Angelo Canty continues the series on primers for\nrecommended packages with \"Resampling Methods in R: The boot\nPackage\". project on \"gRaphical Modeling in R\". And of course, there\nis much more ...\n\nContents of this issue:\n\nResampling Methods in R: The boot Package\nDiagnostic Checking in Regression Relationships\nDelayed Data Packages\ngeepack: Yet Another Package for Generalized Estimating Equations\nOn Multiple Comparisons in R\nClassification and Regression by randomForest\nSome Strategies for Dealing with Genomic Data\nChanges to the R-Tcl/Tk package\nSweave, Part I: Mixing R and LATEX\nR Help Desk\nChanges in R\nChanges on CRAN\nNew Publications\ngRaphical Models in R\nRecent and Upcoming Events\n\n\nFor the editorial board,\nFritz Leisch\n\nPS: All the best for 2003!\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut für Statistik                      Tel: (+43 1) 4277 38613\nUniversität Wien  \t\t            Fax: (+43 1) 4277 38639\nUniversitätsstraße 5                  Friedrich.Leisch at univie.ac.at\nA-1010 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------",
       "body_snippet": "Just in time to provide you with reading material for the holidays we\nhave published the 2002/3 issue of R News on\n\n        http://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter a",
       "thread_id": "thread-d6a8f3000d3f",
       "thread_depth": 0,
-      "month": "2002-12"
+      "month": "2002-12",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2002/000368.html"
     }
   ],
   "threads": [

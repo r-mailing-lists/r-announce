@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-1.1.0.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.1.0.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.1.0.tgz\n\nor wait for it to be",
       "thread_id": "thread-8ba6dbf5dbc8",
       "thread_depth": 0,
-      "month": "2000-06"
+      "month": "2000-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000141.html"
     },
     {
       "id": "msg-8b161374b36f",
@@ -33,7 +34,8 @@
       "body_snippet": "Sources for the 1.1.0 release are now available from\nrsync.r-project.org via anonymous rsync.\n $ rsync rsync.r-project.org::\n r-release      \tR sources (feature-frozen version) CVS tree (approx 13 MB)",
       "thread_id": "thread-8b161374b36f",
       "thread_depth": 0,
-      "month": "2000-06"
+      "month": "2000-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000142.html"
     },
     {
       "id": "msg-2035f457efd6",
@@ -49,7 +51,8 @@
       "body_snippet": "Windows binaries at CRAN (bin/windows/Windows-NT/base) have been updated \nto R-1.1.0.  See below for a list of Windows-specific changes.\n\nWe thanks all the people who checked over pre-test versions.\n\n",
       "thread_id": "thread-2035f457efd6",
       "thread_depth": 0,
-      "month": "2000-06"
+      "month": "2000-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000143.html"
     },
     {
       "id": "msg-ebcff3a5a924",
@@ -65,7 +68,8 @@
       "body_snippet": "A new version of the chron add-on package is now available from CRAN.\n\nThe previous version introduced code to ensure that chron would work\ncorrectly in the 21st century.  Of course, the main issue is",
       "thread_id": "thread-ebcff3a5a924",
       "thread_depth": 0,
-      "month": "2000-06"
+      "month": "2000-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000144.html"
     }
   ],
   "threads": [

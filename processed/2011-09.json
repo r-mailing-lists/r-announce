@@ -17,7 +17,8 @@
       "body_snippet": "This is to announce that we plan to release R version 2.14.0 on Monday,\nOctober 31, 2011. \n\nAs a new feature, we will precede the run-in sequence for 2.14.0 with a final release of the 2.13 series, 2.",
       "thread_id": "thread-18ab5f0e5ee2",
       "thread_depth": 0,
-      "month": "2011-09"
+      "month": "2011-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000542.html"
     },
     {
       "id": "msg-e3b12bdb2a4a",
@@ -33,7 +34,8 @@
       "body_snippet": "The byte pixies have rolled up R-2.13.2.tar.gz at 9:00 this morning. This is intended to be the final release of the 2.13 series, for the benefit of those apprehensive of putting 2.14.x into productio",
       "thread_id": "thread-e3b12bdb2a4a",
       "thread_depth": 0,
-      "month": "2011-09"
+      "month": "2011-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2011/000543.html"
     }
   ],
   "threads": [

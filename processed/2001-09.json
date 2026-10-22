@@ -17,7 +17,8 @@
       "body_snippet": "An new package, rpvm 0.2 has been uploaded to\nftp://cran.r-project.org/incoming.  Here is the DESCRIPTION, \n\nPackage: rpvm\nVersion: 0.2\nDate: $Date: 2001/08/30 21:44:37 $\nTitle: R interface to PVM (Pa",
       "thread_id": "thread-68593dd9a1e0",
       "thread_depth": 0,
-      "month": "2001-09"
+      "month": "2001-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000223.html"
     },
     {
       "id": "msg-2c4bc0307915",
@@ -33,7 +34,8 @@
       "body_snippet": "Version 1.3.1 of R(s) for MacOS have been released.\n\nThey will be mirrored starting from tomorrow at CRAN.\n\nFor the Carbon version (MacOS 8.6 to 9.2 and OSX) refer to\n\nhttp://cran.r-project.org/bin/ma",
       "thread_id": "thread-2c4bc0307915",
       "thread_depth": 0,
-      "month": "2001-09"
+      "month": "2001-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000224.html"
     },
     {
       "id": "msg-1976da9e70ca",
@@ -49,7 +51,8 @@
       "body_snippet": "Version 1.3.1 of R(s) for MacOS have been released.\n\nThey will be mirrored starting from tomorrow at CRAN.\n\nFor the Carbon version (MacOS 8.6 to 9.2 and OSX) refer to\n\nhttp://cran.r-project.org/bin/ma",
       "thread_id": "thread-1976da9e70ca",
       "thread_depth": 0,
-      "month": "2001-09"
+      "month": "2001-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000225.html"
     },
     {
       "id": "msg-b0846e44c831",
@@ -65,7 +68,8 @@
       "body_snippet": "A binary distribution of R-1.3.1 to run on Windows 95, 98, NT4.0 and 2000 \non Intel/clone chips is available at\n       http://sirio.stat.unipd.it/RWin\n\nIt will be mirrored at a CRAN site near you in a",
       "thread_id": "thread-b0846e44c831",
       "thread_depth": 0,
-      "month": "2001-09"
+      "month": "2001-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000226.html"
     },
     {
       "id": "msg-b5b7295c9e83",
@@ -81,7 +85,8 @@
       "body_snippet": "RPM based binary distributions of R are avaiable on CRAN for the following\nflavours of Linux:\n\nDistribution Version Platform Packager\nRed Hat       7.x    intel    Martyn Plummer <plummer at iarc.fr>\n",
       "thread_id": "thread-b5b7295c9e83",
       "thread_depth": 0,
-      "month": "2001-09"
+      "month": "2001-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000227.html"
     },
     {
       "id": "msg-28782e402552",
@@ -93,11 +98,12 @@
       "subject_clean": "New package pixmap",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "A new package called `pixmap' has been released on CRAN. From the\nDESCRIPTION file:\n\nPackage: pixmap\nVersion: 0.2-1\nTitle:  Bitmap Images (``Pixel Maps'')\nDepends: R (>= 1.3)\nAuthor: Friedrich Leisch and Roger Bivand\nMaintainer: Friedrich Leisch <Friedrich.Leisch at ci.tuwien.ac.at>\nDescription: Functions for import, export, plotting and other\n  manipulations of bitmapped images. \nLicense: GPL version 2.\n\n\nThe package is intended to provide the central low-level support for\nreading/writing/plotting bitmapped images. It replaces the read.pnm\nand write.pnm functions of package e1071. Currently only PNM images\nare supported for import/export, but we want to add other filter real\nsoon.\n\nA rich class structure is already in place, allowing for grey, rgb and\nindexed images together with conversions between all three\nformats. The classes allow images also to have a coordinate system\nattached, such that, e.g., locator() can be used meaningfully on\ngeographical maps. \n\nThis is a first release, all comments and feedback are more than\nwelcome (thanks to Jonathan Marchini for valuable feedback on the\nfirst development version).\n\nBest,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
+      "body_plain": "A new package called `pixmap' has been released on CRAN. From the\nDESCRIPTION file:\n\nPackage: pixmap\nVersion: 0.2-1\nTitle:  Bitmap Images (``Pixel Maps'')\nDepends: R (>= 1.3)\nAuthor: Friedrich Leisch and Roger Bivand\nMaintainer: Friedrich Leisch <Friedrich.Leisch at ci.tuwien.ac.at>\nDescription: Functions for import, export, plotting and other\n  manipulations of bitmapped images. \nLicense: GPL version 2.\n\n\nThe package is intended to provide the central low-level support for\nreading/writing/plotting bitmapped images. It replaces the read.pnm\nand write.pnm functions of package e1071. Currently only PNM images\nare supported for import/export, but we want to add other filter real\nsoon.\n\nA rich class structure is already in place, allowing for grey, rgb and\nindexed images together with conversions between all three\nformats. The classes allow images also to have a coordinate system\nattached, such that, e.g., locator() can be used meaningfully on\ngeographical maps. \n\nThis is a first release, all comments and feedback are more than\nwelcome (thanks to Jonathan Marchini for valuable feedback on the\nfirst development version).\n\nBest,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich  Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch\n-------------------------------------------------------------------\n\n-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-\nr-announce mailing list -- Read http://www.ci.tuwien.ac.at/~hornik/R/R-FAQ.html\nSend \"info\", \"help\", or \"[un]subscribe\"\n(in the \"body\", not the subject !)  To: r-announce-request at stat.math.ethz.ch\n_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._",
       "body_snippet": "A new package called `pixmap' has been released on CRAN. From the\nDESCRIPTION file:\n\nPackage: pixmap\nVersion: 0.2-1\nTitle:  Bitmap Images (``Pixel Maps'')\nDepends: R (>= 1.3)\nAuthor: Friedrich Leisch ",
       "thread_id": "thread-28782e402552",
       "thread_depth": 0,
-      "month": "2001-09"
+      "month": "2001-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000228.html"
     },
     {
       "id": "msg-73d2dff992bb",
@@ -113,7 +119,8 @@
       "body_snippet": "Hi\n\nThere are new versions of the grid and lattice packages on CRAN:\n    grid 0.2 and lattice 0.3-0\n\nThese packages are still _under development_ (they are in\nCRAN/src/contrib/Devel)\n\nThere have been ",
       "thread_id": "thread-73d2dff992bb",
       "thread_depth": 0,
-      "month": "2001-09"
+      "month": "2001-09",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2001/000229.html"
     }
   ],
   "threads": [

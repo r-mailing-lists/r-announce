@@ -17,7 +17,8 @@
       "body_snippet": "The R Project now has its own internet domain, r-project.org.  The\npreferred addresses for various services related to R have become:\n\n www.r-project.org          # basic information regarding R\n cran",
       "thread_id": "thread-56ef767b399f",
       "thread_depth": 0,
-      "month": "1999-11"
+      "month": "1999-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000103.html"
     },
     {
       "id": "msg-7f47d18c941f",
@@ -33,7 +34,8 @@
       "body_snippet": "With Tony Rossini's help we have established anonymous CVS access to a\nread-only copy of the main R CVS tree at cvs.r-project.org.  This\nwould be of interest primarily to those who want to track the\nd",
       "thread_id": "thread-7f47d18c941f",
       "thread_depth": 0,
-      "month": "1999-11"
+      "month": "1999-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000104.html"
     },
     {
       "id": "msg-01ebe1ea39ea",
@@ -49,7 +51,8 @@
       "body_snippet": "A preliminary release of my postgres package for R is at\n\n    http://www.nceas.ucsb.edu/~keitt/R/postgres.tgz\n\nIt allows one to read and write data frames to and from a postgres\ndatabase, execute quer",
       "thread_id": "thread-01ebe1ea39ea",
       "thread_depth": 0,
-      "month": "1999-11"
+      "month": "1999-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000105.html"
     },
     {
       "id": "msg-cd547eae507f",
@@ -65,7 +68,8 @@
       "body_snippet": "I've made some small updates to my postgres access package for R.  Its\nbeen renamed to rpgsql.  It also now allows you to specify the host,\ndatabase name, etc. from within R instead of relying on envi",
       "thread_id": "thread-cd547eae507f",
       "thread_depth": 0,
-      "month": "1999-11"
+      "month": "1999-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000106.html"
     },
     {
       "id": "msg-87cf4aecf758",
@@ -81,7 +85,8 @@
       "body_snippet": "I've rolled up R-0.90.0.tgz a moment ago. The jump in version number\nindicates that we are approaching version 1.0, more than a \"quantum\nleap\" in functionality.\n\nYou can get it from (notice that we ha",
       "thread_id": "thread-87cf4aecf758",
       "thread_depth": 0,
-      "month": "1999-11"
+      "month": "1999-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000107.html"
     },
     {
       "id": "msg-fc5604d2ce5a",
@@ -97,7 +102,8 @@
       "body_snippet": "The 0.90.0 release of R is also available via anonymous rsync from\nrsync.r-project.org.  To create a copy of the release tree in a\nsubdirectory called R-0.90.0 of the current directory you can use\n\n\t ",
       "thread_id": "thread-fc5604d2ce5a",
       "thread_depth": 0,
-      "month": "1999-11"
+      "month": "1999-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000109.html"
     },
     {
       "id": "msg-40fd022663b8",
@@ -113,7 +119,8 @@
       "body_snippet": "With the assistance of Saikat DebRoy we have produced an nlme package\n(linear and nonlinear mixed-effects models) for R (see\nhttp://www.r-project.org/ for details about R).  The nlme package for\nR req",
       "thread_id": "thread-40fd022663b8",
       "thread_depth": 0,
-      "month": "1999-11"
+      "month": "1999-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000108.html"
     },
     {
       "id": "msg-b35f6592a861",
@@ -129,7 +136,8 @@
       "body_snippet": "A binary distribution of R 0.90.0 for Windows is available at \nhttp://cran.r-project.org (in bin/windows/windows-NT/base). \nIt should run on  Windows 9X/NT/2000 systems. \n\nWindows News:\n-------------\n",
       "thread_id": "thread-b35f6592a861",
       "thread_depth": 0,
-      "month": "1999-11"
+      "month": "1999-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000110.html"
     },
     {
       "id": "msg-2e74e63603da",
@@ -145,7 +153,8 @@
       "body_snippet": "A new version of my DSE package for multi-variate time series analysis\nis\nnow available at <www.bank-banque-canada.ca/pgilbert>. I am trying to\nsort\nout some minor glitches with the new R 0.90 graphic",
       "thread_id": "thread-2e74e63603da",
       "thread_depth": 0,
-      "month": "1999-11"
+      "month": "1999-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/1999/000111.html"
     }
   ],
   "threads": [

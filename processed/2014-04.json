@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-3.1.0.tar.gz (codename \"Spring Dance\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source code from\n\nhttp://cran.r-project.org/src/",
       "thread_id": "thread-c4f834e9eb4b",
       "thread_depth": 0,
-      "month": "2014-04"
+      "month": "2014-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2014/000571.html"
     },
     {
       "id": "msg-3ba6fb56f62a",
@@ -33,7 +34,8 @@
       "body_snippet": "(Resend with correct Subject field.)\n\nThe build system rolled up R-3.1.0.tar.gz (codename \"Spring Dance\") this morning.\n\nThe list below details the changes in this release.\n\nYou can get the source cod",
       "thread_id": "thread-3ba6fb56f62a",
       "thread_depth": 0,
-      "month": "2014-04"
+      "month": "2014-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2014/000572.html"
     }
   ],
   "threads": [

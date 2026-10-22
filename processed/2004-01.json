@@ -13,11 +13,12 @@
       "subject_clean": "R News Volume 3/3",
       "in_reply_to": null,
       "references": [],
-      "body_plain": "We have published the 2003/3 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a day or two.\n\nContents of this issue:\n\nDimensional Reduction for Data Mapping\nR as a Simulation Platform in Ecological Modelling\nUsing R for Estimating Longitudinal Student Achievement Models\nlmeSplines\nDebugging Without (Too Many) Tears\nTh R2HTML Package\nR Help Desk: Package Management\nProgrammer's Niche: Regular Expressions\nRecent Events\nUpcoming Events\nChanges in R 1.8.1\nChanges on CRAN\nR Foundation News\n\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut f?r Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universit?t Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstra?e 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch",
+      "body_plain": "We have published the 2003/3 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a day or two.\n\nContents of this issue:\n\nDimensional Reduction for Data Mapping\nR as a Simulation Platform in Ecological Modelling\nUsing R for Estimating Longitudinal Student Achievement Models\nlmeSplines\nDebugging Without (Too Many) Tears\nTh R2HTML Package\nR Help Desk: Package Management\nProgrammer's Niche: Regular Expressions\nRecent Events\nUpcoming Events\nChanges in R 1.8.1\nChanges on CRAN\nR Foundation News\n\n\nFor the editorial board,\nFritz Leisch\n\n-- \n-------------------------------------------------------------------\n                        Friedrich Leisch \nInstitut für Statistik                     Tel: (+43 1) 58801 10715\nTechnische Universität Wien                Fax: (+43 1) 58801 10798\nWiedner Hauptstraße 8-10/1071      Friedrich.Leisch at ci.tuwien.ac.at\nA-1040 Wien, Austria             http://www.ci.tuwien.ac.at/~leisch",
       "body_snippet": "We have published the 2003/3 issue of R News on\n\n\thttp://cran.R-project.org/doc/Rnews\n\nwhere you can download the newsletter as PDF or Postscript file. It\nwill propagate to the CRAN mirrors within a d",
       "thread_id": "thread-945f3b52e6ae",
       "thread_depth": 0,
-      "month": "2004-01"
+      "month": "2004-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2004/000419.html"
     }
   ],
   "threads": [

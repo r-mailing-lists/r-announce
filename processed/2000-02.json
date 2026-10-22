@@ -17,7 +17,8 @@
       "body_snippet": "If you have had problems with the latest configure script in RPgSQL,\nplease try the version attached to this message.  Let me know if you\nhave any problems.  Thanks.\n\nTim\n\n-- \nTimothy H. Keitt\nNationa",
       "thread_id": "thread-a811a9bc5d01",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000118.html"
     },
     {
       "id": "msg-925044c5d035",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-0.99.0.tgz a moment ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-0.99.0.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-0.99.0.tgz\n\nor wait for it to",
       "thread_id": "thread-925044c5d035",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000119.html"
     },
     {
       "id": "msg-faabb0fc12be",
@@ -49,7 +51,8 @@
       "body_snippet": "rsync.r-project.org has been updated to serve the sources for R-0.99.0.\nThere are three versions of the R CVS source tree available for\nanonymous rsync.\n\n $ rsync rsync.r-project.org::\n r-release     ",
       "thread_id": "thread-faabb0fc12be",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000120.html"
     },
     {
       "id": "msg-56d7f5e313d7",
@@ -65,7 +68,8 @@
       "body_snippet": "A package to access MySQL databases from R is now available from the\ndevelopment section of CRAN (http://cran.r-project.org/ and its\nmirrors). This implements a proposed common interface between S lik",
       "thread_id": "thread-56d7f5e313d7",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000121.html"
     },
     {
       "id": "msg-a8e38ccae79e",
@@ -81,7 +85,8 @@
       "body_snippet": "A couple of bugs turned up immediately after the release, one of them\ncausing nasty memory corruption when strsplit() was used.\n\nTherefore, a set of patches has been supplied on\n\nftp://cvs.r-project.o",
       "thread_id": "thread-a8e38ccae79e",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000122.html"
     },
     {
       "id": "msg-3e9389f697be",
@@ -97,7 +102,8 @@
       "body_snippet": "The latest version of RPgSQL and RPMS for R version 0.99 can be found at\nhttp://www.nceas.ucsb.edu/~keitt/R/\n\nCheers,\nTim\n\n-- \nTimothy H. Keitt\nNational Center for Ecological Analysis and Synthesis\n73",
       "thread_id": "thread-3e9389f697be",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000123.html"
     },
     {
       "id": "msg-8ad98c483f29",
@@ -113,7 +119,8 @@
       "body_snippet": "A binary distribution of R 0.99.0a is available from\n   http://www.r-project.org/bin/windows/windows-NT/base\nPre-compiled packages for this version are now available from the Windows \ncontrib area on ",
       "thread_id": "thread-8ad98c483f29",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000124.html"
     },
     {
       "id": "msg-dfe36b3b9b2c",
@@ -129,7 +136,8 @@
       "body_snippet": "VR_6.1-7.tar.gz is on CRAN in Vienna now, and a Windows version will be\nthere tomorrow morning.\n\nThis is for R 0.99.0 (and R-devel) only.  The main differences are\n\n- use of optim\n- about half the pre",
       "thread_id": "thread-dfe36b3b9b2c",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000125.html"
     },
     {
       "id": "msg-03374fbc986d",
@@ -145,7 +153,8 @@
       "body_snippet": "some of you might be interested.\n\ni just uploaded the first release of my \nr-excel interface package to CRAN.\n\nit is in\ncontributed extensions\nnonstandard extensions\n\nerich neuwirth\n\n--\nErich Neuwirth",
       "thread_id": "thread-03374fbc986d",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000126.html"
     },
     {
       "id": "msg-fc76b5f5bf3e",
@@ -161,7 +170,8 @@
       "body_snippet": "I've rolled up R-1.0.0.tgz a short while ago. \n\nYou can get it from\n\nftp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.0.tgz \n\nor\n\nhttp://cvs.r-project.org/pub/CRAN/src/base/R-1.0.0.tgz\n\nor wait for it ",
       "thread_id": "thread-fc76b5f5bf3e",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000127.html"
     },
     {
       "id": "msg-3aedab20fdde",
@@ -177,7 +187,8 @@
       "body_snippet": "You can now obtain the R-1.0 sources via rsync from\nrsync.r-project.org as the r-release module.  For example,\n\n\t  rsync -aC rsync.r-project.org::r-release ./R-1.0.0\n\nwill create a copy of the source ",
       "thread_id": "thread-3aedab20fdde",
       "thread_depth": 0,
-      "month": "2000-02"
+      "month": "2000-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000128.html"
     }
   ],
   "threads": [

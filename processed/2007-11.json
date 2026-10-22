@@ -17,7 +17,8 @@
       "body_snippet": "As most of you already know from a previous announcement, the R user \nconference\n\n    useR! 2008\n\nis scheduled for August 12-14, 2008, and will take place at the\nUniversity of Dortmund.\n\n\n\n    PRE-CON",
       "thread_id": "thread-2a400dbeab55",
       "thread_depth": 0,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000471.html"
     },
     {
       "id": "msg-8cc614c523cc",
@@ -33,7 +34,8 @@
       "body_snippet": "I've rolled up R-2.6.1.tar.gz a short while ago.\n\nThis is a maintenance release and fixes a number of mostly minor bugs\nand platform issues, as well as a couple of major problems.\n\nProbably, the most ",
       "thread_id": "thread-8cc614c523cc",
       "thread_depth": 0,
-      "month": "2007-11"
+      "month": "2007-11",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2007/000472.html"
     }
   ],
   "threads": [

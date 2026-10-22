@@ -17,7 +17,8 @@
       "body_snippet": "Version 0.7 of my libraries for Nonlinear Regression and Repeated\nMeasurements Libraries is now available at\n\nwww.luc.ac.be/~jlindsey/rcode.html\n\nAs a reminder the libraries are\n\nEvent history procedu",
       "thread_id": "thread-58e499ec4db7",
       "thread_depth": 0,
-      "month": "2000-01"
+      "month": "2000-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000162.html"
     },
     {
       "id": "msg-90e8e8747de5",
@@ -33,7 +34,8 @@
       "body_snippet": "A new version of the RPgSQL package is available at\nhttp://www.nceas.ucsb.edu/~keitt/R/  (also uploaded to CRAN).  I added a\nconfigure script.  Hopefully this will solve any installation problems.\n\nT.",
       "thread_id": "thread-90e8e8747de5",
       "thread_depth": 0,
-      "month": "2000-01"
+      "month": "2000-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000163.html"
     },
     {
       "id": "msg-60f2b860149f",
@@ -49,7 +51,8 @@
       "body_snippet": "You can download the latest version from\n\n\thttp://www.nceas.ucsb.edu/~keitt/R\n\nThis version should fix any install problems related to autoconf/make.\n\nCheers,\nTim  \n\n-- \nTimothy H. Keitt\nNational Cent",
       "thread_id": "thread-60f2b860149f",
       "thread_depth": 0,
-      "month": "2000-01"
+      "month": "2000-01",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2000/000164.html"
     }
   ],
   "threads": [

@@ -17,7 +17,8 @@
       "body_snippet": "I've rolled up R-2.4.0.tar.gz a short while ago. This version contains\nseveral changes and additions, mostly incremental, but some larger\nchanges to S4 methods have been added, as well as namespace se",
       "thread_id": "thread-f1f2635ef40c",
       "thread_depth": 0,
-      "month": "2006-10"
+      "month": "2006-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000452.html"
     },
     {
       "id": "msg-e4c01cbc509f",
@@ -33,7 +34,8 @@
       "body_snippet": "Hi\n\nThis is a final call for abstracts;  the deadline for submitting\nabstracts is October 15 2006.\nPlease forward and circulate to other interested parties.\n[apologies for any cross-posting]\n\nDSC 2007",
       "thread_id": "thread-e4c01cbc509f",
       "thread_depth": 0,
-      "month": "2006-10"
+      "month": "2006-10",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2006/000453.html"
     }
   ],
   "threads": [
