@@ -17,7 +17,8 @@
       "body_snippet": "An obituary for John is now at\n\nhttps://www.r-project.org/doc/obit/johnfox.html\n\n- Peter Dalgaard\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 20",
       "thread_id": "thread-8c4cc9eb8fc0",
       "thread_depth": 0,
-      "month": "2026-06"
+      "month": "2026-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2026/000724.html"
     },
     {
       "id": "msg-39006c5a71e0",
@@ -33,7 +34,8 @@
       "body_snippet": "Full schedule is available on developer.r-project.org (pending update from SVN).\n\n-- \nPeter Dalgaard, Professor,\nCenter for Statistics, Copenhagen Business School\nSolbjerg Plads 3, 2000 Frederiksberg,",
       "thread_id": "thread-39006c5a71e0",
       "thread_depth": 0,
-      "month": "2026-06"
+      "month": "2026-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2026/000725.html"
     },
     {
       "id": "msg-0f2ffccdd039",
@@ -49,7 +51,8 @@
       "body_snippet": "The R Project has been awarded the Rousseeuw Prize. The prize goes with 50% to five members of the Core Team who the Jury has decided to have made the longest and most sustained contributions: Brian R",
       "thread_id": "thread-0f2ffccdd039",
       "thread_depth": 0,
-      "month": "2026-06"
+      "month": "2026-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2026/000726.html"
     },
     {
       "id": "msg-742c13bdeceb",
@@ -65,7 +68,8 @@
       "body_snippet": "The build system rolled up R-4.6.1.tar.gz and .xz (codename ?Happy Hop\") this morning.\n\nThis is a patch release with a handful of minor changes and fixups.\n\nThe list below details the changes in this ",
       "thread_id": "thread-742c13bdeceb",
       "thread_depth": 0,
-      "month": "2026-06"
+      "month": "2026-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2026/000727.html"
     }
   ],
   "threads": [

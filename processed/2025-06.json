@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.5.1.tar.gz and .xz (codename ?Great Square Root\") this morning.\n\nThis is a patch release with a handful of minor changes and mixups.\n\nThe list below details the changes ",
       "thread_id": "thread-dbcad5499960",
       "thread_depth": 0,
-      "month": "2025-06"
+      "month": "2025-06",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2025/000713.html"
     }
   ],
   "threads": [

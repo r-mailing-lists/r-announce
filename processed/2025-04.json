@@ -17,7 +17,8 @@
       "body_snippet": "The build system rolled up R-4.5.0.tar.gz and .xz (codename \"How About a Twenty-Six\") this morning.\n\nThis is a major release with a number of new features, API changes, and bug fixes.\n\nThe list below ",
       "thread_id": "thread-316b0780b8a7",
       "thread_depth": 0,
-      "month": "2025-04"
+      "month": "2025-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2025/000710.html"
     },
     {
       "id": "msg-62c160db5719",
@@ -33,7 +34,8 @@
       "body_snippet": "Dear All,\n\nRegistration is open for the in-person component of the useR! 2025 conference at Duke University, Durham, North Carolina, USA.\n\nThe in-person event will take place Friday 8 August to Sunday",
       "thread_id": "thread-62c160db5719",
       "thread_depth": 0,
-      "month": "2025-04"
+      "month": "2025-04",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2025/000711.html"
     }
   ],
   "threads": [

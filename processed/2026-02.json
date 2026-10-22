@@ -17,7 +17,8 @@
       "body_snippet": "Full schedule is available on developer.r-project.org <http://developer.r-project.org/> (...soon; the impatient might try: https://svn.r-project.org/R-dev-web/trunk/index.html).\n\n-- \nPeter Dalgaard, P",
       "thread_id": "thread-beb50ec767d6",
       "thread_depth": 0,
-      "month": "2026-02"
+      "month": "2026-02",
+      "source_url": "https://stat.ethz.ch/pipermail/r-announce/2026/000717.html"
     }
   ],
   "threads": [
